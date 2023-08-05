@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/footsteps/__init__.py
+src/footsteps/footsteps_.py
+src/footsteps.egg-info/PKG-INFO
+src/footsteps.egg-info/SOURCES.txt
+src/footsteps.egg-info/dependency_links.txt
+src/footsteps.egg-info/top_level.txt
