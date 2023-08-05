@@ -1,0 +1,13 @@
+tux_mixer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tux_mixer/command_line.py,sha256=3CzwKhr8KBD8KSJX5RlJT0jZ266yx2AQm8tD_c5Rfr0,54
+tux_mixer/control.py,sha256=sxmpFNYkVruBbQzqrY75hrBMcqAT-ztF5qTQIfHwiL8,3119
+tux_mixer/front.py,sha256=CKhhtdX-8LMXWtEMC3YFx22Ht2JkEiQezI82IqnQtiE,1763
+tux_mixer/pot.txt,sha256=feFVXfDCcAMp6BW5OzLFccPqVNyWe4noGrc7mXK3LR0,2
+tux_mixer/sleep.txt,sha256=FL5LRfGODYxntPcZtRRO7ohJfkE3CdEdhbCW2OI0YxA,3
+tux_mixer/tux_mixer_logo_mini.png,sha256=_zRy4r5R-E36O0-EesGK-Sk7weEs4nB2ZI_JT5jD5fE,40784
+tux_mixer-1.0.dist-info/LICENSE.txt,sha256=aSFL40o3WyE-gJ4PD9wpScUx_CVRFAVCy0WYaS7bJOE,1074
+tux_mixer-1.0.dist-info/METADATA,sha256=s_hXpffL0OaAj3Vg6v9taSdCt7RVeHcoeZzb-utkz60,1370
+tux_mixer-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tux_mixer-1.0.dist-info/entry_points.txt,sha256=KxF6_PELRRg1ehnGaioT8QWXFc6bori6UWOFw3osjRo,59
+tux_mixer-1.0.dist-info/top_level.txt,sha256=EfyP5Mn7r0F30wGjKNmfLawAGdFtQjjGudy8rbe3f6w,10
+tux_mixer-1.0.dist-info/RECORD,,
