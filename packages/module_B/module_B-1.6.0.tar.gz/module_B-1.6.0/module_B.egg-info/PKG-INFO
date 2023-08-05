@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: module-B
+Version: 1.6.0
+Summary: Macrolib's description
+Home-page: https://github.com/maite828/module_B.git
+License: MIT
+Download-URL: https://github.com/maite828/modlue_B/archive/refs/heads/main.zip
+Description: # module_B
+        [![Version](https://img.shields.io/badge/latest-1.6.0-blue/)](https://github.com/maite828/module_B.git)
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
