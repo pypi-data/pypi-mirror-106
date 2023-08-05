@@ -1,0 +1,10 @@
+README.md
+setup.py
+nickpyhw/__init__.py
+nickpyhw/lib2.py
+nickpyhw/setup.py
+nickpyhw.egg-info/PKG-INFO
+nickpyhw.egg-info/SOURCES.txt
+nickpyhw.egg-info/dependency_links.txt
+nickpyhw.egg-info/not-zip-safe
+nickpyhw.egg-info/top_level.txt
