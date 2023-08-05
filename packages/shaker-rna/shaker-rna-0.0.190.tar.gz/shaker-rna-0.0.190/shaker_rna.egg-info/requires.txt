@@ -1,0 +1,7 @@
+xgboost
+seaborn
+tabulate
+numpy
+scipy
+toolz
+eden-kernel
