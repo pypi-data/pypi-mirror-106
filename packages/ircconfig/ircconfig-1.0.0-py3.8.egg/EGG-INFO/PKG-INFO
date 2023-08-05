@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: ircconfig
+Version: 1.0.0
+Summary: Library for generic irc bot configuration
+Home-page: https://github.com/examknow/ircconfig
+Author: examknow
+Author-email: me@zpld.me
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6

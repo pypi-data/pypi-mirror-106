@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ircconfig/__init__.py
+ircconfig/preferences.py
+ircconfig/py.typed
+ircconfig/setting.py
+ircconfig.egg-info/PKG-INFO
+ircconfig.egg-info/SOURCES.txt
+ircconfig.egg-info/dependency_links.txt
+ircconfig.egg-info/top_level.txt
