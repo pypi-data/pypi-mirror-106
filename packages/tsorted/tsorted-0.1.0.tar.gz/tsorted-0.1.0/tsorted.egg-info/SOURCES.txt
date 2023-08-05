@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+VERSION
+setup.py
+tsorted/__init__.py
+tsorted.egg-info/PKG-INFO
+tsorted.egg-info/SOURCES.txt
+tsorted.egg-info/dependency_links.txt
+tsorted.egg-info/requires.txt
+tsorted.egg-info/top_level.txt
