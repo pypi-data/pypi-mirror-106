@@ -1,0 +1,3 @@
+[console_scripts]
+oem2orm = oem2orm.oep_oedialect_oem2orm:main
+
