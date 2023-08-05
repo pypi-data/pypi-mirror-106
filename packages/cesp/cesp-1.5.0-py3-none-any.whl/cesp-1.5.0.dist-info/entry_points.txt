@@ -1,0 +1,3 @@
+[console_scripts]
+cesp=cesp:main
+
