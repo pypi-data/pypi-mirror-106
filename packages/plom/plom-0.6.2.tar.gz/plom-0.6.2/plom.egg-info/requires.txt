@@ -1,0 +1,26 @@
+PyQt5
+passlib
+opencv-python
+peewee>=3.13.3
+pyzbar
+pypng
+Pillow>=7.0.0
+pandas
+requests
+appdirs>=1.4.3
+scikit-learn>=0.23.1
+toml>=0.10.0
+aiohttp~=3.7.2
+pymupdf>=1.18.8
+imutils
+lapsolver
+pyqrcode
+jpegtran-cffi
+weasyprint
+requests-toolbelt
+numpy
+tqdm
+cffi
+
+[:python_version < "3.7"]
+importlib_resources
