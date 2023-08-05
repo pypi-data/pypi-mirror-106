@@ -1,0 +1,9 @@
+blosc2/__init__.py,sha256=yRq3vH-025ZGoVDiltlFUvUtUF2d-DitYBKHvat-1Y8,2120
+blosc2/blosc2_ext.cp37-win_amd64.pyd,sha256=wc8eMTR6qA4mo15dRSw2uAgHbyVtxLKtTjFvrX4zk3c,706560
+blosc2/utils.py,sha256=f_L2xU5Wt2_FGbRHa1BJGWazqAzTHkUlmserBDGk7iU,19624
+blosc2/version.py,sha256=wQL21SKqJmZ-NSboyC8tgIR3EmyN1XDjwrN7CAHZpGQ,23
+blosc2-0.1.4.dist-info/LICENSE,sha256=2Uha8PI6bgViiiE5nW8AHg3_pbnAOjiL9zp3dxYR6u4,1651
+blosc2-0.1.4.dist-info/METADATA,sha256=Tyb5Ze88Q-coUozxyv6bXBf9yMsNl8z2_JXbS3gx3G0,1001
+blosc2-0.1.4.dist-info/WHEEL,sha256=WhO318o7DGV1k2ihq4nQ2Ee_IYhXEU8yKTjfj2LrX1Q,95
+blosc2-0.1.4.dist-info/top_level.txt,sha256=4xhCPjekmAas6rXRnzRerUfeEzP_RhpgmKzCmru5XFM,7
+blosc2-0.1.4.dist-info/RECORD,,
