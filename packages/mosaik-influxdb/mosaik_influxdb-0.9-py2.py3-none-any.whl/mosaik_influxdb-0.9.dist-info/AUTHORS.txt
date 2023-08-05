@@ -1,0 +1,4 @@
+Authors
+=======
+
+The mosaik InfluxDB storage backend was created by Ahmad Ahmadi.
