@@ -1,0 +1,10 @@
+sys
+numpy
+matplotlib
+scikit-image
+termcolor
+pandas
+PyQt5
+Python-Alexandria
+coverage
+coverage-badge
