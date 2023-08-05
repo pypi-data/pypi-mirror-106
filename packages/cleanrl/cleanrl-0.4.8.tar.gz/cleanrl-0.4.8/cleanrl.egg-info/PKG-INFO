@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cleanrl
+Version: 0.4.8
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: atari
+Provides-Extra: box2d
+Provides-Extra: pybullet
+Provides-Extra: procgen
+Provides-Extra: cloud
+Provides-Extra: pettingzoo
+Provides-Extra: all
