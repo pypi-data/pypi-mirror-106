@@ -1,0 +1,9 @@
+README.md
+setup.py
+vinca/__init__.py
+vinca/misc.py
+vinca.egg-info/PKG-INFO
+vinca.egg-info/SOURCES.txt
+vinca.egg-info/dependency_links.txt
+vinca.egg-info/requires.txt
+vinca.egg-info/top_level.txt
