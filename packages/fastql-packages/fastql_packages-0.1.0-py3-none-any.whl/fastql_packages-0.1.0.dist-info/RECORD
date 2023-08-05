@@ -1,0 +1,14 @@
+fastql_packages/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+fastql_packages/authentication.py,sha256=2h4Ln2yPeUgw-Wlpr3xtSzCybHeGdWXwkuXolSoZ1fU,1540
+fastql_packages/lib.py,sha256=j8J5WmLphDr4XPmVFqoLCh_b2_OxROC0RCqEt3eH8HU,1015
+fastql_packages/main.py,sha256=_61tpjIMGTYcn6T0xtT05MwRz8w3TSpXVr69eNPaGcc,7633
+fastql_packages/modules.py,sha256=2wMz_r2hPF2SUywfq7_b-vUqcZvOPfLT7e0zxvx53YI,455
+fastql_packages/templates/auth.fastql,sha256=Z8Wes23eJ90Eb43QUW8_LUYMVvNof4HJbtJNWx7KROI,151
+fastql_packages/templates/migration-table.fastql,sha256=Ik3fySxMdd5Es8E7jWOAeuw37Y4UhoHWI2S0MGW11zE,398
+fastql_packages/templates/migration.fastql,sha256=Gz5qSLQS0weZw90RDOpR8LuBvHF23MGi1iZvb6k-3U0,422
+fastql_packages/templates/model.fastql,sha256=XTk_OSkWTKzGGptD9bSpF9u11CkD92uTi5M0zJzzfzI,74
+fastql_packages/templates/serialize.fastql,sha256=LZfw_5UGQ2LG0-hf37HO_vERRGjJLLWN8_Tk-jaP7mA,379
+fastql_packages-0.1.0.dist-info/entry_points.txt,sha256=98oACLtUI9vSPtf_XneSJLkVGbbEieJXjYgz0toJs-U,52
+fastql_packages-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+fastql_packages-0.1.0.dist-info/METADATA,sha256=khKaP6i-fRGuik97sVU0jm7pdv52CUcG6n8SyOzLgDE,767
+fastql_packages-0.1.0.dist-info/RECORD,,
