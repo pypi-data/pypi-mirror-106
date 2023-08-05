@@ -1,0 +1,3 @@
+[console_scripts]
+pymule = pymule.__main__:main
+
