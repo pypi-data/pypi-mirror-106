@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/jyp.egg-info/PKG-INFO
+src/jyp.egg-info/SOURCES.txt
+src/jyp.egg-info/dependency_links.txt
+src/jyp.egg-info/requires.txt
+src/jyp.egg-info/top_level.txt
+src/twice/__init__.py
+src/twice/fetching.py
+src/twice/processing.py
+src/twice/sending.py
