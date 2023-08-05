@@ -1,0 +1,3 @@
+static-ffmpeg
+pydeepspeech
+youtube-dl
