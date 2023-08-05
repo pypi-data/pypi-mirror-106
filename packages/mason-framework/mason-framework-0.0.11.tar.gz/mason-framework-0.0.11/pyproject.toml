@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "mason-framework"
+version = "0.0.11"
+description = "Node based building blocks."
+authors = ["Eric Hulser <eric.hulser@gmail.com>"]
+packages = [
+  { include = "mason"}
+]
+
+[tool.poetry.scripts]
+mason = 'mason.cli:cli'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+protobuf = "^3.13.0"
+pyyaml = "^5.3.1"
+click = "^7.1.2"
+sanic = {version = "^20.3.0", optional = true}
+sanic-cors = {version = "^0.10.0", optional = true}
+aiohttp = {version = "^3.7.4", optional = true}
+aiohttp_cors = {version = "^0.7.0", optional = true}
+
+[tool.poetry.extras]
+sanic = ["sanic", "sanic-cors"]
+aiohttp = ["aiohttp", "aiohttp-cors"]
+
+[tool.poetry.dev-dependencies]
+aioconsole = "^0.1.16"
+pylint = "^2.4.4"
+tox = "^3.14.6"
+coverage = "^5.0.4"
+pytest = "^5.4.1"
+pytest-cov = "^2.8.1"
+pytest-asyncio = "^0.11.0"
+mock = "^4.0.2"
+asyncmock = "^0.4.2"
+pytest-sugar = "^0.9.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
