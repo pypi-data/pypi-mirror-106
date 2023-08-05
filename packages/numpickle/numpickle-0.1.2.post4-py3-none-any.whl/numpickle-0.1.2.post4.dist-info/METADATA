@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: numpickle
+Version: 0.1.2.post4
+Summary: Save and load numeric pandas data frames as numpy array and pickle their row and column names and types info for performance reasons.
+Author: Gwang-Jin Kim
+Author-email: gwang.jin.kim.phd@gmail.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.19.2,<2.0.0)
+Requires-Dist: pandas (>=1.2.4,<2.0.0)
