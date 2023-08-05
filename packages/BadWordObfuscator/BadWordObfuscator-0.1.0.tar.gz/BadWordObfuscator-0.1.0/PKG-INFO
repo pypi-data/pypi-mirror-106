@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: BadWordObfuscator
+Version: 0.1.0
+Summary: This code obfuscates naughty words by using a rot13 cipher to prevent them from being directly visible.
+Home-page: https://github.com/TheCuriousNerd/Bad-Word-Obfuscator
+Author: Alex Orid, The Curious Nerd
+Author-email: inquiries@thecuriousnerd.com
+License: lgpl-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
