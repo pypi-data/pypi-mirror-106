@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: vplot
+Version: 1.0.2
+Summary: plotting tools for vplanet
+Home-page: https://github.com/VirtualPlanetaryLaboratory/vplot/
+Author: Rodrigo Luger
+Author-email: rodluger@gmail.edu
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools-scm
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: matplotlib (>=3.3.4)
+Requires-Dist: astropy (>=4.1)
+Requires-Dist: vplanet (>=2.0.0)
+
+<p align="center">
+  <img width = "200" src="https://github.com/VirtualPlanetaryLaboratory/vplot/blob/dev/docs/vplot.svg"/>
+  <br/>
+  <b>vplot |</b> plotting utilities for <a href="https://github.com/VirtualPlanetaryLaboratory/vplanet">vplanet</a>
+  <p align="center">
+    <!-- main tests -->
+    <a href="https://github.com/VirtualPlanetaryLaboratory/vplot/actions/workflows/tests.yml">
+      <img src="https://github.com/VirtualPlanetaryLaboratory/vplot/actions/workflows/tests.yml/badge.svg"/>
+    </a>
+    <!-- build docs -->
+    <a href="https://github.com/VirtualPlanetaryLaboratory/vplot/actions/workflows/docs.yml">
+      <img src="https://github.com/VirtualPlanetaryLaboratory/vplot/actions/workflows/docs.yml/badge.svg"/>
+    </a>
+    <!-- read the docs -->
+    <a href="https://virtualplanetarylaboratory.github.io/vplot/">
+      <img src="https://img.shields.io/badge/read-the%20docs-blue.svg?style=flat"/>
+    </a>
+  </p>
+</p>
+
+

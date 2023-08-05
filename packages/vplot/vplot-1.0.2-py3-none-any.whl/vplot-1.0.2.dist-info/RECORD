@@ -1,0 +1,14 @@
+vplot/__init__.py,sha256=80Cmbb2YjAvSnmkLemKKBCBZ1H5PRJBhhSOd8eLdtuM,431
+vplot/auto_plot.py,sha256=jdXaMg80eGFmTQXVFcbSbETf-0iLrN0iCg7JtIcUYRc,4837
+vplot/colors.py,sha256=bITj2B7xSg0JKdB086sPMxXPM5xqUrLWLdbQyUpG7e4,98
+vplot/command_line.py,sha256=SranQzjmwOft-JmX0VQI_W_NhX8fAHkMGEYtsFCrh48,935
+vplot/figure.py,sha256=VTuoi2F9jP8aMmo8D-1qQ0Ks0NKV6-JbUtWok3XLSlY,12986
+vplot/vplot_version.py,sha256=JqmBIiZnO_c1ce6zv6JZzf01tRk6jFq-SGGuvkL_r1U,21
+vplot/style/__init__.py,sha256=KYa6EeMOq_vR43MWSXd0wWe2StFXVPaDzyNpGO3BJCw,163
+vplot/style/vplot.mplstyle,sha256=eem_pFUZHwjtSOrzVXixczixyQL4isIUa7j1px9cK6o,437
+vplot-1.0.2.dist-info/LICENSE,sha256=va27nu6PVQcYhTy6DDcf1OsfUKJsMxN4n0WqGafeGis,1076
+vplot-1.0.2.dist-info/METADATA,sha256=wwcttS7l9Q6_Sk3GCmU-1ban4-X4Dy5S0LlNa6vQ-eo,1380
+vplot-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vplot-1.0.2.dist-info/entry_points.txt,sha256=fM7yl2_QXZNOSZ1OozMQfAH6RXyrLEfZshwbrcdndB4,59
+vplot-1.0.2.dist-info/top_level.txt,sha256=ZktumigE4q6itx4Y20rZ8kY18JV82GxYNhjDMyyE21o,6
+vplot-1.0.2.dist-info/RECORD,,
