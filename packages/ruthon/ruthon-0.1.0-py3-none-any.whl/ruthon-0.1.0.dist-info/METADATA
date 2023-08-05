@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ruthon
+Version: 0.1.0
+Summary: Russian-friendly python library
+Author: Dmitry Shchedrov
+Author-email: shchedrov@pm.me
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
