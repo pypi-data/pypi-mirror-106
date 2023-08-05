@@ -1,0 +1,3 @@
+[console_scripts]
+mplogp = mplogp.mplogp:main
+
