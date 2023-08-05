@@ -1,0 +1,8 @@
+<pre>
+{% for i in dir|sort(attribute=name) %}
+<a href="{{i.name}}/">{{i.name}}/</a>
+{%- endfor %}
+{%- for i in file|sort(attribute=name) %}
+<a href="{{i.name}}">{{i.name}}</a>
+{%- endfor %}
+</pre>
