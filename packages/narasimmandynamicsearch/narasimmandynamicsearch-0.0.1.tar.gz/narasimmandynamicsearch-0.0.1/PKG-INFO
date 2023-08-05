@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: narasimmandynamicsearch
+Version: 0.0.1
+Summary: A sample python code value search in array in optimized way
+Home-page: UNKNOWN
+Author: Narasimman Saravana
+Author-email: narasimman.saravana@gmail.com
+License: MIT
+Description: This is search the value in array using optimized way.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (16/05/2021)
+        -------------------
+        - First Release
+Keywords: dynamic search
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2

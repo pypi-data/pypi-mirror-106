@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+narasimmandynamicsearch/__int__.py
+narasimmandynamicsearch.egg-info/PKG-INFO
+narasimmandynamicsearch.egg-info/SOURCES.txt
+narasimmandynamicsearch.egg-info/dependency_links.txt
+narasimmandynamicsearch.egg-info/top_level.txt
