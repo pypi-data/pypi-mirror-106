@@ -1,0 +1,9 @@
+setup.py
+ashmail/ashmail.py
+ashmail/send.py
+ashmail.egg-info/PKG-INFO
+ashmail.egg-info/SOURCES.txt
+ashmail.egg-info/dependency_links.txt
+ashmail.egg-info/entry_points.txt
+ashmail.egg-info/requires.txt
+ashmail.egg-info/top_level.txt
