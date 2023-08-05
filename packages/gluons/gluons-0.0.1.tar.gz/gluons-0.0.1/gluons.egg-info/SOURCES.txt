@@ -1,0 +1,8 @@
+README.md
+setup.py
+gluons/__init__.py
+gluons/show.py
+gluons.egg-info/PKG-INFO
+gluons.egg-info/SOURCES.txt
+gluons.egg-info/dependency_links.txt
+gluons.egg-info/top_level.txt
