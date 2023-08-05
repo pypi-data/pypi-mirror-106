@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/tgzr/__init__.py
+src/tgzr.egg-info/PKG-INFO
+src/tgzr.egg-info/SOURCES.txt
+src/tgzr.egg-info/dependency_links.txt
+src/tgzr.egg-info/top_level.txt
