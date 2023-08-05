@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+SeqUtils.egg-info/PKG-INFO
+SeqUtils.egg-info/SOURCES.txt
+SeqUtils.egg-info/dependency_links.txt
+SeqUtils.egg-info/top_level.txt
+sequtils/__init__.py
