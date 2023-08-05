@@ -1,0 +1,11 @@
+COPYING.md
+README.md
+pyproject.toml
+setup.py
+src/d578uv_k0hax/__init__.py
+src/d578uv_k0hax/d578uv.py
+src/d578uv_k0hax.egg-info/PKG-INFO
+src/d578uv_k0hax.egg-info/SOURCES.txt
+src/d578uv_k0hax.egg-info/dependency_links.txt
+src/d578uv_k0hax.egg-info/requires.txt
+src/d578uv_k0hax.egg-info/top_level.txt
