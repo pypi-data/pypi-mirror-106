@@ -1,0 +1,10 @@
+seasondh/__init__.py,sha256=gxFVGxHRFULLNIFLZjmgdw04Zddu2adcO4IPIgol5Lw,9396
+seasondh/base.py,sha256=9p60fWEh4a5LeNSBIu1E_NWqOSUBzYqD_pGBG_Y7yJ0,1675
+seasondh/interfaces.py,sha256=ukxyUueYEkBbIpkSMg4hGNcoiDYuT7sp-TUQzXc3D2o,908
+seasondh/kernel.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seasondh/storage.py,sha256=m18ZNKWbVudRm7fgXbMvmKx1FgvURAOCEa66oLlL1HY,11659
+seasondh/version.py,sha256=BB5bGUIoF9kl3vyfIXTOxniSk6Tn1hYqMxUk1OdeP88,203
+seasondh-0.0.8.dist-info/METADATA,sha256=2fl9ylIhSf1rHo4taI_Tmjnzu4FsbjIaV_h6-Q5VtGI,362
+seasondh-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+seasondh-0.0.8.dist-info/top_level.txt,sha256=pqXn1y5AcU2Whoin3nUB8RWXcelB0OWOwIf588GEYlw,9
+seasondh-0.0.8.dist-info/RECORD,,
