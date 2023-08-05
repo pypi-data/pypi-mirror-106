@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="34px" viewBox="0 0 42 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Add a Hub</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="9.81335224e-05 32.8170884 41.6018425 32.8170884 41.6018425 0.0513826133 9.81335224e-05 0.0513826133"></polygon>
+    </defs>
+    <g id="Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Add-a-Hub">
+            <g id="Group">
+                <g id="Hub-Filled">
+                    <g id="Group-3" transform="translate(0.000000, 0.266984)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M41.6018425,32.8172854 C41.6018425,27.3121621 39.9257219,17.3261246 37.1181218,13.3228462 L39.6827433,1.95609617 C39.6827433,1.95609617 39.684706,-1.02001876 36.5356012,0.468038705 L28.5726546,6.09823364 C26.170346,5.00508752 23.5491996,4.40139511 20.801461,4.40139511 C18.3392909,4.40139511 15.9781983,4.88690956 13.7858954,5.77324426 L5.90282953,0.468038705 C2.75666879,-1.02001876 2.75863146,1.95609617 2.75863146,1.95609617 L4.49461348,13.3100436 C1.68014404,17.3152916 9.81335224e-05,27.3062532 9.81335224e-05,32.8172854 L41.6018425,32.8172854 Z" id="Fill-1" fill="#5F7B8C" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M4.49412281,13.5768303 C4.49412281,13.5768303 8.86695259,8.03723851 13.2407637,6.21729794" id="Fill-4" fill="#5F7B8C"></path>
+                    <path d="M37.1245005,13.5768303 C37.1245005,13.5768303 32.7506894,8.03723851 28.3768783,6.21729794" id="Fill-6" fill="#5F7B8C"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
