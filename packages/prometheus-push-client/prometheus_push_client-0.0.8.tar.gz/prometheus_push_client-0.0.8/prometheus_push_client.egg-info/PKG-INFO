@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: prometheus-push-client
+Version: 0.0.8
+Summary: Push Prometheus metrics to VictoriaMetrics or other exporters
+Home-page: https://github.com/gistart/prometheus-push-client
+Author: gistart
+Author-email: gistart@yandex.ru
+License: Apache License 2.0
+Description: [![test-all](https://github.com/gistart/prometheus-push-client/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/gistart/prometheus-push-client/actions)
+        
+        [![codecov](https://codecov.io/gh/gistart/prometheus-push-client/branch/master/graph/badge.svg?token=6K4G8CDU2R)](https://codecov.io/gh/gistart/prometheus-push-client)
+        
+        # prometheus-push-client
+        
+        Push metrics from your periodic long-running jobs to existing Prometheus/VictoriaMetrics monitoring system.
+        
+        Currently supports pushes directly to `VictoriaMetrics` via UDP and HTTP using InfluxDB line protocol as [described here](https://docs.victoriametrics.com/Single-server-VictoriaMetrics.html?highlight=telegraf#how-to-send-data-from-influxdb-compatible-agents-such-as-telegraf).
+        
+        For `pure Prometheus` setups, several options are supported:
+        
+        - to [StatsD](https://github.com/statsd/statsd) or [statsd-exporter](https://github.com/prometheus/statsd_exporter#with-statsd) in StatsD format via UDP. Prometheus and StatsD metric types are not fully compatible, so currenly all metrics become StatsD gauges, but `rate`, `increase`, `histogram_quantile` and other PromQL functions produce same results as if types never changed.
+        
+        - to [pushgateway](https://github.com/prometheus/pushgateway) or [prom-aggregation-gateway](https://github.com/weaveworks/prom-aggregation-gateway) in OpenMetrics format via HTTP. Please read corresponding docs about appropriate use cases and limitations.
+        
+        Install it via pip:
+        
+        ```sh
+        
+        pip install prometheus-push-client
+        
+        ```
+        
+        Read more at [github page](https://github.com/gistart/prometheus-push-client).
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: http
+Provides-Extra: test
