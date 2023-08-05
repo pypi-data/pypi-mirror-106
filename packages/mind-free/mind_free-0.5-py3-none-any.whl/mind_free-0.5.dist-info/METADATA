@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: mind-free
+Version: 0.5
+Summary: Mind free, a usefull package to handle simple bits
+Home-page: UNKNOWN
+Author: Joel Dangmei
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+
+# This is Mind free official pypi page
+
+## Installing
+
+# To install the package
+```
+pip install mind-free
+```
+# Or if you want to install a specific version
+```
+pip install mind-free==[version]
+```
+
+## Examples
+
+# isPalindrome()
+
+Check if the string is a palindrome
+
+### Example
+
+```py
+from mindfree import *
+a = isPalindrome("racecar") # Pass any string between the two quotation marks
+print(a)
+```
+## It returns True if it is a palindrome or it will return False
+
+# Made by Joel Dangmei
+
+Change logs :-
+
+Version 0.1 - 0.5 (15/5/2021)
+1. Check whether if text is plalindrome
+2. Check duplicate items in the list
+
