@@ -1,0 +1,9 @@
+devpi_lockdown/__init__.py,sha256=hwOJuFUEKtsgiOt4l6op9s-hviovM6TK1uCdtRNWY4E,22
+devpi_lockdown/main.py,sha256=KbUT6f7Tl1Uw_2Ts-QTkEEDSUn7HFuoJ2UZlfuxkjKk,10117
+devpi_lockdown/templates/login.pt,sha256=37WdfpZp3RupxUQdmUsTvgUwTXnur-nDivnd_L7eFww,764
+devpi_lockdown/templates/logout.pt,sha256=Jb_0wPylupK5jDD5b6noqXRPEyMLs4cxH0mK53WsH9I,553
+devpi_lockdown-2.0.0.dist-info/METADATA,sha256=FuZniGAmG1bTv-xiYqnJ8yhkLubDVBSGj79nb0ZrH40,4109
+devpi_lockdown-2.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+devpi_lockdown-2.0.0.dist-info/entry_points.txt,sha256=-PKP2RtpoWVe8-0Ea-E_34lUZPf_ojwrwNJBnjSU8gY,53
+devpi_lockdown-2.0.0.dist-info/top_level.txt,sha256=FH_HC-8uQ9HtIPcb-H7lcBKi_L0ixx1zu32tH6ui_lE,15
+devpi_lockdown-2.0.0.dist-info/RECORD,,
