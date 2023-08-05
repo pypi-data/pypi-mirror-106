@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: uol-grades-calculator
+Version: 0.5.1
+Summary: Grades calculator for the BSc Computer Science at the University of London
+Home-page: https://github.com/sglavoie/uol-grades-calculator
+Author: Sébastien Lavoie
+Author-email: sebastien@lavoie.dev
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: Click
+
+# Grades Calculator
+
+[![PyPi](https://img.shields.io/pypi/v/uol-grades-calculator.svg)](https://pypi.python.org/pypi/uol-grades-calculator) [![Documentation Status](https://readthedocs.org/projects/uol-grades-calculator/badge/?version=latest)](https://uol-grades-calculator.readthedocs.io/en/latest/?badge=latest)
+
+This tool is all about getting information and generating insights from the progress made in a [BSc Computer Science at the University of London](https://london.ac.uk/courses/computer-science) (calculations are specific to this particular degree).
+
+In order to use it, please [refer to the documentation](https://uol-grades-calculator.readthedocs.io/).
+
+
