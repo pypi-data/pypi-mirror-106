@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: FeiRays
+Version: 0.0.6
+Summary: Vulkan based Monte-Carol Ray-tracing
+Home-page: https://github.com/fynv/FeiRays
+Author: Fei Yang
+Author-email: hyangfeih@gmail.com
+License: Anti 996
+Requires-Dist: cffi
+Requires-Dist: pillow
+
+FeiRays
+
+
