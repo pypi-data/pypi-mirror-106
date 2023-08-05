@@ -1,0 +1,8 @@
+PyGObject>=3.36
+aiohttp>=3.6
+dtool-lookup-api>=0.1
+dtoolcore>=3.17
+gbulb>=0.6
+numpy
+pyyaml>=5.3
+scipy>=1.5

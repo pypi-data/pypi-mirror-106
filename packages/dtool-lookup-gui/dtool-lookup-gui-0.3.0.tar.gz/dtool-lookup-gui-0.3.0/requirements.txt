@@ -1,0 +1,7 @@
+dtoolcore
+aiohttp
+gbulb
+pyyaml
+PyGObject
+scipy
+dtool-lookup-api
