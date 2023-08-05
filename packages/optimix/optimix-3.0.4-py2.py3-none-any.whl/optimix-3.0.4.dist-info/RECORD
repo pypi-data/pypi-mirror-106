@@ -1,0 +1,17 @@
+optimix/__init__.py,sha256=OaQkbHhQVZ9EYO61PNK2c8S2hJfnfS2FEKE2T1lJyGs,325
+optimix/_check_grad.py,sha256=JG1e8HGBbJ9a08WRHJ6wHFjweZiltpHHGOtgLm82n0U,953
+optimix/_exception.py,sha256=CHxtqiwiJhTJmMq6Ve5qj8gEFkyZThkwjImo_oiC9Tk,69
+optimix/_function.py,sha256=ow4Q4CUQSIZfnBLro9TpB0q7x9HbZr1i006B-jy7S0k,8227
+optimix/_testit.py,sha256=SHjGbXKv6NAifoMXICgFB1JD9mjetvclyEF_k0uvySg,473
+optimix/_types.py,sha256=-mmEYDlws6TUIGKd1hrarKSwnL1SN8rloY8nzA2wKWQ,7264
+optimix/_variables.py,sha256=PG_bktdY5erNcfAX-O8AXM0q7BLvU7Xkqo0x8R4cgDA,1846
+optimix/_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optimix/_test/test_function.py,sha256=DtmVQ84SLARsAjWUGoZ5mHYJbQHAJ54XwjA577L_QaQ,4951
+optimix/_test/test_types.py,sha256=QAwqUKFHcwsyNyPdhchZxzVcWpg-bYcKSnXxRH0pA8Q,2220
+optimix/_test/test_variables.py,sha256=GfCgxdP9ADWMsJ4eKpdIHH8qR8qnllTmEPkBX6phiOc,1052
+optimix-3.0.4.dist-info/LICENSE.md,sha256=BIEYszIwoVtu1pGbhOSco3YYEew0CEAe1vHuH6VzfEQ,1105
+optimix-3.0.4.dist-info/METADATA,sha256=ZqleRpifqZhA0WR9mdD-8y5P7e9hHMyVPtbeBZ--lIc,1225
+optimix-3.0.4.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+optimix-3.0.4.dist-info/top_level.txt,sha256=ua82Ltog5b5KvoJBwFfwQGarQG9gRn3eN_P3kficobI,8
+optimix-3.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+optimix-3.0.4.dist-info/RECORD,,

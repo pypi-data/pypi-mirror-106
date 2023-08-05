@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: optimix
+Version: 3.0.4
+Summary: Abstract function optimisation
+Home-page: https://github.com/limix/optimix
+Author: Danilo Horta
+Author-email: horta@ebi.ac.uk
+Maintainer: Danilo Horta
+Maintainer-email: horta@ebi.ac.uk
+License: MIT
+Download-URL: https://github.com/limix/optimix
+Keywords: function,optimisation
+Platform: Windows
+Platform: MacOS
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Requires-Dist: brent-search (>=2.0.1)
+Requires-Dist: ndarray-listener (>=2.0.1)
+Requires-Dist: numpy (>=1.14.3)
+Requires-Dist: pytest (>=6.0.0)
+Requires-Dist: scipy (>=1.0.1)
+Requires-Dist: tqdm (>=4.23.4)
+
+# optimix
+
+Abstract function optimisation.
+
+## Install
+
+Enter
+
+```bash
+pip install optimix
+```
+
+from the command-line.
+
+## Running the tests
+
+Enter
+
+```python
+python -c "import optimix; optimix.test()"
+```
+
+## Authors
+
+* [Danilo Horta](https://github.com/horta)
+
+## License
+
+This project is licensed under the [MIT License](https://raw.githubusercontent.com/limix/optimix/master/LICENSE.md).
+
+
