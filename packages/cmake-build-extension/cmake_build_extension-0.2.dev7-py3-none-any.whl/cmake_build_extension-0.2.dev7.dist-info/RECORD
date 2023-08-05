@@ -1,0 +1,9 @@
+cmake_build_extension/__init__.py,sha256=rGSIibGahgfaLChrbkj3OwKop3zh3vPkqJ0ezQEUsFE,119
+cmake_build_extension/build_ext_option.py,sha256=87wSWvuMRyQi9vtRmRVjprIYenNktPSP4xcmAAlQc-w,1220
+cmake_build_extension/build_extension.py,sha256=YIslG5Tog9qZNM6Y7-tFYkgpd1XFMfFeONgOGb80CqQ,6624
+cmake_build_extension/cmake_extension.py,sha256=3cViUD6AnC4epWwnb1-3pRCWgOHK_VjHYU0UcdguNBk,2099
+cmake_build_extension-0.2.dev7.dist-info/LICENSE,sha256=Lsa61p696ERPbHgvg9jU-1tY3-BEqcDuK8L9R1a53fc,1069
+cmake_build_extension-0.2.dev7.dist-info/METADATA,sha256=e73BSOhVgBWRMavSOTg8MMIbzsCUBo9m865ZXYkajl4,6683
+cmake_build_extension-0.2.dev7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cmake_build_extension-0.2.dev7.dist-info/top_level.txt,sha256=dYylDUU_BvyyNmP8X26QUJf-ReIF_MevykrO1fyWPxY,22
+cmake_build_extension-0.2.dev7.dist-info/RECORD,,
