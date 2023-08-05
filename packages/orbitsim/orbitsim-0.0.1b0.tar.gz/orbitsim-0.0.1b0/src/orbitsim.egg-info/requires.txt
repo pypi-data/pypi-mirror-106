@@ -1,0 +1,6 @@
+numpy
+scipy
+pyatmos
+mayavi
+json
+kepler
