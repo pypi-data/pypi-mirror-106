@@ -1,0 +1,11 @@
+click
+usbmon-tools>=3.0
+
+[dev]
+cython
+mypy
+pre-commit
+pytest-mypy
+pytest-timeout>=1.3.0
+pytest>=6.0
+setuptools_scm
