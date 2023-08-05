@@ -1,0 +1,37 @@
+
+from setuptools import setup, find_packages
+
+
+with open('README.md', 'r') as fp:
+    long_description = fp.read()
+
+setup(
+    name='tololib',
+    description='Python Library for Controlling TOLO Sauna/Steam Bath Devices',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    use_scm_version=True,
+    setup_requires=['setuptools_scm'],
+    author='Matthias Lohr',
+    author_email='mail@mlohr.com',
+    url='https://gitlab.com/MatthiasLohr/tololib',
+    license='MIT',
+    install_requires=[],
+    python_requires='>=3.7.*, <4',
+    packages=find_packages(exclude=['tests', 'tests.*']),
+    entry_points={
+        'console_scripts': [
+            'tolo-cli=tololib.cli:main'
+        ]
+    },
+    classifiers=[
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9'
+    ],
+    project_urls={
+        'Documentation': 'https://matthiaslohr.gitlab.io/tololib/',
+        'Source': 'https://gitlab.com/MatthiasLohr/tololib',
+        'Tracker': 'https://gitlab.com/MatthiasLohr/tololib/issues'
+    }
+)
