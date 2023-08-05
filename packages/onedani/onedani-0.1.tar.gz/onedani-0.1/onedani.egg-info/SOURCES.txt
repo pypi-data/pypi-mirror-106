@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+onedani/__init__.py
+onedani/animation.py
+onedani.egg-info/PKG-INFO
+onedani.egg-info/SOURCES.txt
+onedani.egg-info/dependency_links.txt
+onedani.egg-info/requires.txt
+onedani.egg-info/top_level.txt

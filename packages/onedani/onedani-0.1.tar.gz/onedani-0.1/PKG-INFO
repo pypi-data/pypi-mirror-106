@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: onedani
+Version: 0.1
+Summary: A package to convert your Jupyter Notebook
+Home-page: https://gitlab.com/theochri/onedani
+Author: Theo Christiaanse
+Author-email: theochristiaanse@gmail.com
+License: UNKNOWN
+Description: # onedani
+        
+        This library **facilitates** *educators* to help *students* **understand** 1D wall conduction problems through a simple 1D visualization animation.
+        
+        
+        <p align="center"> <img src="https://gitlab.com/theochri/onedani/-/raw/master/image/animation_10.gif"> </p>
+        
+        [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg?longCache=true&style=flat-square)](https://en.wikipedia.org/wiki/MIT_License)
+        
+        
+        
+        ## :package: Installation
+        
+        ```python
+        pip install onedani
+        ```
+        
+        ## :rocket: How to use
+        
+        You can build a simple animation with the following code:
+        
+        
+        ```swift
+        from onedani import animation.onedproblem
+        
+        # Setup the wall elments, by material, and thickness of each material
+        wall = onedproblem(
+            ['plywood','rockwool','osb','airgap','plaster'],
+            [0.01,0.1,0.012,0.02,0.02]
+        )
+        # You can set the time
+        wall.setup_grid(50,time=30,fps=60) # 30 seconds of 24fps
+        # Add probed to measure the temperature
+        wall.add_probe(x=sum([0.01,0.1,0.012]),type='Temp')
+        # Add probe to measure the heat flux
+        wall.add_probe(x=sum([0.01,0.03]),type='Heat')
+        # Run the 1D problem
+        wall.run_problem()
+        # Build the animation
+        wall.build_animation(scale="C",filename='animation_10.mp4')
+        ```
+        
+        ### :memo: Features
+        
+        - Build animations based on simple materials.
+        - Specify animation length, we will ensure it will always reach steady state at the end of the time.
+        - Add temperature and heat flux probes to show the results on the animation.
+        
+        ### :eyes: Watch out
+        
+        - This package is build on a (very) simple numerical solver and schema, this means there will be some numerical error.
+        - This is especially true for heat probes:
+          * it's reduced by increasing the number of x-nodes
+          * or making sure the heat probe is somewhere in the center of a material.
+        
+        ### :new: Versions
+        
+        #### Version 0.1
+          - Initial public release, the students enjoyed seeing the temperature evolve through the wall.
+        
+        ### :pray: Acknowledgement
+        
+        I would like to the thank Dr. Ralph Evins from the [Energy in Cities](https://energyincities.gitlab.io/website/) group for the opportunity to teach in his CIVE 295 - Building Science Fundamentals class. The problem here and the questions from the students resulted in me repurposing some code I made in my PhD to make this animation.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

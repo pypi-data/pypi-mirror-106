@@ -1,0 +1,10 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "onedani"
+author = "Theo Christiaanse"
+author-email = "theochristiaanse@gmail.com"
+home-page = "https://theochri.gitlab.io/my-personal-website/"
+classifiers = [ "License :: OSI Approved :: MIT License",]
