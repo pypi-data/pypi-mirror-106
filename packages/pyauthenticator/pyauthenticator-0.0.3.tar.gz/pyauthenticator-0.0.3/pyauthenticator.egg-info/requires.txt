@@ -1,0 +1,4 @@
+otpauth
+qrcode
+pyzbar
+pillow
