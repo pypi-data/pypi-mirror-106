@@ -1,0 +1,193 @@
+# pyMule
+
+McMule is a framework for fully differential higher-order QED
+calculations of scattering and decay processes involving leptons. It
+keeps finite lepton masses, which regularises collinear singularities.
+Soft singularities are treated with dimensional regularisation and
+using $`{\rm FKS}^\ell`$ subtraction
+
+Please find the manual for McMule
+[here](https://gitlab.com/mule-tools/manual) or download it here [as a
+pdf](
+https://gitlab.com/mule-tools/manual/-/jobs/artifacts/master/raw/manual.pdf?job=build)
+
+If you find McMule useful, please consider citing
+[[2007.01654]](https://arxiv.org/abs/2007.01654)
+
+>  QED at NNLO with McMule
+>
+>  P. Banerjee, T. Engel, A. Signer, Y. Ulrich
+
+This is the analysis tool for McMule supporting Python 2 and Python 3.
+
+## Installation
+`pymule` can be installed with pip as
+```bash
+# For python 2
+
+pip install git+https://gitlab.com/mule-tools/pymule.git
+
+# For python 3
+pip3 install git+https://gitlab.com/mule-tools/pymule.git
+```
+In principle this takes care of everything. However, it is usually
+better to install `numpy` and `scipy` first by hand
+```bash
+pip install numpy
+pip install scipy
+pip install git+https://gitlab.com/mule-tools/pymule.git
+```
+Further, Jupyter or IPython are strongly recommended. A pre-built
+Docker image is available at [yulrich/pymule](https://hub.docker.com/r/yulrich/pymule).
+
+For further details please refer to the McMule manual
+[here](https://gitlab.com/mule-tools/manual) or download it here [as a pdf](
+https://gitlab.com/mule-tools/manual/-/jobs/artifacts/master/raw/manual.pdf?job=build)
+
+## Example analysis
+
+Examples of analysis can be found in the user-library at
+[mule-tools/user-library](https://gitlab.com/mule-tools/user-library).
+
+Nevertheless, we repeat here the analysis the example analysis of the
+paper
+[radiative-lepton-decay/babar/example](https://gitlab.com/mule-tools/user-library/tree/master/radiative-lepton-decay/babar/example)
+
+We begin by loading `pymule` and initialising the $`\tau`$ lifetime
+```python
+from pymule import *
+
+# To normalise branching ratios, we need the tau lifetime
+lifetime = 1/(1000*(6.582119e-25)/(2.903e-13))
+```
+Next, we need to point `pymule` to the output directory of `mcmule`
+with the `setup` command. In our example this is`babar-tau-e/out`.
+This could either be a real directory or a `tar` file
+```python
+# The folder where McMule has stored the statefiles
+setup(folder='babar-tau-e/out/')
+```
+As a next step, we import the LO and NLO `which_pieces` and combine
+them using two central `pymule` commands: `sigma` and `mergefks`.
+`sigma` takes the `which_piece` as an argument and imports matching
+results, already merging different random seeds. `mergefks` takes the
+results of (multiple) `sigma` invocations, adds results with matching
+$`\xi_\text{cut}`$ values and combines the result.
+
+While it is not strictly necessary to use this at LO, we still do.
+```python
+# Import LO data and re-scale to branching ratio
+LO = scaleset(mergefks(sigma('m2enng0')), GF**2*lifetime*alpha)
+
+# Import NLO corrections from the three pieces
+NLO = scaleset(mergefks(
+    sigma('m2enngR'),      # real corrections
+    sigma('m2enngCT'),     # counter term
+    anyxi=sigma('m2enngV') # virtual corrections
+), GF**2*lifetime*alpha**2)
+```
+In the present case, $`\sigma_n^{(1)}`$ is split into multiple
+contributions, namely `m2enngV` and `m2enngC`.  This is indicated by
+the `anyxi` argument.
+
+Users should keep in mind that McMule ships with a version of
+`global_def` where the couplings $`G_F={\tt GF}`$ and $`\alpha={\tt
+alpha}`$ are set to $`G_F=\alpha=1`$. Hence, we use `pymule`'s
+function `scaleset` to multiply the result with the correct values of
+$`G_F`$ (in $`{\rm MeV}^{-1}`$) and $`\alpha`$ (in the OS scheme).
+
+Next, we can calculate the total branching ratio by adding up the LO
+and NLO branching ratios using `plusnumbers`
+```python
+# The branching ratio at NLO = LO + correction
+fullNLO = plusnumbers(LO['value'], NLO['value'])
+
+# Print results
+print "BR_0 = ", printnumber(LO['value'])
+print "dBR  = ", printnumber(NLO['value'])
+print "BR_1 = ", printnumber(fullNLO)
+```
+Next, we use `kplot` to produce plots
+```python
+# Produce energy plot
+fig1, (ax1, ax2) = kplot(
+    {'lo': LO['Ee'], 'nlo': NLO['Ee']},
+    labelx=r"$E_e\,/\,{\rm MeV}$",
+    labelsigma=r"$\D\mathcal{B}/\D E_e$"
+)
+ax2.set_ylim(0.8,1.01)
+
+# Produce visible mass plot
+fig2, (ax1, ax2) = kplot(
+    {'lo': LO['minv'], 'nlo': NLO['minv']},
+    labelx=r"$m_{e\gamma}\,/\,{\rm MeV}$",
+    labelsigma=r"$\D\mathcal{B}/\D m_{e\gamma}$"
+)
+
+ax1.set_yscale('log')
+ax1.set_xlim(1000,0)
+ax1.set_ylim(5e-9,1e-3)
+ax2.set_ylim(0.8,1.)
+```
+
+## Reference
+Most functions in `pymule` have `docstrings` meaning that help can be
+accessed as
+```
+>>> help(pymule.sigma) # Python
+Help on function sigma in module pymule.loader:
+
+sigma(piece, **kwargs)
+    sigma(piece, **kwargs) loads the which_piece piece and
+    statistically combines the random seeds. It returns a dict
+    with the tuples of FKS parameters as keys.
+    ....
+
+In [2]: ?pymule.sigma # IPython
+
+Signature: pymule.sigma(piece, **kwargs)
+Docstring:
+sigma(piece, **kwargs) loads the which_piece piece and
+statistically combines the random seeds. It returns a dict
+with the tuples of FKS parameters as keys.
+....
+```
+
+## Data structure
+In `pymule` we store data using either `dict` or `np.array` as
+follows.
+
+ * Numbers $`y\pm e`$ are stored as
+```python
+np.array([y, e])
+```
+ * Histograms $`\{ (x_i, y_i\pm e_i) \}`$ are stores similarly as
+   `np.array` with the $`x_i`$ indicating the centre of the bin. Over-
+   and underflow bins are marked with `np.inf`
+```python
+np.array([
+    [x1, y1, e1],
+    [x2, y2, e2],
+    [x3, y3, e3],
+    ...
+])
+```
+ * Dataset, i.e. results of runs (either as the result of
+   `importvegas` or `mergefks`), are `dict` with keys
+
+    * `time`: the job's run time
+    * `value`: the best estimate for the cross section and its error
+    * `chi2a`: the $`\chi^2`$ estimate of the integrator
+    * all histograms as specified by their `name(..)` in `user.f95`
+    * `msg`: any message. Usually this contains information on the
+           state of the integrator (not present in combined results)
+    * `SHA`: the first 5 characters of the source-tree's SHA1 hash at
+          compile time (not present in combined results)
+    * `iteration`: the number of iterations completed in this file
+          (not present in combined results)
+
+ * Non-combined datasets (such as the result of `sigma(..)`) are dicts
+   of datasets with the FKS parameters (or more generally the groups
+   returned by the filename matching) as keys.
+
+
