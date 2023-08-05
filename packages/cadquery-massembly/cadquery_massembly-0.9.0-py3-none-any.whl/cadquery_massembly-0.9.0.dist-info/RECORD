@@ -1,0 +1,9 @@
+cadquery_massembly/__init__.py,sha256=3GN6QMM8acjyhWP0vChx7nIhYTWMFa0epnPUQxPildY,978
+cadquery_massembly/_version.py,sha256=diA0TkXEjKGHojWdz3FNhWuoKbd8jnKK16xHdeEpmbs,466
+cadquery_massembly/cq_editor.py,sha256=O92xGmQMc35Lq-EO_zxyGk7yH7qpcpYgvGfiUaREl4s,726
+cadquery_massembly/massembly.py,sha256=rWYH7USNHTI6rp4wudNmcWP-UrHLALIp9EuDuIeeS64,4165
+cadquery_massembly/mate.py,sha256=3DeuVTlKdfNa8L5PivUVBDDkfY5uHFoCq_kxWD2zl7s,5896
+cadquery_massembly-0.9.0.dist-info/METADATA,sha256=SofK1h5Ll27xwtLXeqYF6fIu2OpqM9SXtQDGjB1uTrk,668
+cadquery_massembly-0.9.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cadquery_massembly-0.9.0.dist-info/top_level.txt,sha256=7pvdn19lr6mzCr2hUbuShmIXLi4Vpcm-uFiyC1AGMl4,19
+cadquery_massembly-0.9.0.dist-info/RECORD,,
