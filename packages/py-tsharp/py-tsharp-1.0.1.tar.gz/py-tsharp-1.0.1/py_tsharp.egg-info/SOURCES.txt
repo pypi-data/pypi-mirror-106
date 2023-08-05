@@ -1,0 +1,7 @@
+setup.py
+py_tsharp.egg-info/PKG-INFO
+py_tsharp.egg-info/SOURCES.txt
+py_tsharp.egg-info/dependency_links.txt
+py_tsharp.egg-info/top_level.txt
+pytsharp_utils/compiler.py
+tX/__main__.py
