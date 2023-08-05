@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: iota-client
+Version: 0.2.0_alpha.7
+Summary: Client library of IOTA
+Home-Page: https://iota.org
+Author: Bing-Yang Lin <bingyang.lin@iota.org>
+Author-Email: Bing-Yang Lin <bingyang.lin@iota.org>
+License: Apache-2.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+This IOTA client library is used to integrate IOTA into applications.
+More details can be found in https://client-lib.docs.iota.org/libraries/python/index.html.
