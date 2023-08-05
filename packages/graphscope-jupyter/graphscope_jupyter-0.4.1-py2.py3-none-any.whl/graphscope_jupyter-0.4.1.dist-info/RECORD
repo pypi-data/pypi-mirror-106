@@ -1,0 +1,15 @@
+graphscope_jupyter/__init__.py,sha256=w6skuJDUBHHZXfl-bRW6_10MgkAgYroOBmk_PDLFi_0,811
+graphscope_jupyter/_frontend.py,sha256=5x1Vf1NTpPxJAyHESZf7NlSKexFH7tKMeAKiju9nQ-s,838
+graphscope_jupyter/_version.py,sha256=J9jNn4hexWoSXvgV5LfNJ97di6U5Hc78vHWMSPIltsI,802
+graphscope_jupyter/graphin.py,sha256=V5DKpOoALp-VquKCirxw8hh_Fn77Z4eR86dty0qRkc4,13033
+graphscope_jupyter/nbextension/__init__.py,sha256=g0biZny3e566eEKPEFZ2cRy8s9QdqAdNo8lmS4w_y3M,914
+graphscope_jupyter/nbextension/static/index.js,sha256=nw6X6EkyICsujXnKLvKON0Y2K2muAuPmXEa4mD8cymk,2683596
+graphscope_jupyter/nbextension/static/index.js.map,sha256=eR5VmqK_oudIeqnO3g_B2DOcCHX3jO-PU3O33OBIFwI,7535957
+graphscope_jupyter-0.4.1.data/data/etc/jupyter/nbconfig/notebook.d/graphscope-jupyter.json,sha256=P5SIud_aEx0jFn6crraudYO_FfWq249Pa9LOtv6gXBg,72
+graphscope_jupyter-0.4.1.data/data/share/jupyter/nbextensions/graphscope-jupyter/index.js,sha256=nw6X6EkyICsujXnKLvKON0Y2K2muAuPmXEa4mD8cymk,2683596
+graphscope_jupyter-0.4.1.data/data/share/jupyter/nbextensions/graphscope-jupyter/index.js.map,sha256=eR5VmqK_oudIeqnO3g_B2DOcCHX3jO-PU3O33OBIFwI,7535957
+graphscope_jupyter-0.4.1.dist-info/LICENSE,sha256=c4Kxz3Eeenx6-YFuDge0m5HnFJt8bTRyJfmIAPyx8cI,11356
+graphscope_jupyter-0.4.1.dist-info/METADATA,sha256=YIj_qAYBF7K71liKrGDe1vQjRAnMK6UI-0XUXJdjsUI,5174
+graphscope_jupyter-0.4.1.dist-info/WHEEL,sha256=oh0NKYrTcu1i1-wgrI1cnhkjYIi8WJ-8qd9Jrr5_y4E,110
+graphscope_jupyter-0.4.1.dist-info/top_level.txt,sha256=s198OW9d7zf8XjSYtEwXHXt2tmK8jv15Xp3MV59XZUU,19
+graphscope_jupyter-0.4.1.dist-info/RECORD,,
