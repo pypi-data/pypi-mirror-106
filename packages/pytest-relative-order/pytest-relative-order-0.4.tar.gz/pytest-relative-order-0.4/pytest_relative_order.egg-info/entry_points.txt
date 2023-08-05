@@ -1,0 +1,3 @@
+[pytest11]
+relative_order = pytest_relative_order
+
