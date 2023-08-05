@@ -1,0 +1,12 @@
+setup.py
+pyparsesynt/__init__.py
+pyparsesynt/parser.py
+pyparsesynt/repr.py
+pyparsesynt/rule.py
+pyparsesynt/syn.py
+pyparsesynt/token.py
+pyparsesynt/writer.py
+pyparsesynt.egg-info/PKG-INFO
+pyparsesynt.egg-info/SOURCES.txt
+pyparsesynt.egg-info/dependency_links.txt
+pyparsesynt.egg-info/top_level.txt
