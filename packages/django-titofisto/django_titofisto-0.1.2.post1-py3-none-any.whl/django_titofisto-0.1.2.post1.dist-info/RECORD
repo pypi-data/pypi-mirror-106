@@ -1,0 +1,14 @@
+CHANGELOG.md,sha256=BQZgcRlQWNAlSVkctE2n-Lb5jQEEbRcyIOATFLxEHsM,1021
+LICENSE,sha256=kVjHq81UCMLPOZxqnPmjtNZiWxMlxks26Tpjt3VRa84,11373
+titofisto/__init__.py,sha256=H5gn04v6aq8vnNRRe44vxrhW0s47UZzNb3WNaymKsGM,38
+titofisto/settings.py,sha256=KUNyjoX9tmwiKrZYIH1E1ZspLrYBPgfMNr4tNAA2bS0,156
+titofisto/storage.py,sha256=25KEWFuCkRYNAh58QIWURi7_fgwht0qUBLTRzAWbQkU,1331
+titofisto/test_settings.py,sha256=BeniqykJGfxHM3PGdi2LfZ3H0DnBbI4wBAs2GAjErp0,701
+titofisto/test_urls.py,sha256=A-J8gJ2-a6kbzluk3eH49wvgXksv-7pX4qTq-e2ccfc,165
+titofisto/tests.py,sha256=qHusxQA6DarfBReSULIPOP9a3lg16e-HwKxS7UxazCI,4892
+titofisto/urls.py,sha256=YyBYMsu_B3NtqB3ROshTpMp0nnOD5CMgViwBeB_fmpY,142
+titofisto/views.py,sha256=6Ew3WzAefNp8NTBjQg9d8W994MVaYQelpGP0Cp4BlSI,1268
+django_titofisto-0.1.2.post1.dist-info/LICENSE,sha256=kVjHq81UCMLPOZxqnPmjtNZiWxMlxks26Tpjt3VRa84,11373
+django_titofisto-0.1.2.post1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+django_titofisto-0.1.2.post1.dist-info/METADATA,sha256=nxiilSDslAFapZku5yPKJqZhpmGyFLFQaJiR370dF0k,3183
+django_titofisto-0.1.2.post1.dist-info/RECORD,,
