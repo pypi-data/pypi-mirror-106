@@ -1,0 +1,10 @@
+pdf2doi/__init__.py,sha256=Rv40I3qvTSWhXvVKFeY0IKHFEP6NWiCLQzix9Iuplyc,406
+pdf2doi/bibtex_makers.py,sha256=0hDIFF4r7Yb7Pwm0P4E8uuBPECKqXD7njtMRB_hIHpo,3966
+pdf2doi/config.py,sha256=k_NQ58VQJVwtaAHfwv5jUUDFcxPuuJO9y4Jem67mhHs,730
+pdf2doi/finders.py,sha256=QidvTGozOFT6xfUFNsfiBmhWuozw9MBm3h35BsmJeKc,31346
+pdf2doi/pdf2doi.py,sha256=0qcryzjEZQrQMTCJvWG5_Og_F7da_YlTbOLiodjnPUs,16838
+pdf2doi-0.4.dist-info/METADATA,sha256=PDXnanSpFXqJAQKr90uUnzHkf7IG22pgsg9mM4vEn5E,22809
+pdf2doi-0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pdf2doi-0.4.dist-info/entry_points.txt,sha256=nOZAt08mM0LN_Xz4d9K8NJCYmaXkgad3w6PGfIL7PZ8,50
+pdf2doi-0.4.dist-info/top_level.txt,sha256=mjnLRGseHZPjiQMk3YXfBDZNz-mSMVAK8GyNK1y7EuY,8
+pdf2doi-0.4.dist-info/RECORD,,
