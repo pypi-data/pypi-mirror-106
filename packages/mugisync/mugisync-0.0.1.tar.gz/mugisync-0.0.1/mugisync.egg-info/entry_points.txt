@@ -1,0 +1,3 @@
+[console_scripts]
+mugi-sync = mugisync:main
+
