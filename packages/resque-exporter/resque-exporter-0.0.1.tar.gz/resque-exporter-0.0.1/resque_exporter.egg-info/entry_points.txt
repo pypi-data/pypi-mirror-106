@@ -1,0 +1,3 @@
+[console_scripts]
+resque-exporter = resque_exporter:main
+
