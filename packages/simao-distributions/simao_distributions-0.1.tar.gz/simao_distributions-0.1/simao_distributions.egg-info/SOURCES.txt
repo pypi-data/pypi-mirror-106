@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+simao_distributions/Binomialdistribution.py
+simao_distributions/Gaussiandistribution.py
+simao_distributions/Generaldistribution.py
+simao_distributions/__init__.py
+simao_distributions.egg-info/PKG-INFO
+simao_distributions.egg-info/SOURCES.txt
+simao_distributions.egg-info/dependency_links.txt
+simao_distributions.egg-info/not-zip-safe
+simao_distributions.egg-info/top_level.txt
