@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: limit-reader
+Version: 0.1.0
+Summary: Limit read size
+License: MIT
+Author: Miki Tebeka
+Author-email: miki@353solutions.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
