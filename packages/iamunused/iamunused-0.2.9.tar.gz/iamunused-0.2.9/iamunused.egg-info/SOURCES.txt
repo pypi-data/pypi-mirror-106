@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+iamunused/__init__.py
+iamunused/__main__.py
+iamunused/reader.py
+iamunused/test_reader.py
+iamunused.egg-info/PKG-INFO
+iamunused.egg-info/SOURCES.txt
+iamunused.egg-info/dependency_links.txt
+iamunused.egg-info/entry_points.txt
+iamunused.egg-info/requires.txt
+iamunused.egg-info/top_level.txt

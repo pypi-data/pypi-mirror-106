@@ -1,0 +1,3 @@
+[console_scripts]
+iamunused = iamunused.__main__:main
+
