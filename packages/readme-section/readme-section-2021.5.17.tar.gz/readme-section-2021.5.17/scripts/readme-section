@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+{ set +x; } 2>/dev/null
+
+usage() {
+    echo "usage: $(basename $0) path [heading]"
+    [[ $1 == "-h" ]] || [[ $1 == "--help" ]]; exit
+}
+
+[[ $1 == "-h" ]] || [[ $1 == "--help" ]] && usage "$@"
+
+[[ $# == 0 ]] && usage
+
+! [ -s "$1" ] && exit
+
+content="$(cat "$1")" || exit
+heading="$(echo "$1" | xargs basename | cut -d. -f1 | awk '{$1=toupper(substr($1,0,1))substr($1,2)}1')"
+[[ -n "$2" ]] && heading="$2"
+[[ "$heading" != "#"* ]] && {
+    heading="${README_SECTION_PREFIX:-###} ${heading}"
+}
+
+[[ $content == "#"* ]] && {
+    echo "$content" | sed -e :a -e '/./,$!d;/^\n*$/{$d;N;};/\n$/ba' && echo; exit;
+} # headline on the first line
+echo "$heading
+$content" | sed -e :a -e '/./,$!d;/^\n*$/{$d;N;};/\n$/ba' && echo
+
