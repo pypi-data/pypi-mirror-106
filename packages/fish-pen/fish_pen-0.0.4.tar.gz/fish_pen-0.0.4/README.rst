@@ -1,0 +1,73 @@
+============
+The Fish Pen
+============
+
+.. image:: https://img.shields.io/pypi/v/fish_pen
+        :target: https://pypi.python.org/pypi/fish-pen
+        :alt: PyPI version
+
+.. image:: https://img.shields.io/pypi/l/fish_pen
+        :target: https://pypi.python.org/pypi/fish-pen
+        :alt: License
+
+.. image:: https://img.shields.io/readthedocs/fish_pen
+        :target: https://fish-pen.readthedocs.io
+        :alt: Documentation
+
+This project exists so I can play around with integrating CI/CD (and figure out
+what that actually means) into my projects, and publish documentation to
+`Read the Docs <https://docs.readthedocs.io/en/stable/>`__ automatically.
+
+I basically just want to give myself a skeleton to work from where I do things
+"the right way", so I can use that as a base for any real projects I may want
+to do in the future.
+
+Huge shout-out to Chris Billington for his amazing 
+`inotify-simple <https://github.com/chrisjbillington/inotify_simple>`_ package,
+which was part of what inspired me to do something like this in the first place.
+It's a simple, extremely useful package with great documentation. Top notch.
+
+`View on PyPI <https://pypi.python.org/pypi/fish-pen>`_ |
+`Fork me on gitgud <https://gitgud.io/fish/fish_pen>`_ |
+`Read the docs <https://fish-pen.readthedocs.org>`_
+
+---------------
+Installation
+---------------
+
+Installation of the fish-pen package should be as simple as running the command:
+
+.. code-block:: bash
+
+        python3 -m pip install fish_pen
+
+and you should be up and running.
+
+I'll get around to distributing an apt package eventually probably.
+This will allow you to install the package from your local installation as well.
+This is excellent for if you for instance have packages which you don't want to
+publish on PyPI, but still want to install into a virual environment somewhere.
+If this is the case, installation will be as simple as
+
+.. code-block:: bash
+
+        python3 -m pip install --find-links=/usr/share/wheels fish_pen
+
+And it should work the exact same way.
+
+---------------
+Example usage
+---------------
+
+You can do some really cool stuff with this example package! Watch:
+
+.. code-block:: python
+
+        import fish_pen
+
+        fish_pen.hello()
+
+Which will print `Hello world!` for you! Isn't that neat?
+
+Markdown is a little limited, so more documentation is of course available at
+`Read the docs <https://fish-pen.readthedocs.org>`_.

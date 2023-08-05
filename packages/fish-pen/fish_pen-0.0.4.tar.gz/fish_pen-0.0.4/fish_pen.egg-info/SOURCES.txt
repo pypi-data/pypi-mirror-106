@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+fish_pen/__init__.py
+fish_pen.egg-info/PKG-INFO
+fish_pen.egg-info/SOURCES.txt
+fish_pen.egg-info/dependency_links.txt
+fish_pen.egg-info/top_level.txt
