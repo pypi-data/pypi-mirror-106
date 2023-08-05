@@ -1,0 +1,3 @@
+[console_scripts]
+oracle4grid=oracle4grid.main:main
+
