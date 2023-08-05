@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: road-signs-db-convertion-michael
+Version: 0.0.2
+Summary: A database collection & conversion package which performs analysis
+Home-page: https://github.com/Road-Sign-UCU/Road-Sign-DB
+Author: Road-Sign-UCU
+Author-email: work.michael.2956@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Road-Sign-UCU/Road-Sign-DB/issues
+Description: # Road-Sign-DB
+        
+        # Create separate branches for your work!!!
+        
+        <hr/>
+        
+        <details open="open">
+          <summary>Інформація</summary>
+          <ol>
+            <li><a href="#про-проект">Про проект</a></li>
+            <li><a href="#основні-складові">Основні складові</a></li>
+            <li><a href="#початок-роботи">Початок роботи</a></li>
+            <li><a href="#використання">Використання</a></li>
+            <li><a href="#ліцензія">Ліцензія</a></li>
+          </ol>
+        </details>
+        
+        
+        
+        ## Про проект
+        
+        Опис проекту.
+        
+        
+        ### Основні складові
+        
+        Основні складові.  
+        #### main.py structure:
+        ```
+        def fetch_somedb(self):
+            # download & move this database into the APPROPRIATE FOLDER. Like Databases/from-kaggle
+        ```
+        
+        
+        
+        ## Початок роботи
+        
+        Для початку роботи:
+        1. 1
+        2. 2
+        3. 3
+        
+        ## Використання
+        
+        + Автоматичне розпізнавання дорожніх знаків для автомобілів.
+        + Система розпізнавання дорожніх знаків покликана попереджати водіїв про необхідність дотримання конкретних правил дорожнього руху. 
+        + Система визначає дорожні знаки і нагадує водієві дозволи для конкретної території.
+        + Система розпізнає дорожні знаки у час дня та вечора.
+        
+        ## Ліцензія
+        
+        Поширюється за ліцензією MIT. Для отримання додаткової інформації дивіться `LICENSE`.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
