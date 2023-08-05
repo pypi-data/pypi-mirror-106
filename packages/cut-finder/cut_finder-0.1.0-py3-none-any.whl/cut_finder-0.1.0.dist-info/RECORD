@@ -1,0 +1,11 @@
+cut_finder/__init__.py,sha256=xo43GFFkU_B1iHmauCY4nr1-2_HJU4omN6vJvsKxmdo,183
+cut_finder/__main__.py,sha256=aisBmNaSETgo6kk10yrev74RtSj-dTZtnXaMRuibA7M,393
+cut_finder/board_sets.py,sha256=g9YfI1uqtlITkJtIqn3Zicfow2Jhll1QuAfrpKbPUqI,1581
+cut_finder/boards.py,sha256=fD14Rx6tIH0zgi4v8onpY-KGuh0pOXO8OXqEMuA-RR0,2019
+cut_finder/cutfinder.py,sha256=l_Y2irRQ68-5-bJT19RDO9RTQy3ULrRwMruKIEv318U,3716
+cut_finder-0.1.0.dist-info/LICENSE,sha256=vxSlDZuLAGwOlmOXKl6EGflmwVBsCQjW6AVtDcCIZEE,1087
+cut_finder-0.1.0.dist-info/METADATA,sha256=Xd_EUSoSV7LwoCa8hHJZaxUBeNmnokicdmIov0tcQsw,973
+cut_finder-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+cut_finder-0.1.0.dist-info/entry_points.txt,sha256=5sK9_TZ0EOrA-2mSGCGPvR9vSNGLVSQ84ZCV2xBL0PU,56
+cut_finder-0.1.0.dist-info/top_level.txt,sha256=CmNGGQa4aJ4lxroSb-fp-TYBDy18fbdUauOfMXSplNA,11
+cut_finder-0.1.0.dist-info/RECORD,,
