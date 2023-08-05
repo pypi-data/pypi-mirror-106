@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/gnu2048.egg-info/PKG-INFO
+src/gnu2048.egg-info/SOURCES.txt
+src/gnu2048.egg-info/dependency_links.txt
+src/gnu2048.egg-info/not-zip-safe
+src/gnu2048.egg-info/requires.txt
+src/gnu2048.egg-info/top_level.txt
