@@ -1,0 +1,17 @@
+click
+ruamel.yaml
+pathvalidate
+requests
+mutagen
+tqdm
+
+[:platform_system == "Darwin"]
+simple-term-menu
+
+[:platform_system == "Linux"]
+simple-term-menu
+
+[:platform_system == "Windows"]
+pick
+windows-curses
+colorama
