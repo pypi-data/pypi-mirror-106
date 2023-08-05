@@ -1,0 +1,9 @@
+LICENSE
+README.md
+dupy
+setup.py
+dupy.egg-info/PKG-INFO
+dupy.egg-info/SOURCES.txt
+dupy.egg-info/dependency_links.txt
+dupy.egg-info/requires.txt
+dupy.egg-info/top_level.txt
