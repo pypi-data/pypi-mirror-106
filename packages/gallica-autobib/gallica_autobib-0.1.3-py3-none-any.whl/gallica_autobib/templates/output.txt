@@ -1,0 +1,20 @@
+                                 Status Report
+                                 -------------
+{% for result in obj.results %}
+  =={{ result.record.target.name() }}==
+
+{{ result.record.raw }}
+
+  {% if result.status %}
+    {% if result.processed %}
+      Processed: {{ result.processed }}
+    {% endif %}
+    {% if result.unprocessed %}
+      Unprocessed: {{ result.unprocessed }}
+    {% endif %}
+    Confidence: {{ result.match.confidence }}
+  {% else %}
+    Failed to match :(
+  {% endif %}
+
+{% endfor %}
