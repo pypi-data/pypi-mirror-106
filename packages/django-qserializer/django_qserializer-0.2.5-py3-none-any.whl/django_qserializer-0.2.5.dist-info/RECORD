@@ -1,0 +1,13 @@
+django_qserializer/__init__.py,sha256=XOcKpUQeCfIHMxUN8EXqihgFFqurBh1Ayny-nsmux2A,258
+django_qserializer/serialization.py,sha256=Ru5uuaqJezV75v1n3afv0mBv-yXFKEcaKwNm15ADlbA,4485
+django_qserializer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_qserializer/tests/test_prepare_queryset.py,sha256=2x_-RGHUvkqlQ7-nfpPVbf3jsn0k_QKyEWX5-d_0qyI,3570
+django_qserializer/tests/test_serializer.py,sha256=DjCOCf5D_4l5s4MlzBq7H2R6JZ5VS_szOANYYSXD3qw,3882
+django_qserializer/tests/testapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_qserializer/tests/testapp/models.py,sha256=a1YCdJS8kMCcn1RislK7mx2FGT53YdUB8nwd1NVPtOg,458
+django_qserializer/tests/testapp/settings.py,sha256=R1BvPfJgrZyIQnzmoGe2D-UWYrnucHbem5RqpZ9k8GI,414
+django_qserializer-0.2.5.dist-info/LICENSE,sha256=wGywATumCXC7KdhORKSMfwnmPtfIOub5gVJrEsa3PYM,1062
+django_qserializer-0.2.5.dist-info/METADATA,sha256=M3LP5NSVBV7BO27zHINWQXDZb9HLGChJr6yKuWEAacM,3261
+django_qserializer-0.2.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_qserializer-0.2.5.dist-info/top_level.txt,sha256=mA0Yo8x2VtvrltYq6weVrGKhjac_3dqkxmQ--n26VHM,19
+django_qserializer-0.2.5.dist-info/RECORD,,
