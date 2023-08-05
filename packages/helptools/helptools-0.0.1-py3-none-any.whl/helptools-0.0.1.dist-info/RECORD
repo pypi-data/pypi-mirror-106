@@ -1,0 +1,16 @@
+helptools/__init__.py,sha256=7hP935Pbii9j4yywk0VIEgzqOgmB1F8TG-jDtPVduQU,192
+helptools/urls.py,sha256=feQbfuLeKWgQixA8wEznCtUBJeOoN8XHBCeo0qkWvEc,146
+helptools/views.py,sha256=tY25c9K-jdoZ_Rs8ZviZAJN_VHDhl42Gqc_sdsbHzfQ,1519
+helptools/files/helpTools.js,sha256=MqjexLQj-rTKS4vgAA7SwcLTKVaUVBtfJJnrXABs4sg,5922
+helptools/files/helpTools.min.js,sha256=yujN5KMRg2nBQ9atAFDCnCsaUNL55C_oZAEq84QbBl8,4242
+helptools/files/icon.svg,sha256=A-vm7GLUPxKRdtYVSGoVNcxC1XZIc6ijz5rSQAHqIL8,792
+helptools/files/mic.svg,sha256=HWGY-6Sxv7iy5lHC3hHKgJNgYJP4ZAtw_X2US0avwvk,396
+helptools/files/docs/eng.html,sha256=wWt13BIgYMVyN3TIpg0xjBgPliandrCVDmOADAr3LCs,10706
+helptools/files/docs/index.html,sha256=2WE7mk-kl6Yek9VJe5_WFoD6zzt1lrFt8HOU3yTOAL4,2326
+helptools/files/docs/ru.html,sha256=QG5qqNCs4Ko4VLvaXK_rrMnnHauV3Ne26Fm21bXpTiE,13183
+helptools/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helptools/templatetags/helpTags.py,sha256=yNfDoAbNzEGQXOOa5VKDfXwTYpCoN1-IYsmdk0nZtXc,2361
+helptools-0.0.1.dist-info/METADATA,sha256=8RK6T6m3BuLmDJRU1h6iURXao_7zz4lnhVHdqLRvfq8,561
+helptools-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+helptools-0.0.1.dist-info/top_level.txt,sha256=zfGMsoPTkPAjGZo6IGdUDmR8XMO85JdULpJbC9ckmK0,10
+helptools-0.0.1.dist-info/RECORD,,
