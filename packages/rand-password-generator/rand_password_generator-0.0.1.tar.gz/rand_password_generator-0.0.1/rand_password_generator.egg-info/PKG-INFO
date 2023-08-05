@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: rand-password-generator
+Version: 0.0.1
+Summary: A very basic random password generator
+Home-page: https://github.com/DevER-M/rand_password_generator/
+Author: Dever
+Author-email: UNKNOWN
+License: MIT
+Description: this programme can generate random passwords only for 8 chars 
+        on the upcoming update(0.0.2) the password length can be increased to 16 
+        through a parameter
+        
+        
+        
+        
+        Change log
+        ==========
+        
+        0.0.1(26/4/2021)
+        ------------------
+        First Realease
+Keywords: random password
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
