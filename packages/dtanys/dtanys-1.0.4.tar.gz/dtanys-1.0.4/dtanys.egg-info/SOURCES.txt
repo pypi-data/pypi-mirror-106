@@ -1,0 +1,7 @@
+README.rst
+setup.py
+dtanys/__init__.py
+dtanys.egg-info/PKG-INFO
+dtanys.egg-info/SOURCES.txt
+dtanys.egg-info/dependency_links.txt
+dtanys.egg-info/top_level.txt
