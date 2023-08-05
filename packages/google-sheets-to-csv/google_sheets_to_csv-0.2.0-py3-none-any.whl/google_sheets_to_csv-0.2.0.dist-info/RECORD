@@ -1,0 +1,10 @@
+gs_to_csv/__init__.py,sha256=bA4GtkniRdq2--6cjASDLRM4gCsX_ysGJkaTMSmIQY8,202
+gs_to_csv/cli.py,sha256=0gfboZWP-AYJqQUtzVndoGBOd_iEtR9ZBlJ--Au21YY,4661
+gs_to_csv/exporter.py,sha256=5egCL0Y8WBgKqQFB8yqvUngeEkvcW-JKTOv8AD-qpw4,6322
+gs_to_csv/google_app_oauth_id.json,sha256=KrDrweWDNe4IfZiMPslwloREt1fJgml_M3fheoqzTMw,415
+google_sheets_to_csv-0.2.0.dist-info/LICENSE,sha256=ygh-22F7wr30UDHDIzzAGqWszcCudbJ5uAnjSKC7gbE,11346
+google_sheets_to_csv-0.2.0.dist-info/METADATA,sha256=tmmsP5ciXW59rF37L7oItxQsePVOe5K8cAeRChv8po4,5992
+google_sheets_to_csv-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+google_sheets_to_csv-0.2.0.dist-info/entry_points.txt,sha256=Atfb-wFJ2DZQJxZ9QbEyv3WgykUB-4a1TiNdDXHCuuA,60
+google_sheets_to_csv-0.2.0.dist-info/top_level.txt,sha256=c3EVPWW0HZUnBxuXZrT4XSvtFqMa3OvD9fInl6t0854,10
+google_sheets_to_csv-0.2.0.dist-info/RECORD,,
