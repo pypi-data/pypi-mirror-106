@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: cospy
+Version: 0.2.0
+Summary: A CLI tool to get you started with programming projects.
+Home-page: https://github.com/Adwaith-Rajesh/cospy
+Author: Adwaith-Rajesh
+Author-email: adwaithrajesh3180@gmail.com
+License: UNKNOWN
+Description: # Code Starter
+        ___
+        
+        A Simple CLI tool do a lot of things.
+        <br>
+        <br>
+        
+        ## Installation
+        ___
+        ```bash
+        pip install cospy
+        ```
+        ## API
+        ___
+        Below is the list of currently supported API.
+        
+        * [`cos init`](https://github.com/Adwaith-Rajesh/cospy/blob/master/docs/README.md#init)
+        * [`cos clean`](https://github.com/Adwaith-Rajesh/cospy/blob/master/docs/README.md#clean)
+Keywords: cli,python,code,development
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >3.6
+Description-Content-Type: text/markdown
