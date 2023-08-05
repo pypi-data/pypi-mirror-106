@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: jyp
+Version: 0.1.1
+Summary: Pocket converter for Korean to Canadian currency
+Home-page: https://github.com/MDAddario/jyp
+Author: Michael Lindner-D'Addario
+Author-email: michael.lindner.daddario@gmail.com
+License: UNKNOWN
+Description: # jyp
+        
+        ![image failed to load](banner.png "jyp banner")
+        
+        Pocket converter for **Korean to Canadian currency**
+        * Pull from **live-time conversion rate trends**
+        * Receive **automatic daily updates**
+        
+        ## Usage
+        
+        ```
+        from jyp import communicate, reminder
+        
+        # Send an immediate update
+        communicate()
+        
+        # Set repeating updates
+        reminder("8am")
+        ```
+        
+        ## Install
+        
+        ```
+        pip install jyp
+        ```
+        
+        ## How to run tests
+        
+        In the root directory run
+        ```
+        python -m tests.test
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
