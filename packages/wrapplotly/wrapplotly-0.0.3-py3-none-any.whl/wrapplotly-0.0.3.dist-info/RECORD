@@ -1,0 +1,15 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_sample.py,sha256=95Xa1HI4wDq10oFewgdsc_t5sgNSMMeLWBRewsjOaVQ,193
+tests/test_util.py,sha256=Q6sWFcYZUsvYeP2JT-F6CXSjhRkYxzWivAIIb_d9tjk,3157
+wrapplotly/_20210516_wordcloud.py,sha256=I1vkwg-pXCR4DDzuwxHV2P-eP6GtZopphejCGh2PyLc,8292
+wrapplotly/__init__.py,sha256=KhgQ1CZRwqDs5BNsrA06FFXmYe1CWbATNLtUr-_KW6A,186
+wrapplotly/_example_plot_wordcloud.py,sha256=nXbmQSlkLVSgp9I7b5Pecq1Rgt-AWEMDJE5jIw4w6JM,2678
+wrapplotly/_wordcloud_annotate.py,sha256=nkhwgm8z3o86wGpNd0xHTYx_n7NvrKoVCqapyxChgS0,3885
+wrapplotly/graphics.py,sha256=Q6wk2z78j_wBVTpiWEskkssoW7Wm-s2M_-LH6MR64Pw,13052
+wrapplotly/plot_wordcloud.py,sha256=63ERRLq_6bZsGiIDWnpTelE6BdipswY_gQOmY84FitE,6028
+wrapplotly/util.py,sha256=D4K2to5WOJsigUFCxhJl31KLVw3dxcLpe5RXIKtnpcc,910
+wrapplotly-0.0.3.dist-info/LICENSE,sha256=5s4-hgSRAZlpjA37BsL3NG-CR0ZC3UgRhYu7-Aba3JI,1073
+wrapplotly-0.0.3.dist-info/METADATA,sha256=pmGwo3ywOJoVhzVLYNy2981z7DKiyW6P43mlFu_jv2E,764
+wrapplotly-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wrapplotly-0.0.3.dist-info/top_level.txt,sha256=pgxL8VXaCozZfbVLCknCppuxThHB_2SysDFvC9HXWf8,17
+wrapplotly-0.0.3.dist-info/RECORD,,
