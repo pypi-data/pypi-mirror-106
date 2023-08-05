@@ -1,0 +1,4 @@
+include version.py
+include requirements_extra.txt
+include requirements_dev.txt
+include README.md
