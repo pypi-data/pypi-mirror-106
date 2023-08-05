@@ -1,0 +1,13 @@
+torch==1.7.1
+flair==0.8.0post1
+transformers==4.5.0
+ckip-transformers==0.2.3
+
+[spa]
+spacy==3.0.6
+spacy-transformers==1.0.2
+
+[test]
+pytest==6.2.3
+pytest-mock==3.5.1
+pytest-cov==2.11.1
