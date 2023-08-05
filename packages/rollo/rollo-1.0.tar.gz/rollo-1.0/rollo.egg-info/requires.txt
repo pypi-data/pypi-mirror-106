@@ -1,0 +1,5 @@
+deap
+numpy
+openmc
+jsonschema
+jinja2
