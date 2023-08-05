@@ -1,0 +1,133 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/archer/projects/pyxirr/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+DateLike	src/core/models.rs	/^impl From<&PyDate> for DateLike {$/;"	c
+DateLike	src/core/models.rs	/^impl From<NaiveDate> for DateLike {$/;"	c
+DateLike	src/core/models.rs	/^impl From<i32> for DateLike {$/;"	c
+DateLike	src/core/models.rs	/^impl std::ops::Sub for DateLike {$/;"	c
+DateLike	src/core/models.rs	/^impl std::str::FromStr for DateLike {$/;"	c
+DateLike	src/core/models.rs	/^impl<'s> FromPyObject<'s> for DateLike {$/;"	c
+DateLike	src/core/models.rs	/^pub struct DateLike(i32);$/;"	s
+Err	src/core/models.rs	/^    type Err = chrono::ParseError;$/;"	t	implementation:DateLike
+InvalidPaymentsError	src/core/models.rs	/^impl Display for InvalidPaymentsError {$/;"	c
+InvalidPaymentsError	src/core/models.rs	/^impl Error for InvalidPaymentsError {}$/;"	c
+InvalidPaymentsError	src/core/models.rs	/^pub struct InvalidPaymentsError;$/;"	s
+InvalidPaymentsError	src/core/xirr.rs	/^impl Display for InvalidPaymentsError {$/;"	c
+InvalidPaymentsError	src/core/xirr.rs	/^impl Error for InvalidPaymentsError {}$/;"	c
+InvalidPaymentsError	src/core/xirr.rs	/^pub struct InvalidPaymentsError;$/;"	s
+InvalidPaymentsError	src/xirr.rs	/^impl Display for InvalidPaymentsError {$/;"	c
+InvalidPaymentsError	src/xirr.rs	/^impl Error for InvalidPaymentsError {}$/;"	c
+InvalidPaymentsError	src/xirr.rs	/^pub struct InvalidPaymentsError;$/;"	s
+Output	src/core/models.rs	/^    type Output = i32;$/;"	t	implementation:DateLike
+Payment	src/core/models.rs	/^impl<'p> FromPyObject<'p> for Payment {$/;"	c
+Payment	src/core/models.rs	/^pub struct Payment {$/;"	s
+Payment	src/core/xirr.rs	/^impl<'s> FromPyObject<'s> for Payment {$/;"	c
+Payment	src/core/xirr.rs	/^pub struct Payment {$/;"	s
+Payment	src/xirr.rs	/^impl<'s> FromPyObject<'s> for Payment {$/;"	c
+Payment	src/xirr.rs	/^pub struct Payment {$/;"	s
+amount	src/core/models.rs	/^    pub amount: f64,$/;"	m	struct:Payment
+amount	src/core/xirr.rs	/^    pub amount: f64,$/;"	m	struct:Payment
+amount	src/xirr.rs	/^    pub amount: f64,$/;"	m	struct:Payment
+amounts	tests/conversion.py	/^amounts = [-1000, 1000, 1000]$/;"	v
+amounts	tests/test_conversion.py	/^amounts = [-1000, 1000, 1000]$/;"	v
+assert_almost_eq	tests/common.rs	/^pub fn assert_almost_eq(actual: f64, expected: f64) {$/;"	f
+assert_almost_eq	tests/common/mod.rs	/^macro_rules! assert_almost_eq {$/;"	M
+benchmark	benches/main.rs	/^fn benchmark(c: &mut Criterion) {$/;"	f
+common	benches/main.rs	/^mod common;$/;"	n
+common	tests/test_conversion.rs	/^mod common;$/;"	n
+common	tests/test_core_xirr.rs	/^mod common;$/;"	n
+common	tests/test_core_xnpv.rs	/^mod common;$/;"	n
+comparison	benches/main.rs	/^fn comparison(c: &mut Criterion) {$/;"	f
+compute_with_guess	src/core/xirr.rs	/^fn compute_with_guess(payments: &[Payment], deltas: &[f64], guess: f64) -> f64 {$/;"	f
+compute_with_guess	src/xirr.rs	/^fn compute_with_guess(payments: &Vec<Payment>, deltas: &Vec<f64>, guess: f64) -> f64 {$/;"	f
+core	src/lib.rs	/^pub mod core;$/;"	n
+date	src/core/models.rs	/^    pub date: DateLike,$/;"	m	struct:Payment
+date	src/core/xirr.rs	/^    pub date: NaiveDate,$/;"	m	struct:Payment
+date	src/xirr.rs	/^    pub date: NaiveDate,$/;"	m	struct:Payment
+dates	tests/conversion.py	/^dates = [date(2020, 1, 1), date(2021, 1, 1), date(2020, 1, 1)]$/;"	v
+dates	tests/test_conversion.py	/^dates = [date(2020, 1, 1), date(2021, 1, 1), date(2022, 1, 1)]$/;"	v
+expected	tests/test_conversion.py	/^expected = 0.6164943046828671$/;"	v
+expected_payments	src/lib.rs	/^    fn expected_payments() -> Vec<Payment> {$/;"	f	module:tests
+extract	src/core/models.rs	/^    fn extract(obj: &'p PyAny) -> PyResult<Self> {$/;"	P	implementation:Payment
+extract	src/core/models.rs	/^    fn extract(obj: &'s PyAny) -> PyResult<Self> {$/;"	P	implementation:DateLike
+extract	src/core/xirr.rs	/^    fn extract(tup: &'s PyAny) -> PyResult<Self> {$/;"	P	implementation:Payment
+extract	src/xirr.rs	/^    fn extract(obj: &'s PyAny) -> PyResult<Self> {$/;"	P	implementation:Payment
+extract_amount_series	src/conversions.rs	/^fn extract_amount_series(series: &PyAny) -> PyResult<Vec<f64>> {$/;"	f
+extract_amount_series_from_numpy	src/conversions.rs	/^fn extract_amount_series_from_numpy(series: &PyAny) -> PyResult<Vec<f64>> {$/;"	f
+extract_date_series	src/conversions.rs	/^fn extract_date_series(series: &PyAny) -> PyResult<Vec<DateLike>> {$/;"	f
+extract_date_series_from_numpy	src/conversions.rs	/^fn extract_date_series_from_numpy(series: &PyAny) -> PyResult<Vec<DateLike>> {$/;"	f
+extract_iterable	src/conversions.rs	/^fn extract_iterable<'a, T>(values: &'a PyAny) -> PyResult<Vec<T>>$/;"	f
+extract_iterable	src/lib.rs	/^fn extract_iterable<'a, T>(values: &'a PyAny) -> PyResult<Vec<T>>$/;"	f
+extract_payments	src/conversions.rs	/^pub fn extract_payments(dates: &PyAny, amounts: Option<&PyAny>) -> PyResult<Vec<Payment>> {$/;"	f
+extract_payments	src/lib.rs	/^fn extract_payments(dates: &PyAny, amounts: Option<&PyAny>) -> PyResult<Vec<Payment>> {$/;"	f
+fmt	src/core/models.rs	/^    fn fmt(&self, f: &mut Formatter) -> fmt::Result {$/;"	P	implementation:InvalidPaymentsError
+fmt	src/core/xirr.rs	/^    fn fmt(&self, f: &mut Formatter) -> fmt::Result {$/;"	P	implementation:InvalidPaymentsError
+fmt	src/xirr.rs	/^    fn fmt(&self, f: &mut Formatter) -> fmt::Result {$/;"	P	implementation:InvalidPaymentsError
+from	src/core/models.rs	/^    fn from(value: &PyDate) -> Self {$/;"	P	implementation:DateLike
+from	src/core/models.rs	/^    fn from(value: NaiveDate) -> Self {$/;"	P	implementation:DateLike
+from	src/core/models.rs	/^    fn from(value: i32) -> Self {$/;"	P	implementation:DateLike
+from_str	src/core/models.rs	/^    fn from_str(s: &str) -> chrono::ParseResult<Self> {$/;"	P	implementation:DateLike
+get_amounts	tests/test_conversion.rs	/^fn get_amounts(py: Python) -> &PyList {$/;"	f
+get_dates	tests/test_conversion.rs	/^fn get_dates(py: Python) -> &PyList {$/;"	f
+get_locals	tests/test_conversion.rs	/^fn get_locals<'p>(py: Python<'p>, extra_imports: Option<&[&str]>) -> &'p PyDict {$/;"	f
+get_samples	src/lib.rs	/^    fn get_samples(py: Python) -> Vec<&PyAny> {$/;"	f	module:tests
+load_payments	tests/common.rs	/^pub fn load_payments(file: &str) -> Vec<Payment> {$/;"	f
+load_payments	tests/common/mod.rs	/^pub fn load_payments<'p>($/;"	f
+load_payments	tests/test_xirr.rs	/^fn load_payments(file: &str) -> Vec<Payment> {$/;"	f
+main	src/main.rs	/^fn main() {$/;"	f
+max_error	tests/test_conversion.py	/^max_error = 1e-10$/;"	v
+models	src/core/mod.rs	/^mod models;$/;"	n
+precalculate_deltas	src/core/xirr.rs	/^fn precalculate_deltas(payments: &[Payment]) -> Vec<f64> {$/;"	f
+precalculate_deltas	src/xirr.rs	/^fn precalculate_deltas(payments: &Vec<Payment>) -> Vec<f64> {$/;"	f
+pyxirr	src/lib.rs	/^fn pyxirr(py: Python, m: &PyModule) -> PyResult<()> {$/;"	f
+sub	src/core/models.rs	/^    fn sub(self, other: DateLike) -> Self::Output {$/;"	P	implementation:DateLike
+test_extract_from_dataframe	tests/test_conversion.py	/^def test_extract_from_dataframe():$/;"	f
+test_extract_from_dict	src/lib.rs	/^    fn test_extract_from_dict() -> PyResult<()> {$/;"	f	module:tests
+test_extract_from_dict	tests/test_conversion.py	/^def test_extract_from_dict():$/;"	f
+test_extract_from_dict	tests/test_conversion.rs	/^fn test_extract_from_dict() {$/;"	f
+test_extract_from_iter	tests/conversion.py	/^def test_extract_from_iter():$/;"	f
+test_extract_from_iter	tests/test_conversion.py	/^def test_extract_from_iter():$/;"	f
+test_extract_from_iter	tests/test_conversion.rs	/^fn test_extract_from_iter() {$/;"	f
+test_extract_from_iterators	src/lib.rs	/^    fn test_extract_from_iterators() -> PyResult<()> {$/;"	f	module:tests
+test_extract_from_lists	tests/test_conversion.rs	/^fn test_extract_from_lists() {$/;"	f
+test_extract_from_mixed_iterables	tests/test_conversion.rs	/^fn test_extract_from_mixed_iterables() {$/;"	f
+test_extract_from_numpy_arrays	tests/test_conversion.py	/^def test_extract_from_numpy_arrays():$/;"	f
+test_extract_from_numpy_arrays	tests/test_conversion.rs	/^fn test_extract_from_numpy_arrays() {$/;"	f
+test_extract_from_numpy_object_array	tests/test_conversion.py	/^def test_extract_from_numpy_object_array():$/;"	f
+test_extract_from_numpy_object_array	tests/test_conversion.rs	/^fn test_extract_from_numpy_object_array() {$/;"	f
+test_extract_from_pandas_dataframe	tests/test_conversion.rs	/^fn test_extract_from_pandas_dataframe() {$/;"	f
+test_extract_from_pandas_series	tests/test_conversion.rs	/^fn test_extract_from_pandas_series() {$/;"	f
+test_extract_from_tuples	src/lib.rs	/^    fn test_extract_from_tuples() -> PyResult<()> {$/;"	f	module:tests
+test_extract_from_tuples	tests/conversion.py	/^def test_extract_from_tuples():$/;"	f
+test_extract_from_tuples	tests/test_conversion.py	/^def test_extract_from_tuples():$/;"	f
+test_extract_from_tuples	tests/test_conversion.rs	/^fn test_extract_from_tuples() {$/;"	f
+test_pandas_read_csv	tests/test_conversion.rs	/^fn test_pandas_read_csv(#[case] input: &str, #[case] expected: f64) {$/;"	f
+test_read_csv	tests/test_conversion.py	/^def test_read_csv():$/;"	f
+test_samples	tests/test_core_xirr.rs	/^fn test_samples(#[case] input: &str, #[case] expected: f64) {$/;"	f
+test_samples	tests/test_core_xnpv.rs	/^fn test_samples(#[case] rate: f64, #[case] input: &str, #[case] expected: f64) {$/;"	f
+test_xirr	tests/test_xirr.rs	/^fn test_xirr() {$/;"	f
+test_xirr_unordered	src/xirr.rs	/^    fn test_xirr_unordered() {$/;"	f	module:tests
+test_xnpv	src/xirr.rs	/^    fn test_xnpv() {$/;"	f	module:tests
+tests	src/lib.rs	/^mod tests {$/;"	n
+tests	src/xirr.rs	/^mod tests {$/;"	n
+validate	src/core/xirr.rs	/^fn validate(payments: &[Payment]) -> Result<(), InvalidPaymentsError> {$/;"	f
+validate	src/xirr.rs	/^fn validate(payments: &Vec<Payment>) -> Result<(), InvalidPaymentsError> {$/;"	f
+xirr	src/core/mod.rs	/^mod xirr;$/;"	n
+xirr	src/core/xirr.rs	/^pub fn xirr(payments: &[Payment], guess: Option<f64>) -> Result<f64, InvalidPaymentsError> {$/;"	f
+xirr	src/lib.rs	/^pub fn xirr(dates: &PyAny, amounts: Option<&PyAny>, guess: Option<f64>) -> PyResult<f64> {$/;"	f
+xirr	src/xirr.rs	/^pub fn xirr(payments: &Vec<Payment>, guess: Option<f64>) -> Result<f64, InvalidPaymentsError> {$/;"	f
+xirr_result	src/core/xirr.rs	/^fn xirr_result(payments: &[Payment], deltas: &[f64], rate: f64) -> f64 {$/;"	f
+xirr_result	src/xirr.rs	/^fn xirr_result(payments: &Vec<Payment>, deltas: &Vec<f64>, rate: f64) -> f64 {$/;"	f
+xirr_result_deriv	src/core/xirr.rs	/^fn xirr_result_deriv(payments: &[Payment], deltas: &[f64], rate: f64) -> f64 {$/;"	f
+xirr_result_deriv	src/xirr.rs	/^fn xirr_result_deriv(payments: &Vec<Payment>, deltas: &Vec<f64>, rate: f64) -> f64 {$/;"	f
+xnpv	src/core/xirr.rs	/^pub fn xnpv(rate: f64, payments: &[Payment]) -> Result<f64, InvalidPaymentsError> {$/;"	f
+xnpv	src/lib.rs	/^pub fn xnpv(rate: f64, dates: &PyAny, amounts: Option<&PyAny>) -> PyResult<f64> {$/;"	f
+xnpv	src/xirr.rs	/^pub fn xnpv(rate: f64, payments: &Vec<Payment>) -> Result<f64, InvalidPaymentsError> {$/;"	f
