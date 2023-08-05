@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: cloud-mappings
+Version: 0.7.2
+Summary: MutableMapping interfaces for common cloud storage providers
+Home-page: https://github.com/JJ11teen/cloud-mappings
+Author: Lucas Sargent
+Author-email: lucas.sargent@eliiza.com.au
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/JJ11teen/cloud-mappings/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: zict (>=2.0)
+Provides-Extra: aws
+Requires-Dist: boto3 ; extra == 'aws'
+Provides-Extra: azure
+Requires-Dist: azure-identity ; extra == 'azure'
+Requires-Dist: azure-storage-blob ; extra == 'azure'
+Provides-Extra: gcp
+Requires-Dist: google-cloud-storage ; extra == 'gcp'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+# cloud-mappings
+MutableMapping implementations for common cloud storage providers
+
+![Build](https://github.com/JJ11teen/cloud-mappings/actions/workflows/build.yaml/badge.svg)
+
+For now `AzureBlobMapping` and `GoogleCloudStorageMapping` are implemented. AWS S3 is next on the list.
+
+## Installation
+
+with pip:
+```
+pip install cloud-mappings
+```
+
+## Basic Usage
+
+**Step 1**: Instantiate a mapping backed by your chosen cloud storage provider
+
+**Step 2**: Use it just like a standard `dict()`
+
+### AzureBlobMapping:
+```python
+from cloudmappings import AzureBlobMapping
+
+cm = AzureBlobMapping.with_pickle(
+    account_url="AZURE_BLOB_STORAGE_URL",
+    container_name="CONTAINER_NAME",
+    credential=AZURE_CREDENTIAL_OBJECT,
+)
+```
+
+### GoogleCloudStorageMapping:
+```python
+from cloudmappings import GoogleCloudStorageMapping
+
+cm = GoogleCloudStorageMapping.with_pickle(
+    project="GCP_PROJECT",
+    credentials=GCP_CREDENTIALS_OBJECT,
+    bucket_name="BUCKET_NAME",
+)
+```
+
+### AWSS3Mapping:
+```python
+from cloudmappings import AWSS3Mapping
+
+cm = AWSS3Mapping.with_pickle(
+    bucket_name="AWS_BUCKET_NAME",
+    silence_warning=False,
+)
+```
+Note that AWS S3 does not support server atomic requests, so it is not recommended for concurrent use. A warning is printed out by default but may be silenced by passing `silence_warning=True`.
+
+
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
