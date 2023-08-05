@@ -1,0 +1,10 @@
+configargparse
+flask
+flask-cors
+gunicorn
+jinja2
+openpyxl
+xlrd
+xlwt
+pandas
+wcmatch
