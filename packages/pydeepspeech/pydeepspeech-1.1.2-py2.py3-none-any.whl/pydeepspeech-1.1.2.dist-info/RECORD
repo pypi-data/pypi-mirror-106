@@ -1,0 +1,14 @@
+pydeepspeech/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydeepspeech/audioTranscript_cmd.py,sha256=aSf9pvgPRoKn8WT-M2R7UNY66lgWcfBIMeDB8ojs1xI,4351
+pydeepspeech/audioTranscript_gui.py,sha256=AUaMKigWl0UKkFdoYvdTqqxwdsWWhbn5UiSqpDr_TsI,14737
+pydeepspeech/installModels.py,sha256=0dfeEuxmjDEkXtGEe4BsPU2Cnr4Dr0mWPKtlQp8UVoI,2244
+pydeepspeech/run.py,sha256=zIRX4B9Z4WAJyC_fwJ55jxLrkSAulS68JHkDIPCuPC0,1834
+pydeepspeech/util.py,sha256=q8eKsdjnSuEdd32_kNSbJp4Ex61O2JLVInroALVybmI,417
+pydeepspeech/wavSplit.py,sha256=24BZ8O-c2m59aNAP72y3DuveRSF63lRRomgIUU-m7ZA,4813
+pydeepspeech/wavTranscriber.py,sha256=-63kSH8uUMrpl7k-ssnaUKo6RJa9HPtpjowGOD8_-kU,2811
+pydeepspeech-1.1.2.dist-info/LICENSE,sha256=4GL3bniwdvm2phW-aKJQ6zPKeu0O9Y0HqbfE7tbxZls,1064
+pydeepspeech-1.1.2.dist-info/METADATA,sha256=CFlsH0bO0mWQJ50zdfm63KrbRe3JyYx3iOQPIYsiSZM,2245
+pydeepspeech-1.1.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pydeepspeech-1.1.2.dist-info/entry_points.txt,sha256=ykqVbssOiTbC5SF0-P_QAYHReCowVz6wThBIH6wATgQ,56
+pydeepspeech-1.1.2.dist-info/top_level.txt,sha256=Ca2aV2x_CEl7BfNRbxKpNT3KaLU8uneJbUnPBACHL3k,13
+pydeepspeech-1.1.2.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+pydeepspeech = pydeepspeech.run:main
+
