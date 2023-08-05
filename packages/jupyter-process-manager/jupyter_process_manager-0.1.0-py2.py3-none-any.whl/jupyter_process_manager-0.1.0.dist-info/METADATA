@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: jupyter-process-manager
+Version: 0.1.0
+Summary: python package with widget to simplify work with many processes in jupyter
+Home-page: https://github.com/stas-prokopiev/jupyter_process_manager
+Author: stanislav
+Author-email: stas.prokopiev@gmail.com
+License: mit
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: yaspin
+Requires-Dist: tqdm
+Requires-Dist: tabulate
+Requires-Dist: char
+Requires-Dist: ipywidgets
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+=======================
+jupyter_process_manager
+=======================
+
+
+To be done next week :(
+
+
+Description
+===========
+
+
+
