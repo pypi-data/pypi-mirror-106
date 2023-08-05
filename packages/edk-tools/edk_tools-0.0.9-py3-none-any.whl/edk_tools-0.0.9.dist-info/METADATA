@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: edk-tools
+Version: 0.0.9
+Summary: edk tools 공통 모음
+Home-page: https://kakao.tistory.com
+Author: jeff.edk
+Author-email: jeff.edk@kakaoenterprise.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+
+UNKNOWN
+
+
