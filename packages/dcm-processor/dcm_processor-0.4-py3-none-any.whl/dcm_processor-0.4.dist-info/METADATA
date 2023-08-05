@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dcm-processor
+Version: 0.4
+Summary: A Command line tool for the dicom processor library
+Home-page: https://github.com/giesekow/dcm-processor-cli
+Author: Giles Tetteh
+Author-email: giles.tetteh@tum.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: python-dotenv
+Requires-Dist: inquirer
+Requires-Dist: docker-compose
+Requires-Dist: PyYAML
+
+UNKNOWN
+
+
