@@ -1,0 +1,8 @@
+numpy
+mysqlclient
+django
+django_tables2
+pyyaml
+docopt
+gkhtm
+gkutils
