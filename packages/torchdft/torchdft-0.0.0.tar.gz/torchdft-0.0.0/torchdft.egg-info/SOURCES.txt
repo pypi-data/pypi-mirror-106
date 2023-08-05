@@ -1,0 +1,6 @@
+setup.py
+torchdft/__init__.py
+torchdft.egg-info/PKG-INFO
+torchdft.egg-info/SOURCES.txt
+torchdft.egg-info/dependency_links.txt
+torchdft.egg-info/top_level.txt
