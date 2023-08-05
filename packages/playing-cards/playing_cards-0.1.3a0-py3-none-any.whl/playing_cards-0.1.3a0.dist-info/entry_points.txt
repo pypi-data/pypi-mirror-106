@@ -1,0 +1,3 @@
+[console_scripts]
+playing_cards=playing_cards.main:main
+
