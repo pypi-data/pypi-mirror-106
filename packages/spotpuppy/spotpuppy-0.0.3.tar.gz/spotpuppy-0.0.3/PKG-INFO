@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: spotpuppy
+Version: 0.0.3
+Summary: Package for controlling a dynamically balanced quadruped
+Home-page: UNKNOWN
+Author: Josh Pattman
+Author-email: josh.pattman@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/JoshPattman/Spot-Puppy-Lib/archive/refs/tags/0.0.3.tar.gz
+Description: # Spot Puppy Python Library
+        This package contains code to easily get a quadruped up and running. It also contains extendable classes to allow you to write your own balancing algorithms and gaits
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
