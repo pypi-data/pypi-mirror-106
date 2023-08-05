@@ -1,0 +1,7 @@
+README.md
+setup.py
+pytgauth/__init__.py
+pytgauth.egg-info/PKG-INFO
+pytgauth.egg-info/SOURCES.txt
+pytgauth.egg-info/dependency_links.txt
+pytgauth.egg-info/top_level.txt
