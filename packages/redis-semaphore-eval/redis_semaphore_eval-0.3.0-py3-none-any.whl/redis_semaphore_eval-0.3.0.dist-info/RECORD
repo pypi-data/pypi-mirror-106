@@ -1,0 +1,5 @@
+redis_semaphore_eval/__init__.py,sha256=BsHBqNg5Wrz6w_zipbY-NGM_MMO9_kvw1X6lVAJ7McE,6353
+redis_semaphore_eval-0.3.0.dist-info/LICENSE.md,sha256=9m2uFnxPWzhlP1hEsiR7bYXZum0pcDXUHabS25mSd2A,1094
+redis_semaphore_eval-0.3.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+redis_semaphore_eval-0.3.0.dist-info/METADATA,sha256=ZBsRX3JuV_BlufUv7_04fAN8salFAT0KAqiKpSlnKFw,2427
+redis_semaphore_eval-0.3.0.dist-info/RECORD,,
