@@ -1,0 +1,16 @@
+README.md
+setup.py
+Scython.egg-info/PKG-INFO
+Scython.egg-info/SOURCES.txt
+Scython.egg-info/dependency_links.txt
+Scython.egg-info/entry_points.txt
+Scython.egg-info/top_level.txt
+scy/__init__.py
+scy/__main__.py
+scy/backend.py
+scy/builtins.py
+scy/exceptions.py
+scy/parser.py
+scy/tokenizer.py
+scy/tokens.py
+scy/utils.py
