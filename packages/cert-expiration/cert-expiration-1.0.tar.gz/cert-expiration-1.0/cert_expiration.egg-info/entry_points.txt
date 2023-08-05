@@ -1,0 +1,3 @@
+[console_scripts]
+cert-expiration = cert_expiration.__main__:main
+

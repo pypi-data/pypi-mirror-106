@@ -1,0 +1,25 @@
+cert-expiration
+===============
+
+Get certificates expiration dates across multiple domains.
+
+::
+
+    usage: cert-expiration [-h] [-v] [-w WORKERS] [-t TIMEOUT] [-s SEPARATOR] [-f FORMAT] inputfile
+
+    Get ssl certificates expiration dates. Outputs a CSV formatted list of domains with dates.
+
+    positional arguments:
+      inputfile             Input file or - for stdin
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      -v, --version         show program's version number and exit
+      -w WORKERS, --workers WORKERS
+                            Workers (default 8)
+      -t TIMEOUT, --timeout TIMEOUT
+                            Timeout (default 1.0)
+      -s SEPARATOR, --separator SEPARATOR
+                            Field separator (default ;)
+      -f FORMAT, --format FORMAT
+                            Datetime format (default iso)
