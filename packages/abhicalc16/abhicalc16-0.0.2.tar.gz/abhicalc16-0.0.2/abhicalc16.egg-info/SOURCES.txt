@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+abhicalc16.egg-info/PKG-INFO
+abhicalc16.egg-info/SOURCES.txt
+abhicalc16.egg-info/dependency_links.txt
+abhicalc16.egg-info/top_level.txt
+abhicalc164.egg-info/SOURCES.txt
+abhicalc164.egg-info/dependency_links.txt
+abhicalc164.egg-info/top_level.txt
+abhisbasiccalc1/__init__.py
