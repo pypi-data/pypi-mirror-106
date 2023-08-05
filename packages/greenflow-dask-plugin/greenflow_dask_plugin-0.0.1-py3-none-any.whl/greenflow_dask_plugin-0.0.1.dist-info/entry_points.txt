@@ -1,0 +1,3 @@
+[greenflow.plugin]
+greenflow_dask_plugin = greenflow_dask_plugin
+

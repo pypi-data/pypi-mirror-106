@@ -1,0 +1,9 @@
+greenflow_dask_plugin/__init__.py,sha256=scjB0ZY7r_EK0rFePzUbVdDn01zf-rQgOZZ5DCYntYQ,201
+greenflow_dask_plugin/daskComputeNode.py,sha256=fXmUUCyu8pV6SxQx6QJHh5SU-8Ui8uNc50PdPwlfPd8,2360
+greenflow_dask_plugin/persistNode.py,sha256=IJAlG6Vx5CqTpp4IlvmxZwBMtdD9fczHiuOd8FweZl8,2433
+greenflow_dask_plugin/simpleParallelNode.py,sha256=nP0VF-iXijEKPAl4u3fp2JWO15N98frqIj6fxQWZzqg,9451
+greenflow_dask_plugin-0.0.1.dist-info/METADATA,sha256=NGqfibhgmgCN5BRl2WD6lN6oeBAAUXy7cJlbEdT0eoY,210
+greenflow_dask_plugin-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+greenflow_dask_plugin-0.0.1.dist-info/entry_points.txt,sha256=ze1kT-pGrZPZWb2e_gX4RUfN2OEP7lylfNAaobxsC7M,66
+greenflow_dask_plugin-0.0.1.dist-info/top_level.txt,sha256=lSN56mzXXvEX98QMXiYLiOen0jfXlKFNKLBgtafLNXU,22
+greenflow_dask_plugin-0.0.1.dist-info/RECORD,,
