@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: units-calculator
+Version: 1.0.0
+Summary: A units calculator for dimensional analysis, optimized for comfort over performance
+Home-page: https://github.com/KanHarI/units-calculator
+Author: Itay KanHar
+Author-email: knaan.harpaz@gmail.com
+License: MIT
+Description: # units-calculator
+        Simple units python calculator optimized for convenience
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
