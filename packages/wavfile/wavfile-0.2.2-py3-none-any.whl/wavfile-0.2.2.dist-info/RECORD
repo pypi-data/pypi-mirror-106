@@ -1,0 +1,11 @@
+wavfile/__init__.py,sha256=nWUULBX2gvqcRCkvygYP2SSP0izM-Fj0wPfy1-oyYjM,2805
+wavfile/version.py,sha256=HZylBXiANuvj1HuRUHMQBWUaWTwubDt67CQG_uer98E,22
+wavfile/wavfile.py,sha256=fWCfwO8k0UIyPnWydtSALellQU9qxcJC4nt5dYxesh8,1447
+wavfile/wavfile_base.py,sha256=dPfwt5Lv9iZtSFPm_-Fbp67979pGOXThYJsZCZ0TBEE,3146
+wavfile/wavread.py,sha256=d3v-BOfIktoxyxHENbth99Ne9RsQ91HEq-I9LHnusw8,6583
+wavfile/wavwrite.py,sha256=5JIpbFxxrZCzoVHZ-mq7oEzxiIFET9SlGaQxJVbfW8Q,7092
+wavfile-0.2.2.dist-info/LICENSE.txt,sha256=2rmKKZEk_9mxPNnQ4keefaP3nCfyEQkCMX6q-MiToAY,1065
+wavfile-0.2.2.dist-info/METADATA,sha256=8vxANZZYDLLUCm_3tmfVLvqhARuXeJF5kyUNb_e8qMg,3702
+wavfile-0.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wavfile-0.2.2.dist-info/top_level.txt,sha256=BzfJ3l69KHCotx3XgeJGCB-YQHFEYVAbfVC_OMuUXLc,8
+wavfile-0.2.2.dist-info/RECORD,,
