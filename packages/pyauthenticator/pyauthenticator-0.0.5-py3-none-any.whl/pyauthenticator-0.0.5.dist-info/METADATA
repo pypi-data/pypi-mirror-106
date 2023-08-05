@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyauthenticator
+Version: 0.0.5
+Summary: Similar to the Google authenticator just written in python.
+Home-page: https://github.com/jan-janssen/pyauthenticator
+Author: Jan Janssen
+Author-email: jan.janssen@outlook.com
+License: BSD
+Platform: UNKNOWN
+Requires-Dist: otpauth (>=1.0.1)
+Requires-Dist: qrcode (>=6.1)
+Requires-Dist: pyzbar (>=0.1.8)
+Requires-Dist: pillow (>=8.1.2)
+
+UNKNOWN
+
+

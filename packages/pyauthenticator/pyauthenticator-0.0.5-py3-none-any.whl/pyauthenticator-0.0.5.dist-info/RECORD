@@ -1,0 +1,10 @@
+pyauthenticator/__init__.py,sha256=cYxtctSLQKLOb4BpE9gaZKiDZnrVd1KWPIfL4ApcpdY,864
+pyauthenticator/__main__.py,sha256=q1RXYFVp6bE6r-054Y9QQI8wsn-YIpYuiqM2kfG7KY0,1307
+pyauthenticator/_version.py,sha256=k9Xao8w4tQyMpJtdb3IXfA1eFubEJ5j6ldwwlSjvXro,18507
+pyauthenticator/share.py,sha256=5HWaOI1JgpBIqyUzaa7HSsUgurHnnXi_vVA2l4FEZUQ,5480
+pyauthenticator-0.0.5.dist-info/LICENSE,sha256=qhVxo0On5NkgNCgHv_DgGniFvE0M-e9Oes5ua9lZWVo,1510
+pyauthenticator-0.0.5.dist-info/METADATA,sha256=S5tCDT9AsigYo3_Iabs0TjNNW89_A7-CbU3x8ecXOIs,413
+pyauthenticator-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyauthenticator-0.0.5.dist-info/entry_points.txt,sha256=Wp5ww768cY0_bHcAbDlb_WvsIp3LToMaDCQlOfgnyNI,67
+pyauthenticator-0.0.5.dist-info/top_level.txt,sha256=mEQYLEr2K05o3Rg_JMxSujfJXF54CDhEs8iH9ri-Vp8,16
+pyauthenticator-0.0.5.dist-info/RECORD,,
