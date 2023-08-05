@@ -1,0 +1,171 @@
+going to create a new package
+package name: robot_with_link_only_description
+destination directory: /home/gregoire/Documents/Code/URDFParser/simpleurdf/simpleurdf/scripts
+package format: 3
+version: 0.0.0
+description: TODO: Package description
+maintainer: ['gregoire <gregoire.pichereau@gmail.com>']
+licenses: ['TODO: License declaration']
+build type: ament_python
+dependencies: []
+creating folder ./robot_with_link_only_description
+creating ./robot_with_link_only_description/package.xml
+creating source folder
+creating folder ./robot_with_link_only_description/robot_with_link_only_description
+creating ./robot_with_link_only_description/setup.py
+creating ./robot_with_link_only_description/setup.cfg
+creating folder ./robot_with_link_only_description/resource
+creating ./robot_with_link_only_description/resource/robot_with_link_only_description
+creating ./robot_with_link_only_description/robot_with_link_only_description/__init__.py
+creating folder ./robot_with_link_only_description/test
+creating ./robot_with_link_only_description/test/test_copyright.py
+creating ./robot_with_link_only_description/test/test_flake8.py
+creating ./robot_with_link_only_description/test/test_pep257.py
+going to create a new package
+package name: robot_with_link_only_description
+destination directory: /home/gregoire/Documents/Code/URDFParser/simpleurdf/simpleurdf/scripts
+package format: 3
+version: 0.0.0
+description: TODO: Package description
+maintainer: ['gregoire <gregoire.pichereau@gmail.com>']
+licenses: ['TODO: License declaration']
+build type: ament_python
+dependencies: []
+creating folder ./robot_with_link_only_description
+creating ./robot_with_link_only_description/package.xml
+creating source folder
+creating folder ./robot_with_link_only_description/robot_with_link_only_description
+creating ./robot_with_link_only_description/setup.py
+creating ./robot_with_link_only_description/setup.cfg
+creating folder ./robot_with_link_only_description/resource
+creating ./robot_with_link_only_description/resource/robot_with_link_only_description
+creating ./robot_with_link_only_description/robot_with_link_only_description/__init__.py
+creating folder ./robot_with_link_only_description/test
+creating ./robot_with_link_only_description/test/test_copyright.py
+creating ./robot_with_link_only_description/test/test_flake8.py
+creating ./robot_with_link_only_description/test/test_pep257.py
+going to create a new package
+package name: robot_with_link_only_description
+destination directory: /home/gregoire/Documents/Code/URDFParser/simpleurdf/simpleurdf/scripts
+package format: 3
+version: 0.0.0
+description: TODO: Package description
+maintainer: ['gregoire <gregoire.pichereau@gmail.com>']
+licenses: ['TODO: License declaration']
+build type: ament_python
+dependencies: []
+creating folder ./robot_with_link_only_description
+creating ./robot_with_link_only_description/package.xml
+creating source folder
+creating folder ./robot_with_link_only_description/robot_with_link_only_description
+creating ./robot_with_link_only_description/setup.py
+creating ./robot_with_link_only_description/setup.cfg
+creating folder ./robot_with_link_only_description/resource
+creating ./robot_with_link_only_description/resource/robot_with_link_only_description
+creating ./robot_with_link_only_description/robot_with_link_only_description/__init__.py
+creating folder ./robot_with_link_only_description/test
+creating ./robot_with_link_only_description/test/test_copyright.py
+creating ./robot_with_link_only_description/test/test_flake8.py
+creating ./robot_with_link_only_description/test/test_pep257.py
+going to create a new package
+package name: robot_with_link_only_description
+destination directory: /home/gregoire/Documents/Code/URDFParser/simpleurdf/simpleurdf/scripts
+package format: 3
+version: 0.0.0
+description: TODO: Package description
+maintainer: ['gregoire <gregoire.pichereau@gmail.com>']
+licenses: ['TODO: License declaration']
+build type: ament_python
+dependencies: []
+creating folder ./robot_with_link_only_description
+creating ./robot_with_link_only_description/package.xml
+creating source folder
+creating folder ./robot_with_link_only_description/robot_with_link_only_description
+creating ./robot_with_link_only_description/setup.py
+creating ./robot_with_link_only_description/setup.cfg
+creating folder ./robot_with_link_only_description/resource
+creating ./robot_with_link_only_description/resource/robot_with_link_only_description
+creating ./robot_with_link_only_description/robot_with_link_only_description/__init__.py
+creating folder ./robot_with_link_only_description/test
+creating ./robot_with_link_only_description/test/test_copyright.py
+creating ./robot_with_link_only_description/test/test_flake8.py
+creating ./robot_with_link_only_description/test/test_pep257.py
+== create_pkg 2021-05-10T22:31:51Z Deployment BEGIN
+== create_pkg 2021-05-10T22:31:51Z ENV variables
+BAGCLI_WORKDIR=/home/gregoire/Documents/Code/URDFParser/simpleurdf/simpleurdf/scripts
+== create_pkg 2021-05-10T22:31:51Z Executing helm upgrade --install ...
+== create_pkg 2021-05-10T22:31:51Z Deployment END
+going to create a new package
+package name: robot_with_link_only_description
+destination directory: /home/gregoire/Documents/Code/URDFParser/simpleurdf/simpleurdf/scripts
+package format: 3
+version: 0.0.0
+description: TODO: Package description
+maintainer: ['gregoire <gregoire.pichereau@gmail.com>']
+licenses: ['TODO: License declaration']
+build type: ament_python
+dependencies: []
+creating folder ./robot_with_link_only_description
+creating ./robot_with_link_only_description/package.xml
+creating source folder
+creating folder ./robot_with_link_only_description/robot_with_link_only_description
+creating ./robot_with_link_only_description/setup.py
+creating ./robot_with_link_only_description/setup.cfg
+creating folder ./robot_with_link_only_description/resource
+creating ./robot_with_link_only_description/resource/robot_with_link_only_description
+creating ./robot_with_link_only_description/robot_with_link_only_description/__init__.py
+creating folder ./robot_with_link_only_description/test
+creating ./robot_with_link_only_description/test/test_copyright.py
+creating ./robot_with_link_only_description/test/test_flake8.py
+creating ./robot_with_link_only_description/test/test_pep257.py
+going to create a new package
+package name: robot_with_link_only_description
+destination directory: /home/gregoire/Documents/Code/URDFParser/simpleurdf/simpleurdf/scripts
+package format: 3
+version: 0.0.0
+description: TODO: Package description
+maintainer: ['gregoire <gregoire.pichereau@gmail.com>']
+licenses: ['TODO: License declaration']
+build type: ament_python
+dependencies: []
+creating folder ./robot_with_link_only_description
+creating ./robot_with_link_only_description/package.xml
+creating source folder
+creating folder ./robot_with_link_only_description/robot_with_link_only_description
+creating ./robot_with_link_only_description/setup.py
+creating ./robot_with_link_only_description/setup.cfg
+creating folder ./robot_with_link_only_description/resource
+creating ./robot_with_link_only_description/resource/robot_with_link_only_description
+creating ./robot_with_link_only_description/robot_with_link_only_description/__init__.py
+creating folder ./robot_with_link_only_description/test
+creating ./robot_with_link_only_description/test/test_copyright.py
+creating ./robot_with_link_only_description/test/test_flake8.py
+creating ./robot_with_link_only_description/test/test_pep257.py
+going to create a new package
+package name: robot_with_link_only_description
+destination directory: /home/gregoire/Documents/Code/URDFParser/simpleurdf/simpleurdf/scripts
+package format: 3
+version: 0.0.0
+description: TODO: Package description
+maintainer: ['gregoire <gregoire.pichereau@gmail.com>']
+licenses: ['TODO: License declaration']
+build type: ament_python
+dependencies: []
+creating folder ./robot_with_link_only_description
+creating ./robot_with_link_only_description/package.xml
+creating source folder
+creating folder ./robot_with_link_only_description/robot_with_link_only_description
+creating ./robot_with_link_only_description/setup.py
+creating ./robot_with_link_only_description/setup.cfg
+creating folder ./robot_with_link_only_description/resource
+creating ./robot_with_link_only_description/resource/robot_with_link_only_description
+creating ./robot_with_link_only_description/robot_with_link_only_description/__init__.py
+creating folder ./robot_with_link_only_description/test
+creating ./robot_with_link_only_description/test/test_copyright.py
+creating ./robot_with_link_only_description/test/test_flake8.py
+creating ./robot_with_link_only_description/test/test_pep257.py
+== create_pkg 2021-05-10T22:36:59Z Deployment BEGIN
+== create_pkg 2021-05-10T22:36:59Z ENV variables
+BAGCLI_WORKDIR=/home/gregoire/Documents/Code/URDFParser/simpleurdf/simpleurdf/scripts
+== create_pkg 2021-05-10T22:36:59Z Executing helm upgrade --install ...
+== create_pkg 2021-05-10T22:36:59Z Deployment END
