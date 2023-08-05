@@ -1,0 +1,12 @@
+meshkernel-0.9.0.data/purelib/meshkernel/MeshKernelApi.dll,sha256=_SRosiSiYdbrob_NoySbawnveXLwFrHVf66TCGjuDKo,670720
+meshkernel-0.9.0.data/purelib/meshkernel/__init__.py,sha256=jiaFCw_7tuG4SbUvGXUjTMluHgQ8JpoyrwUPPhGHQ8g,504
+meshkernel-0.9.0.data/purelib/meshkernel/c_structures.py,sha256=238RqmsM-PYCdZdy68T2wUtQvBmEEQr7Dw03_Rzhy4A,16449
+meshkernel-0.9.0.data/purelib/meshkernel/errors.py,sha256=cdqBdbfWARJFg3GcGxBHu-FAGbpSxa0gacNQozLxAFk,271
+meshkernel-0.9.0.data/purelib/meshkernel/factories.py,sha256=AmSzb8tkxdvx9mMpR8M5QpswHQbGzDxBA7jBFU1maQU,3077
+meshkernel-0.9.0.data/purelib/meshkernel/meshkernel.py,sha256=5iFZS90iRoWzirk7QLj1b8xqnsS5997G1jVWz5z51dA,37004
+meshkernel-0.9.0.data/purelib/meshkernel/py_structures.py,sha256=WqONK69m-yYoh16NhNfbfoIgHmdfPi2AQyv66UJbJSs,6907
+meshkernel-0.9.0.dist-info/LICENSE,sha256=lMA1O5mkI54RB9ZfouO6Hg41Y_-LDKFckjPf5Cl-bME,1086
+meshkernel-0.9.0.dist-info/METADATA,sha256=le7kGSN2zjtmtLe-zaFQ3sjueiG0TS_8RV-UagIHZew,1765
+meshkernel-0.9.0.dist-info/WHEEL,sha256=7j5KnvZx7iXyUVyZ-9vLjWs2ne94AvsHS18_YLLWbeE,99
+meshkernel-0.9.0.dist-info/top_level.txt,sha256=xYNpL-Wj8YTkM0U0U804EqDsO-rc9d91pttk7jesk-4,11
+meshkernel-0.9.0.dist-info/RECORD,,
