@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: test3-pycon
+Version: 0.0.2
+Summary: short
+Home-page: https://github.com
+Author: COle Wilson
+Author-email: cole@colewilson.xyz
+License: none
+Keywords: kw1 kw2
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# Test_3
+short
+### Contributors
+- COle Wilson
+### Contact
+<cole@colewilson.xyz>
+
+
