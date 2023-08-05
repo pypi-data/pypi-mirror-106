@@ -1,0 +1,6 @@
+setup.py
+mind_free.egg-info/PKG-INFO
+mind_free.egg-info/SOURCES.txt
+mind_free.egg-info/dependency_links.txt
+mind_free.egg-info/top_level.txt
+mindfree/__init__.py
