@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+gooseftp/App.py
+gooseftp/__init__.py
+gooseftp.egg-info/PKG-INFO
+gooseftp.egg-info/SOURCES.txt
+gooseftp.egg-info/dependency_links.txt
+gooseftp.egg-info/not-zip-safe
+gooseftp.egg-info/top_level.txt
