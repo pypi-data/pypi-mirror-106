@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pcmd
+Version: 1.2.3
+Summary: A super simple terminal command shortener.
+Home-page: https://github.com/j0fiN/pcmd
+License: Apache-2.0
+Keywords: command-line,utilities,cmd,terminal,CLI
+Author: Jofin
+Author-email: jofinfab@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Utilities
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
+Project-URL: Repository, https://github.com/j0fiN/pcmd
+Description-Content-Type: text/markdown
+
+### ><=> pcmd 
+- [Documentation](https://github.com/j0fiN/pcmd/wiki)
+- [Source Code](https://github.com/j0fiN/pcmd)
