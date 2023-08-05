@@ -1,0 +1,10 @@
+DiffPriv/__init__.py,sha256=3uzhuhnSczSGgk1XmzTUlY--oFuTUqi3MkFV6dVUwak,1657
+DiffPriv/cli.py,sha256=4oDJMqBbrcA0oxVvoECb1J4lo4wBSOTPjoxXLNhNqIw,6465
+DiffPriv/diff.py,sha256=eEXDikVQE1S_WkB2Xik7oYB4yJxrhozMm01DbjKgHG8,6415
+DiffPriv/enc.py,sha256=zOALyKHA5fkI_38BfgLPT_jtebM5WDRqSQ26CWHkeVM,7328
+DiffPriv-1.0.0a0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+DiffPriv-1.0.0a0.dist-info/METADATA,sha256=o5sF4Ai4wxzXqMhub-Doll2waC7WxfH6og5DBnF4Pg0,3840
+DiffPriv-1.0.0a0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+DiffPriv-1.0.0a0.dist-info/entry_points.txt,sha256=yxZu0mjv8Be0TNA5kNef-DBN7HA-SilciQALFdwQrAM,47
+DiffPriv-1.0.0a0.dist-info/top_level.txt,sha256=EZU6CsSERWs_PLeyNyncTO9VSnRooPBrRbKfh0cemL0,9
+DiffPriv-1.0.0a0.dist-info/RECORD,,
