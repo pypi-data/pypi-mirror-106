@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pysd
+Version: 1.3.1
+Summary: System Dynamics Modeling in Python
+Home-page: https://github.com/JamesPHoughton/pysd
+Author: James Houghton
+Author-email: james.p.houghton@gmail.com
+License: LICENSE.txt
+Keywords: System Dynamics,Vensim,XMILE
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.7
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: parsimonious
+Requires-Dist: black
+Requires-Dist: xarray
+Requires-Dist: lxml
+Requires-Dist: xlwt (==1.2.0)
+Requires-Dist: funcsigs
+Requires-Dist: pydoe
+Requires-Dist: xlrd
+Requires-Dist: regex
+Requires-Dist: chardet
+Requires-Dist: openpyxl
+
+Project Documentation: http://pysd.readthedocs.org/
+
+
