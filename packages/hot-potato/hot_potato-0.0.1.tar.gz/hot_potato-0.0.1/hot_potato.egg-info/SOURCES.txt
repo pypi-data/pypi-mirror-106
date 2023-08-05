@@ -1,0 +1,8 @@
+README.md
+setup.py
+hot_potato/__init__.py
+hot_potato/potato.py
+hot_potato.egg-info/PKG-INFO
+hot_potato.egg-info/SOURCES.txt
+hot_potato.egg-info/dependency_links.txt
+hot_potato.egg-info/top_level.txt
