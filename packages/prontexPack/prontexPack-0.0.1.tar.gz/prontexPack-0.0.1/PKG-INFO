@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: prontexPack
+Version: 0.0.1
+Summary: a pack of functions and thing that can be cool in python
+Home-page: UNKNOWN
+Author: Warren Stevens
+Author-email: no@gmail.com
+License: MIT
+Description: this is a package thing that does things
+        
+        a guide is in the file called USAGE.txt
+        
+        if you want that
+        
+        i guess
+        
+        Change Log
+        ==========
+        
+        0.0.1 (17/06/2021)
+        -------------------
+        things. it release
+Keywords: pack
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
