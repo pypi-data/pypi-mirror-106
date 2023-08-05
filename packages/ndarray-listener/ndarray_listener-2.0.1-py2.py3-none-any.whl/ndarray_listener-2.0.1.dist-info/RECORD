@@ -1,0 +1,11 @@
+ndarray_listener/__init__.py,sha256=cVijg1Hl2yr2F5QpE1wG-jt-Htskf_ZPiosH2nH-3kM,177
+ndarray_listener/_ndl.py,sha256=TyMYhq6wXhh9rJnRZt5auGEB9PZZu3rLomwDVTmcIdk,4333
+ndarray_listener/_testit.py,sha256=JHjWtRRMVDjkfQkiAGNv6Yq8WsUkqfv2mo-d7gG5uTA,448
+ndarray_listener/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ndarray_listener/test/test_ndl.py,sha256=_1A9OJl_CJPphlMaZoV9weE7idf8ZtfflgMpghjw1_g,3241
+ndarray_listener-2.0.1.dist-info/LICENSE.md,sha256=BIEYszIwoVtu1pGbhOSco3YYEew0CEAe1vHuH6VzfEQ,1105
+ndarray_listener-2.0.1.dist-info/METADATA,sha256=d7BHPlaT6mMvEWyJ3Ni6EzBYa7rRin1WDzTM69TMUZI,1818
+ndarray_listener-2.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+ndarray_listener-2.0.1.dist-info/top_level.txt,sha256=7pU_XQ-F_mlQD4CTRORqfZ0DjfdkAjqtZGdQTfz3-5o,17
+ndarray_listener-2.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ndarray_listener-2.0.1.dist-info/RECORD,,
