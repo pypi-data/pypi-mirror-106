@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: personal-assistant
+Version: 0.0.1
+Summary: Console script for working with Contacts lists, Notes and sorting files in the folders
+Home-page: https://github.com/Personal-Assistant-Project/ProjectHelper
+Author: Yaroslav Maniukh, Valeriy Topchiy, Polina Yarova
+Author-email: manyukhy@gmail.com, wellkswell@gmail.com, polinaya777@gmail.com
+License: MIT
+Keywords: personal assistant helper
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+This is the helper with the functions:
+1. Create and work with Contacts lists.
+2. Create and work with the notes.
+3. Sorting files in the folders.
+
+You can choose your options in the console.
+Thank you for using our Helper.
+

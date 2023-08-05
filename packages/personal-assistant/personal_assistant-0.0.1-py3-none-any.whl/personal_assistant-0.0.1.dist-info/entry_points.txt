@@ -1,0 +1,3 @@
+[console_scripts]
+helper-folder = ProjectHelper.main:main
+
