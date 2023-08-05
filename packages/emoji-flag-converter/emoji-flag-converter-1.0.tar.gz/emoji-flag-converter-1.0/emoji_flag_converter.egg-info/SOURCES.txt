@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+emoji_flag_converter.egg-info/PKG-INFO
+emoji_flag_converter.egg-info/SOURCES.txt
+emoji_flag_converter.egg-info/dependency_links.txt
+emoji_flag_converter.egg-info/top_level.txt
