@@ -1,0 +1,3 @@
+[console_scripts]
+subrepo = subrepo:main
+
