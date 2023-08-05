@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: penknife
+Version: 2021.5.15
+Summary: Pacote de automação de processos
+Home-page: https://github.com/mfhorita
+Author: Marcelo Horita
+Author-email: datazeus.tecnologia@gmail.com.br
+License: GNU
+Keywords: penknife autotasks vba rpa msg pdf web scrapy sys
+Platform: UNKNOWN
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: PyAutoGUI (>=0.9.47)
+Requires-Dist: beautifulsoup4 (>=4.8.0)
+Requires-Dist: selenium (>=3.7.0)
+Requires-Dist: pytesseract (>=0.3.0)
+Requires-Dist: psutil (>=5.7.0)
+Requires-Dist: pywin32 (>=223)
+Requires-Dist: PyPDF2 (>=1.26.0)
+
+Pacote que ajuda automatizar processos web, sys, rpa, vba, msg e pdf
+
+

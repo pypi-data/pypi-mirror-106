@@ -1,0 +1,13 @@
+penknife/__init__.py,sha256=I09e_PvM6xwWiREaiOrzHp2t3GAg5rmYf9MDmFk849o,57
+penknife/main.py,sha256=cN4SAX9H7z3t3fWSUkz3siFR4PbywiYNYZeAzWPQqPg,304
+penknife/msg.py,sha256=LndnRKi1zGeONccyJGMnpgzGBEJL5RwTGI77cspbnbE,428
+penknife/pdf.py,sha256=ayMpJ-nUSRr3Hglv_TUTnUwqmLMVBn0mCshSBwFW278,1533
+penknife/rpa.py,sha256=SlwHPtgof6tslHpKK1s2K9sOwFhHqaYgAQF8IswsiBk,2959
+penknife/sys.py,sha256=KDdVSTp8jz_vaM7LVyjgJTj0JEAQsXnpeHMY6DI_A4M,2443
+penknife/vba.py,sha256=__QZ2NH2fARuEAib97hxgdsK7XJ3yN0Zy5mqOceftdk,2128
+penknife/web.py,sha256=A22Oku1_ocj8TAzwZhsGwg7l4-2ByqyA-VFjKR3ZSoU,2081
+penknife-2021.5.15.dist-info/LICENSE.txt,sha256=5zcZ6iSLnO4K8OGsvE_ndwnsN0QHVnQQZjGo1iSEnZ8,33680
+penknife-2021.5.15.dist-info/METADATA,sha256=9OK7usEhanWIyJ1hf0Mgu9H3s6nZM5DvZIGP4nP3Zkg,838
+penknife-2021.5.15.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+penknife-2021.5.15.dist-info/top_level.txt,sha256=bxfGP27HMaazI3UkZbFJLln4WFMhjInxY7xpvCD3_Mg,9
+penknife-2021.5.15.dist-info/RECORD,,
