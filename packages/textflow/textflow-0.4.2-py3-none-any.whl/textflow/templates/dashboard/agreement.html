@@ -1,0 +1,41 @@
+{% raw %}
+<script id="agreement-section-template" type="text/x-handlebars-template">
+    <div class="table-container">
+        <table class="table">
+            <tr>
+                {{#each data.header}}
+                <th>{{ this }}</th>
+                {{/each}}
+            </tr>
+            {{#each data.rows}}
+            <tr>
+                {{#each this}}
+                <td>
+                    <div class="tags are-small">
+                        <span class="tag">{{ this }}</span>
+                    </div>
+                </td>
+                {{/each}}
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+</script>
+{% endraw %}
+
+<!--suppress JSUnresolvedVariable -->
+<script>
+    templates.add('agreement', function () {
+        let source = document.getElementById("agreement-section-template").innerHTML;
+        let template = Handlebars.compile(source);
+
+        function render(id) {
+            $.get('{{ url_for('dashboard.get_agreement', project_id=project_id) }}')
+                .then((data) => {
+                    document.getElementById(id).innerHTML = template(data)
+                }).catch(console.log);
+        }
+
+        return {render}
+    })
+</script>
