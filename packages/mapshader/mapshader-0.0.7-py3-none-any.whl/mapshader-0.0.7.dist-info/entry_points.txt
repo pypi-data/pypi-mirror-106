@@ -1,0 +1,7 @@
+
+        [console_scripts]
+        mapshader=mapshader.commands:main
+
+        [mapshader.commands]
+        examples=mapshader.commands.examples:examples
+    
