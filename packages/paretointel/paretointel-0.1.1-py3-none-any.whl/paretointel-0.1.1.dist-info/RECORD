@@ -1,0 +1,12 @@
+paretointel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paretointel/hdi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paretointel/hdi/hdi.py,sha256=9Y_S0dm8MN6RPisnr9pBDXKINRTPy4t5F9CQlSvC4SQ,8185
+paretointel/hdi/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paretointel/hdi/db/db.py,sha256=jkDxKxiClY_zt6-Y8O85tVq_tyjHEYBMaTzUrMtPJ3g,4472
+paretointel/hdi/spark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paretointel/hdi/spark/logging.py,sha256=1rR0LHaYMORJGRzqoVF-H8lGxeBW8QrNAes9UEhEey0,1263
+paretointel/hdi/spark/spark.py,sha256=HRwZHocGbozXbk-8Do3ddkJJIvW_Rj81j1KIeOrhGvQ,4108
+paretointel-0.1.1.dist-info/METADATA,sha256=UeD3NytHDH-19Sbf5VF13OlFkeObubyx3QcpMuvkCAk,338
+paretointel-0.1.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+paretointel-0.1.1.dist-info/top_level.txt,sha256=MtkBEBvK_U-KAIQTP_2FlR8RdFgBqr9SUOyRJObotME,12
+paretointel-0.1.1.dist-info/RECORD,,
