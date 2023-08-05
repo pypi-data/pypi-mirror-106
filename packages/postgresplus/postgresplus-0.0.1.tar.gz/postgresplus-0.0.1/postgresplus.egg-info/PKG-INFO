@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: postgresplus
+Version: 0.0.1
+Summary: Psycopg2 wrapper.
+Home-page: UNKNOWN
+Author: Connor McHarg
+Author-email: UNKNOWN
+License: MIT
+Description: This is a wrapper package for psycopg2.
+        
+        Change Log
+        ================================================
+        
+        0.0.1 (15/05/2021)
+        --------------------------------
+        - First Release
+Keywords: databases
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
