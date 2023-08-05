@@ -1,0 +1,11 @@
+df_query/__init__.py,sha256=mxAYo6CJuIK2LZoCuro3XttbMSPQ6DbtrFm_IWC9dnc,169
+df_query/cli.py,sha256=sizLWABviR6_MLONdR1jQFWXxmaONGWvK_9bQ-Yky_k,402
+df_query/df_query.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+df_query/query_context.py,sha256=OY6m8O0VgpyddrTX0m4mN6BCYubxpKcmzCRl26tDqHE,1384
+df_query-0.1.0.dist-info/AUTHORS.rst,sha256=SO_ToX_8ZDhq20QgLoNR2U-mpSun6aifnmppEtTOhSM,151
+df_query-0.1.0.dist-info/LICENSE,sha256=UPv0tPK8mmset6S7PoCVwwyhNc5hCcYb_xSF1FYZexk,1068
+df_query-0.1.0.dist-info/METADATA,sha256=anFagtVku0dk_deJuKueRpaYA1AynsPCs2Zka-ClRls,1634
+df_query-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+df_query-0.1.0.dist-info/entry_points.txt,sha256=_idd1H_hBLIrGWE0U_AgpKtacn8DzizOzSkIOgUVx6Q,48
+df_query-0.1.0.dist-info/top_level.txt,sha256=I8uXxpNZ-Ipfx17oGN-srKGZkIjqqEaveyoR2v5VHcg,9
+df_query-0.1.0.dist-info/RECORD,,
