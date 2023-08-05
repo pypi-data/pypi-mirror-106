@@ -1,0 +1,7 @@
+grpcio
+protobuf
+fastapi
+uvicorn
+orjson
+click
+numpy
