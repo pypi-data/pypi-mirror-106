@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyciede2000/__init__.py
+src/pyciede2000/ciede2000.py
+src/pyciede2000.egg-info/PKG-INFO
+src/pyciede2000.egg-info/SOURCES.txt
+src/pyciede2000.egg-info/dependency_links.txt
+src/pyciede2000.egg-info/top_level.txt
