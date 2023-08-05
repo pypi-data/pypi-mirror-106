@@ -1,0 +1,2 @@
+include sakdas/html_template/*
+include sakdas/dataQualityConfig.json
