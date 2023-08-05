@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: turbofloat
+Version: 4.4.4.1
+Summary: Python integration for the LimeLM TurboFloat library. This lets you add floating licensing (a.k.a. concurrent licensing) to your Python app.
+Home-page: https://wyday.com/limelm/help/using-turbofloat-with-python/
+Author: wyDay, LLC
+Author-email: support@wyday.com
+Maintainer: wyDay, LLC
+Maintainer-email: support@wyday.com
+License: UNKNOWN
+Download-URL: https://github.com/wyday/python-turbofloat
+Description: # Python integration for TurboFloat
+        
+        Python integration for [LimeLM's](https://wyday.com/limelm/) [TurboFloat library](https://wyday.com/limelm/help/using-turbofloat/). This lets you add [floating licensing (a.k.a. concurrent licensing)](https://wyday.com/limelm/help/licensing-types/#floating) to your Python app.
+        
+        ## Usage
+        
+        We have a full example app and tutorial here: [Using TurboFloat with Python](https://wyday.com/limelm/help/using-turbofloat-with-python/)
+        
+        That article shows you how to add [floating licensing](https://wyday.com/limelm/help/licensing-types/#floating) to your app and how to package your Python app for distribution.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
