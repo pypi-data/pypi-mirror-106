@@ -1,0 +1,10 @@
+turpy/__init__.py,sha256=aBEbDvx4LMg8A1TJJR6dEHu8rQODVin528hLS_EDvuA,22
+turpy/hexagon/__init__.py,sha256=E2jyYEu2RKdGzck2R48vbI1XeKY3CoEz37HQhKBeY58,4459
+turpy/hexagon/h3tools.py,sha256=4Upcj_SKuhGujl_wWGkaQy0lzcJpEHItSm3XphxxcjI,4685
+turpy/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turpy/io/load_yaml.py,sha256=RQJS8nqU4oUH8h7pHXPKs1dFVMYjsBdObgoIyUvIvww,1150
+turpy/utils/__init__.py,sha256=i79BOey-bl5I6flvJ2BvPbUu8bAato78zVj0yv5VLco,1323
+turpy-0.2.9.8.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+turpy-0.2.9.8.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+turpy-0.2.9.8.dist-info/METADATA,sha256=2bTsMg8n1QJcdmcUqrcOYBIQ_oB7M2u5vP0qqmwujnk,406
+turpy-0.2.9.8.dist-info/RECORD,,
