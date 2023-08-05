@@ -1,0 +1,10 @@
+# Production + dev requirements
+esptool
+pyminifier
+#python-minifier
+
+# dev requirements
+pytest
+pytest-cov
+filelock
+Jinja2
