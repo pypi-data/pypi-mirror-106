@@ -1,0 +1,11 @@
+forg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forg/filesext.py,sha256=MgoYcoOQlxxcFQu2EM-XvvvvHBYa--QKA2Xs9Lw6APM,950
+forg/forg.py,sha256=cOPlqX5828PNHKHe4Z5c5i6rHIIJy5gurZd0xzVQyj8,4581
+forg/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forg/data/filesext.csv,sha256=Rx6uHtdTd_obdamrQpSnyVjVuT_f5b1mNipHVBqzgDk,4342
+forg-1.4.0.dist-info/LICENSE,sha256=tVpD9GFRhdaCYeONxLOkZ3KE_ntvwru6SzjNJX7X9Ts,1066
+forg-1.4.0.dist-info/METADATA,sha256=WCgOVl3BqIqIQb2B7bVis0XF3pm1mDWHlW_Zr7NpDEw,1911
+forg-1.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+forg-1.4.0.dist-info/entry_points.txt,sha256=k1YrbZur_sVvWwaRB3UBfTtCTCT7Gnfn6mcP46aJHBk,41
+forg-1.4.0.dist-info/top_level.txt,sha256=-OogS7FGeu0r-Zi7Zrttqla0GTbcFM4fi1L3B_JvdJw,5
+forg-1.4.0.dist-info/RECORD,,
