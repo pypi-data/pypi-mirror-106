@@ -1,0 +1,10 @@
+README.md
+redactor.py
+setup.cfg
+setup.py
+zendesk_redactor.egg-info/PKG-INFO
+zendesk_redactor.egg-info/SOURCES.txt
+zendesk_redactor.egg-info/dependency_links.txt
+zendesk_redactor.egg-info/entry_points.txt
+zendesk_redactor.egg-info/requires.txt
+zendesk_redactor.egg-info/top_level.txt
