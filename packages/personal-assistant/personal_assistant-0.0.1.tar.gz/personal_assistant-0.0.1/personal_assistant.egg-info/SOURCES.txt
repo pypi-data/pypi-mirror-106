@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ProjectHelper/__init__.py
+ProjectHelper/contacts_list.py
+ProjectHelper/main.py
+ProjectHelper/mynote.py
+ProjectHelper/sort_files.py
+personal_assistant.egg-info/PKG-INFO
+personal_assistant.egg-info/SOURCES.txt
+personal_assistant.egg-info/dependency_links.txt
+personal_assistant.egg-info/entry_points.txt
+personal_assistant.egg-info/top_level.txt
