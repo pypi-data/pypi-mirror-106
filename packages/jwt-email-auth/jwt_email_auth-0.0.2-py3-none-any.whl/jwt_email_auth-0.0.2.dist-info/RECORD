@@ -1,0 +1,17 @@
+jwt_email_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jwt_email_auth/apps.py,sha256=ZxcKaQm6bLPJKvFujQsCozw5JEWpyHAh1RAqnyXASQ0,106
+jwt_email_auth/authentication.py,sha256=-kGRUH7vBZdfFgMG7g3das2mApDq3NEpBAmLhsk-dXI,786
+jwt_email_auth/exceptions.py,sha256=kaTNg-Ixx5qSe6lckOzxUcp0dCiZIOMNXC14o2isLZE,827
+jwt_email_auth/fields.py,sha256=fYkMM0PAOAsT5FkshTOW3hMGPtEjRB2C7gzkMB_zcFk,1658
+jwt_email_auth/models.py,sha256=-e7WJ3YB_h3szTCFmSSF35FB1hkMVrJSNZ9T6eSQH_0,1877
+jwt_email_auth/permissions.py,sha256=aQpCUxcNqkjmjw1PfQE9BrwTn1dc0I9qKdetbHuZCLU,602
+jwt_email_auth/serializers.py,sha256=Osr_EGZHqVDL3AoHueAtm6i-MDushiop3_O_Ka_koYw,3282
+jwt_email_auth/settings.py,sha256=LeSxO54ouBFJeTzXyOhax7lSaKMNKCJCWwmOgaItecE,5022
+jwt_email_auth/tokens.py,sha256=ZGEne5-92zjSPVtlgMVk4lXlIv83HmA1wWz4mLVHwko,5755
+jwt_email_auth/utils.py,sha256=mHJ_rCsiNWxvFHeHZqJhL1Mr90FfbGuQnySPWRh1sYU,2750
+jwt_email_auth/views.py,sha256=M5VOPzItvfEshSo1-qoSCozShjcJEHtoO0b8M8mXz1U,3260
+jwt_email_auth-0.0.2.dist-info/LICENSE,sha256=aVX99MHe0Uow-2bjeqfTl5aEIdLgYWhrvYioTrZI_js,1090
+jwt_email_auth-0.0.2.dist-info/METADATA,sha256=iWia6CiFdCGXHQk622s66gtO2MKKXQkJxgA974NU2N0,2611
+jwt_email_auth-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jwt_email_auth-0.0.2.dist-info/top_level.txt,sha256=6lFrfjnrkmpJ6UjVhp2GrCgn2elFPYA56yT8myLX1jo,15
+jwt_email_auth-0.0.2.dist-info/RECORD,,
