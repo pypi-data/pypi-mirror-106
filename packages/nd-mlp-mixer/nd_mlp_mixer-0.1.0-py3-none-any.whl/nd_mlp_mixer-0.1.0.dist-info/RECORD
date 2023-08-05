@@ -1,0 +1,10 @@
+nd_mlp_mixer/__init__.py,sha256=lu8skidApbLdPGK5LIoanmQ8SPDNdsz0cz0GS9T1jFw,109
+nd_mlp_mixer/dense_on_axis.py,sha256=NNT6f9TVl3pF4kqv9vGGIpLQpZ4hwo0Mc4Z0HvnEX6o,1696
+nd_mlp_mixer/mlp.py,sha256=KPyYIxLrAPqcx6SkUS1lWirZJfJj07Woo14o2tY28V4,594
+nd_mlp_mixer/mlp_mixer.py,sha256=4vC2_GCSmJEjfMcTWu5hWR7Od2yBXvv3cskyO0p-LmQ,1876
+nd_mlp_mixer/version.py,sha256=aOHawL1zuHMfBWKXqwUkXcW96oXLNCY-CXdHDqkz4g4,18
+nd_mlp_mixer-0.1.0.dist-info/LICENSE,sha256=IXse471QdaBdhV-IFfZmCCQuKkJodtW2KYeHMNGAmA8,11419
+nd_mlp_mixer-0.1.0.dist-info/METADATA,sha256=1EvRVC0zP7m5vvW4NHvHC6L3SIkcHzZf6onvSxXCHn8,2715
+nd_mlp_mixer-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nd_mlp_mixer-0.1.0.dist-info/top_level.txt,sha256=LOlqK3rC3xBdR4ZKYzE_DdGf8JEY4ETE8d9gpLowtWM,13
+nd_mlp_mixer-0.1.0.dist-info/RECORD,,
