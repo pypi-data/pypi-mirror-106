@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/database_convertion/AnalysisADT.py
+src/database_convertion/__init__.py
+src/database_convertion/__main__.py
+src/database_convertion/base_dataset.py
+src/database_convertion/bmykhaylivvv.py
+src/database_convertion/file_operation.py
+src/database_convertion/main.py
+src/database_convertion/mykhailo_bondarenko.py
+src/database_convertion/stefan.py
+src/road_signs_db_convertion_michael.egg-info/PKG-INFO
+src/road_signs_db_convertion_michael.egg-info/SOURCES.txt
+src/road_signs_db_convertion_michael.egg-info/dependency_links.txt
+src/road_signs_db_convertion_michael.egg-info/top_level.txt
