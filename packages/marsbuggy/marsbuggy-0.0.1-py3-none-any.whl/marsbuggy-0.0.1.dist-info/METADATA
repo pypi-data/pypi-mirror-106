@@ -1,0 +1,35 @@
+Metadata-Version: 2.0
+Name: marsbuggy
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: numpy (~=1.16.6)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7); extra == 'dev'
+
+# Mars Buggy
+
+This is
+
+## Installation
+Run the following to install:
+```python3
+pip3 install marsbuggy
+```
+
+## Usage
+some sample code to show how to use it
+```
+```
+
+## Developing
+
+``` bash
+pip3 install -e .[dev]
+```
+
