@@ -1,0 +1,6 @@
+starlette_csrf/__init__.py,sha256=HcBO61FBHy4msi2JDfPo3eGJZvJmtPV8pOlUnheUje8,180
+starlette_csrf/middleware.py,sha256=7wJmbr4d-xfas4bJcuuCmATnOix_wKKFLP22V4Ceu3g,2347
+starlette_csrf-1.0.0.dist-info/LICENSE,sha256=xeZkqqHpa9lkurYK7IUUcu311AWO4s0BDVC8V1U8-VM,1072
+starlette_csrf-1.0.0.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+starlette_csrf-1.0.0.dist-info/METADATA,sha256=eTzzmUtLoVsQ8u4Jcm5iCFeH65txi9VwNoXYEG452UA,1077
+starlette_csrf-1.0.0.dist-info/RECORD,,

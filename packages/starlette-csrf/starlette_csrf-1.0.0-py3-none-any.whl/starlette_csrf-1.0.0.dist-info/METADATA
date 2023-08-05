@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: starlette-csrf
+Version: 1.0.0
+Summary: Starlette middleware implementing Double Submit Cookie technique to mitigate CSRF.
+Home-page: https://github.com/frankie567/starlette-csrf
+Author: François Voron
+Author-email: fvoron@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Requires-Dist: itsdangerous >=2.0.0,<3.0.0
+Requires-Dist: passlib >=1.7.4,<2.0.0
+Requires-Dist: starlette >=0.14.2,<0.15.0
+Project-URL: Documentation, https://github.com/frankie567/starlette-csrf
+
+# Starlette CSRF Middleware
+
+Starlette middleware implementing Double Submit Cookie technique to mitigate CSRF.
+
