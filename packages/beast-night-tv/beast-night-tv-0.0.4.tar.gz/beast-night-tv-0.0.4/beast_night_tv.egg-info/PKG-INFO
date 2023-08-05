@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: beast-night-tv
+Version: 0.0.4
+Summary: A Python Package made by JAK!!
+Home-page: https://github.com/Jonak-Adipta-Kalita/JAK-Python-Package
+Author: JAK (Jonak Adipta Kalita)
+Author-email: <jonakadiptakalita@gmail.com>
+License: UNKNOWN
+Description: <div align=center>
+        
+        # JAK-Python-Package
+        ![PyPI](https://img.shields.io/pypi/v/beast-night-tv?style=for-the-badge)
+        ![PyPI - Downloads](https://img.shields.io/pypi/dd/beast-night-tv?style=for-the-badge)
+        
+        </div>
+        
+        Go to the [Package](https://pypi.org/project/beast-night-tv/)
+        
+        ## Installation
+        ### Windows
+        `pip install beast-night-tv`
+        
+        ### Linux
+        `python3 pip install beast-night-tv`
+        
+        ### MacOS
+        `pip install beast-night-tv`
+        
+        ## Contributors
+        <a href = "https://github.com/Jonak-Adipta-Kalita/JAK-Python-Package/graphs/contributors">
+        	<img src = "https://contrib.rocks/image?repo=Jonak-Adipta-Kalita/JAK-Python-Package"/>
+        </a>
+        
+Keywords: python,first_package,print_message
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
