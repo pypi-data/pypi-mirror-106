@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/C4point5/C45.py
+src/C4point5/__init__.py
+src/C4point5.egg-info/PKG-INFO
+src/C4point5.egg-info/SOURCES.txt
+src/C4point5.egg-info/dependency_links.txt
+src/C4point5.egg-info/top_level.txt
