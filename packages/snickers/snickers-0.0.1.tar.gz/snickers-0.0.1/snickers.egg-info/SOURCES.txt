@@ -1,0 +1,7 @@
+setup.py
+snickers/__init__.py
+snickers/me.py
+snickers.egg-info/PKG-INFO
+snickers.egg-info/SOURCES.txt
+snickers.egg-info/dependency_links.txt
+snickers.egg-info/top_level.txt

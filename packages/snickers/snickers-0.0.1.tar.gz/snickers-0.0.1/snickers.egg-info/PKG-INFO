@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: snickers
+Version: 0.0.1
+Summary: a python module(in construction) used as a helping hand for Artificial Intelligence(ai) and Machine Learning(ml) developers. typically a quick and easy way to introduce ai and ml for complete beginners...
+Home-page: UNKNOWN
+Author: Syntax
+Author-email: outreach.syntax@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: snickers,artificial intelligence,ai,ml,machine learning,beginner,learning
+Platform: UNKNOWN
+Requires: random
