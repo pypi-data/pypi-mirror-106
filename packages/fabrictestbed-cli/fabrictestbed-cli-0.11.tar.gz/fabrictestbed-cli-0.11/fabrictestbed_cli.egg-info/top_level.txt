@@ -1,0 +1,2 @@
+fabrictestbed_cli
+test
