@@ -1,0 +1,10 @@
+mintchoco/__init__.py,sha256=SQa6Ci17DORmGXi_wkOW9pPlUojF-qtjH6NV1WOThsU,22
+mintchoco/client.py,sha256=S9oJAxnj0L59Sz6U5qzn36ZP0xKr2guGqd2TY2zrzF0,2235
+mintchoco/model.py,sha256=Zg05fnTjaXpo0sHbhSfgWbAQ1eLHGvSt7_zL2XL_UAM,6158
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/conftest.py,sha256=FLvJOommtxs3kb5IbIZxyNmEos8R1mfv_rGAol8Hb9Y,132
+test/test_response.py,sha256=jSAaCvYC0xdRo54A06fcmV1IOMNO0V58-BMA2Ne8TkM,514
+mintchoco-4.0.0.dist-info/METADATA,sha256=jGyiJrVAiQl6DLBhGhYTIyW31ju9L-cnFslxcrEyeKA,2869
+mintchoco-4.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mintchoco-4.0.0.dist-info/top_level.txt,sha256=0OmVd37pwKGsPPNffT3TJO3YsELX5_h2UKRvN7dIX0I,15
+mintchoco-4.0.0.dist-info/RECORD,,
