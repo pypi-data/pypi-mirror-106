@@ -1,0 +1,10 @@
+README.md
+setup.py
+sparkbar/__init__.py
+sparkbar/sparkbar.py
+sparkbar.egg-info/PKG-INFO
+sparkbar.egg-info/SOURCES.txt
+sparkbar.egg-info/dependency_links.txt
+sparkbar.egg-info/requires.txt
+sparkbar.egg-info/top_level.txt
+sparkbar/test/test_sparkbar.py
