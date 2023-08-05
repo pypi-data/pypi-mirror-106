@@ -1,0 +1,8 @@
+soxr/__init__.py,sha256=jfeyY4DtmOWjhGX_HscK9TamwOgCFQrsP1rWVMCeid0,2219
+soxr/version.py,sha256=g0RU_Fiae76hPEUjU6lGnapa9IZoqGcB4oFcTnsoMbM,142
+soxr/cysoxr.cpython-37m-x86_64-linux-gnu.so,sha256=XMYXcDRA_28cGbdRzeK-7-UnV_OCHrL-Og08LiMZuWQ,3029176
+soxr-0.2.0.dist-info/RECORD,,
+soxr-0.2.0.dist-info/LICENSE.txt,sha256=3GJlINzVOiL3J68-5Cx3DlbJemT-OtsGN5nYqwMv5VE,26530
+soxr-0.2.0.dist-info/WHEEL,sha256=YuK2D4GEfn5egRtpxwtNXqS6oo6NJGt_NUlX8IjB65k,109
+soxr-0.2.0.dist-info/top_level.txt,sha256=hKgwfQsbwN5KovL0oYn-hpTVQIIyWMxYyGNzZqs_w-o,5
+soxr-0.2.0.dist-info/METADATA,sha256=OC67anzG8GdeGHRmozihFBO-YGWfc2sNzxhSGXxqTpE,1764
