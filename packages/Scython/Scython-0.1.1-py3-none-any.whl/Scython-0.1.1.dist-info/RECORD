@@ -1,0 +1,14 @@
+scy/__init__.py,sha256=R5ubcAFwHwr162MOLbZZBNMdDLhI7rexxMqqmvVLyFE,65
+scy/__main__.py,sha256=1K14f2WoOPsmmEQb5vrCTHXW0HLoDr2jEuHw6gpwStE,2740
+scy/backend.py,sha256=89YxJLyl919tgc2_xME4-gDxYX0gp2LpZ-OYZK-Q3d8,377
+scy/builtins.py,sha256=n_fvATnRk1GfC2TVGoPyehfX0sDfPQYJvHW4PI-fup8,1155
+scy/exceptions.py,sha256=hLoF5rVITY7nIBz2jP4YZsztEtqeV-4fFVzIkLqbXmA,804
+scy/parser.py,sha256=A7KZrOb9fQbIh2q6yhzDZnuVRiUyMxAt6rsN-9PIak4,25145
+scy/tokenizer.py,sha256=UTK7PczYCtih6mPs1-32J-ku5n1UAWQNlXiZytSKj50,8494
+scy/tokens.py,sha256=ab9154CQSpEliKk-7yJ-eA-PeEiycCfeiAhg-4Rdgh8,4903
+scy/utils.py,sha256=Mpu1NQ8FJ74uVTQ5fz3EQqeOIzhs1d59TDZ_EXN1DtY,628
+Scython-0.1.1.dist-info/METADATA,sha256=xnOELgvlHTz9zyASEwMAbMQIKn08VAxL2Zb0l-OYpNo,350
+Scython-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Scython-0.1.1.dist-info/entry_points.txt,sha256=d359rxXE60l-SL_Z_QhTR0SQp1qWom6rT1iG94UNbVE,43
+Scython-0.1.1.dist-info/top_level.txt,sha256=JOpiCyYKbcLGkGbu7hNwurXcNplGIrz4GWTNrU-O3KY,4
+Scython-0.1.1.dist-info/RECORD,,
