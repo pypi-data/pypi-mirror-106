@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: ndarray-listener
+Version: 2.0.1
+Summary: Implementation of the Observer pattern for NumPy arrays
+Home-page: https://github.com/limix/ndarray-listener
+Author: Danilo Horta
+Author-email: horta@ebi.ac.uk
+Maintainer: Danilo Horta
+Maintainer-email: horta@ebi.ac.uk
+License: MIT
+Download-URL: https://github.com/limix/ndarray-listener
+Description: # ndarray-listener
+        
+        Implementation of the [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern) for NumPy arrays.
+        
+        ## Example
+        
+        ```python
+        from numpy import array
+        from ndarray_listener import ndl
+        
+        a = ndl(array([-0.5, 0.1, 1.1]))
+        
+        class Observer(object):
+          def __init__(self):
+            self.called_me = False
+        
+          def __call__(self, _):
+            self.called_me = True
+        
+        o = Observer()
+        a.talk_to(o)
+        print(o.called_me)
+        a[0] = 1.2
+        print(o.called_me)
+        ```
+        
+        The output should be
+        
+        ```
+        False
+        True
+        ```
+        
+        ## Install
+        
+        From command line, enter
+        
+        ```bash
+        pip install ndarray-listener
+        ```
+        
+        ## Running the tests
+        
+        Install dependencies
+        
+        ```bash
+        pip install pytest
+        ```
+        
+        then run
+        
+        ```python
+        python -c "import ndarray_listener; ndarray_listener.test()"
+        ```
+        
+        ## Documentation
+        
+        [Documentation](https://ndarray-listener.readthedocs.io/en/latest/)
+        
+        ## Authors
+        
+        * [Danilo Horta](https://github.com/horta)
+        
+        
+        ## License
+        
+        This project is licensed under the [MIT License](https://raw.githubusercontent.com/limix/ndarray-listener/master/LICENSE.md).
+        
+Keywords: numpy,listener,array
+Platform: Windows
+Platform: MacOS
+Platform: POSIX
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
