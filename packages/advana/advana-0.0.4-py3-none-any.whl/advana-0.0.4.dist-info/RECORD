@@ -1,0 +1,14 @@
+advana/dashStatus.py,sha256=A_Umydd7puT8DQlFuGIF6fdzezJcAMc8rvuXfap8Uqs,602
+advana/daypartAnalysis.py,sha256=Y4DVsMtvFPZJqSsYjrjG6t59gHFm8nnmhHJKX_eu25w,582
+advana/locations.py,sha256=CdoPRB9XVyWR5HyrAp7upgqxfj5s8svZHrYccsLA6Xw,441
+advana/locRef.py,sha256=CdoPRB9XVyWR5HyrAp7upgqxfj5s8svZHrYccsLA6Xw,441
+advana/rawDash.py,sha256=v1JENIUlNSYMFA3tzF8yC4aLRdUyQoEmNV20P_ph4T0,1146
+advana/__init__.py,sha256=dvST2rJ1y4JZIwma6KFji4i4InxitYW9rzayZ7yvJxE,146
+advana/preprocess/active.py,sha256=_KfrIDRiPMJ9oOvSWJJyKiFJpjlLarisU5iUm_sQyUg,1151
+advana/preprocess/__init__.py,sha256=YAH-2e9tAiA2hT1hscvytapjRJg1PWdH_5qUJYLGUVw,100
+advana-0.0.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+advana-0.0.4.dist-info/METADATA,sha256=1kPEOFTSC2JYF-sYTAD9zt2XdtmLFRWccNxLuINLWNU,515
+advana-0.0.4.dist-info/metadata.json,sha256=u1o6brAVSg8EHprVtoE3YG_QCejd4t-EeqdB1fijOq8,608
+advana-0.0.4.dist-info/RECORD,,
+advana-0.0.4.dist-info/top_level.txt,sha256=PAir6V3cOGRJ272KnxBVUnzO-yVLyl_ig5WVkGkB2ws,7
+advana-0.0.4.dist-info/WHEEL,sha256=R7GZBaynU7P7eIwbsGv7F-X8eM9JWO6nKzGDfrA5_lo,97
