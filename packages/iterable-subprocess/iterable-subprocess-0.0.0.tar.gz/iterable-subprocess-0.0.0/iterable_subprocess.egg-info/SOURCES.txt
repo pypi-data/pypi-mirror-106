@@ -1,0 +1,8 @@
+LICENSE
+README.md
+iterable_subprocess.py
+setup.py
+iterable_subprocess.egg-info/PKG-INFO
+iterable_subprocess.egg-info/SOURCES.txt
+iterable_subprocess.egg-info/dependency_links.txt
+iterable_subprocess.egg-info/top_level.txt
