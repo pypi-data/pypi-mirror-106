@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ddr-p
+Version: 0.2.1
+Summary: data-driven research papers, making use of Python and LaTeX for automation and reproducibility.
+Author: Thurston Sexton
+Author-email: thurston.sexton@nist.gov
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pint (>=0.17,<0.18)
+Requires-Dist: cookiecutter (>=1.7.2,<2.0.0)
+Requires-Dist: numpy (>=1.20.1,<2.0.0)
+Requires-Dist: pydantic (>=1.8.1,<2.0.0)
+Requires-Dist: seaborn (>=0.11.1,<0.12.0)
+Requires-Dist: srsly (>=2.4.0,<3.0.0)
