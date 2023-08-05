@@ -1,0 +1,11 @@
+mypy1989/__init__.py,sha256=dKm2PD4helEqe9Rn1j0EC02SEe7tCov8cHtjh5q3hkA,50
+mypy1989/add.py,sha256=KzvxLilMhn_iNk_CMal_3gx1F1RKlWD5PSaGtWe2xLQ,32
+mypy1989/subtract.py,sha256=u0paWb5qPDjtuokGxyTJ5qQ2kmf8bkK6_yVDwsVCuDA,37
+mypy1989/more/__init__.py,sha256=PZSD5KBz18yWugN74-vhWwmkZBi_4rBaSBilLxZKDuA,55
+mypy1989/more/divide.py,sha256=AMSaX5bXYIN_3r5_GNK6at4w57arkPPoPA3fRE07uaU,33
+mypy1989/more/multiply.py,sha256=Nm4yeSw3hrItpmSLlVv_NevO-idTeQmzPZhNgdSyGWA,37
+mypy1989-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy1989-0.0.1.dist-info/METADATA,sha256=f4wOkdJrl_5djbdqjDxz0KiEymSwp0Si_sbmPTOCoto,557
+mypy1989-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy1989-0.0.1.dist-info/top_level.txt,sha256=4myNAoQ-RYExZvxvP9Z6wZZkwTAse1ibjDv5CcK_gDI,9
+mypy1989-0.0.1.dist-info/RECORD,,
