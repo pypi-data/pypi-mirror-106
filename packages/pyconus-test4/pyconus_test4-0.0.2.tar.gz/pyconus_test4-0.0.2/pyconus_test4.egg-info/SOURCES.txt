@@ -1,0 +1,9 @@
+setup.py
+bin/hello
+pyconus_test4/__init__.py
+pyconus_test4/__main__.py
+pyconus_test4.egg-info/PKG-INFO
+pyconus_test4.egg-info/SOURCES.txt
+pyconus_test4.egg-info/dependency_links.txt
+pyconus_test4.egg-info/entry_points.txt
+pyconus_test4.egg-info/top_level.txt
