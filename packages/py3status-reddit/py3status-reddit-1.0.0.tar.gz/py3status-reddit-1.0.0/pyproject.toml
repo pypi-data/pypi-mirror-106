@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "py3status-reddit"
+version = "1.0.0"
+description = "py3status module showing reddit unread messages"
+authors = ["Alessandro -oggei- Ogier <alessandro.ogier@gmail.com>"]
+readme = "README.md"
+include = ["fancy_count.png"]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+praw = "^7.2.0"
+xdg = "^5.0.2"
+
+[tool.poetry.dev-dependencies]
+autoflake = "^1.4"
+black = "^21.5b1"
+isort = "^5.8.0"
+pylint = "^2.8.2"
+py3status = "^3.36"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins]
+
+[tool.poetry.plugins."py3status"]
+"module" = "py3status_reddit.reddit"
