@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nd_mlp_mixer/__init__.py
+nd_mlp_mixer/dense_on_axis.py
+nd_mlp_mixer/mlp.py
+nd_mlp_mixer/mlp_mixer.py
+nd_mlp_mixer/version.py
+nd_mlp_mixer.egg-info/PKG-INFO
+nd_mlp_mixer.egg-info/SOURCES.txt
+nd_mlp_mixer.egg-info/dependency_links.txt
+nd_mlp_mixer.egg-info/requires.txt
+nd_mlp_mixer.egg-info/top_level.txt
