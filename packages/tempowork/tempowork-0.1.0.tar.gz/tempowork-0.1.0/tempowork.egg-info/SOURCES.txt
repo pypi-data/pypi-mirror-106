@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+src/CIG.py
+src/CIG_edge.py
+src/CIG_node.py
+src/IT.py
+src/IT_nil.py
+src/IT_node.py
+src/__init__.py
+src/tempowork.py
+tempowork.egg-info/PKG-INFO
+tempowork.egg-info/SOURCES.txt
+tempowork.egg-info/dependency_links.txt
+tempowork.egg-info/top_level.txt
