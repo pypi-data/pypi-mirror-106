@@ -1,0 +1,16 @@
+parallelizer/__init__.py,sha256=AQvjD_f1QK3ydvoYKnrWCEPtWnDTgiwbf8tdBWdQBio,249
+parallelizer/executor.py,sha256=KAGifsSuqkI1AkMHwJdj-kY37J78hV6zlqileJ_F82U,630
+parallelizer/executor_event.py,sha256=9ocwejoeTePg7MN6x2E8C6FPx-b-LIEDmGm2OSTJhIY,761
+parallelizer/parallelizer.py,sha256=N3ZH_GxNEOX4L83JCgYnW6rU0CF8uhRTJqdNLDpH1I4,3269
+parallelizer/process_parallelizer.py,sha256=gFj49IDSJk-ylrXHF9HkMdPVnIDUp1UTMUCS34kIzl0,1356
+parallelizer/result.py,sha256=7mM82YZK37Ug0i4eoYo_0kiEtGoTvKAC72VbjIIgGFU,208
+parallelizer/task.py,sha256=nY52Z74r7CsjQktCyL-xcYEUWKC_B1kjowlGU2ts4VI,387
+parallelizer/thread_parallelizer.py,sha256=4oKXY--QzXofvL3YmVAJr7-6XM8WnE8JrIeIy9ukFMY,886
+parallelizer/tools.py,sha256=oeJ5vWYBUI3OLY8JvJ4GWNeoehQ4fsCHRAxZnbfv9Ic,193
+parallelizer/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parallelizer/test/test_power.py,sha256=YDWMbhjrNZIPKD2G4TQLjku8efzMbEZkHWmmrWS2zVU,1009
+parallelizer-0.1.dist-info/LICENSE.txt,sha256=CRjHKpCvBbbX3abIby37NhpSHbbKje5P_4hs1bvWTm0,1053
+parallelizer-0.1.dist-info/METADATA,sha256=uNRG8flKxXGEqiUUD4Vknne3afVcGlnT7gowqQr6A_8,1971
+parallelizer-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+parallelizer-0.1.dist-info/top_level.txt,sha256=CFy6AvTdUiFgcfhio2fGZqvvKhpxCVvDEBOCQHAnI74,13
+parallelizer-0.1.dist-info/RECORD,,
