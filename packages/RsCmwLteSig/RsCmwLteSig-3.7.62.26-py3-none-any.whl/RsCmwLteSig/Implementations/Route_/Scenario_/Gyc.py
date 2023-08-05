@@ -1,0 +1,237 @@
+from ....Internal.Core import Core
+from ....Internal.CommandsGroup import CommandsGroup
+from ....Internal.StructBase import StructBase
+from ....Internal.ArgStruct import ArgStruct
+from .... import enums
+
+
+# noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection
+class Gyc:
+	"""Gyc commands group definition. 1 total commands, 0 Sub-groups, 1 group commands"""
+
+	def __init__(self, core: Core, parent):
+		self._core = core
+		self._base = CommandsGroup("gyc", core, parent)
+
+	# noinspection PyTypeChecker
+	class FlexibleStruct(StructBase):
+		"""Structure for reading output parameters. Fields: \n
+			- Pcc_Bb_Board: enums.BasebandBoard: No parameter help available
+			- Pcc_Rx_Connector: enums.RxConnector: No parameter help available
+			- Pcc_Rx_Converter: enums.RxConverter: No parameter help available
+			- Pcc_Tx_1_Connector: enums.TxConnector: No parameter help available
+			- Pcc_Tx_1_Converter: enums.TxConverter: No parameter help available
+			- Pcc_Tx_2_Connector: enums.TxConnector: No parameter help available
+			- Pcc_Tx_2_Converter: enums.TxConverter: No parameter help available
+			- Pcc_Tx_3_Connector: enums.TxConnector: No parameter help available
+			- Pcc_Tx_3_Converter: enums.TxConverter: No parameter help available
+			- Pcc_Tx_4_Connector: enums.TxConnector: No parameter help available
+			- Pcc_Tx_4_Converter: enums.TxConverter: No parameter help available
+			- Scc_1_Bb_Board: enums.BasebandBoard: No parameter help available
+			- Scc_1_Tx_1_Connector: enums.TxConnector: No parameter help available
+			- Scc_1_Tx_1_Converter: enums.TxConverter: No parameter help available
+			- Scc_1_Tx_2_Connector: enums.TxConnector: No parameter help available
+			- Scc_1_Tx_2_Converter: enums.TxConverter: No parameter help available
+			- Scc_1_Tx_3_Connector: enums.TxConnector: No parameter help available
+			- Scc_1_Tx_3_Converter: enums.TxConverter: No parameter help available
+			- Scc_1_Tx_4_Connector: enums.TxConnector: No parameter help available
+			- Scc_1_Tx_4_Converter: enums.TxConverter: No parameter help available
+			- Scc_2_Bb_Board: enums.BasebandBoard: No parameter help available
+			- Scc_2_Tx_1_Connector: enums.TxConnector: No parameter help available
+			- Scc_2_Tx_1_Converter: enums.TxConverter: No parameter help available
+			- Scc_2_Tx_2_Connector: enums.TxConnector: No parameter help available
+			- Scc_2_Tx_2_Converter: enums.TxConverter: No parameter help available
+			- Scc_2_Tx_3_Connector: enums.TxConnector: No parameter help available
+			- Scc_2_Tx_3_Converter: enums.TxConverter: No parameter help available
+			- Scc_2_Tx_4_Connector: enums.TxConnector: No parameter help available
+			- Scc_2_Tx_4_Converter: enums.TxConverter: No parameter help available
+			- Scc_3_Bb_Board: enums.BasebandBoard: No parameter help available
+			- Scc_3_Tx_1_Connector: enums.TxConnector: No parameter help available
+			- Scc_3_Tx_1_Converter: enums.TxConverter: No parameter help available
+			- Scc_3_Tx_2_Connector: enums.TxConnector: No parameter help available
+			- Scc_3_Tx_2_Converter: enums.TxConverter: No parameter help available
+			- Scc_3_Tx_3_Connector: enums.TxConnector: No parameter help available
+			- Scc_3_Tx_3_Converter: enums.TxConverter: No parameter help available
+			- Scc_3_Tx_4_Connector: enums.TxConnector: No parameter help available
+			- Scc_3_Tx_4_Converter: enums.TxConverter: No parameter help available
+			- Scc_4_Bb_Board: enums.BasebandBoard: No parameter help available
+			- Scc_4_Tx_1_Connector: enums.TxConnector: No parameter help available
+			- Scc_4_Tx_1_Converter: enums.TxConverter: No parameter help available
+			- Scc_4_Tx_2_Connector: enums.TxConnector: No parameter help available
+			- Scc_4_Tx_2_Converter: enums.TxConverter: No parameter help available
+			- Scc_4_Tx_3_Connector: enums.TxConnector: No parameter help available
+			- Scc_4_Tx_3_Converter: enums.TxConverter: No parameter help available
+			- Scc_4_Tx_4_Connector: enums.TxConnector: No parameter help available
+			- Scc_4_Tx_4_Converter: enums.TxConverter: No parameter help available
+			- Scc_5_Bb_Board: enums.BasebandBoard: No parameter help available
+			- Scc_5_Tx_1_Connector: enums.TxConnector: No parameter help available
+			- Scc_5_Tx_1_Converter: enums.TxConverter: No parameter help available
+			- Scc_5_Tx_2_Connector: enums.TxConnector: No parameter help available
+			- Scc_5_Tx_2_Converter: enums.TxConverter: No parameter help available
+			- Scc_5_Tx_3_Connector: enums.TxConnector: No parameter help available
+			- Scc_5_Tx_3_Converter: enums.TxConverter: No parameter help available
+			- Scc_5_Tx_4_Connector: enums.TxConnector: No parameter help available
+			- Scc_5_Tx_4_Converter: enums.TxConverter: No parameter help available
+			- Scc_6_Bb_Board: enums.BasebandBoard: No parameter help available
+			- Scc_6_Tx_1_Connector: enums.TxConnector: No parameter help available
+			- Scc_6_Tx_1_Converter: enums.TxConverter: No parameter help available
+			- Scc_6_Tx_2_Connector: enums.TxConnector: No parameter help available
+			- Scc_6_Tx_2_Converter: enums.TxConverter: No parameter help available
+			- Scc_6_Tx_3_Connector: enums.TxConnector: No parameter help available
+			- Scc_6_Tx_3_Converter: enums.TxConverter: No parameter help available
+			- Scc_6_Tx_4_Connector: enums.TxConnector: No parameter help available
+			- Scc_6_Tx_4_Converter: enums.TxConverter: No parameter help available
+			- Coprocessor: enums.BasebandBoard: No parameter help available"""
+		__meta_args_list = [
+			ArgStruct.scalar_enum('Pcc_Bb_Board', enums.BasebandBoard),
+			ArgStruct.scalar_enum('Pcc_Rx_Connector', enums.RxConnector),
+			ArgStruct.scalar_enum('Pcc_Rx_Converter', enums.RxConverter),
+			ArgStruct.scalar_enum('Pcc_Tx_1_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Pcc_Tx_1_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Pcc_Tx_2_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Pcc_Tx_2_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Pcc_Tx_3_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Pcc_Tx_3_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Pcc_Tx_4_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Pcc_Tx_4_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_1_Bb_Board', enums.BasebandBoard),
+			ArgStruct.scalar_enum('Scc_1_Tx_1_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_1_Tx_1_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_1_Tx_2_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_1_Tx_2_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_1_Tx_3_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_1_Tx_3_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_1_Tx_4_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_1_Tx_4_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_2_Bb_Board', enums.BasebandBoard),
+			ArgStruct.scalar_enum('Scc_2_Tx_1_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_2_Tx_1_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_2_Tx_2_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_2_Tx_2_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_2_Tx_3_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_2_Tx_3_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_2_Tx_4_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_2_Tx_4_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_3_Bb_Board', enums.BasebandBoard),
+			ArgStruct.scalar_enum('Scc_3_Tx_1_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_3_Tx_1_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_3_Tx_2_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_3_Tx_2_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_3_Tx_3_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_3_Tx_3_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_3_Tx_4_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_3_Tx_4_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_4_Bb_Board', enums.BasebandBoard),
+			ArgStruct.scalar_enum('Scc_4_Tx_1_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_4_Tx_1_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_4_Tx_2_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_4_Tx_2_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_4_Tx_3_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_4_Tx_3_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_4_Tx_4_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_4_Tx_4_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_5_Bb_Board', enums.BasebandBoard),
+			ArgStruct.scalar_enum('Scc_5_Tx_1_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_5_Tx_1_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_5_Tx_2_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_5_Tx_2_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_5_Tx_3_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_5_Tx_3_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_5_Tx_4_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_5_Tx_4_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_6_Bb_Board', enums.BasebandBoard),
+			ArgStruct.scalar_enum('Scc_6_Tx_1_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_6_Tx_1_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_6_Tx_2_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_6_Tx_2_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_6_Tx_3_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_6_Tx_3_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Scc_6_Tx_4_Connector', enums.TxConnector),
+			ArgStruct.scalar_enum('Scc_6_Tx_4_Converter', enums.TxConverter),
+			ArgStruct.scalar_enum('Coprocessor', enums.BasebandBoard)]
+
+		def __init__(self):
+			StructBase.__init__(self, self)
+			self.Pcc_Bb_Board: enums.BasebandBoard = None
+			self.Pcc_Rx_Connector: enums.RxConnector = None
+			self.Pcc_Rx_Converter: enums.RxConverter = None
+			self.Pcc_Tx_1_Connector: enums.TxConnector = None
+			self.Pcc_Tx_1_Converter: enums.TxConverter = None
+			self.Pcc_Tx_2_Connector: enums.TxConnector = None
+			self.Pcc_Tx_2_Converter: enums.TxConverter = None
+			self.Pcc_Tx_3_Connector: enums.TxConnector = None
+			self.Pcc_Tx_3_Converter: enums.TxConverter = None
+			self.Pcc_Tx_4_Connector: enums.TxConnector = None
+			self.Pcc_Tx_4_Converter: enums.TxConverter = None
+			self.Scc_1_Bb_Board: enums.BasebandBoard = None
+			self.Scc_1_Tx_1_Connector: enums.TxConnector = None
+			self.Scc_1_Tx_1_Converter: enums.TxConverter = None
+			self.Scc_1_Tx_2_Connector: enums.TxConnector = None
+			self.Scc_1_Tx_2_Converter: enums.TxConverter = None
+			self.Scc_1_Tx_3_Connector: enums.TxConnector = None
+			self.Scc_1_Tx_3_Converter: enums.TxConverter = None
+			self.Scc_1_Tx_4_Connector: enums.TxConnector = None
+			self.Scc_1_Tx_4_Converter: enums.TxConverter = None
+			self.Scc_2_Bb_Board: enums.BasebandBoard = None
+			self.Scc_2_Tx_1_Connector: enums.TxConnector = None
+			self.Scc_2_Tx_1_Converter: enums.TxConverter = None
+			self.Scc_2_Tx_2_Connector: enums.TxConnector = None
+			self.Scc_2_Tx_2_Converter: enums.TxConverter = None
+			self.Scc_2_Tx_3_Connector: enums.TxConnector = None
+			self.Scc_2_Tx_3_Converter: enums.TxConverter = None
+			self.Scc_2_Tx_4_Connector: enums.TxConnector = None
+			self.Scc_2_Tx_4_Converter: enums.TxConverter = None
+			self.Scc_3_Bb_Board: enums.BasebandBoard = None
+			self.Scc_3_Tx_1_Connector: enums.TxConnector = None
+			self.Scc_3_Tx_1_Converter: enums.TxConverter = None
+			self.Scc_3_Tx_2_Connector: enums.TxConnector = None
+			self.Scc_3_Tx_2_Converter: enums.TxConverter = None
+			self.Scc_3_Tx_3_Connector: enums.TxConnector = None
+			self.Scc_3_Tx_3_Converter: enums.TxConverter = None
+			self.Scc_3_Tx_4_Connector: enums.TxConnector = None
+			self.Scc_3_Tx_4_Converter: enums.TxConverter = None
+			self.Scc_4_Bb_Board: enums.BasebandBoard = None
+			self.Scc_4_Tx_1_Connector: enums.TxConnector = None
+			self.Scc_4_Tx_1_Converter: enums.TxConverter = None
+			self.Scc_4_Tx_2_Connector: enums.TxConnector = None
+			self.Scc_4_Tx_2_Converter: enums.TxConverter = None
+			self.Scc_4_Tx_3_Connector: enums.TxConnector = None
+			self.Scc_4_Tx_3_Converter: enums.TxConverter = None
+			self.Scc_4_Tx_4_Connector: enums.TxConnector = None
+			self.Scc_4_Tx_4_Converter: enums.TxConverter = None
+			self.Scc_5_Bb_Board: enums.BasebandBoard = None
+			self.Scc_5_Tx_1_Connector: enums.TxConnector = None
+			self.Scc_5_Tx_1_Converter: enums.TxConverter = None
+			self.Scc_5_Tx_2_Connector: enums.TxConnector = None
+			self.Scc_5_Tx_2_Converter: enums.TxConverter = None
+			self.Scc_5_Tx_3_Connector: enums.TxConnector = None
+			self.Scc_5_Tx_3_Converter: enums.TxConverter = None
+			self.Scc_5_Tx_4_Connector: enums.TxConnector = None
+			self.Scc_5_Tx_4_Converter: enums.TxConverter = None
+			self.Scc_6_Bb_Board: enums.BasebandBoard = None
+			self.Scc_6_Tx_1_Connector: enums.TxConnector = None
+			self.Scc_6_Tx_1_Converter: enums.TxConverter = None
+			self.Scc_6_Tx_2_Connector: enums.TxConnector = None
+			self.Scc_6_Tx_2_Converter: enums.TxConverter = None
+			self.Scc_6_Tx_3_Connector: enums.TxConnector = None
+			self.Scc_6_Tx_3_Converter: enums.TxConverter = None
+			self.Scc_6_Tx_4_Connector: enums.TxConnector = None
+			self.Scc_6_Tx_4_Converter: enums.TxConverter = None
+			self.Coprocessor: enums.BasebandBoard = None
+
+	# noinspection PyTypeChecker
+	def get_flexible(self) -> FlexibleStruct:
+		"""SCPI: ROUTe:LTE:SIGNaling<instance>:SCENario:GYC[:FLEXible] \n
+		Snippet: value: FlexibleStruct = driver.route.scenario.gyc.get_flexible() \n
+		No command help available \n
+			:return: structure: for return value, see the help for FlexibleStruct structure arguments.
+		"""
+		return self._core.io.query_struct('ROUTe:LTE:SIGNaling<Instance>:SCENario:GYC:FLEXible?', self.__class__.FlexibleStruct())
+
+	def set_flexible(self, value: FlexibleStruct) -> None:
+		"""SCPI: ROUTe:LTE:SIGNaling<instance>:SCENario:GYC[:FLEXible] \n
+		Snippet: driver.route.scenario.gyc.set_flexible(value = FlexibleStruct()) \n
+		No command help available \n
+			:param value: see the help for FlexibleStruct structure arguments.
+		"""
+		self._core.io.write_struct('ROUTe:LTE:SIGNaling<Instance>:SCENario:GYC:FLEXible', value)

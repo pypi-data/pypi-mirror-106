@@ -1,0 +1,35 @@
+from ....Internal.Core import Core
+from ....Internal.CommandsGroup import CommandsGroup
+
+
+# noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection
+class UeAddress:
+	"""UeAddress commands group definition. 3 total commands, 2 Sub-groups, 0 group commands"""
+
+	def __init__(self, core: Core, parent):
+		self._core = core
+		self._base = CommandsGroup("ueAddress", core, parent)
+
+	@property
+	def ipv(self):
+		"""ipv commands group. 0 Sub-classes, 1 commands."""
+		if not hasattr(self, '_ipv'):
+			from .UeAddress_.Ipv import Ipv
+			self._ipv = Ipv(self._core, self._base)
+		return self._ipv
+
+	@property
+	def dedBearer(self):
+		"""dedBearer commands group. 0 Sub-classes, 2 commands."""
+		if not hasattr(self, '_dedBearer'):
+			from .UeAddress_.DedBearer import DedBearer
+			self._dedBearer = DedBearer(self._core, self._base)
+		return self._dedBearer
+
+	def clone(self) -> 'UeAddress':
+		"""Clones the group by creating new object from it and its whole existing sub-groups
+		Also copies all the existing default Repeated Capabilities setting,
+		which you can change independently without affecting the original group"""
+		new_group = UeAddress(self._core, self._base.parent)
+		self._base.synchronize_repcaps(new_group)
+		return new_group
