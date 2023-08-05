@@ -1,0 +1,10 @@
+setup.py
+pmuiprobability/Binomialdistribution.py
+pmuiprobability/Gaussiandistribution.py
+pmuiprobability/Generaldistribution.py
+pmuiprobability/__init__.py
+pmuiprobability.egg-info/PKG-INFO
+pmuiprobability.egg-info/SOURCES.txt
+pmuiprobability.egg-info/dependency_links.txt
+pmuiprobability.egg-info/not-zip-safe
+pmuiprobability.egg-info/top_level.txt
