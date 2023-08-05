@@ -1,0 +1,11 @@
+resume_pycli/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+resume_pycli/resume.json,sha256=4f7tb25Ay7HLQzF64dBiL6EXuSZ5cjEnZ3p9XRkQpKM,4995
+resume_pycli/schema.json,sha256=_24555z-be3d98HjE9202jRr3osFWohNf22EmWXcJ6Y,14945
+resume_pycli/script.py,sha256=7Bqs1Os0TCX46xaJqNmSDr2D75DEr7RANNMzxPmpbjI,2441
+resume_pycli/themes/base/index.html,sha256=KkaW_eNZ_FtIHe5XQxQm-Jhu9PeyepR5MBEDLG5HjEg,982
+resume_pycli/utils.py,sha256=Ctc74LCjpxbEmMUDCS6-LfIexOwGbirzmEtyYGQn3Gg,1671
+resume_pycli-1.1.2.dist-info/entry_points.txt,sha256=DrPV4RwlGplq9PcA4eYQmpySq8LAYAl_YqjWopPXpfQ,83
+resume_pycli-1.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+resume_pycli-1.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+resume_pycli-1.1.2.dist-info/METADATA,sha256=mUwqqUuYdJ3h9iG9a752TUTa9BPvTIkLF5igIaAvJbo,2302
+resume_pycli-1.1.2.dist-info/RECORD,,
