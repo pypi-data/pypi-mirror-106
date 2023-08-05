@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: oms-magento
+Version: 0.1
+Summary: Integration courier Magento
+Home-page: https://gitlab.com/linets/ecommerce/oms/integrations/oms-magento
+Author: Linets team
+Author-email: avelasqueza@linets.cl
+License: MIT
+Description: # lib-example
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
