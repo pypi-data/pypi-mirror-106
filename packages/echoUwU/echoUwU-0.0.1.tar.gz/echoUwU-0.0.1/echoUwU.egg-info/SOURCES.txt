@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+echoUwU/__init__.py
+echoUwU.egg-info/PKG-INFO
+echoUwU.egg-info/SOURCES.txt
+echoUwU.egg-info/dependency_links.txt
+echoUwU.egg-info/top_level.txt
