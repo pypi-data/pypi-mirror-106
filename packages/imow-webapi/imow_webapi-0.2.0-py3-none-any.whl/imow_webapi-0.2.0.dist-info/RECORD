@@ -1,0 +1,14 @@
+imow_webapi-0.2.0-py3.9-nspkg.pth,sha256=Vm3oQadZxlXkg1JZJiGqe0He5TW2yiEl9bl71dm128Q,529
+imow/api/__init__.py,sha256=fZebxTFTDj94BTwXu3qdEBJPucHNr4T8VbscLf0SOpw,13495
+imow/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imow/common/actions.py,sha256=RpHQmIBr5GIdJKKSKsyu5rBN5IbEDDBqVQgWoui7nds,151
+imow/common/mower.py,sha256=ajOrZbXQQrT2NZWI3jeCrarNEqFHggh5ys4uzOjWlZ4,3175
+imow/common/mowerstate.py,sha256=_47lAc2We45ua8AB2smIGjW489xVnVcU_ew1xjnWN4A,154
+imow/common/package_descriptions.py,sha256=5KmEu6Zz5qEEr1DALcM2kxqc1C3XHC5S7UIjPr7nGsM,82
+imow_webapi-0.2.0.dist-info/LICENSE,sha256=si0gKKTupBgTBcpJj-fdhd72a2YG7RdS4BcV800JuSc,1101
+imow_webapi-0.2.0.dist-info/METADATA,sha256=SvgFyhSmbLmXXtmXFC2virxnqhFCg943llfgk5TJGs0,4550
+imow_webapi-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+imow_webapi-0.2.0.dist-info/entry_points.txt,sha256=U-e5b5khvAab-WjvizEW4Vb62KAnqZhr9KeQbyB8RHk,45
+imow_webapi-0.2.0.dist-info/namespace_packages.txt,sha256=umRZ81ZzEVv2UgWCkiDHKtr1wEqAiAr2u_Ko1GfDJho,5
+imow_webapi-0.2.0.dist-info/top_level.txt,sha256=umRZ81ZzEVv2UgWCkiDHKtr1wEqAiAr2u_Ko1GfDJho,5
+imow_webapi-0.2.0.dist-info/RECORD,,
