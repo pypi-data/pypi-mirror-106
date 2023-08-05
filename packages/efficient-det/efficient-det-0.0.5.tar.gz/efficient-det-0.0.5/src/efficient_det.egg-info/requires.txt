@@ -1,0 +1,9 @@
+tensorflow>=2.4.0
+ray[default]
+ray[tune]
+matplotlib
+wandb
+pillow
+progressbar2
+pandas
+opencv-python
