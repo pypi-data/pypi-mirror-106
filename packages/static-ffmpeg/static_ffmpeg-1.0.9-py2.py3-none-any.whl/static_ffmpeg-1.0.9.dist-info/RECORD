@@ -1,0 +1,11 @@
+static_ffmpeg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+static_ffmpeg/run.py,sha256=_QJUO_P7DfGfEbgoAAulNn_DUwmfzWsxphPZryh0lHI,1163
+static_ffmpeg/linux/ffmpeg,sha256=ysW-v7SwTGo1mxoj_IQ6oazioX8TWk1CmBY1WPrHkWI,76693024
+static_ffmpeg/macos_x64/ffmpeg,sha256=1OQOonNUcKRKym41BURTLWweXKaReGk-z87m5OHwXZo,76597656
+static_ffmpeg/win32/ffmpeg.exe,sha256=fvXZJKA_-qGVZ4eBSemcJ2w9q20dfSCJaOYIl_nKx0M,76472832
+static_ffmpeg-1.0.9.dist-info/LICENSE,sha256=4GL3bniwdvm2phW-aKJQ6zPKeu0O9Y0HqbfE7tbxZls,1064
+static_ffmpeg-1.0.9.dist-info/METADATA,sha256=TwykhnNOK3jVumpXfR3f9Zjb8_rDG4Ih71RIggD3jbk,3393
+static_ffmpeg-1.0.9.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+static_ffmpeg-1.0.9.dist-info/entry_points.txt,sha256=fa9iDYvt7hBDAjyk0UulVj0bisT7il4zfVXpLSpkQdQ,58
+static_ffmpeg-1.0.9.dist-info/top_level.txt,sha256=1vcayCmfgwVH7JOWrO9i3Blun0DsWBwbHStJbWqGFnw,14
+static_ffmpeg-1.0.9.dist-info/RECORD,,
