@@ -1,0 +1,10 @@
+wagglepy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagglepy/symutil/__init__.py,sha256=C5dfv4a3eHI1vWxGw4i_fCiF7uLyP5i5laEL41RxbmU,21
+wagglepy/symutil/basics.py,sha256=filwd7kvas7TdCi4nKBQr04EWZpKzauLzhCGG6kLbAM,530
+wagglepy/symutil/characteristics.py,sha256=abcIyKK3HWYtvkvP0Qxumm0ciYGOaYg5yseE7yjZf6Y,915
+wagglepy/symutil/op.py,sha256=62-ELEaV8qRu45YAEgIyYJHW9tjP1gQq2y6GEfrhiw4,786
+wagglepy-0.0.1.dist-info/LICENSE,sha256=78efQYKayf_6ohX2_qSTC8C1BPGQX1C2qhGSFr1Eup8,1086
+wagglepy-0.0.1.dist-info/METADATA,sha256=w0gHZmhMQaQbkT-Dk0FgSmgEDY_-IsSdlIStjMEaLeE,2054
+wagglepy-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wagglepy-0.0.1.dist-info/top_level.txt,sha256=IbPP2pyzN4UQXCZcAFqoNmhlA3q5kduWS6jF2GZYBlA,9
+wagglepy-0.0.1.dist-info/RECORD,,
