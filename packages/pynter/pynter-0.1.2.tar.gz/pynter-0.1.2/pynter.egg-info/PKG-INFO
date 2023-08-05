@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: pynter
+Version: 0.1.2
+Summary: Minimal utility for generating images with textual caption
+Home-page: https://github.com/GabrielePicco/pynter
+Author: Gabriele Picco
+Author-email: piccogabriele@gmail.com
+License: MIT
+Description: Pynter
+        ======
+        
+        .. image:: https://img.shields.io/pypi/v/pynter.svg
+            :target: https://pypi.python.org/pypi/pynter
+            :alt: Latest PyPI version
+        
+        Minimal utility for generating images with textual caption
+        
+        Usage
+        -----
+        
+        1. Download an image
+        
+            curl https://i.imgur.com/XQCKcC9.jpg -o ./image.jpg
+        
+        2. Download a font
+        
+            curl https://fonts.google.com/download?family=Roboto -o ./roboto.zip ; unzip ./roboto.zip -d ./Roboto
+        
+        3. Provide a caption and Generate the image::
+        
+            from pynter import generate_captioned
+            font_path = './Roboto/Roboto-Regular.ttf'
+            image_path = './image.jpg'
+            im = generate_captioned('China lands rover on Mars'.upper(), image_path=image_path, size=(1080, 1350),
+                                    font_path=font_path, filter_color=(0, 0, 0, 40))
+            im.show()
+            im.convert('RGB').save('drawn_image.jpg')
+        
+        
+        Results will look like:
+        
+        .. image:: https://i.imgur.com/fS6vPNm.jpg
+        
+        
+        Installation
+        ------------
+        
+           pip install pynter
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
