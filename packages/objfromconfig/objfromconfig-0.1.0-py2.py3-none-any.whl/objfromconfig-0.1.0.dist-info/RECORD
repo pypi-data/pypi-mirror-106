@@ -1,0 +1,10 @@
+objfromconfig/__init__.py,sha256=3-1F8hMU7wdivdM1w9P5RLqF2NRjJN_WXor_j-EDncA,199
+objfromconfig/objfromconfig.py,sha256=C8i5X58rhAVBrbbF1CWj9XkyIp2H26HufS-XhQTtOBs,3153
+tests/__init__.py,sha256=34sOpoqQo2kdt3stO9nPehE8fI9HlfN-h61fzgbJT0Q,43
+tests/test_objfromconfig.py,sha256=8eg2YOkNzfCTuw1l5yb6G-33APH9M2dA_hwsgxjFjQg,1131
+objfromconfig-0.1.0.dist-info/AUTHORS.rst,sha256=fSEJuTqUXfaWcHV07P_uTXsfNLLFk_UVWcWXpvV8CxU,162
+objfromconfig-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+objfromconfig-0.1.0.dist-info/METADATA,sha256=M5u0_nZkrRrG874ovRtyWxIMkFpWThZ92ocgZbomOGg,1761
+objfromconfig-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+objfromconfig-0.1.0.dist-info/top_level.txt,sha256=P7Ld-iNseptfscHUTQgJ682WVrYgwOR_AmaOjOFBLzg,20
+objfromconfig-0.1.0.dist-info/RECORD,,
