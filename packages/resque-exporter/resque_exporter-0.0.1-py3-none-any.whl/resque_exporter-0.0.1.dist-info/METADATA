@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: resque-exporter
+Version: 0.0.1
+Summary: Resque Prometheus exporter
+Home-page: https://github.com/oik741/resque-exporter
+Author: Vladimir Shaykovskiy
+Author-email: oik741@gmail.com
+License: MIT
+Keywords: monitoring prometheus exporter resque
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Monitoring
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: prometheus-client (==0.10.*)
+Requires-Dist: redis
+
+# Prometheus exporter for resque
+![license](https://img.shields.io/github/license/oik741/resque-exporter)
+
+
