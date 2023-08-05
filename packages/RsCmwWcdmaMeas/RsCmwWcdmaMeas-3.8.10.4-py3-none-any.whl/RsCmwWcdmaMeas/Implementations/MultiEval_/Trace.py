@@ -1,0 +1,91 @@
+from ...Internal.Core import Core
+from ...Internal.CommandsGroup import CommandsGroup
+
+
+# noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection
+class Trace:
+	"""Trace commands group definition. 61 total commands, 9 Sub-groups, 0 group commands"""
+
+	def __init__(self, core: Core, parent):
+		self._core = core
+		self._base = CommandsGroup("trace", core, parent)
+
+	@property
+	def phd(self):
+		"""phd commands group. 1 Sub-classes, 0 commands."""
+		if not hasattr(self, '_phd'):
+			from .Trace_.Phd import Phd
+			self._phd = Phd(self._core, self._base)
+		return self._phd
+
+	@property
+	def cdeMonitor(self):
+		"""cdeMonitor commands group. 2 Sub-classes, 0 commands."""
+		if not hasattr(self, '_cdeMonitor'):
+			from .Trace_.CdeMonitor import CdeMonitor
+			self._cdeMonitor = CdeMonitor(self._core, self._base)
+		return self._cdeMonitor
+
+	@property
+	def cdpMonitor(self):
+		"""cdpMonitor commands group. 2 Sub-classes, 0 commands."""
+		if not hasattr(self, '_cdpMonitor'):
+			from .Trace_.CdpMonitor import CdpMonitor
+			self._cdpMonitor = CdpMonitor(self._core, self._base)
+		return self._cdpMonitor
+
+	@property
+	def carrier(self):
+		"""carrier commands group. 1 Sub-classes, 0 commands."""
+		if not hasattr(self, '_carrier'):
+			from .Trace_.Carrier import Carrier
+			self._carrier = Carrier(self._core, self._base)
+		return self._carrier
+
+	@property
+	def emask(self):
+		"""emask commands group. 5 Sub-classes, 0 commands."""
+		if not hasattr(self, '_emask'):
+			from .Trace_.Emask import Emask
+			self._emask = Emask(self._core, self._base)
+		return self._emask
+
+	@property
+	def evMagnitude(self):
+		"""evMagnitude commands group. 1 Sub-classes, 0 commands."""
+		if not hasattr(self, '_evMagnitude'):
+			from .Trace_.EvMagnitude import EvMagnitude
+			self._evMagnitude = EvMagnitude(self._core, self._base)
+		return self._evMagnitude
+
+	@property
+	def merror(self):
+		"""merror commands group. 1 Sub-classes, 0 commands."""
+		if not hasattr(self, '_merror'):
+			from .Trace_.Merror import Merror
+			self._merror = Merror(self._core, self._base)
+		return self._merror
+
+	@property
+	def perror(self):
+		"""perror commands group. 1 Sub-classes, 0 commands."""
+		if not hasattr(self, '_perror'):
+			from .Trace_.Perror import Perror
+			self._perror = Perror(self._core, self._base)
+		return self._perror
+
+	@property
+	def iq(self):
+		"""iq commands group. 1 Sub-classes, 0 commands."""
+		if not hasattr(self, '_iq'):
+			from .Trace_.Iq import Iq
+			self._iq = Iq(self._core, self._base)
+		return self._iq
+
+	def clone(self) -> 'Trace':
+		"""Clones the group by creating new object from it and its whole existing sub-groups
+		Also copies all the existing default Repeated Capabilities setting,
+		which you can change independently without affecting the original group"""
+		new_group = Trace(self._core, self._base.parent)
+		self._base.synchronize_repcaps(new_group)
+		return new_group
