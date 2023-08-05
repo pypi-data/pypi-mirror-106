@@ -1,0 +1,13 @@
+mathics_pygments/__init__.py,sha256=aQBv779QmO-S57YRHsNldIRCAB1AexWb9jBauqgEnT0,255
+mathics_pygments/builtins.py,sha256=MWvGe7B_OtLH0YZoMRooB_z2PE8j4AcvHqaGOB8C16Q,154823
+mathics_pygments/lexer.py,sha256=J1yf3cjqvm_c7WfpCVh1Vw3qdYK3raT6d7e0Yyot71Y,12648
+mathics_pygments/style.py,sha256=WeCREQMNCfbZg5nbZilDJtCtVfMs7fS1sAr-1JT9GJQ,1559
+mathics_pygments/version.py,sha256=x9gwr2rHPLzEtkGtXe58gNeZCAhyL5kNWpB2saeVncY,195
+mathics_pygments/data/mma-tables.json,sha256=0oVsG4SjE4kovkAAZjzFoyywCxxcSha6Ae25FCHUlCA,2596
+mathics_pygments-1.0.0.dist-info/DESCRIPTION.rst,sha256=NyB6ysjykmPgTXU_vTBmpnK3swMtq6Q5Q7q_-5PvYhE,1032
+mathics_pygments-1.0.0.dist-info/METADATA,sha256=u_yhBh_QLIle779ROVNeOpnvPkrWQzGsbxLrJo3Hgrs,1962
+mathics_pygments-1.0.0.dist-info/RECORD,,
+mathics_pygments-1.0.0.dist-info/WHEEL,sha256=GrqQvamwgBV4nLoJe0vhYRSWzWsx7xjlt74FT0SWYfE,110
+mathics_pygments-1.0.0.dist-info/entry_points.txt,sha256=dSzmgWXjZxSkmR_HGWDvjmhkyPTzj8CfgDV9Z-m3t9o,203
+mathics_pygments-1.0.0.dist-info/metadata.json,sha256=Cd7sw9MndsV-9qyWVPcXA4ELwthEqvTqZWdNpXKRDD4,1326
+mathics_pygments-1.0.0.dist-info/top_level.txt,sha256=pdN1ufXyCfLV-4SHQNFSdvoZrAROyEe5nrU_ClcbRjg,17
