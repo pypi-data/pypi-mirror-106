@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: passwdqc
+Version: 0.0.1
+Summary: PasswdQC python wrapper
+Home-page: https://sr.ht/~frbrgeorge/PasswdqcPython/
+Author: Fr. Br. George
+Author-email: george@altlinux.org
+License: UNKNOWN
+Description: 
+        PasswdQC is a simple password strength checking PAM module,
+        and this Python module provides high-level bindings for libpasswdqc.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: C
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux

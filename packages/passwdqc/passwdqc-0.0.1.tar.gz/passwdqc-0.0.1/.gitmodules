@@ -1,0 +1,3 @@
+[submodule "passwdqc"]
+	path = passwdqc
+	url = https://github.com/openwall/passwdqc

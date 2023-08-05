@@ -1,0 +1,34 @@
+image: debian/testing
+packages:
+  - python3-dev
+  - python3-setuptools
+  - gcc
+  - python3-wheel
+  - twine
+  - python3-pip
+  - unzip
+  - patchelf
+  - zsh
+secrets:
+  - 7838f337-2952-4fb1-a333-6a7f1af6c9f2
+sources:
+  - https://git.sr.ht/~frbrgeorge/PasswdqcPython
+tasks:
+  - setup: |
+        pip install auditwheel
+  - build: |
+        cd PasswdqcPython
+        python3 setup.py build
+  - wheel: |
+        cd PasswdqcPython
+        python3 setup.py bdist_wheel
+        python3 -m auditwheel repair -w dist --plat manylinux2014_x86_64 dist/*linux_x86_64*.whl
+        rm dist/*linux_x86_64*.whl
+  - sdist: |
+        cd PasswdqcPython
+        python3 setup.py sdist
+  - publish: |
+        cd PasswdqcPython
+        set +x
+        twine upload -u __token__ -p "`cat ~/.test-pypi`" --repository testpypi dist/*
+        set -x

@@ -1,0 +1,3 @@
+include .build.yml
+include test.py
+include .gitmodules

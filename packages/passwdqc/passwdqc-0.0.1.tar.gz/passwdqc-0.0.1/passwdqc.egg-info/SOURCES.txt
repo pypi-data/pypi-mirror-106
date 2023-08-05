@@ -1,0 +1,11 @@
+.build.yml
+.gitmodules
+MANIFEST.in
+README.md
+passwdqc.c
+setup.py
+test.py
+passwdqc.egg-info/PKG-INFO
+passwdqc.egg-info/SOURCES.txt
+passwdqc.egg-info/dependency_links.txt
+passwdqc.egg-info/top_level.txt
