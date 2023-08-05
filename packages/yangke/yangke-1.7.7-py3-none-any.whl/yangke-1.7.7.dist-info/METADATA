@@ -1,0 +1,234 @@
+Metadata-Version: 2.1
+Name: yangke
+Version: 1.7.7
+Summary: 个人工具综合平台，包含常用工具，网络爬虫，知识图谱，神经网络预测等工具
+Home-page: https://gitee.com/yangke02/lib4python
+Author: 杨可
+Author-email: yangyangyangkekeke@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracter, https://gitee.com/yangke02/lib4python
+Project-URL: Documentation, https://gitee.com/yangke02/lib4python
+Project-URL: Source Code, https://gitee.com/yangke02/lib4python
+Project-URL: Funding, https://gitee.com/yangke02/lib4python
+Keywords: yangke
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: Freely Distributable
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=0.25.3)
+Requires-Dist: pyyaml (>=5.2)
+Requires-Dist: json5 (>=0.8.5)
+Requires-Dist: dill (>=0.3.3)
+Requires-Dist: babel (>=2.9)
+Requires-Dist: pathlib2
+Requires-Dist: pillow (>=7.0.0)
+Requires-Dist: pywin32
+Requires-Dist: cmake
+Provides-Extra: all
+Requires-Dist: scrapy (>=2.0.0) ; extra == 'all'
+Requires-Dist: python-docx ; extra == 'all'
+Requires-Dist: iapws (>=1.5.2) ; extra == 'all'
+Requires-Dist: sxtwl (>=1.0.7) ; extra == 'all'
+Requires-Dist: waitress (>=1.4.4) ; extra == 'all'
+Requires-Dist: tushare (>=1.2.48) ; extra == 'all'
+Requires-Dist: sqlalchemy (>=1.3.23) ; extra == 'all'
+Requires-Dist: boost ; extra == 'all'
+Requires-Dist: requests (>=2.22.0) ; extra == 'all'
+Requires-Dist: cmake (>=3.18.2) ; extra == 'all'
+Requires-Dist: pillow (>=7.0.0) ; extra == 'all'
+Requires-Dist: opencv-python (>=4.2.0) ; extra == 'all'
+Requires-Dist: gevent (>=20.5.0) ; extra == 'all'
+Requires-Dist: pymysql (>=0.9.3) ; extra == 'all'
+Requires-Dist: twisted (>=20.3.0) ; extra == 'all'
+Requires-Dist: flask (>=1.1.2) ; extra == 'all'
+Requires-Dist: DBUtils (>=1.3) ; extra == 'all'
+Requires-Dist: cryptography (>=3.1.1) ; extra == 'all'
+Requires-Dist: selenium (>=3.141.0) ; extra == 'all'
+Requires-Dist: pygame ; extra == 'all'
+Requires-Dist: gevent-websocket ; extra == 'all'
+Requires-Dist: mysql-connector-python (>=8.0.24) ; extra == 'all'
+Requires-Dist: flask-cors (>=3.0.8) ; extra == 'all'
+Provides-Extra: database
+Requires-Dist: pymysql (>=0.9.3) ; extra == 'database'
+Requires-Dist: DBUtils (>=1.3) ; extra == 'database'
+Requires-Dist: cryptography (>=3.1.1) ; extra == 'database'
+Requires-Dist: python-docx ; extra == 'database'
+Requires-Dist: mysql-connector-python (>=8.0.24) ; extra == 'database'
+Requires-Dist: sqlalchemy (>=1.3.23) ; extra == 'database'
+Provides-Extra: gameserver
+Requires-Dist: twisted (>=20.3.0) ; extra == 'gameserver'
+Requires-Dist: flask (>=1.1.2) ; extra == 'gameserver'
+Requires-Dist: flask-cors (>=3.0.8) ; extra == 'gameserver'
+Requires-Dist: requests (>=2.22.0) ; extra == 'gameserver'
+Requires-Dist: gevent (>=20.5.0) ; extra == 'gameserver'
+Requires-Dist: gevent-websocket ; extra == 'gameserver'
+Requires-Dist: waitress (>=1.4.4) ; extra == 'gameserver'
+Provides-Extra: imagerecognition
+Requires-Dist: opencv-python (>=4.2.0) ; extra == 'imagerecognition'
+Requires-Dist: cmake (>=3.18.2) ; extra == 'imagerecognition'
+Requires-Dist: boost ; extra == 'imagerecognition'
+Requires-Dist: pillow (>=7.0.0) ; extra == 'imagerecognition'
+Requires-Dist: flask (>=1.1.2) ; extra == 'imagerecognition'
+Requires-Dist: flask-cors (>=3.0.8) ; extra == 'imagerecognition'
+Requires-Dist: requests (>=2.22.0) ; extra == 'imagerecognition'
+Provides-Extra: performance
+Requires-Dist: iapws (>=1.5.2) ; extra == 'performance'
+Requires-Dist: pygame ; extra == 'performance'
+Provides-Extra: stock
+Requires-Dist: tushare (>=1.2.48) ; extra == 'stock'
+Requires-Dist: scrapy (>=2.0.0) ; extra == 'stock'
+Requires-Dist: sxtwl (>=1.0.7) ; extra == 'stock'
+Requires-Dist: pymysql (>=0.9.3) ; extra == 'stock'
+Requires-Dist: DBUtils (>=1.3) ; extra == 'stock'
+Requires-Dist: selenium (>=3.141.0) ; extra == 'stock'
+Requires-Dist: mysql-connector-python (>=8.0.24) ; extra == 'stock'
+Requires-Dist: sqlalchemy (>=1.3.23) ; extra == 'stock'
+Provides-Extra: ugly
+Requires-Dist: dlib (>=19.17.0) ; extra == 'ugly'
+Requires-Dist: torch (>=1.4.0) ; extra == 'ugly'
+
+# 1 概述
+
+## 1.1 安装
+
+一个Python的常用工具类库，主要用于股票预测等功能，同时提供各类优化算法的调用工具。
+联系方式：540673597@qq.com
+
+安装方法一：
+
+    pip install yangke
+
+使用该命令为最小化yangke安装，只会安装yangke库的必要依赖。因yangke库中包含多个模块，当使用具体模块时，
+可能存在依赖不全的问题，此时需要根据提示，继续安装使用的模块的必要依赖。
+
+安装方法二：
+
+    pip install yangke[All]
+
+使用该命令会安装yangke库中所有模块的依赖。yangke库中包含的模块可以使1.2节测试方法进行查询。
+
+## 1.2 测试是否安装成功
+
+    import yangke
+    yangke.info()
+
+如果安装成功，则提示如下图所示。
+![图片无法显示](./document/figures/img.png)
+
+#2 小功能
+
+# 2.1 多彩的logger输出
+
+在test.py中输入以下代码：
+
+    from yangke.common.config import logger
+
+    logger.debug("debug from yangke logger")
+    logger.info("info from yangke logger")
+    logger.warning("warning from yangke logger")
+    logger.error("error from yangke logger")
+    logger.critical("critical from yangke logger")
+
+运行结果如下图所示：
+
+![图片无法显示](./document/figures/img_1.png)
+
+也可以配置日志输出的格式，这里是默认的格式。
+
+## 2.2 给python方法添加日志环境提示
+
+在test.py中输入以下代码：
+
+    from yangke.common.config import logger, loggingTitleCall
+
+
+    @loggingTitleCall(title="初始化mysql数据库连接")
+    def init_mysql():
+        logger.info("测试mysql是否可用")
+        logger.info("连接mysql")
+        logger.info("mysql连接成功")
+
+
+    init_mysql()
+运行结果如下图所示：
+
+![图片无法显示](./document/figures/img_2.png)
+
+也可以临时更改某个方法中的logger级别，定制不同的logger输出格式，详细用法参见项目源码。
+
+## 2.3 windows系统运行命令
+运行windows系统的命令，有两个方法。
+
+    from yangke.core import *
+
+    runAsAdmin('echo "1111" > ssssss.txt', popup=True)
+    result = runCMD('echo "11111"', charset="GBK", wait_for_result=True, output_type="RETURN")
+    print(result)
+运行结果如下图所示：
+
+![图片无法显示](./document/figures/img_3.png)
+说明：
+
+    runAsAdmin(cmd, cwd=None, charset="gbk", python=None, popup=True) 
+
+该方法以管理员方式运行命令，在windows系统上会弹出确认窗口，询问是否以管理员方式运行，如果不需要
+弹出确认窗口，可以设置参数popup=False，但这实际上利用了windows的漏洞，在win10上会被defender当做病毒拦截，在
+win7上能正常运行。
+
+    runCMD(command: str, charset: str = "utf8", wait_for_result: bool = True, cwd=None,
+           output_type: str = "RETURN", timeout=None)
+
+该方法可以返回第三方命令的执行结果给当前python主进程，如2.3节示例的运行结果，这在很多时候是很有用的。
+
+#2.4 判断是否安装某python库
+
+    existModule("pandas")
+
+#2.5 yangke.base中的小工具
+
+* 读取yaml文件，返回对应的字典对象或列表对象
+
+>readFromYAML(file: str, encoding="utf8")
+
+* 获取当前电脑的IP地址
+
+>get_localhost_ip()
+
+* 获取文本文件的编码
+
+>get_encoding_of_file(file)
+
+* 将图片转换为base64格式
+
+输入图片可以是 url, ndarray或本地的图片文件路径
+>pic2base64(pic)
+
+* 将图片转换为ndarray格式
+
+输入图片可以是 url, ndarray或本地的图片文件路径
+>pic2ndarray(pic)
+
+* 将xls格式的excel文件另存为xlsx或csv
+
+该方法利用的是本地安装的Office或WPS，因此只要本地的Office或WPS能正常打开的xls文件都可以成功另存，具有极强的适应性。其他excel类库在某些情况下无法另存或存在编码错误的问题。
+>save_as_xlsx(file, engine="WPS", ext="xlsx", visible=False)
+
+* 开启新线程运行指定的目标函数 
+
+>start_threads(targets, args_list=())
+
+* 遍历目录下的文件
+
+yield_all_file(folder, filter_=None, ignore_temp_file: bool = True)
+
+![图片无法显示](./document/figures/img_2.png)
+
+#2 Stock模块（股票）
+
+
