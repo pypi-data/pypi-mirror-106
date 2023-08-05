@@ -1,0 +1,19 @@
+pytest
+email-validator
+tabulate
+base91
+pysha3
+base32-crockford
+chardet
+pem
+cashaddress
+cbor
+base58
+regex
+requests
+netaddr
+brotli
+filetype
+
+[:python_version > "3.5"]
+btclib==2020.12.19
