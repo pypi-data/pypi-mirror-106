@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/randos/__init__.py
+src/randos.egg-info/PKG-INFO
+src/randos.egg-info/SOURCES.txt
+src/randos.egg-info/dependency_links.txt
+src/randos.egg-info/top_level.txt
