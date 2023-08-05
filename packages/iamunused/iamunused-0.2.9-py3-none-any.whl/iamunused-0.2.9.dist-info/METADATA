@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: iamunused
+Version: 0.2.9
+Summary: Scan and remediate unused permissions within IAM Policies
+Home-page: https://github.com/chrisdunne/iamunused
+Author: Chris Dunne
+Author-email: contact@chrisdunne.net
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+
+![PyPI](https://img.shields.io/pypi/v/iamunused?style=for-the-badge)
+![PyPI - License](https://img.shields.io/pypi/l/iamunused?style=for-the-badge)
+
+# iamunused
+Scan and remediate unused permissions within IAM Policies
+
+## Getting started
+
+### Requrirements
+ * AWS CLI version 2
+
+### Installation
+
+```sh
+pip3 install iamunused
+```
+
+### Upgrade
+
+```sh
+pip3 install -U iamunused
+```
+
+
+### Scan
+
+```sh
+python -m iamunused
+```
+
