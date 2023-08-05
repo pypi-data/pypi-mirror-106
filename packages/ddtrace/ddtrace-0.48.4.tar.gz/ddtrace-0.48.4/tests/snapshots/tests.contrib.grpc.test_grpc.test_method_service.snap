@@ -1,0 +1,86 @@
+[[{"name" "grpc"
+   "service" "grpc-client"
+   "resource" "/Servicer/Handler"
+   "type" "grpc"
+   "error" 0
+   "span_id" 0
+   "trace_id" 0
+   "parent_id" nil
+   "start" 1620933912384429100
+   "duration" 2398200
+   "meta" {"runtime-id" "b5316a45603f47b2abb9bfd4ef204449"
+           "grpc.port" "56173"
+           "grpc.host" "::"
+           "grpc.method.kind" "unary"
+           "span.kind" "client"
+           "grpc.method.path" "/Servicer/Handler"
+           "grpc.status.code" "StatusCode.OK"
+           "grpc.method.service" "Servicer"
+           "grpc.method.name" "Handler"}
+   "metrics" {"_dd.agent_psr" 1.0
+              "_dd.measured" 1
+              "_sampling_priority_v1" 1
+              "system.pid" 625
+              "_dd.tracer_kr" 1.0}}
+      {"name" "grpc"
+       "service" "grpc-server"
+       "resource" "/Servicer/Handler"
+       "type" "grpc"
+       "error" 0
+       "span_id" 1
+       "trace_id" 0
+       "parent_id" 0
+       "start" 1620933912385949600
+       "duration" 73300
+       "meta" {"grpc.method.path" "/Servicer/Handler"
+               "grpc.method.service" "Servicer"
+               "grpc.method.name" "Handler"
+               "grpc.method.kind" "unary"
+               "span.kind" "server"}
+       "metrics" {"_dd.measured" 1
+                  "_sampling_priority_v1" 1
+                  "_dd.tracer_kr" 1.0}}]
+ [{"name" "grpc"
+   "service" "grpc-client"
+   "resource" "/pkg.Servicer/Handler"
+   "type" "grpc"
+   "error" 0
+   "span_id" 0
+   "trace_id" 1
+   "parent_id" nil
+   "start" 1620933912387141700
+   "duration" 1941500
+   "meta" {"runtime-id" "b5316a45603f47b2abb9bfd4ef204449"
+           "grpc.port" "56173"
+           "grpc.method.package" "pkg"
+           "grpc.host" "::"
+           "grpc.method.kind" "unary"
+           "span.kind" "client"
+           "grpc.method.path" "/pkg.Servicer/Handler"
+           "grpc.status.code" "StatusCode.OK"
+           "grpc.method.service" "Servicer"
+           "grpc.method.name" "Handler"}
+   "metrics" {"_dd.agent_psr" 1.0
+              "_dd.measured" 1
+              "_sampling_priority_v1" 1
+              "system.pid" 625
+              "_dd.tracer_kr" 1.0}}
+      {"name" "grpc"
+       "service" "grpc-server"
+       "resource" "/pkg.Servicer/Handler"
+       "type" "grpc"
+       "error" 0
+       "span_id" 1
+       "trace_id" 1
+       "parent_id" 0
+       "start" 1620933912388411400
+       "duration" 137300
+       "meta" {"grpc.method.path" "/pkg.Servicer/Handler"
+               "grpc.method.package" "pkg"
+               "grpc.method.service" "Servicer"
+               "grpc.method.name" "Handler"
+               "grpc.method.kind" "unary"
+               "span.kind" "server"}
+       "metrics" {"_dd.measured" 1
+                  "_sampling_priority_v1" 1
+                  "_dd.tracer_kr" 1.0}}]]
