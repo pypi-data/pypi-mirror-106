@@ -1,0 +1,16 @@
+luigi
+retry
+joblib
+pandas
+
+[complete]
+bumpversion
+pytest
+sphinx
+sphinx-rtd-theme
+
+[dev]
+pytest
+bumpversion
+sphinx-rtd-theme
+sphinx
