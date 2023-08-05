@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+kingbot/__init__.py
+kingbot/__main__.py
+kingbot/plugins/__init__.py
+kingbot/plugins/hel__p.py
+py_kingbot.egg-info/PKG-INFO
+py_kingbot.egg-info/SOURCES.txt
+py_kingbot.egg-info/dependency_links.txt
+py_kingbot.egg-info/requires.txt
+py_kingbot.egg-info/top_level.txt

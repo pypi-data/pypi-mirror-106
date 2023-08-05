@@ -1,0 +1,5 @@
+pyrogram
+redis
+python-decouple==3.3
+TgCrypto==1.2.2
+python-dotenv==0.15.0
