@@ -1,0 +1,4 @@
+json>=18.2
+yaml
+base64
+requests
