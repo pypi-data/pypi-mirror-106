@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/numbits.cpp
+src/numbits.cpp.orig
+src/numbits.cpython-39-darwin.so
+src/numbits_BACKUP_11201.cpp
+src/numbits_BASE_11201.cpp
+src/numbits_LOCAL_11201.cpp
+src/numbits_REMOTE_11201.cpp
+src/numbits.egg-info/PKG-INFO
+src/numbits.egg-info/SOURCES.txt
+src/numbits.egg-info/dependency_links.txt
+src/numbits.egg-info/not-zip-safe
+src/numbits.egg-info/top_level.txt
