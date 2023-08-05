@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: game-sir-fixer
+Version: 0.0.1
+Summary: A hacky workaround for the Game Sir wireless controller to interface with Dolphin Emulator
+Home-page: https://github.com/GrantGMiller/game_sir_fixer
+Author: Grant miller
+Author-email: grant@grant-miller.com
+License: PSF
+Project-URL: Source Code, https://github.com/GrantGMiller/game_sir_fixer
+Keywords: grant miller game sir dolphin emulator
+Platform: UNKNOWN
+Requires-Dist: pygame
+Requires-Dist: pyvjoy
+
+Long story short:
+
+I bought this controller on Amazon because it was cheap.
+https://www.amazon.com/dp/B088GQY8FH
+
+Turns out it is not great for Windows 10.
+The forums I read said that this controller mis-reports its capabilites and some programs like Dolphin Emulator will not recognize some buttons.
+
+This python program creates a virtual controller (you must have vJoystick SDK installed)
+http://vjoystick.sourceforge.net/site/index.php/download-a-install/78-download-a-install?layout=blog
+
+This program grabs the controller input using pygame and then emulates a press on the vJoy virtual controller.
+
+I wrote this in a single day, so no guarentees, but me and my kids have been using it successfully all weekend.
+
+Hope it can help someone else :-)
+
