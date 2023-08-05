@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ircflags
+Version: 0.0.1
+Summary: easy IRC bot access control
+Home-page: https://github.com/examknow/ircflags
+Author: examknow
+Author-email: me@zpld.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
