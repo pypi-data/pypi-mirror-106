@@ -1,0 +1,9 @@
+joblib
+colorama
+tqdm
+pyxlsb
+Click>=7.1
+pandas
+
+[:python_version < "3.7"]
+dataclasses>=0.6
