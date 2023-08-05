@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+init_args_serializer/__init__.py
+init_args_serializer/function_arg_capture.py
+init_args_serializer/serializable.py
+init_args_serializer.egg-info/PKG-INFO
+init_args_serializer.egg-info/SOURCES.txt
+init_args_serializer.egg-info/dependency_links.txt
+init_args_serializer.egg-info/requires.txt
+init_args_serializer.egg-info/top_level.txt
+init_args_serializer.egg-info/zip-safe

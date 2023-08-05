@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: init-args-serializer
+Version: 1.1
+Summary: Python serializer based on init-args
+Home-page: https://github.com/Xfel/init-args-serializer
+Author: Felix Treede
+Author-email: felixtreede@yahoo.de
+License: UNKNOWN
+Description: # Python init-args based Serializer
+        
+        This package provides improved pickling support. Instead of storing the entire state dict `__dict__`, the parameters passed to the initializer `__init__()` are captured. 
+        During unpickling, the captured parameters are used to create a new object instance.
+        
+        This behaviour is implemented using the `__reduce__()` hook. 
+        Thus, it is strongly discouraged to override the `__reduce__()` method. 
+        If you need to pickle variables beyond the constructor parameters, you should use the regular `__getstate__()` and `__setstate__()` methods.
+        
+        Usage:
+        ```
+        class MyCustomClass(OptionalBaseClass, Serializable):
+            
+            def __init__(self, *args, **kwargs):
+                # Recommended to call this first
+                Serializable._init(self, locals())
+        
+        ```
+        
+Keywords: serialization,serializer,init-args
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Provides-Extra: test
