@@ -1,0 +1,3 @@
+[console_scripts]
+cmc_dataeng_internship_maudeplucker = cmc_dataeng_internship_maudeplucker.__main__:main
+
