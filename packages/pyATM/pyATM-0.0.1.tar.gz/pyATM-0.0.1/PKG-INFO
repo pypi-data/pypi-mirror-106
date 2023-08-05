@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyATM
+Version: 0.0.1
+Summary: A simple tool based on Luhn Algorithm)
+Home-page: UNKNOWN
+Author: C Lokesh Kumar Reddy
+Author-email: lokeshkumarreddy.c@gmail.com
+License: MIT
+Description: It is a simple tool which is useful to check whether the atm card is valid or not ,it works based on Lunh Algorithm
+        
+        Directions of use
+        
+        To check whether the card is valid or not
+        
+        pyATM.card_check()
+        
+        enter your card number 
+        
+        To check the type of the card
+        
+        pyATM.card_type(number)
+        
+Keywords: pyATM
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
