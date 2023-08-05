@@ -1,0 +1,9 @@
+beatles_chords_markov_chain/__init__.py,sha256=wOk7Y9cM0hqed4MJOZrxJMfy6l2hFGk-nS9HbPVws9o,662
+beatles_chords_markov_chain/database_preprocessing.py,sha256=wvb9jNfgYJjQ_OiEjolucjE14WPOdd6r0kuHO0sisuQ,2968
+beatles_chords_markov_chain/intervals.py,sha256=_UriqSqZDKzQNvqu9wDl74aTfAJ-rtqgHrflNIecxko,844
+beatles_chords_markov_chain/markov_chain.py,sha256=UARB4CF25JxEPcmAO_J1JVtQhEDcI0Zkxq3Ev-bYqkw,714
+beatles_chords_markov_chain/processed_data.py,sha256=-WFABPrltoQYd-9D9aRbdQ7Hj3OAqeuHJm5JV-91pD4,772
+beatles_chords_markov_chain-0.0.20.dist-info/METADATA,sha256=7U79sl3GZAW4_1GqRILzh4d1l9AQjklYuvL87meLKrk,2531
+beatles_chords_markov_chain-0.0.20.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+beatles_chords_markov_chain-0.0.20.dist-info/top_level.txt,sha256=8wvB93lFKRlcXPS_EFzxj-DmaKFFhqyWxSRI0eJcShI,28
+beatles_chords_markov_chain-0.0.20.dist-info/RECORD,,
