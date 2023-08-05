@@ -1,0 +1,3 @@
+[pytest11]
+calculator_plugin = chapter_05.extend_test_framework.calculator_plugin.calculator_plugin
+

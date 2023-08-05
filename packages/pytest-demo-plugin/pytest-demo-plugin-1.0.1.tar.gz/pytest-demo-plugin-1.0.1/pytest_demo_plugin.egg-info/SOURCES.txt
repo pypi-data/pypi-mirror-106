@@ -1,0 +1,7 @@
+chapter_05/extend_test_framework/calculator_plugin/__init__.py
+chapter_05/extend_test_framework/calculator_plugin/calculator_plugin.py
+pytest_demo_plugin.egg-info/PKG-INFO
+pytest_demo_plugin.egg-info/SOURCES.txt
+pytest_demo_plugin.egg-info/dependency_links.txt
+pytest_demo_plugin.egg-info/entry_points.txt
+pytest_demo_plugin.egg-info/top_level.txt

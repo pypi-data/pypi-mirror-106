@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pytest-demo-plugin
+Version: 1.0.1
+Summary: pytest示例插件
+Home-page: https://github.com/lujiatao2
+Author: 卢家涛
+Author-email: 522430860@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
