@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyssg
+Version: 0.1.0
+Summary: A Static Site Generator using markdown files
+Home-page: https://github.com/luevano/pyssg
+Author: David Luevano Alvarado
+Author-email: david@luevano.xyz
+Maintainer: David Luevano Alvarado
+Maintainer-email: david@luevano.xyz
+License: GPLv3
+Keywords: python,static,site,generator,markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Unix
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+
+# pyssg
+
+Static Site Generator inspired by Roman Zolotarev's [ssg5](https://rgz.ee/bin/ssg5) and [rssg](https://rgz.ee/bin/rssg) Luke Smith's [lb and sup](https://github.com/LukeSmithxyz/lb) and, pedantic.software's [blogit](https://pedantic.software/git/blogit/).
+
+The reason of making this in python is because I was tired of wanting (some) features from all of these minimal programs, but being a pain in the ass to maintain or add features on my own, specially to `blogit`...; making minimalist software it's great and all, but there is a limit on how pretentious and elitist a software can be for me to accept it.
+
+
+
