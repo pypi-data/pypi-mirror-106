@@ -1,0 +1,2 @@
+edk_crypto
+edk_root
