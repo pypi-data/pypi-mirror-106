@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "pynaf"
+version = "2.0.6"
+description = "Read and create NAF annotation Documents."
+authors = ["Rodrigo Agerri <rodrigo.agerri@ehu.es>, Josu Bermudez <josubg@gmail.com>"]
+license = "Apache License 2.0 (APL 2.0)"
+classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Science/Research',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        'Topic :: Text Processing :: Markup :: XML',
+        'License :: OSI Approved :: Apache Software License',
+        'Programming Language :: Python :: 3',
+    ]
+repository='https://github.com/josubg/pynaf/'
+keywords=['NLP', 'XML', 'markup', 'NAF']
+readme='README.md'
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+lxml = "^4.6.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
