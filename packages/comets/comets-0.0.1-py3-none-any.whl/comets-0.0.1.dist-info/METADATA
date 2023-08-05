@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: comets
+Version: 0.0.1
+Summary: Comets, the Cosmo Model Experimentation Toolbox, is a Python library for experimenting with numerical models and simulators
+Home-page: https://github.com/Cosmo-Tech/comets
+Author: Cosmo Tech
+Author-email: team.next@cosmotech.com
+License: MIT License
+Keywords: CosmoTech,comets,Model Experimentation,Uncertainty Analysis,Sensibility Analysis,Optimization
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.15.0)
+Requires-Dist: black
+Requires-Dist: flake8
+Requires-Dist: pytest (>=4.6)
+Requires-Dist: pre-commit
+
+# Comets, the Cosmo Model Experimentation Toolbox
+
+Comets is a Python library for experimenting with numerical models and simulators.
+
+It offers tools to run, analyze and optimize your models and can be used with both Python models as well as Cosmo Tech simulators.
+
+## Installation
+
+### Requirements
+
+### Installation using pip
+Installation is straightforward using pip:
+```
+pip3 install comets
+```
+
+## Getting Started
+
+
+
+## Documentation
+
+
+
+## License
+Comets is licensed under the MIT license.
+
+
