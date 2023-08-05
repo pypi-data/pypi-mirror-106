@@ -1,0 +1,3 @@
+[console_scripts]
+fufu1 = edk_tools.pkg_command.edk_command:point1
+
