@@ -1,0 +1,13 @@
+pytgcalls/__init__.py,sha256=OPkW6bYjXbxb5rLceYk3pVISanV2AhAPzbbvuaE3kJ8,1882
+pytgcalls/action.py,sha256=YQvlHbuBV_ds8xvQJF7QCJITqM_fJhQBIUlqPV3fcdI,1088
+pytgcalls/dispatcher.py,sha256=Gv66ChLRrm3y9SdPFK-ppLUgvGDmfIeiGDIuK46TynA,3308
+pytgcalls/dispatcher_mixin.py,sha256=CbC3gYgx4C8bv6i6FJ-6uIoXFA_t7sul5Uv94E1b1KI,2381
+pytgcalls/group_call.py,sha256=-EFkFZjf9xrJfYMKClIKsh8DykmQAaJy1rbXR7LlO8o,5308
+pytgcalls/group_call_device.py,sha256=EjwzYeRKHJm7_4CHYSB4cp3jPS07TRREneII0b0_3qg,2615
+pytgcalls/group_call_native.py,sha256=346Br8wQf6nQ60MsEJ18AtcTppFEs-7S6E8n8D0TXO0,21860
+pytgcalls/group_call_raw.py,sha256=NMPqKxA4KQvWd9bEHLVRySGOGy2nnPK5qhnjkra9uo4,3706
+pytgcalls-0.0.23.dist-info/LICENSE,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+pytgcalls-0.0.23.dist-info/METADATA,sha256=uhHeKgbHZCQv4EPArOBx0ekA-li5w4U71Lfj2D-4eUQ,10460
+pytgcalls-0.0.23.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytgcalls-0.0.23.dist-info/top_level.txt,sha256=IUDUwn0KkcbUYZbCe9R5AUb2Ob-lmllNUGQqyeXXd8A,10
+pytgcalls-0.0.23.dist-info/RECORD,,
