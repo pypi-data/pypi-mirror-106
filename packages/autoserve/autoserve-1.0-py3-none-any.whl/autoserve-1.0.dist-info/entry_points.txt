@@ -1,0 +1,3 @@
+[console_scripts]
+autoserve = autoserve.__main__:app
+

@@ -1,0 +1,10 @@
+autoserve/__init__.py,sha256=rqyZtt1djmoU2vxYGslRgV4TaBWrxK8uesP_Xai_8-U,19
+autoserve/__main__.py,sha256=XKakyVIiqQKxtHKss_SvbjfLum2GxFoUQf1LWYM_5PE,684
+autoserve/seldon/__init__.py,sha256=h3FCIoSrTqdxyYUBPNaGy0rAmnMjL4KHWdJ1jdo5-oM,25
+autoserve/seldon/sklearn.py,sha256=n6wUn0Ue_S82bOf4OFNmeG2NyntM-y1ViWztQN40A-o,3513
+autoserve-1.0.dist-info/LICENSE,sha256=q81jvMC5FY1JFL25kSxhf-XhvuhG9l1xvZlQ4GUnAr8,1074
+autoserve-1.0.dist-info/METADATA,sha256=RZaGmKIAPoGUWK8vbxJIpvDDfjmzkbG0nGhOA4SusbI,345
+autoserve-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autoserve-1.0.dist-info/entry_points.txt,sha256=nZX0YGdyy8KXan15BpLUuwoEfLRLJeb3J7VshHgK9PA,54
+autoserve-1.0.dist-info/top_level.txt,sha256=42IaKQq_ghXO8GDQlbGuJKK7byfZOs2F1q63uWIIYH4,10
+autoserve-1.0.dist-info/RECORD,,
