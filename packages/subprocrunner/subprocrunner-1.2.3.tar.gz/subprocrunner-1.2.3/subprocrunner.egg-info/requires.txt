@@ -1,0 +1,9 @@
+mbstrdecoder<2,>=1.0.0
+
+[logging]
+loguru<1,>=0.4.1
+
+[test]
+pytest
+typepy
+loguru<1,>=0.4.1
