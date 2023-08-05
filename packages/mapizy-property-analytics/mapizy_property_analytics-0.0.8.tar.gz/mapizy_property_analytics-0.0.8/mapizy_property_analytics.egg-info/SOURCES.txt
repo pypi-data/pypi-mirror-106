@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+mapizy_property_analytics/__init__.py
+mapizy_property_analytics/mapizy_property_analytics.py
+mapizy_property_analytics.egg-info/PKG-INFO
+mapizy_property_analytics.egg-info/SOURCES.txt
+mapizy_property_analytics.egg-info/dependency_links.txt
+mapizy_property_analytics.egg-info/requires.txt
+mapizy_property_analytics.egg-info/top_level.txt
