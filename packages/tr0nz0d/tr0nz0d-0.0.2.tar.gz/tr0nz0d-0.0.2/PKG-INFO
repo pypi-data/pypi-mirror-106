@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: tr0nz0d
+Version: 0.0.2
+Summary: Ferramentas e métodos úteis
+Home-page: https://github.com/TR0NZ0D
+Author: Gabriel Menezes de Antonio
+Author-email: TR0NZ0D@protonmail.com
+License: MIT
+Description: Biblioteca contendo ferramentas para desenvolvimento em geral.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (16/05/2021)
+        -------------------
+        - Library Release.
+        
+        0.0.2 (16/05/2021)
+        -------------------
+        - Minors updates.
+Keywords: tronzod
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
