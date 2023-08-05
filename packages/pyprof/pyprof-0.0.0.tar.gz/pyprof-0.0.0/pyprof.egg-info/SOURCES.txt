@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyprof/__init__.py
+pyprof.egg-info/PKG-INFO
+pyprof.egg-info/SOURCES.txt
+pyprof.egg-info/dependency_links.txt
+pyprof.egg-info/top_level.txt
