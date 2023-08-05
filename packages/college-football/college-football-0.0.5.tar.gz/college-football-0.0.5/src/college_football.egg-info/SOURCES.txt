@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/college_football/__init__.py
+src/college_football/player_module.py
+src/college_football.egg-info/PKG-INFO
+src/college_football.egg-info/SOURCES.txt
+src/college_football.egg-info/dependency_links.txt
+src/college_football.egg-info/top_level.txt
