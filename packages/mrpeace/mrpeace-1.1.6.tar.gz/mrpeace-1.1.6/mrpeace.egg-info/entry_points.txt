@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        mrpeace=mrpeace.cli:cli
+    
