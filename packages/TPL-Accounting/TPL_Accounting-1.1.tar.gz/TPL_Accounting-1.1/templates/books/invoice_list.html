@@ -1,0 +1,13 @@
+{% extends "accounting/layout.html" %}
+{% load currency_filters %}
+
+{% block content %}
+    <div style="display:flex;justify-content:space-between; align-items: center;">
+        <h1 class="page-header">Invoices <small>which belong to you</small></h1>
+        <a style="display:inline-table;" href="{% url 'books:invoice-create' %}" class="btn btn-primary btn-lg" role="button">
+            Add an invoice
+        </a>
+    </div>
+    {% include "books/_generics/sale_list.html" with sales=invoices detailed=True %}
+    {% include "accounting/pagination.html" %}
+{% endblock content %}

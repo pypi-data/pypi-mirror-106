@@ -1,0 +1,4 @@
+include *.txt
+recursive-include accounting *.txt *.py
+recursive-include staticfiles *.css *.js
+recursive-include templates *.html
