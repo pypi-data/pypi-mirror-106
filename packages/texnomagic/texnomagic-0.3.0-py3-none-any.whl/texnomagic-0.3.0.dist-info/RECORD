@@ -1,0 +1,17 @@
+texnomagic/__init__.py,sha256=3wVEs2QD_7OcTlD97cZdCeizd2hUbJJ0GeIO8wQIjrk,22
+texnomagic/abc.py,sha256=btvQGHHu4pHj6viNSj7vWbxD_uFWossu47oOGNWz_vU,5860
+texnomagic/abcs.py,sha256=kG7xCjrJHdSKgN9MlZccHEUYRzAt-kXm7yB_kwebC0o,1395
+texnomagic/cli.py,sha256=sxuaJ3cdiUGdjaK0HoFkqS_Xo1HJRz7yU64ZMBcaPSQ,4136
+texnomagic/client.py,sha256=q9aOfgBnknCkfJt1_ZW-TzVeUzjaNYTDFnayWcG-Eyo,750
+texnomagic/common.py,sha256=mhvelzocmx2nLv8SOX-IWNeYyAETrCfFwySqPsBq7z4,1297
+texnomagic/drawing.py,sha256=zGMJ-Jk-362I8U8YcerOakDtJ8jPrWdONLa0HWld6ZU,3425
+texnomagic/lang.py,sha256=BxTocA6mnyXZlEzXxps512x6XXKcZEwsOBIit4GkEQo,4845
+texnomagic/model.py,sha256=Y1AfjKx1tYa9Er4wfeC_V7Y1il4ad_1qClzut98ZSzI,3451
+texnomagic/server.py,sha256=HEa9sHh7D-d-ZicKc6VfhMWv3i3CVhhOKtlh_WuHm_U,3543
+texnomagic/symbol.py,sha256=Kt8hs7d1qgbLR7WrNkH_KzQhXRAmzWU9IqGk_eOqPdk,2935
+texnomagic-0.3.0.dist-info/LICENSE,sha256=JuFhEz1pAIJ0fI0OFiq72QJ0fg07Mkguwzz2EbQOM6w,1060
+texnomagic-0.3.0.dist-info/METADATA,sha256=v1uAFH7nr50W5CulCP8rufJxkRXhLeyq8uQzq2gCJQQ,1052
+texnomagic-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+texnomagic-0.3.0.dist-info/entry_points.txt,sha256=Kr0WTPbZD6PmEHH32f9a_XO1X4Xb3ZGvvcOiDJjQ94Y,52
+texnomagic-0.3.0.dist-info/top_level.txt,sha256=4PZxQFukyje-EWfnRIzZu0_VygHPCI849Z0azvhL4Z0,11
+texnomagic-0.3.0.dist-info/RECORD,,
