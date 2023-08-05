@@ -1,0 +1,47 @@
+from .....Internal.Core import Core
+from .....Internal.CommandsGroup import CommandsGroup
+from .....Internal import Conversions
+from .....Internal.Utilities import trim_str_response
+
+
+# noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection
+class File:
+	"""File commands group definition. 3 total commands, 1 Sub-groups, 1 group commands"""
+
+	def __init__(self, core: Core, parent):
+		self._core = core
+		self._base = CommandsGroup("file", core, parent)
+
+	@property
+	def frequency(self):
+		"""frequency commands group. 1 Sub-classes, 0 commands."""
+		if not hasattr(self, '_frequency'):
+			from .File_.Frequency import Frequency
+			self._frequency = Frequency(self._core, self._base)
+		return self._frequency
+
+	def get_select(self) -> str:
+		"""SCPI: [SOURce<HW>]:EFRontend:ALIGnment:FILE:[SELect] \n
+		Snippet: value: str = driver.source.efrontend.alignment.file.get_select() \n
+		Selects an existing correction file to compensate for cable losses. Selectable file have file extension *.s2p. \n
+			:return: cable_corr_file_na: No help available
+		"""
+		response = self._core.io.query_str('SOURce<HwInstance>:EFRontend:ALIGnment:FILE:SELect?')
+		return trim_str_response(response)
+
+	def set_select(self, cable_corr_file_na: str) -> None:
+		"""SCPI: [SOURce<HW>]:EFRontend:ALIGnment:FILE:[SELect] \n
+		Snippet: driver.source.efrontend.alignment.file.set_select(cable_corr_file_na = '1') \n
+		Selects an existing correction file to compensate for cable losses. Selectable file have file extension *.s2p. \n
+			:param cable_corr_file_na: string
+		"""
+		param = Conversions.value_to_quoted_str(cable_corr_file_na)
+		self._core.io.write(f'SOURce<HwInstance>:EFRontend:ALIGnment:FILE:SELect {param}')
+
+	def clone(self) -> 'File':
+		"""Clones the group by creating new object from it and its whole existing sub-groups
+		Also copies all the existing default Repeated Capabilities setting,
+		which you can change independently without affecting the original group"""
+		new_group = File(self._core, self._base.parent)
+		self._base.synchronize_repcaps(new_group)
+		return new_group
