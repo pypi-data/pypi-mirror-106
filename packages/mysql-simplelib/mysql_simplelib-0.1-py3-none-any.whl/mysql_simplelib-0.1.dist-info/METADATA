@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mysql-simplelib
+Version: 0.1
+Summary: Simple MySQL library for Python
+Home-page: https://github.com/danielcaballero88/mysql-simplelib
+Author: Daniel E. Caballero
+Author-email: danielcaballero88@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/danielcaballero88/mysql-simplelib/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: mysql-connector-python
+Requires-Dist: python-dotenv
+
+# mysql-simplelib
+
+A simple MySQL library for Python
+
+## Concept
+
+The idea is to have access to a very simple MySQL library for Python.
+
+...
+
+
