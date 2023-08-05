@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: jdvv
+Version: 0.0.1
+Summary: Jupyter Dash Viewer for VTK
+Home-page: https://github.com/ericbdaniels/jupyter-dash-vtk-viewer
+Author: Eric Daniels
+License: MIT
+Description: # Jupyter-Dash-VTK-Viewer (jdvv)
+        
+        ## Intro and Motivation
+        There are an ever growing number of 3d visualization tools in python and for jupyter. In my opinion [VTK](https://vtk.org/) by [Kitware](https://github.com/Kitware) provides the most complete set of tools for this purpose. The learning curve is a bit steep and the syntax isn't always particularly pythonic (often the underlying C++ bleeds through) but it is top notch. For those wanting a bit more user friendly and pythonic "batteries included" approach, have a look at [PyVista](https://www.pyvista.org/).
+        
+        The motivation for this small vtk-viewer is to make viewing vtk objects easier from *within* jupyter lab. PyVista and VTK both offer a great viewer that can be launched external to jupyter lab in a QT window and this works great. The purpose of this package is to provide a similar experience within jupyter lab by taking advantage of the [dash-vtk](https://github.com/plotly/dash-vtk) suite of components.
+        
+        ## TL;DR
+        View VTK (or PyVista) objects either inline or in a separate tab within Jupyter Lab. A handful of controls are provided.
+        
+        ## Quickstart
+        
+        A Basic example
+        
+        ```python
+        from jdvv import viewer
+        import pyvista as pv
+        
+        # make a simple vtk object
+        cyl = pv.Cylinder()
+        
+        # give it a name to be used in the viewer controls
+        cyl.name = "my cylinder"
+        
+        # view inline
+        viewer.inline(cyl)
+        
+        # view in a new tab within juptyer lab
+        viewer.tab(cyl)
+        
+        # view externally in a separate browser tab
+        viewer.external(cyl)
+        ```
+        ![image](images\jdvv-cyclinder.png)
+        ## Features
+        * view inline, tab without needing to leave Jupyter Lab or view as an external browswer tab
+        * view multiple objects, separate controls for each
+        * Controls
+            * visibility on/off
+            * color & oppacity for objects with no associated data
+            * Select color map, set min/max and opacity for object with attached arrays
+            * change point size
+            * select surface representation (wireframe, surface, volume)
+            * Change background colors
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
