@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ptnad-api
+Version: 0.0.1
+Summary: Basic PT Network Attack Discovery API wrapper
+Home-page: https://github.com/aw350m33d/ptnad_api
+Author: Anton Kutepov
+Author-email: 
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/aw350m33d/ptnad_api/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: h2 (>=4.0.0)
+Requires-Dist: httpx (>=0.18.1)
+
+# ptnad_api
+Basic PT Network Attack Discovery API wrapper
+
+
