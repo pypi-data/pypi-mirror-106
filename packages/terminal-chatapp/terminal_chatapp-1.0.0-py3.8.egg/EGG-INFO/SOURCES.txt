@@ -1,0 +1,13 @@
+README.md
+setup.py
+terminal_chatapp/__main__.py
+terminal_chatapp/cli.py
+terminal_chatapp/client.py
+terminal_chatapp/event.py
+terminal_chatapp/input.py
+terminal_chatapp/server.py
+terminal_chatapp.egg-info/PKG-INFO
+terminal_chatapp.egg-info/SOURCES.txt
+terminal_chatapp.egg-info/dependency_links.txt
+terminal_chatapp.egg-info/requires.txt
+terminal_chatapp.egg-info/top_level.txt
