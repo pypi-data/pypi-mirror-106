@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: mrpeace
+Version: 1.1.5a0
+Summary: Basic Cli
+Home-page: https://github.com/claudiolau/MrPeace
+Author: Claudio Lau
+Author-email: claudio.lau12@gmail.com
+License: Apache 2.0
+Description: # MrPeace
+        
+        [![PyPI version](https://badge.fury.io/py/mrpeace.svg)](https://badge.fury.io/py/mrpeace)
+        
+        <b> MrPeace </b> is a peaceful command line interface for peacing out when time is limited.
+        
+        It aims to make the process of writing command line tools quick and fun while also preventing any frustration caused by the inability to implement an intended CLI API.
+        
+        # App Permissions
+        
+        To allow SMTP to send emails on your behalf start by enabling less secure apps to access your account. For detailed instructions on how to do this, you should check out this <a href ='https://support.google.com/accounts/answer/6010255'>page</a>.
+        
+        # Installation
+        
+        ```bash
+        pip3 install mrpeace
+        ```
+        
+        # Commands
+        
+        To access help options.
+        
+        ```bash
+        mrpeace --help
+        Usage: mrpeace [OPTIONS] COMMAND [ARGS]...
+        
+        Options:
+          --version  Show the version and exit.
+          --help     Show this message and exit.
+        
+        Commands:
+          automail  Send default email to self.
+          hi        Print welcome message.
+          url       Send request and checks response body
+        ```
+        
+        To prompt user to send default email message. Ideal to use gmail in any case.
+        
+        ```bash
+        mrpeace automail
+        ```
+        
+        To print a welcome message.
+        
+        ```bash
+        mrpeace hi
+        ```
+        
+        To prompt user to enter url path & check the response object of specified url.
+        
+        ```bash
+        mrpeace url
+        ```
+        
+        # Help and Support
+        
+        - Documentation: https://pypi.org/project/mrpeace/
+        - Dependencies: https://click.palletsprojects.com/en/8.0.x/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
