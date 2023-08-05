@@ -1,0 +1,7 @@
+README.md
+setup.py
+wist.egg-info/PKG-INFO
+wist.egg-info/SOURCES.txt
+wist.egg-info/dependency_links.txt
+wist.egg-info/requires.txt
+wist.egg-info/top_level.txt
