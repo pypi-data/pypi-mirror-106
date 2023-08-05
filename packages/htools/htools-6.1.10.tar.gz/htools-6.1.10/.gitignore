@@ -1,0 +1,10 @@
+.*
+!.gitignore
+*.pyc
+htools.egg-info/
+__pycache__/
+data/
+dist/
+tags
+notebooks/text_to_url_search.ipynb
+notebooks/.ipynb_checkpoints
