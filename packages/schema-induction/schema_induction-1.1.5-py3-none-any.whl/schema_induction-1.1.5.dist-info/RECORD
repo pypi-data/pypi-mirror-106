@@ -1,0 +1,10 @@
+schema_induction/__init__.py,sha256=Em-V4GSEj0wNxxfqb2a1IWxijYVAqHhn3gWxUpXRhlg,35
+schema_induction/class_type.py,sha256=FBmT6oFgQAj8xd2tH-ULjc2POzmOrB5pcC5CK6TAXn0,2540
+schema_induction/list_type.py,sha256=4bsGLzjexsfV87zuQbRzHM2jbq44Ph7XvSn7604Pvcw,3210
+schema_induction/primitive_type.py,sha256=kU2tPZoqi5VrlNK4mYowjxELXfyooE_HGflrvC7Osh0,2787
+schema_induction/schema.py,sha256=M3BVIGsgZDbfEdr22-tzVcFIBpDh3Mlgwev0L3AJqJ8,3957
+schema_induction/type.py,sha256=WjScrF-eqg7AqdDFFzW4wwmeh1x5VMNAnMnAGjtpcHM,769
+schema_induction/union_type.py,sha256=6uNPtBPsYPsu-sbMO4IHMvourT_mSpzsiSKMl4Xl8eA,3840
+schema_induction-1.1.5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+schema_induction-1.1.5.dist-info/METADATA,sha256=D_qSZ3Uea11qq-FGmhh3MlLxRFnF41Kft5oi7IYZJ3g,446
+schema_induction-1.1.5.dist-info/RECORD,,
