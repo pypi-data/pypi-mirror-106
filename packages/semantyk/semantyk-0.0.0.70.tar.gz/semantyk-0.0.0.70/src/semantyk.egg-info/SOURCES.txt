@@ -1,0 +1,12 @@
+AUTHORS.md
+CONTRIBUTING.md
+HISTORY.md
+MANIFEST.in
+README.md
+setup.py
+src/semantyk.egg-info/PKG-INFO
+src/semantyk.egg-info/SOURCES.txt
+src/semantyk.egg-info/dependency_links.txt
+src/semantyk.egg-info/requires.txt
+src/semantyk.egg-info/top_level.txt
+tests/test_import.py
