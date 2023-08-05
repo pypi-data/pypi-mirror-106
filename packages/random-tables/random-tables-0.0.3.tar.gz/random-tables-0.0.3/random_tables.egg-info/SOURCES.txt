@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+random_tables.egg-info/PKG-INFO
+random_tables.egg-info/SOURCES.txt
+random_tables.egg-info/dependency_links.txt
+random_tables.egg-info/requires.txt
+random_tables.egg-info/top_level.txt
+randomtables/__init__.py
+randomtables/generator.py
