@@ -1,0 +1,9 @@
+LICENSE
+README.md
+beautiful_prints.py
+setup.py
+beautiful_prints.egg-info/PKG-INFO
+beautiful_prints.egg-info/SOURCES.txt
+beautiful_prints.egg-info/dependency_links.txt
+beautiful_prints.egg-info/not-zip-safe
+beautiful_prints.egg-info/top_level.txt
