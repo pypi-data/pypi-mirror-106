@@ -1,0 +1,7 @@
+youtube-scraper/__init__.py,sha256=W8_UBFcj8xR7-KouZHN9DflOoLrH3R4qZS79ojZcDrs,644
+youtube-scraper/crawler.py,sha256=q3fGsR2cxStNQvGQHW6NZxl8pUZGRAhBJPx84WCXoDM,4685
+youtube-scraper/utils.py,sha256=q_hdv6L2NsXgtaIoTFnQOezbrNQypPjGP1ASAQksMuA,372
+hajkr_youtube_scraper-0.0.1.dist-info/METADATA,sha256=dzVA5dRVYnM0EPyV9Uj34Va09ki9sYAjY2rijTBU1Gs,258
+hajkr_youtube_scraper-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hajkr_youtube_scraper-0.0.1.dist-info/top_level.txt,sha256=jL0bGE-qbuE3Rc0CGaMP0-M6kWwA0aj7Gs6HnlXlDsM,16
+hajkr_youtube_scraper-0.0.1.dist-info/RECORD,,
