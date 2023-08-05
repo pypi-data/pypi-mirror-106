@@ -1,0 +1,10 @@
+README.md
+setup.py
+pytesseract_cli/__init__.py
+pytesseract_cli/main.py
+pytesseract_cli.egg-info/PKG-INFO
+pytesseract_cli.egg-info/SOURCES.txt
+pytesseract_cli.egg-info/dependency_links.txt
+pytesseract_cli.egg-info/entry_points.txt
+pytesseract_cli.egg-info/requires.txt
+pytesseract_cli.egg-info/top_level.txt
