@@ -1,0 +1,12 @@
+LICENSE,sha256=39lGfXIYCWwJAOxP4TOBywpWrz2Gyiye7CY5Dmmt4-o,11583
+pyridy/__init__.py,sha256=hAR_UiPC_UPHiRnINOWU6M0kYKkJn-g--SISgfpz2fo,31
+pyridy/campaign.py,sha256=FyTwdR6-C0Srrnm3q4hElQggSbmjRlIKqYuaoCABvVE,3935
+pyridy/file.py,sha256=qYNwD2ldcH1zKEHp6YPyNa5xcipcJnMWhDV5ATxSjs4,25091
+pyridy/utils/__init__.py,sha256=MO5LrzDkiNWCmNRPZ2fgd98TerTQBvS4nxAdZ0-0-PU,53
+pyridy/utils/device.py,sha256=Yor_gPDSN8o86tSZgt-jSzmBiFCEHfoZQRhB2dN6to8,1555
+pyridy/utils/sensor.py,sha256=mlIyrAYEKrldpxOXZkFAQBS2DUvPRiUrybLbl8-e8nI,760
+pyridy/utils/timeseries.py,sha256=UOZPwsqMJm0qEbvzy_kkV2S-2pDTTw4hb_J6qZkOjnM,14420
+pyridy-0.2.15.dist-info/LICENSE,sha256=39lGfXIYCWwJAOxP4TOBywpWrz2Gyiye7CY5Dmmt4-o,11583
+pyridy-0.2.15.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pyridy-0.2.15.dist-info/METADATA,sha256=eea-ul76AjO6Ql0GdTbc_INOupurDdOrgOh4wpRscTU,985
+pyridy-0.2.15.dist-info/RECORD,,
