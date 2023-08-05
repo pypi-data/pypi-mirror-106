@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: schema-induction
+Version: 1.1.7
+Summary: Auto generate schema from list of json objects
+Home-page: https://github.com/binh-vu/schema-induction
+License: MIT
+Author: Binh Vu
+Author-email: binh@toan2.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: unicodecsv (>=0.14.1,<0.15.0)
+Description-Content-Type: text/markdown
+
+Inducing schema of list of JSON/dictionary objects
+
+# Installation
+
+```bash
+pip install schema_induction
+```
+
+# Usages
+
+```python
+from schema_induction import generate_schema
+
+# list of objects that you wish to find their schema
+records = []
+print(generate_schema(records))
+```
