@@ -1,0 +1,10 @@
+filememo/__init__.py,sha256=Fnp9iWiHCch7xL6uQcfNSK0eOE3URFjYilWrP8Cb4vU,125
+filememo/_constants.py,sha256=3wVEs2QD_7OcTlD97cZdCeizd2hUbJJ0GeIO8wQIjrk,22
+filememo/_deco.py,sha256=MYJoRGUn-vNnk77HsAkl7H2z3WT05PmsTmYOM7-jN1E,4735
+filememo/_dir_for_func.py,sha256=J1AwutFHA4tLw5AbsP4pb6fj7kgABx5C6ODk8s9a9Aw,3205
+filememo/_indirect_caller.py,sha256=98CDk8iApeqzvpUyOI-t_ZnaXDZVVNAG7ExHQ0yarzg,432
+filememo-0.3.0.dist-info/LICENSE,sha256=P8W5QofVshTEtwai0z2YP1c-aDSjAcuT8rwGj-CS1hQ,1086
+filememo-0.3.0.dist-info/METADATA,sha256=helsjDkqxmMOYoYwsl7ievOMgjoUoH-xD_7maW8JKP8,6408
+filememo-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+filememo-0.3.0.dist-info/top_level.txt,sha256=TN1dzIxOZVEg_0hT1-OxQVBAueREPyAqn2jDeJOzGPk,9
+filememo-0.3.0.dist-info/RECORD,,
