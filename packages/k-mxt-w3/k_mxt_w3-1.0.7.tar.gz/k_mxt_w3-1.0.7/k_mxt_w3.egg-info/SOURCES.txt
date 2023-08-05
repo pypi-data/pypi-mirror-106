@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+k_mxt_w3/__init__.py
+k_mxt_w3/clustering_algorithms.py
+k_mxt_w3/clusters_data.py
+k_mxt_w3/data.py
+k_mxt_w3/draw.py
+k_mxt_w3/graph.py
+k_mxt_w3/main.py
+k_mxt_w3.egg-info/PKG-INFO
+k_mxt_w3.egg-info/SOURCES.txt
+k_mxt_w3.egg-info/dependency_links.txt
+k_mxt_w3.egg-info/not-zip-safe
+k_mxt_w3.egg-info/requires.txt
+k_mxt_w3.egg-info/top_level.txt
