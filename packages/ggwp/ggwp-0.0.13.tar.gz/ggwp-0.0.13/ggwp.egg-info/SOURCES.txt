@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+ggwp/DataModel.py
+ggwp/EzBasketEvolving.py
+ggwp/EzCheck.py
+ggwp/EzCohort.py
+ggwp/EzCustomerMovement.py
+ggwp/EzLog.py
+ggwp/EzRFM.py
+ggwp/__init__.py
+ggwp/run.py
+ggwp.egg-info/PKG-INFO
+ggwp.egg-info/SOURCES.txt
+ggwp.egg-info/dependency_links.txt
+ggwp.egg-info/requires.txt
+ggwp.egg-info/top_level.txt
