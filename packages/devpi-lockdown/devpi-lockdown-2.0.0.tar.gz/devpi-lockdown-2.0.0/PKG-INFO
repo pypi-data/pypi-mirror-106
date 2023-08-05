@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: devpi-lockdown
+Version: 2.0.0
+Summary: devpi-lockdown: tools to enable authentication for read access
+Home-page: https://github.com/devpi/devpi-lockdown
+Maintainer: Florian Schulze
+Maintainer-email: mail@florian-schulze.net
+License: MIT
+Description: devpi-lockdown: tools to enable authentication for read access
+        ==============================================================
+        
+        This plugin adds some views to allow locking down read access to devpi.
+        
+        Only tested with nginx so far.
+        
+        
+        Installation
+        ------------
+        
+        ``devpi-lockdown`` needs to be installed alongside ``devpi-server``.
+        
+        You can install it with::
+        
+            pip install devpi-lockdown
+        
+        
+        Usage
+        -----
+        
+        To lock down read access to devpi, you need a proxy in front of devpi which can use the provided views to limit access.
+        
+        
+        The views are:
+        
+        /+authcheck
+        
+          This returns ``200`` when the user is authenticated or ``401`` if not.
+          It uses the regular devpi credential checks and an additional credential check using a cookie provided by ``devpi-lockdown`` to allow login with a browser.
+        
+        /+login
+        
+          A plain login form to allow access via browsers for use with ``devpi-web``.
+        
+        /+logout
+        
+          Drops the authentication cookie.
+        
+        
+        For nginx the `auth_request`_ module is required.
+        You should use the ``devpi-genconfig`` script to generate your nginx configuration.
+        With devpi-server 6.0.0 or newer an ``nginx-devpi-lockdown.conf`` should have been generated.
+        If not, then you need to add the following to your server block before the first location block:
+        
+        .. code-block:: nginx
+        
+                # this redirects to the login view when not logged in
+                recursive_error_pages on;
+                error_page 401 = @error401;
+                location @error401 {
+                    return 302 /+login?goto_url=$request_uri;
+                }
+        
+                # lock down everything by default
+                auth_request /+authcheck;
+        
+                # the location to check whether the provided infos authenticate the user
+                location = /+authcheck {
+                    internal;
+        
+                    proxy_pass_request_body off;
+                    proxy_set_header Content-Length "";
+                    proxy_set_header X-Original-URI $request_uri;
+                    proxy_set_header X-outside-url $scheme://$http_host;  # copy the value from your existing configuration
+                    proxy_set_header X-Real-IP $remote_addr;  # copy the value from your existing configuration
+                    proxy_pass http://localhost:3141;  # copy the value from your existing configuration
+                }
+        
+        .. _auth_request: http://nginx.org/en/docs/http/ngx_http_auth_request_module.html
+        
+        
+        Changelog
+        =========
+        
+        2.0.0 - 2021-05-16
+        ------------------
+        
+        .. note:: The nginx configuration has changed from 1.x.
+        
+        - Dropped Python 2.7, 3.4 and 3.5 support.
+        
+        - Support for devpi-server 6.0.0.
+        
+        - Redirect back to original URL after login.
+        
+        - With devpi-server 6.0.0 the ``devpi-gen-config`` script
+          creates a ``nginx-devpi-lockdown.conf``.
+        
+        - Automatically allow locations required for login page.
+        
+        - Show error message for invalid credentials.
+        
+        - Support Pyramid 2.0.
+        
+        
+        1.0.1 - 2018-11-16
+        ------------------
+        
+        - Fix import for Pyramid >= 1.10.0.
+        
+        - Add /+static to configuration
+        
+        - Lock down everything by default in the configuration and only allow the
+          necessary locations
+        
+        
+        1.0.0 - 2017-03-10
+        ------------------
+        
+        - initial release
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Provides-Extra: tests
