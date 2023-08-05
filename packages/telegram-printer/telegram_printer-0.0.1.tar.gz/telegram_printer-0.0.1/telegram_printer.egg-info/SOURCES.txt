@@ -1,0 +1,11 @@
+CHANGELOG.TXT
+LICENSE.TXT
+MANIFEST.in
+README.TXT
+setup.py
+telegram_printer/__init__.py
+telegram_printer.egg-info/PKG-INFO
+telegram_printer.egg-info/SOURCES.txt
+telegram_printer.egg-info/dependency_links.txt
+telegram_printer.egg-info/requires.txt
+telegram_printer.egg-info/top_level.txt

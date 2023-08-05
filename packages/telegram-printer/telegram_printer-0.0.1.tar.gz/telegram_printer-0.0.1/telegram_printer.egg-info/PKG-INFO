@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: telegram-printer
+Version: 0.0.1
+Summary: Send the telegram message & print at the same time
+Home-page: UNKNOWN
+Author: TheBlackHero55
+Author-email: theblackhero2@gmail.com
+License: MIT
+Description: To use this, make sure you've installed telegram_send and run
+        $ telegram-send --configure
+        
+        Than just:
+        >> telegram_printer("Your text")
+        
+        Change Log
+        ==========
+        
+        0.0.1 (14/05/2021)
+        ------------------
+        1st Version
+Keywords: telegram,print,tg,printer,prints,bold,underline
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
