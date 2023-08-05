@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: yangke
+Version: 1.7.5
+Summary: 个人工具综合平台，包含常用工具，网络爬虫，知识图谱，神经网络预测等工具
+Home-page: https://gitee.com/yangke02/lib4python
+Author: 杨可
+Author-email: yangyangyangkekeke@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracter, https://gitee.com/yangke02/lib4python
+Project-URL: Documentation, https://gitee.com/yangke02/lib4python
+Project-URL: Source Code, https://gitee.com/yangke02/lib4python
+Project-URL: Funding, https://gitee.com/yangke02/lib4python
+Description: version = 1.7.3
+        
+        一个Python的常用工具类库，主要用于股票预测等功能，同时提供各类优化算法的调用工具。
+        联系方式：540673597@qq.com
+        
+        安装：
+        pip install yangke-1.6.5-py3-none-any.whl
+        
+        测试安装是否成功：
+        
+        import yangke
+        
+        yangke.info()
+        
+        如果安装成功，则提示如下图所示。
+        ![测试是否安装成功](./document/figures/img.png)
+        
+        
+Keywords: yangke
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: Freely Distributable
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: Database
+Provides-Extra: Stock
+Provides-Extra: ImageRecognition
+Provides-Extra: GameServer
+Provides-Extra: Performance
+Provides-Extra: All
