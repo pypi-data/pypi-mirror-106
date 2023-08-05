@@ -1,0 +1,3 @@
+[console_scripts]
+mosaik-influxdb = mosaik_influxdb:main
+

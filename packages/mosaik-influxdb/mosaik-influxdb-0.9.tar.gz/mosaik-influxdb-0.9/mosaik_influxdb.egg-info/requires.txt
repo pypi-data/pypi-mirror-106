@@ -1,0 +1,5 @@
+mosaik-api>=2.3
+networkx>=2.0
+influxdb>=5.3
+simpy<4.0.0,>=3.0.10
+simpy.io>=0.2.3

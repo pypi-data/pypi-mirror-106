@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mosaik-influxdb
+Version: 0.9
+Summary: Stores mosaik simulation data in an InfluxDB database.
+Home-page: https://mosaik.offis.de
+Author: Ahmad Ahmadi
+Author-email: ahmad.ahmadi0069@gmail.com
+License: UNKNOWN
+Description: a simulator for store data on InfluxDB
+        
+        
+        
+        
+        Authors
+        =======
+        
+        The mosaik InfluxDB storage backend was created by Ahmad Ahmadi.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
