@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: starlette-rest-framework
+Version: 0.0.4
+Summary: A REST framework for Starlette inspired by Django REST framework.
+Home-page: https://github.com/lsapan/starlette-rest-framework
+Author: Luke Sapan
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/lsapan/starlette-rest-framework/archive/refs/tags/0.0.4.tar.gz
+Description: UNKNOWN
+Keywords: starlette,rest,framework
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
