@@ -1,0 +1,16 @@
+click
+pillow
+requests
+
+[:python_version < "3.2"]
+pathlib2
+
+[all]
+xunitparser
+
+[coverage]
+
+[flake8]
+
+[tests]
+xunitparser
