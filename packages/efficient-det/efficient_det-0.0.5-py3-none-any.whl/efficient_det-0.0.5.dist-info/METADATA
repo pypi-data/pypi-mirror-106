@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: efficient-det
+Version: 0.0.5
+Summary: Efficient-Det Implementation in Tensorflow Keras
+Home-page: https://git.hhu.de/zeboz100/efficientdet
+Author: Zeynep Boztoprak
+Author-email: zeynep.boztoprak@hhu.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://git.hhu.de/zeboz100/efficientdet/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (>=2.4.0)
+Requires-Dist: ray[default]
+Requires-Dist: ray[tune]
+Requires-Dist: matplotlib
+Requires-Dist: wandb
+Requires-Dist: pillow
+Requires-Dist: progressbar2
+Requires-Dist: pandas
+Requires-Dist: opencv-python
+
+## EfficientDet
+
+Execute all commands in **efficientdet/**
+
+export PYTHONPATH="$PWD/src"
+
+#### To run all tests:
+
+* And run **python3 -m unittest**
+
+#### To traing neural network
+
+* **python3 train.py**
+
+* Training will be logged with Tensorboard. To take a look at the training progress do: **tensorboard --logdir logs**
+
+#### Try prediction on test image with
+
+
+
+
+
