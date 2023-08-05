@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: eeg-preprocessing
+Version: 0.1.0
+Summary: Semiautomatic framework for preprocessing EEG data
+Home-page: https://github.com/weiglszonja/eeg-preprocessing
+Author: Szonja Weigl
+Author-email: weigl.anna.szonja@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: mne
+Requires-Dist: PyQt5
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: autoreject
+Requires-Dist: jupyter
+Requires-Dist: joblib
+Requires-Dist: sklearn
+Requires-Dist: matplotlib
+Requires-Dist: ipyfilechooser
+
+UNKNOWN
+
+
