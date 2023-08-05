@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: matchkraft
+Version: 0.0.1
+Summary: Fuzzy match company names
+Home-page: UNKNOWN
+Author: Rene Tatua Castillo
+Author-email: info@matchkraft.com
+License: MIT
+Description: This is a very simple matchkraft progam
+        
+        Change Log
+        ==========
+        
+        0.0.1 (05/15/2021)
+        ------------------
+        -First Release
+Keywords: matchkraft,machine learning,python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

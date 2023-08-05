@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+matchkraft/__init__.py
+matchkraft.egg-info/PKG-INFO
+matchkraft.egg-info/SOURCES.txt
+matchkraft.egg-info/dependency_links.txt
+matchkraft.egg-info/requires.txt
+matchkraft.egg-info/top_level.txt
