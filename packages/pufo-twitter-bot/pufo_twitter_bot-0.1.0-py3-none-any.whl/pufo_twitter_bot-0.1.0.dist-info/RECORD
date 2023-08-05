@@ -1,0 +1,15 @@
+pufo_twitter_bot/__init__.py,sha256=qYXYQxM2a0BLVf2vTd-prU6NDK-Uf-G7ggKN7Z6I4Lo,24
+pufo_twitter_bot/__main__.py,sha256=8P7R91aD4FhjjSERBGWdiT7EKe83mDotr3cgCXSGWTM,2293
+pufo_twitter_bot/authors/__init__.py,sha256=vDUaGQXPIN9Ti9G44WHgf9572qzZHeOPMCi6xz1h0SM,26
+pufo_twitter_bot/authors/opendatanames.py,sha256=0peMBj9WN1vEGkhJNv1jG0Tmw6qwx1m7OO2fvjXznbg,5524
+pufo_twitter_bot/authors/randomnames.py,sha256=_pzvusAytHS_AoiXX6BKijg2G-3bH8Bp8UkyiWIPQh0,2546
+pufo_twitter_bot/books/__init__.py,sha256=LmysaHoXeyzqDUnkDXklOiUITIsu1hJ9nwVmI0mDbUg,24
+pufo_twitter_bot/books/randombuch.py,sha256=6zHdG7qt1Uv2QQGC8_rkhXpbtW4je8AZ6jumYn__M6I,920
+pufo_twitter_bot/bot/__init__.py,sha256=OpIVJ4VN2wgYlCJnd7lGbjDr15X852YJCXCpQnzl9RA,22
+pufo_twitter_bot/bot/twitter.py,sha256=Yy0YsD2mqvjDsuQ6Fc6_j-XZt7g85bs8y1LBKewe4Yg,2017
+pufo_twitter_bot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pufo_twitter_bot-0.1.0.dist-info/entry_points.txt,sha256=6d8DgNJl0TgW0eYPEfvMJkUp1LaWEJCA59WO_-i2ykI,67
+pufo_twitter_bot-0.1.0.dist-info/LICENSE.rst,sha256=wT9xnCg2o7A-sln70lEfMz523NRqtYxOvRDSs7Urfh4,1085
+pufo_twitter_bot-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pufo_twitter_bot-0.1.0.dist-info/METADATA,sha256=IGBu3BeZPINm2ZDzrJb1E1MR6rCZgh3qAtU2cvbUOSY,5075
+pufo_twitter_bot-0.1.0.dist-info/RECORD,,
