@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "to7z"
+version = "1.1.1"
+description = "Converts ZIP to 7z."
+authors = ["Marcus Bruno Fernandes Silva <marcusbfs@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+py7zr = "^0.16.1"
+typer = {extras = ["all"], version = "^0.3.2"}
+
+[tool.poetry.dev-dependencies]
+black = "^21.5b1"
+mypy = "^0.812"
+pyinstaller = "^4.3"
+isort = "^5.8.0"
+autoflake = "^1.4"
+typer-cli = "^0.0.11"
+
+[tool.poetry.scripts]
+to7z = 'to7z.cli:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
