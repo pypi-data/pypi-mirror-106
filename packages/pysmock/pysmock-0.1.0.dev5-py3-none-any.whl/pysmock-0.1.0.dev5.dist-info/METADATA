@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pysmock
+Version: 0.1.0.dev5
+Summary: A tool to generate a mock server from yaml file using python
+Home-page: https://github.com/pysmock/pysmock-codegen
+Author: Harsha Sridhar
+Author-email: contact.pysmock@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: typer (>=0.3.2)
+Requires-Dist: deepdiff (>=5.5.0)
+Requires-Dist: pyyaml (>=5.4.1)
+Requires-Dist: jinja2 (>=2.11.2)
+
+# pysmock-codegen
+
+
