@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: User-Properties-SDK
+Version: 0.0.1
+Summary: internal tool
+Home-page: UNKNOWN
+Author: Saifur Rehman
+Author-email: saifurrahmankhankhan@gmail.com
+License: MIT
+Description: User properties
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (17/05/2021)
+        -------------------
+        - First Release
+        
+Keywords: sdk
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7

@@ -1,0 +1,24 @@
+bleach==3.3.0
+certifi==2020.12.5
+chardet==4.0.0
+docutils==0.17.1
+failsafe@ git+https://github.com/grofers/failsafe@362a0fa8c80868591991cfb08fa0a1f26de055af
+glogger@ git+https://github.com/grofers/glogger.git@b347f6d1d6747d6f758e5969c8f265c6a82dd438
+gtransport@ git+https://github.com/grofers/gtransport.git@c40dea945a5b0bfa84ccd3e0c8aba13cc58a1d04
+idna==2.10
+packaging==20.9
+pkginfo==1.7.0
+power-switch@ git+https://github.com/grofers/power_switch@6645997a302d830bcd035fedc7974bbd242ecb2b
+Pygments==2.5.2
+pyparsing==2.4.7
+readme-renderer==29.0
+requests==2.25.1
+requests-toolbelt==0.9.1
+six==1.16.0
+statsd==3.3.0
+structlog==20.1.0
+tqdm==4.60.0
+twine==1.15.0
+ujson==2.0.3
+urllib3==1.26.4
+webencodings==0.5.1
