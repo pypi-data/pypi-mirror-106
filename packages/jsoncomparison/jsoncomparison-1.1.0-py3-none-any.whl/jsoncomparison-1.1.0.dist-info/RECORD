@@ -1,0 +1,9 @@
+jsoncomparison/__init__.py,sha256=nuruu0RabtzAxvC_UkxGyytP_shbamjbJGl9bfwSGHA,310
+jsoncomparison/compare.py,sha256=UL6W1os0GwMy-prVxIZvhnPz4pLqg9oLquOwaxs6124,5085
+jsoncomparison/config.py,sha256=LbdLJE1KIebFq_tX7zcERhPvopKhnzcTqMCnS3jN124,381
+jsoncomparison/errors.py,sha256=P1HB7azBlaWTQgKEl0u25ktBY8hPdfdbirz34998WQ8,1114
+jsoncomparison/ignore.py,sha256=WzsU6Fmr0QnPEy3yLFjmmRUR3iQ6eRozT9hCkuIPoTI,1777
+jsoncomparison-1.1.0.dist-info/LICENSE.txt,sha256=8WrhrcNrePpXYBQNaVK8quMSI73VAit0fSQWG4plXvI,1072
+jsoncomparison-1.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+jsoncomparison-1.1.0.dist-info/METADATA,sha256=9pq6AutmUbdwdYQBVjoFEdqQyCImsFa0JrQjZQbyaVU,5670
+jsoncomparison-1.1.0.dist-info/RECORD,,
