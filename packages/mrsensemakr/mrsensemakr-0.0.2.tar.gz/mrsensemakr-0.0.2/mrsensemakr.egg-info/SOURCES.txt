@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+mrsensemakr/__init__.py
+mrsensemakr/_version.py
+mrsensemakr/mr_plots.py
+mrsensemakr/mrsensemakr.py
+mrsensemakr/traditional_mr.py
+mrsensemakr.egg-info/PKG-INFO
+mrsensemakr.egg-info/SOURCES.txt
+mrsensemakr.egg-info/dependency_links.txt
+mrsensemakr.egg-info/requires.txt
+mrsensemakr.egg-info/top_level.txt
