@@ -1,0 +1,7 @@
+termcolor
+scipy
+numpy
+re
+math
+datetime
+itertools
