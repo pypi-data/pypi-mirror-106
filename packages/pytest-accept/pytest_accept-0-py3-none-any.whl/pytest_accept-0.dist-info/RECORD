@@ -1,0 +1,10 @@
+pytest_accept/__init__.py,sha256=Kuc8bb4946cNzg9IvL2n_Ho6mSYhRE6V04XPKzbhUYs,250
+pytest_accept/assert_plugin.py,sha256=t7IB6yLXw8b9dGLxXFohow72DparJxKqD0X6uIwPMYY,5255
+pytest_accept/doctest_plugin.py,sha256=oILNcjurB94g4HSPRQfByYdJBU0orCoyItkH5zIs4-c,4253
+pytest_accept/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_accept/tests/test_add.py,sha256=vcY4loA8qpA2DjX8kps2-8fLxR3U7t8prElQ09P9yOE,129
+pytest_accept-0.dist-info/entry_points.txt,sha256=4BUS6c8J4vKn6tJm-oiGxh8cpZhZVQYodhPky5vTIqo,33
+pytest_accept-0.dist-info/LICENSE,sha256=c7p036pSC0mkAbXSFFmoUjoUbzt1GKgz7qXvqFEwv2g,10273
+pytest_accept-0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pytest_accept-0.dist-info/METADATA,sha256=rfhbayEbUPAO6X-bIPHIy5VwDEFiKwL4YJXPEaVYMHw,383
+pytest_accept-0.dist-info/RECORD,,
