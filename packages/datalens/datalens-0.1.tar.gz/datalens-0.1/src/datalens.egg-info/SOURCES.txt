@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/datalens/__init__.py
+src/datalens/app.py
+src/datalens/visualise.py
+src/datalens.egg-info/PKG-INFO
+src/datalens.egg-info/SOURCES.txt
+src/datalens.egg-info/dependency_links.txt
+src/datalens.egg-info/top_level.txt
