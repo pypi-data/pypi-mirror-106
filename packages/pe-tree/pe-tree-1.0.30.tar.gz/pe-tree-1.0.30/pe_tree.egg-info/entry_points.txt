@@ -1,0 +1,7 @@
+[console_scripts]
+pe-tree = pe_tree.__main__:main
+pe-tree-carve = pe_tree.carve:main
+pe-tree-ghidra = pe_tree.ghidra:main
+pe-tree-minidump = pe_tree.minidump:main
+pe-tree-vol = pe_tree.volatility:main
+
