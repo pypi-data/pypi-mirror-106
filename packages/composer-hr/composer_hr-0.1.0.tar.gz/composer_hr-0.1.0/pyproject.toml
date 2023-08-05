@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "composer_hr"
+version = "0.1.0"
+description = "Composer for Eletronic Health Records"
+authors = ["Daniel Arantes"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+responder = "^2.0.7"
+requests-html = "^0.10.0"
+Markdown = "^3.3.4"
+typesystem = "^0.2.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
