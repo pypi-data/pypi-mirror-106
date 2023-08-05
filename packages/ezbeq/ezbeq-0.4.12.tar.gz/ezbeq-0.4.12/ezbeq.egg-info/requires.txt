@@ -1,0 +1,11 @@
+pyyaml
+twisted
+plumbum
+flask-restful
+flask<2.0.0,>=1.0
+werkzeug<2.0.0
+flask-compress
+requests
+python-dateutil
+autobahn[twisted]
+semver
