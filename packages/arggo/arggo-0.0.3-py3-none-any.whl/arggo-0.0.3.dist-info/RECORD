@@ -1,0 +1,17 @@
+arggo/__init__.py,sha256=Sjh-GJNyFLmPid8-2AFWs-hcISIjDYUi7JTz1YGc8ys,25
+arggo/arggo.py,sha256=rX53Ehiuu6RvrcQZhI9x-wEdZhRUTRZQ2R0MogOWRx8,5485
+arggo/dataclass_utils.py,sha256=gqRMb59ww125dTo2NSO2iAXeszmoEprMOBbRKGXkX38,973
+arggo/integrations.py,sha256=zNqPXBf4dVCBWkaTpGZDiUCzIs7M54cMxwbQpVlPrCU,1050
+arggo/logger.py,sha256=_5cyWBkrQQmu-VwCRdY5qtGfwRgSYCT7_RsTUZ2OEkA,820
+arggo/parser.py,sha256=QBWgqEzlhggjTNTi20RcRBx3JlZ7jya30JwI575AZqA,12862
+arggo/_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arggo/_internal/global_store.py,sha256=H5cCq4GYRAIIufUX3TZr8NBRrSTaBOX0oUJSXfHS6Nw,2236
+arggo/environment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arggo/environment/workdir.py,sha256=pFwF9AKYMe4JzWlngJ0FV5jADiLbFCDNZq4zR56EC3I,1317
+arggo/types/__init__.py,sha256=-DArw0gS2ez4lMay8qzv4yHOFXdoPD6DiEG6mUNZkoM,31
+arggo/types/enums.py,sha256=3t0SNPVzYztUkK1ihhERSG9j2Mn-oSfPlWJTg7vX1PM,215
+arggo-0.0.3.dist-info/LICENSE.md,sha256=394V4qs8EPUrCgf3f2Y-_TKJfCCn05bv7LmVNF1iZv4,1060
+arggo-0.0.3.dist-info/METADATA,sha256=dWS8rvgkbCY67Xfmy83LhW2HpopL8BPi4I3XIuCg6bA,2585
+arggo-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+arggo-0.0.3.dist-info/top_level.txt,sha256=UMf1OvkzmLvSuL14jRiS7_mE6Mw38dRQXHoZVAYDh0c,6
+arggo-0.0.3.dist-info/RECORD,,
