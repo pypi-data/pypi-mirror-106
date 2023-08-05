@@ -1,0 +1,10 @@
+LICENSE
+README.md
+python_easy_rsa.py
+setup.cfg
+setup.py
+python_easy_rsa.egg-info/PKG-INFO
+python_easy_rsa.egg-info/SOURCES.txt
+python_easy_rsa.egg-info/dependency_links.txt
+python_easy_rsa.egg-info/requires.txt
+python_easy_rsa.egg-info/top_level.txt
