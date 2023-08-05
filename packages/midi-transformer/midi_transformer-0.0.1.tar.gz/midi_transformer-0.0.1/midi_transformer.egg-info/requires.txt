@@ -1,0 +1,5 @@
+numpy
+torch
+pytorch_lightning
+pytorch_fast_transformers
+deepnote>=0.0.12

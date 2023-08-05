@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: midi_transformer
+Version: 0.0.1
+Summary: generate multi instrument music
+Home-page: https://github.com/s-omranpour/MIDI-Transformer
+Author: Soroush Omranpour
+Author-email: soroush.333@gmail.com
+License: MIT license
+Project-URL: Bug Reports, https://github.com/s-omranpour/MIDI-Transformer/issues
+Project-URL: Source, https://github.com/s-omranpour/MIDI-Transformer
+Description: UNKNOWN
+Keywords: midi,deep learning,music
+Platform: UNKNOWN
+Requires-Python: >=3.7, <4
