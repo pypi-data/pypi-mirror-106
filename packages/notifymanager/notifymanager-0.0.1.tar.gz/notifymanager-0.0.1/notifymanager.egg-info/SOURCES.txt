@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+notifymanager/__init__.py
+notifymanager/subject.py
+notifymanager/subscriber.py
+notifymanager/utils.py
+notifymanager.egg-info/PKG-INFO
+notifymanager.egg-info/SOURCES.txt
+notifymanager.egg-info/dependency_links.txt
+notifymanager.egg-info/top_level.txt
