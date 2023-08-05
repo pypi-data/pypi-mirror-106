@@ -1,0 +1,2 @@
+hopeit.engine==0.3.0rc8
+aiofiles
