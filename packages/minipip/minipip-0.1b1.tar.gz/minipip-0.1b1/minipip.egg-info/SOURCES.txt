@@ -1,0 +1,10 @@
+LICENSE
+README.md
+minipip.py
+setup.py
+minipip.egg-info/PKG-INFO
+minipip.egg-info/SOURCES.txt
+minipip.egg-info/dependency_links.txt
+minipip.egg-info/entry_points.txt
+minipip.egg-info/requires.txt
+minipip.egg-info/top_level.txt

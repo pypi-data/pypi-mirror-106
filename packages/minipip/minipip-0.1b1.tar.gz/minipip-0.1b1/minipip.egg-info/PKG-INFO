@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: minipip
+Version: 0.1b1
+Summary: Tool for installing packages for MicroPython and CircuitPython
+Home-page: https://github.com/aivarannamaa/minipip
+Author: Aivar Annamaa
+License: MIT
+Project-URL: Source code, https://github.com/aivarannamaa/minipip
+Project-URL: Bug tracker, https://github.com/aivarannamaa/minipip/issues
+Description: UNKNOWN
+Keywords: MicroPython CircuitPython pip upip
+Platform: Windows
+Platform: macOS
+Platform: Linux
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: Freeware
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
