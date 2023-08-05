@@ -1,0 +1,8 @@
+vnpy_xtp/api/libxtpquoteapi.so
+vnpy_xtp/api/libxtptraderapi.so
+vnpy_xtp/api/vnxtpmd.cpython-38-x86_64-linux-gnu.so
+vnpy_xtp/api/vnxtpmd.pyd
+vnpy_xtp/api/vnxtptd.cpython-38-x86_64-linux-gnu.so
+vnpy_xtp/api/vnxtptd.pyd
+vnpy_xtp/api/xtpquoteapi.dll
+vnpy_xtp/api/xtptraderapi.dll
