@@ -1,0 +1,11 @@
+ukw_fax/__init__.py,sha256=XAXkbaaJeuPoUhwtcvmqZNlDZIkXlhVnuJoaLCf8ZwY,73
+ukw_fax/__main__.py,sha256=Yd2N5Ov7WwzO4elQ2syMBDaEuz7hT1PWUkRTmS-Udkk,383
+ukw_fax/cli.py,sha256=GrX3LizyVC1_Rs3DUN9POJyqZEQQJSJnRfimXkaOpV0,810
+ukw_fax/utils.py,sha256=Nfz51NVMn8ygME_CVCI_VNkA2XQcX16vsitf_ZSARos,2606
+ukw_fax-0.0.2.dist-info/AUTHORS.rst,sha256=PGPI6NKfAwLWSHRbppEHkr6ZCv39-7b2cXqv-4Ta7H8,65
+ukw_fax-0.0.2.dist-info/LICENSE,sha256=I-2QAaVZ8KG0e-VPOG4hrvxCg7ReDdJHH-b7ubha_Cs,1101
+ukw_fax-0.0.2.dist-info/METADATA,sha256=DUe2WCmUiwGEkmuf5cKVvvBbH6ux8SBrw8cHeHOR9aE,2268
+ukw_fax-0.0.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+ukw_fax-0.0.2.dist-info/entry_points.txt,sha256=3jNIe-zsf18Urt7NP77eDCm9obIhE4Op6tybE4zHxkI,46
+ukw_fax-0.0.2.dist-info/top_level.txt,sha256=NQKdquUgpBOcnwitpJ0CJV585ASuwzRjw94wbZrNQeo,8
+ukw_fax-0.0.2.dist-info/RECORD,,
