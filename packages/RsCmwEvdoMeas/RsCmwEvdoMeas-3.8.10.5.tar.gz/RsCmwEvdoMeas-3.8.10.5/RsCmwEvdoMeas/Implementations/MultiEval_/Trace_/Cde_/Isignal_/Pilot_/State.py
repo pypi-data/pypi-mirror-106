@@ -1,0 +1,30 @@
+from typing import List
+
+from .......Internal.Core import Core
+from .......Internal.CommandsGroup import CommandsGroup
+from .......Internal import Conversions
+from .......Internal.ArgSingleSuppressed import ArgSingleSuppressed
+from .......Internal.Types import DataType
+from ....... import enums
+
+
+# noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection
+class State:
+	"""State commands group definition. 1 total commands, 0 Sub-groups, 1 group commands"""
+
+	def __init__(self, core: Core, parent):
+		self._core = core
+		self._base = CommandsGroup("state", core, parent)
+
+	# noinspection PyTypeChecker
+	def fetch(self) -> List[enums.ResultStateB]:
+		"""SCPI: FETCh:EVDO:MEASurement<instance>:MEValuation:TRACe:CDE:ISIGnal:PILot:STATe \n
+		Snippet: value: List[enums.ResultStateB] = driver.multiEval.trace.cde.isignal.pilot.state.fetch() \n
+		Return the states of the code domain error (CDE) I-Signal and Q-Signal bar graphs. Only the pilot part of a physical
+		layer subtype 0/1 measurement is retrieved. For RRI part and subtype 2 or 3 measurements, see method RsCmwEvdoMeas.
+		MultiEval.Trace.Cde.Qsignal.Rri.State.fetch. \n
+		Use RsCmwEvdoMeas.reliability.last_value to read the updated reliability indicator. \n
+			:return: isig_pilot_state: NAV | ACTive | INACtive The number of results depends on the physical layer subtype (see method RsCmwEvdoMeas.Configure.MultiEval.plSubtype) : SF=15 for subtype 0/1 and SF=31 for subtypes 2 and 3 (only NAV values) . NAV: No channel available ACTive: Active code channel INACtive: Inactive code channel"""
+		suppressed = ArgSingleSuppressed(0, DataType.Integer, False, 1, 'Reliability')
+		response = self._core.io.query_str_suppressed(f'FETCh:EVDO:MEASurement<Instance>:MEValuation:TRACe:CDE:ISIGnal:PILot:STATe?', suppressed)
+		return Conversions.str_to_list_enum(response, enums.ResultStateB)
