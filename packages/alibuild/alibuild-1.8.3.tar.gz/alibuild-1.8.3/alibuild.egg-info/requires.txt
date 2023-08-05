@@ -1,0 +1,12 @@
+pyyaml
+requests
+distro
+
+[:python_version <= "2.6"]
+ordereddict
+
+[:python_version <= "2.7"]
+futures
+
+[:python_version == "2.6"]
+argparse
