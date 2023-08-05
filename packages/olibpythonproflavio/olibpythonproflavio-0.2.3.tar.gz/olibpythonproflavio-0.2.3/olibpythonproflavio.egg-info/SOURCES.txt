@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+libpythonpro/__init__.py
+libpythonpro/github_api.py
+olibpythonproflavio.egg-info/PKG-INFO
+olibpythonproflavio.egg-info/SOURCES.txt
+olibpythonproflavio.egg-info/dependency_links.txt
+olibpythonproflavio.egg-info/not-zip-safe
+olibpythonproflavio.egg-info/requires.txt
+olibpythonproflavio.egg-info/top_level.txt
