@@ -1,0 +1,9 @@
+clattr/__init__.py,sha256=G-qYStTKKvoFTgtRP0Z9bxIS-fEl1pq-Wrq-TVXc-1Q,22
+clattr/api.py,sha256=Wg0UsAOw49pTYgPSyXuP_kKiukt_LT-Orq4XbEiZtRA,5445
+clattr/inputs.py,sha256=Zg41tSzofrhby7aA-0ryp2vNCaaK3uDWZZl1Gow9ZIE,1704
+clattr/interpret_string.py,sha256=41ix8NtiycIg90jya2orkf87o6gZNkUthRXO1-M2x08,1929
+clattr/tools.py,sha256=lYWdPTSJPE02hYuoltS96NX8k7_f1rCvrKNOgKZ-pVU,805
+clattr-0.0.1.dist-info/LICENSE,sha256=RTVn0Yi7BtU1CIViaDqa1ZKIdXvEAlwAKTHcYhzeutU,1068
+clattr-0.0.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+clattr-0.0.1.dist-info/METADATA,sha256=5hE599AqgfMSl5td996Gh-9Xk2NdxRq3dcW0V5TbrFo,3183
+clattr-0.0.1.dist-info/RECORD,,
