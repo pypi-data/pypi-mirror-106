@@ -1,0 +1,14 @@
+konfuzio_sdk/__init__.py,sha256=aizxlrYkarZXZA1-ACX4WgL-5RtOhYyyPD-jJ_6KZ6Y,80
+konfuzio_sdk/api.py,sha256=0yXWGSTmqDLuligf5kJFr6lC1X69wAtBONn4Op7aRB8,16175
+konfuzio_sdk/cli.py,sha256=8vcCiq8mXa816rJlQqy1LeA2z_XWNMPx5nFu3WmBwT0,6284
+konfuzio_sdk/data.py,sha256=oP61oLyIGsZ95Pzs5u-58Yd5Nf_kWgvVigRpANvalF0,43480
+konfuzio_sdk/settings.py,sha256=Mlf7GfbqIE6KgyA5MgQwupVB5jKkNOvNjHiKEmPg2FY,530
+konfuzio_sdk/settings_importer.py,sha256=khhgYHOroAGWRnBwnmLoyY4wvBJNraEeHAgX8cod-1M,785
+konfuzio_sdk/urls.py,sha256=Nc6ZR93hT8Vn17fz9URmCg9EwhbYLbMXYaAuHBu8JeY,4414
+konfuzio_sdk/utils.py,sha256=8d7dSfUNSEqb0UL5Xe9nw6qiRjTihn48NI-BPKzyNB4,5157
+konfuzio_sdk-0.1.1.dist-info/LICENSE.md,sha256=iGWAHWWzSBL5i1gmzPBcjTTv4vEuWjeVR_jkNsr3guk,1074
+konfuzio_sdk-0.1.1.dist-info/METADATA,sha256=MAVkJCMHuY371QBgB2Waa8uTjriPZ9ie0lVsYeKqxLw,2669
+konfuzio_sdk-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+konfuzio_sdk-0.1.1.dist-info/entry_points.txt,sha256=_bVShPapRi03THO70jXthH2GmxWQtbIbdsdkI3RLdvk,56
+konfuzio_sdk-0.1.1.dist-info/top_level.txt,sha256=Og1_UoZP3fC4r1v156zyqQDehAFfcjYPojJ9uE0airI,13
+konfuzio_sdk-0.1.1.dist-info/RECORD,,
