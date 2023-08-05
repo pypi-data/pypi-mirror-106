@@ -1,0 +1,6 @@
+click>=5.1
+click-log
+PyYAML<=5.3,>=4.3
+Jinja2>=2.10
+docker[ssh]>=5
+docker-compose>=1.29
