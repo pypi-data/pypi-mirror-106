@@ -1,0 +1,10 @@
+nfoursid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nfoursid/kalman.py,sha256=5X5b0i1wdF8d4CnCQncI05xAungre22qbfGZnq3H0oc,18512
+nfoursid/nfoursid.py,sha256=KCtTGyoMP9VowyFBB9lnci4NJaPgzYTCdP3WP9qMWrs,9116
+nfoursid/state_space.py,sha256=dQMkXDY4r3buN-pnNq0e_OUcpja98tEV7VKSEIKAIII,6834
+nfoursid/utils.py,sha256=GK6c5jsa_k6-LkaUBnx5b7lyJcF8RgtEObg9MZhATbI,4353
+nfoursid-0.0.1.dist-info/LICENSE,sha256=ua6cUsosDrMenEERdSsmiCnnf6nLQWXBaU2qxdVPwAs,1093
+nfoursid-0.0.1.dist-info/METADATA,sha256=nMynhPRBLPfiu7vAVGT6VVR3qPHDdiL-4Fv4bcN3Ki4,1504
+nfoursid-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nfoursid-0.0.1.dist-info/top_level.txt,sha256=M7tA5Jusqh1lNDxqL-ECkyVt3j7Jqx_i2YMjPfeV9tA,9
+nfoursid-0.0.1.dist-info/RECORD,,
