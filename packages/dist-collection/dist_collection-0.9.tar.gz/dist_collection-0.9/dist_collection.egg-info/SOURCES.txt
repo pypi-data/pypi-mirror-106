@@ -1,0 +1,11 @@
+setup.py
+dist_collection/Binomialdistribution.py
+dist_collection/Gaussiandistribution.py
+dist_collection/Generaldistribution.py
+dist_collection/Poissondistribution.py
+dist_collection/__init__.py
+dist_collection.egg-info/PKG-INFO
+dist_collection.egg-info/SOURCES.txt
+dist_collection.egg-info/dependency_links.txt
+dist_collection.egg-info/not-zip-safe
+dist_collection.egg-info/top_level.txt
