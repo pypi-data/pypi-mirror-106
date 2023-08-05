@@ -1,0 +1,6 @@
+aiohttp
+natsort
+
+[dev]
+sphinx
+sphinx-book-theme
