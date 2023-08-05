@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: iota-wallet
+Version: 0.1.0_alpha.2
+Author: Bing-Yang Lin <bingyang.lin@iota.org>
+Author-Email: Bing-Yang Lin <bingyang.lin@iota.org>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+iota-wallet is a general wallet library. It is being utilized by our wallet software Firefly and other software components across IOTA ecosystem. For more details, please check https://wallet-lib.docs.iota.org/libraries/python/index.html.
