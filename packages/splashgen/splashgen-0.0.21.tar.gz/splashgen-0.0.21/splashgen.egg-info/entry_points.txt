@@ -1,0 +1,3 @@
+[console_scripts]
+splashgen = splashgen.__main__:main
+
