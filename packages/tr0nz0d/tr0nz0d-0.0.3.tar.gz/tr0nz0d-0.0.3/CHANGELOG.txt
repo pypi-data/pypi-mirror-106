@@ -1,0 +1,15 @@
+Change Log
+==========
+
+0.0.1 (16/05/2021)
+-------------------
+- Library Release.
+
+0.0.2 (16/05/2021)
+-------------------
+- Minors updates.
+
+0.0.3 (16/05/2021)
+-------------------
+- Classes input managements update.
+- Minors updates.
