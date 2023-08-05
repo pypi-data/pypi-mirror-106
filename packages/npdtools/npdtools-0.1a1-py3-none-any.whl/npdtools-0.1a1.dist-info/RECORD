@@ -1,0 +1,12 @@
+npdtools/__init__.py,sha256=qIarLRlYWFDO4TLm4Il2SDHz16F54kCc5Wa3xCnY0uw,37
+npdtools/client.py,sha256=I5W3WILgu3QrPQPMRB8valYrr51757_gdmm3fP7uhyY,9904
+npdtools/errors/FNSError.py,sha256=sAyk1RSKJ9ujBel3r_CNE0ivqwPpZNnCvjsXvh53Qtw,436
+npdtools/errors/__init__.py,sha256=QQh-tB77CW4kgcOjTbeHwrilM6wMV6sY9a61JbnJYc4,46
+npdtools/types/__init__.py,sha256=m8RpGLviIRxokcwSKdzrW6QEIOzsdZ1_wUrTJMgZYsc,172
+npdtools/types/client.py,sha256=3a6mS31GgXZCZCqBD6KyFUqMi6W-qRHCooZDkAxaalE,920
+npdtools/types/income.py,sha256=9_UJ1Yja8413BYHC0uSCaClIfV-xLirJISvkGBHX2ZE,3720
+npdtools/types/services.py,sha256=KAGas5f7Q5AUAV4Ikg2jUUxEH6GFvXqDbS8jvoqK3jQ,2309
+npdtools-0.1a1.dist-info/METADATA,sha256=vJH4F9r4YkrdXrXqUz8cq6JYX4Jz4MhH8UNEK8BzY4o,274
+npdtools-0.1a1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+npdtools-0.1a1.dist-info/top_level.txt,sha256=R0ZDdKXbhZKS14AbvcF9gtT01OEyix-0q9xdKplXlmU,9
+npdtools-0.1a1.dist-info/RECORD,,
