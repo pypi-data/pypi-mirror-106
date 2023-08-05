@@ -1,0 +1,8 @@
+setup.py
+kurac/__init__.py
+kurac/kurac.py
+kurac.egg-info/PKG-INFO
+kurac.egg-info/SOURCES.txt
+kurac.egg-info/dependency_links.txt
+kurac.egg-info/requires.txt
+kurac.egg-info/top_level.txt
