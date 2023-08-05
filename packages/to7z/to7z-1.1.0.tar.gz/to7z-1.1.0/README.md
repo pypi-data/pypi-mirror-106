@@ -1,0 +1,25 @@
+# `to7z`
+
+Converts ZIP folders to 7z.
+
+**Usage**:
+
+```console
+$ to7z [OPTIONS] [PATH]
+```
+
+**Arguments**:
+
+* `[PATH]`: [default: D:\Desktop\workspace\to7z]
+
+**Options**:
+
+* `-i, --ignore PATH`: [default: ]
+* `-r, --recursive`: [default: False]
+* `-f, --fetch`: Return list of zips and rar found in path  [default: False]
+* `-k, --keep-original`: Keep original ZIP files. Default is to delete them  [default: False]
+* `-d, --debug`: [default: False]
+* `-v, --version`
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
