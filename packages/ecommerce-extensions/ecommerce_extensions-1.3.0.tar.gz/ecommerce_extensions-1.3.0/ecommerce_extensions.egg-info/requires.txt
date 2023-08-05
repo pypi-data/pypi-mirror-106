@@ -1,0 +1,13 @@
+qrcode
+edx-auth-backends
+django-compressor
+djangorestframework
+sorl-thumbnail
+django-oscar
+Django
+jsonfield2
+django-crum
+cryptography
+
+[sentry]
+sentry-sdk==0.20.3
