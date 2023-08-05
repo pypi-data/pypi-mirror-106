@@ -1,0 +1,26 @@
+from typing import List
+
+from .......Internal.Core import Core
+from .......Internal.CommandsGroup import CommandsGroup
+from .......Internal.ArgSingleSuppressed import ArgSingleSuppressed
+from .......Internal.Types import DataType
+
+
+# noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection
+class Extreme:
+	"""Extreme commands group definition. 1 total commands, 0 Sub-groups, 1 group commands"""
+
+	def __init__(self, core: Core, parent):
+		self._core = core
+		self._base = CommandsGroup("extreme", core, parent)
+
+	def fetch(self) -> List[int]:
+		"""SCPI: FETCh:LTE:MEASurement<Instance>:MEValuation:LIST:IEMission:MARGin:RBINdex:EXTReme \n
+		Snippet: value: List[int] = driver.multiEval.listPy.inbandEmission.margin.rbIndex.extreme.fetch() \n
+		Return resource block indices of the inband emission measurement for all measured list mode segments. At these RB indices,
+		the CURRent and EXTReme margins have been detected. \n
+		Suppressed linked return values: reliability \n
+			:return: rb_index: Comma-separated list of values, one per measured segment"""
+		suppressed = ArgSingleSuppressed(0, DataType.Integer, False, 1, 'Reliability')
+		response = self._core.io.query_bin_or_ascii_int_list_suppressed(f'FETCh:LTE:MEASurement<Instance>:MEValuation:LIST:IEMission:MARGin:RBINdex:EXTReme?', suppressed)
+		return response
