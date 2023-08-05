@@ -1,0 +1,5 @@
+beautifulsoup4>=4.9.3
+prompt-toolkit>=3.0.5
+pyfiglet>=0.8.post1
+requests>=2.25.1
+urllib3>=1.26.4
