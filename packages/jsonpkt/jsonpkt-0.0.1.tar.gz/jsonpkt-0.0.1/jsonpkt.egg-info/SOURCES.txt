@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+jsonpkt/__init__.py
+jsonpkt/__main__.py
+jsonpkt/core.py
+jsonpkt/utils.py
+jsonpkt.egg-info/PKG-INFO
+jsonpkt.egg-info/SOURCES.txt
+jsonpkt.egg-info/dependency_links.txt
+jsonpkt.egg-info/top_level.txt
+jsonpkt/commands/__init__.py
+jsonpkt/commands/base.py
+jsonpkt/commands/send.py
+jsonpkt/commands/sendrecv.py
+jsonpkt/commands/view.py
