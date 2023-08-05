@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: RsCMPX-LteMeas
+Version: 4.0.7.5
+Summary: CMX/CMP LTE Measurement Remote-control Module
+Home-page: UNKNOWN
+Author: Rohde & Schwarz GmbH & Co. KG
+Author-email: Customer.Support@rohde-schwarz.com
+License: MIT
+Description: Rohde & Schwarz CMX/CMP LTE Measurement RsCMPX_LteMeas instrument driver.
+        
+        Supported instruments: CMX500, CMP200
+        
+        The package is hosted here: https://pypi.org/project/RsCMPX_LteMeas/
+        
+        Documentation: https://RsCMPX_LteMeas.readthedocs.io/
+        
+        Examples: https://github.com/Rohde-Schwarz/Examples/
+        
+        --------------------------------------------------------------------------------
+        
+        Currently supported CMX/CMP subsystems:
+        
+        - Base: `RsCmpx_Base <https://RsCmpx_Base.readthedocs.io/>`_
+        - GPRF: `RsCmpx_Gprf <https://RsCmpx_Gprf.readthedocs.io/>`_
+        - LTE Measurement: `RsCmpx_LteMeas <https://RsCmpx_LteMeas.readthedocs.io/>`_
+        - New Radio FR1 Measurement: `RsCmpx_NrFr1Meas <https://RsCmpx_NrFr1Meas.readthedocs.io/>`_
+        - New Radio FR2 Measurement: `RsCmpx_NrFr2Meas <https://RsCmpx_NrFr2Meas.readthedocs.io/>`_
+        - CMP Ultra Wideband Measurement: `RsCMPX_UwbMeas <https://RsCMPX_UwbMeas.readthedocs.io/>`_
+        - CMX/P Signaling: `RsCMX_Signaling <https://RsCMX_Signaling.readthedocs.io/>`_
+        
+        In case you require support for more subsystems, please contact our customer support on customersupport@rohde-schwarz.com
+        with the topic "Auto-generated Python drivers" in the email subject. This will speed up the response process
+        
+        --------------------------------------------------------------------------------
+        
+        Release Notes: for the whole RsCmpx_xxx group:
+        
+        Latest release notes summary: Added documentation on ReadTheDocs
+        
+        Version 4.0.7.4
+        
+        - Added documentation on ReadTheDocs
+        
+        Version 4.0.7.3
+        
+        - Added new subsystems NrFr2Meas, UwbMeas, Signaling
+        
+        Version 4.0.7.2
+        
+        - Added new UDF integer number recognition
+        - Added RsCMPX_Gprf
+        
+        Version 4.0.7.1
+        
+        - First released version
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
