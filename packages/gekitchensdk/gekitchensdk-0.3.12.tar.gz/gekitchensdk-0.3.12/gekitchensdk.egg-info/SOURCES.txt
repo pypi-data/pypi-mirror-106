@@ -1,0 +1,7 @@
+README.md
+setup.py
+gekitchensdk.egg-info/PKG-INFO
+gekitchensdk.egg-info/SOURCES.txt
+gekitchensdk.egg-info/dependency_links.txt
+gekitchensdk.egg-info/requires.txt
+gekitchensdk.egg-info/top_level.txt
