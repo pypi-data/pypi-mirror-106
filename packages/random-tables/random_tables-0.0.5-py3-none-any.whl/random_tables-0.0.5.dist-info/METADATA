@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: random-tables
+Version: 0.0.5
+Summary: little module that helps to create tables for a specified schema with random content
+Home-page: UNKNOWN
+Author: detective (Maxim Perl)
+Author-email: <Maxim.Perl@detective.solutions>
+License: UNKNOWN
+Keywords: python,pandas,numpy,tables,data,data science
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+
+# RandomTables
+
+little module that helps to create tables for a specified schema with random content
+
+### How to use
+To create a random table you can specify a schema upfront and then call the class
+
+```
+from randomtables import DataSetGenerator
+
+# define schema
+schema = [
+    {"type": float}, 
+    {"type": int},
+    {"type": str, "split": False},
+    {"type": str, "split": True, "names": True}
+]
+
+# initialize the schema
+dfg = DataSetGenerator()
+
+# generate a pandas dataframe
+data = dfg.generate(
+    schema = schema,
+)
+
+```
+
+
