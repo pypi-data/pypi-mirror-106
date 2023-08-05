@@ -1,0 +1,3 @@
+[console_scripts]
+msa = fastmsa.command:console_main
+
