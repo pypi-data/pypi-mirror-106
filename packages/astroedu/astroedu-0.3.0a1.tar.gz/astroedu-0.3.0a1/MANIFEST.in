@@ -1,0 +1,2 @@
+include src/astroedu/interactives/*
+include src/astroedu/datasets/*
