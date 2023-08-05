@@ -1,0 +1,18 @@
+click
+pillow
+requests
+
+[:python_version < "3.2"]
+pathlib2
+
+[all]
+xunitparser
+flake8-html
+
+[coverage]
+
+[flake8]
+flake8-html
+
+[tests]
+xunitparser
