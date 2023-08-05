@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: test_project_pycon2021
+Version: 0.0.2
+Summary: A demo of Sailboat's capabilities
+Home-page: https://github.com
+Author: Cole Wilson
+Author-email: cole@colewilson.xyz
+License: none
+Description: 
+        	# Test_Project
+        	A demo of Sailboat's capabilities
+        	### Contributors
+        	- Cole Wilson
+        	### Contact
+        	<cole@colewilson.xyz>
+        	
+Keywords: kw1 kw2 kw3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
