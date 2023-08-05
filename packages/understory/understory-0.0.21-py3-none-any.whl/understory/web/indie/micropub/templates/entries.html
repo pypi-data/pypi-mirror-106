@@ -1,0 +1,10 @@
+$def with (entries, render_dict)
+$var breadcrumbs = ("pub", "Content")
+$var title: Entries
+
+<ul>
+$for e in entries:
+    <li>
+    <p><a href=$e["path"]>$e["path"]</a> <small>$e["version"]</small></p>
+    $:render_dict(e["resource"])
+</ul>
