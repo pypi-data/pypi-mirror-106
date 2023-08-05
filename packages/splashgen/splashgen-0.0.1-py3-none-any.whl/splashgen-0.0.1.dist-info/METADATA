@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: splashgen
+Version: 0.0.1
+Summary: Create a splash page in less than 20 lines of python
+Home-page: https://github.com/true3dco/splashgen
+Author: True3D
+Author-email: founders@true3d.live
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Jinja2
+Requires-Dist: query-string
+Requires-Dist: urlexpander
+
+# SplashGen
+
+## Requirements
+
+python3
+
+## Installation Instructions
+
+1. `pip install splashgen`
+
+## Basic Example
+
+1. Copy the file `examples/[zenweb.py](http://zenweb.py)` and put it into your local repo
+2. Change the values as needed
+3. run `python -m splashgen.cli <<Your File>>.py` to build the static files
+4. run `python -m http.server --directory build` to host the files locally
+5. Head over to http://localhost:8000/ to see your splashpage!
+
+
+## Project Status
+
+Splashgen is currently in an early alpha. If there are any missing features that you would like added please open an issue and we will add it in!
+
