@@ -1,0 +1,6 @@
+README.txt
+setup.py
+Artools.egg-info/PKG-INFO
+Artools.egg-info/SOURCES.txt
+Artools.egg-info/dependency_links.txt
+Artools.egg-info/top_level.txt
