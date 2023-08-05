@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+linets_magento/connector.py
+linets_magento/handler.py
+linets_magento/settings.py
+oms_magento.egg-info/PKG-INFO
+oms_magento.egg-info/SOURCES.txt
+oms_magento.egg-info/dependency_links.txt
+oms_magento.egg-info/requires.txt
+oms_magento.egg-info/top_level.txt
