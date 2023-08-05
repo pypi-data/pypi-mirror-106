@@ -1,0 +1,129 @@
+#!/usr/bin/env python3
+
+"""
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * - Redistributions of source code must retain the above copyright notice, this
+ * list of conditions and the following disclaimer.
+ *
+ * - Redistributions in binary form must reproduce the above copyright notice,
+ * this list of conditions and the following disclaimer in the documentation
+ * and/or other materials provided with the distribution.
+ *
+ * - Neither the name of prim nor the names of its contributors may be used to
+ * endorse or promote products derived from this software without specific prior
+ * written permission.
+ *
+ * See the NOTICE file distributed with this work for additional information
+ * regarding copyright ownership.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+"""
+
+import argparse
+import datetime
+import os
+import readline
+import shutil
+import subprocess
+import tarfile
+import tempfile
+import urllib.request
+
+def ask(question, choices=None, lowercase=None):
+  while True:
+    answer = input(question + ' ')
+    if lowercase:
+      answer = answer.lower()
+    if choices is None or answer in choices:
+      return answer
+
+def run(cmd, args):
+  if args.debug:
+    print('run: {}'.format(cmd))
+  subprocess.run(cmd, shell = True, capture_output = not args.verbose)
+
+def main(args):
+  if os.path.exists(args.output_location):
+    print('{} already exists'.format(args.output_location))
+    exit(-1)
+
+  # Gathers information about the intended output
+  name = ask('What is your name?')
+  email = ask('What is your email address?')
+  element = ask('What is the element\'s name?')
+  ok = ask(' Name: {}\n Email: {}\n Element: {}\nIs this ok? [y/n]'.format(
+    name, email, element), choices=('y','n'))
+  if ok == 'n':
+    return -1
+  year = str(datetime.date.today().year)
+
+  # Copies the repository to the specified location
+  url = 'https://github.com/nicmcd/sst-template/archive/main.tar.gz'
+  tmpdir = tempfile.mkdtemp()
+  tarball = os.path.join(tmpdir, 'main.tar.gz')
+  urllib.request.urlretrieve(url, tarball)
+  prefix = 'sst-template-main/'
+  with tarfile.open(tarball) as fd:
+    members = []
+    for member in fd.getmembers():
+      if member.name.startswith(prefix):
+        member.name = member.name[len(prefix):]
+        members.append(member)
+    fd.extractall(args.output_location, members)
+
+  # Performs find and replace on file content, file names, and directory names
+  replacements = [
+    ('FOOPROJBAR', element.upper()),
+    ('fooprojbar', element.lower()),
+    ('FooProjBar', element),
+    ('FOOEMAILBAR', email),
+    ('FOONAMEBAR', name),
+    ('FOOYEARBAR', year)
+  ]
+  for dirpath, dirnames, filenames in os.walk(args.output_location,
+                                              topdown=False):
+    print('{} {} {}'.format(dirpath, dirnames, filenames))
+    # Check file contents
+    for pathname in filenames:
+      pathname = os.path.join(dirpath, pathname)
+      with open(pathname, 'r') as fd:
+        orig_text = fd.read()
+      new_text = orig_text
+      for replacement_from, replacement_to in replacements:
+        new_text = new_text.replace(replacement_from, replacement_to)
+      if new_text != orig_text:
+        if args.debug:
+          print('writing ' + pathname)
+        with open(pathname, 'w') as fd:
+          fd.write(new_text)
+    # Check directory and filenames for renaming
+    for pathname in dirnames + filenames:
+      for replacement_from, replacement_to in replacements:
+        if pathname.find(replacement_from) >= 0:
+          fullpath = os.path.join(dirpath, pathname)
+          print('renaming ' + fullpath)
+          new_fullpath = fullpath.replace(replacement_from, replacement_to)
+          shutil.move(fullpath, new_fullpath)
+          pathname = pathname.replace(replacement_from, replacement_to)
+          break
+
+if __name__ == '__main__':
+  ap = argparse.ArgumentParser()
+  ap.add_argument('output_location', type=str,
+                  help='Output directory to be created')
+  ap.add_argument('-d', '--debug', action='store_true',
+                  help='Show debug information during execution')
+  args = ap.parse_args()
+  main(args)
