@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: © 2019 The usbmon-tools Authors
+# SPDX-License-Identifier: Apache-2.0
+
+[build-system]
+requires = [
+  'setuptools >= 42',
+  'wheel',
+  'Cython',
+  'setuptools_scm[toml]>=4.0',
+]
+
+[tool.black]
+line-ngth = 80
+target-version = ['py37']
+
+[tool.isort]
+line_length = 80
+known_third_party = ['absl', 'construct', 'hexdump', 'pcapng']
+
+[tool.setuptools_scm]
