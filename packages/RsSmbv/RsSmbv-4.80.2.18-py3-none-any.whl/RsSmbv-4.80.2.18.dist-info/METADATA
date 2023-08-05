@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: RsSmbv
+Version: 4.80.2.18
+Summary: SMBV100B Vector Signal Generator Remote-control Module
+Home-page: UNKNOWN
+Author: Rohde & Schwarz GmbH & Co. KG
+Author-email: Customer.Support@rohde-schwarz.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyVisa
+
+Rohde & Schwarz SMBV100B Vector Signal Generator RsSmbv instrument driver.
+
+Supported instruments: SMBV100B, SMW200A
+
+The package is hosted here: https://pypi.org/project/RsSmbv/
+
+Documentation: https://rohde-schwarz.github.io/RsSmbv_PythonDocumentation/
+
+Examples: https://github.com/Rohde-Schwarz/Examples/tree/main/SignalGenerators/Python/RsSmbv_ScpiPackage
+
+----------------------------------------------------------------------------------
+
+Release Notes:
+
+Latest release notes summary: Fixed several misspelled arguments and command headers
+
+Version 4.80.2.18
+
+- Fixed several misspelled arguments and command headers
+
+Version 4.80.2.15
+
+- Complete rework of the Repeated capabilities. Before, the driver used extensively the RepCaps Channel, Stream, Subframe, User, Group. Now, they have more fitting names, and also proper ranges and default values.
+All the repcaps ending with Null have ranges starting with 0. 0 is also their default value.
+For example, ChannelNull starts from 0, while Channel starts from 1. Since this is a breaking change, please make sure your code written in the previous version of the driver is compatible with this new version.
+This change was necessary in order to assure all the possible settings.
+
+Version 4.80.0.13
+
+- Fixed NR5G Repeated Capabilities
+
+Version 4.80.0.12
+
+- Added Documentation
+- Added method RsSmbv.list_resources()
+
+Version 4.80.0.9
+
+- Default HwInterface repcap is 0 (empty command suffix)
+
+Version 4.80.0.8
+
+- Added arb_files interface
+
+Version 4.80.0.7
+
+- Included GNSS subsystem
+
+Version 4.80.0.2
+
+- First released version
+
