@@ -1,0 +1,3 @@
+[console_scripts]
+ukw-fax = ukw_fax.cli:main
+
