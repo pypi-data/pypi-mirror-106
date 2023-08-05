@@ -1,0 +1,15 @@
+GoldenFace/__init__.py,sha256=lSDmH3C7WJxxdQ8bFrIzwEAByQCwXwkiL2G9W8BcFhw,5108
+GoldenFace/api.py,sha256=9P9dVyo3VWVs893JI9yVoqGrRIOcKLvumboRMX9jfJg,4895
+GoldenFace/example.py,sha256=D2BYo2YGt0XGx4tFRvg3sNLUrg_hSlE0Ln_3g7CuMOA,891
+GoldenFace/functions.py,sha256=827kz5v8aIzXboSSOU0afe0ynNROaJYspHKxpIQL968,1627
+GoldenFace/goldenFace.json,sha256=uNUCasbm7g6vXuOQVeo0_p4iUS6fA0XT6-shEpXW5XU,313
+GoldenFace/goldenMath.py,sha256=WMftUqNdWuS70EAUXOc25CgsS74QxJs3hHJfPyXcOUc,19713
+GoldenFace/landmark.py,sha256=nuGm-BzvfMFHM8clfpC8o2UHh4Rvn0WPbRoHMItcNEY,7047
+GoldenFace/landmark.yaml,sha256=cN2LFlfELRWV1r0T2X2TKHezvtVKldPEczoPdA0f1ms,56375857
+GoldenFace/null.py,sha256=9XI0I4nwknKZF0HtUqUNsdl_BCMCF8Qmamzgmae11nk,23
+GoldenFace-1.1.data/scripts/ryb,sha256=yPXgy3AnHuFLOVUoExl3QezMczoR1j7zHJtX9Ny5mRA,52
+GoldenFace-1.1.dist-info/LICENSE,sha256=BvzGvFi4S-uUvXGHptDaMsV__4PPK2lyTpIeQ6duVRg,7633
+GoldenFace-1.1.dist-info/METADATA,sha256=14qvz2GOBfdR2j_SvTBsCSdW03lMsnJDu0BEaxoyGTE,3410
+GoldenFace-1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+GoldenFace-1.1.dist-info/top_level.txt,sha256=96rxjNweik7N-5K_OJ9RSIk3n8AbLQImdjqXLcpLXT8,11
+GoldenFace-1.1.dist-info/RECORD,,
