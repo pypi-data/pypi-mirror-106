@@ -1,0 +1,12 @@
+metapan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metapan/metapan.py,sha256=CAMK4LIZW41ahhg3EnnFVlarNjxVQMc-5FIgmlE4QmM,1320
+metapan/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metapan/modules/panning.py,sha256=BeniSSZphfdzcFWVV8jU5WZ3mELfSYdvRDIVMzNQuGA,511
+metapan/statsmodules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metapan-0.0.4.dist-info/LICENSE,sha256=5iJ9NzqSC3zXbjKctz8oRX7L6Xx_iABQyUcD7NMeSRE,35148
+metapan-0.0.4.dist-info/METADATA,sha256=Vj__qt175syb_T_S1BQGTywJ8KdavjRmeK5PKcddv20,393
+metapan-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+metapan-0.0.4.dist-info/entry_points.txt,sha256=mV-0LgZbhA_HNu4A788zaLZqAPyblyeuITMlgwZom_g,50
+metapan-0.0.4.dist-info/top_level.txt,sha256=5hXofqZ-y2CQ2AsMaAr_3gXMPP8egxY7V8A3NSeMU0I,8
+metapan-0.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+metapan-0.0.4.dist-info/RECORD,,
