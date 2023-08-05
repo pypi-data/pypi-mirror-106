@@ -1,0 +1,15 @@
+fabrictestbed_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fabrictestbed_cli/cli.py,sha256=Vb2WTQcWyFzd--Rra_Mk8D-iZ5YPtUSV8Qm-vLUUIOI,14992
+fabrictestbed_cli/exceptions.py,sha256=k7JbJhDf-0Bfqk5Vi_gBkFitdFELyhQzTwtWxQyHlNM,1452
+fabrictestbed_cli/t.py,sha256=jNB3RTU19l6vkl7N74cHab5C3DUA3uur9MW82AnPzZk,800
+fabrictestbed_cli/api/__init__.py,sha256=REZW5bIlFJS1ZyeQ57y1NIX-7lTiwfu5LalrpbWkhWw,172
+fabrictestbed_cli/api/api_client.py,sha256=yGfRqhwSZfrPW6ml7t-tb_D5mziKfUcIsh_JBSZsOW4,6247
+fabrictestbed_cli/user/__init__.py,sha256=T4rFdr7dgWfna6QTQjI_pccjdpHZDFaG1ty1EoGTkB4,1139
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_cli.py,sha256=W0C43bg2MeQTH6BV6sfcDt2iEZgvC0obSuKYt0dBNJs,4543
+fabrictestbed_cli-0.15.dist-info/LICENSE,sha256=P277nPZLx1noU9HCnuBfDUHkpC36xq5G9SK9FKcQUqY,1071
+fabrictestbed_cli-0.15.dist-info/METADATA,sha256=hSh5czvBPkERpLp4lq8hNNlEDUtaylxMoglsUFxk61M,5883
+fabrictestbed_cli-0.15.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fabrictestbed_cli-0.15.dist-info/entry_points.txt,sha256=t-YGj0eGE2TTok6-hF9jyaUo2OCR_DN7IDULakXnDog,76
+fabrictestbed_cli-0.15.dist-info/top_level.txt,sha256=slK41FOhY7i9Mtjwt6OQ9_IpVI3-H-VJbA8pzOXOlQA,23
+fabrictestbed_cli-0.15.dist-info/RECORD,,
