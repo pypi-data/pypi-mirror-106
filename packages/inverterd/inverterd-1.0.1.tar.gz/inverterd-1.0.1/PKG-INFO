@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: inverterd
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/gch1p/inverterd-client.git
+Author: Evgeny Zinoviev
+Author-email: me@ch1p.io
+License: MIT
+Project-URL: Bug Tracker, https://github.com/gch1p/inverterd-client/issues
+Description: # inverterd-client
+        
+        This is a Python [inverterd](https://github.com/gch1p/inverter-tools) client library.
+        
+        ## Installation
+        
+        It's available on Pypi:
+        
+        ```
+        pip install inverterd
+        ```
+        
+        ## Usage example
+        ```python
+        from inverterd import Client, Format
+        
+        c = Client(8305, '127.0.0.1')
+        c.connect()
+        
+        c.format(Format.JSON)
+        print(c.exec('get-status'))
+        print(c.exec('get-year-generated', (2021,)))
+        ```
+        
+        ## License
+        
+        MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
