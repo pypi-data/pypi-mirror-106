@@ -1,0 +1,17 @@
+trytond/modules/sale_channel_price_list/__init__.py,sha256=31t8KBlJn1jjtSNs0OcZ5FUpgu6jvwVeqcjgHHVj-aU,352
+trytond/modules/sale_channel_price_list/channel.py,sha256=A7CcrUgJNPUFqssaof8l2qPAtpqjiZFoBhQuAvyagzE,519
+trytond/modules/sale_channel_price_list/channel.xml,sha256=rXSJeh-pdihFTL2WnC_PF5LH5DaxiNAnMVFBnx4chfs,723
+trytond/modules/sale_channel_price_list/sale.py,sha256=1HvK-RVUxkrRLVgXHLu6uQuBUruuy941I7eYfp7YWys,1212
+trytond/modules/sale_channel_price_list/tryton.cfg,sha256=7QqzbWBF0wz9m0LmTJ-lcaO5aiVBDn_s92x9UFnxUWU,90
+trytond/modules/sale_channel_price_list/locale/de.po,sha256=Vy9R8Zm5tYPJHi3gzAaECdeW11_Sq-66fIOiXS0jfoc,143
+trytond/modules/sale_channel_price_list/tests/__init__.py,sha256=-0S1VzBSyUGWkaKf1juG7EWo0bglFWSqESZIzCfJ3_o,310
+trytond/modules/sale_channel_price_list/tests/test_sale_channel.py,sha256=2AkOBxm_mgFe6Iye-SQ34eayjnZ4qw7KHXjXxhqgydk,32276
+trytond/modules/sale_channel_price_list/tests/test_sale_channel_price_list.py,sha256=HClRdqZLzPiFDT1MDTbhugGcG--T3cWAZrJ4cjd-gOs,26440
+trytond/modules/sale_channel_price_list/view/sale_channel_form.xml,sha256=nuAygUFMxikQY6gO3fhlnB-ga9Eoi3aWotIRaVICRNY,340
+trytond/modules/sale_channel_price_list/view/sale_channel_tree.xml,sha256=3DsbyjNUbEbsh4Gp32j35zf1PDgx5mqbP08D59XnAng,271
+m9s_sale_channel_price_list-5.2.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+m9s_sale_channel_price_list-5.2.0.dist-info/METADATA,sha256=-TVAMa1FEs3KbDv8RHr3_SL-ikTUT2QwQRQWrwnjutA,3351
+m9s_sale_channel_price_list-5.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+m9s_sale_channel_price_list-5.2.0.dist-info/entry_points.txt,sha256=DHAG9g-6_HMWs7RiQ4BROqKVUmLDRlmR66ID9uHD_uE,97
+m9s_sale_channel_price_list-5.2.0.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+m9s_sale_channel_price_list-5.2.0.dist-info/RECORD,,
