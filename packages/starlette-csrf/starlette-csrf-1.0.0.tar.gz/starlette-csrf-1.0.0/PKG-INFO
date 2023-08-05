@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: starlette-csrf
+Version: 1.0.0
+Summary: Starlette middleware implementing Double Submit Cookie technique to mitigate CSRF.
+Home-page: https://github.com/frankie567/starlette-csrf
+Author: François Voron
+Author-email: fvoron@gmail.com
