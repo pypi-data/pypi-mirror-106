@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+test-requirements.txt
+comets/__init__.py
+comets/hello.py
+comets.egg-info/PKG-INFO
+comets.egg-info/SOURCES.txt
+comets.egg-info/dependency_links.txt
+comets.egg-info/requires.txt
+comets.egg-info/top_level.txt
