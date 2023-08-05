@@ -1,0 +1,15 @@
+geojson-pydantic>=0.2.3
+geopy>=2.1.0
+numpy>=1.20.3
+pandas>=1.2.4
+watchgod>=0.7
+
+[dev]
+black
+coverage
+flake8
+mypy
+pylint
+pytest
+pytest-cov
+pytest-flake8
