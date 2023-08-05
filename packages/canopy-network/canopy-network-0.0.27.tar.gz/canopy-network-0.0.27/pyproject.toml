@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "canopy-network"
+version = "0.0.27"
+description = "A decentralized social network."
+authors = ["Angelo Gladding <angelo@lahacker.net>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+packages = [
+    { include = "canopy" }
+]
+
+[tool.poetry.urls]
+"Homepage" = "https://angelogladding.com/code/canopy"
+"Documentation" = "https://angelogladding.com/code/canopy/documentation"
+"Issues" = "https://angelogladding.com/code/canopy/issues"
+"Changes" = "https://angelogladding.com/code/canopy/changes"
+
+[tool.poetry.scripts]
+loveliness = "understory.loveliness:main"
+
+[tool.poetry.plugins."web.apps"]
+"canopy" = "canopy:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+understory = "^0.0.21"
+emoji = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+# understory = {path = "../understory"}
+pip = "^21.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
