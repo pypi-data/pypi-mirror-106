@@ -1,0 +1,16 @@
+bambi/__init__.py,sha256=qGxWfllwoibi65zSV8KaRZgfkhBD7iHYHJWTjFUBDzo,406
+bambi/models.py,sha256=YbJjxA8hsVA97n8MmqoGJOmJ97bpMFssVNQlj0vZL00,37141
+bambi/priors.py,sha256=DdktxPY7fFjJPBOLMTF-2q3LdvA8vSkRsm5YcD08Bc8,22082
+bambi/terms.py,sha256=K0hPBXiyIzAYroxYOeaJvB5l4XPSdvOnaYzSuMmxvhc,5360
+bambi/utils.py,sha256=a6C0zvKrjARKoehzwT7rL4cHqdzbQibP69Mg5lYQTc0,2550
+bambi/version.py,sha256=LBK46heutvn3KmsCrKIYu8RQikbfnjZaj2xFrXaeCzQ,22
+bambi/backends/__init__.py,sha256=B8v9t-sNSlHodHpLmy8llcIAdHAtgsR-CjhxtJ9qUDc,59
+bambi/backends/base.py,sha256=C4I7ksqjaBao_wpCp06a9kW282lrg4hWruwm8H4IpWI,238
+bambi/backends/pymc.py,sha256=K0WS23ACcxeiEM2cVqJH2xdCYoG5DuJe1UO2wRRnGk0,9400
+bambi/config/derivs.txt,sha256=2G0wyQ-vOJRN52XosKp9J5Jent_o9xGjewKzdWhIUEM,203234
+bambi/config/priors.json,sha256=qiNR1wbRlT0HBF_jzocO0YxSY1_uFg2v_eaAI8DWJRg,2541
+bambi-0.5.0.dist-info/LICENSE,sha256=QTJEhxaFlbloK8oTZ7hWBtlH2UbriNMQc_fF6VzrsEM,1079
+bambi-0.5.0.dist-info/METADATA,sha256=4Pw7iyr5Mh0AqiU3LVnTqAaRHmEZwDml_bEPjvEF7Ck,4969
+bambi-0.5.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bambi-0.5.0.dist-info/top_level.txt,sha256=VFjy0tlxsSWCGOYnjNqwhdPKNdYAt1kM2MljnSjzxjA,6
+bambi-0.5.0.dist-info/RECORD,,
