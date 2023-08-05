@@ -1,0 +1,136 @@
+{
+"": """\
+[b]interactive help mode[/b]
+
+screen elements got just disabled.
+
+1st tap on marked screen parts
+    shows a specific help text.
+
+2nd tap at same screen part will
+    be processed as normal.
+
+to exit the help mode tap again
+on the question mark icon ([b]?[/b]).""",
+#----------------------------------
+'help_app_state#font_size': """\
+adjust font size
+
+current size: [b]{round(self.value)}[/b]px""",
+#----------------------------------
+'help_app_state#pending_requests_frequency': """\
+frequency to update/poll
+pending requests and
+animations.
+
+current frequency: [b]{round(self.value, 1)}[/b]Hz""",
+#----------------------------------
+'help_app_state#sound_volume': """\
+change sound volume
+
+tap all to the left
+to mute all sounds.
+
+current volume: [b]{round(self.value * 100)}%[/b]""",
+#==================================
+'help_app_state#vibration_volume': """\
+vibration intensity
+
+tap all to the left
+to mute all vibrations.
+
+current vibration: [b]{round(self.value * 100)}[/b]%""",
+#==================================
+'help_flow#change_file_chooser_path': """\
+display the content
+of this folder""",
+#----------------------------------
+'help_flow#change_lang_code': """\
+change default language to
+[b]'{main_app.get_txt_(self.lang_code)}'[/b].""",
+#----------------------------------
+'help_flow#change_light_theme': """\
+switch app between [b]light[/b]
+and [b]dark[/b] theme.""",
+#----------------------------------
+"help_flow#close_popup": """\
+tap to close
+this popup""",
+#----------------------------------
+'help_flow#open_color_editor':
+    {'': """\
+open color editor to change
+the [b]{self.color_name.replace('_', ' ')}[/b].""",
+    'after': """\
+double tap at color circle or
+use the sliders to change the
+[b]{self.color_name.replace('_', ' ')}[/b].
+
+tapping again at the opening
+button will close the color
+editor.""", },
+#----------------------------------
+'help_flow#open_iterable_displayer':
+    {'': "show details",
+     'next_help_id': 'help_flow#close_popup', },
+#----------------------------------
+'help_flow#open_user_preferences':
+    {'': """\
+opening the user preferences
+drop down menu.""",
+    'after': """\
+in this drop down menu you can
+change e.g. the theme (dark or
+light), the preferred font
+size or the colors.
+
+tap on the available menu
+options to display more
+detailed help texts.""", },
+#----------------------------------
+'help_flow#select_file_chooser_path': """\
+opening the
+folder-quick-
+select-dropdown""",
+#----------------------------------
+'help_flow#toggle_file_chooser_view': """\
+toggles between list
+and icon view.
+
+tapping would switch to
+[b]{'list' if self.state == 'down' else 'icon'} view[/b]""",
+#==================================
+'tour_page#': """\
+¡welcome!""",
+#----------------------------------
+'tour_page#help_activate': """\
+""",
+#----------------------------------
+'tour_page#tooltip': """\
+""",
+#----------------------------------
+'tour_page#start_tour': """\
+""",
+#----------------------------------
+'tour_page#layout_font_size': """\
+""",
+#----------------------------------
+'tour_page#switch_page': """\
+""",
+#----------------------------------
+'tour_page#stop_tour': """\
+""",
+#==================================
+"ado": "app documents",
+"app": "app data",
+"cwd": "current working directory",
+"de": "german",
+"doc": "documents",
+"en": "english",
+"es": "spanish",
+"flow_id_ink": "{'color of the ' if app.landscape else ''}focussed item",
+"flow_path_ink": "list navigation{' button color' if app.landscape else ''}",
+"selected_item_ink": "{'color of the ' if app.landscape else ''}selected items",
+"unselected_item_ink": "{'color of the ' if app.landscape else ''}unselected items",
+"usr": "user data",
+}
