@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: cospy
+Version: 0.3.0
+Summary: A simple CLI tool to do a lot of things..
+Home-page: https://github.com/Adwaith-Rajesh/cospy
+Author: Adwaith-Rajesh
+Author-email: adwaithrajesh3180@gmail.com
+License: UNKNOWN
+Keywords: cli,python,code,development
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >3.6
+Description-Content-Type: text/markdown
+Requires-Dist: bleach (==3.3.0)
+Requires-Dist: certifi (==2020.12.5)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: click (==8.0.0)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: commonmark (==0.9.1)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: filetype (==1.0.7)
+Requires-Dist: idna (==2.10)
+Requires-Dist: importlib-metadata (==4.0.1)
+Requires-Dist: keyring (==23.0.1)
+Requires-Dist: packaging (==20.9)
+Requires-Dist: pkginfo (==1.7.0)
+Requires-Dist: pycodestyle (==2.7.0)
+Requires-Dist: Pygments (==2.9.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==29.0)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: rich (==10.2.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: tqdm (==4.60.0)
+Requires-Dist: urllib3 (==1.26.4)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.4.1)
+
+# Cospy
+A Simple CLI tool do a lot of things.
+___
+## Table of contents
+  - [Description](#DESCRIPTION)
+  - [Installation](#INSTALLATION)
+  - [API](#API)
+  - [Usage](#USAGE)
+
+
+## Description
+A CLI to do a lot of stuff in a more easier(maybe) way. 
+___
+
+## Installation
+```bash
+pip install cospy
+```
+___
+## API
+
+Below is the list of currently supported API.
+
+* [`cos init`](https://github.com/Adwaith-Rajesh/cospy/blob/master/docs/README.md#init)  - Start a programming project in any language.
+* [`cos clean`](https://github.com/Adwaith-Rajesh/cospy/blob/master/docs/README.md#clean) - Sort directory.
+* [`cos tasks`](https://github.com/Adwaith-Rajesh/cospy/blob/master/docs/README.md#tasks) - Manage tasks
+
+## Usage
+All the docs and usage are listed [here](https://github.com/Adwaith-Rajesh/cospy/tree/master/docs).
+
+
