@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pybfms
+Version: 0.0.0
+Summary: PyBFMs provides core libraries and scripts to support Python BFMs driving HDL environments
+Home-page: https://github.com/pybfms/pybfms
+Author: Matthew Ballance
+Author-email: matt.ballance@gmail.com
+License: Apache 2.0
+Keywords: SystemVerilog,Verilog,RTL,cocotb,Python
+Platform: UNKNOWN
+
+UNKNOWN
+
+

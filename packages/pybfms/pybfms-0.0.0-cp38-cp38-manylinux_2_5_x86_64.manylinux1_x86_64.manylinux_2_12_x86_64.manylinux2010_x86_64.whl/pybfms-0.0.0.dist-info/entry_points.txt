@@ -1,0 +1,3 @@
+[console_scripts]
+pybfms = pybfms.__main__:main
+
