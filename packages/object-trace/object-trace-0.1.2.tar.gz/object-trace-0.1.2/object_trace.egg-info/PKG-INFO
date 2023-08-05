@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: object-trace
+Version: 0.1.2
+Summary: Trace every use of selected objects
+Home-page: https://github.com/verinov/object-trace
+Author: Alexander Verinov
+Author-email: alex@verinov.dev
+License: MIT
+Description: Trace every use of selected objects.
+        
+        # Install
+        ```
+        pip install object-trace
+        ```
+        
+        # Example result
+        Given the following [script](example.py)
+        ```
+        from object_trace import trace, print_traces
+        
+        def producer_of_X(cache):
+            cache["X"] = trace(42.42, "X")
+        
+        def inscrutable_user_of_X(cache):
+            cache["Y"] = cache["X"] + 1
+            cache["X"] = 15.1
+        
+        with print_traces():
+            d = {}
+            producer_of_X(d)
+            inscrutable_user_of_X(d)
+            print(d["X"])
+        ```
+        
+        running `python3.9 example.py` prints:
+        ```
+        # Trace for label=`X`
+        _   : call `<module>`                   | 
+          [/mnt/c/Users/alexv/repos/object_trace/example.py:1]
+          15  : call `producer_of_X`              | producer_of_X(d)
+            [/mnt/c/Users/alexv/repos/object_trace/example.py:4]
+            5   : use                               | cache["X"] = trace(42.42, "X")
+            5   : Ref count 6->3                    | cache["X"] = trace(42.42, "X")
+          16  : call `inscrutable_user_of_X`      | inscrutable_user_of_X(d)
+            [/mnt/c/Users/alexv/repos/object_trace/example.py:8]
+            9   : use                               | cache["Y"] = cache["X"] + 1
+            10  : Ref count 3->2                    | cache["X"] = 15.1
+        --------------------------------------------------------------------------------
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown

@@ -1,0 +1,9 @@
+README.md
+setup.py
+object_trace/__init__.py
+object_trace/object_trace.py
+object_trace/py_stack.py
+object_trace.egg-info/PKG-INFO
+object_trace.egg-info/SOURCES.txt
+object_trace.egg-info/dependency_links.txt
+object_trace.egg-info/top_level.txt
