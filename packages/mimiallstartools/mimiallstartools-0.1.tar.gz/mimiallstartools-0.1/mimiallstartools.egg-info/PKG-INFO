@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mimiallstartools
+Version: 0.1
+Summary: mimi first package
+Home-page: https://github.com/mimiallstar
+Author: mimi huang
+Author-email: flyingcircus@example.com
+License: MIT
+Description: # first package test
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

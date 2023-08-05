@@ -1,0 +1,8 @@
+setup.py
+mimiallstartools/__init__.py
+mimiallstartools/mimi.py
+mimiallstartools.egg-info/PKG-INFO
+mimiallstartools.egg-info/SOURCES.txt
+mimiallstartools.egg-info/dependency_links.txt
+mimiallstartools.egg-info/not-zip-safe
+mimiallstartools.egg-info/top_level.txt
