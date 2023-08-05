@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+transcribe_anything/__init__.py
+transcribe_anything/run.py
+transcribe_anything/transcribe_anything.py
+transcribe_anything.egg-info/PKG-INFO
+transcribe_anything.egg-info/SOURCES.txt
+transcribe_anything.egg-info/dependency_links.txt
+transcribe_anything.egg-info/entry_points.txt
+transcribe_anything.egg-info/requires.txt
+transcribe_anything.egg-info/top_level.txt
