@@ -1,0 +1,4 @@
+[
+  "test_qvd_reader.py::TestQvdReader::test_read_shape",
+  "test_qvd_reader.py::TestQvdReader::test_read_size"
+]
