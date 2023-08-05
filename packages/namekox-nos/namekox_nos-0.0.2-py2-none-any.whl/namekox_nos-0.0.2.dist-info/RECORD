@@ -1,0 +1,10 @@
+namekox_nos/__init__.py,sha256=A9gftbogHuyYY83tXvhd3NHkviMl_SHDzjJhaL1cKI0,95
+namekox_nos/constants.py,sha256=ijWFNIR7Mz9HX5_XA6-bKn1EjAvhim86UJZcaLHs8GE,121
+namekox_nos/core/__init__.py,sha256=A9gftbogHuyYY83tXvhd3NHkviMl_SHDzjJhaL1cKI0,95
+namekox_nos/core/signature.py,sha256=USWJeLegH7SCJ_Ww5KEaR23iRhdktRs9O0cTbhKPtvY,333
+namekox_nos/core/dependencies/__init__.py,sha256=VzPH-00gPdWWEokQ3GzizC2cR1W0qEno5bY4RQh2Fu4,1838
+namekox_nos-0.0.2.dist-info/METADATA,sha256=6Dp0r1NZbUDavk3vHoTu-FtHOAbDljqu8-WRNHwkVnE,877
+namekox_nos-0.0.2.dist-info/WHEEL,sha256=bK8TJl-oUKFDa18qkB68zwTZhIBCifqi4qjS_NS4aFQ,92
+namekox_nos-0.0.2.dist-info/top_level.txt,sha256=z_Xfh90RHPhwtw2wIaHHizgrXQ66Lbq77yY2GcMRIic,12
+namekox_nos-0.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+namekox_nos-0.0.2.dist-info/RECORD,,
