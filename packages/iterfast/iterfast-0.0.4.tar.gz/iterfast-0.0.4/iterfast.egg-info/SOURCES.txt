@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+iterfast/__init__.py
+iterfast.egg-info/PKG-INFO
+iterfast.egg-info/SOURCES.txt
+iterfast.egg-info/dependency_links.txt
+iterfast.egg-info/requires.txt
+iterfast.egg-info/top_level.txt
