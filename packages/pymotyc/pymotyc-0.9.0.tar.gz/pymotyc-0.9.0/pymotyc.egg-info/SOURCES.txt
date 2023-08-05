@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pymotyc/__init__.py
+pymotyc/collection.py
+pymotyc/database.py
+pymotyc/engine.py
+pymotyc/errors.py
+pymotyc/model.py
+pymotyc/query.py
+pymotyc/util.py
+pymotyc.egg-info/PKG-INFO
+pymotyc.egg-info/SOURCES.txt
+pymotyc.egg-info/dependency_links.txt
+pymotyc.egg-info/requires.txt
+pymotyc.egg-info/top_level.txt
