@@ -1,0 +1,12 @@
+randomtables/__init__.py,sha256=QunOUkQaEe9cWVOTUbyOQ_N_emyiBo7jqy4K1oQHSfk,59
+randomtables/generator.py,sha256=wLn4jL7aUO29j1Ym5ZdBGkaxm9ugGWSjxOn69WvdN5A,10214
+randomtables/data/float_words.csv,sha256=Im04CkrqUEGreLxc7_1X-7T0HsfXFMvFAsxgl1ySuXI,485
+randomtables/data/int_words.csv,sha256=8ve2thpYvW8IFOYoltRePYw_A0NOcSmUjEYNF0XD22A,482
+randomtables/data/name_words.csv,sha256=SNDtNU0q9qc8qgScE-3dmKsJ9OpEKSSK4e2Js45-Dy0,170
+randomtables/data/names.csv,sha256=28iOtwKbFOjWHSUxO23JYKLpPPaDr30mM4hnzWqtwH8,1115
+randomtables/data/string_words.csv,sha256=tFhVhT5VWt4sKRJMdBW6fpGzk5KGdH8cfl16B4eN1nM,5237
+random_tables-0.0.3.dist-info/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+random_tables-0.0.3.dist-info/METADATA,sha256=mzr6He8TY4po6Hk6nvtgT3nzTQxCfY9kWy-JHxcNcnA,1233
+random_tables-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+random_tables-0.0.3.dist-info/top_level.txt,sha256=2FlYpCIEm3dkrW6nMR2uNk7ujxdu8fq-d0CsS92aR9g,13
+random_tables-0.0.3.dist-info/RECORD,,
