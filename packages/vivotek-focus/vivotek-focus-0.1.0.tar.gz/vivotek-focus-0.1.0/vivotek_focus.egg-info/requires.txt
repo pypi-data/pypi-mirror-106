@@ -1,0 +1,4 @@
+requests~=2.25
+argparse~=1.4
+onetrick~=2.1
+keyring~=23.0
