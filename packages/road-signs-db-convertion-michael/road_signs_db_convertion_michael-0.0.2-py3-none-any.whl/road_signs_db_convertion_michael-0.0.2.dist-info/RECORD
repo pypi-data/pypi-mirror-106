@@ -1,0 +1,14 @@
+database_convertion/AnalysisADT.py,sha256=mCWUToE0GaSoo_59Q-pZh_tym_VeiU3PBVG73CsNQlU,8671
+database_convertion/__init__.py,sha256=eNc-XN_rKYoPP4MrfQdBM4OVzd221xDzh0ll119lQIU,239
+database_convertion/__main__.py,sha256=c5DGHfABLFo7oU-IxcHWAPU43-55mvM6P6AJ4v3NsPA,135
+database_convertion/base_dataset.py,sha256=IxeSopHts0WwDdg4fW-ge64utFtC9f1hcJwINs4G51o,3718
+database_convertion/bmykhaylivvv.py,sha256=MMNpSFsgF5KUhU1mvOtm2sh_b8lO7vYSt3lnelHgZ-Y,7357
+database_convertion/file_operation.py,sha256=0rEfafWUBK4Mos0MqlkUXEZPg5DDkhLMJDTpIKErm_8,1080
+database_convertion/main.py,sha256=KO-6c44rNdInmqefTsvA9UmZsQKeXpVvjL-EbNl8zj8,8166
+database_convertion/mykhailo_bondarenko.py,sha256=STiSS9JvM0j-vjaRQDBp7j_SmYKzTn4k_PaH2A85eRA,8013
+database_convertion/stefan.py,sha256=xhQ58zmqfwmO9IpUwA2X5T0W9hRDFs69er5bFHD9ysE,3211
+road_signs_db_convertion_michael-0.0.2.dist-info/LICENSE,sha256=XgH-67jfkP48ih5wvXMekmDcZcm1-bkXuqw4z--vrRI,1076
+road_signs_db_convertion_michael-0.0.2.dist-info/METADATA,sha256=bIERbIBnxF-bZwjYQIoAFXW1THGSbZQCM3bb1kPwZ3U,2801
+road_signs_db_convertion_michael-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+road_signs_db_convertion_michael-0.0.2.dist-info/top_level.txt,sha256=AH1RCp4_P-SrTXcWEMuEdgJzW95wqxlPTcIdCNwK3tQ,20
+road_signs_db_convertion_michael-0.0.2.dist-info/RECORD,,
