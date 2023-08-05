@@ -1,0 +1,9 @@
+geometric_clustering/__init__.py,sha256=l7_xMSb58CTmkAUD5eOYhjQhlAXaaOU2B4rbKoNQFvU,276
+geometric_clustering/clustering.py,sha256=V81IxnmxjzU0qy25xNhAGP2I-Rq32QbsLOog9AKktJI,3247
+geometric_clustering/curvature.py,sha256=B4ExtzYeuBHsVQKeC6o04G0o8opzlAa4vuo8whSuYKw,6966
+geometric_clustering/io.py,sha256=LCuUCUOdEdx-5vMYWmfSVi45zXtVib3FQc43NOcBNxw,376
+geometric_clustering/plotting.py,sha256=TUCe6sehtnOTt1kcS1nXNrES32O0lAawNPnLavSm5SY,8836
+geometric_clustering-1.0.dist-info/METADATA,sha256=HR3z2JElFXCy5JPLgfsu8tH1YcmMjDmUAGfx2dFtv6U,413
+geometric_clustering-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+geometric_clustering-1.0.dist-info/top_level.txt,sha256=sXUbWz3WsiHLe87WorTesAGbS_bMbLo9VSHdMZTTZdQ,21
+geometric_clustering-1.0.dist-info/RECORD,,

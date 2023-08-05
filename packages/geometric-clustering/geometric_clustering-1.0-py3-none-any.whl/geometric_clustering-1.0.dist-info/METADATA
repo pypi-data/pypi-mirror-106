@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: geometric-clustering
+Version: 1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: scipy (>=1.6.0)
+Requires-Dist: networkx (>=2.5)
+Requires-Dist: matplotlib (>=3.3.3)
+Requires-Dist: tqdm (>=4.56.0)
+Requires-Dist: POT (>=0.7.0)
+Requires-Dist: pygenstability (>=0.0.2)
+
+UNKNOWN
+
+
