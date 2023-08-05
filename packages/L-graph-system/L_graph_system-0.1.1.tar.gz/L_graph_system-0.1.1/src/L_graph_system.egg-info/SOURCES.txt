@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/L_graph_system/__init__.py
+src/L_graph_system/arc.py
+src/L_graph_system/lgraph.py
+src/L_graph_system/vertex.py
+src/L_graph_system.egg-info/PKG-INFO
+src/L_graph_system.egg-info/SOURCES.txt
+src/L_graph_system.egg-info/dependency_links.txt
+src/L_graph_system.egg-info/top_level.txt
