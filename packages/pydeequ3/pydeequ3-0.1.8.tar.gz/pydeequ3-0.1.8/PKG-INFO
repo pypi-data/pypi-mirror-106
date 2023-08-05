@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pydeequ3
+Version: 0.1.8
+Summary: Pydeequ3: PySpark 3 support for deequ - AWSClone
+Author: ChethanUK
+Author-email: chethanuk@outlook.com
+Requires-Python: >=3.7.1
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: pyspark
+Requires-Dist: numpy (>=1.14.1)
+Requires-Dist: pandas (>=0.23.0)
+Requires-Dist: pyspark (==3.0.2); extra == "pyspark"
