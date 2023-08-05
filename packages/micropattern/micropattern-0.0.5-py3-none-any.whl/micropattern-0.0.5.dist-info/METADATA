@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: micropattern
+Version: 0.0.5
+Summary: A small helpers for our business
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: pika (==1.2.0)
+Requires-Dist: requests (==2.24.0)
+
+UNKNOWN
+
+

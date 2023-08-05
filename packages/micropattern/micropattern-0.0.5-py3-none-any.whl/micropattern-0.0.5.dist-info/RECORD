@@ -1,0 +1,13 @@
+micropattern/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+micropattern/registry.py,sha256=EGAWEaMdqQfP_tqTIcyAugs5tdpPRU_PPfFWuwhXDRo,3449
+micropattern/remote_configs/__init__.py,sha256=M8NR7UdF6eJuiOv3hm59cKuCkk1oDCjZu2n5hL9my84,613
+micropattern/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+micropattern/utils/csv.py,sha256=iYTfB5QVybfbd2KnoOqPwIXNT17oAQi0Crbew8157yI,1570
+micropattern/utils/db.py,sha256=bBew7qlGs8lqt1odDxwYWuL6ibq7EYWZSgOB2J9L0UU,1260
+micropattern/utils/logger.py,sha256=XExCgnfPtXJLRsZf5Vhee14aqGp_kzZCJO1ACGpWsOs,1356
+micropattern/utils/mq.py,sha256=DoEiz6WbaBwuL4LPLOOmBrALGa7ZZa_YNkC8P2DO-yI,3036
+micropattern/utils/parallel.py,sha256=fyRbXTYc_OXdf8Wt9E93MDPzFV3s_pqs8vETMHKf4h4,3311
+micropattern-0.0.5.dist-info/METADATA,sha256=vTPBIEI3deTVwrzHYzBFWcvgGviZ_y33vzLhcN-JNsQ,346
+micropattern-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+micropattern-0.0.5.dist-info/top_level.txt,sha256=8_vCvlJis0O3OodsVJmoJkhYFP9Sep8mAT0idAQRYfM,13
+micropattern-0.0.5.dist-info/RECORD,,
