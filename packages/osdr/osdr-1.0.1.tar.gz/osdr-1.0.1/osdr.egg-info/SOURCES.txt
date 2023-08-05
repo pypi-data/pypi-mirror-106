@@ -1,0 +1,13 @@
+LICENSE
+README.md
+osdr.py
+setup.py
+ftd600/__init__.py
+ftd600/_ftd3xx_linux.py
+ftd600/_ftd3xx_win32.py
+ftd600/defines.py
+ftd600/ftd3xx.py
+osdr.egg-info/PKG-INFO
+osdr.egg-info/SOURCES.txt
+osdr.egg-info/dependency_links.txt
+osdr.egg-info/top_level.txt
