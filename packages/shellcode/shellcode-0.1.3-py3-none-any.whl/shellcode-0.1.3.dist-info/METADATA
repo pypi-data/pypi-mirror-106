@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: shellcode
+Version: 0.1.3
+Summary: CLI to turn shellcode back to asm.
+Home-page: https://github.com/4thel00z/shellcode
+License: GPL-3
+Author: 4thel00z
+Author-email: 4thel00z@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: capstone (>=4.0.2,<5.0.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# shellcode
+![shellcode logo](https://raw.githubusercontent.com/4thel00z/shellcode/master/logo.png)
+
+## Motivation
+
+In the course of pawning n00bs often the need arises to introspect some (generated) shellcode or check
+it for sanity.
+
+This tools does exactly that.
+
+## Usage
+```
+echo "<some shellcode>" | python3 -m shellcode 
+```
+
+## License
+
+This project is licensed under the GPL-3 license.
+
