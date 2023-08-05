@@ -1,0 +1,4 @@
+pyjson
+yaml
+base64
+requests
