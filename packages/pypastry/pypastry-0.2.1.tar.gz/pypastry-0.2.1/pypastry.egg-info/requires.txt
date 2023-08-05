@@ -1,0 +1,6 @@
+tomlkit
+pandas
+scikit-learn
+pyarrow
+gitpython
+pytest
