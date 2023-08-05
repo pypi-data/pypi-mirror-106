@@ -1,0 +1,3 @@
+pyserial>=2.7
+click==7.1.2
+ecdsa>=0.13
