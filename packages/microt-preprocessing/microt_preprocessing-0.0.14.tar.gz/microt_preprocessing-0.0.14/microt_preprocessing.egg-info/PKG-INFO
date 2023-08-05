@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: microt-preprocessing
+Version: 0.0.14
+Summary: A package that transforms raw sensor data collected from Time study app into intermediate CSV file for analysis of various purposes
+Home-page: https://bitbucket.org/mhealthresearchgroup/microt_preprocessing/src/master/
+Author: Jixin Li, Aditya Ponnada
+Author-email: li.jix@northeastern.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://bitbucket.org/mhealthresearchgroup/microt_preprocessing/issues
+Description: long_description
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
