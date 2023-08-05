@@ -1,0 +1,11 @@
+setup.py
+Sendmails_messages.egg-info/PKG-INFO
+Sendmails_messages.egg-info/SOURCES.txt
+Sendmails_messages.egg-info/dependency_links.txt
+Sendmails_messages.egg-info/requires.txt
+Sendmails_messages.egg-info/top_level.txt
+mail_utils/__init__.py
+mail_utils/current_time.py
+mail_utils/validate_mail.py
+mail_utils/validate_number.py
+mail_utils/write_file.py

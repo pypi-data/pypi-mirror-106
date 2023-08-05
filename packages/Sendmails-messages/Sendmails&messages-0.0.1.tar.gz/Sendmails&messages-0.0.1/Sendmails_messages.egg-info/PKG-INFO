@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Sendmails-messages
+Version: 0.0.1
+Summary: scheduling mails and messages
+Home-page: UNKNOWN
+Author: NeuralNine (Florian Dedov)
+Author-email: <peddintigokul946@gmail.com>
+License: UNKNOWN
+Description: A package that allows to take data like message,mobileno, email and scheduleon from csv file and send mails,text messages.
+Keywords: python,twilio,schedule,smtp,send_mail,send_text
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
