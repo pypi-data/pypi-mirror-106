@@ -1,0 +1,7 @@
+azure_blob_processor/__init__.py,sha256=9GAqOng2JkpKqP3Ynt0NU913WL1kHvAJ0H6wWlg2fFM,38
+azure_blob_processor/decompressor.py,sha256=YpZSWAceq-_DO3l_yoUA4QjsI5MmqTvsga-FcnmniMQ,3159
+azure_blob_processor-0.0.3.dist-info/LICENSE.txt,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+azure_blob_processor-0.0.3.dist-info/METADATA,sha256=xRBjwMe4oAuKPTiBP8ZNudyEGzd0JUlG4lHriEbmwbk,865
+azure_blob_processor-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+azure_blob_processor-0.0.3.dist-info/top_level.txt,sha256=HVqGXeOQwNXn7bB1tXwI7XcYPP_RJy5eUjMtBbh6s4g,21
+azure_blob_processor-0.0.3.dist-info/RECORD,,
