@@ -1,0 +1,3 @@
+[console_scripts]
+ukw-intelli-store = ukw_intelli_store.cli:main
+
