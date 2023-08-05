@@ -1,0 +1,10 @@
+include LICENSE.txt
+include README.md
+global-exclude *.sqlite3
+global-exclude *.py[cod]
+global-exclude .DS_Store
+global-exclude mboc17_*.png
+global-exclude imread.txt
+prune data
+prune tests
+global-exclude cytoskeleton_analyser/time/*
