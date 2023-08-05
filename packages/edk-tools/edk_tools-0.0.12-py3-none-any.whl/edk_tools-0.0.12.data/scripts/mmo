@@ -1,0 +1,9 @@
+#!python
+
+
+from edk_tools import edk_crypto
+
+edk_crypto.cryto_func()
+
+
+print('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxhello')
