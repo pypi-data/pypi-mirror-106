@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+M6UF4Cine.egg-info/PKG-INFO
+M6UF4Cine.egg-info/SOURCES.txt
+M6UF4Cine.egg-info/dependency_links.txt
+M6UF4Cine.egg-info/top_level.txt
+cine/cine/Clases.py
+cine/cine/__init__.py
