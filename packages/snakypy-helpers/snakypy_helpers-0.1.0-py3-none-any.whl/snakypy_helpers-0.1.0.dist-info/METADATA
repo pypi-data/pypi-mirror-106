@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: snakypy-helpers
+Version: 0.1.0
+Summary: Snakypy Helpers is a package that contains code ready to assist in the development of packages/applications so as not to replicate the code.
+License: MIT
+Author: William C. Canin
+Author-email: william.costa.canin@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyfiglet (==0.8.post1)
