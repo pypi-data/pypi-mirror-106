@@ -1,0 +1,6 @@
+atpbar>=1.0.8
+
+[tests]
+pytest>=5.4
+pytest-cov>=2.8
+pytest-console-scripts>=0.2
