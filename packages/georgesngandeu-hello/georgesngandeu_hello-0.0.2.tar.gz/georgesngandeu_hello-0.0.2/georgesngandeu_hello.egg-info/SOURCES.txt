@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+georgesngandeu_hello/__init__.py
+georgesngandeu_hello/hello1.py
+georgesngandeu_hello/hello2.py
+georgesngandeu_hello.egg-info/PKG-INFO
+georgesngandeu_hello.egg-info/SOURCES.txt
+georgesngandeu_hello.egg-info/dependency_links.txt
+georgesngandeu_hello.egg-info/top_level.txt
