@@ -1,0 +1,8 @@
+borgapi/__init__.py,sha256=djERfEQ24Ray3amPnnW4kad1OLKVqe5hLWnBxyTI_vM,111
+borgapi/borgapi.py,sha256=ut635mCYTvIrF3J4wYk0i0viijcOGYGGripqohJ6aFo,34234
+borgapi/options.py,sha256=kghWnTdJOynpbWuOwi8JKZxnIdmN7X2UUM_eoF9OP6Q,11645
+borgapi-0.2.1.dist-info/LICENSE,sha256=g7PjdvkUMJa85GMb6zUCyW8aX_yk5Ym1x7if5W5ULPI,1050
+borgapi-0.2.1.dist-info/METADATA,sha256=7W3vniR7sz9-tCmcpNy1XMyPoumWXmGoUrumAFUJoEw,6565
+borgapi-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+borgapi-0.2.1.dist-info/top_level.txt,sha256=Ena1GrMubckEQBF7NtgxYXqFP_9for5BS7xFOLiGONo,8
+borgapi-0.2.1.dist-info/RECORD,,
