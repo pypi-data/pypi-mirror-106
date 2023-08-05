@@ -1,0 +1,10 @@
+tinuous/__init__.py,sha256=H611gxtqmGpQwfmXVVWSjsnWBJaGw6lVieaPI0Ts1vg,232
+tinuous/__main__.py,sha256=oWu4AB99RDL5Bkn4BFagivwD2a25Y_np0cbFxqL07qQ,36410
+tinuous/_version.py,sha256=kiugVW0yaEYjFuspTgdIuUrwjzSxPRqHkavZpmY3GJs,497
+tinuous/util.py,sha256=sIL7ndSKolyZjGC2F51SswScgqrnjFhIFUlNd4zHWNo,329
+tinuous-0.2.0.dist-info/LICENSE,sha256=cY3jiVyJLkoBSv3wW6X0T5mtJS8EApfWoegct4rWcA8,1085
+tinuous-0.2.0.dist-info/METADATA,sha256=vkjdv3jFjQdla_RbwVhB2W146SWGMCD2c38vHrM0MMc,15908
+tinuous-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tinuous-0.2.0.dist-info/entry_points.txt,sha256=YMHuMnXy9q4YErFXn3CAzANuBk5qnhrWT57Q9X8u1as,51
+tinuous-0.2.0.dist-info/top_level.txt,sha256=-uwCmmXWDbjQpGrawCbm5nnnkXCMiOIfOrF6YClVrL0,8
+tinuous-0.2.0.dist-info/RECORD,,
