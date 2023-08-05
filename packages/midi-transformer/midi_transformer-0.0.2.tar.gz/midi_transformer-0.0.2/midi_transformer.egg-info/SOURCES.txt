@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+midi_transformer/__init__.py
+midi_transformer/data.py
+midi_transformer/model.py
+midi_transformer.egg-info/PKG-INFO
+midi_transformer.egg-info/SOURCES.txt
+midi_transformer.egg-info/dependency_links.txt
+midi_transformer.egg-info/requires.txt
+midi_transformer.egg-info/top_level.txt
+midi_transformer/modules/__init__.py
+midi_transformer/modules/emb.py
+midi_transformer/modules/encoder.py
+midi_transformer/modules/head.py
+midi_transformer/modules/utils.py
