@@ -1,0 +1,3 @@
+[console_scripts]
+tona = tona.cmd.main:cli
+

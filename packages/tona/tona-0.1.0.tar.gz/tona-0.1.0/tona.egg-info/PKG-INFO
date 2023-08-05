@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: tona
+Version: 0.1.0
+Summary: Lightweight tools for personal productivity
+Home-page: https://github.com/sentilis/tona
+Author: Jose Hbez
+Author-email: me@josehbez.com
+License: GPLv3
+Description: 
+        <p align="center">
+            <a href="LICENSE">
+                <img src="https://img.shields.io/github/license/sentilis/tona?style=flat-square" />
+            </a>
+            <a href=".pm/version.yml">
+                <img src="https://img.shields.io/badge/dynamic/yaml?color=green&label=version&query=version.*&url=https://raw.githubusercontent.com/sentilis/tona/main/.pm/version.yml">
+            </a>
+            <a href=".pm/version.yml">
+                <img src="https://img.shields.io/badge/dynamic/yaml?color=green&label=prerelease&query=prerelease.*&url=https://raw.githubusercontent.com/sentilis/tona/main/.pm/version.yml"/>
+            </a>
+        </p>
+        
+        ## TONA
+        
+        ### What's TONA? 
+        It is an ALL IN ONE tool that will help increase your personal productivity. 
+        
+        Our goal is to create a lightweight tool with a minimalist interface, so that users can focus on what matters most.
+        
+        ### Tools
+        
+        * ⌛️ Time Tracking
+        * 📑 Project Manager
+        * 🎯 Habit Manager
+        * 🚀 OKR Manager
+        
+        Incoming
+        
+        * Contacts
+        * Wallet
+        * Password Manager
+        
+        ## Getting started
+        
+        ### Install using pip
+        
+        ```bash
+        $ pip install -U tona
+        $ tona webapp
+        $ Running on http://0.0.0.0:5001/ (Press CTRL+C to quit
+        ```
+        
+        ### Install using docker-compose
+        
+        ```bash
+        $ docker-compose up
+        $ Running on http://0.0.0.0:5001/ (Press CTRL+C to quit
+        ```
+        
+        ## Contribute
+        
+        We invite you to try out `tona` and file any issues at github issues page. Patches are most welcome!
+        
+        
+        ## Links
+        - Issues: https://github.com/sentilis/tona/issues
+        - Discussions: https://github.com/sentilis/tona/discussions
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
