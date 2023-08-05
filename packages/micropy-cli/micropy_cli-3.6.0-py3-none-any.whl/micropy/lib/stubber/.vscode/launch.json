@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Debug process --path",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "program": "${file}",
+            "args": ["--path","./temp"]
+            
+        },
+        {
+            "name": "Python: Debug process minify",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "program": "process.py",
+            "args": ["minify"]
+            
+        },
+        {
+            // disable pytest coverage report as it conflicts with debugging tests
+            "name": "Debug pytest tests",
+            "type": "python",
+            "request": "test",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "stopOnEntry": false,
+                "env": {"PYTEST_ADDOPTS": "--no-cov"}
+            // "envFile": "${workspaceFolder}/.env.test",
+        },
+
+    ]
+}
