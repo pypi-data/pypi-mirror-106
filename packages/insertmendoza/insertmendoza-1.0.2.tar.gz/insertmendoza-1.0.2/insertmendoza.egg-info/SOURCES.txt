@@ -1,0 +1,6 @@
+README.md
+setup.py
+insertmendoza.egg-info/PKG-INFO
+insertmendoza.egg-info/SOURCES.txt
+insertmendoza.egg-info/dependency_links.txt
+insertmendoza.egg-info/top_level.txt
