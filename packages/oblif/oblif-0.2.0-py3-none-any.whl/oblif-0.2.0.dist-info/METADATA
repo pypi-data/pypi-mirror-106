@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: oblif
+Version: 0.2.0
+Summary: Bytecode transformations to produce data-oblivious code
+Home-page: https://github.com/meilof/oblif
+Author: Meilof Veeningen
+Author-email: meilof@gmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+
+UNKNOWN
+
+
