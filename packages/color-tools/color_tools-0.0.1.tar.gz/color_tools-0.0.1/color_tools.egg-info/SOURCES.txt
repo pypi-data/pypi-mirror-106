@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+color_tools/__init__.py
+color_tools/color.py
+color_tools.egg-info/PKG-INFO
+color_tools.egg-info/SOURCES.txt
+color_tools.egg-info/dependency_links.txt
+color_tools.egg-info/top_level.txt
