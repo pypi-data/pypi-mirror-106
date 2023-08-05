@@ -1,0 +1,7 @@
+py3status_reddit/__init__.py,sha256=jkgsKY3bq68V_RbJ_3UNEigVuXpqPH-DGkYEf0HWDEA,68
+py3status_reddit/reddit.py,sha256=gEJ19V5WrcqWgBhKZvDj9YVgBKcog1m53TyV7K9R46Q,3890
+py3status_reddit/webserver.py,sha256=8VNa2ioe1BCOkQRl3sJWjtoQglsb96gtYIlvNXzowpA,1086
+py3status_reddit-1.0.0.dist-info/entry_points.txt,sha256=mrjMi-7aZai97E9VAFYqrlHHqkpqLQ5oxRL8S5e129M,44
+py3status_reddit-1.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+py3status_reddit-1.0.0.dist-info/METADATA,sha256=oWgL_5699u4VYs-veuzw8briDnYrLPeWQMDldu9vk8w,1145
+py3status_reddit-1.0.0.dist-info/RECORD,,
