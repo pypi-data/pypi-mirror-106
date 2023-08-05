@@ -1,0 +1,5 @@
+notify2
+pulsectl==21.3.4
+pyfirmata
+pystray
+testresources
