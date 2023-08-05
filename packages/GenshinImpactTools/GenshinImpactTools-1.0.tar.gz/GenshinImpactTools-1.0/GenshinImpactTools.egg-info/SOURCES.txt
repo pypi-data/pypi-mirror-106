@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+GenshinImpactTools/__init__.py
+GenshinImpactTools/error.py
+GenshinImpactTools/gui.py
+GenshinImpactTools/main.py
+GenshinImpactTools/run_api.py
+GenshinImpactTools/shell.py
+GenshinImpactTools.egg-info/PKG-INFO
+GenshinImpactTools.egg-info/SOURCES.txt
+GenshinImpactTools.egg-info/dependency_links.txt
+GenshinImpactTools.egg-info/top_level.txt
