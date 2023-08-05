@@ -1,0 +1,13 @@
+OptiCon/__init__.py,sha256=_ZnkPtiRXKPP7aELfq6DsRByqmFGmA2IIZiCeN6FedI,210
+OptiCon/agent.py,sha256=G9r54bc-yJCZqHjJmJ69gOEQqWK2e1gIa7tEZPL0UZc,22
+OptiCon/command.py,sha256=bLMsQgJgDw6_pF6NrljD_oqaHM96YLz-7RFBfET3lqc,270
+OptiCon/event.py,sha256=h6YCMdUYHDeoDDHl2ty9_lll0AiKSIrSKpAVciwawEo,3719
+OptiCon/minecraft_websocket.py,sha256=4Z4FYBAc-ZzhO1GpLAmaMviRsYNWhrNQUMpUcvdNYSQ,2168
+OptiCon/packet.py,sha256=lJzPO9MphGNTkwukFglBN6h8G2KnneqR258jFC3-b2Y,790
+OptiCon/server.py,sha256=35-Hvr8bQ1fnUn9_HtPGTaOQegoAqMmM1h7V1iqrAWs,1063
+OptiCon/utils.py,sha256=bRevmECs0LVgAl-vLgi8NFOK9g4j5O0OeQQX18jwVaY,264
+OptiCon-0.0.1.dist-info/LICENSE,sha256=LkqHpKnnr3Lx6CPG0vUHfV8MrsbW5hDYwuuKLt6dghE,1064
+OptiCon-0.0.1.dist-info/METADATA,sha256=RTsNtYtGpmgjGh8xs8gV02WcEPSbnINWzMS2f8fRtx0,495
+OptiCon-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+OptiCon-0.0.1.dist-info/top_level.txt,sha256=erx1wUdLWkEbzWtQNrR8CSDUEcTynPLDz5-cweSv4_4,8
+OptiCon-0.0.1.dist-info/RECORD,,
