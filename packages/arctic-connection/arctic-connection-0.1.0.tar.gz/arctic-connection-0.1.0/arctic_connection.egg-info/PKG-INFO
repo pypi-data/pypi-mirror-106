@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: arctic-connection
+Version: 0.1.0
+Summary: A wrapper arround man-group arctic python package
+Home-page: UNKNOWN
+Author: Louis-Alexis Duvief
+Author-email: louisalexis.dubief@gmail.com
+License: LICENSE
+Description: # ArcticConnection
+        
+        A wrapper arround man-group arctic python package *(source : https://github.com/man-group/arctic)*
+Platform: UNKNOWN
