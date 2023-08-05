@@ -1,0 +1,10 @@
+CHANGELOG.TXT
+LICENSE.TXT
+MANIFEST.in
+README.TXT
+setup.py
+Hi_Aviv.egg-info/PKG-INFO
+Hi_Aviv.egg-info/SOURCES.txt
+Hi_Aviv.egg-info/dependency_links.txt
+Hi_Aviv.egg-info/top_level.txt
+hi_aviv/__init__.py

@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: Hi-Aviv
+Version: 0.0.1
+Summary: Hi Aviv is the personal assistant for your computer!
+Home-page: UNKNOWN
+Author: aviv05423
+Author-email: avivb60@gmail.com
+License: MIT
+Description: He works in Hebrew and can play videos from YouTube,
+        telling jokes
+        Write down notes
+        Open software and more
+        
+        Change Log
+        ==========
+        
+        0.0.1 (15/05/2021)
+        
+Keywords: assistant,Aviv,personal assistant,Voice assistant,Virtual Assistant
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
