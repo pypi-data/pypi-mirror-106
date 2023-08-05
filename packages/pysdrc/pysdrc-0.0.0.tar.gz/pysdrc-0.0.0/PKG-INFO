@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pysdrc
+Version: 0.0.0
+Summary: Python Software Defined Remote Control
+Home-page: https://github.com/Flameeyes/pysdrc
+Author: Diego Elio Pettenò
+Author-email: flameeyes@flameeyes.com
+License: MIT
+Description: <!--
+        SPDX-FileCopyrightText: 2020 Diego Elio Pettenò
+        
+        SPDX-License-Identifier: MIT
+        -->
+        
+        # Python Software Defined Remote Control
+        
+        This started as a rough implementation of the SIRC infrared transmission protocol as used
+        by Sony TV and equipment, aimed at being used with
+        [CircuitPython](https://circuitpython.readthedocs.io/).
+        
+        Following from that, proper decoding of NEC commands was also added, making the project
+        name a misnomer.
+        
+        ## Protocol Information
+        
+        Please see [SB-Projects](https://www.sbprojects.net/knowledge/ir) for a lot of information
+        about Infrared protocols, including
+        [SIRC](https://www.sbprojects.net/knowledge/ir/sirc.php) and
+        [NEC](https://www.sbprojects.net/knowledge/ir/nec.php).
+        
+Keywords: remote control,ir,sirc
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev

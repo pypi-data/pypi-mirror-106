@@ -1,0 +1,36 @@
+# SPDX-FileCopyrightText: 2020 Diego Elio Pettenò
+#
+# SPDX-License-Identifier: 0BSD
+
+[build-system]
+requires = [
+  'setuptools >= 42',
+  'wheel',
+  'setuptools_scm[toml]>=3.4',
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
+
+[tool.isort]
+# These settings ensure that black and isort don't disagree on the imports.
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
+
+known_circuitpython = ['board', 'pulseio']
+known_third_party = ['adafruit_irremote', 'click']
+known_first_party = ['sirc_transmitter']
+sections = "FUTURE,STDLIB,CIRCUITPYTHON,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+
+[tool.pytest.ini_options]
+addopts = "--color=yes --ignore=setup.py -ra"
+timeout = 120
+norecursedirs = [
+  '.env',
+  '.git',
+  'dist',
+  'build',
+  'venv',
+]
