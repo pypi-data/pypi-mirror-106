@@ -1,0 +1,12 @@
+README.md
+setup.py
+autoserve/__init__.py
+autoserve/__main__.py
+autoserve.egg-info/PKG-INFO
+autoserve.egg-info/SOURCES.txt
+autoserve.egg-info/dependency_links.txt
+autoserve.egg-info/entry_points.txt
+autoserve.egg-info/requires.txt
+autoserve.egg-info/top_level.txt
+autoserve/seldon/__init__.py
+autoserve/seldon/sklearn.py

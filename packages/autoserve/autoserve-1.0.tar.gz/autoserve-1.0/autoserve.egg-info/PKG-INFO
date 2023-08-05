@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: autoserve
+Version: 1.0
+Summary: Model Serving Automation
+Home-page: UNKNOWN
+Author: subhrajit
+Author-email: techbiglover@gmail.com
+License: MIT
+Description: # model-serving
+Platform: UNKNOWN
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
