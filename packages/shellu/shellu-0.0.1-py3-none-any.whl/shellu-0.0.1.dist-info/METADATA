@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: shellu
+Version: 0.0.1
+Summary: Package with scripts to use ANSI characters to modify the shell output.
+Home-page: https://github.com/RobertoRojas/shell-utilities
+Author: Roberto Rojas
+Author-email: developer@robertorojas.com.mx
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Shell Utilities
+
+The project **shell-utilities** is a set of scripts to use ANSI characters to modify the shell output.
+
+- [Messages](#messages)
+
+## Messages
+<a name="messages"></a>
+
+This module provide a class to management the shell output from the program. Is posible enable or disable different types of messages and provide a style with ANSI codes, is posible disable this function also.
+
+### Example
+
+```Python
+import sys
+import argparse
+from shellu.messages import *
+
+mw = MessageWriter.getInstance()
+
+def writeInformation(message: str):
+    mw.writeMessage(message=message)
+
+def writeError(message: str):
+    mw.writeMessage(message=message, messagetype=MessageType.ERROR, foregroundcolor=ForegroundColor.RED)
+
+def writeVerbose(message: str):
+    mw.writeMessage(message=message, messagetype=MessageType.VERBOSE, backgroundcolor=BackgroundColor.BLACK, foregroundcolor=ForegroundColor.YELLOW, displaymode=DisplayMode.BOLD)
+
+def writeDebug(message: str):
+    mw.writeMessage(message=message, messagetype=MessageType.DEBUG, foregroundcolor=ForegroundColor.PURPLE)
+
+def writeWarning(message: str):
+    mw.writeMessage(message=message, messagetype=MessageType.WARNING, backgroundcolor=BackgroundColor.YELLOW, foregroundcolor=ForegroundColor.RED, displaymode=DisplayMode.NEGATIVE2)
+
+def argumentsParser(args):
+    parser = argparse.ArgumentParser(description="Test script")
+    parser.add_argument('-v', '--verbose', dest='verbose', action='store_true', help='Enable the verbose messages')
+    parser.add_argument('--debug', dest='debug', action='store_true', help='Enable the debug messages')
+    parser.add_argument('--no-warning', dest='nowarning', action='store_true', help='Disable the warning messages')
+    parser.add_argument('--no-ansi-codes', dest='noansicodes', action='store_true', help='Disable the warning messages')
+    return parser.parse_args(args=args)
+
+def main():
+    arguments = argumentsParser(sys.argv[1:])
+    mw.setVerbose(arguments.verbose)
+    mw.setDebug(arguments.debug)
+    mw.setWarning(not arguments.nowarning)
+    mw.setANSICode(not arguments.noansicodes)
+    writeInformation("This is a information message")
+    writeVerbose("This is a verbose message")
+    writeDebug("This is a debug message")
+    writeWarning("This is a warning message")
+
+
+if __name__ == '__main__':
+    main()
+```
+
+## Required version
+
+> 3.7
+
