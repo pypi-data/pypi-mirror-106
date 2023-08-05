@@ -1,0 +1,13 @@
+notion_client/__init__.py,sha256=Cyr3Pu2jaK5VhD5SLGo8SvwXGbzna7anFq-zcZMmw_4,164
+notion_client/api_endpoints.py,sha256=q79i8kutJpWLubqUAbEXAt7osNjYOoZRNEpagQKmY4Q,3151
+notion_client/client.py,sha256=i7q4KYx5bbX6ILEFTn5zw-9kuC6EerQYudPap55KmmE,4840
+notion_client/errors.py,sha256=WjTIUboahx9ri8EkkOhSLuJKtpWK2-aELZL2t3MBM-Y,2936
+notion_client/helpers.py,sha256=E01Cf2gWQuaUs8YiL5oBZYMvQT_727sCiBKES1Zx2cg,152
+notion_client/logging.py,sha256=FKPH0dOB-8LMDPB0nlEu4qBWQpp6YoU0-rx-LihNKYE,304
+notion_client/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+notion_client/typing.py,sha256=E9h05OjFU9DW9-pzcfkOJK9KuSHMEUsmYJH4KV6T9Hg,98
+notion_client-0.4.0.dist-info/LICENSE,sha256=Bj6caXRYHXu_lIy2Yxa6eid2GzaD4y5xDoITdZpG97I,1082
+notion_client-0.4.0.dist-info/METADATA,sha256=Y1lWuMZw3tR_hI1cqkTtziXdNSmJgspz4JKdM7ZTWMg,6798
+notion_client-0.4.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+notion_client-0.4.0.dist-info/top_level.txt,sha256=hR4o1bxLqO10KAiA9wupGX0ylWdDG2ftj9gBo3e8hks,14
+notion_client-0.4.0.dist-info/RECORD,,
