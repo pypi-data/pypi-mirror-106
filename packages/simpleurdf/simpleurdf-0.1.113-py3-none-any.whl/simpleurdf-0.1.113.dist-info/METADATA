@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: simpleurdf
+Version: 0.1.113
+Summary: hello world
+Author: Bracewind
+Author-email: greg.pichereau@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyXB (>=1.2.6,<2.0.0)
+Requires-Dist: lxml (>=4.6.3,<5.0.0)

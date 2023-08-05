@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+set -e
+. "$BAGCLI_WORKDIR/common"
+
+cli_help_create_pkg() {
+  echo "
+Command: create_pkg
+Usage: 
+  "
+  exit 1
+}
+
+[ ! -n "$1" ] && cli_help_create_pkg
+
+export MODEL_NAME=$(echo $1 | sed 's/\.*([a-zA-Z0-9]*\)\.py/\1/')
+export SIMPLEURDF_FOLDER_INSTALLED=..
+export NAME_PKG_CREATED=${MODEL_NAME}_description
+
+ros2 pkg create --build-type ament_python $NAME_PKG_CREATED
+cd $NAME_PKG_CREATED
+mkdir launch
+cp $SIMPLEURDF_FOLDER_INSTALLED/python_templates/demo.launch.py launch/demo.launch.py
+cp $SIMPLEURDF_FOLDER_INSTALLED/python_templates/state_publisher.py $NAME_PKG_CREATED/state_publisher.py
+cp 
+sed -i "s/<package_name>/$NAME_PKG_CREATED/g" launch/demo.launch.py
+sed -i "s/<model_name>/$MODEL_NAME/g" launch/demo.launch.py
+sed -i "s/<model_name>/$MODEL_NAME/g" $NAME_PKG_CREATED/state_publisher.py
+
+
+cli_log "Deployment BEGIN"
+
+cli_log "ENV variables"
+env | grep "BAGCLI_*"
+
+cli_log "Executing helm upgrade --install ..."
+# Example
+# helm upgrade --install \
+#   --wait \
+#   --values $BAGCLI_PROJECTS_PATH/$BAGCLI_PROJECT_NAME/values.yaml \
+#   --namespace $BAGCLI_K8S_NAMESPACE $BAGCLI_PROJECT_NAME $BAGCLI_REPO_PATH
+
+cli_log "Deployment END"
