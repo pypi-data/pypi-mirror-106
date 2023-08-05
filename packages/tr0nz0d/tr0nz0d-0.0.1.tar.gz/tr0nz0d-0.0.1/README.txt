@@ -1,0 +1,1 @@
+Biblioteca contendo ferramentas e métodos úteis para desenvolvimento em geral.
