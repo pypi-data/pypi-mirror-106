@@ -1,0 +1,69 @@
+name: Continuous testing
+on: [push]
+
+jobs:
+  test-from-src:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        image:
+          - "ecoleai/ci-linux-src-clang10-py3.6"
+          - "ecoleai/ci-linux-src-gcc9-py3.6"
+    container:
+      image: ${{ matrix.image }}
+      credentials:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: "Configure, build, and test ecole-lib and ecole-py-ext"
+        run: bash dev/run.sh --fix-pythonpath configure -- test-lib -- test-py
+
+  test-with-conda:
+    strategy:
+      matrix:
+        os:
+          - "ubuntu-20.04"
+          - "macos-10.15"
+        python: ["3.6", "3.7", "3.8", "3.9"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: "Add python version to requirements"
+        run: echo '  - python=${{ matrix.python }}' >> dev/conda.yaml
+      - uses: mamba-org/provision-with-micromamba@v10
+        with: { environment-file: dev/conda.yaml }
+      - name: "Configure, build, and test ecole-lib and ecole-py-ext"
+        shell: bash -l {0}
+        run: bash dev/run.sh --fix-pythonpath configure -- test-lib -- test-py
+
+  # Currenlty only sanitize address without Python
+  test-with-sanitizer:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: mamba-org/provision-with-micromamba@v10
+        with: { environment-file: dev/conda.yaml }
+      - name: "Configure, build, and test ecole-lib with sanitizer"
+        shell: bash -l {0}
+        run: bash dev/run.sh --fix-pythonpath configure -D SANITIZE_ADDRESS=ON -- test-lib
+
+  check-code:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: mamba-org/provision-with-micromamba@v10
+        with: { environment-file: dev/conda.yaml }
+      - name: "Run pre-commit"
+        shell: bash -l {0}
+        run: bash dev/run.sh --fix-pythonpath configure -- check-code
+
+  test-doc:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: mamba-org/provision-with-micromamba@v10
+        with: { environment-file: dev/conda.yaml }
+      - name: "Configure and build ecole-py-ext. Build and test documentation."
+        shell: bash -l {0}
+        run: bash dev/run.sh --fix-pythonpath configure -- test-doc
