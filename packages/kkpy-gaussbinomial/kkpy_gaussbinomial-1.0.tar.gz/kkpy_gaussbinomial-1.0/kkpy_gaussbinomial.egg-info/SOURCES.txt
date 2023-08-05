@@ -1,0 +1,10 @@
+setup.py
+kkpy_gaussbinomial/Binomialdistribution.py
+kkpy_gaussbinomial/Gaussiandistribution.py
+kkpy_gaussbinomial/Generaldistribution.py
+kkpy_gaussbinomial/__init__.py
+kkpy_gaussbinomial.egg-info/PKG-INFO
+kkpy_gaussbinomial.egg-info/SOURCES.txt
+kkpy_gaussbinomial.egg-info/dependency_links.txt
+kkpy_gaussbinomial.egg-info/not-zip-safe
+kkpy_gaussbinomial.egg-info/top_level.txt
