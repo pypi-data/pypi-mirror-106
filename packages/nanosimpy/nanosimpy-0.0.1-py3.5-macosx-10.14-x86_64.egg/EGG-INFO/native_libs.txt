@@ -1,0 +1,3 @@
+nanosimpy/brownian_domain_trap_cy.cpython-35m-darwin.so
+nanosimpy/brownian_trap_cy.cpython-35m-darwin.so
+nanosimpy/brownian_trap_hop_cy.cpython-35m-darwin.so
