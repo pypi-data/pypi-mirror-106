@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: easyrec
+Version: 0.1.0b0
+Summary: deep learning frame for recommendation algorithm
+Home-page: https://github.com/yinpu/easyrec
+Author: yinpu
+Author-email: 741456392@163.com
+License: MIT
+Download-URL: https://github.com/yinpu/easyrec/tags
+Keywords: deep learning,torch,tensor,pytorch
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5.*
+Description-Content-Type: text/markdown
+Requires-Dist: torch (>=1.1.0)
+Requires-Dist: tqdm
+Requires-Dist: sklearn
+Requires-Dist: tensorflow
+
+## easyrec:一个简单易用的pytorch推荐框架
+
+### 目的：
+
+该框架目的是方便研究人员快速搭建自己的推荐算法。
+
+该框架参考于[DeepCTR](https://github.com/shenweichen/DeepCTR)、[ DeepCTR-Torch](https://github.com/shenweichen/DeepCTR-Torch)、[fun-rec](https://github.com/datawhalechina/fun-rec)、[Recommender-System-with-TF2.0](https://github.com/ZiyaoGeng/Recommender-System-with-TF2.0)
+
+框架在输入层使用了更灵活的接口方便研究人员的使用。
+
+
+
+### 框架流程
+
+1.导入数据集
+
+2.定义输入以及输出
+
+3.建立模型
+
+4.评测
+
+
+
+模型搭建方法：
+
+1. 继承Base类
+
+2. `__init__`的编写
+
+   ```Python
+   def model(Base):
+       def __init__(self,)
+   ```
+
+
+
+
+
