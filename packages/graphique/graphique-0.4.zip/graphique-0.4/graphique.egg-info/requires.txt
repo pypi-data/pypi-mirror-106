@@ -1,0 +1,5 @@
+pyarrow>=4
+strawberry-graphql>=0.54
+
+[server]
+uvicorn[standard]
