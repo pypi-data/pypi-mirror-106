@@ -1,0 +1,9 @@
+README.md
+setup.py
+mkctest1/__init__.py
+mkctest1/lib2.py
+mkctest1.egg-info/PKG-INFO
+mkctest1.egg-info/SOURCES.txt
+mkctest1.egg-info/dependency_links.txt
+mkctest1.egg-info/not-zip-safe
+mkctest1.egg-info/top_level.txt
