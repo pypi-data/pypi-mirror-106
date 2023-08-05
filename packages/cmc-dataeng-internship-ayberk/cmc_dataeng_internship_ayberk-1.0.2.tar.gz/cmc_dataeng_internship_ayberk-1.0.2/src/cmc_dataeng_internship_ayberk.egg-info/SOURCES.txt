@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cmc_dataeng_internship_ayberk/__init__.py
+src/cmc_dataeng_internship_ayberk/exercise13.py
+src/cmc_dataeng_internship_ayberk.egg-info/PKG-INFO
+src/cmc_dataeng_internship_ayberk.egg-info/SOURCES.txt
+src/cmc_dataeng_internship_ayberk.egg-info/dependency_links.txt
+src/cmc_dataeng_internship_ayberk.egg-info/top_level.txt
