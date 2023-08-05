@@ -1,0 +1,9 @@
+
+1password:
+  prompt: "username@x.x.x.x.x's password: "
+  commands:
+    "cisco":
+      new_state: 1exec
+
+1exec:
+  prompt: "A:uk-lon03a-rc1# "
