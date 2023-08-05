@@ -1,0 +1,2 @@
+graft pyqt5Custom/syntax
+graft pyqt5Custom/themes

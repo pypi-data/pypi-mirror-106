@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: pyqt5Custom
+Version: 1.0.1
+Summary: More useful widgets for PyQt5
+Home-page: https://github.com/kadir014/pyqt5-custom-widgets
+Author: Kadir Aksoy
+Author-email: kursatkadir014@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/kadir014/pyqt5-custom-widgets/blob/main/documentation.md
+Description: UNKNOWN
+Keywords: gui ui pyqt widget
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
