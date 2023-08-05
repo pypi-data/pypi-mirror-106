@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+facexlib.egg-info/PKG-INFO
+facexlib.egg-info/SOURCES.txt
+facexlib.egg-info/dependency_links.txt
+facexlib.egg-info/not-zip-safe
+facexlib.egg-info/requires.txt
+facexlib.egg-info/top_level.txt
