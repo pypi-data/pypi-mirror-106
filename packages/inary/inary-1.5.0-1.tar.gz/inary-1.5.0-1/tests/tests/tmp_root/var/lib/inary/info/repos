@@ -1,0 +1,14 @@
+<REPOS>
+    <Repo>
+        <Name>core-src</Name>
+        <Url>http://127.0.0.1/SulinRepository/inary-index.xml</Url>
+        <Status>active</Status>
+        <Media>remote</Media>
+    </Repo>
+<Repo>
+        <Name>core-binary</Name>
+        <Url>http://127.0.0.1/indispensable/inary-index.xml.xz</Url>
+        <Status>active</Status>
+        <Media>remote</Media>
+    </Repo>
+</REPOS>
