@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mpl_sankey/__init__.py
+mpl_sankey.egg-info/PKG-INFO
+mpl_sankey.egg-info/SOURCES.txt
+mpl_sankey.egg-info/dependency_links.txt
+mpl_sankey.egg-info/top_level.txt
