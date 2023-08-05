@@ -1,0 +1,11 @@
+README.md
+setup.py
+pottscompleteshrinkage.egg-info/PKG-INFO
+pottscompleteshrinkage.egg-info/SOURCES.txt
+pottscompleteshrinkage.egg-info/dependency_links.txt
+pottscompleteshrinkage.egg-info/entry_points.txt
+pottscompleteshrinkage.egg-info/not-zip-safe
+pottscompleteshrinkage.egg-info/requires.txt
+pottscompleteshrinkage.egg-info/top_level.txt
+pottsshrinkage/__init__.py
+pottsshrinkage/completeshrinkage.py
