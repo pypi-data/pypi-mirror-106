@@ -1,0 +1,16 @@
+aitextgenAws/TokenDataset.py,sha256=sJ2LOqGizbRcT7xxubeNBj3AZaFY2OaZ3AN_SoYluyI,15377
+aitextgenAws/__init__.py,sha256=Fk_IIArkR8N9gfoZcugnbL6exsPbpPg4_-z0RRoOSic,42
+aitextgenAws/aitextgenAws.py,sha256=JyGJQU3OTca4S74CqbIXirBAnhSikcWsef1e62hV2Lc,32356
+aitextgenAws/cli.py,sha256=f_4xhExGyEmnwpw-ZiDFA0fnR8mffA0hihy-fWTj0l8,1166
+aitextgenAws/colab.py,sha256=aeI2oNxTmzTAYNEbT4QbAs5KFCyux2HIrykus7ix8lc,1465
+aitextgenAws/tokenizers.py,sha256=qCcRHZEZEnUwnA2glef9lrSMzd2yFbMl1j3CR_KcL8c,1904
+aitextgenAws/train.py,sha256=-IYjOPBtbOx9IEGLxzzGN5ExgRqifersmug9TxNXwk0,8637
+aitextgenAws/utils.py,sha256=OBe_OqeOshTYNH46zdcXmUqTLct-YaeICu_0lVa5rYU,5727
+aitextgenAws/static/gpt2_merges.txt,sha256=HOFmR3PFDz4MyIQmGak-3EYkUltyixiKngvjO3cmrcU,456318
+aitextgenAws/static/gpt2_vocab.json,sha256=Awh4U7xwxhi2bnx6Q-eH0ttMRpQWvqyaSD5T2tH3Lyc,898669
+aitextgenAws-0.1.dist-info/LICENSE,sha256=ZqCUBGHQdf7JOtAiS2WkJBSscKZtIdQxiKsbTFp3QUQ,1070
+aitextgenAws-0.1.dist-info/METADATA,sha256=dI9lfnI3GzvRJSepKAw3U28bEU3xrvN8JqlHvUpLAhQ,9298
+aitextgenAws-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aitextgenAws-0.1.dist-info/entry_points.txt,sha256=J9hlZbrSKXbtVws53A9rrMaghKMegqhRHd-USWOKNyY,59
+aitextgenAws-0.1.dist-info/top_level.txt,sha256=hklgJjXGAiKcshjDBCIV7HzuLb_52vxU9b-Ufs6v0yY,13
+aitextgenAws-0.1.dist-info/RECORD,,
