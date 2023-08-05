@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: angerr
+Version: 0.0.3
+Summary: When your coding doesn't work, simply call the rage function with the amount of your rage and you will feel much, much better.
+Home-page: https://github.com/MasterCoder21/anger
+Author: minecraftpr03
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# The Official Anger Package
+### The best way for programmamamaers to raeg over br0ken cod3
+
+# LISTEN THERE IS ONLY ONE FUNCTION.  IF YOU DON'T SPECIFY A RAGE AMOUNT, THE RAGE IT GIVES IS VERY LAME.
+
+#### Example:
+`$ pip install angerr`
+```
+from anger import anger
+
+anger(5)
+```
+#### Output
+
+1. WHY IS CODING SO HARD
+2. WHY IS CODING SO HARD
+3. WHY IS CODING SO HARD
+4. WHY IS CODING SO HARD
+5. WHY IS CODING SO HARD
+
+finally done raging.  are you?
+
+
+# REEEEEEEEEEEEEEEEEEEEEEEeE
+
