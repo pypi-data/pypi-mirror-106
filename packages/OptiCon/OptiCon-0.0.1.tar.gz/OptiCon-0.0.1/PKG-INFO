@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: OptiCon
+Version: 0.0.1
+Summary: MinecraftWS fork that provides optimal performance and compatibility with IndigoMod.
+Home-page: https://github.com/IndigoMod/OptiCon
+Author: beta5051
+Author-email: AcaiBerii@protonmail.com
+License: MIT
+Description: <b>Opti</b>mized <b>Con</b>nector is a modified version of MinecraftWS focused on optimized performance and compatibility with IndigoMod.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

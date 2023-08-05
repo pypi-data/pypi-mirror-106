@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+OptiCon/__init__.py
+OptiCon/agent.py
+OptiCon/command.py
+OptiCon/event.py
+OptiCon/minecraft_websocket.py
+OptiCon/packet.py
+OptiCon/server.py
+OptiCon/utils.py
+OptiCon.egg-info/PKG-INFO
+OptiCon.egg-info/SOURCES.txt
+OptiCon.egg-info/dependency_links.txt
+OptiCon.egg-info/requires.txt
+OptiCon.egg-info/top_level.txt
