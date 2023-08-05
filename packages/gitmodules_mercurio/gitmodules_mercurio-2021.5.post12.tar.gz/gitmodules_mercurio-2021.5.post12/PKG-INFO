@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gitmodules_mercurio
+Version: 2021.5.post12
+Summary: Macrolib's description
+Home-page: https://github.com/maite828/gitmodules.git
+Author: test analytics @example
+Author-email: echeverry.maite@gmail.com
+License: MIT
+Download-URL: https://github.com/maite828/gitmodules/archive/refs/heads/master.zip
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: module_A
+Provides-Extra: module_B
+Provides-Extra: all
