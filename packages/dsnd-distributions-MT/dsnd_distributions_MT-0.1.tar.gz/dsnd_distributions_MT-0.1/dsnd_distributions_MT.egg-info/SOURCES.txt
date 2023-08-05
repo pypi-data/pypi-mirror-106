@@ -1,0 +1,10 @@
+setup.py
+dsnd_distributions_MT/Binomialdistribution.py
+dsnd_distributions_MT/Gaussiandistribution.py
+dsnd_distributions_MT/Generaldistribution.py
+dsnd_distributions_MT/__init__.py
+dsnd_distributions_MT.egg-info/PKG-INFO
+dsnd_distributions_MT.egg-info/SOURCES.txt
+dsnd_distributions_MT.egg-info/dependency_links.txt
+dsnd_distributions_MT.egg-info/not-zip-safe
+dsnd_distributions_MT.egg-info/top_level.txt
