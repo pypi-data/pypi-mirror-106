@@ -1,0 +1,8 @@
+include MANIFEST.in
+include README.md
+include requirements.txt
+graft django_force_disable_permissions_admin
+exclude django_force_disable_permissions_admin_demo
+exclude django_force_disable_permissions_admin_example
+global-exclude __pycache__
+global-exclude *.py[co]
