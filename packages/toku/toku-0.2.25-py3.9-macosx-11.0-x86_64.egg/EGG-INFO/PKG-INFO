@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: toku
+Version: 0.2.25
+Summary: A simple stream based RPC - with a gevent client/server implementation. A fork of discord/loqui
+Home-page: https://github.com/Helselia/Toku
+Author: Constanze
+Author-email: cstanze@helselia.dev
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
