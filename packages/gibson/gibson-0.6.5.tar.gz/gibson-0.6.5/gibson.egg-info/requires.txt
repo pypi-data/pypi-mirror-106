@@ -1,0 +1,16 @@
+Pillow
+PyYAML>=3.12
+aenum
+cloudpickle>=0.4.1
+gym==0.9.4
+matplotlib>=2.1.0
+mpi4py
+numpy
+opencv-python
+pybullet
+pygame
+pyglet>=1.2.0
+pyzmq>=16.0.2
+torchvision==0.2.0
+tqdm>=4
+transforms3d>=0.3.1
