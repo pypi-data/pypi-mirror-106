@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: pydonitest
+Version: 0.1.10
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Home-page: https://github.com/tsouchlarakis/pydonitest
+Author: Andoni Sooklaris
+Author-email: andoni.sooklaris@gmail.com
+License: MIT license
+Description: UNKNOWN
+Keywords: pydonitest
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
