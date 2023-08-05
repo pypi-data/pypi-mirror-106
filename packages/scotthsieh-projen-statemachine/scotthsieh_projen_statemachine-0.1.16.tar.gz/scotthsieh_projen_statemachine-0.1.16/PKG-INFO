@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: scotthsieh_projen_statemachine
+Version: 0.1.16
+Summary: projen-statemachine-example
+Home-page: https://github.com/HsiehShuJeng/projen-simple.git
+Author: Shu-Jeng Hsieh<fantatsicSie@hotmail.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/HsiehShuJeng/projen-simple.git
+Description: # projen-simple
+        
+        [jsii reference](https://github.com/cdklabs/jsii-release)
+        [aws-cdk-go](https://github.com/aws/aws-cdk-go)
+        [jsii](https://github.com/aws/jsii)
+        
+        # Architecture
+        
+        This library constrcution is referred to [this AWS blog](https://aws.amazon.com/tw/blogs/compute/introducing-amazon-api-gateway-service-integration-for-aws-step-functions/).
+        
+        # Demonstration about How to Utilize Polyglot Packages
+        
+        ## TypeScript
+        
+        ```bash
+        $ cdk --init language typescript
+        ```
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
