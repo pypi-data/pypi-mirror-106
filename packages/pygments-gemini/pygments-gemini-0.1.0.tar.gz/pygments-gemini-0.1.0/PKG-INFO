@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pygments-gemini
+Version: 0.1.0
+Summary: Gemini Lexer for Pygments
+License: BSD
+Author: Kyle Fuller
+Author-email: kyle@fuller.li
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pygments (>=2.9.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Gemini Lexer for Pygments
+
+This package contains a [Gemini](https://gemini.circumlunar.space/) lexer for
+[Pygments](https://pygments.org/).
+
+```python
+from pygments import highlight
+from pygments.formatters import HtmlFormatter
+from pygments_gemini import GeminiLexer
+
+source = '''
+# Hello World
+
+=> gemini://gemini.circumlunar.space
+'''
+
+lexer = GeminiLexer()
+formatter = HtmlFormatter(linenos='table', cssclass='highlight')
+result = highlight(source, lexer, formatter)
+
+print(result)
+```
+

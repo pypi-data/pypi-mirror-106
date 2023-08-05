@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pygments-gemini"
+version = "0.1.0"
+description = "Gemini Lexer for Pygments"
+authors = ["Kyle Fuller <kyle@fuller.li>"]
+readme = "README.md"
+license = "BSD"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Pygments = "^2.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[tool.poetry.plugins."pygments.lexers"]
+"gemini" = "pygments_gemini:GeminiLexer"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
