@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: mapology
+Version: 0.0.1
+Summary: Simple python filters generating leaflet driven apps.
+Home-page: https://github.com/sthagen/mapology
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8.10
+Description-Content-Type: text/markdown
+Requires-Dist: geojson-pydantic (>=0.2.3)
+Requires-Dist: geopy (>=2.1.0)
+Requires-Dist: numpy (>=1.20.3)
+Requires-Dist: pandas (>=1.2.4)
+Requires-Dist: watchgod (>=0.7)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+
+# python-geojson-leaflet
+
+Simple python filters generating leaflet driven apps.
+
+## Installation
+
+`pip install mapology`
+
+## Status
+
+Experimental.
+
+
+**Note**: The name of the default branch is `default`.
+
+
