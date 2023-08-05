@@ -1,0 +1,3 @@
+[console_scripts]
+df_query = df_query.cli:main
+
