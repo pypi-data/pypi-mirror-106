@@ -1,0 +1,11 @@
+aiofiles-stubs/METADATA.toml,sha256=wJXeStgfLJO8QftCkuMpbIjNf38XIoPR3LOhUgo61XA,30
+aiofiles-stubs/__init__.pyi,sha256=JV9ztGDgZgmwrcgLqJ_R6o8Fgf3cmJWE5MgYjP2BEE0,37
+aiofiles-stubs/base.pyi,sha256=gL3zcEhpb3ZeAHKbouMayq0UIzTDrsE8oTwKU8Yhyq0,1490
+aiofiles-stubs/os.pyi,sha256=3x7C-S-yDA7aWbPxMNe-sKnomfQplAdGkq7yF-wp7LQ,1095
+aiofiles-stubs/threadpool/__init__.pyi,sha256=G3AP0GIvMYC7VVwp4NyfiCzFgda1SZE4aii8w5JZOGI,2818
+aiofiles-stubs/threadpool/binary.pyi,sha256=ElDOF0U5fm6ucRVRVdOJvTslGPCpw6UO7US1MuFnLP8,1633
+aiofiles-stubs/threadpool/text.pyi,sha256=cHhZ12trogacPlniBY6bN2s79st8ZYzWSpkDcqLie4k,1430
+types_aiofiles-0.1.3.dist-info/METADATA,sha256=kcXogbzeucDFW7nWB9bxGWxXrkoVDa_50iL2_-F041U,872
+types_aiofiles-0.1.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+types_aiofiles-0.1.3.dist-info/top_level.txt,sha256=t58et2RkjHfTTiZmL25XHdLh7Xqxt0_gHYHyBdsgnfE,15
+types_aiofiles-0.1.3.dist-info/RECORD,,
