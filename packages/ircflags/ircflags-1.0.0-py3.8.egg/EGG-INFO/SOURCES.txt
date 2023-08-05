@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ircflags/__init__.py
+ircflags/py.typed
+ircflags.egg-info/PKG-INFO
+ircflags.egg-info/SOURCES.txt
+ircflags.egg-info/dependency_links.txt
+ircflags.egg-info/top_level.txt
