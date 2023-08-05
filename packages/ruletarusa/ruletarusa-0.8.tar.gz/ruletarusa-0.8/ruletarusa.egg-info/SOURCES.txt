@@ -1,0 +1,10 @@
+README.md
+setup.py
+ruletarusa/Juego.py
+ruletarusa/Jugador.py
+ruletarusa/Revolver.py
+ruletarusa/__init__.py
+ruletarusa.egg-info/PKG-INFO
+ruletarusa.egg-info/SOURCES.txt
+ruletarusa.egg-info/dependency_links.txt
+ruletarusa.egg-info/top_level.txt

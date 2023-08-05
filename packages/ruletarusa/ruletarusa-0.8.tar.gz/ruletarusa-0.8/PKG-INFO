@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: ruletarusa
+Version: 0.8
+Summary: Ruleta rusa para el proyecto de la UF4 de M06.
+Home-page: https://github.com/cfsergio/RuletaRusa
+Author: SLG
+Author-email: mapacheador@gmail.com
+License: LGPL v3
+Download-URL: https://github.com/cfsergio/RuletaRusa/archive/refs/heads/master.zip
+Description: UNKNOWN
+Keywords: python ruleta rusa
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
