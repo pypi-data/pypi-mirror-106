@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sparkbar
+Version: 1.0.2
+Summary: Creates text version of horizontal bar chart.
+Home-page: UNKNOWN
+Author: Kyle Demeule
+Author-email: kyle.demeule@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pytest
+
+UNKNOWN
+
+
