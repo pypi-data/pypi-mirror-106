@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: snakypy
+Version: 0.4.0
+Summary: This is no longer a usable package. Now it's called "Snakypy Helpers."
+License: MIT
+Keywords: snakypy,linux
+Author: William C. Canin
+Author-email: william.costa.canin@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+
+========
+Snakypy
+========
+
+
+This is no longer a usable package. Now it's called `Snakypy Helpers`_.
+
+.. _Snakypy Helpers: https://pypi.org/project/snakypy-helpers/
+
