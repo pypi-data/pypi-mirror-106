@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_sample.py
+tests/test_util.py
+wrapplotly/_20210516_wordcloud.py
+wrapplotly/__init__.py
+wrapplotly/_example_plot_wordcloud.py
+wrapplotly/_wordcloud_annotate.py
+wrapplotly/graphics.py
+wrapplotly/plot_wordcloud.py
+wrapplotly/util.py
+wrapplotly.egg-info/PKG-INFO
+wrapplotly.egg-info/SOURCES.txt
+wrapplotly.egg-info/dependency_links.txt
+wrapplotly.egg-info/top_level.txt
