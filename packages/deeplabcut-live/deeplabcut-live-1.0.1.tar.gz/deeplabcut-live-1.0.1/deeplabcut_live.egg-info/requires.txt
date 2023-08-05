@@ -1,0 +1,10 @@
+numpy<1.19.0
+ruamel.yaml
+colorcet
+pillow
+py-cpuinfo==5.0.0
+tqdm
+opencv-python
+tensorflow
+pandas
+tables
