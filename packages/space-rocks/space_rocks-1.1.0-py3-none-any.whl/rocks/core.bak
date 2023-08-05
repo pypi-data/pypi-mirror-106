@@ -1,0 +1,1124 @@
+#!/usr/bin/env python
+"""Implement the Rock class and other core rocks functionality.
+"""
+import typing
+
+import numpy as np
+import pandas as pd
+import pydantic
+import rich
+from tqdm import tqdm
+
+import rocks
+
+
+def ensure_list(value):
+    """Ensure that parameters are always a list.
+
+    Some parameters are a dict if it's a single reference and a list otherwise.
+    Some parameters are None if empty.
+    """
+
+    if isinstance(value, dict):
+        value = [value]
+    elif isinstance(value, None):
+        value = []
+    return value
+
+
+class Error(pydantic.BaseModel):
+    min_: float = pydantic.Field(np.nan, alias="min")
+    max_: float = pydantic.Field(np.nan, alias="max")
+
+
+class Method(pydantic.BaseModel):
+    name: str = ""
+    shortbib: str = ""
+    year: typing.Optional[int] = None
+    title: str = ""
+    bibcode: str = ""
+    doi: str = ""
+
+
+class Bibref(pydantic.BaseModel):
+    shortbib: str = ""
+    title: str = ""
+    year: typing.Optional[int] = None
+    bibcode: str = ""
+    doi: str = ""
+
+
+class OsculatingElements(pydantic.BaseModel):
+    ref_epoch: float = np.nan
+    semi_major_axis: float = np.nan
+    eccentricity: float = np.nan
+    inclination: float = np.nan
+    node_longitude: float = np.nan
+    perihelion_argument: float = np.nan
+    mean_anomaly: float = np.nan
+    mean_motion: float = np.nan
+    orbital_period: float = np.nan
+    author: str = ""
+
+    def __str__(self):
+        return self.json()
+
+
+class ProperElements(pydantic.BaseModel):
+    proper_semi_major_axis: float = np.nan
+    proper_eccentricity: float = np.nan
+    proper_inclination: float = np.nan
+    proper_sine_inclination: float = np.nan
+    proper_g: float = np.nan
+    proper_s: float = np.nan
+
+    @pydantic.validator("*", pre=True)
+    def empty_to_nan(cls, value):
+        if not value:
+            return np.nan
+        return value
+
+    def __str__(self):
+        return self.json()
+
+
+class Yorp(pydantic.BaseModel):
+    A2: float = np.nan
+    dadt: float = np.nan
+    snr: float = np.nan
+    S: float = np.nan
+    method: str = ""
+
+    @pydantic.validator("A2", "dadt", "snr", "S", pre=True)
+    def empty_to_nan(cls, value):
+        if not value:
+            return np.nan
+        return value
+
+    def __str__(self):
+        return self.json()
+
+
+class Family(pydantic.BaseModel):
+    family_membership: typing.Optional[int] = None
+    family_number: typing.Optional[int] = None
+    family_name: str = ""
+    family_status: str = ""
+
+    def __str__(self):
+        return self.json()
+
+
+class Pair(pydantic.BaseModel):
+    pair_membership: typing.Optional[int] = None
+    sibling_number: typing.Optional[int] = None
+    sibling_name: str = ""
+    pair_delta_v: float = np.nan
+    pair_delta_a: float = np.nan
+    pair_delta_e: float = np.nan
+    pair_delta_i: float = np.nan
+
+    def __str__(self):
+        return self.json()
+
+
+class SourceRegion(pydantic.BaseModel):
+    nu6: bool = False
+    phocaea: bool = False
+    mars_crosser: bool = pydantic.Field(False, alias="mars-crosser")
+    mmr3: bool = False
+    mmr2: bool = False
+    mmr5: bool = False
+    jupiter_family_comet: bool = False
+
+    def __str__(self):
+        return self.json()
+
+
+class NonGravitationalAcceleration(pydantic.BaseModel):
+    A1: float = np.nan
+    A2: float = np.nan
+    A3: float = np.nan
+    DT: float = np.nan
+    dadt: float = np.nan
+
+    def __str__(self):
+        return self.json()
+
+
+class Source(pydantic.BaseModel):
+    osculating_elements: str = ""
+    proper_elements: str = ""
+    family: str = ""
+    pair: str = ""
+
+    def __str__(self):
+        return self.json()
+
+
+class DynamicalParameters(pydantic.BaseModel):
+    number_observation: typing.Optional[int] = None
+    orbital_arc: typing.Optional[int] = None
+    ceu: float = np.nan
+    ceu_rate: float = np.nan
+    multiplicity: str = ""
+
+    osculating_elements: OsculatingElements = OsculatingElements(**{})
+    proper_elements: ProperElements = ProperElements(**{})
+    yorp: Yorp = Yorp(**{})
+    family: Family = Family(**{})
+    pair: Pair = Pair(**{})
+    source_region: SourceRegion = SourceRegion(**{})
+    non_gravitational_acceleration: NonGravitationalAcceleration = (
+        NonGravitationalAcceleration(**{})
+    )
+    source: Source = Source(**{})
+
+    def __str__(self):
+        return self.json()
+
+    class Config:
+        arbitrary_types_allowed = True
+
+
+class Taxonomy(pydantic.BaseModel):
+    class_: str = pydantic.Field("", alias="class")
+    method: Method = Method(**{})
+    bibref: typing.List[Bibref] = []
+    waverange: str = ""
+    scheme: str = ""
+
+    # @pydantic.validator("bibcode", "doi", "shortbib", pre=True)
+    # def merge_list_of_strings(cls, values):
+    #     if isinstance(values, list):
+    #         return ", ".join(values)
+    #     return values
+
+    def __str__(self):
+        return self.json()
+
+
+class HG(pydantic.BaseModel):
+    H: float = np.nan
+    G: float = np.nan
+
+    @pydantic.validator("*", pre=True)
+    def empty_to_nan(cls, value):
+        if not value:
+            return np.nan
+        return value
+
+    def __str__(self):
+        return self.json()
+
+
+class HG1G2(pydantic.BaseModel):
+    H: float = np.nan
+    G1: float = np.nan
+    G2: float = np.nan
+
+    @pydantic.validator("*", pre=True)
+    def empty_to_nan(cls, value):
+        if not value:
+            return np.nan
+        return value
+
+    def __str__(self):
+        return self.json()
+
+
+class HG12(pydantic.BaseModel):
+    H: float = np.nan
+    G12: float = np.nan
+
+    @pydantic.validator("*", pre=True)
+    def empty_to_nan(cls, value):
+        if not value:
+            return np.nan
+        return value
+
+    def __str__(self):
+        return self.json()
+
+
+class Phase(pydantic.BaseModel):
+    HG: HG = HG(**{})
+    HG1G2: HG1G2 = HG1G2(**{})
+    HG12: HG12 = HG12(**{})
+
+    def __str__(self):
+        return self.json()
+
+
+class Spin(pydantic.BaseModel):
+    period: float = np.nan
+    err_period: Error = Error(**{})
+    t0: float = np.nan
+    RA0: float = np.nan
+    DEC0: float = np.nan
+    Wp: float = np.nan
+    long_: float = pydantic.Field(np.nan, alias="long")
+    lat: float = np.nan
+    method: typing.List[Method] = []
+    bibref: typing.List[Bibref] = []
+
+    def __str__(self):
+        return self.json()
+
+    @pydantic.validator("bibref", "method", pre=True)
+    def _ensure_list(cls, value):
+        """Ensure that parameters are always a list.
+
+        Some parameters are a dict if it's a single reference and a list otherwise.
+        Some parameters are None if empty.
+        """
+
+        if isinstance(value, dict):
+            value = [value]
+        elif isinstance(value, None):
+            value = []
+        print(value)
+        return value
+
+
+class EllipsoidRadii(pydantic.BaseModel):
+    a: float = np.nan
+    b: float = np.nan
+    c: float = np.nan
+
+    def __str__(self):
+        return self.json()
+
+
+class Diameter(pydantic.BaseModel):
+    diameter: float = np.nan
+    err_diameter: Error = Error(**{})
+    method: typing.List[Method] = []
+    bibref: typing.List[Bibref] = []
+
+    @pydantic.validator("bibref", "method", pre=True)
+    def _ensure_list(cls, value):
+        """Ensure that parameters are always a list.
+
+        Some parameters are a dict if it's a single reference and a list otherwise.
+        Some parameters are None if empty.
+        """
+
+        if isinstance(value, dict):
+            value = [value]
+        elif isinstance(value, None):
+            value = []
+        print(value)
+        return value
+
+
+class Albedo(pydantic.BaseModel):
+    albedo: float = np.nan
+    err_albedo: Error = Error(**{})
+    method: typing.List[Method] = []
+    bibref: typing.List[Bibref] = []
+
+    @pydantic.validator("bibref", pre=True)
+    def _ensure_list(cls, value):
+        """Ensure that parameters are always a list.
+
+        Some parameters are a dict if it's a single reference and a list otherwise.
+        Some parameters are None if empty.
+        """
+
+        if isinstance(value, dict):
+            value = [value]
+        elif isinstance(value, None):
+            value = []
+        print(value)
+        return value
+
+    @pydantic.validator("method", pre=True)
+    def _ensure_list2(cls, value):
+        """Ensure that parameters are always a list.
+
+        Some parameters are a dict if it's a single reference and a list otherwise.
+        Some parameters are None if empty.
+        """
+
+        if isinstance(value, dict):
+            value = [value]
+        elif isinstance(value, None):
+            value = []
+        print(value)
+        return value
+
+
+class Mass(pydantic.BaseModel):
+    mass: float = np.nan
+    err_mass: Error = Error(**{})
+    method: typing.List[Method] = []
+    bibref: typing.List[Bibref] = []
+
+    # @pydantic.validator("bibref", "method", pre=True)
+    # def _ensure_list(cls, value):
+    #     return ensure_list(value)
+
+
+class PhysicalParameters(pydantic.BaseModel):
+    diameter: Diameter = Diameter(**{})
+    albedo: Albedo = Albedo(**{})
+    density: float = np.nan
+    thermal_inertia: float = np.nan
+    mass: Mass = Mass(**{})
+
+    ellipsoid_radii: EllipsoidRadii = EllipsoidRadii(**{})
+    spin: typing.List[Spin] = None
+    taxonomy: Taxonomy = Taxonomy(**{})
+    phase: Phase = Phase(**{})
+
+    def __str__(self):
+        return self.json()
+
+    @pydantic.validator("spin", pre=True)
+    def _ensure_list(cls, value):
+        return ensure_list(value)
+
+    # @pydantic.validator("taxonomy", pre=True)
+    # def join_multiple_taxonomies(cls, value):
+    #     """Merge lists of taxonomies into str"""
+    #     if isinstance(value, list):
+    #         value = {key: ", ".join([v[key] for v in value]) for key in value[0].keys()}
+    #     return value
+
+    # @pydantic.validator("spin", pre=True)
+    # def join_lists(cls, value):
+    #     """Merge lists of parameters which are each passed to pydanticModel.
+    #     In the ssoCard, these have keys of 0, 1, 2,...
+    #     """
+    #     breakpoint()
+    #     if isinstance(value, dict):
+    #         value = list(value.values())
+    #     return value[0]
+
+    class Config:
+        arbitrary_types_allowed = True
+
+
+class EqStateVector(pydantic.BaseModel):
+    ref_epoch: float = np.nan
+    px: float = np.nan
+    py: float = np.nan
+    pz: float = np.nan
+    vx: float = np.nan
+    vy: float = np.nan
+    vz: float = np.nan
+
+    def __str__(self):
+        return self.json()
+
+
+class Parameters(pydantic.BaseModel):
+
+    dynamical: DynamicalParameters = DynamicalParameters(**{})
+    physical: PhysicalParameters = PhysicalParameters(**{})
+    eq_state_vector: EqStateVector = EqStateVector(**{})
+
+    def __str__(self):
+        return self.json()
+
+    class Config:
+        arbitrary_types_allowed = True
+
+
+class Datacloud(pydantic.BaseModel):
+    aams: str = ""
+    astdys: str = ""
+    astorb: str = ""
+    binarymp_tab: str = ""
+    binarymp_ref: str = ""
+    diamalbedo: str = ""
+    families: str = ""
+    masses: str = ""
+    mpcatobs: str = ""
+    mpcorb: str = ""
+    pairs: str = ""
+    taxonomy: str = ""
+
+    def __str__(self):
+        return self.json()
+
+
+class Pairs(pydantic.BaseModel):
+    id_: typing.Optional[int] = pydantic.Field(None, alias="id")
+    number: typing.Optional[int] = pydantic.Field(None, alias="num")
+    name: str = ""
+    sibling_num: float = np.nan
+    sibling_name: str = ""
+    delta_v: float = np.nan
+    delta_a: float = np.nan
+    delta_e: float = np.nan
+    delta_sini: float = np.nan
+    delta_i: float = np.nan
+    membership: typing.Optional[int] = None
+    iddataset: str = ""
+    idcollection: typing.Optional[int] = None
+    resourcename: str = ""
+    datasetname: str = ""
+    bibcode: str = ""
+    title: str = ""
+    link: str = ""
+
+
+class AAMS(pydantic.BaseModel):
+    id_: typing.Optional[int] = pydantic.Field(None, alias="id")
+    number: typing.Optional[int] = pydantic.Field(None, alias="num")
+    name: str = ""
+
+    HG_H: float = np.nan
+    HG_G: float = np.nan
+    HG_r_err_H: float = np.nan
+    HG_l_err_H: float = np.nan
+    HG_r_err_G: float = np.nan
+    HG_l_err_G: float = np.nan
+    HG_rms: float = np.nan
+    HG_convergence: float = np.nan
+    HG1G2_H: float = np.nan
+    HG1G2_G1: float = np.nan
+    HG1G2_G2: float = np.nan
+    HG1G2_r_err_H: float = np.nan
+    HG1G2_l_err_H: float = np.nan
+    HG1G2_r_err_G1: float = np.nan
+    HG1G2_l_err_G1: float = np.nan
+    HG1G2_r_err_G2: float = np.nan
+    HG1G2_l_err_G2: float = np.nan
+    HG1G2_rms: float = np.nan
+    HG1G2_convergence: float = np.nan
+    HG12_H: float = np.nan
+    HG12_G12: float = np.nan
+    HG12_r_err_H: float = np.nan
+    HG12_l_err_H: float = np.nan
+    HG12_r_err_G12: float = np.nan
+    HG12_l_err_G12: float = np.nan
+    HG12_rms: float = np.nan
+    HG12_convergence: float = np.nan
+    HG_err_H: float = np.nan
+    HG_err_G: float = np.nan
+    HG1G2_err_H: float = np.nan
+    HG1G2_err_G1: float = np.nan
+    HG1G2_err_G2: float = np.nan
+    HG12_err_H: float = np.nan
+    HG12_err_G12: float = np.nan
+    iddataset: str = ""
+    idcollection: typing.Optional[int] = None
+    resourcename: str = ""
+    datasetname: str = ""
+    bibcode: str = ""
+    title: str = ""
+    link: str = ""
+
+
+class Astorb(pydantic.BaseModel):
+    id_: typing.Optional[int] = pydantic.Field(None, alias="id")
+    number: typing.Optional[int] = pydantic.Field(None, alias="num")
+    name: str = ""
+    OrbComputer: str = ""
+    H: float = np.nan
+    G: float = np.nan
+    B_V: float = np.nan
+    IRAS_Diameter: float = np.nan
+    IRAS_Class: str = ""
+    OrbArc: typing.Optional[int] = None
+    NumberObs: typing.Optional[int] = None
+    MeanAnomaly: float = np.nan
+    ArgPerihelion: float = np.nan
+    LongAscNode: float = np.nan
+    Inclination: float = np.nan
+    Eccentricity: float = np.nan
+    SemimajorAxis: float = np.nan
+    CEU_value: float = np.nan
+    CEU_rate: float = np.nan
+    PEU_value: float = np.nan
+    GPEU_fromCEU: float = np.nan
+    GPEU_fromPEU: float = np.nan
+    Note_1: typing.Optional[int] = None
+    Note_2: typing.Optional[int] = None
+    Note_3: typing.Optional[int] = None
+    Note_4: typing.Optional[int] = None
+    Note_5: typing.Optional[int] = None
+    Note_6: typing.Optional[int] = None
+    YY_calulation: typing.Optional[int] = None
+    MM_calulation: typing.Optional[int] = None
+    DD_calulation: typing.Optional[int] = None
+    YY_osc: typing.Optional[int] = None
+    MM_osc: typing.Optional[int] = None
+    DD_osc: typing.Optional[int] = None
+    CEU_yy: typing.Optional[int] = None
+    CEU_mm: typing.Optional[int] = None
+    CEU_dd: typing.Optional[int] = None
+    PEU_yy: typing.Optional[int] = None
+    PEU_mm: typing.Optional[int] = None
+    PEU_dd: typing.Optional[int] = None
+    GPEU_yy: typing.Optional[int] = None
+    GPEU_mm: typing.Optional[int] = None
+    GPEU_dd: typing.Optional[int] = None
+    GGPEU_yy: typing.Optional[int] = None
+    GGPEU_mm: typing.Optional[int] = None
+    GGPEU_dd: typing.Optional[int] = None
+    JD_osc: float = np.nan
+    px: float = np.nan
+    py: float = np.nan
+    pz: float = np.nan
+    vx: float = np.nan
+    vy: float = np.nan
+    vz: float = np.nan
+    MeanMotion: float = np.nan
+    OrbPeriod: float = np.nan
+    iddataset: str = ""
+    idcollection: typing.Optional[int] = None
+    resourcename: str = ""
+    datasetname: str = ""
+    bibcode: str = ""
+    title: str = ""
+    link: str = ""
+
+
+class AstDyS(pydantic.BaseModel):
+    id_: typing.Optional[int] = pydantic.Field(None, alias="id")
+    number: typing.Optional[int] = pydantic.Field(None, alias="num")
+    name: str = ""
+    H: float = np.nan
+    ProperSemimajorAxis: float = np.nan
+    err_ProperSemimajorAxis: float = np.nan
+    ProperEccentricity: float = np.nan
+    err_ProperEccentricity: float = np.nan
+    ProperSinI: float = np.nan
+    err_ProperSinI: float = np.nan
+    ProperInclination: float = np.nan
+    err_ProperInclination: float = np.nan
+    n: float = np.nan
+    err_n: float = np.nan
+    g: float = np.nan
+    err_g: float = np.nan
+    s: float = np.nan
+    err_s: float = np.nan
+    LCE: float = np.nan
+    My: float = np.nan
+    lam_fit: float = pydantic.Field(np.nan, alias="lam-fit")
+    iddataset: str = ""
+    idcollection: typing.Optional[int] = None
+    resourcename: str = ""
+    datasetname: str = ""
+    bibcode: str = ""
+    title: str = ""
+    link: str = ""
+
+
+class Taxonomies(pydantic.BaseModel):
+    link: typing.List[str] = [""]
+    datasetname: typing.List[str] = [""]
+    resourcename: typing.List[str] = [""]
+    doi: typing.List[str] = [""]
+    bibcode: typing.List[str] = [""]
+    url: typing.List[str] = [""]
+    title: typing.List[str] = [""]
+    source: typing.List[str] = [""]
+    shortbib: typing.List[str] = [""]
+    waverange: typing.List[str] = [""]
+    method: typing.List[str] = [""]
+    scheme: typing.List[str] = [""]
+    name: typing.List[str] = [""]
+    complex_: typing.List[str] = pydantic.Field([""], alias="complex")
+    class_: typing.List[str] = pydantic.Field([""], alias="class")
+
+    number: typing.List[typing.Optional[int]] = pydantic.Field([None], alias="num")
+    idcollection: typing.List[typing.Optional[int]] = [None]
+    iddataset: typing.List[typing.Optional[int]] = [None]
+    year: typing.List[typing.Optional[int]] = [None]
+    id_: typing.List[typing.Optional[int]] = pydantic.Field([None], alias="id")
+
+    preferred: typing.List[bool] = [False]
+
+    @pydantic.validator("preferred", pre=True)
+    def select_preferred_taxonomy(cls, v, values):
+        return rocks.properties.rank_properties("taxonomy", values)
+
+    def __len__(self):
+        return len(self.class_)
+
+    def __str__(self):
+
+        if len(self) == 1 and not self.class_[0]:
+            return "No taxonomies on record."
+
+        table = rich.table.Table(
+            header_style="bold blue",
+            # caption=f"({rock.number}) {rock.name}",
+            box=rich.box.SQUARE,
+            footer_style="dim",
+        )
+
+        columns = ["class_", "complex_", "method", "waverange", "scheme", "shortbib"]
+
+        for c in columns:
+            table.add_column(c)
+
+        # Values are entries for each field
+        for i, preferred in enumerate(self.preferred):
+            table.add_row(
+                *[str(getattr(self, c)[i]) for c in columns],
+                style="bold green" if preferred else "white",
+            )
+        rich.print(table)
+        return ""
+
+
+class Masses(pydantic.BaseModel):
+    link: typing.List[str] = [""]
+    datasetname: typing.List[str] = [""]
+    resourcename: typing.List[str] = [""]
+    doi: typing.List[str] = [""]
+    bibcode: typing.List[str] = [""]
+    url: typing.List[str] = [""]
+    title: typing.List[str] = [""]
+    source: typing.List[str] = [""]
+    shortbib: typing.List[str] = [""]
+    method: typing.List[str] = [""]
+    name: typing.List[str] = [""]
+
+    number: typing.List[typing.Optional[int]] = pydantic.Field([None], alias="num")
+    idcollection: typing.List[typing.Optional[int]] = [None]
+    iddataset: typing.List[typing.Optional[int]] = [None]
+    year: typing.List[typing.Optional[int]] = [None]
+    id_: typing.List[typing.Optional[int]] = pydantic.Field([None], alias="id")
+    mass: typing.List[float] = [np.nan]
+    err_mass: typing.List[float] = [np.nan]
+
+    preferred: typing.List[bool] = [False]
+
+    @pydantic.validator("preferred", pre=True)
+    def select_preferred_mass(cls, v, values):
+        return rocks.properties.rank_properties("mass", values)
+
+
+class Mpcatobs(pydantic.BaseModel):
+    link: typing.List[str] = [""]
+    datasetname: typing.List[str] = [""]
+    resourcename: typing.List[str] = [""]
+    doi: typing.List[str] = [""]
+    bibcode: typing.List[str] = [""]
+    title: typing.List[str] = [""]
+    iddataset: typing.List[str] = [""]
+    idcollection: typing.List[typing.Optional[int]] = [None]
+    jd_obs: typing.List[float] = [np.nan]
+    ra_obs: typing.List[float] = [np.nan]
+    dec_obs: typing.List[float] = [np.nan]
+    mag: typing.List[float] = [np.nan]
+    vgs_x: typing.List[float] = [np.nan]
+    vgs_y: typing.List[float] = [np.nan]
+    vgs_z: typing.List[float] = [np.nan]
+    packed_name: typing.List[str] = [""]
+    orb_type: typing.List[str] = [""]
+    discovery: typing.List[str] = [""]
+    note1: typing.List[str] = [""]
+    note2: typing.List[str] = [""]
+    note3: typing.List[str] = [""]
+    note4: typing.List[str] = [""]
+    iau_code: typing.List[str] = [""]
+    date_obs: typing.List[str] = [""]
+    filter_: typing.List[str] = pydantic.Field([""], alias="type")
+    id_: typing.List[typing.Optional[int]] = pydantic.Field([None], alias="id")
+    type_: typing.List[str] = pydantic.Field([""], alias="type")
+    number: typing.List[typing.Optional[int]] = pydantic.Field([None], alias="num")
+    name: typing.List[str] = [""]
+
+
+class Diamalbedo(pydantic.BaseModel):
+
+    link: typing.List[str] = [""]
+    datasetname: typing.List[str] = [""]
+    resourcename: typing.List[str] = [""]
+    doi: typing.List[str] = [""]
+    bibcode: typing.List[str] = [""]
+    url: typing.List[str] = [""]
+    title: typing.List[str] = [""]
+    name: typing.List[str] = [""]
+    iddataset: typing.List[typing.Optional[int]] = [None]
+    method: typing.List[str] = [""]
+    shortbib: typing.List[str] = [""]
+    year: typing.List[typing.Optional[int]] = [None]
+    source: typing.List[str] = [""]
+
+    idcollection: typing.List[typing.Optional[int]] = [None]
+    id_: typing.List[typing.Optional[int]] = pydantic.Field([None], alias="id")
+    number: typing.List[typing.Optional[int]] = pydantic.Field([None], alias="num")
+    albedo: typing.List[float] = [np.nan]
+    err_albedo: typing.List[float] = [np.nan]
+    diameter: typing.List[float] = [np.nan]
+    err_diameter: typing.List[float] = [np.nan]
+    beaming: typing.List[float] = [np.nan]
+    err_beaming: typing.List[float] = [np.nan]
+    emissivity: typing.List[float] = [np.nan]
+    err_emissivity: typing.List[float] = [np.nan]
+
+    preferred_albedo: typing.List[bool] = [False]
+    preferred_diameter: typing.List[bool] = [False]
+
+    @pydantic.validator("preferred_albedo", pre=True)
+    def select_preferred_albedo(cls, v, values):
+        return rocks.properties.rank_properties("albedo", values)
+
+    @pydantic.validator("preferred_diameter", pre=True)
+    def select_preferred_diameter(cls, v, values):
+        return rocks.properties.rank_properties("diameter", values)
+
+
+class Rock(pydantic.BaseModel):
+
+    id_: str = pydantic.Field("", alias="id")
+    name: str = ""
+    number: typing.Optional[int]
+    aliases: typing.List[str] = []
+    type_: str = pydantic.Field("", alias="type")
+    class_: str = pydantic.Field("", alias="class")
+    parent: str = ""
+    system: str = ""
+    quaero_link: str = ""
+
+    parameters: Parameters = Parameters(**{})
+    datacloud: Datacloud = Datacloud(**{})
+
+    aams: AAMS = AAMS(**{})
+    astdys: AstDyS = AstDyS(**{})
+    astorb: Astorb = Astorb(**{})
+    diamalbedo: Diamalbedo = Diamalbedo(**{})
+    masses: Masses = Masses(**{})
+    mpcatobs: Mpcatobs = Mpcatobs(**{})
+    pairs: Pairs = Pairs(**{})
+    taxonomies: Taxonomies = Taxonomies(**{})
+
+    def __init__(self, id_, ssocard={}, datacloud=[], skip_id_check=False):
+        """Identify a minor body  and retrieve its properties from SsODNet.
+
+        Parameters
+        ==========
+        id_ : str, int, float
+            Identifying asteroid name, designation, or number
+        ssocard : dict
+            Optional argument providing a dictionary to use as ssoCard.
+            Default is empty dictionary, triggering the query of an ssoCard.
+        datacloud : list of str
+            Optional list of additional catalogues to retrieve from datacloud.
+            Default is no additional catalogues.
+        skip_id_check : bool
+            Optional argument to prevent resolution of ID before getting ssoCard.
+            Default is False.
+
+        Returns
+        =======
+        rocks.core.Rock
+            An asteroid class instance, with its properties as attributes.
+
+        Notes
+        =====
+        If the asteroid could not be identified or the data contains invalid
+        types, the number is None and no further attributes but the name are set.
+
+        Example
+        =======
+        >>> from rocks import Rock
+        >>> ceres = Rock('ceres')
+        >>> ceres.taxonomy.class_
+        'C'
+        >>> ceres.taxonomy.shortbib
+        'DeMeo+2009'
+        >>> ceres.diameter
+        848.4
+        >>> ceres.diameter.unit
+        'km'
+        """
+        if isinstance(datacloud, str):
+            datacloud = [datacloud]
+
+        id_provided = id_
+
+        if not skip_id_check:
+            _, _, id_ = rocks.identify(id_)  # type: ignore
+
+        # Get ssoCard and datcloud catalogues
+        if not pd.isnull(id_):
+            if not ssocard:
+                ssocard = rocks.ssodnet.get_ssocard(id_)
+
+            for catalogue in datacloud:
+                ssocard = self.__add_datacloud_catalogue(id_, catalogue, ssocard)
+        else:
+            # Something failed. Instantiate minimal ssoCard for meaningful error outpu.
+            ssocard = {"name": id_provided}
+
+        # Deserialize the asteroid data
+        try:
+            super().__init__(**ssocard)  # type: ignore
+        except pydantic.ValidationError as message:
+            self.__parse_error_message(message, id_, ssocard)
+            return super().__init__(**{"name": id_provided})
+
+    def __getattr__(self, name):
+        """Implement attribute shortcuts: omission of parameters.physical/dynamical.
+        Gets called if getattribute fails."""
+
+        if name in self.__aliases["physical"].values():
+            return getattr(self.parameters.physical, name)
+
+        if name in self.__aliases["dynamical"].values():
+            return getattr(self.parameters.dynamical, name)
+
+        raise AttributeError(f"'Rock' object has no attribute '{name}'")
+
+    def __repr__(self):
+        return (
+            self.__class__.__qualname__
+            + f"(number={self.number!r}, name={self.name!r})"
+        )
+
+    def __str__(self):
+        return f"({self.number}) {self.name}"
+
+    def __hash__(self):
+        return hash(self.id_)
+
+    def __add_datacloud_catalogue(self, id_, catalogue, data):
+        """Retrieve datacloud catalogue for asteroid and deserialize."""
+        catalogue_attribute = rocks.properties.DATACLOUD_META[catalogue]["attr_name"]
+
+        cat = rocks.ssodnet.get_datacloud_catalogue(id_, catalogue)
+
+        if cat is None:
+            return data
+
+        # turn list of dict (catalogue entries) into dict of list
+        cat = {
+            key: [c[key] for c in cat]
+            if catalogue not in ["aams", "astdys", "astorb", "pairs", "families"]
+            else cat[key]
+            for key in cat.keys()
+        }  # type: ignore
+
+        if catalogue in ["taxonomy", "masses"]:
+            cat["preferred"] = [False] * len(list(cat.values())[0])
+        elif catalogue in ["diamalbedo"]:
+            cat["preferred_albedo"] = [False] * len(list(cat.values())[0])
+            cat["preferred_diameter"] = [False] * len(list(cat.values())[0])
+
+        data[catalogue_attribute] = cat
+        return data
+
+    def __parse_error_message(self, message, id_, data):
+        """Print informative error message if ssocard data is invalid."""
+        print(f"{id_}:")
+
+        # Look up offending value in ssoCard
+        for error in message.errors():
+            value = data
+            for loc in error["loc"]:
+                value = value[loc]
+
+            print(
+                f"\t{' -> '.join([str(e) for e in error['loc']])} is invalid: {value}\n"
+            )
+
+    __aliases = {
+        "dynamical": {
+            "parameters.dynamical.number_observation": "number_observation",
+            "parameters.dynamical.orbital_arc": "orbital_arc",
+            "parameters.dynamical.ceu": "ceu",
+            "parameters.dynamical.ceu_rate": "ceu_rate",
+            "parameters.dynamical.osculating_elements": "osculating_elements",
+            "parameters.dynamical.proper_elements": "proper_elements",
+            "parameters.dynamical.yorp": "yorp",
+            "parameters.dynamical.family": "family",
+            "parameters.dynamical.pair": "pair",
+            "parameters.dynamical.multiplicity": "multiplicity",
+            "parameters.dynamical.source_region": "source_region",
+            "parameters.dynamical.non_gravitational_acceleration": "non_gravitational_acceleration",
+        },
+        "physical": {
+            "parameters.physical.diameter": "diameter",
+            "parameters.physical.albedo": "albedo",
+            "parameters.physical.mass": "mass",
+            "parameters.physical.thermal_inertia": "thermal_inertia",
+            "parameters.physical.density": "density",
+            "parameters.physical.ellipsoid_radii": "ellipsoid_radii",
+            "parameters.physical.spin": "spin",
+            "parameters.physical.taxonomy": "taxonomy",
+            "parameters.physical.phase": "phase",
+            "parameters.eq_state_vector": "eq_state_vector",
+        },
+    }
+
+
+def rocks_(identifier, datacloud=[], progress=False):
+    """Create multiple Rock instances.
+
+    Parameters
+    ==========
+    identifier : list of str, list of int, list of float, np.array, pd.Series
+        An iterable containing minor body identifiers.
+    datacloud : list of str
+        List of additional catalogues to retrieve from datacloud.
+        Default is no additional catalogues.
+    progress : bool
+        Show progress of instantiation. Default is False.
+
+    Returns
+    =======
+    list of rocks.core.Rock
+        A list of Rock instances
+    """
+    if isinstance(identifier, pd.Series):
+        identifier = identifier.values
+
+    ids = [id_ for _, _, id_ in rocks.identify(identifier, datacloud, progress)]  # type: ignore
+
+    rocks_ = [
+        Rock(id_, skip_id_check=True)
+        for id_ in tqdm(
+            ids, desc="Building rocks : ", total=len(ids), disable=~progress
+        )
+    ]
+
+    return rocks_
+
+
+# class propertyCollection(SimpleNamespace):
+#     """For collections of data, e.g. taxonomy -> class, method, shortbib.
+
+#     Collections of float properties have plotting and averaging methods.
+#     """
+
+#     #  def __repr__(self):
+#     #  return self.__class__.__qualname__ + json.dumps(self.__dict__, indent=2)
+
+#     #  def __str__(self):
+#     #  return self.__class__.__qualname__ + json.dumps(self.__dict__, indent=2)
+
+#     def __len__(self):
+
+#         _value_sample = list(self.__dict__.values())[0]
+
+#         if isinstance(_value_sample, list):
+#             return len(_value_sample)
+#         else:
+#             return 1
+
+#     def __iter__(self):
+#         self._iter_index = -1
+#         return self
+
+#     def __next__(self):
+#         self._iter_index += 1
+
+#         if len(self) == 1 and self._iter_index == 0:
+#             return self
+#         elif self._iter_index < len(self):
+#             return SimpleNamespace(
+#                 **dict(
+#                     (k, v[self._iter_index])
+#                     for k, v in self.__dict__.items()
+#                     if k != "_iter_index"
+#                 )
+#             )
+#         raise StopIteration
+
+#     def scatter(self, prop_name, **kwargs):
+#         return rocks.plots.scatter(self, prop_name, **kwargs)
+
+#     def hist(self, prop_name, **kwargs):
+#         return rocks.plots.hist(self, prop_name, **kwargs)
+
+#     def select_preferred(self, prop_name):
+#         """Select the preferred values based on the observation methods.
+
+#         Parameters
+#         ==========
+#         prop_name : str
+#             The property to rank.
+
+#         Returns
+#         =======
+#         list of bool
+#             Entry "preferred" in propertyCollection, True if preferred, else False
+#         """
+#         if prop_name == "diamalbedo":
+#             setattr(
+#                 self,
+#                 "preferred_albedo",
+#                 rocks.properties.rank_properties("albedo", self),
+#             )
+#             setattr(
+#                 self,
+#                 "preferred_diameter",
+#                 rocks.properties.rank_properties("diameter", self),
+#             )
+#             setattr(
+#                 self,
+#                 "preferred",
+#                 [
+#                     any([di, ai])
+#                     for di, ai in zip(self.preferred_diameter, self.preferred_albedo)
+#                 ],
+#             )
+#         else:
+#             self.preferred = rocks.properties.rank_properties(prop_name, self)
+
+
+# class listSameTypeParameter(list):
+#     """For several measurements of a single parameters of any type
+#     in datcloud catalogues.
+#     """
+
+#     def __init__(self, data):
+#         """Construct list which allows for assigning attributes.
+
+#         Parameters
+#         ==========
+#         data : iterable
+#             The minor body data from datacloud.
+#         """
+#         self.datatype = self.__get_type(data)
+
+#         if self.datatype is not None:
+#             list.__init__(self, [self.datatype(d) for d in data])
+#         else:
+#             list.__init__(self, [None for d in data])
+
+
+#     def weighted_average(self, errors=None, preferred=[]):
+#         """Compute weighted average of float-type parameters.
+
+#         Parameters
+#         ==========
+#         errors : list of floats, np.ndarraya of floats
+#             Optional list of associated uncertainties. Default is unit
+#             unceratinty.
+#         preferred : list of bools
+#             Compute average only from values where preferred is True.
+
+#         Returns
+#         ======
+#         (float, float)
+#         Weighted average and its uncertainty.
+#         """
+#         if self.datatype is not float:
+#             raise TypeError("Property is not of type float.")
+
+#         observable = np.array(self)
+
+#         # Make uniform weights in case no errors are provided
+#         if errors is None:
+#             warnings.warn("No error provided, using uniform weights.")
+#             errors = np.ones(len(self))
+#         else:
+#             # Remove measurements where the error is zero
+#             errors = np.array(errors)
+
+#         if preferred:
+#             observable = observable[preferred]
+#             errors = errors[preferred]
+
+#         return rocks.utils.weighted_average(observable, errors)
