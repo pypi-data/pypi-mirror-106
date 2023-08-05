@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+drhash/WeightedMinHash.py
+drhash/__init__.py
+drhash.egg-info/PKG-INFO
+drhash.egg-info/SOURCES.txt
+drhash.egg-info/dependency_links.txt
+drhash.egg-info/requires.txt
+drhash.egg-info/top_level.txt
