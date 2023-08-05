@@ -1,0 +1,14 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+simplebot_writefreely/__init__.py
+simplebot_writefreely/orm.py
+simplebot_writefreely.egg-info/PKG-INFO
+simplebot_writefreely.egg-info/SOURCES.txt
+simplebot_writefreely.egg-info/dependency_links.txt
+simplebot_writefreely.egg-info/entry_points.txt
+simplebot_writefreely.egg-info/not-zip-safe
+simplebot_writefreely.egg-info/requires.txt
+simplebot_writefreely.egg-info/top_level.txt
