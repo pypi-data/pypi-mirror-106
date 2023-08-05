@@ -1,0 +1,3 @@
+recursive-include musclex/tests *
+recursive-include cython *
+global-exclude *.py[co]
