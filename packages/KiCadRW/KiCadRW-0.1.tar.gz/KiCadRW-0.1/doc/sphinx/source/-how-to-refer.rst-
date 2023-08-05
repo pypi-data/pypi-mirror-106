@@ -1,0 +1,30 @@
+.. _how-to-refer-page:
+
+===========================
+ How to Refer to KiCadRW ?
+===========================
+
+Up to now, the official url for KiCadRW is https://kicad-rw.fabrice-salvaire.fr
+
+*A permanent redirection will be implemented if the domain change in the future.*
+
+On Github, you can use the **kicad-rw** `topic <https://github.com/search?q=topic%3Akicad-rw&type=Repositories>`_ for repository related to KiCadRW.
+
+A typical `BibTeX <https://en.wikipedia.org/wiki/BibTeX>`_ citation would be, for example:
+
+.. code:: bibtex
+
+    @software{KiCadRW,
+      author = {Fabrice Salvaire}, % actual author and maintainer
+      title = {KiCadRW},
+      url = {https://kicad-rw.fabrice-salvaire.fr},
+      version = {x.y},
+      date = {yyyy-mm-dd}, % set to the release date
+    }
+
+    @Misc{KiCadRW,
+      author = {Fabrice Salvaire},
+      title = {KiCadRW},
+      howpublished = {\url{https://kicad-rw.fabrice-salvaire.fr}},
+      year = {yyyy}
+    }
