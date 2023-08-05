@@ -1,0 +1,11 @@
+fonttools[lxml,type1,ufo,woff]>=4.21.1
+fontPens
+more-itertools
+
+[text]
+skia-pathops
+freetype-py
+uharfbuzz>=0.14.0
+unicodedata2
+ufo2ft
+python-bidi
