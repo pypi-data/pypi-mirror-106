@@ -1,0 +1,4 @@
+neptune-client>=0.9.8
+pytorch-lightning
+
+[all]
