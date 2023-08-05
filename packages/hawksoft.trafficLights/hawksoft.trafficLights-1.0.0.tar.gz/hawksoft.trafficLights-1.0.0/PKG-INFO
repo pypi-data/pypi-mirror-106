@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hawksoft.trafficLights
+Version: 1.0.0
+Summary: Knowledge base using pyknow for controlling traffic lights
+Home-page: https://gitee.com/xingyongkang/trafficLights
+Author: xingyongkang
+Author-email: xingyongkang@cqu.edu.cn
+License: MIT
+Description: # hawksoft.trafficLights package
+        
+        - [hawksoft.trafficLights package](#hawksofttrafficlights-package)
+          - [Installation:](#installation)
+          - [usage:](#usage)
+        
+        Knowledge base using pyknow for controlling traffic lights.
+        
+        ## Installation:
+        
+        ```
+        pip install hawksoft.trafficLights
+        ```
+        ## usage:
+        
+        To test the knowledge library, type command as follows:
+        ```
+        trafficLights
+        ```
+        
+Keywords: pyknow,traffic lights,production system
+Platform: any
+Description-Content-Type: text/markdown
