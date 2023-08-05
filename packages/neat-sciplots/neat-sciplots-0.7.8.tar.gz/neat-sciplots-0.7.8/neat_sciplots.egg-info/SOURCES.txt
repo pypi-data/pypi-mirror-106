@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+neat_sciplots.egg-info/PKG-INFO
+neat_sciplots.egg-info/SOURCES.txt
+neat_sciplots.egg-info/dependency_links.txt
+neat_sciplots.egg-info/requires.txt
+neat_sciplots.egg-info/top_level.txt
+sciplot/__init__.py
+sciplot/main.py
