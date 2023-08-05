@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: django-asyncio-task-queue
+Version: 2021.4.29
+Summary: Django asyncio task queue
+Home-page: https://github.com/git/django-asyncio-task-queue.py
+License: Unlicense
+Description: [![](https://img.shields.io/pypi/v/django-asyncio-task-queue.svg?maxAge=3600)](https://pypi.org/project/django-asyncio-task-queue/)
+        [![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+        
+        ### Install
+        ```bash
+        pip install django-asyncio-task-queue
+        ```
+        
+        ### `settings.py`
+        ```python
+        INSTALLED_APPS+=['django_asyncio_task_queue']
+        ```
+Keywords: django asyncio task queue
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
