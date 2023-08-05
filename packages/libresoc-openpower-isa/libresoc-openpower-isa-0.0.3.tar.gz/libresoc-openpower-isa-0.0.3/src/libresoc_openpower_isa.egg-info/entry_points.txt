@@ -1,0 +1,5 @@
+[console_scripts]
+pyfnwriter = openpower.decoder.pseudo.pyfnwriter:pyfnwriter
+pywriter = openpower.decoder.pseudo.pywriter:pywriter
+sv_analysis = openpower.sv.sv_analysis:process_csvs
+

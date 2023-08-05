@@ -1,0 +1,5 @@
+astor
+libresoc-nmutil
+nmigen
+ply
+pygdbmi
