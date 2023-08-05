@@ -1,0 +1,10 @@
+itk/StrainPython.py,sha256=YI4KFwLUYJtimNWTEW0Qe6UA0MmBvyCgM4_HNFMDSG4,2398
+itk/_StrainPython.so,sha256=egWCuD3Qvl6biYDh2NUXc1DNcw3duMTvbki7TuNQU4E,3534732
+itk/itkStrainImageFilterPython.py,sha256=79Z-w7qUvemK_mS0vJjCKsmybNj0Ly35kBJ9605ZizQ,28458
+itk/Configuration/StrainConfig.py,sha256=5LCL2xTsan3zOFD5uc8MxCEpuqrrgqV0XA54Xg-E8C4,1711
+itk/Configuration/Strain_snake_case.py,sha256=VrQ00WVKmvCigiOtaVY_aCtIeGNpcLnCxiD0B-uxvp0,74
+itk_strain-0.3.4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_strain-0.3.4.dist-info/METADATA,sha256=Dj-J-1OV6r_KyYGF3ueHH3EPFxTEyWg0KHHY-Y5eeXM,1834
+itk_strain-0.3.4.dist-info/WHEEL,sha256=dVaE8boSvAsaWuT-mIwHIolzKRGVN47MyEuSepi3C9Q,103
+itk_strain-0.3.4.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_strain-0.3.4.dist-info/RECORD,,
