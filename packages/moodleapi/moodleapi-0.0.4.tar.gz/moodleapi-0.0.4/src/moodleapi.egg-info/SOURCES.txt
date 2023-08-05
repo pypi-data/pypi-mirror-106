@@ -1,0 +1,10 @@
+pyproject.toml
+setup.cfg
+src/moodleapi/__init__.py
+src/moodleapi/decorator.py
+src/moodleapi/moodleapi.py
+src/moodleapi/utilurl.py
+src/moodleapi.egg-info/PKG-INFO
+src/moodleapi.egg-info/SOURCES.txt
+src/moodleapi.egg-info/dependency_links.txt
+src/moodleapi.egg-info/top_level.txt
