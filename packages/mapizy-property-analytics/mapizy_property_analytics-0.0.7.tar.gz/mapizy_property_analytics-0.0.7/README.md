@@ -1,0 +1,38 @@
+# Mapizy Property Analytics- Python API
+
+Property analytics is an machine learning based engine that helps industries like insurance, real-estate, and etc. Python API is useful to use Mapizy property analytics to developers simply using python language.
+
+## Usage
+
+1. First please register and make an account in [Mapizy Studio](https://mapizy-studio.com) and purchase the appropriate pricing plan or use the Free Tier mode.
+
+2. Go to API section and make API_key and API_url for your account.
+
+3. Install the package using 
+
+
+   ```C
+pip install mapizy-property-analytics
+   ```
+
+   
+4. If you want to process analysis for a specific property you can use the following code:
+
+
+   ```python
+   from mapizy_property_analytics import mapizy_property_analytics
+   API_url = '<YOUR API URL>'
+   API_key = '<YOUR API KEY>'
+   Address = '<The property address>' # example: '5 Pele Ave Salisbury East Salisbury SA 5109'
+   First_date = '<First date in YYYY-MM-DD format>' # example: '2018-01-01
+   Last_date = '<Last date in YYYY-MM-DD format>' # example: '2020-01-01
+   Frequency = '<Image retrive frequency, can be 2-yearly, yearly, half-yearly, quarterly>'
+   Analyse_type = '<Analyse type can be change or latest>' # example: 'change'
+   mapizy_property_analytics.development_API(API_url,API_key,Address = Address,\
+                                 First_date= First_date,Last_date = Last_date,\
+                                 Frequency = Frequency,Analyse_type = Analyse_type)
+   ```
+
+
+5. All done!
+
