@@ -1,0 +1,3 @@
+[console_scripts]
+comment_style = comment_style:main
+
