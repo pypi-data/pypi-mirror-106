@@ -1,0 +1,6 @@
+asynctkinter/__init__.py,sha256=37cg2BcSh3pUf_z8NAYp1usopNLgbtaAowWc1mLI_P8,115
+asynctkinter/_stuffs_that_depend_on_tkinter.py,sha256=vSZ79CQdli9_x_EocfssMlLNILbkTnZlR-sHzp6EkJU,2673
+asynctkinter-0.2.0.dist-info/LICENSE,sha256=2jxtLdIltPBFl7vb9bLmquYKRJiyidCvO_DhOgFWIe8,1059
+asynctkinter-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+asynctkinter-0.2.0.dist-info/METADATA,sha256=jqck_UVzaKG1UaE1938Z49-lKu-7a6YwKVzla46LiM8,5482
+asynctkinter-0.2.0.dist-info/RECORD,,
