@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: eeg-preprocessing
+Version: 0.1.0
+Summary: Semiautomatic framework for preprocessing EEG data
+Home-page: https://github.com/weiglszonja/eeg-preprocessing
+Author: Szonja Weigl
+Author-email: weigl.anna.szonja@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
