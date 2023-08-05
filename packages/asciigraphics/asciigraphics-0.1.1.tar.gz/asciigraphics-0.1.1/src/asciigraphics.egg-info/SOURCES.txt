@@ -1,0 +1,38 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+install.cmd
+publish.cmd
+setup.cfg
+setup.py
+version.txt
+images/arc.png
+images/click.png
+images/ellipse.png
+images/floodfill.png
+images/line_2d.png
+images/rect.png
+images/size.png
+images/test1out.png
+images/text.png
+src/asciigraphics.py
+src/asciigraphics.egg-info/PKG-INFO
+src/asciigraphics.egg-info/SOURCES.txt
+src/asciigraphics.egg-info/dependency_links.txt
+src/asciigraphics.egg-info/requires.txt
+src/asciigraphics.egg-info/top_level.txt
+test/test.py
+test/New folder/New Text Document.txt
+test/New folder/RENDER.py
+test/New folder/VideoShip.obj
+test/New folder/newtest.py
+test/New folder/o.obj
+test/New folder/r.py
+test/New folder/sphere.obj
+test/New folder/test.py
+test/New folder/test1.py
+test/New folder/test2.py
+test/New folder/test3.py
+test/New folder/test5.py
+test/New folder/tester.py
+test/test files/2d_functions.py
