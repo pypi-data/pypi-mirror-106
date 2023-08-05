@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pandasguard.egg-info/PKG-INFO
+src/pandasguard.egg-info/SOURCES.txt
+src/pandasguard.egg-info/dependency_links.txt
+src/pandasguard.egg-info/requires.txt
+src/pandasguard.egg-info/top_level.txt
