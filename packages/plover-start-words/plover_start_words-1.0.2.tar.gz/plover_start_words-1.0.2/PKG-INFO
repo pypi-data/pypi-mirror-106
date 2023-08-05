@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: plover_start_words
+Version: 1.0.2
+Summary: Plugin for assigning strokes to different output if it starts or not a word
+Home-page: https://github.com/nvdaes/plover_start_words
+Author: Noelia Ruiz
+Author-email: nrm1977@gmail.com
+License: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Source Code, https://github.com/nvdaes/plover_start_words
+Project-URL: Issue Tracker, https://github.com/nvdaes/plover_start_words/issues
+Description: # Plover Start words #
+        
+        This plugin provides a meta for Plover, so we can choose the output produced deppending on the last typed text.
+        
+        ## Usage ##
+        
+        ```
+        
+        # initial.json
+        {
+        "STROke": "{:initial:textStartingNextWord | textFollowingPreviousFragment}"
+        
+        ...
+        }
+        
+        ```
+        
+        ## API ##
+        
+        API can be manipulated via [Python dictionaries](https://github.com/benoit-pierre/plover_python_dictionary).
+        
+        For example:
+        
+        ```
+        
+        # single.py
+        from plover_start_words import meta
+        
+        meta.prefixes = ("", "foo", "var")
+        
+        LONGEST_KEY = 1
+        
+        
+        def lookup(key):
+        	raise KeyError
+        
+        ```
+        
+        ## Versioning ##
+        
+        We use [SemVer](https://semver.org/).
+        
+        ## Changes ##
+        
+        [Changelog](https://github.com/nvdaes/plover_start_words/blob/master/CHANGELOG.md)
+        
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: lint

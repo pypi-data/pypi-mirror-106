@@ -1,0 +1,5 @@
+plover>=4.0.0.dev9
+
+[lint]
+flake8~=3.7.7
+flake8-tabs==2.1.0
