@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/rtneat/__init__.py
+src/rtneat/connection_gene.py
+src/rtneat/counter.py
+src/rtneat/genome.py
+src/rtneat/network.py
+src/rtneat/neural_network.py
+src/rtneat/node_gene.py
+src/rtneat_python.egg-info/PKG-INFO
+src/rtneat_python.egg-info/SOURCES.txt
+src/rtneat_python.egg-info/dependency_links.txt
+src/rtneat_python.egg-info/top_level.txt
