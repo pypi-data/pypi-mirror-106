@@ -1,0 +1,12 @@
+six
+requests
+
+[docs]
+Sphinx
+ordered_set
+
+[test]
+coveralls
+coverage
+pocketlint
+pylint
