@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: SeqUtils
+Version: 1.0.1
+Summary: SeqUtils
+Home-page: https://github.com/sequencecentral/SeqUtils.git
+Author: Steve Ayers, Ph.D.
+Author-email: steve@sequenccecentral.com
+License: MIT
+Description: # SeqUtils
+        utility functions
+        
+Platform: UNKNOWN
