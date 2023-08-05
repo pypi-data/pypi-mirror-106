@@ -1,0 +1,9 @@
+Manifest-Version: 2.0
+Name: cine/Cine
+Bean: True
+
+Name: cine/Espectador
+Bean: True
+
+Name: cine/Pelicula
+Bean: True
