@@ -1,0 +1,12 @@
+utilmy/__init__.py,sha256=h7rR8bzQZ39dQFQRMgOmeNw4IQkg6lp9MQCCXYfnNdQ,62
+utilmy/data.py,sha256=NdnHJmqgw3ZG5VsnUNDkxP4dJGGXSSw_hgwnB4nsoVg,13412
+utilmy/dates.py,sha256=VIECWA86yZr9Uts-A8s6rrWzWjzE-DJ2a6la0Zae5Jo,2576
+utilmy/decorators.py,sha256=VDol3mCl7kT8iYvwDkSRJFANy6_eSF7df2SkyJtfoEQ,4925
+utilmy/io.py,sha256=tWz_HFXdf6LQiuK3Eeztg1fPeojkZoFEzZ5Ccx1vMEQ,440
+utilmy/utilmy.py,sha256=E-zZYIVdnTmjSfW8Jf-tibSIoqoVE-F9eEQDRaeQm_Y,32991
+utilmy/zutil.py,sha256=jstJphZ2NBvwvYY-vHGIlvKXOCVL6LX4EN1lC3F8Cxw,98438
+utilmy-0.1.16210538.dist-info/METADATA,sha256=mMkPup21BLCrh7CmSyiu9iKFm58bPwXH5DeDGxs0Cro,1181
+utilmy-0.1.16210538.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+utilmy-0.1.16210538.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+utilmy-0.1.16210538.dist-info/top_level.txt,sha256=8Li7RAHmHgQNt-qmbx4BmDOWGh5DTspu-albUii1tPA,7
+utilmy-0.1.16210538.dist-info/RECORD,,
