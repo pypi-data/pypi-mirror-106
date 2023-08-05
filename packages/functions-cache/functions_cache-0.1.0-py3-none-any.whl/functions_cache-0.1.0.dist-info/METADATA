@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: functions-cache
+Version: 0.1.0
+Summary: cache functions output with auto refresh everytime you call it
+Home-page: https://github.com/BalighMehrez/functions-cache
+License: BSD License
+Keywords: cache,persistence,threading,sqlite,redis,mongodb,gridfs,dynamodb
+Author: Baligh Hatem
+Author-email: balighmehrez@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Provides-Extra: engines
+Requires-Dist: Sphinx (==3.5.3); extra == "docs"
+Requires-Dist: boto3 (>=1.15,<2.0); extra == "engines"
+Requires-Dist: docutils (==0.16); extra == "docs"
+Requires-Dist: m2r2 (>=0.2,<0.3); extra == "docs"
+Requires-Dist: pymongo (>=3.0,<4.0); extra == "engines"
+Requires-Dist: redis (>=3.0,<4.0); extra == "engines"
+Requires-Dist: sphinx-autodoc-typehints (>=1.11,<2.0); extra == "docs"
+Requires-Dist: sphinx-copybutton (>=0.3,<0.4); extra == "docs"
+Requires-Dist: sphinx-rtd-theme (==0.5.2)
+Requires-Dist: sphinxcontrib-apidoc (>=0.3,<0.4); extra == "docs"
+Project-URL: Documentation, https://functions-cache.readthedocs.io
+Project-URL: Repository, https://github.com/BalighMehrez/functions-cache
+Description-Content-Type: text/markdown
+
+# functions cache
+
+This library is inspired by requests-cache <https://github.com/reclosedev/requests-cache> and the whole engines code has been copied and modified from there.
+
+this library provide a decorator that can be used to decorate your functions to be cached.
+
+The main feature that diffentiate this library is that it will auto refresh the cache in a background thread so your cache will be kept fresh.
+
+## Sample code
+```python
+from functions_cache import cache_it
+import datetime
+
+
+
+@cache_it
+def fab_cached(n):
+    if n < 2:
+        return n
+    else:
+        return fab_cached(n-2)+fab_cached(n-1)
+
+if __name__ == "__main__":
+    t1 = datetime.datetime.now()
+    print(fab_cached(100))
+    t2 = datetime.datetime.now()
+    print(t2-t1)
+    t3 = datetime.datetime.now()
+    print(fab_cached(100))
+    t4 = datetime.datetime.now()
+    print(t4-t3)
+    
+```
+and the output
+```
+354224848179261915075
+0:00:03.366472
+354224848179261915075
+0:00:00.014370
+```
+
