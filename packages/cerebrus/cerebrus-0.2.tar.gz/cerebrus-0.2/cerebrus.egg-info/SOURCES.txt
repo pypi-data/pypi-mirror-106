@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+cerebrus/__init__.py
+cerebrus.egg-info/PKG-INFO
+cerebrus.egg-info/SOURCES.txt
+cerebrus.egg-info/dependency_links.txt
+cerebrus.egg-info/not-zip-safe
+cerebrus.egg-info/top_level.txt
+test/test.py
