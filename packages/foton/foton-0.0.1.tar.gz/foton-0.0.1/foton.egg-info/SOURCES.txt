@@ -1,0 +1,8 @@
+README.md
+setup.py
+foton/__init__.py
+foton/show.py
+foton.egg-info/PKG-INFO
+foton.egg-info/SOURCES.txt
+foton.egg-info/dependency_links.txt
+foton.egg-info/top_level.txt
