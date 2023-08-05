@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "playing_cards"
+version = "0.1.1"
+description = ""
+authors = ["uyg <ooy004003@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+playing_cards =  'playing_cards.main:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+#pypi-AgEIcHlwaS5vcmcCJDhmYTkyMGIzLWY4NzktNDViOS05NWJhLTFhNWJjZGNlOWY1ZQACPnsicGVybWlzc2lvbnMiOiB7InByb2plY3RzIjogWyJwbGF5aW5nLWNhcmRzIl19LCAidmVyc2lvbiI6IDF9AAAGIAmKsW59u77FnaQEU7fDKNsNQePcDqQVxkPw1UvLTmAH
