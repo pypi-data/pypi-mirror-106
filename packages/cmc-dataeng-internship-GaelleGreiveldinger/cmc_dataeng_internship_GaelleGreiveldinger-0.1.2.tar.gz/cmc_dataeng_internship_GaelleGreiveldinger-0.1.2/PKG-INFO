@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cmc_dataeng_internship_GaelleGreiveldinger
+Version: 0.1.2
+Summary: Package for cmc_dataeng_internship_exercise
+Home-page: UNKNOWN
+Author: Gaëlle Greiveldinger
+License: MIT
+Description: # -*- coding: utf-8 -*-
+        """
+        Created on Mon May 17 22:38:23 2021
+        
+        @author: GaÃ«lle Greiveldinger
+        """
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
