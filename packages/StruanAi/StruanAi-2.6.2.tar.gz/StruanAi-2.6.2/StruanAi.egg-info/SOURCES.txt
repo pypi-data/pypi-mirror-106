@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+StruanAi/__init__.py
+StruanAi/main.py
+StruanAi.egg-info/PKG-INFO
+StruanAi.egg-info/SOURCES.txt
+StruanAi.egg-info/dependency_links.txt
+StruanAi.egg-info/top_level.txt
