@@ -1,0 +1,8 @@
+numpy
+scipy
+pyatmos
+mayavi
+json
+kepler
+datetime
+random
