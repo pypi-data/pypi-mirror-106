@@ -1,0 +1,5 @@
+pandas
+pydub
+tqdm
+youtube_dl
+youtube_transcript_api
