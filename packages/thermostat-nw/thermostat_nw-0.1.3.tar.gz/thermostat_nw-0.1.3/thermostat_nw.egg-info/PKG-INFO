@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: thermostat-nw
+Version: 0.1.3
+Summary: Calculate connected thermostat savings
+Home-page: https://github.com/hshaban/epathermostat_nw
+Author: Empower Dataworks + Apex Analytics. Forked from https://github.com/EPAENERGYSTAR/epathermostat.
+Author-email: UNKNOWN
+License: MIT
+Description: 
+        This is a fork of EPA's Connected Thermostat library (https://github.com/EPAENERGYSTAR/epathermostat), 
+        intended to calculate connected thermostat temperature and run-time savings. This version adds 
+        several metrics that are being used to evaluate real-world smart thermostat savings in the Northwestern USA.
+        
+Keywords: thermostat savings EPA
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
