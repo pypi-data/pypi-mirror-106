@@ -1,0 +1,8 @@
+numpy>=1.19.0
+mne>=0.19.1
+mne-bids
+scipy
+pybv
+matplotlib
+argparse
+tqdm
