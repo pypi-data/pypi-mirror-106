@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: scFlash
+Version: 0.0.1
+Summary: scFlash is convinient and flexible package for Single Cell Analysis.
+Home-page: UNKNOWN
+Author: Sarath Kolli, Anudeep Kota, Aysha Saniya,  Kushan Raj, Meenakshi Pillai, Niranjan Jain, Rujutha Shinde, Shraddha Bharadwaj
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: python,scrnaseq,sca
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Dist: scanpy
+Requires-Dist: lightning-flash (==0.2.3)
+
+UNKNOWN
+
+
