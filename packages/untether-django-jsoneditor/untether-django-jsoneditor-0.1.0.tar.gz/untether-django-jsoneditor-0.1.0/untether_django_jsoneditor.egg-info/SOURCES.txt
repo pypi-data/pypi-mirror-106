@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jsoneditor/__init__.py
+jsoneditor/admin.py
+jsoneditor/forms.py
+untether_django_jsoneditor.egg-info/PKG-INFO
+untether_django_jsoneditor.egg-info/SOURCES.txt
+untether_django_jsoneditor.egg-info/dependency_links.txt
+untether_django_jsoneditor.egg-info/top_level.txt
