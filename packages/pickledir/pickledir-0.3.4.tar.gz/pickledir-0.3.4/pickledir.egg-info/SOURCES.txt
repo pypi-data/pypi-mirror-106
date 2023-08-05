@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pickledir/__init__.py
+pickledir/_constants.py
+pickledir/_hex.py
+pickledir/_pickledir.py
+pickledir.egg-info/PKG-INFO
+pickledir.egg-info/SOURCES.txt
+pickledir.egg-info/dependency_links.txt
+pickledir.egg-info/top_level.txt
