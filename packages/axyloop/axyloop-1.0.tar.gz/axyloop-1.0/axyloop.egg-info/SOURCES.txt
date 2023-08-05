@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+axyloop.egg-info/PKG-INFO
+axyloop.egg-info/SOURCES.txt
+axyloop.egg-info/dependency_links.txt
+axyloop.egg-info/top_level.txt
