@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/mysql_simplelib/Database.py
+src/mysql_simplelib/Server.py
+src/mysql_simplelib/Table.py
+src/mysql_simplelib/User.py
+src/mysql_simplelib/__init__.py
+src/mysql_simplelib.egg-info/PKG-INFO
+src/mysql_simplelib.egg-info/SOURCES.txt
+src/mysql_simplelib.egg-info/dependency_links.txt
+src/mysql_simplelib.egg-info/requires.txt
+src/mysql_simplelib.egg-info/top_level.txt
+src/mysql_simplelib/utils/__init__.py
+src/mysql_simplelib/utils/mysql_methods.py
