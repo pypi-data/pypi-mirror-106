@@ -1,0 +1,3 @@
+[console_scripts]
+ubuntu-server-netboot=usn.usn:ubuntu_server_netboot
+
