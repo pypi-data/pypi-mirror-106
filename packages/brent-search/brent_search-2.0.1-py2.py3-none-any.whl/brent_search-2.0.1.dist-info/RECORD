@@ -1,0 +1,14 @@
+brent_search/__init__.py,sha256=dS5JMnuba4JAIOVyA96oX5fTxhJXgyZQ-8lh_-z0tZg,498
+brent_search/_bracket.py,sha256=MnIbT8IQkMjZ_xOc8Vz4idxJyQQl_5gd3YlTTAZ0QAM,4282
+brent_search/_brent.py,sha256=0R90kCQ6NcVEFtUHOVg3mtWIEAJ59aL1kKgXQmRgI_g,6453
+brent_search/_optimize.py,sha256=MIckpkHZfmwiX0z1oJsOtATyDY1R-ZKBSfU1iXoePjM,1657
+brent_search/_testit.py,sha256=JHjWtRRMVDjkfQkiAGNv6Yq8WsUkqfv2mo-d7gG5uTA,448
+brent_search/_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brent_search/_test/test_brent.py,sha256=kRdRUWbckqjXcTTiWz9MmrWUzZ1m6wab8vpzD9YTjeE,3191
+brent_search/_test/test_minimize.py,sha256=DgdMu9KWsw_FvGlr_B96xtri9AAh4v6GTaabOW4zXtc,2333
+brent_search-2.0.1.dist-info/LICENSE.md,sha256=BIEYszIwoVtu1pGbhOSco3YYEew0CEAe1vHuH6VzfEQ,1105
+brent_search-2.0.1.dist-info/METADATA,sha256=d2DTJM6hTp1-EWIXrlWmYg13H2XMNB9ERGqqUvKGxs0,1699
+brent_search-2.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+brent_search-2.0.1.dist-info/top_level.txt,sha256=gpRTJLl7btQgITcozG4egTj2GdNGpRwZ8Dc5HevggSw,13
+brent_search-2.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+brent_search-2.0.1.dist-info/RECORD,,

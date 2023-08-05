@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: brent-search
+Version: 2.0.1
+Summary: Brent''s method for univariate function optimization
+Home-page: https://github.com/limix/brent-search
+Author: Danilo Horta
+Author-email: horta@ebi.ac.uk
+Maintainer: Danilo Horta
+Maintainer-email: horta@ebi.ac.uk
+License: MIT
+Download-URL: https://github.com/limix/brent-search
+Keywords: brent search,function optimization
+Platform: OS Independent
+Platform: Windows
+Platform: MacOS
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.14.5)
+Requires-Dist: pytest (>=6.0.0)
+
+# brent-search
+
+Brent's method for univariate function optimization.
+
+## Example
+
+```python
+from brent_search import brent
+
+def func(x, s):
+  return (x - s)**2 - 0.8
+
+r = brent(lambda x: func(x, 0), -10, 10)
+print(r)
+```
+
+The output should be
+
+```python
+(0.0, -0.8, 6)
+```
+
+## Install
+
+From command line, enter
+
+```bash
+pip install brent-search
+```
+
+## Testing
+
+```python
+python -c "import brent_search; brent_search.test()"
+```
+
+## Documentation
+
+[Documentation](https://brent-search.readthedocs.io/en/latest/)
+
+## Authors
+
+* [Danilo Horta](https://github.com/horta)
+
+## Acknowledgements
+
+- http://people.sc.fsu.edu/~jburkardt/c_src/brent/brent.c
+- Numerical Recipes 3rd Edition: The Art of Scientific Computing
+- https://en.wikipedia.org/wiki/Brent%27s_method
+
+
+## License
+
+This project is licensed under the [MIT License](https://raw.githubusercontent.com/limix/brent-search/master/LICENSE.md).
+
+
