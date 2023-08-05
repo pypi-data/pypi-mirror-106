@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: ete
+Version: 1.0.0
+Summary: Convert data types through the command line
+License: Apache-2.0
+Author: BD103
+Author-email: dont@stalk.me
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: click (>=8.0.0,<9.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# Everything to Everything (ETE)
+
+ETE is a simple CLI program that converts data types to other data types. It currently supports [Toml](https://pypi.org/project/toml/), [Yaml](https://pypi.org/project/PyYAML/), and [Json](https://www.json.org/).
+
+## Install
+
+To use, first install:
+
+```console
+pip install -U ete
+```
+
+Or use [Poetry](https://python-poetry.org):
+
+```console
+poetry add ete
+```
+
+## Use
+
+ETE is purely command line, and there is no great API yet.
+
+```console
+ete --help
+```
+
+ETE converts files to different types of files. Try writing a Toml file like this:
+
+```toml
+# Named test.toml
+[table]
+message = true
+```
+
+Then run:
+
+```console
+ete test.toml test.json
+```
+
+Congratulations! You've just experienced the ease of this conversion tool.
+
+## Contribute
+
+```console
+git clone https://github.com/BD103/Everything-to-Everything.git
+poetry lock
+poetry install
+```
+
+> I use [Poetry](https://python-poetry.org), so you may have to download it as well.
