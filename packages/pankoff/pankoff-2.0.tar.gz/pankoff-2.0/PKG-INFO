@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pankoff
+Version: 2.0
+Summary: Easy fields validator
+Home-page: https://github.com/ypankovych/pankoff
+Author: Yaroslav Pankovych
+Author-email: flower.moor@gmail.com
+License: MIT
+Download-URL: https://github.com/ypankovych/pankoff/archive/refs/tags/2.0.tar.gz
+Description: UNKNOWN
+Keywords: validation,easy,pure python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
