@@ -1,0 +1,9 @@
+setup.py
+bin/hello
+test_project_pycon2021/__init__.py
+test_project_pycon2021/__main__.py
+test_project_pycon2021.egg-info/PKG-INFO
+test_project_pycon2021.egg-info/SOURCES.txt
+test_project_pycon2021.egg-info/dependency_links.txt
+test_project_pycon2021.egg-info/entry_points.txt
+test_project_pycon2021.egg-info/top_level.txt
