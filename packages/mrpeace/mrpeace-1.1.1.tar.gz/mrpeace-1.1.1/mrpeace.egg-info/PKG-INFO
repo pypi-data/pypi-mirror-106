@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: mrpeace
+Version: 1.1.1
+Summary: Basic Cli
+Home-page: https://github.com/claudiolau/MrPeace
+Author: Claudio Lau
+Author-email: claudio.lau12@gmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
