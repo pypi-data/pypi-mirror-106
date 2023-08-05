@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+requirements.txt
+setup.py
+folder_clean/__init__.py
+folder_clean/clean_folder.py
+folder_clean/version.py
+folder_clean.egg-info/PKG-INFO
+folder_clean.egg-info/SOURCES.txt
+folder_clean.egg-info/dependency_links.txt
+folder_clean.egg-info/top_level.txt

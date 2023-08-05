@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: folder-clean
+Version: 1.2.7
+Summary: This library allows a user to specify which items (folders/files) that should be excluded from a folder clean.
+Home-page: https://github.com/mrconter1/folder_clean
+Author: Kjell Klark
+Author-email: mrconter1@gmail.com
+License: MPL-2.0
+Description: folder_clean
+        ============
+        
+        This package allows you to easily specify a folder path and a list of items to exclude from a folder clean.
+        
+        Usage
+        _____________
+        
+        .. code-block:: shell
+        
+           from folder_clean import clean
+           folder_path = "/content/folder_clean"
+           items_to_exclude = ["movies", "notes.txt", "family_pictures"]
+           clean(folder_path, items_to_exclude)
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
