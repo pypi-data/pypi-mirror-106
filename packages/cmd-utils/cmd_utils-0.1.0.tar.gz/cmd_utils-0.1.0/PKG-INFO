@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cmd_utils
+Version: 0.1.0
+Summary: Utilities for command line tools.
+Home-page: https://github.com/connordelacruz/cmd-utils
+Author: Connor de la Cruz
+Author-email: connor.c.delacruz@gmail.com
+License: MIT
+Description: ======================
+        Command Line Utilities
+        ======================
+        
+        .. todo badges
+        
+        Various handy helper functions for printing and input prompting for command line tools.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Software Development
+Classifier: Development Status :: 4 - Beta
