@@ -1,0 +1,2 @@
+websockets==9.0.2
+meteor-ejson==1.1.0
