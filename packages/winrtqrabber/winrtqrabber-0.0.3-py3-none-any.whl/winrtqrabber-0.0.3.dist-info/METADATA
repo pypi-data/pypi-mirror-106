@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: winrtqrabber
+Version: 0.0.3
+Summary: Qr code scanner
+Home-page: https://github.com/sander76/winrtqrabber
+License: UNKNOWN
+Keywords: wxpyton,winrt,webcam,scanner,qrcode,qr-code
+Author: Sander Teunissen
+Author-email: no_mail@nomail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: wxpython
+Requires-Dist: winrt
+Requires-Dist: pylint ; extra == "dev"
+Requires-Dist: nox ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: coverage[toml]>=5.0.3 ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-asyncio ; extra == "test"
+Requires-Dist: pytest-mock ; extra == "test"
+Provides-Extra: dev
+Provides-Extra: test
+
+# winrtqrabber
+
+A QRcode webcam scanner for win10 only (no opencv, no pyzbar).
+There are many tutorials available that explain how to scan a barcode using your webcam with python.
+They all make use of opencv for camera access and pyzbar for decoding the barcode, but windows10 has all these capabilities built-in, and I wanted to use these, assuming this would lead to a cleaner/better (?) solution.
+
+This package makes use of the python bindings for winrt (https://pypi.org/project/winrt/), which allows using the "Universal Windows Platform" API directly. For Barcode specific info: https://docs.microsoft.com/en-us/uwp/api/windows.devices.pointofservice.barcodescanner?view=winrt-19041
+
+## Installation
+
+`pip install winrtqrabber`
+
+## Demo
+
+Clone the repo or copy the `demo.py` and `requirements.txt` file.
+
+From inside a virtual environment install the requirements:
+`pip install -r requirements.txt`
+
+Run the demo:
+`python demp.py`
+
