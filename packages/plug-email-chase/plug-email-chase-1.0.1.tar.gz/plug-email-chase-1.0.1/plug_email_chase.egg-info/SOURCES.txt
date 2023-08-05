@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+plug_email_chase/__init__.py
+plug_email_chase/extract.py
+plug_email_chase/load.py
+plug_email_chase/transform.py
+plug_email_chase/utils.py
+plug_email_chase.egg-info/PKG-INFO
+plug_email_chase.egg-info/SOURCES.txt
+plug_email_chase.egg-info/dependency_links.txt
+plug_email_chase.egg-info/not-zip-safe
+plug_email_chase.egg-info/requires.txt
+plug_email_chase.egg-info/top_level.txt
