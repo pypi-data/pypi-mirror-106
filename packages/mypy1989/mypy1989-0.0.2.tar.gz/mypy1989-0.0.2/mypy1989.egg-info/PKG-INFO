@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: mypy1989
+Version: 0.0.2
+Summary: MyPy1989 Python package
+Home-page: UNKNOWN
+Author: saibabanadh konda
+Author-email: <saibabanadh@email.com>
+License: UNKNOWN
+Description: MyPy1989 Python package - dummy
+Keywords: python,mypy1989 package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
