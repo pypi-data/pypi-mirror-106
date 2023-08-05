@@ -1,0 +1,10 @@
+sedi/__init__.py,sha256=5nnNjm6faCHzaaoRvpIvVszUC3TMpjDtuZvS88UV5LQ,50
+sedi/__main__.py,sha256=aT2IhiqB8hnPPSgUO8_6VH25Q6hS1G0Gnwn8jhHBjkM,220
+sedi/config.py,sha256=5DxHqdVnBYxOUXsUDQ5fG9fPJqTr2Mx7ZMpPBTh1weU,567
+sedi/engine.py,sha256=6efMc9NdTFWBx0zfbdzpJ182id3VRXQAqRKTYvEOv1A,2662
+sedi-0.1.0.dist-info/LICENSE,sha256=rcfwCvlnqbFcVAMcniVy7SiALafZCJZKJ0UZ5Sf92S8,1087
+sedi-0.1.0.dist-info/METADATA,sha256=mIWdTRa-6IHUuU_YItlbnAxY_PDEL0VDhHYDPH6unFs,1349
+sedi-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sedi-0.1.0.dist-info/entry_points.txt,sha256=QIyHIUErUfrI8cj0AGy1HL66QnxG0-3c5yuHGNy9PQc,45
+sedi-0.1.0.dist-info/top_level.txt,sha256=C9STjpA4b6U_mpUmQrq0_e0g2P4-Dkz4ejxI4FIaQ9E,5
+sedi-0.1.0.dist-info/RECORD,,
