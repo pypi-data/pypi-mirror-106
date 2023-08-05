@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: corha
+Version: 0.1.0
+Summary: Collection Of Random Helpful Algorithms
+Home-page: https://github.com/mattl1598/project-corha
+Author: mattl1598
+License: MIT
+Description: # Project Corha
+        collection of random, helpful algorithms
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
