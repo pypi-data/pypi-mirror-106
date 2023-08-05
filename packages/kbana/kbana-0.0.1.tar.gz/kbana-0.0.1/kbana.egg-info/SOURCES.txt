@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+kbana.egg-info/PKG-INFO
+kbana.egg-info/SOURCES.txt
+kbana.egg-info/dependency_links.txt
+kbana.egg-info/requires.txt
+kbana.egg-info/top_level.txt
