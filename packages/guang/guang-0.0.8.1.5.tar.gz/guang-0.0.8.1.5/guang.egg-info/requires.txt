@@ -1,0 +1,14 @@
+gdown>=3.11
+fire
+pyyaml
+yapf
+wget
+pendulum
+pyprobar
+poetry
+numpy
+pandas
+matplotlib
+opencv-python
+streamlit
+plotly
