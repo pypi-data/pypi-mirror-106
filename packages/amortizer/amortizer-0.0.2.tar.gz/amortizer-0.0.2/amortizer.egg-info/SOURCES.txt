@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+amortizer/__init__.py
+amortizer/generator.py
+amortizer.egg-info/PKG-INFO
+amortizer.egg-info/SOURCES.txt
+amortizer.egg-info/dependency_links.txt
+amortizer.egg-info/top_level.txt
