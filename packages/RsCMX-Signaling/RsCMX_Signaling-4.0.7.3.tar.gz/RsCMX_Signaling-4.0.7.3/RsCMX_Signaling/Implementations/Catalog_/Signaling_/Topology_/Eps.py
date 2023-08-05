@@ -1,0 +1,27 @@
+from typing import List
+
+from .....Internal.Core import Core
+from .....Internal.CommandsGroup import CommandsGroup
+from .....Internal import Conversions
+from .....Internal.Types import DataType
+from .....Internal.ArgSingleList import ArgSingleList
+from .....Internal.ArgSingle import ArgSingle
+
+
+# noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection
+class Eps:
+	"""Eps commands group definition. 1 total commands, 0 Sub-groups, 1 group commands"""
+
+	def __init__(self, core: Core, parent):
+		self._core = core
+		self._base = CommandsGroup("eps", core, parent)
+
+	def get(self, name_plmn: str = None) -> List[str]:
+		"""SCPI: CATalog:SIGNaling:TOPology:EPS \n
+		Snippet: value: List[str] = driver.catalog.signaling.topology.eps.get(name_plmn = '1') \n
+		Queries a list of all EPS tracking areas. You can restrict the query to a selected PLMN. \n
+			:param name_plmn: No help available
+			:return: name_ta_eps: Comma-separated list of tracking area names, one string per tracking area."""
+		param = ArgSingleList().compose_cmd_string(ArgSingle('name_plmn', name_plmn, DataType.String, True))
+		response = self._core.io.query_str(f'CATalog:SIGNaling:TOPology:EPS? {param}'.rstrip())
+		return Conversions.str_to_str_list(response)
