@@ -1,0 +1,3 @@
+[console_scripts]
+shellcode=shellcode.__main__:app
+
