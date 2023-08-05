@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: M6UF4Cine
+Version: 0.6
+Summary: La cosa de UF4 de M6
+Home-page: https://github.com/daviduvi99/M6UF4Cine/tree/master
+Author: David Duran Cunill
+Author-email: daviddc@daviddc.cat
+License: LGPL v3
+Download-URL: https://github.com/daviduvi99/M6UF4Cine/archive/refs/heads/master.zip
+Description: UNKNOWN
+Keywords: test example develop
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
