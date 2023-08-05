@@ -1,0 +1,3 @@
+[console_scripts]
+priwo = priwo.cli:main
+
