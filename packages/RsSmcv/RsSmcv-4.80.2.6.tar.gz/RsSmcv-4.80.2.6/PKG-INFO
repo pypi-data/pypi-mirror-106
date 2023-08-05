@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: RsSmcv
+Version: 4.80.2.6
+Summary: SMCV100B Vector Signal Generator Remote-control Module
+Home-page: UNKNOWN
+Author: Rohde & Schwarz GmbH & Co. KG
+Author-email: Customer.Support@rohde-schwarz.com
+License: MIT
+Description: Rohde & Schwarz SMCV100B Vector Signal Generator RsSmcv instrument driver.
+        
+        Supported instruments: SMCV100B
+        
+        The package is hosted here: https://pypi.org/project/RsSmcv/
+        
+        Documentation: https://rohde-schwarz.github.io/RsSmcv_PythonDocumentation/
+        
+        Examples: https://github.com/Rohde-Schwarz/Examples/tree/main/SignalGenerators/Python/RsSmcv_ScpiPackage
+        
+        ----------------------------------------------------------------------------------
+        
+        Release Notes:
+        
+        Latest release notes summary: First released version
+        
+        Version 4.80.2.6
+        
+        - First released version
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
