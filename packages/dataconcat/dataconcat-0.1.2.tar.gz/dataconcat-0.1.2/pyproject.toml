@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "dataconcat"
+version = "0.1.2"
+description = ""
+authors = ["Kevin Hill <kah.kevin.hill@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandera = "^0.6.4"
+pandas = "^1.2.4"
+toolz = "^0.11.1"
+typer = { extras = ["all"], version = "^0.3.2" }
+maya = "^0.6.1"
+
+[tool.poetry.dev-dependencies]
+black = { version = "^21.5b1", allow-prereleases = true }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+concat_mixer = "dataconcat.mixer:app"
