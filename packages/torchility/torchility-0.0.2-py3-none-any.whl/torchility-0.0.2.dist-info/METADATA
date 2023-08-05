@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: torchility
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: hitlic
+Author-email: liuchen.lic@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: torch (>1.7)
+Requires-Dist: pytorch-lightning (>1.1)
+
+# torchility
+
+A tool for training pytorch deep learning model which is based on Pytorch-lightning.
+
+## Dependency
+- pytorch > 1.7
+- pytorch-lightning > 1.1
+
+
