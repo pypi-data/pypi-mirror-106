@@ -1,0 +1,17 @@
+README.md
+setup.py
+fabrictestbed_cli/__init__.py
+fabrictestbed_cli/cli.py
+fabrictestbed_cli/exceptions.py
+fabrictestbed_cli/t.py
+fabrictestbed_cli.egg-info/PKG-INFO
+fabrictestbed_cli.egg-info/SOURCES.txt
+fabrictestbed_cli.egg-info/dependency_links.txt
+fabrictestbed_cli.egg-info/entry_points.txt
+fabrictestbed_cli.egg-info/requires.txt
+fabrictestbed_cli.egg-info/top_level.txt
+fabrictestbed_cli/api/__init__.py
+fabrictestbed_cli/api/api_client.py
+fabrictestbed_cli/user/__init__.py
+test/__init__.py
+test/test_cli.py
