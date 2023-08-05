@@ -1,0 +1,3 @@
+[console_scripts]
+pottscompleteshrinkage = pottsshrinkage.completeshrinkage:main
+
