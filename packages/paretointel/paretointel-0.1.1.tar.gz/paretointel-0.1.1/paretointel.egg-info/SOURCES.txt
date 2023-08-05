@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+paretointel/__init__.py
+paretointel.egg-info/PKG-INFO
+paretointel.egg-info/SOURCES.txt
+paretointel.egg-info/dependency_links.txt
+paretointel.egg-info/top_level.txt
+paretointel/hdi/__init__.py
+paretointel/hdi/hdi.py
+paretointel/hdi/db/__init__.py
+paretointel/hdi/db/db.py
+paretointel/hdi/spark/__init__.py
+paretointel/hdi/spark/logging.py
+paretointel/hdi/spark/spark.py
