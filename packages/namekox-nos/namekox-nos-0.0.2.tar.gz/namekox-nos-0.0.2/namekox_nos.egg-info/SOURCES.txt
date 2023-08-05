@@ -1,0 +1,13 @@
+README.md
+setup.py
+namekox_nos/__init__.py
+namekox_nos/constants.py
+namekox_nos.egg-info/PKG-INFO
+namekox_nos.egg-info/SOURCES.txt
+namekox_nos.egg-info/dependency_links.txt
+namekox_nos.egg-info/requires.txt
+namekox_nos.egg-info/top_level.txt
+namekox_nos.egg-info/zip-safe
+namekox_nos/core/__init__.py
+namekox_nos/core/signature.py
+namekox_nos/core/dependencies/__init__.py
