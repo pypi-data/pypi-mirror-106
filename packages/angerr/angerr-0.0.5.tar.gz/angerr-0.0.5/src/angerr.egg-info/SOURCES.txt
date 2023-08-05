@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/anger.py
+src/angerr.egg-info/PKG-INFO
+src/angerr.egg-info/SOURCES.txt
+src/angerr.egg-info/dependency_links.txt
+src/angerr.egg-info/top_level.txt
