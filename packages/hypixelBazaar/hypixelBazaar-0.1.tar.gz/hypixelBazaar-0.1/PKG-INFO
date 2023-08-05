@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: hypixelBazaar
+Version: 0.1
+Summary: Unofficial libraries for interacting with the official Hypixel bazaar API
+Home-page: https://github.com/BenSnowden/hypixelBazaar.git
+Author: Ben Snowden
+Author-email: benglensnowden@gmail.com
+License: MIT
+Download-URL: https://github.com/BenSnowden/hypixelBazaar/archive/refs/tags/v_0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
