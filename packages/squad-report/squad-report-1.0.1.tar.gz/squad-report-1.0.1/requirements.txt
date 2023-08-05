@@ -1,0 +1,7 @@
+# https://github.com/pallets/jinja/issues/1168
+jinja2>=2.11,<3.0
+pandas
+requests
+requests_cache
+pyyaml
+squad-client>=0.14
