@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/SprinklrClient/SprinklrClient.py
+src/SprinklrClient/__init__.py
+src/SprinklrClient.egg-info/PKG-INFO
+src/SprinklrClient.egg-info/SOURCES.txt
+src/SprinklrClient.egg-info/dependency_links.txt
+src/SprinklrClient.egg-info/requires.txt
+src/SprinklrClient.egg-info/top_level.txt
