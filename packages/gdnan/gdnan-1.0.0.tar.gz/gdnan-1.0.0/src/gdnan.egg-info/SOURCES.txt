@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/gdnan.py
+src/gdnan.egg-info/PKG-INFO
+src/gdnan.egg-info/SOURCES.txt
+src/gdnan.egg-info/dependency_links.txt
+src/gdnan.egg-info/requires.txt
+src/gdnan.egg-info/top_level.txt
