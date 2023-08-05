@@ -1,0 +1,8 @@
+setup.py
+hyde/hyde.py
+hyde_generator.egg-info/PKG-INFO
+hyde_generator.egg-info/SOURCES.txt
+hyde_generator.egg-info/dependency_links.txt
+hyde_generator.egg-info/entry_points.txt
+hyde_generator.egg-info/requires.txt
+hyde_generator.egg-info/top_level.txt
