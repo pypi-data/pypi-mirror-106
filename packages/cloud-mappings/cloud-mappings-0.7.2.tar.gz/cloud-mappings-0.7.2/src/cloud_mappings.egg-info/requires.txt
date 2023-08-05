@@ -1,0 +1,14 @@
+zict>=2.0
+
+[aws]
+boto3
+
+[azure]
+azure-identity
+azure-storage-blob
+
+[gcp]
+google-cloud-storage
+
+[tests]
+pytest
