@@ -1,0 +1,9 @@
+setup.py
+bin/hello
+test3_pycon/__init__.py
+test3_pycon/__main__.py
+test3_pycon.egg-info/PKG-INFO
+test3_pycon.egg-info/SOURCES.txt
+test3_pycon.egg-info/dependency_links.txt
+test3_pycon.egg-info/entry_points.txt
+test3_pycon.egg-info/top_level.txt
