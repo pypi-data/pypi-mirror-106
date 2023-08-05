@@ -1,0 +1,10 @@
+pelican
+pelican-image-process>=2.1.1
+pelican-jinja-filters>=2.1.0
+
+[:python_version < '3.4']
+pathlib2
+
+[dev]
+minchin.releaser
+markdown
