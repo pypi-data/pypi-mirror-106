@@ -1,0 +1,37 @@
+# ♠♤ ♥♡ ♣♧ ♦♢
+__version__ = '0.1.0'
+
+import random
+
+def build_card():
+    total_cards = []
+    four_suits = ["♠", "♡", "♣", "♢"] # 四種花色
+    tag_char = {1: "A", 11: "J", 12: "Q", 13: "K"}
+    for item in four_suits:
+        for x in range(1, 13+1):
+            card = tag_char.get(x)
+            if card is None:
+                card = str(x)
+            d_tuple = (card, item)    # 包裝成 tuple
+            total_cards.append(d_tuple)
+    return total_cards
+
+def get_random_card():
+    cards = build_card()
+    random.shuffle(cards)
+    return cards
+
+def main():
+    cards = get_random_card()
+    n = 0
+    for i, item in enumerate(cards):
+        if i % 13 == 0 or i == 0:
+            print()
+            print(str.format("Player {}:", n), end=' ')
+            n += 1
+        d = item[1]+item[0]
+        s = str.ljust(d, 3, ' ')
+        print(s, end=" ")
+
+if __name__ == "__main__":
+    main()
