@@ -1,0 +1,16 @@
+cos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cos/cli.py,sha256=yPxW2MUtJEM8AMo9BXiKIWm-uOX-uz-u0EL3poKgupY,1012
+cos/config.py,sha256=CC4SfbuzdnbVUxcyxASHcQBHCsdrZDaCJF2gX4NyDiM,174
+cos/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cos/commands/cmd_clean.py,sha256=FnPEOL86XBvzRJ1-CXnsQi3zYIm27SOdaCgytoLxT0o,579
+cos/commands/cmd_init.py,sha256=1VEKSuGNawPSWSK4GaU-HkV7z3XvhXqpMqCTQHwYMzQ,2243
+cos/meta/init/templates/python.json,sha256=BAw0OMw4nF4LfKMnjF_NACnKGpSOQfAmrCyd7BoQzPI,768
+cos/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cos/services/svc_clean.py,sha256=MUV10W3twvBv3mWiwSTPDZslHmVTNSoaT-ZA5sXVwpI,2642
+cos/services/svc_init.py,sha256=kMox4__Fbn5euYARy-aJ-znBlK0cXVEWDZTKqdfk-DI,5433
+cospy-0.2.0.dist-info/LICENSE,sha256=0wmmlBnWEvnOZXBUZHpbh4odhQ5nLBRcLIeFKesUZak,1092
+cospy-0.2.0.dist-info/METADATA,sha256=EPHXXaTDDZnXhujE4hYAf1mgOTU0viJKqd2NXbj-uec,1455
+cospy-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cospy-0.2.0.dist-info/entry_points.txt,sha256=WTNdyWn7_X1nRQRmUFubeb-WgVRJ6MDydqwDRn5B6g4,37
+cospy-0.2.0.dist-info/top_level.txt,sha256=K_pTPP2PXLViGhkjTp08p07L6VU3p1-A1xU-qKg9NJc,4
+cospy-0.2.0.dist-info/RECORD,,
