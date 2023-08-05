@@ -1,0 +1,7 @@
+chapter_05/extend_test_framework/calculator_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chapter_05/extend_test_framework/calculator_plugin/calculator_plugin.py,sha256=6zMwhCN0j3m1_cIdrf4JNcAnC8hiCa6XIJslJUuILnk,147
+pytest_demo_plugin-1.0.1.dist-info/METADATA,sha256=Sk65HmPuhFCUs9lkeretoMGcL2o8QoWhTuK1fsqMA1I,257
+pytest_demo_plugin-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytest_demo_plugin-1.0.1.dist-info/entry_points.txt,sha256=lTkuTyX6bERANNnANABsAfW9objCFJa3EhFOijbxTJQ,101
+pytest_demo_plugin-1.0.1.dist-info/top_level.txt,sha256=5AkFnx9lanYBMRSOLxHR0B0N3EuGhbCpDWjZbxKNh_8,11
+pytest_demo_plugin-1.0.1.dist-info/RECORD,,
