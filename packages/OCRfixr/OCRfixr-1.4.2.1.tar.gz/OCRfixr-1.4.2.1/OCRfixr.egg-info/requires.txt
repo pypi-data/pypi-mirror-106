@@ -1,0 +1,6 @@
+transformers
+tensorflow>=2.0
+symspellpy
+importlib_resources
+metaphone
+tqdm
