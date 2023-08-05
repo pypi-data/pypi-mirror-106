@@ -1,0 +1,12 @@
+text_embeddings/__init__.py,sha256=l3mAszPLv0TIaz2ZnjQbPW6Rho-jDaVXdWR8UFRnhGE,198
+text_embeddings/base/__init__.py,sha256=v-e2vSjHQMg7t40HZTBaliLZPWxiM46u2p0yOdDxq-k,19923
+text_embeddings/hash/__init__.py,sha256=bn8M0YRV9eWyZnD7QVeRzS-fwrKZOVwqspIL5BOMdKc,231
+text_embeddings/hash/canine.py,sha256=ilZ6V06Ka8oQFON_WbmeIVawyavO9-g-56POn4BN0-o,3467
+text_embeddings/hash/pqrnn.py,sha256=KhyHrCNkX4ue-__KkL_klU_LvpB7y-ibzu7DPxAlU3I,3431
+text_embeddings/hash/util.py,sha256=zBMGd-Cm1vE3WCSQ_VioNpCysFXeGhdyOBP5ACCx554,1679
+text_embeddings/visual/__init__.py,sha256=L-6e4MjvfzNl88uLQxZO3EnvEQoq6ducwWRxft2T7WQ,215
+text_embeddings/visual/vtr.py,sha256=n7jNzmlob3eSSvEEn1QYaenaKyI36zVKurRi4P_RcUY,4820
+text_embeddings-0.0.5.dist-info/LICENSE,sha256=BV1FYg6rCF6-ohT8ZAlOpPclf1a46C6nJvZPv4y_Knk,1069
+text_embeddings-0.0.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+text_embeddings-0.0.5.dist-info/METADATA,sha256=f4r9pOLjxWhpY4066oz6xD40gBne83qiMOLZVkwgyz0,3937
+text_embeddings-0.0.5.dist-info/RECORD,,
