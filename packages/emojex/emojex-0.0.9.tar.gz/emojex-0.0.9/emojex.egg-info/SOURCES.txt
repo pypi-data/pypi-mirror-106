@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+emojex/__init__.py
+emojex/main.py
+emojex.egg-info/PKG-INFO
+emojex.egg-info/SOURCES.txt
+emojex.egg-info/dependency_links.txt
+emojex.egg-info/requires.txt
+emojex.egg-info/top_level.txt
