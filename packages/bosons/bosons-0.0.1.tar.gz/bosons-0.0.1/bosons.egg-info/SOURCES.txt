@@ -1,0 +1,8 @@
+README.md
+setup.py
+bosons/__init__.py
+bosons/show.py
+bosons.egg-info/PKG-INFO
+bosons.egg-info/SOURCES.txt
+bosons.egg-info/dependency_links.txt
+bosons.egg-info/top_level.txt
