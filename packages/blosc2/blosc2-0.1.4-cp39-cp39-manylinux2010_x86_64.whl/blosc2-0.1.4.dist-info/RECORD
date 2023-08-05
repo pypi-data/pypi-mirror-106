@@ -1,0 +1,9 @@
+blosc2/version.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+blosc2/blosc2_ext.cpython-39-x86_64-linux-gnu.so,sha256=oQqLAsKoN1-6wi5iuQGc6SZ0YjFF-1tNZfMo8CADVnk,1308752
+blosc2/utils.py,sha256=sM94bmp9jJUQg64e2qGcTqeuVmBqADS15tyW1qF44oA,18969
+blosc2/__init__.py,sha256=abGR16kuMIFM8lVghgTMwpBkZhu7atuLtZmvWSpV6nk,2010
+blosc2-0.1.4.dist-info/RECORD,,
+blosc2-0.1.4.dist-info/WHEEL,sha256=_TfTpUMQPP_RbVg8LiDE-xKY7V9uCY3Zp4BtYMftbOY,105
+blosc2-0.1.4.dist-info/METADATA,sha256=Tyb5Ze88Q-coUozxyv6bXBf9yMsNl8z2_JXbS3gx3G0,1001
+blosc2-0.1.4.dist-info/LICENSE,sha256=pWZQ72lIjrZJKCp3kCptWtHTBVMVAUwYmH8KyV5tAlU,1620
+blosc2-0.1.4.dist-info/top_level.txt,sha256=4xhCPjekmAas6rXRnzRerUfeEzP_RhpgmKzCmru5XFM,7
