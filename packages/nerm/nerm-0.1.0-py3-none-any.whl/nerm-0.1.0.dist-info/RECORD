@@ -1,0 +1,13 @@
+nerm/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+nerm/crossrefs.py,sha256=8WU6BN3Xabcga7fqLXMY6PuGc3O9qir0S1GQj7H2ERw,2978
+nerm/gitrefs.py,sha256=1A3aosU8TRu_RZ8Vxrjj2CYScqLX3agLIoJjMODEjKQ,3893
+nerm/nerm.py,sha256=HYYRqGC7Vka-YQgzE9nipHq2tgMipr-7b0rV-xEP_lc,2168
+nerm/nermfile.py,sha256=zkxhQjiSiKjjUREah4487jhe7X15Z7eUJgfu_r239jk,4338
+nerm/reqfile.py,sha256=O3VKI0tqVlVbnRUiAbkfZtotUH4kELdtjaL7iYpNC1M,2925
+nerm/satisfy.py,sha256=3BjwnwOVqf1Gl_jw5PEqbsb4e4u38ux0WG91LtT2t18,2473
+nerm/update.py,sha256=bw6zrdHBD3NRjTSpAr_diG4LTRNe4ipmVIe_JmC_DU4,4254
+nerm-0.1.0.dist-info/entry_points.txt,sha256=k0zevAzM2hOwRQhD2kjTqeF9yCMNZtkjrH0CyQxNCkU,43
+nerm-0.1.0.dist-info/LICENSE.md,sha256=UBLX4REZiSnLz6StksmPcdFRf_TUbZOXqpJ9TjcsXc0,1059
+nerm-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+nerm-0.1.0.dist-info/METADATA,sha256=sc0vBKvZT48FiOlDkTvnpQlIx2wwrt2e-SLmLCbRijc,2578
+nerm-0.1.0.dist-info/RECORD,,

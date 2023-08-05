@@ -1,0 +1,3 @@
+[console_scripts]
+nerm=nerm.nerm:main_cli
+
