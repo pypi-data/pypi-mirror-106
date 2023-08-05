@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: spec-parser
+Version: 0.0.0
+Summary: An awesome package is coming soon! 🎉
+Home-page: https://github.com/Kludex/spec-parser
+License: MIT
+Author: Marcelo Trylesinski
+Author-email: marcelotryle@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Project-URL: Repository, https://github.com/Kludex/spec-parser
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+    <strong>spec-parser</strong>
+</h1>
+<p align="center">
+    <a href="https://github.com/Kludex/spec-parser" target="_blank">
+        <img src="https://img.shields.io/github/last-commit/Kludex/spec-parser" alt="Latest Commit">
+    </a>
+        <img src="https://img.shields.io/github/workflow/status/Kludex/spec-parser/Test">
+        <img src="https://img.shields.io/codecov/c/github/Kludex/spec-parser">
+    <br />
+    <a href="https://pypi.org/project/spec-parser" target="_blank">
+        <img src="https://img.shields.io/pypi/v/spec-parser" alt="Package version">
+    </a>
+    <img src="https://img.shields.io/pypi/pyversions/spec-parser">
+    <img src="https://img.shields.io/github/license/Kludex/spec-parser">
+</p>
+
+
+## Installation
+
+``` bash
+pip install spec-parser
+```
+
+## License
+
+This project is licensed under the terms of the MIT license.
+
