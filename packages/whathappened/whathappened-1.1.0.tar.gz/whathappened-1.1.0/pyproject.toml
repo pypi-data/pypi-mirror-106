@@ -1,0 +1,29 @@
+[tool.poetry]
+authors = ["Rollcloud <rollcloud@gmail.com>"]
+description = "A changelog generator using simply structured git commit messages."
+license = "GPLv3"
+name = "whathappened"
+version = "1.0.0"
+
+[tool.poetry.dependencies]
+click = "^7.1.2"
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.9.0"
+pytest = "^6.2.4"
+pytest-cov = "^2.11.1"
+pytest-reportlog = "^0.1.2"
+pytest-watch = "^4.2.0"
+versioneer = "^0.19"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+  # remove pytest warning from whathappened/.venv/lib/python3.8/site-packages/pip/_vendor/packaging/version.py:127
+  "ignore: Creating a LegacyVersion has been deprecated and will be removed in the next major release:DeprecationWarning::127",
+]
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
