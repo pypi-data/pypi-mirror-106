@@ -1,0 +1,8 @@
+to7z/__init__.py,sha256=LUYclVfsqZPX2T5MyECDbyDn9xQvRjU57X1_7FfnkQ8,61
+to7z/__main__.py,sha256=cBhMWHTVSsK--H7faPReR2t_wu725ybpOb-xMidHVqA,72
+to7z/cli.py,sha256=Q2u6LjNQYNWKKvrXg0ictzeMWs0TL8tUCK0Wm1VsKaE,4160
+to7z/to7z.py,sha256=3LC3xX4NmnyFkDyyyGdV2qv2nVLP8ZpMnHhuqkGutWk,4853
+to7z-1.0.0.dist-info/entry_points.txt,sha256=OahHR80-ILi5pH01EEpef8H3Ow3HicvDigduEFY9lTE,38
+to7z-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+to7z-1.0.0.dist-info/METADATA,sha256=mUFxmluer_C6XhT80PIRdc40MC0DRoPiZki_NSnpCuE,410
+to7z-1.0.0.dist-info/RECORD,,
