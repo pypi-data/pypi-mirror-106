@@ -1,0 +1,151 @@
+# Cowin Vaccine Tracker 
+
+Python API wrapper for vaccine availability by Pincode, DistrictId for 1 week and get detailed list of all states, Districts. 
+
+India's digital platform launched by the govt. to help citizens register themselves for the vaccination drive by booking an appointment at the nearby available vaccination centres.
+
+The process to search for available slots to take the vaccine is tedious as you need to log in to the portal every time.
+
+This wrapper API enables folks to build their own versions of a system to lookup for vaccine availablity either in a district or in a particular pin code.
+
+
+## Example:
+
+```python
+from cowinapi_by_ishaan import FetchData
+
+cowin = FetchData()
+
+states = cowin.get_states_table()
+print(states)
+```
+
+## Installation
+```pip install cowinapi_by_ishaan```
+
+## Usage
+
+This wrapper currently covers nine endpoints used by the CoWin portal specified below.
+
+## Initialize
+
+```python
+from cowinapi_by_ishaan import FetchData
+
+cowin = FetchData()
+```
+
+### Get All States In Tabular Form
+```python
+from cowinapi_by_ishaan import FetchData
+
+cowin = FetchData()
+
+states = cowin.get_states_table()
+print(states)
+```
+
+### Get All States In List Form
+```python 
+from cowinapi_by_ishaan import FetchData
+
+cowin = FetchData()
+
+states = cowin.get_states_list()
+print(states)
+```
+
+### Get All States In Dictionary Form
+```python 
+from cowinapi_by_ishaan import FetchData
+
+cowin = FetchData()
+
+states = cowin.get_states_dict()
+print(states)
+```
+
+### Get All Districts In Tabular Form
+```python 
+from cowinapi_by_ishaan import FetchData
+cowin = FetchData()
+
+districts = cowin.get_districts_tables()
+print(districts)
+```
+
+### Get All Districts In List Form
+```python 
+from cowinapi_by_ishaan import FetchData
+cowin = FetchData()
+
+districts = cowin.get_districts_list()
+print(districts)
+```
+
+### Get All Districts In Dictionary Form
+```python 
+from cowinapi_by_ishaan import FetchData
+cowin = FetchData()
+
+districts = cowin.get_districts_dict()
+print(districts)
+```
+
+### Detailed Availability By Pincode for a week
+```python 
+from cowinapi_by_ishaan import FetchData
+pin_code = "110001"
+
+cowin = FetchData()
+#pass number of days in method to get data for next specified days or 7 days is taken as default
+available_centers = cowin.get_availability_by_pincode(pin_code)
+print(available_centers)
+available_centers_by_days = cowin.get_availability_by_pincode(pin_code,5)
+print(available_centers_by_days)
+```
+
+### Detailed Availability By DistrictID for a week
+```python 
+from cowinapi_by_ishaan import FetchData
+district_id  = "394"
+
+cowin = FetchData()
+#pass number of days in method to get data for next specified days or 7 days is taken as default
+available_centers = cowin.get_centers_by_districtId(district_id)
+print(available_centers)
+available_centers_by_days = cowin.get_centers_by_districtId(district_id,5)
+print(available_centers_by_days)
+```
+
+### Simple Availability By Pincode for a week
+```python 
+from cowinapi_by_ishaan import FetchData
+pin_code = "110001"
+
+cowin = FetchData()
+#pass number of days in method to get data for next specified days or 7 days is taken as default
+available_centers = cowin.get_availability_by_pincode(pin_code)
+print(available_centers)
+available_centers_by_days = cowin.get_availability_by_pincode(pin_code,5)
+print(available_centers_by_days)
+```
+
+# Notes:
+
+The CoWIn API's sometimes return a 401 Unauthorized response. Please wait for a few minutes before trying again.
+
+Please try not to spam the CoWin servers and try to keep a timeout between subsequent requests if you are polling at a fixed interval
+
+---
+
+# Contributions
+
+Contributions are always welcome!
+
+
+## License
+
+© 2021 Ishaan Gupta
+
+This repository is licensed under the Apache License 2.0. See LICENSE for details.

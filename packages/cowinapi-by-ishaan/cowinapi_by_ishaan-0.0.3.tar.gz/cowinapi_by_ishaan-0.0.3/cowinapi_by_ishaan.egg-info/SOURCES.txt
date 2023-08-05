@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+cowinapi_by_ishaan/__init__.py
+cowinapi_by_ishaan/main.py
+cowinapi_by_ishaan/setup_url.py
+cowinapi_by_ishaan.egg-info/PKG-INFO
+cowinapi_by_ishaan.egg-info/SOURCES.txt
+cowinapi_by_ishaan.egg-info/dependency_links.txt
+cowinapi_by_ishaan.egg-info/requires.txt
+cowinapi_by_ishaan.egg-info/top_level.txt

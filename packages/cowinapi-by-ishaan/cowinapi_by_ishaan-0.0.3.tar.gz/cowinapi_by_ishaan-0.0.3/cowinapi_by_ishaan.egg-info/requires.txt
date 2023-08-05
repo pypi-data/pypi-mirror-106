@@ -1,0 +1,5 @@
+fake-useragent
+datetime
+pytest
+requests
+pandas
