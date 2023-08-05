@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+graphengo/__init__.py
+graphengo.egg-info/PKG-INFO
+graphengo.egg-info/SOURCES.txt
+graphengo.egg-info/dependency_links.txt
+graphengo.egg-info/top_level.txt
