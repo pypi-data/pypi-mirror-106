@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: sdqc
+Version: 0.1.0
+Summary: System Dynamics Data Quality Check with Python
+Home-page: https://gitlab.com/enekomartinmartinez/sdqc
+Author: Eneko Martin Martinez
+Author-email: eneko.martin.martinez@gmail.com
+License: MIT
+Description: Project Documentation: http://sdqc.readthedocs.org/
+Keywords: System Dynamics,Vensim,Quality Check
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
