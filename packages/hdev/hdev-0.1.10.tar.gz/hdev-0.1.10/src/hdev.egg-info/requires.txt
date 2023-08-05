@@ -1,0 +1,13 @@
+cookiecutter
+diskcache
+toml
+tox
+
+[tests]
+cookiecutter
+coverage
+diskcache
+h-matchers
+pytest
+toml
+tox
