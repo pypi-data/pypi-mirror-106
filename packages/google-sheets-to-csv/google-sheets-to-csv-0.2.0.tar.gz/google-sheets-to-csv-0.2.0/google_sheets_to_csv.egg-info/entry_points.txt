@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    gs-to-csv=gs_to_csv.cli:main
+    
