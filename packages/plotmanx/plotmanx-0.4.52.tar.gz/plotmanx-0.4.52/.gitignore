@@ -1,0 +1,7 @@
+__pycache__
+venv
+.idea
+build
+dist
+copyop/temp/*.plot
+copyop/dst
