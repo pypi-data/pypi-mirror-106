@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: module-A
+Version: 2.5.0
+Summary: Macrolib's description
+Home-page: https://github.com/maite828/module_A.git
+License: MIT
+Download-URL: https://github.com/maite828/modlue_A/archive/refs/heads/main.zip
+Description: # module_A
+        [![Version](https://img.shields.io/badge/latest-2.5.0-blue/)](https://github.com/maite828/module_A.git)
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

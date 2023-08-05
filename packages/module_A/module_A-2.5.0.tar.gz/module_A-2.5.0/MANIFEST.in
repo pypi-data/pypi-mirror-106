@@ -1,0 +1,2 @@
+include version_module_A.py
+include README.md
