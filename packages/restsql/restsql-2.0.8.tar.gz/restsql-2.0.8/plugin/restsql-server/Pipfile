@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+"web.py" = "*"
+pyyaml = "*"
+restsql = { path = "/Users/charmer/Developer/RestSQL/dist/restsql-2.0.8.tar.gz" }
+psycopg2-binary = "*"
+tpspy = "*"
+
+[requires]
+python_version = "3.7"

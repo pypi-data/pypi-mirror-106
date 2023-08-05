@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[dev-packages]
+#elasticsearch = "==6.8.1"
+#mysqlclient = "==1.4.6"
+#impyla = "==0.16.3"
+
+[packages]
+pandas = "*"
+numpy = "*"
+pyyaml = "*"
+psycopg2-binary = "*"
+
+[requires]
+python_version = "3.7"
