@@ -1,0 +1,11 @@
+osdr.py,sha256=FPJHSRoyE_n90vMqNzWf8n_SrkkJ9iKdv-UtCq3erUY,5947
+ftd600/__init__.py,sha256=B_Kljc7rWGTdmYMLpL-flPszpfM_rkWX-BZ6c7HQ-70,297
+ftd600/_ftd3xx_linux.py,sha256=e5pn224f3e1er4N-Yv1YYRKGtaBvcRqvZlnRTsOzzHI,15717
+ftd600/_ftd3xx_win32.py,sha256=5oCWEshc7qiANdAeD_gXBJF6-wP68ZjVnAADIMlT1wk,19885
+ftd600/defines.py,sha256=VvbYYo2kU9baBg-W7SZ2vjleucXOzOqawP1X26nqv4Y,6143
+ftd600/ftd3xx.py,sha256=tsL8XOLjDrTc8n9X1s27NKaChFMrSBTknxZB_SQnLss,17058
+osdr-1.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+osdr-1.0.1.dist-info/METADATA,sha256=mQsp9aaDxrGncwv8q-eATPejWbHpHRB8-Qy8nH6Yedc,556
+osdr-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+osdr-1.0.1.dist-info/top_level.txt,sha256=A4R0KOXrWk98vXWvSxYHGaRh4IJBRknQsSZwjp6AY_E,12
+osdr-1.0.1.dist-info/RECORD,,
