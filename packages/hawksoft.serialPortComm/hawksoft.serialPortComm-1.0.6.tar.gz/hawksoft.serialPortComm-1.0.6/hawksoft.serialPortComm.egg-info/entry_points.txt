@@ -1,0 +1,3 @@
+[console_scripts]
+traffic = hawksoft.trafficSign:main
+
