@@ -1,0 +1,10 @@
+setup.py
+udacity_test_package_noel/Binomialdistribution.py
+udacity_test_package_noel/Gaussiandistribution.py
+udacity_test_package_noel/Generaldistribution.py
+udacity_test_package_noel/__init__.py
+udacity_test_package_noel.egg-info/PKG-INFO
+udacity_test_package_noel.egg-info/SOURCES.txt
+udacity_test_package_noel.egg-info/dependency_links.txt
+udacity_test_package_noel.egg-info/not-zip-safe
+udacity_test_package_noel.egg-info/top_level.txt
