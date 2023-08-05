@@ -1,0 +1,12 @@
+terminal_chatapp/__main__.py,sha256=SnDTJp6NjY7xyEWhRtfttVk9RHBHgBKk61lOJ5SvjAg,78
+terminal_chatapp/cli.py,sha256=7Qw0ihNngEb3IEGRQ7QLiPqT_vMFd6b2zPIPktkv1FI,5011
+terminal_chatapp/client.py,sha256=5J_RQUZR3Crf1dSuznvWAW2z0_duMzFYc5F-lnLsHzk,6072
+terminal_chatapp/event.py,sha256=fb8BviPPKWoMKVjd2KAUz1JPYBi6lF__Rp0TlaCF9vY,536
+terminal_chatapp/input.py,sha256=0FP43uSwlC-lcIU2k0tAjaDxupsGhkbA-35IoATFXfs,702
+terminal_chatapp/security.py,sha256=RSQmHnts0DWlRDeQD0UG8TbBOL__oYjSD8OAXLKOQ-4,1937
+terminal_chatapp/server.py,sha256=YyMLMc__7prNaqJ90mT08jCaiVrbE5Jl9-V0Hx5z7bI,9039
+terminal_chatapp-1.0.1.dist-info/LICENSE.txt,sha256=KW33NfSYO-WSfG5rsbSSPgZnaLef2mLtaM3kkm7fkCM,1074
+terminal_chatapp-1.0.1.dist-info/METADATA,sha256=tMiwcmC4KTAb3dOQCUc4TmzRSqzbsqk9xss7JN8v2Cc,6212
+terminal_chatapp-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+terminal_chatapp-1.0.1.dist-info/top_level.txt,sha256=mV2GKb_MFdpqwWrBHzfYp-aKVfih9kCv3UODytDLFrA,17
+terminal_chatapp-1.0.1.dist-info/RECORD,,
