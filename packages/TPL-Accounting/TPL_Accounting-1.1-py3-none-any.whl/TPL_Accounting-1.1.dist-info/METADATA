@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: TPL-Accounting
+Version: 1.1
+Summary: A TPL_Accounting pluggable package
+Home-page: https://github.com/github-rajib/TPL_Accounting
+Author: Mohammad Rajib
+Author-email: rajib.conf@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/github-rajib/TPL_Accounting/archive/refs/tags/v1.0.tar.gz
+Keywords: TPL Accounting,Django Accounting,Accounting
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Babel (==1.0)
+Requires-Dist: Django (>=2.0.13)
+Requires-Dist: django-bootstrap3 (==12.0.2)
+Requires-Dist: django-classy-tags (==0.5.1)
+Requires-Dist: django-datetime-widget2 (==0.9.5)
+Requires-Dist: django-select2 (==7.0.2)
+Requires-Dist: django-tempus-dominus (==5.1.2.13)
+Requires-Dist: python-dateutil (==2.2)
+
+# TPL_Accounting
+
+
