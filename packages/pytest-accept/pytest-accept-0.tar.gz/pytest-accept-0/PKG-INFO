@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pytest-accept
+Version: 0
+Summary: A pytest-plugin for updating doctest outputs
+Author: max-sixty
+Requires-Python: >=3.7,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pytest (>=6,<7)
