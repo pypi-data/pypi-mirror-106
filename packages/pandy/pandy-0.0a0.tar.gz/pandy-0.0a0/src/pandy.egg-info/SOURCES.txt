@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pandy/__init__.py
+src/pandy.egg-info/PKG-INFO
+src/pandy.egg-info/SOURCES.txt
+src/pandy.egg-info/dependency_links.txt
+src/pandy.egg-info/top_level.txt

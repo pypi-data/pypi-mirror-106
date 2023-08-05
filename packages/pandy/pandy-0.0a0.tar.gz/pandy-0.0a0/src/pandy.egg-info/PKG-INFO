@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pandy
+Version: 0.0a0
+Summary: Personal Python Handyman
+Home-page: https://github.com/pypa/sampleproject
+Author: Kammon
+Author-email: takagate+pypi@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Description: # Personal Python Handyman
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
