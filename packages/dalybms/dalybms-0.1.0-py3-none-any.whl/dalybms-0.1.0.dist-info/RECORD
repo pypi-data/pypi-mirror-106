@@ -1,0 +1,10 @@
+dalybms/__init__.py,sha256=omIaEES4oCfHl8LWKmVwORwAvX3muqaPxLdnZfSi1xI,179
+dalybms/daly_bms.py,sha256=E1AbAqW6ZWtHW42o8ZzTo_JAeIb8I092m4jBwjmzEH4,12207
+dalybms/daly_bms_bluetooth.py,sha256=BkRmqgYFK0lkW2VJCFtgcoN1g8JPorVffefYdLUz9Ok,7444
+dalybms/error_codes.py,sha256=uT53D6mWEk8Z_nABnLh0DLFMTDfO2T19e8HBgNEsk74,2604
+dalybms-0.1.0.data/scripts/daly-bms-cli,sha256=dxREdPeh_zL6SXIU5uEBoqfL1uS5-O-zZs6Or4fPyy4,2887
+dalybms-0.1.0.dist-info/LICENSE,sha256=f_oz96DVcEeehnlDdP_BYpIaMU0zowhAlNaQ53bQT7Q,1068
+dalybms-0.1.0.dist-info/METADATA,sha256=ybgfWUqcL6w4npgohFtqQpLa4P1aacgecrOqcq9t8f0,4068
+dalybms-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dalybms-0.1.0.dist-info/top_level.txt,sha256=QL6EHeGRFP4n8uzNN2FxS7IYJq30QLxM9kPYiG88LE0,8
+dalybms-0.1.0.dist-info/RECORD,,
