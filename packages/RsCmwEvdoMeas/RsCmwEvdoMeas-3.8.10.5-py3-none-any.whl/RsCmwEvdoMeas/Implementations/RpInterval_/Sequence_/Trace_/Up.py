@@ -1,0 +1,42 @@
+from typing import List
+
+from .....Internal.Core import Core
+from .....Internal.CommandsGroup import CommandsGroup
+from .....Internal.ArgSingleSuppressed import ArgSingleSuppressed
+from .....Internal.Types import DataType
+from ..... import repcap
+
+
+# noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection
+class Up:
+	"""Up commands group definition. 2 total commands, 0 Sub-groups, 2 group commands"""
+
+	def __init__(self, core: Core, parent):
+		self._core = core
+		self._base = CommandsGroup("up", core, parent)
+
+	def read(self, sequence=repcap.Sequence.Default) -> List[float]:
+		"""SCPI: READ:EVDO:MEASurement<instance>:RPINterval:SEQuence<Sequence>:TRACe:UP \n
+		Snippet: value: List[float] = driver.rpInterval.sequence.trace.up.read(sequence = repcap.Sequence.Default) \n
+		Returns the values of the reference power traces. For each sequence, DOWN/UP commands return the results of the reference
+		power interval for the power up/down step. \n
+		Use RsCmwEvdoMeas.reliability.last_value to read the updated reliability indicator. \n
+			:param sequence: optional repeated capability selector. Default value: Nr1 (settable in the interface 'Sequence')
+			:return: up_power: No help available"""
+		sequence_cmd_val = self._base.get_repcap_cmd_value(sequence, repcap.Sequence)
+		suppressed = ArgSingleSuppressed(0, DataType.Integer, False, 1, 'Reliability')
+		response = self._core.io.query_bin_or_ascii_float_list_suppressed(f'READ:EVDO:MEASurement<Instance>:RPINterval:SEQuence{sequence_cmd_val}:TRACe:UP?', suppressed)
+		return response
+
+	def fetch(self, sequence=repcap.Sequence.Default) -> List[float]:
+		"""SCPI: FETCh:EVDO:MEASurement<instance>:RPINterval:SEQuence<Sequence>:TRACe:UP \n
+		Snippet: value: List[float] = driver.rpInterval.sequence.trace.up.fetch(sequence = repcap.Sequence.Default) \n
+		Returns the values of the reference power traces. For each sequence, DOWN/UP commands return the results of the reference
+		power interval for the power up/down step. \n
+		Use RsCmwEvdoMeas.reliability.last_value to read the updated reliability indicator. \n
+			:param sequence: optional repeated capability selector. Default value: Nr1 (settable in the interface 'Sequence')
+			:return: up_power: No help available"""
+		sequence_cmd_val = self._base.get_repcap_cmd_value(sequence, repcap.Sequence)
+		suppressed = ArgSingleSuppressed(0, DataType.Integer, False, 1, 'Reliability')
+		response = self._core.io.query_bin_or_ascii_float_list_suppressed(f'FETCh:EVDO:MEASurement<Instance>:RPINterval:SEQuence{sequence_cmd_val}:TRACe:UP?', suppressed)
+		return response
