@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_alarmpy.py,sha256=DigM6Yqzme4qtMeMXAMTSxsQa6exPhkl-yJ-y1zi7Zo,85
+alarmpy-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+alarmpy-1.0.0.dist-info/METADATA,sha256=BqT7FTRamGKXZgw89tpuTZLAIg2LPMDGiZ3srgBSJWw,2008
+alarmpy-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+alarmpy-1.0.0.dist-info/entry_points.txt,sha256=EPnoz_XyB2qQUMEbi91xoRqs1nuXtzoIpbTbOkZV1l0,45
+alarmpy-1.0.0.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+alarmpy-1.0.0.dist-info/RECORD,,
