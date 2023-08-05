@@ -1,0 +1,3 @@
+[build-system]
+requires = ["maturin>=0.10,<0.11", "setuptools", "wheel", "setuptools-rust"]
+build-backend = "maturin"
