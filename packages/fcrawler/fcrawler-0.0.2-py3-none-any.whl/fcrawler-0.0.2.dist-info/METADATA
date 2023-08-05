@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fcrawler
+Version: 0.0.2
+Summary: Python application that can be used to copy files of a given file type from a folder directory.
+Home-page: https://github.com/truethari/fcrawler
+Author: tharindu.dev
+Author-email: tharindu.nm@yahoo.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/truethari/fcrawler/issues
+Keywords: files copy directory crawl
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: pyfiglet
+
+# fcrawler
+
+
