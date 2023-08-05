@@ -1,0 +1,10 @@
+README.md
+setup.py
+game_sir_fixer/__init__.py
+game_sir_fixer/helpers.py
+game_sir_fixer/main.py
+game_sir_fixer.egg-info/PKG-INFO
+game_sir_fixer.egg-info/SOURCES.txt
+game_sir_fixer.egg-info/dependency_links.txt
+game_sir_fixer.egg-info/requires.txt
+game_sir_fixer.egg-info/top_level.txt
