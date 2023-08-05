@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mangadex
+Version: 0.0.1
+Summary: Python wrapper for the mangadex API
+Home-page: UNKNOWN
+Author: Eduardo Ceja
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: A python wrapper fot the mangadex API V5
+Keywords: python,mangadex
+Platform: UNKNOWN
