@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+meta_learning_framework/__init__.py
+meta_learning_framework/base_model.py
+meta_learning_framework/meta_classifier.py
+meta_learning_framework/meta_learning_model.py
+meta_learning_framework/naive_ensemble.py
+meta_learning_framework/utils.py
+meta_learning_framework.egg-info/PKG-INFO
+meta_learning_framework.egg-info/SOURCES.txt
+meta_learning_framework.egg-info/dependency_links.txt
+meta_learning_framework.egg-info/top_level.txt
