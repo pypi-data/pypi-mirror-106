@@ -1,0 +1,15 @@
+LICENSE
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+doc2term/__init__.py
+doc2term/doc2term.py
+doc2term.egg-info/PKG-INFO
+doc2term.egg-info/SOURCES.txt
+doc2term.egg-info/dependency_links.txt
+doc2term.egg-info/top_level.txt
+doc2term/tests/__init__.py
+doc2term/tests/test_doc2term_list.py
+doc2term/tests/test_doc2term_str.py
+doc2term/tests/test_scripts_present.py
