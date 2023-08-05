@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: noodleswrapper
+Version: 0.0.1.2
+Summary: A wrapper used for meme generating using Discord API
+Home-page: https://www.frenchnoodles.xyz/
+Author: Kabir Ghai
+Author-email: KabirGhai18@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Discord.py (>=1.7)
+
+Noodles API wrapper
+===================
+##### Created by Kabir Ghai (CypherGuy)
+
+An extension module for [discord.py](https://pypi.org/project/discord.py/ "discord.py PyPi page") used as a meme-editor and welcome banners.
+
+Notices:
+-------
+
+* This module was designed for [discord.py](https://pypi.org/project/discord.py/ "discord.py PyPi page") 1.7+ but may work with older versions, use at your own risk however.
+
+Installation:
+-------------
+
+###### Install with pip:
+```
+pip install noodleswrapper
+```
+
+###### Sample code with `lisastage`:
+```
+#Headers is optional.. for now.
+import noodleswrapper
+from noodleswrapper import noodle
+text = noodle.lisastage('test') #'test' is what you want it to say
+print(text) #This should return a neat image.
+```
+
+Links:
+------
+
+* [My website](https://frenchnoodles.xyz/api)
+
