@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: watch-ui
+Version: 0.0.1
+Summary: Abstraction layer for filesystem events
+Home-page: https://github.com/mugiseyebrows/event-loop
+Author: Stanislav Doronin
+Author-email: mugisbrows@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
