@@ -1,0 +1,9 @@
+README.md
+setup.py
+datasette_gfm/__init__.py
+datasette_gfm.egg-info/PKG-INFO
+datasette_gfm.egg-info/SOURCES.txt
+datasette_gfm.egg-info/dependency_links.txt
+datasette_gfm.egg-info/entry_points.txt
+datasette_gfm.egg-info/requires.txt
+datasette_gfm.egg-info/top_level.txt
