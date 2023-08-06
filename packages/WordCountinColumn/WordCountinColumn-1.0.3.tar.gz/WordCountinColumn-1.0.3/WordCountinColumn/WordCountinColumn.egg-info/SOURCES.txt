@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+WordCountinColumn/WordCountinColumn/__init__.py
+WordCountinColumn/WordCountinColumn.egg-info/PKG-INFO
+WordCountinColumn/WordCountinColumn.egg-info/SOURCES.txt
+WordCountinColumn/WordCountinColumn.egg-info/dependency_links.txt
+WordCountinColumn/WordCountinColumn.egg-info/top_level.txt
