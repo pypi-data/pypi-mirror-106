@@ -1,0 +1,4 @@
+[console_scripts]
+ccat2gtif = citycatio.output:ccat2gtif
+ccat2netcdf = citycatio.output:ccat2netcdf
+
