@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+conciliator/__init__.py
+conciliator/conciliatorobj.py
+conciliator/connector.py
+conciliator/document.py
+conciliator/entity.py
+conciliator/file.py
+conciliator/invoice.py
+conciliator/page.py
+conciliator_python.egg-info/PKG-INFO
+conciliator_python.egg-info/SOURCES.txt
+conciliator_python.egg-info/dependency_links.txt
+conciliator_python.egg-info/requires.txt
+conciliator_python.egg-info/top_level.txt
