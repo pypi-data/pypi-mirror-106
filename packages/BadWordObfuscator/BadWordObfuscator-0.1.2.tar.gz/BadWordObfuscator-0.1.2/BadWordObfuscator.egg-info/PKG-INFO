@@ -1,0 +1,27 @@
+Metadata-Version: 1.0
+Name: BadWordObfuscator
+Version: 0.1.2
+Summary: A package that helps make naughty words less visible in code.
+Home-page: https://github.com/TheCuriousNerd/Bad-Word-Obfuscator
+Author: Alex Orid
+Author-email: inquiries@thecuriousnerd.com
+License: lgpl-3.0
+Description: # Bad Word Obfuscator
+         This code obfuscates naughty words by using a rot13 cipher to prevent them from being directly visible.
+        
+        ## Install Instructions
+        
+        ### PIP Install Instructions
+        
+        * To install via pip use:<br>
+            `pip install BadWordObfuscator`
+        
+        To see package on **pypi:** https://pypi.org/project/BadWordObfuscator/
+        
+        ### Manual Build & Install
+        
+        1. Build wheel with:<br>
+            `python setup.py bdist_wheel`
+        2. Install wheel with:<br>
+            `pip install {/path/to/wheelfile.whl}`
+Platform: UNKNOWN
