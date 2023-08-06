@@ -1,0 +1,8 @@
+README.md
+setup.py
+hdk/__init__.py
+hdk/file.py
+hdk.egg-info/PKG-INFO
+hdk.egg-info/SOURCES.txt
+hdk.egg-info/dependency_links.txt
+hdk.egg-info/top_level.txt
