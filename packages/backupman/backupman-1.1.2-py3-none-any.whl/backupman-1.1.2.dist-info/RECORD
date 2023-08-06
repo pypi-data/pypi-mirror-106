@@ -1,0 +1,9 @@
+backupman/__init__.py,sha256=tr2dMUFshB0V7YlDRbNgwbPa_pUX5HAgJ388cVKIj1Y,18
+backupman/backupman.py,sha256=_RlX41PNuMJ9de-GC8NR8qL126U6AItRpZsTemb_cuY,4443
+backupman/rsync.py,sha256=M3Gxc0-tNNVDn9Qg_0c2xAH90tI2XneuBTXIB2oadS0,4883
+backupman-1.1.2.dist-info/LICENSE,sha256=NwNJtmi5zLQ0iU9Kji7IqSn-AyJFEWxOBlVI28AECo0,1085
+backupman-1.1.2.dist-info/METADATA,sha256=tIYHOUGB_yukzDZBVEmn-VFgu7LGDKgZd1Y2jzr2GiA,4267
+backupman-1.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+backupman-1.1.2.dist-info/entry_points.txt,sha256=u521HDqmhB7dr_mldsuF9Z_8UY2ijwk2aWh1liI8GNc,56
+backupman-1.1.2.dist-info/top_level.txt,sha256=Vn_67PtyFq-ChcrZKBHjy4LYV0y9L519CKBOvfPQvu0,10
+backupman-1.1.2.dist-info/RECORD,,
