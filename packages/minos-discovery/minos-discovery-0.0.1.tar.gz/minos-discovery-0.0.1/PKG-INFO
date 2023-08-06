@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: minos-discovery
+Version: 0.0.1
+Summary: Minos Discovery service for Microservices subscription.
+Home-page: https://clariteia.com
+License: MIT
+Keywords: clariteia,minos,api gateway,discovery
+Author: Clariteia Devs
+Author-email: devs@clariteia.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: minos-apigateway-common (>=0.0.3,<0.0.4)
+Requires-Dist: redis (>=3.5.3,<4.0.0)
+Project-URL: Repository, https://github.com/clariteia/discovery
+Description-Content-Type: text/markdown
+
+Discovery Service
+=================
+
+Minos API Gateway Discovery Service
+
+Credits
+-------
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter)  and the [Minos Package](https://github.com/Clariteia/minos-pypackage) project template.
+
