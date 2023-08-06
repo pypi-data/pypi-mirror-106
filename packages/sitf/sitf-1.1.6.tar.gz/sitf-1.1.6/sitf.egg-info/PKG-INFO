@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sitf
+Version: 1.1.6
+Summary: Sort Images by day's wise into to the folders
+Home-page: UNKNOWN
+Author: Shatak Gurukar
+Author-email: shatakgurukar@gmail.com
+License: BSD License
+Description: A Command line tool to sort a images and mp4 files 
+        into a date-wise created folder.
+        
+        ## Usage
+        
+        ### Sort
+        
+        `$ sitf Directory`
+        
+        *Note: Dirtectory path containing spaces should be quoteted inside double quotes```sitf "C:\Example Folder"```*
+        
+        ### Help
+        
+        `$ sitf --help`
+        
+        ## Install
+        `$ pip install sitf`
+        
+        Or, update to latest version with:
+        
+        `$ pip install sitf --upgrade`
+        
+Keywords: folders files sorter images
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

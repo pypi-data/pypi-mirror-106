@@ -1,0 +1,12 @@
+README.md
+setup.py
+sitf.egg-info/PKG-INFO
+sitf.egg-info/SOURCES.txt
+sitf.egg-info/dependency_links.txt
+sitf.egg-info/entry_points.txt
+sitf.egg-info/requires.txt
+sitf.egg-info/top_level.txt
+sitfproject/__init__.py
+sitfproject/fileinfo.py
+sitfproject/progressbar.py
+sitfproject/sitf.py
