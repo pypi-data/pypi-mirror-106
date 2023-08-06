@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mmapds.egg-info/PKG-INFO
+mmapds.egg-info/SOURCES.txt
+mmapds.egg-info/dependency_links.txt
+mmapds.egg-info/not-zip-safe
+mmapds.egg-info/top_level.txt
