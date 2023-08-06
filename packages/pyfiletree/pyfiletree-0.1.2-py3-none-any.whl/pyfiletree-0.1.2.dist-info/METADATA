@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyfiletree
+Version: 0.1.2
+Summary: Read/Write python files
+Home-page: UNKNOWN
+Author: Sam
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest (>=4.4.1) ; extra == 'dev'
+
+# pyfiletree
+does this work? 
+
+
