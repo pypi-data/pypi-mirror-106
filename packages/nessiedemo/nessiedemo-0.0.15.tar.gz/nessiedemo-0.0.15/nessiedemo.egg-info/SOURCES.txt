@@ -1,0 +1,13 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+nessiedemo/__init__.py
+nessiedemo/demo.py
+nessiedemo/spark.py
+nessiedemo.egg-info/PKG-INFO
+nessiedemo.egg-info/SOURCES.txt
+nessiedemo.egg-info/dependency_links.txt
+nessiedemo.egg-info/not-zip-safe
+nessiedemo.egg-info/requires.txt
+nessiedemo.egg-info/top_level.txt
