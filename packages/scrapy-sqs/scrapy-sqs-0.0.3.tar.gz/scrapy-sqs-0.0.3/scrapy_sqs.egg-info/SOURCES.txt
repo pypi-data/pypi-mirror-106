@@ -1,0 +1,10 @@
+README.md
+setup.py
+scrapy_sqs/__init__.py
+scrapy_sqs/connection.py
+scrapy_sqs/spiders.py
+scrapy_sqs.egg-info/PKG-INFO
+scrapy_sqs.egg-info/SOURCES.txt
+scrapy_sqs.egg-info/dependency_links.txt
+scrapy_sqs.egg-info/requires.txt
+scrapy_sqs.egg-info/top_level.txt
