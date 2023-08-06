@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: braingeneers
+Version: 0.0.1
+Summary: Braingeneers Python utilities
+Home-page: https://github.com/braingeneers/braingeneers
+Author: Braingeneers
+License: UNKNOWN
+Description: # Braingeneers Python Utilities
+        
+        This package is supposed to collect, as well as make installable
+        through Pip, all of the Python code and utilities that we develop as
+        part of the wetAI project.
+        
+Keywords: machine-learning,jupyter,neuroscience,wetai,braingeneers
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

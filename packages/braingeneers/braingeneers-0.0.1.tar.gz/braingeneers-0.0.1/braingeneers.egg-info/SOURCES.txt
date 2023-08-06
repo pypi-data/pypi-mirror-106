@@ -1,0 +1,9 @@
+README.md
+setup.py
+braingeneers/__init__.py
+braingeneers/test.py
+braingeneers.egg-info/PKG-INFO
+braingeneers.egg-info/SOURCES.txt
+braingeneers.egg-info/dependency_links.txt
+braingeneers.egg-info/requires.txt
+braingeneers.egg-info/top_level.txt
