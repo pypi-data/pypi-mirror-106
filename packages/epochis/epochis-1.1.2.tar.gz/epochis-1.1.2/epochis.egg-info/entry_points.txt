@@ -1,0 +1,3 @@
+[console_scripts]
+epochis = epochis.__main__:main
+

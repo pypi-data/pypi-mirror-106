@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+epochis/__init__.py
+epochis/__main__.py
+epochis/date_parser.py
+epochis/from_epoch.py
+epochis.egg-info/PKG-INFO
+epochis.egg-info/SOURCES.txt
+epochis.egg-info/dependency_links.txt
+epochis.egg-info/entry_points.txt
+epochis.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
