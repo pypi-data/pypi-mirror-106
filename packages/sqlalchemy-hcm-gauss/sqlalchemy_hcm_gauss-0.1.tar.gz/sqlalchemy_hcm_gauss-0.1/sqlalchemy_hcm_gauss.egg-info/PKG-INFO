@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: sqlalchemy-hcm-gauss
+Version: 0.1
+Summary: SQLAlchemy dialect for oscar special for postgresql
+Home-page: UNKNOWN
+Author: tangrj
+Author-email: tangrj@inspur.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: gauss hcm SQLAlchemy
+Platform: UNKNOWN
