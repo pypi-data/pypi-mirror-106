@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pypgexec/__init__.py
+pypgexec/__version__.py
+pypgexec/pypgexec.log
+pypgexec/pypgexec.py
+pypgexec.egg-info/PKG-INFO
+pypgexec.egg-info/SOURCES.txt
+pypgexec.egg-info/dependency_links.txt
+pypgexec.egg-info/entry_points.txt
+pypgexec.egg-info/requires.txt
+pypgexec.egg-info/top_level.txt
+pypgexec.egg-info/zip-safe
