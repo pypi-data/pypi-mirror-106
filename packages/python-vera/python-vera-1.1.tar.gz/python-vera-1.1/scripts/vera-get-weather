@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+import sys
+import vera
+
+if len(sys.argv) != 2:
+    sys.stderr.write("Usage:\n    vera-get-weather <config>\n")
+    sys.exit(1)
+
+ve = vera.connect(sys.argv[1])
+
+weather = ve.get_weather()
+
+print("Temperature:", weather["temperature"])
+print("Outlook:", weather["weather"])
+
+

@@ -1,0 +1,15 @@
+README.md
+setup.py
+python_vera.egg-info/PKG-INFO
+python_vera.egg-info/SOURCES.txt
+python_vera.egg-info/dependency_links.txt
+python_vera.egg-info/requires.txt
+python_vera.egg-info/top_level.txt
+scripts/vera-delete-scenes
+scripts/vera-get-scenes
+scripts/vera-get-weather
+scripts/vera-set-temperature
+scripts/vera-update-scenes
+vera/__init__.py
+vera/color.py
+vera/vera.py

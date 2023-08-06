@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+
+import sys
+import vera
+import csv
+
+if len(sys.argv) != 3:
+    sys.stderr.write("Usage:\n    vera-get-scenes <config> <room>\n")
+    sys.exit(1)
+
+ve = vera.connect(sys.argv[1])
+
+room = ve.get_room(sys.argv[2])
+
+scenes = ve.get_scenes()
+
+output = csv.writer(sys.stdout)
+
+for s in scenes:
+
+    if s.room != room:
+        continue
+
+    defn = s.definition
+
+    name = defn.name
+
+    if len(defn.actions) != 1:
+        raise RuntimeError("Can only handle scene on single device")
+
+    if len(defn.actions[0].actions) != 1:
+        raise RuntimeError("Can only handle single device in a group")
+
+    device = defn.actions[0].actions[0].device
+
+    value = defn.actions[0].actions[0].value
+
+    if type(defn.actions[0].actions[0]) == vera.HeatingAction:
+        tp = "heat"
+    elif type(defn.actions[0].actions[0]) == vera.SwitchAction:
+        tp = "switch"
+    if type(defn.actions[0].actions[0]) == vera.SetpointAction:
+        tp = "set"
+
+    row = [name, device.name, tp, value]
+
+    times = []
+    for t in defn.timers:
+        row.append(t.days)
+        row.append(t.time.output())
+
+    output.writerow(row)
+
+
+
