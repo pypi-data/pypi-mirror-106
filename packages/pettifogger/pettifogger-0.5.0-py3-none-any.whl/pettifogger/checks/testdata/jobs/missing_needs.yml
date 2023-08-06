@@ -1,0 +1,12 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  job2:
+    runs-on: general
+    needs:
+      - job3
+    steps:
+      - uses: actions/chekcout@v2

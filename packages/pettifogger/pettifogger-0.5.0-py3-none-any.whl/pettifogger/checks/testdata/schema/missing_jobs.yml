@@ -1,0 +1,10 @@
+on:
+  push:
+    branches:
+      - master
+
+env:
+  VAR1: 123
+  VAR2: FOOBAR
+  VAR3: SOMETHING_PROPABLSY_MISSPLELLED
+  NONEXISTENT: 123

@@ -1,0 +1,3 @@
+[console_scripts]
+pettifogger=pettifogger.main:main
+
