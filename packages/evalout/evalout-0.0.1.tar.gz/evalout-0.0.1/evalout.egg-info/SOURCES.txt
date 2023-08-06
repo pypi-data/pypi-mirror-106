@@ -1,0 +1,7 @@
+setup.py
+evalout/__init__.py
+evalout.egg-info/PKG-INFO
+evalout.egg-info/SOURCES.txt
+evalout.egg-info/dependency_links.txt
+evalout.egg-info/not-zip-safe
+evalout.egg-info/top_level.txt
