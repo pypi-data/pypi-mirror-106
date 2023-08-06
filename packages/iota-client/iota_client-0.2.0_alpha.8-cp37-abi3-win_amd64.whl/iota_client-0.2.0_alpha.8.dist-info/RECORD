@@ -1,0 +1,5 @@
+iota_client-0.2.0_alpha.8.dist-info/METADATA,sha256=RB2z-1EmUvUq0RNTizft6J-10Cn40DOI1x9P3pswr1M,472
+iota_client-0.2.0_alpha.8.dist-info/WHEEL,sha256=EPESU4rU0ZBhUKOXSqKynMM6TPRY6zlFZvs8Fw5wxKs,94
+iota_client/__init__.py,sha256=tbLFJVB4WQ1zi1cZELqgOawXqRzQOOpmm0aD7gfavbg,28
+iota_client/iota_client.pyd,sha256=GiqGX4ZJviOR5G-jQL5zS8bYMzRecKRiTLDevSN768s,9230336
+iota_client-0.2.0_alpha.8.dist-info/RECORD,,
