@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: h3pandas
+Version: 0.1
+Summary: Integration of H3 and GeoPandas
+Home-page: https://github.com/DahnJ/H3-Pandas
+Author: Dahn
+Author-email: dahnjahn@gmail.com
+License: MIT
+Download-URL: https://github.com/DahnJ/H3-Pandas/archive/refs/tags/0.1.0-alpha.tar.gz
+Description: UNKNOWN
+Keywords: python,h3,geospatial,geopandas,pandas,integration,hexagons-are-awesome
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Python: >=3.7
+Provides-Extra: test
+Provides-Extra: docs
