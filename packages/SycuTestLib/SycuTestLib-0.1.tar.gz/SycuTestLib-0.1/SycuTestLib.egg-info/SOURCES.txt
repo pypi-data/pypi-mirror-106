@@ -1,0 +1,7 @@
+setup.py
+SycuTestLib.egg-info/PKG-INFO
+SycuTestLib.egg-info/SOURCES.txt
+SycuTestLib.egg-info/dependency_links.txt
+SycuTestLib.egg-info/top_level.txt
+sycutestlib/MyModule.py
+sycutestlib/__init__.py
