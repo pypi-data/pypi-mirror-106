@@ -1,0 +1,3 @@
+[console_scripts]
+wizardry=wizardry.cli:app
+
