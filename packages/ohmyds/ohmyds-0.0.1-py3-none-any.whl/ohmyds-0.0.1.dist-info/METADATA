@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ohmyds
+Version: 0.0.1
+Summary: Python library to visualize data strcutures
+Home-page: https://github.com/prabhupant/oh-my-ds
+Author: Prabhu Pant
+Author-email: prabhupant09@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/prabhupant/oh-my-ds/issues
+Keywords: data structures,tree,graph,linked list,stack,queue,education,visualization
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# oh-my-ds
+Python library to pretty print data structures
+
+# Installation
+
+```python3
+pip3 install ohmyds
+```
+
+# Usage
+
+Right now only binary tree is supported
+
+
