@@ -1,0 +1,4 @@
+[wai.annotations.plugins]
+from-festvox-sp = wai.annotations.festvox.specifier:FestVoxInputFormatSpecifier
+to-festvox-sp = wai.annotations.festvox.specifier:FestVoxOutputFormatSpecifier
+
