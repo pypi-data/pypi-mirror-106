@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: mol2grid
+Version: 0.1.0
+Summary: Python package to insert a ligand in a 3D grid, created based         on its respective receptor, considering each atom type as an integer
+Home-page: https://github.com/jvsguerra/mol2grid
+Author: João Victor da Silva Guerra
+Author-email: jvsguerra@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/jvsguerra/mol2grid/
+Keywords: structural biology,proteins
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Requires-Dist: toml
+Requires-Dist: numpy
+
+############################
+Molecules to grid (mol2grid)
+############################
+
+|PyPI version shields.io| |PyPI pyversions| |PyPI license|
+
+.. |PyPI version shields.io| image:: https://img.shields.io/pypi/v/mol2grid.svg
+   :target: https://pypi.python.org/pypi/mol2grid/
+
+.. |PyPI pyversions| image:: https://img.shields.io/pypi/pyversions/mol2grid.svg
+   :target: https://pypi.python.org/pypi/mol2grid/
+
+.. |PyPI license| image:: https://img.shields.io/pypi/l/mol2grid.svg
+   :target: https://pypi.python.org/pypi/mol2grid/
+
+Python package to insert a molecule in a 3D grid, considering each atom type as an integer.
+
+************
+Requirements
+************
+
+- Python 3.6+
+- NumPy 1.19.4+
+- toml 0.10.2+
+
+************
+Installation
+************
+
+To install the latest release on `PyPI <https://pypi.org/project/pyKVFinder>`_, run:
+
+.. code-block:: bash
+
+    pip install mol2grid
+
+To install the latest developmental version, run:
+
+.. code-block:: bash
+
+    git clone https://github.com/jvsguerra/mol2grid.git
+    pip install mol2grid
+
+*****
+Usage
+*****
+
+Todo
+
+*******
+License
+*******
+
+The software is licensed under the terms of the GNU General Public License version 3 (GPL3) and is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+
