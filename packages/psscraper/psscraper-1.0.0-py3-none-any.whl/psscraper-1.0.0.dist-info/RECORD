@@ -1,0 +1,11 @@
+psscraper/PowerschoolBrowser.py,sha256=YdHPYH_waf6yeDhmeXXDumjML0EBBtWJhfdEkBzStfg,4188
+psscraper/__init__.py,sha256=YvAwEteUB2-m1bglempAYv3Q1nCGwfGdoeg0bndKBcI,798
+psscraper/scrapper/PowerschoolAssignmentScrapper.py,sha256=Etp6UYilimi_eMb81ugfUbeH5aR11-vjNReufwtxVtI,6730
+psscraper/scrapper/PowerschoolClassInfoScrapper.py,sha256=wsLDGa0-6hGK31FTS7VYdDkKIi63gkFACMd2WzO9zj0,4694
+psscraper/scrapper/PowerschoolScrapper.py,sha256=I7umhCDApKlGum3SwpFiIx8OsWQhFliZXhNLi61LOGs,1360
+psscraper/scrapper/__init__.py,sha256=2wARCrkFDv-Sjc1u0fJMbvtNIA4t0Aa43U0QcpIr73k,864
+psscraper-1.0.0.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+psscraper-1.0.0.dist-info/METADATA,sha256=1bi2qkMsCRBXQYbOxrprlyUdRm5-PupWRY9yDBnF8Us,3048
+psscraper-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+psscraper-1.0.0.dist-info/top_level.txt,sha256=_tvXy1PmApdf3zwX8lAJXenEIuGEwciE7j72Wwj3ZS4,10
+psscraper-1.0.0.dist-info/RECORD,,
