@@ -1,0 +1,10 @@
+biodbs/BioMart.py,sha256=shaF8hsp5RVSjVryJIgimQrAoZAWi9yTQ4r3kEcOSyA,14571
+biodbs/HPA.py,sha256=CN_HkDzfBX1piFCFhgZCboV3Vi7hknoPp9I0GVdx7oI,2556
+biodbs/KEGG.py,sha256=TDN6TJKlw02jC3f9R5DW6DuG4I-RCe3NJM8NPdOLC5w,6718
+biodbs/QuickGO.py,sha256=dHf_SKTa0Lq7bW4I3QYBvDU_SoyMG5AJrTncF7OUVwM,11352
+biodbs/__init__.py,sha256=ecF7aFDPiP3YlG0fyF18Mfzcbt8_4t0gLqcK5JURGFw,18
+biodbs/utils.py,sha256=O-AJXUHpjwZa230wd6GeBrd01nQojtmUjEva0_shsTU,1820
+biodbs-0.0.1.dist-info/METADATA,sha256=t4mGWkTl7XSNa-SDBjdf37NwqBuqBnUsJHOBuhxU5v4,1786
+biodbs-0.0.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+biodbs-0.0.1.dist-info/top_level.txt,sha256=TOTUFUKTURA24ff9AOSdQ37E7NpRZKj1n1krI-dYTZI,7
+biodbs-0.0.1.dist-info/RECORD,,
