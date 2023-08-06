@@ -1,0 +1,40 @@
+{
+  "role": "gAAAAABgUIyHcDdxMMmYzLWXvqjxzemjsjj_1joNdfmVElH7fjwP07PahG6dQyeLvS68ZhqW2K57cBN1rueXsR9h_AmWGeMZsw==",
+  "github": {
+    "token": "gAAAAABgMCzYNp9P1QOXE5tkM1l3FckPAQJiYmJ1eUz1fo-4CTYSiidUV9k9mKDeEbu1bvd6ivDyDdriCIiF-1UCqZqPEHn2meRJJZ5gVSdJOJyjYDaO5gry6pcXRKAdL4emZDfPSgnP"
+  },
+  "ipinfo": {
+    "token": "gAAAAABgfBY7hF33uLJPzkmvDa3kWQtwo7OVWudxcPJQtv1eJ50tbmQsKPEGS3wKsad_5fC_GTRSAtpUopRfbvV3iY_PUDuAgw=="
+  },
+  "st2": {
+    "pro": {
+      "auths": {
+        "ssh": {
+          "username": "gAAAAABgk7sJ09V-z7xF2QAIT-NSilbAED1dLrT_yfpU8gTP3QkwU2Wz030BAZ439n0-OkW82NtDM1ok0sC2Vh4JaKm1t86vMQ==",
+          "keyfile": "~/.ssh/id_rsa"
+        },
+        "basic": {
+          "username": "gAAAAABgk7uzf3Pn5wCA7Axi46bwjKQMSBFzBbhIdO7IMJQxthHAUMh8bcP4HFG_P6S_WpADv4SAhbFIob9KFDPyk1fpMcSvyuMfvQ2Ggwqu20pPCCe8G4U=",
+          "password": "gAAAAABgk7vy_orIy87X0RIYuewRtfLzAQzoPpx5rZrTLrBsuEBOSBNaxvjZpFD3v2guM3qV2ds2HOOt-XMEQN7rXDlqD8-cLQ=="
+        }
+      },
+      "commands": {
+        "status_zabbix": {
+          "name": "Status Zabbix",
+          "ssh": "systemctl status zabbix-agent",
+          "winrm": "Get-Service Zabbix Agent"
+        },
+        "status_telegraf": {
+          "name": "Status Telegraf",
+          "ssh": "systemctl status telegraf",
+          "winrm": "Get-Service telegraf"
+        },
+        "status_tdagent": {
+          "name": "Status td-agent",
+          "ssh": "systemctl status td-agent",
+          "winrm": "Get-Service fluentdwinsvc"
+        }
+      }
+    }
+  }
+}

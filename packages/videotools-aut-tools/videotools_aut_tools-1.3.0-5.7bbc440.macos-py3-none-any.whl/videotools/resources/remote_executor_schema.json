@@ -1,0 +1,113 @@
+{
+  "type": "object",
+  "OneOf": [
+    {
+      "properties": {
+        "ip": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "properties": {
+        "ip": {
+          "type": "string"
+        },
+        "hostname": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "properties": {
+        "ip": {
+          "type": "string"
+        },
+        "hostname": {
+          "type": "string"
+        },
+        "port": {
+          "type": "number"
+        }
+      }
+    },
+    {
+      "properties": {
+        "ip": {
+          "type": "string"
+        },
+        "hostname": {
+          "type": "string"
+        },
+        "port": {
+          "type": "number"
+        },
+        "timeout": {
+          "type": "number"
+        }
+      }
+    },
+    {
+      "properties": {
+        "ip": {
+          "type": "string"
+        },
+        "hostname": {
+          "type": "string"
+        },
+        "port": {
+          "type": "number"
+        },
+        "timeout": {
+          "type": "number"
+        },
+        "auths": {
+          "type": "object",
+          "oneOf": [
+            {
+              "properties": {
+                "username": {
+                  "type": "string"
+                },
+                "password": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "username",
+                "password"
+              ]
+            },
+            {
+              "properties": {
+                "username": {
+                  "type": "string"
+                },
+                "keyfile": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "username",
+                "keyfile"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        "commands": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "action": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}
