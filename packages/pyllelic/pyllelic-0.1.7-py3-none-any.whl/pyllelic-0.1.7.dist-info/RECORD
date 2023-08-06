@@ -1,0 +1,11 @@
+pyllelic/__init__.py,sha256=lCPsQ4xnWylvoxnMSEiFw4nMZfPuYOplztFRLOBiuoY,63
+pyllelic/__version__.py,sha256=FcZM7i4GEmkwoK6tAnTkVDrhqM7IS0D8UTtzir7XNGY,356
+pyllelic/config.py,sha256=G7q4CpTq0A1LuMHCy27fxz0dgwkkd24u6bWWqJ3WgNE,600
+pyllelic/process.py,sha256=rmCNnk5h-6YMJtXEhIzJaLalpgIXvqOY-nS-XUyVtiY,4368
+pyllelic/pyllelic.py,sha256=TQF6ZZuPZos2MzkDxQ0IcUas1jDC91Uk42XQAqn2usQ,30216
+pyllelic/quma.py,sha256=dfbiX0krLQAKNU4BvinkVs7oTI23ZR9RggtpcIOrm54,17210
+pyllelic-0.1.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyllelic-0.1.7.dist-info/METADATA,sha256=MBwQzbuY6eHFZTgX8a5CRPaRZ7CX-Ty6TwVhT7GeCaU,5170
+pyllelic-0.1.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyllelic-0.1.7.dist-info/top_level.txt,sha256=gMITZgZ1xjevFwYNOxtvgoTEl8rC0W1uQuHX6vwOfoE,9
+pyllelic-0.1.7.dist-info/RECORD,,
