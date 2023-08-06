@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: typedb-protocol
+Version: 2.1.0
+Summary: TypeDB GRPC Protocol
+Home-page: https://github.com/vaticle/typedb-protocol/
+Author: Vaticle
+Author-email: community@vaticle.com
+License: AGPLv3+
+Description: # TypeDB Client RPC (Remote Procedure Call) Protocol
+        
+        A protocol for implementing a TypeDB client driver, in many popular programming languages, using [GRPC (Google's Remote Procedure Call)](https://grpc.io) framework.
+        
+Keywords: typedb typeql type-system strongly-typed database knowledge-base
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Environment :: Console
+Classifier: Topic :: Database :: Front-Ends
+Description-Content-Type: text/markdown
