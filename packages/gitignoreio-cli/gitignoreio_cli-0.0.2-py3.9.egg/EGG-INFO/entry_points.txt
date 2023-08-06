@@ -1,0 +1,3 @@
+[console_scripts]
+gitignoreio-cli = src.bin:main
+

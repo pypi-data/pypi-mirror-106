@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gitignoreio_cli.egg-info/PKG-INFO
+gitignoreio_cli.egg-info/SOURCES.txt
+gitignoreio_cli.egg-info/dependency_links.txt
+gitignoreio_cli.egg-info/entry_points.txt
+gitignoreio_cli.egg-info/requires.txt
+gitignoreio_cli.egg-info/top_level.txt
+src/__init__.py
+src/bin.py

@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: gitignoreio-cli
+Version: 0.0.2
+Summary: command line to downlad .gitignore file from gitignore.io
+Home-page: https://github.com/xinhuagu/gitignoreio-cli
+Author: Xinhua Gu
+Author-email: xinhua.gu@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/pypa/sampleproject/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/xinhuagu/gitignoreio-cli
+Description: UNKNOWN
+Keywords: git,gitignore,development
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
