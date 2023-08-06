@@ -1,0 +1,9 @@
+tree-sitter-jinja2/language.dll,sha256=OQ6GoMDu7RW9B0LNWO8rUsDR3VDPebGfhj-BhkVVZsY,18432
+tree-sitter-jinja2/language.exp,sha256=HsJvVbqhLKCqQr-WUx4I7SYeIhJhv0zcchwAMTzwJEQ,766
+tree-sitter-jinja2/language.lib,sha256=IZ_jKKvELEeiDCvj_LuyKBo5lGOI-1zYY2q3k2U2Bgk,1764
+tree-sitter-jinja2/language_dsoinfo.py,sha256=mkY69HVdkHHERt8iXqFhswX3n6AL0NL_dU4yTCFQfoE,351
+tree_sitter_jinja2/__init__.py,sha256=w4EcI5xFmTnJ_Sv10MUf3zuTJGPGOo5N1BlCIJvDlIM,174
+tree_sitter_jinja2-0.1.0a1.dist-info/METADATA,sha256=xvszfBWXlqKJ_aYYFdy4abx4tsg2dAomy9tRX12Wi-Y,1125
+tree_sitter_jinja2-0.1.0a1.dist-info/WHEEL,sha256=zMRqF9ZfHGxBPfvcWwE-LxcVkdB1hhr8hy4cOfZGPZU,101
+tree_sitter_jinja2-0.1.0a1.dist-info/top_level.txt,sha256=Y1FK0_FVZwNO_WRZJPiVszpV-eNV2Y2rVpGmcBoKEyw,19
+tree_sitter_jinja2-0.1.0a1.dist-info/RECORD,,
