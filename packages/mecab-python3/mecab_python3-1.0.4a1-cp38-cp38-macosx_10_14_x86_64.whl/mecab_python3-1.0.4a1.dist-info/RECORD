@@ -1,0 +1,10 @@
+MeCab/_MeCab.cpython-38-darwin.so,sha256=LZXAOsLAOqKMmGLhzD4EKAwGBgH6nDex0i9moBKrIM8,150808
+MeCab/__init__.py,sha256=-3agARS_4z3uPcvqfQwvGAtg8N5IhNG_hkey11_D8VA,4405
+MeCab/cli.py,sha256=6V7j6EPaCxI5rzwdvLeZjTyIeWdPORvAifuosJpi3DY,991
+mecab_python3-1.0.4a1.dist-info/AUTHORS,sha256=iILKKikEFVrLH3S2bl4m1fCNQ8NM4GMRsz8hppNzEJs,144
+mecab_python3-1.0.4a1.dist-info/COPYING,sha256=ntigF_Iia28Nbdah0lQEgAN0oSxw4UpWypYTF294d44,240
+mecab_python3-1.0.4a1.dist-info/METADATA,sha256=WopZZvjLp3VV8ehhhDXyoi8T-CZ-lDSNPL9zkjbyFD8,5821
+mecab_python3-1.0.4a1.dist-info/WHEEL,sha256=V3dP579bkkoFyEn0eRX4OUiUM3w2HVock1BmzwB7n_c,110
+mecab_python3-1.0.4a1.dist-info/entry_points.txt,sha256=QK-YZRJo08K_GIPvJZlV_2OTA1nwl2GCa7Kz_xD-X_U,77
+mecab_python3-1.0.4a1.dist-info/top_level.txt,sha256=IVvVKeTLHhM6T9k5l1p9R6q6g9YlzVjjNn1IWwjM5Es,6
+mecab_python3-1.0.4a1.dist-info/RECORD,,
