@@ -1,0 +1,13 @@
+syncfat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syncfat/__main__.py,sha256=uIx02J5Da15kwyDQTkV0_PKRfIzbhH7TUIzIRyu9tCU,95
+syncfat/adapters.py,sha256=w6FRlWq26p7etRBFEY2TKzWkrU-d4dGI_5bABao0kM0,1538
+syncfat/cli.py,sha256=HYDWATwY1dz7r-qSp7ymLWjRSqCzbYIULX6bZF1wVA0,6924
+syncfat/sync.py,sha256=Xg0WMBHvE4iDJzRpYXu6i_LE0tJqHojiGMnSYBdQYzk,3170
+syncfat/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syncfat/utils/console.py,sha256=cLP0QOs_XfdgAZqtzVyEis5uHveAGS2aVgneLs1RLpY,2076
+syncfat-0.1.0.dist-info/LICENSE,sha256=Hm8Px1kvovOTJT-7HLOCNxXHWZ2ELuBbMxewd7bQh7I,1048
+syncfat-0.1.0.dist-info/METADATA,sha256=K8uxperUdk7lqq54anTGihFauDbjEvCkDrvuNP2_awM,2230
+syncfat-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+syncfat-0.1.0.dist-info/entry_points.txt,sha256=UBEivoYceVWkootknH4DS7QaFaqfls9uWval6tZcx3A,46
+syncfat-0.1.0.dist-info/top_level.txt,sha256=sx1lZeOULRNOkfMlTCstEGPjPE5cFExxgl7zsRsHYq0,8
+syncfat-0.1.0.dist-info/RECORD,,
