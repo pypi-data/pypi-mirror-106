@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "rpgmva2rpgmmz"
+version = "0.1.0"
+description = "Convert and extract tilesets from RPG Maker VX/Ace to RPG Maker MV/MZ format"
+authors = ["Konosprod <konosprod@free.fr>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Konosprod/rpgmva2rpgmmz"
+classifiers = [
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: End Users/Desktop",
+    "Environment :: Console"
+]
+
+[tool.poetry.dependencies]
+python = "^3.4"
+rubymarshal = "^1.2.7"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+rpgmva2rpgmmz = "rpgmva2rpgmmz.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
