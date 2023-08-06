@@ -1,0 +1,3 @@
+[console_scripts]
+dotfiles=et_dot:cli_dotfiles.main
+

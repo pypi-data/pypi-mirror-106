@@ -1,0 +1,14 @@
+et_dot/.orig.__init__.py,sha256=vDGVruidhZFxpJHAjtcR8AFTcno0yFui62SRETMjml0,1334
+et_dot/__init__.py,sha256=HA6xPYvm1Dxx-xp7W1HOGigZzg-QNVRm3HsRNi7n3QA,1343
+et_dot/cli_dotfiles.py,sha256=4k-4XohP9gKd09eh4XDUDmrEhEHY-x5YLyrAFxy7Xa4,1276
+et_dot/cpp_dotc/CMakeLists.txt,sha256=D_HEQM-sGitee252_BFdNtZuENO_2IXnBq__2qdijFg,2788
+et_dot/cpp_dotc/dotc.cpp,sha256=9Nvl-F8r-T2iRu564HFEozsnAMjyBQfvD1vgq5C_oyI,1488
+et_dot/cpp_dotc/dotc.rst,sha256=3Ma79tPpMD9_rFYrM3Sqhw8e5PEfmrJgJvFY7nZC3JE,632
+et_dot/f90_dotf/CMakeLists.txt,sha256=-45GWhTZZWfk7MtW_7MuetNtK9AEWUV-Dj0PJ2GZmTM,11530
+et_dot/f90_dotf/dotf.f90,sha256=CiZcrAcPwhBltLQRAkwTbAMS9FM1xuCtnEKXCg56nfA,528
+et_dot/f90_dotf/dotf.rst,sha256=1A2RT0ua-dsrJ1PAO-tD1fiPoSN5n8T1pwoje0cWit0,634
+et_dot-0.0.1.dist-info/entry_points.txt,sha256=l_tzWopiuVijvmDv8dLKWMxNltFWAD1zoMqluG6TJSw,53
+et_dot-0.0.1.dist-info/LICENSE,sha256=nrHqrFIqTBdSluz8ezhZUzYFnjYVwMGj23_xHabJBYQ,1072
+et_dot-0.0.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+et_dot-0.0.1.dist-info/METADATA,sha256=Q85zw5Bg5J791hQ9m4rc8-YPw8TQT0udz0iamNMi2uY,848
+et_dot-0.0.1.dist-info/RECORD,,
