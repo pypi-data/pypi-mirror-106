@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: simplicial-test
+Version: 1.2.0
+Summary: Simplicial-test implements an algorithm that realizes a simplicial complex from a prescribed joint degree sequence (if feasible).
+License: LGPL-3.0-or-later
+Author: Tzu-Chi Yen
+Author-email: tzuchi.yen@colorado.edu
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: matplotlib (>=3.0.0,<4.0.0)
+Requires-Dist: more-itertools (>=8.7.0,<9.0.0)
+Requires-Dist: numpy (>=1.20.0,<2.0.0)
