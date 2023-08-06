@@ -1,0 +1,13 @@
+md4c/__init__.py,sha256=uSIuCT6V0aJbv8VnafyJdGxX_BVcQcxOfYbthpa4Hv8,1581
+md4c/_enum_consts.cpython-38-darwin.so,sha256=F9HEUJVw7-c-JjxT1vz5KPT3oLlFbnM0ov9Pl_r_cLk,34176
+md4c/_md4c.cpython-38-darwin.so,sha256=_q37uttlYpIhYKBdpWgAT07eRlPKsZhDInhM4LwB02I,40336
+md4c/enums.py,sha256=YxYP9MkrkBWDtClnw2D9e3MCmQQsyDlIVZTV-BHnnr4,3970
+md4c/parser.py,sha256=R2c_IfonPOFPIVUe5wceJNrmlxj4pRGtzShDDj8N_OY,6122
+md4c/domparser/__init__.py,sha256=yjrZpDgCmZapLrakw1RyakEI0Uqp_FeZY_WhoSTHakU,1307
+md4c/domparser/ast.py,sha256=D-81tD_wu-5CwBlvw4JPfiRzIL610zYNE91iavIa5Lw,51101
+md4c/domparser/domparser.py,sha256=bMFqesypfdBlDTlkxUUgTXs0m9CPU2ReYA2gwk41KSY,5131
+pymd4c-0.4.8.0rc1.dist-info/LICENSE.md,sha256=RENpiSxd9Db09bEN1Yee6U8EFKHrhjAL9AhB-Gr_Awk,2377
+pymd4c-0.4.8.0rc1.dist-info/METADATA,sha256=5a85trOKryBgrS2ThFw5ieqmKaIPmY1PEpjhPeXYDDE,3807
+pymd4c-0.4.8.0rc1.dist-info/WHEEL,sha256=V3dP579bkkoFyEn0eRX4OUiUM3w2HVock1BmzwB7n_c,110
+pymd4c-0.4.8.0rc1.dist-info/top_level.txt,sha256=i917ncluOenqTtdWkS0U4qnAWXHGvwXxRs3p-3TEKdo,5
+pymd4c-0.4.8.0rc1.dist-info/RECORD,,
