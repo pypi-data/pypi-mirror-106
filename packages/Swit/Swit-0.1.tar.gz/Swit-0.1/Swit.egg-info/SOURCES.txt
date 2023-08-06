@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Swit/Swit.py
+Swit/__init__.py
+Swit.egg-info/PKG-INFO
+Swit.egg-info/SOURCES.txt
+Swit.egg-info/dependency_links.txt
+Swit.egg-info/requires.txt
+Swit.egg-info/top_level.txt
