@@ -1,0 +1,7 @@
+daterecognition/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+daterecognition/formats.py,sha256=SZ4Wo-nqPJwZuR-A0eCojSpVd-zID2sryd9XUwUCOnY,495
+daterecognition/parser.py,sha256=4AjuqbXs_2FnWiq2vZqUN6Fr9SVHlvcPjh6LQMbC9Bk,8389
+daterecognition-0.1.0.dist-info/LICENSE,sha256=6RlAgdTc0S9ARtl6D57qMz4KRj4MWf8dFte_nHcESME,1077
+daterecognition-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+daterecognition-0.1.0.dist-info/METADATA,sha256=41k1Zrc9uOuXwPd04gpkjHtaBmtM6sBOfxx1_YWxbeY,406
+daterecognition-0.1.0.dist-info/RECORD,,
