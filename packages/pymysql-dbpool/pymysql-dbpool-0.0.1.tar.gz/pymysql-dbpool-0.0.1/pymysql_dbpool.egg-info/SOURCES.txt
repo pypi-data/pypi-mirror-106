@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pymysql_dbpool.egg-info/PKG-INFO
+pymysql_dbpool.egg-info/SOURCES.txt
+pymysql_dbpool.egg-info/dependency_links.txt
+pymysql_dbpool.egg-info/top_level.txt
+pymysqlpool/__init__.py
+pymysqlpool/connection.py
+pymysqlpool/pooled_db.py
