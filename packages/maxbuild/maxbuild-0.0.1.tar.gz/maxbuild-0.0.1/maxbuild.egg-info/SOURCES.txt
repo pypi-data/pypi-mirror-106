@@ -1,0 +1,7 @@
+README.rst
+setup.py
+maxbuild/__init__.py
+maxbuild.egg-info/PKG-INFO
+maxbuild.egg-info/SOURCES.txt
+maxbuild.egg-info/dependency_links.txt
+maxbuild.egg-info/top_level.txt
