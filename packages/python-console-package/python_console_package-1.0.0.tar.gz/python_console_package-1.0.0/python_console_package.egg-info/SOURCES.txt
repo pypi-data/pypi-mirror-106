@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+python_console_package/__init__.py
+python_console_package/entrypoint.py
+python_console_package.egg-info/PKG-INFO
+python_console_package.egg-info/SOURCES.txt
+python_console_package.egg-info/dependency_links.txt
+python_console_package.egg-info/entry_points.txt
+python_console_package.egg-info/requires.txt
+python_console_package.egg-info/top_level.txt
+python_console_package/models/__init__.py
+python_console_package/models/module_functions.py
+python_console_package/models/mymodel.py
+python_console_package/models/someresource.txt

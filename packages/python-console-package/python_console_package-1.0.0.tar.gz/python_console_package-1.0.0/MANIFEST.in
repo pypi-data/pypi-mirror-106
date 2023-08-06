@@ -1,0 +1,3 @@
+#Include additional non-python files into your application
+include python_console_package/*.txt
+include python_console_package/models/*.txt

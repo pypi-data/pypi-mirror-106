@@ -1,0 +1,3 @@
+[console_scripts]
+python_console_package = python_console_package.entrypoint:main
+
