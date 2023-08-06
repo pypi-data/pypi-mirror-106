@@ -1,0 +1,14 @@
+datamatch/__init__.py,sha256=ijGTxQUnVFI4Lc1m04rvKizi3DDa_nZ8Jw1m1S-EAoQ,301
+datamatch/indices.py,sha256=mIxCAOirpgRJfmhlTpwBitYRuMBKYYLN12jqIRIxvqY,2196
+datamatch/matchers.py,sha256=8XmVC7eZd2p3Jey3lyyGMjg0UrfisrBsUg2l2U_kzGg,9055
+datamatch/pairers.py,sha256=lqdX5cS89PNGupiR6GZrBELUt4e7g6SVi2xagpvxIfo,3478
+datamatch/similarities.py,sha256=9j14vCuvDfb-v3eGTIsfcbnersoEHsLZoJscKkmeG58,1847
+datamatch/test_indices.py,sha256=bI9CfZF-f_-SQ582mzM3dLP7VjwM9LY0slAdTEuU8z8,2269
+datamatch/test_matchers.py,sha256=mtJ8TrIabcQMWwsoa-yP_pwV6QcDPJAJUfW1rBgdw1I,3236
+datamatch/test_pairers.py,sha256=gJfu5atVgmRR3fiJMJV5xmIRUNs5KbEAHyBpBdf1e1E,2407
+datamatch/test_similarities.py,sha256=SJCYP662Gccm8dLdKtas8beEuM-8ocRMX6AhpzXc_Jw,1558
+datamatch-0.1.0.dist-info/LICENSE,sha256=Gj1aznQ4zp6AP4QnbTrg8NLn_d4wIxKTYPuj1HGPgbo,1050
+datamatch-0.1.0.dist-info/METADATA,sha256=jE9ojacTmCWtHF-694Ct0gh25ES_W1kTpdHfulcevgg,2508
+datamatch-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+datamatch-0.1.0.dist-info/top_level.txt,sha256=dnB4H1Ksk4ORgGoUNYrFUR5zvCqF3FDMTG-8zSfK86s,10
+datamatch-0.1.0.dist-info/RECORD,,
