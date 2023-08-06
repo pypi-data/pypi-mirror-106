@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+qfunctions/__init__.py
+qfunctions/cred.py
+qfunctions.egg-info/PKG-INFO
+qfunctions.egg-info/SOURCES.txt
+qfunctions.egg-info/dependency_links.txt
+qfunctions.egg-info/top_level.txt
