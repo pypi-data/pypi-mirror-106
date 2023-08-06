@@ -1,0 +1,12 @@
+version: '3'
+services:
+  test-worker:
+    image: akadaner/test-worker
+    tty: true
+    container_name: 603384f556f388e8aeceb221
+    command:
+    - --config
+    - '{"worker_id": "603384f556f388e8aeceb221", "payload": {"type": "batch", "message_broker":
+      ["zmq", {"endpoints": {"monitor_in": {"endpoint": "tcp://localhost:5555", "type":
+      "sub"}, "monitor_out": {"endpoint": "tcp://localhost:5556", "type": "sub"},
+      "job_orchestrator": {"endpoint": "tcp://localhost:5557", "type": "pub"}}}]}}'

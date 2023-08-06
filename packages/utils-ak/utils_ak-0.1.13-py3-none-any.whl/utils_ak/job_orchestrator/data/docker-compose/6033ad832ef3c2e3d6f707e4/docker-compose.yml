@@ -1,0 +1,13 @@
+version: '3'
+services:
+  test-worker:
+    image: akadaner/test-worker
+    tty: true
+    container_name: 6033ad832ef3c2e3d6f707e4
+    command:
+    - --config
+    - '{"worker_id": "6033ad832ef3c2e3d6f707e4", "payload": {"type": "batch", "message_broker":
+      ["zmq", {"endpoints": {"monitor_in": {"endpoint": "tcp://host.docker.internal:5555",
+      "type": "sub"}, "monitor_out": {"endpoint": "tcp://host.docker.internal:5556",
+      "type": "sub"}, "job_orchestrator": {"endpoint": "tcp://host.docker.internal:5557",
+      "type": "pub"}}}]}}'
