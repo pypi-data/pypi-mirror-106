@@ -1,0 +1,8 @@
+hypeshed/common.py,sha256=uZ-wcfxdEy1M02aO4X6qJtezrm60Us61ugjifcgWF1E,144
+hypeshed/trakt/common.py,sha256=g-SZwfPhswgsLxhn2rEZCqatV5xcH6BtnwSreNOIcHk,490
+hypeshed/trakt/headers.py,sha256=H7SviAbmQg__raaCR-5VqSikawAOd88g4X_LZKm5XsA,339
+hypeshed/trakt/users.py,sha256=NOfDFYBxolAu3aUDXbRRWQ5hf8xQ0vtN1Q-DTwKue8E,563
+hypeshed-0.0.2.dist-info/LICENSE,sha256=jDxVZSll0JnJa5b91kf8SDGbydPsWDP4jWzeKBLF_Zo,1087
+hypeshed-0.0.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+hypeshed-0.0.2.dist-info/METADATA,sha256=ABr_SJmvELgZfJNy9kCM-RZfxHT6AA7NK8ZNeuAdeE0,355
+hypeshed-0.0.2.dist-info/RECORD,,
