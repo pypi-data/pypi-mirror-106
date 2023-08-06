@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: osu-tools
+Version: 0.1.4
+Summary: A python wrapper for working with the osu! API, databases and file formats
+Home-page: https://github.com/largereptile/osutools
+Author: largereptile
+Author-email: harry@barold.dev
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: pyttanko (>=2.1.0)
+
+# python wrapper for working with the osu! API, databases and file formats
+
+todo:
+- finish readme
+- implement v2
+
+
