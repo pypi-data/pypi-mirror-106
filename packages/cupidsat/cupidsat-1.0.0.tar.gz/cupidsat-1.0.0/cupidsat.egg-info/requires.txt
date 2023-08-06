@@ -1,0 +1,7 @@
+numpy
+spacepy
+scipy
+datetime
+pytz
+matplotlib
+struct
