@@ -1,0 +1,7 @@
+[console_scripts]
+reportWaysonQi.shell = reportWaysonQi:shell
+reportWaysonQi.web = reportWaysonQi:web
+
+[pytest11]
+reportWaysonQi = reportWaysonQi.PyTestReportPlug
+
