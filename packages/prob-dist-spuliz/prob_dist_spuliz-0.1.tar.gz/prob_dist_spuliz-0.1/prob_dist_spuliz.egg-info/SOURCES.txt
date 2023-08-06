@@ -1,0 +1,10 @@
+setup.py
+prob_dist_spuliz/Binomialdistribution.py
+prob_dist_spuliz/Gaussiandistribution.py
+prob_dist_spuliz/Generaldistribution.py
+prob_dist_spuliz/__init__.py
+prob_dist_spuliz.egg-info/PKG-INFO
+prob_dist_spuliz.egg-info/SOURCES.txt
+prob_dist_spuliz.egg-info/dependency_links.txt
+prob_dist_spuliz.egg-info/not-zip-safe
+prob_dist_spuliz.egg-info/top_level.txt
