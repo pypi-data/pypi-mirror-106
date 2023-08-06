@@ -1,0 +1,9 @@
+flatstar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flatstar/draw.py,sha256=h5CoTc8kXuE4Ccl5yTlQSx192KQH0W-n9WZaCWZmHGk,14559
+flatstar/limb_darkening.py,sha256=Fw_PQD10mI03q0kgOoM8tFelLGudJ826aNazkX3l3lM,6682
+flatstar/utils.py,sha256=Mep-sAWx2bLbB6izRSf5NzpFiApqjT-rJSZRvD4PBHI,3174
+flatstar-0.2.1a0.dist-info/LICENSE,sha256=bfIVHo10GacD289eguVQe27Za8B1N25NhxqrugGRLz8,1076
+flatstar-0.2.1a0.dist-info/METADATA,sha256=RljYmeaVxkzEJU61Pto-283Op1w7KgRGAn1j3nQ9vU0,528
+flatstar-0.2.1a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+flatstar-0.2.1a0.dist-info/top_level.txt,sha256=jN9bDWM1T0UBmGQbEfzcxhhMZ39VYgB89P1sl3Uehj8,9
+flatstar-0.2.1a0.dist-info/RECORD,,
