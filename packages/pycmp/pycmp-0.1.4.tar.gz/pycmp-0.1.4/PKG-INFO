@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pycmp
+Version: 0.1.4
+Summary: Compiler MATLAB to Python
+License: MIT
+Author: Artem Eroshev
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ply (==3.11)
+Requires-Dist: setuptools (>=56.2.0,<57.0.0)
+Requires-Dist: wheel (>=0.36.2,<0.37.0)
