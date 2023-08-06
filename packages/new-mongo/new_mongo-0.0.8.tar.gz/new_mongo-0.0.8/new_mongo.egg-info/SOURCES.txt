@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+new_mongo/__init__.py
+new_mongo/mongo.py
+new_mongo.egg-info/PKG-INFO
+new_mongo.egg-info/SOURCES.txt
+new_mongo.egg-info/dependency_links.txt
+new_mongo.egg-info/requires.txt
+new_mongo.egg-info/top_level.txt
