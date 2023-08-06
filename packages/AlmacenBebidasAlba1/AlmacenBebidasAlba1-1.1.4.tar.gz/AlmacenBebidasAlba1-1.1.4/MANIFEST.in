@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Name: AlmacenBebidasAlba/Almacen
+Bean: True
+
+Name: AlmacenBebidasAlba/Bebida
+Bean: True
