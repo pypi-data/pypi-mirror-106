@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cdk-lambda-subminute
+Version: 0.1.2
+Summary: projen-statemachine-example
+Home-page: https://github.com/HsiehShuJeng/projen-simple.git
+Author: Shu-Jeng Hsieh
+License: Apache-2.0
+Project-URL: Source, https://github.com/HsiehShuJeng/projen-simple.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aws-cdk.aws-iam (<2.0.0,>=1.105.0)
+Requires-Dist: aws-cdk.aws-lambda-nodejs (<2.0.0,>=1.105.0)
+Requires-Dist: aws-cdk.aws-lambda (<2.0.0,>=1.105.0)
+Requires-Dist: aws-cdk.aws-logs (<2.0.0,>=1.105.0)
+Requires-Dist: aws-cdk.aws-stepfunctions-tasks (<2.0.0,>=1.105.0)
+Requires-Dist: aws-cdk.aws-stepfunctions (<2.0.0,>=1.105.0)
+Requires-Dist: aws-cdk.core (<2.0.0,>=1.105.0)
+Requires-Dist: constructs (<4.0.0,>=3.2.27)
+Requires-Dist: jsii (<2.0.0,>=1.29.0)
+Requires-Dist: publication (>=0.0.3)
+
+# cdk-lambda-subminute
+
+This construct creates a state machine that can invoke a Lambda function per time unit which can be less than one minute. You only need to craft a Lambda function and then assign it as an argument into the construct. An example is included.
+
+https://docs.aws.amazon.com/cdk/api/latest/docs/aws-s3-assets-readme.html#asset-bundling
+https://github.com/aws/aws-cdk/issues/8589
+https://github.com/aws/aws-cdk/issues/14516
+https://github.com/aws/aws-cdk/issues/11914
+
+https://github.com/aws/aws-cdk/blob/master/packages/%40aws-cdk/core/lib/asset-staging.ts
+
+
