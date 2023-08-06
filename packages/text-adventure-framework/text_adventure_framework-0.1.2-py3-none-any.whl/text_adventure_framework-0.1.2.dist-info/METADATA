@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: text-adventure-framework
+Version: 0.1.2
+Summary: A simple text adventure building framework
+Home-page: https://github.com/caesurus/text_adventure
+Author: Caesurus
+Author-email: caesurus+textadventure@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/caesurus/text_adventure/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# text-adventure-framework
+
+
+## Why create this?
+My son wanted to program a text adventure game using python. 
+I didn't find any frameworks in pure python that would make that easy. 
+So decided to roll my own. It's rudimentary, but functional. 
+
+## Install:
+`pip install text-adventure-framework`
+
+Or
+
+`pip install git+https://github.com/Caesurus/text_adventure.git`
+
+
+## Usage:
+```python
+from text_adventure import TextAdventureEngine 
+e = TextAdventureEngine()
+e.add_room(name='starting room', description='you wake up in a starting room')
+e.add_room(name='room 1', description='room after leaving start')
+e.add_room(name='finish', description='outside world', is_end=True)
+
+e.connect_rooms(source='starting room', destination='room 1', direction='left', description='you see a door to your left')
+e.connect_rooms(source='room 1', destination='finish', direction='forward', description='the exit is right in front of you')
+
+e.start()
+```
+
+
