@@ -1,0 +1,13 @@
+
+[:python_version < "3.7"]
+contextvars
+
+[all]
+requests
+ua-parser
+
+[http]
+requests
+
+[ua]
+ua-parser
