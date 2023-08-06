@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: mokkari
+Version: 0.0.1
+Summary: Python wrapper for Metron API 
+Home-page: https://github.com/bpepple/mokkari
+Author: Brian Pepple
+Author-email: bdpepple@gmail.com
+License: GPLv3
+Keywords: comics,comic,metadata
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: marshmallow
+Requires-Dist: requests
+Requires-Dist: ratelimit
+
+=======
+Mokkari
+=======
+
+Quick Description
+-----------------
+A python wrapper for the metron.cloud_ API.
+
+.. _metron.cloud: https://metron.cloud
+
+License
+-------
+
+This project is licensed under the `GPLv3 License <LICENSE>`_.
+
