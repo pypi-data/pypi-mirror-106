@@ -1,0 +1,18 @@
+empty = 'https://docs.google.com/forms/d/e/1FAIpQLSdeIEIFDbOXxCKvvXWNeQjBCJ-XDwC7Aad8lKWMwN1ZoKt1dg/viewform'
+pages = 'https://docs.google.com/forms/d/e/1FAIpQLSc-2WnDme4McueVjfA1M2-juMsK6FRASXkrKUKfuqELI6zxbg/viewform'
+elements = 'https://docs.google.com/forms/d/e/1FAIpQLSfAYJ1FI4M7COg5nNyI-Y-CbTK4DMbkfRc9EroneZR4tYyB9w/viewform'
+non_input = 'https://docs.google.com/forms/d/e/1FAIpQLSeXfr-FrYaPdpEf2q5QUxQbG2nxf_01dYtx1DV0zIaSoELZ8A/viewform'
+text = 'https://docs.google.com/forms/d/e/1FAIpQLSd2sLe10NGoH87s9oEg2ciZcrsReVqBNMDrF-J8ME_E-HJmTw/viewform'
+required = 'https://docs.google.com/forms/d/e/1FAIpQLSdo8N95v2x-w3HO3wMxY9ig6iyJ85_0kRc8FDxilzIRt0fXRA/viewform'
+radio = 'https://docs.google.com/forms/d/e/1FAIpQLSfWyvCdlQgXN6a0b_C9XwwQkN7VtTg7ZJbtkzNtqqTf5DZUzw/viewform'
+dropdown = 'https://docs.google.com/forms/d/e/1FAIpQLSdyrzcq82evkSJEeOZZrTlqadDuaBkq5inCH4Rh8RvDxRZFMg/viewform'
+checkboxes = 'https://docs.google.com/forms/d/e/1FAIpQLSerlqPcR6sCjofXaZDB75GeUhYp3MvRdkOkXiRoKW89w3pWFA/viewform'
+scale = 'https://docs.google.com/forms/d/e/1FAIpQLSeooVvSShl3x_JI6u1Q_jOdTE401Bs9yOk_KnN5Hxx5zR1eZw/viewform'
+grid = 'https://docs.google.com/forms/d/e/1FAIpQLSfEyZAIIdZBgpDkqSXt_Kvj9frYEsQl1O0nnI0-uRpv3UQ8EA/viewform'
+date = 'https://docs.google.com/forms/d/e/1FAIpQLSf5G8aDi8DeHoVBsqQBIL3jwh_r8HhUVmuHajT6aSH1UhhGFw/viewform'
+time = 'https://docs.google.com/forms/d/e/1FAIpQLSd2kWsalVUk_Qj5qaIsAgHzPtvz2rqQYXabft813gzR_R6Weg/viewform'
+
+text_validation = 'https://docs.google.com/forms/d/e/1FAIpQLSeccdCGBBtuY6zZisaC8uFkj3o_IH5Vsf1Im4V5f81XXwyV-Q/viewform'
+grid_validation = 'https://docs.google.com/forms/d/e/1FAIpQLSchZEb9J3isIraPyQR41MM4J0mVw0J236EAy4qrAWEOaM5phA/viewform'
+
+yt_url = 'https://youtu.be/yc2FM3uHxQc'
