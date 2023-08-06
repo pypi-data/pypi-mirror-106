@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "understory-term"
+version = "0.0.2"
+description = "Tools for metamodern terminal development"
+authors = ["Angelo Gladding <angelo@lahacker.net>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+packages = [
+    { include = "understory" }
+]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/canopy/understory-term"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+argcomplete = "^1.12.3"
+understory-code = "^0.0.2"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.23.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
