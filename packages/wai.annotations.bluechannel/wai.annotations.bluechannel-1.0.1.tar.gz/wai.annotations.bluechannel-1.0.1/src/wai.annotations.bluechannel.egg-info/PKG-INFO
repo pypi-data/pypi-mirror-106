@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: wai.annotations.bluechannel
+Version: 1.0.1
+Summary: Blue-channel image segmentation format plugins for wai.annotations.
+Home-page: https://github.com/waikato-datamining/wai-annotations-bluechannel
+Author: Corey Sterling
+Author-email: coreytsterling@gmail.com
+License: Apache License Version 2.0
+Description: Blue-channel image segmentation format plugins for wai.annotations.
+        
+        Changelog
+        =========
+        
+        1.0.1 (2021-05-20)
+        ------------------
+        
+        - Fixed build.
+        
+        1.0.0 (2021-05-20)
+        ------------------
+        
+        - Initial release after separation from wai.annotations main repo.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
