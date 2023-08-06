@@ -1,0 +1,45 @@
+Change Log
+==========
+
+0.0.1 (13/03/2021)
+-------------------
+- First Release
+
+0.0.2 (24/03/2021)
+-------------------
+- Added additional functionality
+
+0.0.3 (25/03/2021)
+-------------------
+- Third Release
+
+0.0.4 (25/03/2021)
+-------------------
+- Fourth Release
+
+0.0.5 (25/03/2021)
+-------------------
+- Added Pin class
+
+0.0.6 (25/03/2021)
+-------------------
+- Refactored code
+- Removed Pin class
+- Added Random-Word library
+
+0.0.7 (25/03/2021)
+-------------------
+- Included PyYAML as a requirement (forgot to add it)
+
+0.0.8 (25/03/2021)
+-------------------
+- Fixed bug for Memorable passwords
+
+0.0.9 (3/04/2021)
+-------------------
+- Added shuffling for simple and complex passwords in the generate method
+
+0.1.0 (22/05/2021)
+-------------------
+- Removed shuffling (string_utils) and random_word library.
+- Changed to using urllib.request instead of random_word
