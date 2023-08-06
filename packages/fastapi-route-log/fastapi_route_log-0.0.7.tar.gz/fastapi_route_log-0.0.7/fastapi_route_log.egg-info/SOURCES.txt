@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+fastapi_route_log/__init__.py
+fastapi_route_log/_version.py
+fastapi_route_log/log_request.py
+fastapi_route_log.egg-info/PKG-INFO
+fastapi_route_log.egg-info/SOURCES.txt
+fastapi_route_log.egg-info/dependency_links.txt
+fastapi_route_log.egg-info/not-zip-safe
+fastapi_route_log.egg-info/requires.txt
+fastapi_route_log.egg-info/top_level.txt
