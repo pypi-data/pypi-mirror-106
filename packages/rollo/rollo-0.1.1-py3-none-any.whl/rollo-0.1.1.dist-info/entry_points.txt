@@ -1,0 +1,3 @@
+[console_scripts]
+arfc = rollo.__main__:main
+
