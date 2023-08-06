@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+PilAnimate/__init__.py
+PilAnimate.egg-info/PKG-INFO
+PilAnimate.egg-info/SOURCES.txt
+PilAnimate.egg-info/dependency_links.txt
+PilAnimate.egg-info/requires.txt
+PilAnimate.egg-info/top_level.txt
