@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+minisql.egg-info/PKG-INFO
+minisql.egg-info/SOURCES.txt
+minisql.egg-info/dependency_links.txt
+minisql.egg-info/not-zip-safe
+minisql.egg-info/top_level.txt
