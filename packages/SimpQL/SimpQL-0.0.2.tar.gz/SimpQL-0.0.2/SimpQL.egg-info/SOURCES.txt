@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+SimpQL.egg-info/PKG-INFO
+SimpQL.egg-info/SOURCES.txt
+SimpQL.egg-info/dependency_links.txt
+SimpQL.egg-info/top_level.txt

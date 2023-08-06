@@ -1,0 +1,1 @@
+I wanted an easier way to call MySQL... Nuff said
