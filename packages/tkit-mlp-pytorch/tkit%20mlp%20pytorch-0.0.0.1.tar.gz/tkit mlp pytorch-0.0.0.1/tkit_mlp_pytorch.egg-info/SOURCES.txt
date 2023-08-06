@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+test/test.py
+tkit_mlp_pytorch/__init__.py
+tkit_mlp_pytorch/mlp_pytorch.py
+tkit_mlp_pytorch.egg-info/PKG-INFO
+tkit_mlp_pytorch.egg-info/SOURCES.txt
+tkit_mlp_pytorch.egg-info/dependency_links.txt
+tkit_mlp_pytorch.egg-info/requires.txt
+tkit_mlp_pytorch.egg-info/top_level.txt
