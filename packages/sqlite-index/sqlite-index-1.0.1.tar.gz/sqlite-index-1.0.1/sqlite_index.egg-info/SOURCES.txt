@@ -1,0 +1,8 @@
+README.rst
+setup.py
+sqlite_index/__init__.py
+sqlite_index/sqlite_index.py
+sqlite_index.egg-info/PKG-INFO
+sqlite_index.egg-info/SOURCES.txt
+sqlite_index.egg-info/dependency_links.txt
+sqlite_index.egg-info/top_level.txt
