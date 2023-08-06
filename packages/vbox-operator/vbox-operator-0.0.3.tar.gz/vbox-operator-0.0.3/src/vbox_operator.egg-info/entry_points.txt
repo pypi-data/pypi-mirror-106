@@ -1,0 +1,3 @@
+[console_scripts]
+vbox-operator = vbox_operator.__main__:main
+

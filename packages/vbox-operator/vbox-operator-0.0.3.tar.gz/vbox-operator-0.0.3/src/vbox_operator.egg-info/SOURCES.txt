@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/vbox_operator/__init__.py
+src/vbox_operator/__main__.py
+src/vbox_operator/commands_dict.py
+src/vbox_operator/menu.py
+src/vbox_operator.egg-info/PKG-INFO
+src/vbox_operator.egg-info/SOURCES.txt
+src/vbox_operator.egg-info/dependency_links.txt
+src/vbox_operator.egg-info/entry_points.txt
+src/vbox_operator.egg-info/requires.txt
+src/vbox_operator.egg-info/top_level.txt
