@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: chain-factory
+Version: 0.0.1
+Summary: A framework to build and orchestrate workflows
+Home-page: https://github.com/llxp/chain-factory
+Author: Lukas Lüdke
+Author-email: info@lukas-l.de
+License: GPL-3.0-or-later
+Project-URL: Bug Tracker, https://github.com/llxp/chain-factory/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Flask
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# chain-factory-framework
+The Framework Repository of the Chain Factory Project
+
+
