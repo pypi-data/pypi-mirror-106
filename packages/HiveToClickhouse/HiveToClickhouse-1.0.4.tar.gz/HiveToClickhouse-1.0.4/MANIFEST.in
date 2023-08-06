@@ -1,0 +1,6 @@
+
+include *.md
+include requirements.txt
+
+# Include the data files, 如果./data目录下有图片或其它文件等，可以把下一行的注释去掉
+# recursive-include data *

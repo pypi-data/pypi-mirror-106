@@ -1,0 +1,20 @@
+Metadata-Version: 1.0
+Name: HiveToClickhouse
+Version: 1.0.4
+Summary: hive sql 转clickhouse sql
+Home-page: UNKNOWN
+Author: iyourcar
+Author-email: xiongrencong@youcheyihou.com
+License: UNKNOWN
+Description: hive sql 转 clickhouse sql
+        --------------------------
+        
+        使用方法： 
+        -----------
+        
+        \`\`\`ruby import HiveToClickhouse
+        
+        if **name** == '**main**\ ': hive\_sql = '' news\_sql =
+        HiveToClickhouse.execute(hive\_sql)
+        
+Platform: UNKNOWN

@@ -1,0 +1,12 @@
+HiveToClickhouse.py
+MANIFEST.in
+README.md
+README.rst
+requirements.txt
+setup.py
+HiveToClickhouse.egg-info/PKG-INFO
+HiveToClickhouse.egg-info/SOURCES.txt
+HiveToClickhouse.egg-info/dependency_links.txt
+HiveToClickhouse.egg-info/not-zip-safe
+HiveToClickhouse.egg-info/requires.txt
+HiveToClickhouse.egg-info/top_level.txt
