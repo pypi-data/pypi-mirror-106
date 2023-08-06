@@ -1,0 +1,14 @@
+mqrdr/__init__.py,sha256=8ulae7_QOKXHBzBBUXJVss6uWV73IVi30RY4TR3xCvc,198
+mqrdr/accounts.py,sha256=OxCFGsKMK8CGFYn8qw_fUu3Nihe-Omv0nHR3tLYojEM,2479
+mqrdr/articles.py,sha256=6dMks5q3SgMK-z_n84hgnpi1oCoj4-GyZS60QOJzG5I,9083
+mqrdr/authors.py,sha256=4O-FYJyZfW3SrqaOiX0ICmSx6eitvFqlwvqj8jPz5uI,1095
+mqrdr/file_utils.py,sha256=8rdtdIsm6FUO7wIJwdgC0MuDYZg46G-WVBuQB8zoqkI,2518
+mqrdr/projects.py,sha256=czjLwRn6Cped85yj0JPwxCJHDCGVfjf8oeGCZrO7Gtc,5282
+mqrdr/settings.py,sha256=TWGV4GgmbFSF8ReHJBXlMABo83Jqg7mcEfowEfm2jTQ,40
+mqrdr/utils.py,sha256=_kLnYOk9l-Qp_CobOc3fbHQmbqGsYmXIE7l_eAG3nao,787
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mqrdr-0.1.0.dist-info/METADATA,sha256=kMexk_L6sJp1uJX37rGD5OhXEvqUPOjqgjqTq5tFCRA,724
+mqrdr-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mqrdr-0.1.0.dist-info/top_level.txt,sha256=8HU46z0caw648oVgRUBQnqMs0opslj4jGeN1QmdXcpo,12
+mqrdr-0.1.0.dist-info/RECORD,,
