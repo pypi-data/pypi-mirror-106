@@ -1,0 +1,9 @@
+selee/__init__.py,sha256=k-ctqPHM9GfyHca2axILJa-fgFWT63yZYan5F9fWeb8,124
+selee/selee_module.py,sha256=qFYsjtNJw8kkVIPaDrXPPK7XTt4JL2znbO9N9ZBzSiU,659
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit_test.py,sha256=jvDZUQGM5PTnH1dCDAc5vVV1Gs5RhLAUYop_d38O-Nk,1091
+selee-0.1.dist-info/LICENSE,sha256=uiFrY18qyYn0ytcvWIabmV2Edq2bKkxaLAzOAkfTEek,1069
+selee-0.1.dist-info/METADATA,sha256=yiT413cKIP-_88bchAOXHjMXcBAhKVmOqBrSKNVGFz4,1512
+selee-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+selee-0.1.dist-info/top_level.txt,sha256=mcqIO1kNpBx457wJEvRu9hnNDlIiH9_xCN8ybx3DNTU,12
+selee-0.1.dist-info/RECORD,,
