@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        fqs=cli:cli
+    
