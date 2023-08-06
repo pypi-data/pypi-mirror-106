@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    	<script src="settings.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>ppt-control</title>
+    </head>
+    <body onload="initSettings();">
+
+    	<div id="img_container">
+
+        	<div id="current_div">
+        		<h1>Current slide</h1>
+        		<img id="current_img" src="/black.jpg" />
+        	</div>
+
+        	<div id="next_div">
+        		<h1>Next slide</h1>
+        		<img id="next_img" src="/black.jpg" />
+        	</div>
+
+        </div>
+
+		<div id="controls_container">
+			<div id="controls_container_inner">
+        		<p>
+        			<img class="icon" id="first" src="icons/first.svg" />
+        			<img class="icon" id="prev" src="icons/left.svg" />
+        			<img class="icon" id="next" src="icons/right.svg" />
+        			<img class="icon" id="last" src="icons/last.svg" />
+                                <span id="count"><span id="slide_label">Current: </span><input type="text" id="current"></input>/<span id="total">?</span></span>
+        			<button id="black">Black</button>
+        			<button id="white">White</button>
+        		</p>
+
+        		<input type="checkbox" checked="true" id="show_current">Show current slide</input>
+        		<input type="checkbox" checked="true" id="show_next">Show next slide</input>
+        		<input type="checkbox" checked="true" id="shortcuts">Keyboard shortcuts</input>
+
+        		<p class="status_text">Disconnected</p>
+        	</div>
+        </div>
+
+		<img id="preload_img" style="display: none;" />
+    	<script src="ppt-control.js"></script>
+
+    </body>
+</html>
