@@ -1,0 +1,14 @@
+pareidolia/__init__.py,sha256=JnP_OzNbe7CVL1dX7SEZhCn4Qi77bhhvOUYZaRmNuiA,170
+pareidolia/__main__.py,sha256=b2BIMrZOziNAQZG_eFslVDa6BpHEWU-WJKhhqUEM_lI,123
+pareidolia/detection.py,sha256=T4_HSt9KvZsYG-mKvAtuSbztNTI8fijH8KcUkyFcPwI,5590
+pareidolia/hic_utils.py,sha256=kDPQO8nv1IVBmF6GqwXLpFqzFiUqz4uPmMkC4UcQZlQ,22487
+pareidolia/io.py,sha256=7hC95f0um_Mz7P2W8vh_bbCqYA9V3CLPmtSB6k-45Zw,1032
+pareidolia/preprocess.py,sha256=1gwAxLLuE6LRZh56hqPckBdvUs96LoZbE3Xz9TV6Hj0,4900
+pareidolia/stats.py,sha256=bUedI_dx2eTxSGox0yrTmlXIG4FJqkNHhAB3kd4vcpI,2764
+pareidolia/cli/__init__.py,sha256=xck1V9Ww92ECH9SLDyXx_c2CmKMbY_jS6KAFmIKY6q8,4767
+pareidolia-0.5.0.dist-info/LICENSE,sha256=rRE4ctugDdomr-66uDQNxDdFXUQzcPr5rx8mBQHEm8I,1085
+pareidolia-0.5.0.dist-info/METADATA,sha256=-sey_GeqIDrlRsq30ya3ryjGCWZgb5YnfQLCIvIjSm4,3094
+pareidolia-0.5.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pareidolia-0.5.0.dist-info/entry_points.txt,sha256=-qJM6xDV_yPTXxkGMaLR5B0-o0LcmtNfv87wQzsNHHU,62
+pareidolia-0.5.0.dist-info/top_level.txt,sha256=aOhpbdcxaYNI1VtcN9b6PjqoUjRF2l5Th-0Tvx34LNg,11
+pareidolia-0.5.0.dist-info/RECORD,,
