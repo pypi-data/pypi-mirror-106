@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: semantic-search
+Version: 0.0.0
+Summary: Make semantic search easier
+Home-page: https://github.com/bhavsarpratik/semantic-search
+Author: Pratik Bhavsar
+Author-email: pratik.a.bhavsar@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: sentence-transformers (>=1.1)
+
+
+# semantic-search
+Behold, semantic-search, built over sentence-transformers to make it easy for search engineers to evaluate, optimise and deploy models for search.
+
+
