@@ -1,0 +1,16 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+awsdumplogs.egg-info/PKG-INFO
+awsdumplogs.egg-info/SOURCES.txt
+awsdumplogs.egg-info/dependency_links.txt
+awsdumplogs.egg-info/entry_points.txt
+awsdumplogs.egg-info/not-zip-safe
+awsdumplogs.egg-info/requires.txt
+awsdumplogs.egg-info/top_level.txt
+dumplogs/__init__.py
+dumplogs/_version.py
+dumplogs/bin.py
+dumplogs/test/__init__.py
