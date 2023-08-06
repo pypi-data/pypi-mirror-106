@@ -1,0 +1,12 @@
+*.DS_Store
+/TODOs.md
+/venv
+/env
+/.idea
+__pycache__
+xsd/xsdvi.log
+.eggs
+*.egg-info/
+
+docs/build
+docs/docenv
