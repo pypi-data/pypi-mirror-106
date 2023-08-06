@@ -1,0 +1,39 @@
+[project]
+name = "couple"
+version = "0.1.0"
+description = "For orchestration using AWS Step Functions"
+dependencies = [ "aws-cdk.core", "aws-cdk.aws_events", "aws-cdk.aws_events_targets", "aws-cdk.aws_lambda_python", "aws-cdk.aws_stepfunctions_tasks",]
+requires-python = ">=3.8"
+dynamic = [ "classifiers",]
+keywords = [ "orchestration", "aws", "cloud",]
+[[project.authors]]
+name = "Stephan Fitzpatrick"
+email = "knowsuchagency@gmail.com"
+
+[build-system]
+requires = [ "pdm-pep517",]
+build-backend = "pdm.pep517.api"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/knowsuchagency/composer"
+Repository = "https://github.com/knowsuchagency/composer"
+
+[tool.pdm.scripts]
+synth = "cdk synth"
+deploy = "cdk deploy --verbose"
+destroy = "cdk destroy"
+test-publish = "twine upload --repository testpypi dist/*"
+shell = "set -x\npdm build\npdm run test-publish\npdm run publish\n"
+
+[tool.pdm.dev-dependencies]
+dev = [ "loguru~=0.5",]
+
+[tool.pdm.scripts._]
+env_file = ".env"
+
+[tool.pdm.scripts.publish]
+
+[tool.pdm.scripts.pub]
