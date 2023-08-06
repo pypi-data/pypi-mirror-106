@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: app-icon-creator
+Version: 3
+Summary: A simple app icon creator
+Home-page: https://github.com/bresume/app_icon_creator
+Author: Behron Georgantas
+Author-email: behronsresume@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: pillow
+
+UNKNOWN
+
+
