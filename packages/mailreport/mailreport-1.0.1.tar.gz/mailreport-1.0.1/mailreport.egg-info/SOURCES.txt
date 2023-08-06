@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+mailreport/__init__.py
+mailreport/mailreport.py
+mailreport.egg-info/PKG-INFO
+mailreport.egg-info/SOURCES.txt
+mailreport.egg-info/dependency_links.txt
+mailreport.egg-info/requires.txt
+mailreport.egg-info/top_level.txt
