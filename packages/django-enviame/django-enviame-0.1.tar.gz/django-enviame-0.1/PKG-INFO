@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: django-enviame
+Version: 0.1
+Summary: Django Enviame Integration
+Home-page: https://gitlab.com/linets/ecommerce/oms/integrations/oms-enviame/
+Author: Linets Development Team
+Author-email: dteam@linets.cl
+License: MIT
+Description: # lib-example
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7

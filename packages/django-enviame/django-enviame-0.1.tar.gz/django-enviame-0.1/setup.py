@@ -1,0 +1,22 @@
+import os
+from setuptools import setup
+
+here = os.path.abspath(os.path.dirname(__file__))
+README = open(os.path.join(here, 'README.rst')).read()
+
+setup(
+    name='django-enviame',
+    version='0.1',
+    packages=['enviame'],
+    description='Django Enviame Integration',
+    long_description=README,
+    author='Linets Development Team',
+    author_email='dteam@linets.cl',
+    url='https://gitlab.com/linets/ecommerce/oms/integrations/oms-enviame/',
+    license='MIT',
+    python_requires=">=3.7",
+    install_requires=[
+        'Django>=3',
+        'requests>=2.25.1'
+    ]
+)
