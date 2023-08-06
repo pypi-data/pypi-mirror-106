@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+tests/__init__.py
+tests/test_engine.py
+tests/test_room.py
+text_adventure/__init__.py
+text_adventure/engine.py
+text_adventure/room.py
+text_adventure_framework.egg-info/PKG-INFO
+text_adventure_framework.egg-info/SOURCES.txt
+text_adventure_framework.egg-info/dependency_links.txt
+text_adventure_framework.egg-info/top_level.txt
