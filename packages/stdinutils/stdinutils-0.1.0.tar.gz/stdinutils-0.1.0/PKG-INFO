@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: stdinutils
+Version: 0.1.0
+Summary: 
+Author: 4thel00z
+Author-email: 4thel00z@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# stdinutils
+
+## Motivation
+
+Bash scripts are nice and all but they are annoying to deal with for more complicated matters.
+Especially there is no nice way to split strings (!) and perform operations on the parts...
+
+## Installation
+
+```
+pip install stdinutils
+```
+
+## Usage
+
+TBD
+
+## License
+
+This project is licensed under the GPL-3 license.
+
