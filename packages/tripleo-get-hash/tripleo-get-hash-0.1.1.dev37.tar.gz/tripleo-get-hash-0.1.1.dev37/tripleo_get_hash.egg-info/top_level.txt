@@ -1,0 +1,2 @@
+test
+tripleo_get_hash
