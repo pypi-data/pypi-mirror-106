@@ -1,0 +1,15 @@
+README.md
+setup.py
+startrek/__init__.py
+startrek/dock.py
+startrek/docker.py
+startrek/gate.py
+startrek/runner.py
+startrek/ship.py
+startrek/stardocker.py
+startrek/stargate.py
+startrek/starship.py
+startrek.egg-info/PKG-INFO
+startrek.egg-info/SOURCES.txt
+startrek.egg-info/dependency_links.txt
+startrek.egg-info/top_level.txt
