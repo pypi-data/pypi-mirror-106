@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pynviread
+Version: 0.2
+Summary: GPU Accelerated video decoder using FFMPEG 
+Home-page: https://github.com/JuanFMontesinos/PyNVIdeoReader
+Author: Juan Montesinos
+Author-email: jfmontgar@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+
+UNKNOWN
+
+
