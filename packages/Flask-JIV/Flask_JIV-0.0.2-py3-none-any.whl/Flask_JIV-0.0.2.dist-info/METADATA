@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Flask-JIV
+Version: 0.0.2
+Summary: Validates JSON request body for flask endpoints
+Home-page: https://github.com/rez4mt/flask-jiv
+Author: Reza Motlagh
+Author-email: rmoti49@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Flask (>=1.1.2)
+Requires-Dist: flask-inputs (>=0.3.0)
+Requires-Dist: jsonschema (>=3.2.0)
+Requires-Dist: future (>=0.18.2)
+
+UNKNOWN
+
+
