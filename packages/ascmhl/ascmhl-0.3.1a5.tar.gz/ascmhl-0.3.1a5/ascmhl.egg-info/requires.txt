@@ -1,0 +1,5 @@
+Click>=7.0
+lxml>=4.6.2
+pathspec>=0.8.0
+xattr>=0.9.6
+xxhash>=2.0.0
