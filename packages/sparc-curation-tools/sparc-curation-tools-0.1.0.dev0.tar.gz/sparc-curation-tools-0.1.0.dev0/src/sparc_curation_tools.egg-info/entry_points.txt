@@ -1,0 +1,4 @@
+[console_scripts]
+plot-annotation = plot_annotation:main
+scaffold-annotations = scaffold_annotations:main
+
