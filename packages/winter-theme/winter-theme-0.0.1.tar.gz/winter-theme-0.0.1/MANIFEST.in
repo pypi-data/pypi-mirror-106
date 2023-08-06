@@ -1,0 +1,2 @@
+recursive-include winter_theme *
+global-exclude *.py[cod]
