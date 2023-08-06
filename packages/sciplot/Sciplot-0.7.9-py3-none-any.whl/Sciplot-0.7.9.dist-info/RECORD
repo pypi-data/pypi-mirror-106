@@ -1,0 +1,17 @@
+README.md,sha256=8tS6HKr6VERqjc7HxwwHvSg4pmG7yDgQiA3owHK1RGQ,7697
+sciplot/__init__.py,sha256=g8W-apFHQVVT66oVO8E5WN5vzPvoY6vL9lkYrG5RBqo,26
+sciplot/main.py,sha256=vfDrplTFldToM7M-xrgd8bY_d7q59aAitEFsrMWYLZo,6408
+sciplot/parameters/basic.yml,sha256=TPbhV7Tb1BSqqJk6TVWyCv-tYzRlmMl5Ng6yiizMhQY,877
+sciplot/parameters/colors.yml,sha256=oYjQ-xX8gUGuWSSZTuZ2tt6TVUS9x7gVhwlKi_BLgiU,168
+sciplot/parameters/colors_dark.yml,sha256=Ox4pGaDWWbSiJ_X922I7fFZlpvaZXJ6WF1oERhl5oEk,199
+sciplot/parameters/colors_light.yml,sha256=FzHMnjUCLY0IHn8pQfvfjEOSoEygfLVdSPTJvhjeT54,199
+sciplot/parameters/fonts_sans_serif.yml,sha256=SWxLWXE0ltFf3hDJSAspSYv_ZFjBk_kYU0NBiqWuNAs,174
+sciplot/parameters/fonts_serif.yml,sha256=88y_cxKlklhKKrvW6ni5srth2Qsi1JZLKANVfr0sL1A,141
+sciplot/parameters/latex_sans_serif.yml,sha256=9hu_wu6DdEkyVO2mqJVej83spKIM8zeFmjKiV32h1GQ,553
+sciplot/parameters/latex_serif.yml,sha256=cu6UgTbxsbB9u3UTxuyWI__y5NJa9NcET6WqT4UFvrU,512
+sciplot/parameters/typesetting.yml,sha256=iGGudAEEBbXdEcBTN-HwLyqtX783GY_v8Ch1cZJuMr4,522
+Sciplot-0.7.9.dist-info/LICENSE.txt,sha256=VSquYVwGy6RuXDYtBJyVFbIT90F6goPEkUlHmW9Lgg4,1070
+Sciplot-0.7.9.dist-info/METADATA,sha256=dEZZiunWXpkdmSeJc1sqwXDcdh5pB4y2EV1lp1UcnUg,8418
+Sciplot-0.7.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Sciplot-0.7.9.dist-info/top_level.txt,sha256=A_EEeaRAD1t5tO94rMeGAmENWeR0tAgTBRdKmYH29Js,8
+Sciplot-0.7.9.dist-info/RECORD,,
