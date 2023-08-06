@@ -1,0 +1,13 @@
+fastcrc/__init__.py,sha256=lc2VjpG0jubR7seDANCqwSdHPuaKlW95gnKLZth20NY,61
+fastcrc/__version__.py,sha256=YRPaoN48GQAmwuAmIj13ax7LUh7AoX-dD24siXEWhdI,297
+fastcrc/crc16.py,sha256=rRnCEzYlqojQNgsQqN6hnYfiPrI0FuziWgIUld7QWMs,12550
+fastcrc/crc32.py,sha256=_gMdfbe7HldTULuZrIphaNXfqF7bGLjArM_BrTpdzjY,4675
+fastcrc/crc64.py,sha256=Jsl-y8-s5dKot9Al2W2l1DOeh92yudFdEsctOVkL7t0,1768
+fastcrc/fastcrc.cp39-win_amd64.pyd,sha256=msyztWggIirm_8qAS8OcYz45czTA-AGAC6NigwzpveM,350720
+fastcrc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastcrc/utils.py,sha256=GCP9Csmt_bm9cbWfcnjog90znBAdOQtPAFlwSKWQpwU,251
+fastcrc-0.1.0.dist-info/LICENSE,sha256=PtZl-2BRiueRuAXYWBNPBni3xTVJ6ph27KmyEXDJLaE,1085
+fastcrc-0.1.0.dist-info/METADATA,sha256=Fk_ztJIMRNW02-QLzrt6eJGFicVvnYhlTePfpWWKS2c,1880
+fastcrc-0.1.0.dist-info/WHEEL,sha256=jr7ubY0Lkz_yXH9FfFe9PTtLhGOsf62dZkNvTYrJINE,100
+fastcrc-0.1.0.dist-info/top_level.txt,sha256=NUZ5LS8kE8eBdG8YhMrBpsi1IAXHHE5U4u4gK5fv-3g,8
+fastcrc-0.1.0.dist-info/RECORD,,
