@@ -1,0 +1,3 @@
+[console_scripts]
+prometheus-borgmatic-exporter = prometheus_borgmatic_exporter:main
+
