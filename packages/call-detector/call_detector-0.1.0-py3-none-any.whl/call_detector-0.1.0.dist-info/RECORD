@@ -1,0 +1,12 @@
+call_detector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+call_detector/__main__.py,sha256=eVZq2Kc8gx3GFYz9_W_5U7cXRG-QCpxGmwexczYj4tI,2332
+call_detector/camera.py,sha256=U4N8p_qOenWP1S2HNxWi6xr2quD2wS9DWmhvkPBbG_c,2004
+call_detector/microphone.py,sha256=SSlUXJg8TWqzmp40gdtekKFvLljzOTfno6BbgblLWLM,1532
+call_detector/publishers.py,sha256=pcyh0sZdK2dy32GfIcwZSC6Mkmg-W_yiQ6xoSK0MVWg,2939
+call_detector/timer.py,sha256=rG4V9jFv8X51pdzuCeuiao_57ArXpTIk44GZ8q4AF8M,349
+call_detector-0.1.0.dist-info/METADATA,sha256=FQU4Wd79YgPqmjnzoXRHWmhxY9FY6PZqooG3I2BGSRk,851
+call_detector-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+call_detector-0.1.0.dist-info/entry_points.txt,sha256=pLoCjTA26IlAQUId6l5tOx4c0pfoIvmBjreHKmGhoPE,61
+call_detector-0.1.0.dist-info/top_level.txt,sha256=WiC1PyMBfu1AY5LelRzO65sm-xkmE6ZZ7cOp05B4Y6w,14
+call_detector-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+call_detector-0.1.0.dist-info/RECORD,,
