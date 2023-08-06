@@ -1,0 +1,12 @@
+megawidget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+megawidget/__main__.py,sha256=ZPA7M4P9qwC3wJfQtX9e07JQsNLcxcai7d0QrgWFPjg,55
+megawidget/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+secret/SCRATCH.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secret/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+megawidget-0.0.1.dist-info/LICENSE,sha256=qa7R_AbaR83ZfoUV_42NLm1y03WIzvfz5kcIrGwX-UY,1075
+megawidget-0.0.1.dist-info/METADATA,sha256=wJaiy9toEw1Fyfu1H23Z2v-l2Nm6ZbRV82dV1-50LGM,662
+megawidget-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+megawidget-0.0.1.dist-info/entry_points.txt,sha256=s4nnH66IhTnrdH9R5hm3V3o3OUi8NCNmjwPIy-GRMV8,57
+megawidget-0.0.1.dist-info/top_level.txt,sha256=z4_6ojp03XiL8mw6bO2iLNnLslBFdMF1l_UQvak-LSQ,24
+megawidget-0.0.1.dist-info/RECORD,,
