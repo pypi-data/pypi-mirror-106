@@ -1,0 +1,12 @@
+# Barcoding atom types with integers
+# Atoms not included in this file will be assigned the next available integer
+# Greater codes have priority in the grid when the atoms overlap 
+C	1
+N	2
+O	3
+S	4
+P	5
+F	6
+CL	6
+BR	6
+I	6
