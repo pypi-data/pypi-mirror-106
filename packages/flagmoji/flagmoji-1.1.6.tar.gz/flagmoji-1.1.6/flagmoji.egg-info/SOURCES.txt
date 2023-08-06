@@ -1,0 +1,9 @@
+setup.py
+flagmoji/__init__.py
+flagmoji/data.py
+flagmoji/flagmoji.py
+flagmoji.egg-info/PKG-INFO
+flagmoji.egg-info/SOURCES.txt
+flagmoji.egg-info/dependency_links.txt
+flagmoji.egg-info/requires.txt
+flagmoji.egg-info/top_level.txt
