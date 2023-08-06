@@ -1,0 +1,7 @@
+skolemizer/__init__.py,sha256=3RFRvIC1nApXNJVItAu_SQ0jwjVU2NHod-48Q0HOvTw,414
+skolemizer/skolemizer.py,sha256=p2_kVJ0bIu_HC3Rp_mEnZjY1_tPnveDpofBgsf3f2w4,2058
+skolemizer/testutils.py,sha256=V3Gpv6o8LtwU1OvKnTK-gezAmBOH1fKS0DBFgav4yC0,1164
+skolemizer-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+skolemizer-1.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+skolemizer-1.1.0.dist-info/METADATA,sha256=E0DQZk-ItaeUQsTWGvdX2kzMHdTgMUR1jUBhB1mU2M4,4097
+skolemizer-1.1.0.dist-info/RECORD,,
