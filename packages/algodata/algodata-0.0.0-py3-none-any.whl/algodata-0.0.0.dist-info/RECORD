@@ -1,0 +1,11 @@
+algodata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algodata/datasets/__init__.py,sha256=G7gqTUqX6B6geiHYH1SaicLw4gFDPm0faB_w8KojyVs,50
+algodata/datasets/candles.py,sha256=k_iu3VI5BUm4SpLBmQg0_4a0mNUCobjgu1XHRDAc0Zk,3074
+algodata/transforms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algodata/vis/__init__.py,sha256=WC-0-FDXXsgkO0CEbx-7WVDX9E8zSsfKyMWz7rvdG4o,34
+algodata/vis/candles.py,sha256=9z4_LU7az4mPXL05y8ejn5Vxxczr6Y1XZHbHvtlQLKw,1391
+algodata-0.0.0.dist-info/LICENSE,sha256=VLtC16b-bLDJbVwGIljns3Q1nvMssjmN1yot9Um_TTU,1066
+algodata-0.0.0.dist-info/METADATA,sha256=JOSL95S87HUuPq_zZgljI5Uc4Uy1uz-uNaQIFgtGtD8,718
+algodata-0.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+algodata-0.0.0.dist-info/top_level.txt,sha256=8GgAC9e2qCYBq7NyrRDlxSLU9G54lN-Qt5xtPxhx6qM,9
+algodata-0.0.0.dist-info/RECORD,,
