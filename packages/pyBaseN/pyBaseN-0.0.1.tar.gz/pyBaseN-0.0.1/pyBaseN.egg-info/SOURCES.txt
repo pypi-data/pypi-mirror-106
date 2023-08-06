@@ -1,0 +1,9 @@
+MANIFEST.in
+README.txt
+setup.py
+pyBaseN/__init__.py
+pyBaseN/main.py
+pyBaseN.egg-info/PKG-INFO
+pyBaseN.egg-info/SOURCES.txt
+pyBaseN.egg-info/dependency_links.txt
+pyBaseN.egg-info/top_level.txt
