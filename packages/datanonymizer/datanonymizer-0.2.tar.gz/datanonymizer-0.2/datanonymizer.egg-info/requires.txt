@@ -1,0 +1,6 @@
+h3<4,>=3
+PyYAML<6,>=5
+faker<9,>=8
+
+[mimesis]
+mimesis<5,>=4
