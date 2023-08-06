@@ -1,0 +1,6 @@
+h5py>=2.10.0
+numpy>=1.17.0
+packaging>=20.8
+scikit-image
+scipy>=0.14.0
+shapely
