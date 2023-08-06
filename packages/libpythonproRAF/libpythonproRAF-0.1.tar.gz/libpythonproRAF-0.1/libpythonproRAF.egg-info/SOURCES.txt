@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+libpythonpro/__init__.py
+libpythonpro/github_api.py
+libpythonproRAF.egg-info/PKG-INFO
+libpythonproRAF.egg-info/SOURCES.txt
+libpythonproRAF.egg-info/dependency_links.txt
+libpythonproRAF.egg-info/not-zip-safe
+libpythonproRAF.egg-info/requires.txt
+libpythonproRAF.egg-info/top_level.txt
+libpythonpro/spam/__init__.py
+libpythonpro/spam/enviador_email.py
+libpythonpro/tests/__init__.py
+libpythonpro/tests/teste_exemplo.py
+libpythonpro/tests/test_spam/__init__.py
+libpythonpro/tests/test_spam/test_enviador_email.py
