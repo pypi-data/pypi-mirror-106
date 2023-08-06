@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: getLatestGitRelease
+Version: 0.0.4
+Summary: Grabs the latest github release
+Home-page: https://github.com/theflyingbadger/getLatestGitRelease
+Author: Jonathan Mills
+Author-email: jon@badger.shoes
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/theflyingbadger/getLatestGitRelease/issues
+Project-URL: Source, https://github.com/theflyingbadger/getLatestGitRelease
+Project-URL: Documentation, https://github.com/theflyingbadger/getLatestGitRelease/wiki
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: datasize
+Requires-Dist: pywin32
+Requires-Dist: ConfigFileHelper (>=0.0.2)
+Requires-Dist: PyGithub
+
+# getLatestGitRelease
+
+will grab the latest github release and pull it down locally, unzipping it into the specified folder
+
+### Usage
+
+    getLatestRelease    (github_config_file         =   '.\getLatest.example.yaml'
+                        ,github_config_file_type    =   'YAML'
+                        )
+
+#### the config file (can be YAML, JSON, XML, INI)
+
+    APP:
+        ALLOW_PRERELEASE: true
+        OUTPUT_FOLDER: d:\my\local\path
+        DEBUG: false
+        KEEP_ARCHIVE: false
+    GITHUB:
+        REPO_NAME: theRepoName
+        REPO_OWNER: theRepoOwner
+        REPO_ID: None # You can use the REPO_ID _INSTEAD_ if you want
+        KEY: ghp_000000000000000000000000000000000000
+
+
