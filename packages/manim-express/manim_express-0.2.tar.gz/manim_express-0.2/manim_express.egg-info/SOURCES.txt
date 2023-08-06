@@ -1,0 +1,13 @@
+README.md
+setup_express.py
+manim_express/__init__.py
+manim_express/custom_config.yml
+manim_express/eager.py
+manim_express/plot.py
+manim_express/surface.py
+manim_express/tools.py
+manim_express.egg-info/PKG-INFO
+manim_express.egg-info/SOURCES.txt
+manim_express.egg-info/dependency_links.txt
+manim_express.egg-info/requires.txt
+manim_express.egg-info/top_level.txt
