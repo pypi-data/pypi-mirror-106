@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ground-assistant
+Version: 1.0.4
+Summary: Library containing functions for the ga daemon.
+Home-page: https://eliservices.servehttp.com/docs/ga_lib.html
+Author: EliServices
+Author-email: eliservices.server@gmail.com
+License: Free for non-commercial use
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: Free for non-commercial use
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Database :: Database Engines/Servers
+Description-Content-Type: text/markdown
+Requires-Dist: mysql.connector
+Requires-Dist: requests
+
+EliServices Ground Assistant Library
+
+This library is used by the Ground Assistant Daemon
+
+Once the documentation is finished, you will find it at: eliservices.servehttp.com/docs/ga_lib.html
+
+For questions feel free to mail me via eliservices.server@gmail.com
+
+Installation: pip install ground-assistant
+
+
