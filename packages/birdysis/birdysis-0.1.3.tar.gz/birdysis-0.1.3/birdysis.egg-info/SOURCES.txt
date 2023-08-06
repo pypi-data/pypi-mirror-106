@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.py
+birdysis/__init__.py
+birdysis.egg-info/PKG-INFO
+birdysis.egg-info/SOURCES.txt
+birdysis.egg-info/dependency_links.txt
+birdysis.egg-info/entry_points.txt
+birdysis.egg-info/requires.txt
+birdysis.egg-info/top_level.txt
+birdysis/collect_data/__init__.py
+birdysis/collect_data/scrape.py
+birdysis/download/__init__.py
+birdysis/download/cleanmedia.py
+birdysis/download/functions.py
+birdysis/download/tweepydl.py
