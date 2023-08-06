@@ -1,0 +1,3 @@
+[console_scripts]
+fcrawler = fcrawler.__main__:main
+

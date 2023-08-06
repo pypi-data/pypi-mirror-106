@@ -1,0 +1,11 @@
+fcrawler/__init__.py,sha256=8zLGg-DfQhnDl2Ky0n-zXpN-8e-g7iR0AcaI4l4Vvpk,32
+fcrawler/__main__.py,sha256=spgbez9hHkXVXRyN4LGhE-mJHb6qZeuwCkO06sSvZ2Q,6756
+fcrawler/application.py,sha256=4Orv78eKCnhTbOCuRjBnwXkxRePZW4P7F9B7Sy2UD1s,2225
+fcrawler/utils.py,sha256=Qb63p_9vszijP6-mo4QFcoqPKyMWGG_QfslICzfGbOc,2257
+fcrawler/version.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+fcrawler-0.0.3.dist-info/LICENSE,sha256=qXGYO0Zva_zS9uRTEi9RzZexxPZdmgx09frAFHKy8jQ,1068
+fcrawler-0.0.3.dist-info/METADATA,sha256=XmxAKHmActksb3IV-eMV4yJgUZTgzdK-RaEGlocF3dU,1997
+fcrawler-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fcrawler-0.0.3.dist-info/entry_points.txt,sha256=INhrsUVEKvYCseEJhjM_jl3CPDJ3rxXLjMo-HJcGT9o,53
+fcrawler-0.0.3.dist-info/top_level.txt,sha256=No-pnoNVSFslA2EEC5qghb0HaHAwHRitTcMfM6dEVpA,9
+fcrawler-0.0.3.dist-info/RECORD,,
