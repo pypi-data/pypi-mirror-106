@@ -1,0 +1,34 @@
+ /*
+  Copyright (c) 2021 ETH Zurich
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*/
+
+domain $Array[$E] {
+
+    function $array_init($e: $E, $c: Int): Seq[$E]
+
+    axiom $array_init_len_ax {
+        forall $e: $E, $c: Int :: { $array_init($e, $c) } |$array_init($e, $c)| == $c
+    }
+
+    axiom $array_init_val_ax {
+        forall $e: $E, $c: Int, $i: Int :: { $array_init($e, $c)[$i] } 
+            0 <= $i && $i < $c ==> $array_init($e, $c)[$i] == $e
+    }
+
+}
+
+domain _array_ce_helper[$E] {
+    function seq_t_length(___s: Seq[$E]): Int
+    function seq_t_index(___s: Seq[$E], i: Int): $E
+
+    axiom relate_length {
+        forall ___s: Seq[$E] :: {|___s|} |___s| == seq_t_length(___s)
+    }
+
+    axiom relate_index {
+        forall ___s: Seq[$E], ___i: Int :: { ___s[___i] } ___s[___i] == seq_t_index(___s, ___i)
+    }
+}

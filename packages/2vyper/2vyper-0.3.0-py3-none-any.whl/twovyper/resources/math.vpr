@@ -1,0 +1,104 @@
+/*
+  Copyright (c) 2021 ETH Zurich
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*/
+
+domain $Math {
+
+    function $sign($a: Int): Int
+
+    function $div($a: Int, $b: Int, $r: Int): Int
+
+    function $mod($a: Int, $b: Int, $r: Int): Int
+
+    function $pow($a: Int, $b: Int): Int
+
+    function $sqrt($a: Int): Int
+
+    function $floor($a: Int, $s: Int): Int
+
+    function $ceil($a: Int, $s: Int): Int
+
+    function $shift($a: Int, $s: Int): Int
+
+    function $bitwise_not($a: Int): Int
+
+    function $bitwise_and($a: Int, $b: Int): Int
+
+    function $bitwise_or($a: Int, $b: Int): Int
+
+    function $bitwise_xor($a: Int, $b: Int): Int
+
+    axiom $sign_ax {
+        $sign(0) == 0 && 
+        forall $a: Int :: { $sign($a) } 
+            ($a > 0 ==> $sign($a) == 1) && ($a < 0 ==> $sign($a) == -1)
+    }
+
+    axiom $div_ax {
+        forall $a: Int, $b: Int, $r: Int :: { $div($a, $b, $r) }
+            $div($a, $b, $r) == $a / $b + ($a >= 0 || $a % $b == 0 ? 0 : $sign($b))
+    }
+
+    axiom $mod_ax {
+        forall $a: Int, $b: Int, $r: Int :: { $mod($a, $b, $r) }
+            $mod($a, $b, $r) == $a - $div($a, $b, $r) * $b
+    }
+
+    axiom $pow0N_ax {
+        forall $a: Int :: { $pow(0, $a) } $a != 0 ==> $pow(0, $a) == 0
+    }
+
+    axiom $powN0_ax {
+        forall $a: Int :: { $pow($a, 0) } $a != 0 ==> $pow($a, 0) == 1
+    }
+
+    axiom $pow_non_negative_ax {
+        forall $a: Int, $b: Int :: { $pow($a, $b) } $a >= 0 ==> $pow($a, $b) >= 0
+    }
+
+    axiom $pow_non_negative_and_non_null_ax {
+        forall $a: Int, $b: Int :: { $pow($a, $b) } $a > 0 && $b >= 0 ==> $pow($a, $b) > 0
+    }
+
+    axiom $floor_ax {
+        forall $a: Int, $s: Int :: { $floor($a, $s) }
+            $s > 0 ==> $floor($a, $s) == $div($a < 0 ? $a - ($s - 1) : $a, $s, 0)
+    }
+
+    axiom $ceil_ax {
+        forall $a: Int, $s: Int :: { $ceil($a, $s) }
+            $s > 0 ==> $ceil($a, $s) == $div($a < 0 ? $a : $a + $s - 1, $s, 0)
+    }
+
+    // Bitwise operations are only defined for unsigned integers, therefore the result
+    // is always non-negative
+
+    axiom $shift_ax {
+        forall $a: Int, $s: Int :: { $shift($a, $s) }
+            $shift($a, $s) >= 0
+    }
+
+    axiom $bitwise_not_ax {
+        forall $a: Int :: { $bitwise_not($a) }
+            $bitwise_not($a) >= 0
+    }
+
+    axiom $bitwise_and_ax {
+        forall $a: Int, $b: Int :: { $bitwise_and($a, $b) }
+            $bitwise_and($a, $b) >= 0
+    }
+
+    axiom $bitwise_or_ax {
+        forall $a: Int, $b: Int :: { $bitwise_or($a, $b) }
+            $bitwise_or($a, $b) >= 0
+    }
+
+    axiom $bitwise_xor_ax {
+        forall $a: Int, $b: Int :: { $bitwise_xor($a, $b) }
+            $bitwise_xor($a, $b) >= 0
+    }
+
+}
