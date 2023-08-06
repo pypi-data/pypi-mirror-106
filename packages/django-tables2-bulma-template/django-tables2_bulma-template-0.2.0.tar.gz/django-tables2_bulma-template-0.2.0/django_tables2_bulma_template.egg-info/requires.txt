@@ -1,0 +1,2 @@
+django-tables2>=2.0.0
+django>=2.2.0
