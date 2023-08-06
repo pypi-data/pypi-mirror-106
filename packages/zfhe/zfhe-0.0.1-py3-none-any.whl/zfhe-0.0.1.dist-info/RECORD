@@ -1,0 +1,7 @@
+pytfhe/__init__.py,sha256=pMrX853H7twBOswbV2iZFy8mPxjm36OrJujByHl0Pgg,24
+pytfhe/file.py,sha256=oN-o1B4QGT6SZeFNkmHt41HRyt4xMmWy0BDOVgucIec,135
+zfhe-0.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+zfhe-0.0.1.dist-info/METADATA,sha256=QjulC3dKy6E-1-vJ17AeVEC1_01qEm9y4u_ePMLbm5Q,1106
+zfhe-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+zfhe-0.0.1.dist-info/top_level.txt,sha256=IH1t51Dt-XpvyiAe-E2WulWtC5jKCocVlf5b2T5QClA,7
+zfhe-0.0.1.dist-info/RECORD,,
