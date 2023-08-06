@@ -1,0 +1,8 @@
+pyatlasclient
+
+[dev]
+mypy
+flake8
+
+[samples]
+faker
