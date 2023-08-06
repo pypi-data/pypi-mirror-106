@@ -1,0 +1,4 @@
+[console_scripts]
+ocrmypdf = ocrmypdfgui_progressbar = ocrmypdfgui.plugin_progressbar
+ocrmypdfgui = ocrmypdfgui.__main__:main
+
