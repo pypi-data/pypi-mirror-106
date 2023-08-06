@@ -1,0 +1,5 @@
+setup.py
+rLogging.egg-info/PKG-INFO
+rLogging.egg-info/SOURCES.txt
+rLogging.egg-info/dependency_links.txt
+rLogging.egg-info/top_level.txt
