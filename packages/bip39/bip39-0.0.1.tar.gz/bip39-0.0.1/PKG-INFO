@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: bip39
+Version: 0.0.1
+Summary: A self-contained and simple BIP39 implemenation in Python
+Home-page: https://github.com/de-centralized-systems/python-bip39/
+Author: Aljosha Judmayer and Philipp Schindler
+Author-email: ajudmayer@sba-research.org
+License: UNKNOWN
+Project-URL: Source, https://github.com/de-centralized-systems/python-bip39/
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Description: # python-bip39
+        
+        This aims to be a simple and well tested BIP39 implementaion in Python, which intentionally only supports the core
+        properties of the [specification](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) i.e.,:
+        
+        * encode data to mnemonic 
+        * decode mnemonic phrase
+        * convert mnemonic phrase to seed value (which than can be further process e.g., in [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki))
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Security
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
