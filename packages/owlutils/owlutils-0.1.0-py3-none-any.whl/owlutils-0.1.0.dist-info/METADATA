@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: owlutils
+Version: 0.1.0
+Summary: Common utils used across owl company web apps
+Home-page: https://github.com/shashankkr9/owlutils
+Author: Shashank Kumar
+Author-email: me@shashankkumar.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+# Owl Utils
+
+> Common set of utilities when building a web app
+
+[![PyPI Version][pypi-image]][pypi-url]
+
+Parsing functions:
+
+- safeint
+- safeintorzero
+- safeintorbignumber
+- safefloat
+- jsonb_date_to_str
+- pretty_json
+- onewhite
+- join_strings_if_not_null
+- get_full_name
+- get_exception_traceback
+
+## Installation
+```shell
+pip install owlutils
+```
+
+## Usage
+
+```python
+>>> from owlutils import parsing
+>>> parsing.safeint("123")
+```
+
+<!-- Badges -->
+
+[pypi-image]: https://img.shields.io/pypi/v/owlutils
+[pypi-url]: https://pypi.org/project/owlutils/
+
