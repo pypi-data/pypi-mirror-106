@@ -1,0 +1,3 @@
+[console_scripts]
+oliver = flowdas.oliver.base:main
+
