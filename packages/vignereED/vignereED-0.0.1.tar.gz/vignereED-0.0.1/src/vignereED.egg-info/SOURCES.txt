@@ -1,0 +1,6 @@
+setup.py
+src/vignereED.py
+src/vignereED.egg-info/PKG-INFO
+src/vignereED.egg-info/SOURCES.txt
+src/vignereED.egg-info/dependency_links.txt
+src/vignereED.egg-info/top_level.txt
