@@ -1,0 +1,4 @@
+pyroute2.core
+
+[:platform_system == "Windows"]
+win_inet_pton
