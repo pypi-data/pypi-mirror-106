@@ -1,0 +1,8 @@
+README.md
+setup.py
+Pygiee/__init__.py
+Pygiee.egg-info/PKG-INFO
+Pygiee.egg-info/SOURCES.txt
+Pygiee.egg-info/dependency_links.txt
+Pygiee.egg-info/not-zip-safe
+Pygiee.egg-info/top_level.txt
