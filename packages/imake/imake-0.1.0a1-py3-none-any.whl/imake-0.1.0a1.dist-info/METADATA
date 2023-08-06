@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: imake
+Version: 0.1.0a1
+Summary: 
+Home-page: https://github.com/snakypy/imake
+License: MIT
+Keywords: snakypy,makefile,make,imake
+Author: William C. Canin
+Author-email: william.costa.canin@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: snakypy-helpers (>=0.1.4,<0.2.0)
+Requires-Dist: tomlkit (>=0.7.2,<0.8.0)
+Project-URL: Repository, https://github.com/snakypy/imake
+Description-Content-Type: text/x-rst
+
+Imake is a command line tool to simplify commands in Python projects, discarding the usability of a Makefile file.
