@@ -1,0 +1,14 @@
+cexprtk>=0.3.4
+pyparsing>=2.2.0
+scipy
+setuptools
+wrapt>=1.12.1
+
+[:python_version < "3.5"]
+funcsigs==1.0.2
+
+[:python_version <= "3.5.*"]
+openpyxl==2.6.4
+
+[:python_version >= "3.6"]
+openpyxl>=3.0.0
