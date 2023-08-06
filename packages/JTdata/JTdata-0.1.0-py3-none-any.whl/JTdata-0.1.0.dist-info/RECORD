@@ -1,0 +1,14 @@
+DataLoader/Base.py,sha256=mBmoVDVoNoabjtD7zd0LO1PrIr3eMUwen2_dYeaVric,22070
+DataLoader/__init__.py,sha256=3bmMURujcsGAnTwU1E0-8E3jPGMMjFlKA41xMw0gQ5M,41
+DataLoader/calendarpd.py,sha256=cjIQS_H-6LoKvoNViJIaRZRxFLEAWll4NSlYWVjVjvU,2844
+DataLoader/config.py,sha256=35kP3651BDnsNrqCukodfCJ1ygrvEPazi2ujL6t7aEY,1289
+DataLoader/daily.py,sha256=JNGxZVAyrniAR9QWe2_JaQi_32l7MfsHcq-gTHJVMW8,5367
+DataLoader/reports.py,sha256=oVW1KAgov8gqpiJvQjmBEKSaR46ms2QDUqdo92c9vxw,4093
+DataLoader/status.py,sha256=bhYpqIDsGsd-dcn27Z0bxatf3Ov6ReSY0BGrmqIBJk8,5573
+DataLoader/tools.py,sha256=roHyz4qbIKKqhoiy8W9fcp8Szf56bFc_la4kfJ1TRzE,1921
+DataLoader/utils.py,sha256=VFoXxYuA4QGVfe_L-oIUwVWS2GukMLaB6u5xX3PQvVg,4100
+JTdata-0.1.0.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+JTdata-0.1.0.dist-info/METADATA,sha256=KX2D9V7rcywkxRXZi7XISBayNt5epTq6d4BQuwVmER4,201
+JTdata-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+JTdata-0.1.0.dist-info/top_level.txt,sha256=o7A4Ty01QRNQKzYKr0ghxvTVK7TCIxogkJIqCa55AO0,11
+JTdata-0.1.0.dist-info/RECORD,,
