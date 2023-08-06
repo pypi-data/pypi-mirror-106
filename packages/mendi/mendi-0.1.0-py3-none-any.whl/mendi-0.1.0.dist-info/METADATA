@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: mendi
+Version: 0.1.0
+Summary: A python library for building menu-driven CLI applications.
+Home-page: https://github.com/aahnik/mendi
+License: MIT
+Keywords: python,cli,framework,library,menu
+Author: aahnik
+Author-email: daw@aahnik.dev
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
+Project-URL: Repository, https://github.com/aahnik/mendi
+Description-Content-Type: text/markdown
+
+# mendi
+
+[![Code Quality](https://github.com/aahnik/mendi/actions/workflows/quality.yml/badge.svg)](https://github.com/aahnik/mendi/actions/workflows/quality.yml)
+[![Tests](https://github.com/aahnik/mendi/actions/workflows/test.yml/badge.svg)](https://github.com/aahnik/mendi/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/aahnik/mendi/branch/main/graph/badge.svg?token=BdwfbFxpIP)](https://codecov.io/gh/aahnik/mendi)
+
+A python library for building menu-driven CLI applications.
+
+> A menu-driven program is one, in which the user is provided a list of choices.
+> A particular action is done when the user chooses a valid option.
+> There is also an exit option, to break out of the loop.
+> Error message is shown on selecting a wrong choice.
+
+## Installation
+
+```shell
+pip install mendi
+```
+
+## Usage
+
+This is a simple snippet showing you the use of `mendi`
+
+- Write functions with docstrings.
+The first line of the docstring is the description of the choice.
+
+- Call `drive_menu` with the list of functions.
+
+    ```python
+    from mendi import drive_menu
+    drive_menu([func1,func2])
+    ```
+
+See [`example.py`](example.py) for a full example.
+
