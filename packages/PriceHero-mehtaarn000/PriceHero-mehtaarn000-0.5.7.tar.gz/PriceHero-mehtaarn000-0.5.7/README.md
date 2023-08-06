@@ -1,0 +1,50 @@
+# PriceHero
+A python module that will allow users to get product prices information from a multitude of different websites. Perfect for building price trackers.
+
+## Installation
+`pip install PriceHero-mehtaarn000`
+
+## Example
+Import the module with:
+
+`import PriceHero as ph`
+
+Now, scrape a product off Acer with:
+
+`travelpack = ph.acer("https://store.acer.com/en-us/porsche-design-acer-travelpack-rs-aak010")`
+
+`print(travelpack)`, your output should be something like this:
+
+`{'name': 'Porsche Design Acer Travelpack RS - AAK010', 'price': '$329.99', 'discountprice': None}`
+
+## Supported Websites
+Total of 29!
+- Acer
+- Adafruit
+- Adidas
+- Amazon
+- Ann Taylor
+- BestBuy
+- Boohoo
+- Chess.com Shop
+- Dell
+- Etsy
+- Github Shop
+- Gucci
+- Joanns
+- Journeys
+- Jumia
+- Konga
+- Lids
+- Louis Vuitton
+- Macys
+- Michaels
+- Minecraft Shop
+- Newegg
+- Overstock
+- Pishop
+- Tjmaxx
+- Walgreens
+- Walmart
+- White House Black Market
+- Xbox
