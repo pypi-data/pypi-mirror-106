@@ -1,0 +1,33 @@
+.. :changelog:
+
+History
+-------
+
+0.0.1 (26-04-2021)
+---------------------
+
+* First code creation
+
+
+0.1.0 (11-05-2021)
+------------------
+
+* Initial release
+
+
+0.1.1 (17-05-2021)
+------------------
+
+* Filtering out failed accounts from checking their update status
+
+
+0.1.2 (17-05-2021)
+------------------
+
+* Fixed a timing issue with getting the active service catalog product on account creation.
+
+
+0.2.0 (18-05-2021)
+------------------
+
+* Exposed governed and non governed regions and a small fix with latest update changes.
