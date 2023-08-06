@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: marker-web
+Version: 1.1.1
+Summary: Web server for `marker`
+Home-page: UNKNOWN
+Author: Mustafa Quraish
+Author-email: mustafa@cs.toronto.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Dist: marker (>=2.1.0)
+Requires-Dist: flask
+Requires-Dist: flask-cors
+
+UNKNOWN
+
+
