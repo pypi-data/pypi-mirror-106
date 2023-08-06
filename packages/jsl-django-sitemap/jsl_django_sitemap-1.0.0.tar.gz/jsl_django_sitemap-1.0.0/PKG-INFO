@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: jsl_django_sitemap
+Version: 1.0.0
+Summary: JSL Django Sitemap is a Django app to which iterates over all the url patterns in your main Django project and creates a ready to use sitemap. The sitemap.xml is useful in crawlers such as Google, Bing, Yahoo.We hope you like our app! Leave a star on our github repository. Thanks!
+Home-page: https://github.com/JSoftwareLabs/jsl_django_sitemap
+Author: Dhananjay Joshi
+Author-email: info@jsoftwarelabs.com
+License: MTI
+Project-URL: Funding, https://fund.django-rest-framework.org/topics/funding/
+Project-URL: Source, https://github.com/encode/django-rest-framework
+Description: =====
+        JSL Django Sitemap
+        =====
+        
+        JSL Django Sitemap is a Django app to which iterates over all the url patterns in your main Django project and creates a ready to use sitemap. The sitemap.xml is useful in crawlers such as Google, Bing, Yahoo.
+        We hope you like our app! Leave a star on our github repository. Thanks!
+        
+        
+        Quick start
+        -----------
+        
+        1. Add "jsl_django_sitemap" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'jsl_django_sitemap',
+            ]
+        
+        2. Include the polls URLconf in your project urls.py like this::
+        
+            from jsl_django_sitemap.views import sitemaps
+        
+            path('sitemap.xml', sitemap, {'sitemaps': sitemaps},
+                 name='django.contrib.sitemaps.views.sitemap'),
+        
+        4. Start the development server and visit http://127.0.0.1:8000/sitemap.xml/
+        
+        
+Keywords: JSoftwareLabs,JSL Django sitemap,sitemap,Django sitemap
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
