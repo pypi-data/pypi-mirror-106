@@ -1,0 +1,10 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "hej"
+author = "hejian"
+author-email = "flystarhe@qq.com"
+classifiers = ["License :: OSI Approved :: MIT License",]
+home-page = "https://github.com/flystarhe/hej"
