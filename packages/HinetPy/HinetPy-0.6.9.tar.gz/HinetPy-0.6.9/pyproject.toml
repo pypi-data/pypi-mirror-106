@@ -1,0 +1,31 @@
+[tool.black]
+line-length = 88
+exclude = '''
+(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  # The following are specific to HinetPy
+  | versioneer.py
+  | HinetPy/_version.py
+)
+'''
+
+[tool.coverage.run]
+omit = ["HinetPy/_version.py"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--cov=HinetPy --cov-report=term-missing --cov-report=xml --verbose"
+
+[tool.isort]
+profile = "black"
+skip_gitignore = true
+known_third_party = "HinetPy"
