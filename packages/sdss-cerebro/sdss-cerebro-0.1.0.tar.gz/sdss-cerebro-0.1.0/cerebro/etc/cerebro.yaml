@@ -1,0 +1,79 @@
+name: cerebro
+ntp_server: us.pool.ntp.org
+logfile: /data/logs/cerebro/cerebro.log
+
+profiles:
+  lvm-lab:
+    sources:
+      - lvm_govee_clean_room
+      - lvm_govee_lab
+      - lvm_sens4_r1
+      - lvm_actors
+    observers:
+      - influxdb
+  fps-osu:
+    sources:
+      - ieb:
+          type: ieb
+          bucket: FPS
+          config: ${JAEGER_DIR}/python/jaeger/etc/ieb.yaml
+    observers:
+      - influxdb
+
+sources:
+  tron:
+    type: tron
+    bucket: Actors
+    host: localhost
+    port: 6093
+    tags:
+      observatory: ${OBSERVATORY}
+    actors:
+      - tcc
+      - apo
+  ieb:
+    type: ieb
+    bucket: IEB
+    config: ${JAEGER_DIR}/python/jaeger/etc/ieb.yaml
+  lvm_govee_clean_room:
+    type: govee
+    host: 10.7.45.30
+    port: 1111
+    device: H5179
+    address: 'e0:13:d5:71:d0:66'
+    bucket: sensors
+    tags:
+      location: 'Clean room'
+  lvm_govee_lab:
+    type: govee
+    host: 10.7.45.30
+    port: 1111
+    device: H5072_1
+    address: 'a4:c1:38:82:a2:88'
+    bucket: sensors
+    tags:
+      location: 'Outside clean room'
+  lvm_sens4_r1:
+    type: sens4
+    host: 10.7.45.30
+    port: 1112
+    device_id: 253
+    ccd: r1
+    bucket: sensors
+  lvm_actors:
+    type: amqp
+    bucket: actors
+    keywords:
+      - archon.status.mod2/tempa
+      - archon.status.mod2/tempb
+      - archon.status.mod2/heateraoutput
+    commands:
+      'archon status': 1
+
+observers:
+  influxdb:
+    type: influxdb
+    url: http://localhost:9999
+    token: null
+    org: SDSS
+    default_bucket: Actors
