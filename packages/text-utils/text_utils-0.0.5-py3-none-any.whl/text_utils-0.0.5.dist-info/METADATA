@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: text-utils
+Version: 0.0.5
+Summary: Tool allowing to be able to decode an encrypted message.
+Home-page: UNKNOWN
+Author: Jµ1||3t
+Author-email: <lol.ptdrefsz@gmail.com>
+License: UNKNOWN
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+
+text_utils [0.0.5]
+
