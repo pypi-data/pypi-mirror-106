@@ -1,0 +1,7 @@
+requests
+
+[AsyncRSAP]
+aiohttp
+
+[DsiRSAP]
+discord.py
