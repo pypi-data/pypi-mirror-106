@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: edatk
+Version: 0.0.1
+Summary: edatk: python exploratory data analysis toolkit
+Home-page: https://github.com/edatk/edatk/
+Author: Barrett Studdard
+Author-email: barrettstuddard@gmail.com
+License: UNKNOWN
+Description: # edatk
+        Python Exploratory Data Analysis Toolkit
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown

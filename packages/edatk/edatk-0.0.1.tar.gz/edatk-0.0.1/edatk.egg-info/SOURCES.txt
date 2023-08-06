@@ -1,0 +1,9 @@
+README.md
+setup.py
+edatk/__init__.py
+edatk/_core.py
+edatk.egg-info/PKG-INFO
+edatk.egg-info/SOURCES.txt
+edatk.egg-info/dependency_links.txt
+edatk.egg-info/requires.txt
+edatk.egg-info/top_level.txt
