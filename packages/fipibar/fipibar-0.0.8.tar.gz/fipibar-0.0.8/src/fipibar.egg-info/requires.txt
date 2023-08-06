@@ -1,0 +1,2 @@
+pylast
+spotibar>=0.2.4
