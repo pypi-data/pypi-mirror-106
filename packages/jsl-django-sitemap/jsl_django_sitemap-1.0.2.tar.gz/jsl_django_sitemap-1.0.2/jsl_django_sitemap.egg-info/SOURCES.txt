@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+jsl_django_sitemap.egg-info/PKG-INFO
+jsl_django_sitemap.egg-info/SOURCES.txt
+jsl_django_sitemap.egg-info/dependency_links.txt
+jsl_django_sitemap.egg-info/requires.txt
+jsl_django_sitemap.egg-info/top_level.txt
+migrations/__init__.py
