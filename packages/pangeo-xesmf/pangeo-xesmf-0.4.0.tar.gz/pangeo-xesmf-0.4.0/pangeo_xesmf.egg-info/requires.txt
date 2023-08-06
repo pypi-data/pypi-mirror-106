@@ -1,0 +1,4 @@
+esmpy>=8.0.0
+numpy
+scipy
+xarray
