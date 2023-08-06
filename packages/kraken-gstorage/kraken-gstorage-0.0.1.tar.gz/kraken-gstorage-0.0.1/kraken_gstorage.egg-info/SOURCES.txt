@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+kraken_gstorage/kraken_gstorage.py
+kraken_gstorage.egg-info/PKG-INFO
+kraken_gstorage.egg-info/SOURCES.txt
+kraken_gstorage.egg-info/dependency_links.txt
+kraken_gstorage.egg-info/requires.txt
+kraken_gstorage.egg-info/top_level.txt
