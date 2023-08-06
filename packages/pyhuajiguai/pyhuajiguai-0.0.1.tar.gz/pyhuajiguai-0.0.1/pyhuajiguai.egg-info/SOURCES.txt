@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pyhuajiguai/__init__.py
+pyhuajiguai.egg-info/PKG-INFO
+pyhuajiguai.egg-info/SOURCES.txt
+pyhuajiguai.egg-info/dependency_links.txt
+pyhuajiguai.egg-info/top_level.txt
