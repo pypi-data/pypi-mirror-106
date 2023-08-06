@@ -1,0 +1,6 @@
+tensorflow>=2.5.0
+pixellib>=0.6.1
+ffmpeg-python>=0.2.0
+opencv-python>=4.5.1.48
+Pillow>=8.1.0
+tqdm>=4.59.0

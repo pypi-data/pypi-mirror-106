@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+gazeclassify.egg-info/PKG-INFO
+gazeclassify.egg-info/SOURCES.txt
+gazeclassify.egg-info/dependency_links.txt
+gazeclassify.egg-info/requires.txt
+gazeclassify.egg-info/top_level.txt
