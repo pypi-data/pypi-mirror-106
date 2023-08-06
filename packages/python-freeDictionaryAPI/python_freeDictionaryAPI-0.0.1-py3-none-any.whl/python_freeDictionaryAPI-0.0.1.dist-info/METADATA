@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: python-freeDictionaryAPI
+Version: 0.0.1
+Summary: Wrapper for Free Dictionary API [https://dictionaryapi.dev/]
+Home-page: https://github.com/Max-Zhenzhera/python-freeDictionaryAPI
+Author: Max Zhenzhera
+Author-email: maxzhenzhera@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: async-client
+Requires-Dist: aiohttp (>=3.7.4.post0) ; extra == 'async-client'
+Provides-Extra: sync-client
+Requires-Dist: httpx (>=0.18.1) ; extra == 'sync-client'
+
+Welcome to python-FreeDictionaryApi!
+====================================
+
+.. note::
+
+    It is in development now!
+
+    Release soon!
+
+
