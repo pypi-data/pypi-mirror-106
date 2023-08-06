@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "htminify"
+version = "0.1.1"
+description = "A lightweight html minifier for all Python web frameworks and WSGI apps."
+authors = ["Abhinav Omprakash"]
+license="BSD-3-Clause"
+readme="README.rst"
+homepage="https://github.com/AbhinavOmprakash/py-htminify"
+repository="https://github.com/AbhinavOmprakash/py-htminify"
+keywords=["html", "django","flask","wsgi", "middleware"]
+include=[
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^4.0.1"
+tox = "^3.23.1"
+pytest = "^6.2.4"
+sphinx-rtd-theme = "^0.5.2"
+black = "^21.5b1"
+coverage = "^5.5"
+pytest-cov = "^2.12.0"
+bumpversion = "^0.6.0"
+sphinx-autobuild = "^2021.3.14"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
