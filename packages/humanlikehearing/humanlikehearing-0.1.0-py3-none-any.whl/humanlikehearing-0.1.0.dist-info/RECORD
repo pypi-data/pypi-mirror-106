@@ -1,0 +1,17 @@
+humanlikehearing/__init__.py,sha256=_hYM73m8eK1q0Ga2dII22AzSn2p9Dc90xMDDjGPIQyc,211
+humanlikehearing/asrsystem.py,sha256=nvOVOXX2mTLbB8wkcdeBpt6vF11YKPJP1GOeRqoWRcA,10662
+humanlikehearing/dataset.py,sha256=QIH7N0kL3g-Hv3eLjwnCzWNm_XOGQ0tKou2Aj8i_t9Q,19512
+humanlikehearing/filtertools.py,sha256=ly9kl59NoqaNddkKGz8ij3iCX5NPJVD__jQbtrL4bbM,17152
+humanlikehearing/sound.py,sha256=3HzZLfdhClH8-axyLYUuOFeVKEPOcC0Qnn06qasVF1k,6108
+humanlikehearing/testbattery.py,sha256=clSX827ZpikLt48o6sGEMZIrFuvvuuRqt9UpwGj81X8,60111
+humanlikehearing/version.py,sha256=vZOQEQr8LgS1Jxn6DJQMFmGL2Eztg8VCPyjYBY7xObY,1074
+humanlikehearing/library/__init__.py,sha256=IcXDU-wbhovV9fctNbkXgDm3FJPsSmV7kXiQOCVYjAw,128
+humanlikehearing/library/a_weighting.py,sha256=veb2DoL-S0SAd5yhTqJQqgu2iInbxF4EbkJ14VjvV9s,1514
+humanlikehearing/library/audio_format.py,sha256=n4XwGnfWb7IZLnXLw2Nnkb-ZhsRHcqdzk5HfL2Br0P4,2595
+humanlikehearing/library/speech_voltmeter_svp56.py,sha256=ZCyUSoOVDsSDcHZW9G_LZk3JcjiTUto_Ed0WmqrI1HA,10083
+humanlikehearing/library/voice_activity_detection.py,sha256=8mU0JgEluDzBIEHACs1ceEXUozzqeVQLLcYarBuLMYM,4581
+humanlikehearing-0.1.0.dist-info/LICENSE,sha256=WaNNh0TN1aVy9Le5bUevG1-f61FrbzT_yqi8ZHUcagw,1520
+humanlikehearing-0.1.0.dist-info/METADATA,sha256=uVLu-117ANCE1wGcUTfNEn5xkOWVpmvBqWtkPmf2DFo,8069
+humanlikehearing-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+humanlikehearing-0.1.0.dist-info/top_level.txt,sha256=TdyK6EP-W-nUNFzlCKfvFF1uDdYKWng_mjRg_BXvr4w,17
+humanlikehearing-0.1.0.dist-info/RECORD,,
