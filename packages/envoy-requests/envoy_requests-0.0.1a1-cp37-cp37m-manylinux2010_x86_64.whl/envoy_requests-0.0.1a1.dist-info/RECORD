@@ -1,0 +1,13 @@
+/envoy_engine.so,sha256=Voe3rKMO_9hE94WnyHP9wEpO9JmQcEFy2I05fY95UQY,161414712
+/envoy_requests/__init__.py,sha256=lFcN7HX3z-h3Rrz6Ajq-XlzHF9L7LAOWyRWEAefCl5M,566
+/envoy_requests/asyncio.py,sha256=1ur3Spu4Z8n_ou9dPuXftL1AqZj83NMc-YTr7jWSc1s,1851
+/envoy_requests/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+/envoy_requests/common/core.py,sha256=Clae3EIwuA3w6kCm0MDmUymOZiXe4R7nnOZz9AQKTjY,5454
+/envoy_requests/common/engine.py,sha256=6VLsXoWguqYPSUZfmiX80CVQBIQuyB5KyyBF3rU-F8k,984
+/envoy_requests/common/executor.py,sha256=IpD3_C1sBSqIrmx1SlZOGSB5V9BvT3tgG8RxovvslZk,328
+/envoy_requests/gevent.py,sha256=1zMgNgCeNhv3qvP7H3ebrVtfo-ecE5x_txHOuTbEwbw,2921
+/envoy_requests/response.py,sha256=srrm6ETvKfc-b5d_8MOaKQSwUhfNPEAS8tn3qU-4bgk,748
+/envoy_requests/threading.py,sha256=neQTwbZSxu8bkHf_v34ox76bIBPLIa6KXq4VSRnIryg,2496
+envoy_requests-0.0.1a1.dist-info/METADATA,sha256=y6mlJs0KtDn-vxj9_uKh9doX3D9ve4VMdynC-Z7cwWU,705
+envoy_requests-0.0.1a1.dist-info/RECORD,,
+envoy_requests-0.0.1a1.dist-info/WHEEL,sha256=MUIb_IIDjZyc6faEXes1rocrEcuyO3N03ntsiOqKyXQ,111
