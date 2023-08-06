@@ -1,0 +1,8 @@
+setup.py
+speedtest/__init__.py
+speedtest/speed_test.py
+speedtestrouter.egg-info/PKG-INFO
+speedtestrouter.egg-info/SOURCES.txt
+speedtestrouter.egg-info/dependency_links.txt
+speedtestrouter.egg-info/requires.txt
+speedtestrouter.egg-info/top_level.txt
