@@ -1,0 +1,353 @@
+opics/__init__.py,sha256=QRHBJUuikXGGq7hIdmVK5c-DNrr-AiLvmThR9Tu-zCQ,721
+opics/components.py,sha256=KR-MSqTrnwLI0u6sHMcmdIXh2EbF_F5zD_rh6B1Hb9U,12781
+opics/globals.py,sha256=FxOQkAi80dHb6RWTYgwFhqR6HPbe9KXZPCzVeQRy16Y,90
+opics/network.py,sha256=NTU84Ably62XZkZh94pvLthTcSHy0BiAKiZuC1cn-g4,5566
+opics/sparam_ops.py,sha256=mZUlrEvs91ml8UWyXKBssop3EocSFmEK-wCBL5Pm_7c,4831
+opics/utils.py,sha256=M1OAq7OFjsciSzshVNvEHGj_swsgcLbkWPLIQ-krZzM,16207
+opics/__pycache__/__init__.cpython-39.pyc,sha256=ZzWZ19AsAwAQ4WUig1h4n7pbBbShnjcO96OyxSHvKNs,766
+opics/__pycache__/components.cpython-39.pyc,sha256=dkqHujnPlq0fyP6zFmd8AmiAoSxbAo3Ts7s4Xr1lipM,11265
+opics/__pycache__/globals.cpython-39.pyc,sha256=7Jl00HfSrqpQvp1Gp6Zga3REVCZhF0U63f8McRyWkvY,255
+opics/__pycache__/network.cpython-39.pyc,sha256=tiG-cZ-4SgjwnvbK7bZpqEAyh6xIK8ANMzpNHEuyJ_A,4474
+opics/__pycache__/sparam_ops.cpython-39.pyc,sha256=xn4609pV68YnrZDgW4h-1tANor81_DyctoA3Z12rAAQ,4259
+opics/__pycache__/utils.cpython-39.pyc,sha256=Qvyn1IIftZGAZ3Qb3V1h5J6QGT0U8lYtUTcGhTpNvNA,8734
+opics/libraries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opics/libraries/__pycache__/__init__.cpython-39.pyc,sha256=_FR-eMW-ztEHXuRjmjoglaEsOhCYcTFBloGht_zN8kA,154
+opics/libraries/ebeam/__init__.py,sha256=VfCn9VJRcZIWO6t382qKfwRqpOgOHNUtHTxl1T__CzE,11166
+opics/libraries/ebeam/__pycache__/__init__.cpython-39.pyc,sha256=xQk3G6R_fua4Tt_nDzOd4Ti_v8CqPd1lMC4bIOVViu4,9825
+opics/libraries/ebeam/data/2x2_switch/2x2_switch.xml,sha256=faqFS7mmuvK9hQbphmN-FDB17QhPU1G1rdREA98T7hc,2297
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_0.dat,sha256=Gc0PFPbB74PReHrwjKNh0t60Fnn-sscJCh6_CdS4WUY,2840808
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_0.npz,sha256=R8nx7Ukl8NwclbK2_VfwBDYo0pKMkuVUxI8kcOU_DnI,1320490
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_12.dat,sha256=JlzdSwdPlscUjsmbLAhUEB838Gd5nTVqPOtAFtOl6Xw,2840898
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_12.npz,sha256=BV3XZ773CpTUEsnKBbA08xSQQ5HZjBaGOELzTraE1io,1320490
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_15.dat,sha256=PrWEyClTW3Mmp8dgRXtUrlQ0nND8imWIk0FMW4l1Oew,2840952
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_15.npz,sha256=l55662aNMs362WtgIRY-sX44RNchyBWHEO2lcfF28uM,1320490
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_18.dat,sha256=7NIcvCPMIYtlTyni12EYTMJeaA1JOb7uAZXRlSRcqyQ,2841049
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_18.npz,sha256=aBWE5Aa1A_FMNuV8FqwRxoH9CEoLrTgrlEeirRiw6FY,1320490
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_21.dat,sha256=4wL4bn1zSImItuWQjZgWxUUZjtjT2w18W7aeLMSZtFI,2841074
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_21.npz,sha256=-4qZkIsPudpueA_DaKuG_cKVk70oI41z3Shd6zfswNk,1320490
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_25.dat,sha256=adVQ6GpGLoV6cU2ZlSVSJD1b0D6GcZMsWYHUkBkp9Dk,2841080
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_25.npz,sha256=L7VVwj1Kc8GH8-yCkWBSoy20hUH6WdAIdpqj8H_0rSU,1320490
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_3.dat,sha256=MwG8hXiEaPALMTdhoalnCKGA4NhbFwylyF4okDoCWFI,2840680
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_3.npz,sha256=KhuBLYsCWqx_F9jFruGJVdumebG1iO8Gy4TrhHAh9dc,1320490
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_6.dat,sha256=1zOP7zP4Ee2fCueMQ9IeawgVPe0_V4oe5fHRAXO6j9A,2840807
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_6.npz,sha256=-Mm4uVURQ4TyxuV0vPs_jka0VDu3V7pESltk72J23Vc,1320490
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_9.dat,sha256=CE7flqAmLiNZaHIW-Wml369otpwLirUmtNODxwNLJrg,2840906
+opics/libraries/ebeam/data/2x2_switch/2x2_switch_9.npz,sha256=nkW5bWkNMiARDL63IYYge-lFJT6_3HpIiIBnB7c6q8E,1320490
+opics/libraries/ebeam/data/bdc_TE_source/EBeam_1550_TE_BDC.sparam,sha256=90i3kg99e_kufwE9lSSxH1ryfa5n_iJHLmfW157lxBU,26162
+opics/libraries/ebeam/data/bdc_TE_source/bdc_Thickness =210 width=480.sparam,sha256=-W2cUrdAuBi2BPtvT9oHQznrBoHwOgQxbR0XUwSXxg0,26021
+opics/libraries/ebeam/data/bdc_TE_source/bdc_Thickness =210 width=500.sparam,sha256=5q96Xxm-94YqLme_syt2NV2fTYmFA9fGnCFZqeUfDhE,26068
+opics/libraries/ebeam/data/bdc_TE_source/bdc_Thickness =210 width=520.sparam,sha256=0PY4AFXFYsds5uNAFRWxMrNB75OF7Rct_Pt4qHaT1R0,26087
+opics/libraries/ebeam/data/bdc_TE_source/bdc_Thickness =220 width=480.sparam,sha256=weTYFeJHbPIuxWhXd_1mMKUDkJliTmbfER9LCv41jvs,26232
+opics/libraries/ebeam/data/bdc_TE_source/bdc_Thickness =220 width=500.npz,sha256=M_7FHW5SNZlNiHlavpIU75kIrBUzCnd0G0VGleftMbU,13954
+opics/libraries/ebeam/data/bdc_TE_source/bdc_Thickness =220 width=500.sparam,sha256=90i3kg99e_kufwE9lSSxH1ryfa5n_iJHLmfW157lxBU,26162
+opics/libraries/ebeam/data/bdc_TE_source/bdc_Thickness =220 width=520.sparam,sha256=voDxF5uMSVfvFBGB76BXuYH0aEaG_CT57V9KVdeVbZ0,26105
+opics/libraries/ebeam/data/bdc_TE_source/bdc_Thickness =230 width=480.sparam,sha256=-ENRrV5zsTXdkSm-QST2boILSpVbDf1Ob4GamypYPv4,26304
+opics/libraries/ebeam/data/bdc_TE_source/bdc_Thickness =230 width=500.sparam,sha256=BwXbpBBaQMEmy9yk3-S_ba2DE1Y1MSPwbkxJ5Fg9iXg,26103
+opics/libraries/ebeam/data/bdc_TE_source/bdc_Thickness =230 width=520.sparam,sha256=KSJ6-QTnR11t7dasTXVp0ytRhmMuyXaWrv5B9oW2Nzw,26145
+opics/libraries/ebeam/data/bdc_TE_source/bdc_lookup_table.xml,sha256=NvxFJ5mRed7FfuXL62y-37VaNOwua2QMgtpHVwbyP08,2867
+opics/libraries/ebeam/data/bdc_TE_source/ebeam_bdc_te1550.npz,sha256=WGhqbKKy6U-Gelw4gqrpc_70QyHw-X-QGqwB3FwJ2Eo,13914
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/ebeam_dc_halfring_te1550.npz,sha256=_gSUgom7CC5mjEJKpVV3h4CQLbiEqZheTruF1gumbm4,27114
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight.xml,sha256=JEXRfVROBpQAgg03VAnp0pwy_-bdjSmhw_6-E6sxvFA,5488
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=100nm_radius=10um_width=500nm_thickness=220nm_CoupleLength=0um.dat,sha256=AYBkTfYf8lqJzaSt0V4jJpA4fOP5Nv3W7uqyZbAo-eI,114182
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=100nm_radius=10um_width=500nm_thickness=220nm_CoupleLength=0um_mc.xml,sha256=xKORVwA0M_G3oTBHiEFDUOEMD5O_am8YJv4XcR5NV3I,1612
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=100nm_radius=3um_width=480nm_thickness=210nm_CoupleLength=0um.dat,sha256=7XLc-_R_0iJ9KOX3xjD-oBS2i5mqh95r7jXCW9gja-4,114441
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=100nm_radius=3um_width=480nm_thickness=230nm_CoupleLength=0um.dat,sha256=RvIECPNGcM4cy13xoOXECRzuWikvUy6rY5eKlgWDnrk,114441
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=100nm_radius=3um_width=500nm_thickness=220nm_CoupleLength=0um.dat,sha256=O8IOF-76BZSkZ4nloRojX5D6IXA-cHDT1Dit3x_LqZM,114269
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=100nm_radius=3um_width=500nm_thickness=220nm_CoupleLength=0um_mc.xml,sha256=MOMnaj9FIFr4ENWzNjqc5L43_ydGtfWYEKs_n3NyslE,1608
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=100nm_radius=5um_width=500nm_thickness=220nm_CoupleLength=0um.dat,sha256=mr9vpjHvjDEz7qg_pHOb3ek7cLJAcrUSFF5YPx8n4I4,114153
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=100nm_radius=5um_width=500nm_thickness=220nm_CoupleLength=0um.npz,sha256=GapU07_7yHaueU3h91DxEHzvAqATGNsQmzktxscbeHo,27154
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=100nm_radius=5um_width=500nm_thickness=220nm_CoupleLength=0um_mc.xml,sha256=8gzofdcfLoOOQSuDX25qd9qOeqmDvbrFKN1G4OBU0bA,1608
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=120nm_radius=10um_width=480nm_thickness=210nm_CoupleLength=0um.dat,sha256=y0rhN6WDwwuK47w6G4bBNpGkuvpnfFb2YFrKDiXAwLI,114173
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=120nm_radius=10um_width=480nm_thickness=230nm_CoupleLength=0um.dat,sha256=c_9tFuyEdZOoFk6NIJujKlH4ZMAwIteYZYmuRRLVs7g,114173
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=120nm_radius=3um_width=480nm_thickness=210nm_CoupleLength=0um.dat,sha256=1HQMfap04jPYFb2k5UXHeQg78zAFqUKQQ4eYBMNqP-o,114221
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=120nm_radius=3um_width=480nm_thickness=230nm_CoupleLength=0um.dat,sha256=HH3q88x66BrDoEyBAJct3yaOhgf4N_3gKl0xLoGpkOk,114220
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=120nm_radius=5um_width=480nm_thickness=210nm_CoupleLength=0um.dat,sha256=qTITOELhaNo3i2fDqrLepUSU9Rw9LYfFqfzSroXbEwI,114134
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=120nm_radius=5um_width=480nm_thickness=230nm_CoupleLength=0um.dat,sha256=rEbeaK5lqf1PXRXjZNLMkEyTEEtNODuc8XzTYmNyzVc,114134
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=130nm_radius=10um_width=520nm_thickness=210nm_CoupleLength=0um.dat,sha256=99jvkjp-iMVMTXOm8q6up5MNENdnBoC17K5HOhV7zYA,114151
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=130nm_radius=10um_width=520nm_thickness=230nm_CoupleLength=0um.dat,sha256=Q4H_jyEZgEXvwCsmqr9_5O-p6NyjGC8Px8s4zYCuJEE,114151
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=150nm_radius=10um_width=500nm_thickness=220nm_CoupleLength=0um.dat,sha256=3nNyZc1IdLhI-Vl7QiFrHHYGTIyrJq0qeMXgbkZFBuM,114188
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=150nm_radius=10um_width=500nm_thickness=220nm_CoupleLength=0um_mc.xml,sha256=lpCW3kzBY_9DDpxWLz5aItw8iNr-MBKCT9X6hDr_9Is,1614
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=170nm_radius=10um_width=480nm_thickness=210nm_CoupleLength=0um.dat,sha256=SE42qGqOevxj9gA9wN1d-P7-PGuXdcIq9XbYNCrTS7o,114137
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=170nm_radius=10um_width=480nm_thickness=230nm_CoupleLength=0um.dat,sha256=tSJkr5S7TMQgKsBiwQNK3WSLe_463Gz3j0RznnKnKV8,114137
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=30nm_radius=3um_width=520nm_thickness=210nm_CoupleLength=0um.dat,sha256=yldVdQzATwNVbxfTBrIXRjFvQlXLfsgg9ar5dWVdfQw,114231
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=30nm_radius=3um_width=520nm_thickness=230nm_CoupleLength=0um.dat,sha256=N0yWYcHYByDPXuBvmYCW6Sy5S5qlnBAjXgSRs0oE9Zk,114171
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=30nm_radius=5um_width=520nm_thickness=210nm_CoupleLength=0um.dat,sha256=hTLBXczjR4ktH5R5cYVwW2azzTWwVTCmZAirg8CBLlo,114390
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=30nm_radius=5um_width=520nm_thickness=230nm_CoupleLength=0um.dat,sha256=hTLBXczjR4ktH5R5cYVwW2azzTWwVTCmZAirg8CBLlo,114390
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=40nm_radius=3um_width=520nm_thickness=210nm_CoupleLength=0um.dat,sha256=yVdOczdwBfbrO6km35-R3Bi-eTNp_hAiDZpBe88haGc,114263
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=40nm_radius=3um_width=520nm_thickness=230nm_CoupleLength=0um.dat,sha256=yVdOczdwBfbrO6km35-R3Bi-eTNp_hAiDZpBe88haGc,114263
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=40nm_radius=5um_width=520nm_thickness=210nm_CoupleLength=0um.dat,sha256=tG4hctAATiJtQu2VMlQ7F4akJozWglOIVAxD8iKVvnQ,114413
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=40nm_radius=5um_width=520nm_thickness=230nm_CoupleLength=0um.dat,sha256=tG4hctAATiJtQu2VMlQ7F4akJozWglOIVAxD8iKVvnQ,114413
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=50nm_radius=3um_width=500nm_thickness=220nm_CoupleLength=0um.dat,sha256=eXhQbPJDgW_vXmkho49kQygJnB_wfWjnl3QI-KO3YWU,114355
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=50nm_radius=3um_width=500nm_thickness=220nm_CoupleLength=0um_mc.xml,sha256=CqIcJv2DudW0Uo_ME5cJcwPmYMJSzEgJRwibMOlHoI0,1606
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=50nm_radius=5um_width=500nm_thickness=220nm_CoupleLength=0um.dat,sha256=7984pC1BNe-P6hNqc0mUjGPm72YaVM5PfNn4QbV6x-s,114206
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=50nm_radius=5um_width=500nm_thickness=220nm_CoupleLength=0um_mc.xml,sha256=7As6j6HGHX9EboVZRAXclfStsvOsMiPxzC0qIqRZRFs,1606
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=60nm_radius=3um_width=500nm_thickness=220nm_CoupleLength=0um.dat,sha256=g6FuSLVEluaaTm8Yk-ekrzj5Ha5SDDVyk-reKUYLM9w,114366
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=60nm_radius=3um_width=500nm_thickness=220nm_CoupleLength=0um_mc.xml,sha256=53uOhYPEI6ebgUKMBd6uNYnx_7kN9lK8WSwsfvbS8pM,1606
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=60nm_radius=3um_width=520nm_thickness=210nm_CoupleLength=0um.dat,sha256=7wZnxTKd1qV9_W08Eu5mMQZOGZ3efWorpGs8vmLaaxU,114237
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=60nm_radius=3um_width=520nm_thickness=230nm_CoupleLength=0um.dat,sha256=7wZnxTKd1qV9_W08Eu5mMQZOGZ3efWorpGs8vmLaaxU,114237
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=60nm_radius=5um_width=500nm_thickness=220nm_CoupleLength=0um.dat,sha256=YE28EQXyprCpZhXW6IT_j1fA1AaSevNkm0DqldTd1FI,114221
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=60nm_radius=5um_width=500nm_thickness=220nm_CoupleLength=0um_mc.xml,sha256=bVQkFRWT83fSp308ahjKic4hHkUtADbKs8VpTQQEuso,1606
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=70nm_radius=3um_width=480nm_thickness=210nm_CoupleLength=0um.dat,sha256=FT-shKJ9MsBrnJu6nL-EGlLk7GShrMw7MvLK0hferB0,114440
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=70nm_radius=3um_width=480nm_thickness=230nm_CoupleLength=0um.dat,sha256=-MU7rboyQTtprZ4qVEEUGrT71-UX15_QXp9J1_gyKxo,114440
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=70nm_radius=5um_width=480nm_thickness=210nm_CoupleLength=0um.dat,sha256=_MlQbWU_hqcSgwZs4rZk58b9r_aM5oim9ODfPZImRoQ,114172
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=70nm_radius=5um_width=480nm_thickness=230nm_CoupleLength=0um.dat,sha256=vEcE-sfCp_4avdV1Z96A13vi8PmhgKcq88g31f6glSk,114172
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=10um_width=520nm_thickness=210nm_CoupleLength=0um.dat,sha256=TT3Ix1Ch_8WfzSIam6Yaw4346BGks12rri_0OtU_tX4,114160
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=10um_width=520nm_thickness=230nm_CoupleLength=0um.dat,sha256=9ONxzAJbfByTG_jC7wE770axmoa06lZ7btCU-iFkNJg,114160
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=3um_width=480nm_thickness=210nm_CoupleLength=0um.dat,sha256=UOLJkNbFomj1opuJ8J4Snsh4v2ywFbW4wPHyjhBb2Q8,114266
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=3um_width=480nm_thickness=230nm_CoupleLength=0um.dat,sha256=1KiV1c1OJxWk-HvtQJmzbLq4MearW7X0mbKmmxe3_Mo,114266
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=3um_width=500nm_thickness=220nm_CoupleLength=0um.dat,sha256=K4nKUoyLbcFG37GaBEcLQu0wza_UIUo6n6TvznL9sBI,114370
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=3um_width=500nm_thickness=220nm_CoupleLength=0um_mc.xml,sha256=v0e89fG3Yc7g8j7HrxA1A0VsCFcAEq-s1oV6_T7C1z4,1608
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=3um_width=520nm_thickness=210nm_CoupleLength=0um.dat,sha256=W8Onbkv7EkuzoX5kgFeWQek5kJLaA8im1gpASLrGzGg,114180
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=3um_width=520nm_thickness=230nm_CoupleLength=0um.dat,sha256=W8Onbkv7EkuzoX5kgFeWQek5kJLaA8im1gpASLrGzGg,114180
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=5um_width=480nm_thickness=210nm_CoupleLength=0um.dat,sha256=4MZcTeFRfmQvAG02o60RA5rhkvBPpQoEWPDrZl5TWmA,114182
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=5um_width=480nm_thickness=230nm_CoupleLength=0um.dat,sha256=dVxu4mQgpWH3DpFWlvqkG_01G2ceXfW-c4z4ChRxxKM,114166
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=5um_width=520nm_thickness=210nm_CoupleLength=0um.dat,sha256=nNAXZww3Fhl7fpC9FPUCbJvz_y-MMae0eowA7wLPg7s,114186
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/te_ebeam_dc_halfring_straight_gap=80nm_radius=5um_width=520nm_thickness=230nm_CoupleLength=0um.dat,sha256=nNAXZww3Fhl7fpC9FPUCbJvz_y-MMae0eowA7wLPg7s,114186
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/tm_ebeam_dc_halfring_straight.xml,sha256=phTOrN-KPHzj0q49VrvsreJxmfznlB_LoXUkZjNDJ-A,1896
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/tm_ebeam_dc_halfring_straight_gap=280nm_radius=5um_width=520nm_thickness=210nm_CoupleLength=0um.dat,sha256=852CiPjN-XQ4yhxVUWm8w0wjgP3LWEmfQ3EuCnacUP0,114161
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/tm_ebeam_dc_halfring_straight_gap=280nm_radius=5um_width=520nm_thickness=230nm_CoupleLength=0um.dat,sha256=852CiPjN-XQ4yhxVUWm8w0wjgP3LWEmfQ3EuCnacUP0,114161
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/tm_ebeam_dc_halfring_straight_gap=300nm_radius=5um_width=500nm_thickness=220nm_CoupleLength=0um.dat,sha256=ubmInFVpICY6ZcQvGHze2X9WmAvLRwuGbffZ1bnU_2E,114411
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/tm_ebeam_dc_halfring_straight_gap=300nm_radius=5um_width=500nm_thickness=220nm_CoupleLength=0um_mc.xml,sha256=qQ3HW4f3ng2l3IRa99HSRKw3HfSm3xdXq00W1oVg9-c,1610
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/tm_ebeam_dc_halfring_straight_gap=320nm_radius=5um_width=480nm_thickness=210nm_CoupleLength=0um.dat,sha256=CJm7qPDv3XsP2X8oFWPPnnbEVsuMLyg94wgTlhK1mKM,114224
+opics/libraries/ebeam/data/ebeam_dc_halfring_straight/tm_ebeam_dc_halfring_straight_gap=320nm_radius=5um_width=480nm_thickness=230nm_CoupleLength=0um.dat,sha256=z11U3tUUHowcxPyk9A8oPHTMeg92p6CHYLoKzqeM15o,114224
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=0um.sparam,sha256=_cc3iX5GMR5pBZyPTdrLKXfMQUSjwFmz6GBEkDJkTYA,52460
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=10um.sparam,sha256=WFu0WJJMEU2fVBi53v4x37ZS9CK2IdC_fIj-M8EyFT4,51708
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=12.5um.sparam,sha256=GGICzeglLVnSxUoFElLGo8aUftWMRwATszSPtMqjH1Y,51688
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=15um.sparam,sha256=nrD6170ne6YJHDL1yge_k1DRPZNjdRJxOf3aIxANbdM,51700
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=17.5um.sparam,sha256=xc3NdUbyL1dqcj-EGGhyMWfG6NEaSoff6QO76Ijr5bk,51640
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=2.5um.sparam,sha256=Rd-kKEYAHxNxUBTSCBf2xmKqptQzxYvqGk_CLp2ktwU,51804
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=20um.sparam,sha256=2sbDKPN1NRH1cvdLtC-GAk1dtMRff5HfnReDlNJT5uo,51724
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=22.5um.sparam,sha256=aifV3Rghuq6OAsRo5Isv5Dk4eWktHp_gr4P5OZDTkxI,51688
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=25um.sparam,sha256=S52N4EzuZ8sIbKLg4TeLbCHHFspswo2cBCyMwzYNhNE,51728
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=27.5um.sparam,sha256=Q9AhYOXJQp7BFOiA3T9M6x8nfBqZexMINayg3-Qy1q4,51692
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=30um.sparam,sha256=5TaDqbeXkFdxjf3BCVigsSzOCjogKXoTuC90wEedaBs,51948
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=32.5um.sparam,sha256=ArfckjAJu1riBOqAoy_Abh-jE5kGFR0ePsHw3XLAJAg,52044
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=35um.sparam,sha256=sQi_85DS4DdYBdc0pmGu9ZFSgbZhM0rew44Cg04rsvQ,52036
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=37.5um.sparam,sha256=2eCF_qHd_BQDf4UuF5nW7WFcoIV8dKbaUv2xjh2BGvU,52012
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=40um.sparam,sha256=sF9YJU6HfYHhGTyf8MTW0_8Y50_ce8ddAn9l0IyGDAg,51816
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=42.5um.sparam,sha256=GeHoZgL9HXndkTKT7qmEjO5Cv6yDY2TgBXKP1Kuta64,51984
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=45um.sparam,sha256=rE7KImerOQfHncZgm-q0XtXrxUBQSIKLZ4zjRqe9wmI,51900
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=47.5um.sparam,sha256=_r6JDwXs4fNasRdlXMOWJzESCfg1VIae08lUwzxwB_k,51760
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=5um.sparam,sha256=cERBeIh6odKGS6lMgMExncmksJBfhlaEe4Drc_BEcjc,51800
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_gap=200nm_Lc=7.5um.sparam,sha256=yvIbt0uZFTkhuJvfcG7luouRD9qSLwn4AnNRgkyyh4s,51772
+opics/libraries/ebeam/data/ebeam_dc_te1550/dc_map.xml,sha256=Cyu5tklDfRfAfleyNJSSAfn7TdlA0JHGcaOss6ToYCM,4757
+opics/libraries/ebeam/data/ebeam_terminator_te1550/ebeam_terminator_te1550.npz,sha256=RL3S11AE2jau6jM9Md0QIbcbahasLetmLOFKZqPKObk,2874
+"opics/libraries/ebeam/data/ebeam_terminator_te1550/nanotaper_w1=500,w2=60,L=10_TE.sparam",sha256=IcK2vwfVFXXNAhptHp4TkU4MOltGLANuKq-Wv05IbIk,3157
+opics/libraries/ebeam/data/gc_source/GC_TE1550_thickness=210 deltaw=-20.txt,sha256=9eWuMlFfTdPSoGQSBZiySDUaxHRF1nmD73YVzSxxDvw,17330
+opics/libraries/ebeam/data/gc_source/GC_TE1550_thickness=210 deltaw=0.txt,sha256=s0NRryWsGom73O-l_wVNAmMYIzXghUjbe2bns03-t5I,17401
+opics/libraries/ebeam/data/gc_source/GC_TE1550_thickness=210 deltaw=20.txt,sha256=HusErgpcRQf3e2LTGzVR6cdbESJut_QCoRbKz7NNx4w,17428
+opics/libraries/ebeam/data/gc_source/GC_TE1550_thickness=220 deltaw=-20.txt,sha256=ipnVJerRLJmep9opLPy49o1_DmB2ojjvt99Giq5vH1I,17324
+opics/libraries/ebeam/data/gc_source/GC_TE1550_thickness=220 deltaw=0.npz,sha256=cumK95svcCPLV6YbqMzDtMj6hTa-QsWYQ_qG1jhq0MY,7690
+opics/libraries/ebeam/data/gc_source/GC_TE1550_thickness=220 deltaw=0.txt,sha256=sWEsih02LX7vjlNT1VePvy6mGO2HfHnmuCV2p1pyajA,17401
+opics/libraries/ebeam/data/gc_source/GC_TE1550_thickness=220 deltaw=20.txt,sha256=gIFAdFMkS5HoyZW9Gjx95EAIrPFYifoTRer_U3htJKA,17413
+opics/libraries/ebeam/data/gc_source/GC_TE1550_thickness=230 deltaw=-20.txt,sha256=ZmVyLfTnh8OG55fn2VKPNFJV7CX4uv_tOB_Ran-E2vs,17315
+opics/libraries/ebeam/data/gc_source/GC_TE1550_thickness=230 deltaw=0.txt,sha256=zcluCEZ8mkp5bEIxKNq3zrMJeN0BXz2wwkREl4Mo0d8,17399
+opics/libraries/ebeam/data/gc_source/GC_TE1550_thickness=230 deltaw=20.txt,sha256=L9jN1aq1O74gj9mU_bTO2JE9NcJnBX3IulQPj8dYx_w,17396
+opics/libraries/ebeam/data/gc_source/GC_TE_lookup_table.xml,sha256=GlO6M21m_chsILAqf_AJN3hP4gnjnByv889RzQsoX6w,2874
+opics/libraries/ebeam/data/gc_source/GC_TM1550_thickness=210 deltaw=-20.txt,sha256=s9rVEVBLMkMgOEJsJbB3SMJ4jq76AStqyLT-FdpXldY,86721
+opics/libraries/ebeam/data/gc_source/GC_TM1550_thickness=210 deltaw=0.txt,sha256=j6t91UnUnz87fujE_pMdiNQV8FxpgVe0ulwvQkaNWBc,86770
+opics/libraries/ebeam/data/gc_source/GC_TM1550_thickness=210 deltaw=20.txt,sha256=UjJEs3WZrwMqbZJtXyEBqGXikmkwMREcnpISRqZ7LMc,86707
+opics/libraries/ebeam/data/gc_source/GC_TM1550_thickness=220 deltaw=-20.txt,sha256=dcV6BdQqXHnJJnAsaErpCgusBTnDyQftQBlToFNdB1M,86700
+opics/libraries/ebeam/data/gc_source/GC_TM1550_thickness=220 deltaw=0.txt,sha256=wq_OiEj8F7JL0O2IumQU1MMKYdOlbSnHsfdpMr8RtZw,86724
+opics/libraries/ebeam/data/gc_source/GC_TM1550_thickness=220 deltaw=20.txt,sha256=jhlwuLwFgeIHVXalDERsBpP9cUY3I3nQJowENKWApv4,86758
+opics/libraries/ebeam/data/gc_source/GC_TM1550_thickness=230 deltaw=-20.txt,sha256=QrSmRC4Tprme26KrmovZAUg-BIZwHjgG5zQYYGTwrj8,86627
+opics/libraries/ebeam/data/gc_source/GC_TM1550_thickness=230 deltaw=0.txt,sha256=CHCIO9PXVwunQqLa3crQt3qJotIvFYErDy8nnTvoBDY,86682
+opics/libraries/ebeam/data/gc_source/GC_TM1550_thickness=230 deltaw=20.txt,sha256=eSVV2J__d73Q-TPOynFexeImXZDfvcBG_6Bp75m8A2g,86747
+opics/libraries/ebeam/data/gc_source/GC_TM_lookup_table.xml,sha256=1JpLQv5Gmt1y_lhk3iX2olTG_Zr07Ol0LUevfZVcFDo,2891
+"opics/libraries/ebeam/data/tunable_wg/WaveGuideTETMStrip,w=500,h=220,p=0.003.txt",sha256=LXNNAfKuQGup2NUqAMxAJMoqyrE_9yLD98w2DgfIRWw,69
+"opics/libraries/ebeam/data/tunable_wg/WaveGuideTETMStrip,w=500,h=220,p=0.006.txt",sha256=nAP0sP5opnRZjqwzGQ46K3a4ah5NaI5VOfLUQOclllU,68
+"opics/libraries/ebeam/data/tunable_wg/WaveGuideTETMStrip,w=500,h=220,p=0.009.txt",sha256=l4qYROuJwM17geOqC-tuJ-D3plc0CpBl2NKMEF3k7eo,68
+"opics/libraries/ebeam/data/tunable_wg/WaveGuideTETMStrip,w=500,h=220,p=0.012.txt",sha256=ty-AR0GoD4wULxC2fe4IfkJaMtCl9sUD5FMFgJC6tr8,68
+"opics/libraries/ebeam/data/tunable_wg/WaveGuideTETMStrip,w=500,h=220,p=0.015.txt",sha256=X51jhG79-3iK63ll8Z8bTeIcRIplo3Z9IMX_tr7stZk,68
+"opics/libraries/ebeam/data/tunable_wg/WaveGuideTETMStrip,w=500,h=220,p=0.018.txt",sha256=67k4SVh7F8OU627eDmnzRZU-Aina0DvQz6FJu5H-YCc,68
+"opics/libraries/ebeam/data/tunable_wg/WaveGuideTETMStrip,w=500,h=220,p=0.021.txt",sha256=_RsJrPhcntfcOU1IlyAMRatSWv1FFpLXRo_EVKWrLYE,67
+"opics/libraries/ebeam/data/tunable_wg/WaveGuideTETMStrip,w=500,h=220,p=0.024.txt",sha256=-rkQcfolwMyZm2qBc99TXnO0cdEhHwCpoJ12DOt-HZQ,67
+"opics/libraries/ebeam/data/tunable_wg/WaveGuideTETMStrip,w=500,h=220,p=0.027.txt",sha256=FqNzFNvCSkcLmWMJF5skHhpWXFf6HhOctqsOsiMIqUU,68
+"opics/libraries/ebeam/data/tunable_wg/WaveGuideTETMStrip,w=500,h=220,p=0.03.txt",sha256=OjaH72kn9CL6RJdXekpQUcM_zZgOYtXrSSFkGw1Z4wE,67
+"opics/libraries/ebeam/data/tunable_wg/WaveGuideTETMStrip,w=500,h=220,p=0.txt",sha256=Dy1dJgf6uXPOudnrpL8MTCZIDLZcZMkNrHuR8IpsqDE,65
+opics/libraries/ebeam/data/tunable_wg/wg_strip_tunable.xml,sha256=sfWOg8mNv2Vp1Q--N92qDl-sBkB0Xl2LKVGFM2yHCdw,2846
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1000,h=210.txt",sha256=wMrygAE2-bizUZGK7l9MXEyk_LMePs3vAo5jnjSqb94,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1000,h=220.txt",sha256=-XUzf6bRpSH-mjukkl5c7jtvq7rcIaVZ5Ny6ayNeyJI,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1000,h=230.txt",sha256=ZCjq76Ape5ch1GI1CRa4sW-mVn3hDs8KFRcdGQyMA44,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1040,h=210.txt",sha256=wSmtr-89G9OZNFBwOOQDtYcbwkepi7EA2nJuWmhlgpA,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1040,h=220.txt",sha256=k11WxobNjwf-w2m158vgznvSdyT-YvUIPu-drmQL1NA,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1040,h=230.txt",sha256=d92qIIl_tlAaNtAgv38YMxShaEOyp_HBc0RJvcLqFXk,67
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1080,h=210.txt",sha256=bRoBM02UgGsgwHCDQH7t99DuLfRyddF-5fhQpvPJfis,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1080,h=220.txt",sha256=WXsIZ7copoDUyBJdeWg4h8HBIoMefLj6ueA1RuIUKkQ,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1080,h=230.txt",sha256=6H2XCe4wqIGscT7mebt5nVVlF9o-henZdaH9ru1wLLo,67
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1120,h=210.txt",sha256=IXBEAsPJvVN2F-BChCiNuFVOng-I_nEs-MMPQ78dmjU,63
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1120,h=220.txt",sha256=yVCLEH36BxIUTB7qsXwTmIhSsaUffpjSvFMa3GvKk4I,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1120,h=230.txt",sha256=BXdszUOiPLUvS85HfdfUbicIG-K959bJSHpYPAK8FoA,67
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1160,h=210.txt",sha256=sT7lbXgU5MdvbyGWQxXRdNEgTatU2uAAJ3A_rvmkcdQ,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1160,h=220.txt",sha256=1oY1OfhxEVm0hy1VJVolEqSxqsNyTfWPYZhAbNzOuMw,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1160,h=230.txt",sha256=PAErlfujuzPAX9Hc-JTH5JOm3USWp3DkgGazaGaWksw,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1200,h=210.txt",sha256=dajeiz58YjttPNPvoVkt535ZCz5qRvaQbSMRS2jucC0,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1200,h=220.txt",sha256=iEyBk3CPyaSBwUyZ8FjBZylW38meBPj8f3xdXPC3PRY,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1200,h=230.txt",sha256=kQ37386RxAj7agp4u5PunMMoiII_VFZlPQKdKl8ZBUc,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1240,h=210.txt",sha256=vlRuhEHFEcSxibLWBokYsvbj3p0cRtESwSZ3yZ8blUQ,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1240,h=220.txt",sha256=yasGbXN4wyKUcRcEZWN8Yd2i_8KR5bA3t_GW5VoA5PU,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1240,h=230.txt",sha256=SRrL3zRBCa51S759o8_-CLQse4hEh75aszd9zWXRcsk,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1280,h=210.txt",sha256=YLfaqb1OEMZc_YBV11mHvFSSpWmr7AKCwld3iQKt-ZA,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1280,h=220.txt",sha256=AaHGci7S-IwU76TDpKglzgT7_cK8tjgCqR6f6UgTDKY,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1280,h=230.txt",sha256=tAlDytVbawodXMKdtk6aVjZ35-YH5aTfM2GALJqwt8s,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1320,h=210.txt",sha256=CtlioZmgd6FfkWsX2BzeCHLeOMeXHWWGcOWKKEr2l7E,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1320,h=220.txt",sha256=GfIOoxeGz2Ts3fhuazn-gXqzaFGLiWnZ43RswePeW7w,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1320,h=230.txt",sha256=Qs5V8gysP65hSUXI1WT5CRDhBjbHkj4C9HIQY3PKsoM,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1360,h=210.txt",sha256=s1arhiYaJ8z-GtbPLXFOEMCjD58osgO6Js4LKXegr34,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1360,h=220.txt",sha256=qfVbLhE4SLM-TZukHkeBT9th9vUHNLg1SugmQUzr-jI,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1360,h=230.txt",sha256=m1fwvK8XNrm82xjUm_46pkQ4cmTX0_51Sh4mkB-y5hk,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1400,h=210.txt",sha256=yczvfFS15GbtPpeZMLLzEsCqbUaq0xszh032b4QvLME,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1400,h=220.txt",sha256=ovgNvtaSYpGWxS5PrFgFYYB9r8yjx5iPnN-wTpJwYic,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1400,h=230.txt",sha256=w6135lzn6O-wC7HkURI5cSU1nMigbNZ_G81YBM0Ggs4,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1500,h=210.txt",sha256=85dM_2iUyl2Bj-6NCTro1DhRY9G0oxIVoplN_unwMDI,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1500,h=220.txt",sha256=kzaHVuipk31A5zY-p7D6q3ZvZ-eNuGdGVLA-P4DnJUg,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1500,h=230.txt",sha256=0JsUolIv8lJM1y4bYc8Fz9aVR2jCrQ68oSpdrP2lsRA,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1600,h=210.txt",sha256=SejzfoRhlpbd94T5C8HHqkGThtnWaIsnq8iuoMMjCow,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1600,h=220.txt",sha256=4m4R2EcHSjTUwr6qPZgp5-2kNQ0h-RvRCzAD84IM7mY,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1600,h=230.txt",sha256=0GpJnObWBi3Kyg46oW3msn-_eOtemyaVWomtA7sSCVQ,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1700,h=210.txt",sha256=mJ4bgsL8Tw3aahsSV8Qaod8dJM2RE3nbYFH7HplAODU,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1700,h=220.txt",sha256=w7TN17oDBweh8QukplKrpC816w4jPtyagqlJh5RktTI,62
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1700,h=230.txt",sha256=nlQA3kOsXdCjy4ac5nh5v2q8E63MxcAemEAALK1xyeM,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1800,h=210.txt",sha256=Iko9CFJTFUbs8NCDLxksCROkxCEKRqxZcUSpcMVOTQU,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1800,h=220.txt",sha256=s4BBVlpzHv8WAEYHcFYkF3jOAt-6blK17aRYk4hahxU,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1800,h=230.txt",sha256=znMMQ_YhEuaQC5JT-s2VH-UfcietCU9k-Ox4dofK6YM,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1900,h=210.txt",sha256=ng1rWdNnm75INTeLZC_g0T-TXDEJdvi1eWCp8s_N2y0,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1900,h=220.txt",sha256=XS_ProgGLmMXFs8lH0NOTyW9KLsEOWlqFHpMhVe1hIE,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=1900,h=230.txt",sha256=hQeyZu3KB906hoSnEirCKmgP3PUbNGu9E5hVT6Ai6e0,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2000,h=210.txt",sha256=hFGnKd4D0amnYNyrby36877jLgDgGoF4TonhHb5u9R4,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2000,h=220.txt",sha256=Lk-HEVrDrAO2rVcDMu_J4THaF__BG5gbnbILaKvXYEw,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2000,h=230.txt",sha256=iau8r81sGKmnXNNgi3LqIxTfWsVKi8eE6pT1uuRRahc,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2100,h=210.txt",sha256=2IC61AoSx3zEi3a3p-z-FFEQ1bW5t3lzFTD_wZGoMLU,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2100,h=220.txt",sha256=Zyjt7Fno3puEn924hVN1E_uWVbIES4LiAtnGwJa0u7E,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2100,h=230.txt",sha256=p5FITQfWHgW2yqCIqP_T6ZuQKuNZK2m-d2is25VUe9Y,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2200,h=210.txt",sha256=xfGrBIFOpr-IqlxlTZRG8hWrpc8TLOAfMBe-BbgO7OQ,63
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2200,h=220.txt",sha256=-qY6le3squLuh0y4H9OaTGORDAQ2-o7yhOzGJ3z-kQU,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2200,h=230.txt",sha256=NJXsrVfKOV8uCJBuLfkokpkf4YSMXlit7KKvy1-e_Hw,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2300,h=210.txt",sha256=3e0PJRKIzbVZZC8BvtskH609GFXr7g_SElRQWFRXHb4,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2300,h=220.txt",sha256=l__K8sQ2yT9JXuEw2X4PEik1ltUrZ6McLRsK19zdKnY,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2300,h=230.txt",sha256=Y2vqE0k_Kzn4cb6SBvNylO1tee0C8nGSOcs_j7JkysE,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2400,h=210.txt",sha256=f2zNKn5Z51pyEBs-GJop0wSIaPbqPCF8j1UT4PQgfUY,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2400,h=220.txt",sha256=Szjko0X_fpENxjldjh7X3YHO3S0ZsM4Ngd3OgA1HjO8,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2400,h=230.txt",sha256=3294Ok075sPPdEreKn2XsqaZpO-8tROIvVYep8mhoaw,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2500,h=210.txt",sha256=mezNKJtFsgBbzeQNXtY5L3eloQVgthV5BjZlhIb0nMY,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2500,h=220.txt",sha256=LQkRsP-0KuYqRimcsdV9Hu0ecHP0yvNv-cTBWEjMIY4,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2500,h=230.txt",sha256=IjUIjVUK41OYjdX_aJdxn8sgQGXt4xvXnaKQHyhn5OU,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2600,h=210.txt",sha256=FriFSvcJhZ2V26SGnE6m5__YvVc2PCPf9RLQEHgBjsk,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2600,h=220.txt",sha256=PtUjg0qncbkW-NiI-Mjfmd0fgUpAIrPVUrboj76VMD0,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2600,h=230.txt",sha256=CuGpd18HsEMIMxjUDSvs2yVSWg7mGC64841VxOfQhjw,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2700,h=210.txt",sha256=usVClhG-YgNAYmUnWEPNOmFJMQRLd3TVJa3HLQ9Mzgk,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2700,h=220.txt",sha256=Znx10-AEkS0AjgdOglLZR02zXs8kElgOLWnkyNseTbs,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2700,h=230.txt",sha256=OXX39fKpCHzH-J9xy2nitw4eMd3gAfc_mQUeS6u3HrA,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2800,h=210.txt",sha256=LTCWZDcszXtJ0nE44NX4pFQoOSgfkEOLzm0gW8K-LjY,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2800,h=220.txt",sha256=rEHHEBkYeZ1pDnzmgBNKxO_E-J6cycpdzJN5aXgYCvs,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2800,h=230.txt",sha256=hs-sG_2ZLDesIuQGBXWFygnqQUefQe7y-dSacUvrmsI,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2900,h=210.txt",sha256=bkdoqy1SD28MCWjsdYbqNr4fgn9qMpslbPz8rqNPqGk,63
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2900,h=220.txt",sha256=lZ-PLhcp2PUky3hylRL81-36gLUSHFwCOGg5IX1a_Xg,63
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=2900,h=230.txt",sha256=mt_25gEv-wS7bmZUw0ygmhR5PWpL0AunduDeZxLI054,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3000,h=210.txt",sha256=CsrwQX025kAVMaRFl-z0eMioWSztGSLKHD6gu4oSt3U,63
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3000,h=220.txt",sha256=rKw5vlfNDtK-95WrWh-23FVPBwgR-rCiWJ5_TsRegb4,63
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3000,h=230.txt",sha256=uNZ264pbkpIFcKo33zAispfL7LBJumoVtfoYYATqhAQ,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3100,h=210.txt",sha256=TB1oPXW0Q1GYWa6UQlaG3QtK5ZeVC44zITxmiN7WKAs,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3100,h=220.txt",sha256=rWEEgr-xCdUF8LD88u0ifd1IqFv3k2C0j7pRsyARjKA,63
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3100,h=230.txt",sha256=w1-Kxqn1NzRxt0fwvZI7AUQUTyZ9pkURUqf8XWUQd88,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3200,h=210.txt",sha256=c7HXvo3_D-X5asnMf3FgYxJleSkP7abU9MC9aBUfXuk,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3200,h=220.txt",sha256=YdlMDau08D4I82zAKD_38u-hoNs2Brp2JS_SVQUgbKA,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3200,h=230.txt",sha256=4rm22fnDstZnu8UV7nQOghHBHgtZRFSPSRNGXFi2xcw,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3300,h=210.txt",sha256=-aYM7acHdFmAitz8uz2tQvXz35wbEl9frR7TvXA9vPY,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3300,h=220.txt",sha256=JZfFSD1xS13M3BQcPwfIShUI-H5ohkdeh4M_AgD_A-0,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3300,h=230.txt",sha256=PaQUU8rJGRirgVQX1gwqh4OBVPiEaBIFCu_qUhAJ_mk,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3400,h=210.txt",sha256=oWCSk-20xUFYFF4pnLzLKSWMEtGO97XlbcwoT3YBWtg,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3400,h=220.txt",sha256=DCHd6u_-3b9hKNDR6ANY2ADrBxzqDzEULuyDfM-polk,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3400,h=230.txt",sha256=VnGmOvPl_69dxYqlgaCSNo_uCwIEBFs2cBUAiHV7BUQ,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3500,h=210.txt",sha256=0tti77eoFK_S22Zd_rI0_3YmC7MuyoxhC-nNZy8Vz3s,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3500,h=220.txt",sha256=MeNMKpYwXOssXtqRkNuX8vJ74gPJ6zYWfQN0pzf415M,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=3500,h=230.txt",sha256=L3n59x6oEPfqSCMOMrrgYyBjmml64pK5cjAGQwkEZK8,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=400,h=210.txt",sha256=2XtIx0CHsM89MFcW9CITYBe1_k25q8tyD0vtlu_d15k,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=400,h=220.txt",sha256=EWpDiT2HQgQ2EsnqEeTwj4dfavwqedhIrYVDqOtU940,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=400,h=230.txt",sha256=BHIv4yqL1q3BZQU_bZZhACVFQepIuTykEDcSBIPJ-DQ,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=420,h=210.txt",sha256=medj_QexDQO1Dmc__74xe7Dn19CvPIaToPqVboNGL_U,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=420,h=220.txt",sha256=B9rcjFMpND2E-NWy2FN6U7ZRKokDnczlvLsDAQGNlkY,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=420,h=230.txt",sha256=fMyZg0ljfXRJHYT0tmCGOXpmnha6yVaSwUhHhxq88Kw,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=440,h=210.txt",sha256=ywj8d7kPpiJISOo4SXDdnUjuYPQaH1WWUCHmCh9wPeg,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=440,h=220.txt",sha256=B84xQx41_jKM7SUkEdbYkDtL0U46rtUYPG0xffIr3m8,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=440,h=230.txt",sha256=zjZ3WCgxFeCxuRmwSoU0kDp20UPPYVemrzYyzv_335I,63
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=460,h=210.txt",sha256=qPCsIidvmvoEUzQKfl4zA_BSrazv0wFw5nINXqmggYo,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=460,h=220.txt",sha256=qtlcWp-Xy3pNYsRbCndaPT8lvIUBI7lLhj1WCcVaCB4,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=460,h=230.txt",sha256=H2_mpyNFFIB1kfNk06lSRzi621GWc9FTRUIjbEV8L9c,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=480,h=210.txt",sha256=m0xOI9I6kpL8izqX_Qkjtmo8NiUypNFh6sPDuxoHAjY,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=480,h=220.txt",sha256=bXnbP9oXUCMTgvFi2KveIalCMvdBuTJYnqibPQbv2OU,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=480,h=230.txt",sha256=nWPNjmr-JuGjXyfhynSjLfYstwe6QWhc-VaWDB1lGC4,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=500,h=210.txt",sha256=FrgTRVAzlyzQFcXSOZEvkM3Iljjq5ibo_XkLP_ZgeyE,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=500,h=220.txt",sha256=Dy1dJgf6uXPOudnrpL8MTCZIDLZcZMkNrHuR8IpsqDE,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=500,h=230.txt",sha256=m_OikYmwKyPC1Re4vdR3L-I8iuf9WP05VF5JpGJkvQ4,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=520,h=210.txt",sha256=MHLQgwEU4-vjfIBQcm_e8Kw4DWUZyg_3zQIyer51hdQ,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=520,h=220.txt",sha256=RIfjKQgAS5TjwEeM90KYZ7g3LArzaj1LVc1WRgGQxMU,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=520,h=230.txt",sha256=iELhUcB7yCuuvYwqkb8_kIGze8Oiqk-xadnCle0Y-rg,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=540,h=210.txt",sha256=VDGaP5oEz6DwEfhO4Z7jVO-jBF0MyFZE-oh2sdFy0WM,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=540,h=220.txt",sha256=A02Jt5EIjrKLE3t8yAubtNYBUI8Qu2o8J5S4l6jRFMc,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=540,h=230.txt",sha256=VYBifX3q4cC8dqJ4rBaxfJxg606ZJuzQcYlaum06Wow,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=560,h=210.txt",sha256=3TeqOmtPsYjxTlNOHCHaptt-tkiwKwDiBQ7bxgjQz1s,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=560,h=220.txt",sha256=bT8QxiQ4p9Cvvk8fWE4FR3IPkOiyiaq5Yan1vAKcGfA,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=560,h=230.txt",sha256=pdRL-d314wXylBcmLbZtItffZQK-bHej_ahzMW4UyoA,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=580,h=210.txt",sha256=tAfhLjNuthTosruwvmOJgOfCilCqthXlbTxsU4LMyE8,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=580,h=220.txt",sha256=BKMKzxald1_iizM6NJzOkF-yehw-6znUd2pZL2jis90,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=580,h=230.txt",sha256=8i34ZLceWkxbTVnr1PzRbjgs2YpXk5445PkIkJUxS8Y,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=600,h=210.txt",sha256=Y2RTChXxzUnJ3RVqY8Ua8imExgefx10QRWsbNtPkhNo,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=600,h=220.txt",sha256=Y9Vy3man4ZOUIuPSzIyQq9Bv9E5m1rrnWXOsUaGAXBA,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=600,h=230.txt",sha256=Wh59MY82ZD42s9dUTaJm8swxwZa5lqPeqMv5zI7xoBk,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=640,h=210.txt",sha256=ZLIMg8dBgQwFeFr00sn0jLAme6FLREY9rovYNvAIQ2M,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=640,h=220.txt",sha256=Hc8EwL1TMkIu4ELeQ1Ty3z_6dTKm_Dr3tdu4RyAIfTg,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=640,h=230.txt",sha256=XgqV9B__O6RaBqF4uidYeCVj7BtjCFLRGAWCqXhmtDo,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=680,h=210.txt",sha256=NlJZy4d0pgxqoZfs6hUT8GCUxSV5YSvjkgDCIaQul_o,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=680,h=220.txt",sha256=2pOXdqyAp03Yh-uz5ajCIxXDeHhvkf02n0XXb6Wcfak,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=680,h=230.txt",sha256=u4lkZ6RX9__86h7Uvxsdp7UCGS4G7fwagKO4uEZD3hA,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=720,h=210.txt",sha256=8kldoTIxXffZ_U2DI12BACsIpqygAccpD5xm8snhqy8,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=720,h=220.txt",sha256=_XkHWkLFQKd48jM4yrbhAkTAU0eMsAqmuh7uW-B8db0,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=720,h=230.txt",sha256=TKtg630m4juhEMiy6Wp_wWgOBhrTk1W5hKHUXtaGmNk,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=760,h=210.txt",sha256=TYz7ujoeRm_UyOVjDCxXv3y_eIyPYRGTu9Ct_PKxQ4I,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=760,h=220.txt",sha256=ZNsHJNr5l43vGQR9lt_H4wVL1IXADB2x7n2yqxL66Wo,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=760,h=230.txt",sha256=d158hR9G4uRD5fLy9U9anzXpcfmYm6W-IWoE3DXkay0,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=800,h=210.txt",sha256=5Nl7jsrBAchxAppC-b5pOkQf851xznAO2yiSvw7CGCc,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=800,h=220.txt",sha256=giidDdJ2GyGfYwHwEJ6-u8rnkVIuoo2njr1OQfHr8i8,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=800,h=230.txt",sha256=yhHu23DnQHCZPpKxbnXG5zlPsHV1GIVvDvBjeFx5I90,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=840,h=210.txt",sha256=wfglIDj_ebeckbh2RzhruYegC1rqpOcenAdzhj1RWuo,64
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=840,h=220.txt",sha256=_Oo6aMrDg07MmmTxC3c-YQMLGAiIpiYkwKNkhC_Q8JM,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=840,h=230.txt",sha256=ZyEhKw4kXHJ9enHhHBJ1Jj1Gh7Jm3QO8i9XFv8rx03w,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=880,h=210.txt",sha256=c3kHo70v2c2vlufcuz2pHif_NPjnIvREWHKWGP-lbmM,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=880,h=220.txt",sha256=WX4Ccq3mHpcj2_aUFJMJNY_G83oFVUo7CoBxoDCzs-U,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=880,h=230.txt",sha256=nLQSb02VFiQpWOAoytRWztSalASP3I6XYYCHKpFFwfo,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=920,h=210.txt",sha256=kIsJeR5titVb2CF41A776ZMQJF22UgLXMcoO5PTaqoM,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=920,h=220.txt",sha256=NrWQG2q28p_2KYm4Hv5a2hwKEvVFKgAAFLu0RSnuwpE,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=920,h=230.txt",sha256=f9mq_IPTSH2OQxkRtaTM_nfC_7-wSrBNaYMFN8Hdp6U,67
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=960,h=210.txt",sha256=T7Mneh3w6by9InpGnILMaMlO5XHwrdvPd8UskBhRMQ8,65
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=960,h=220.txt",sha256=t57LoGqYBWUx_yc4KD6GTGRnK6H_hhYTelQTmY_Zhlg,66
+"opics/libraries/ebeam/data/wg_integral_source/WaveGuideTETMStrip,w=960,h=230.txt",sha256=WOOJboSLQDqkrFoJAiiE6yoaCPfc9zuzbVMHW3eURu8,66
+opics/libraries/ebeam/data/wg_integral_source/wg_strip_lookup_table.xml,sha256=ZwmLxQ7_ytnQ27TUllwApiEAqXXnvMMrLdosmvcJ010,47318
+opics/libraries/ebeam/data/y_branch_source/Ybranch_Thickness =210 width=480.sparam,sha256=69BQF6g-xeWey7YjmQSMMnHL4QEETcFqCmDYkmrQKeM,28820
+opics/libraries/ebeam/data/y_branch_source/Ybranch_Thickness =210 width=500.sparam,sha256=MBBumt-UyTJCZ_puM5WqxnVtR0d4iaN0DFB4HD56hNc,28907
+opics/libraries/ebeam/data/y_branch_source/Ybranch_Thickness =210 width=520.sparam,sha256=iyNOFGi9ecsP-LAvDPXOWK8M_Ddmp7pvrrDptqogByk,28957
+opics/libraries/ebeam/data/y_branch_source/Ybranch_Thickness =220 width=480.sparam,sha256=gQubM43Pzi2DN_XF0ZsgBb8G8jtTDRdl3eLaxT3OR4c,28839
+opics/libraries/ebeam/data/y_branch_source/Ybranch_Thickness =220 width=500.npz,sha256=wejNo4dtDvitVhh2FSLVryimRhWft-sD5QKFGMsCEzA,8242
+opics/libraries/ebeam/data/y_branch_source/Ybranch_Thickness =220 width=500.sparam,sha256=nU87GOmgllJMLA4gZ_7NnI-UDRqVNIVB9_A1jaQtiBE,28858
+opics/libraries/ebeam/data/y_branch_source/Ybranch_Thickness =220 width=520.sparam,sha256=-hnQ85rtHLKtBhgLDIg5laoHRuefK-Bbnywt5Q7mLSw,28978
+opics/libraries/ebeam/data/y_branch_source/Ybranch_Thickness =230 width=480.sparam,sha256=3XJ0aedMYHmsEhTOX52FnkmrCrZI5swshCEdzIh-ci0,28879
+opics/libraries/ebeam/data/y_branch_source/Ybranch_Thickness =230 width=500.sparam,sha256=aMHNge7yC9kGF42SbAA6T7SCF9Ac70TMIyB3XfReRWo,28878
+opics/libraries/ebeam/data/y_branch_source/Ybranch_Thickness =230 width=520.sparam,sha256=wNEgtGaISle4_wOJntgmPaIQ2p2RnMnWWGc3vS9KGas,28914
+opics/libraries/ebeam/data/y_branch_source/y_lookup_table.xml,sha256=EOowPbscD_d2wrLLr0ESdSPtNkW_tAda50FIl1Exw3A,2889
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_components.py,sha256=dErQmyB_h-ElbB5NiypOP_UmC6JfCaXQXQnLIOHw7ng,468
+tests/test_globals.py,sha256=VD9wb89VCaeZOUY9oK1dz6pQ87YUjQcUwGX-v7iyrTM,85
+tests/test_read_netlist.py,sha256=B_fXTrRTOCRcltHqG1LWYewAEhzUcuFa_AB3c9AbKso,1113
+tests/test_components/test_properties_components_BDC_.csv,sha256=RSUZ5dc_HqaREiCJ8kr1D8vzj_isaDCfP_pxVpUNqz4,1124
+tests/test_components/test_properties_components_DC_halfring_.csv,sha256=G-RVoPWn3sei_Lkq7P8z5Tfq7kCHEK9nBzfo-TFme8E,1138
+tests/test_components/test_properties_components_GC_.csv,sha256=Wgb7i8Ij7v86492zjC7wfS3UzG-nsAqbPHZIqzzJJFQ,337
+tests/test_components/test_properties_components_Switch_.csv,sha256=4sMXHNeSb5OGR4jHrPi2eLu3DYRi-w3g7H9OfZshE3g,1124
+tests/test_components/test_properties_components_TunableWG_.csv,sha256=orCjqvtzU7Zp-xlRKFpVoQ5VZXPJfHSmRTDRI6lwaL0,266
+tests/test_components/test_properties_components_Waveguide_.csv,sha256=5urGD-lpjFlJUd9l0iU72l7kfgyoA7shlB1XH5kLzYk,266
+tests/test_components/test_properties_components_Y_.csv,sha256=xOJBBeMIsY5rhJ7JEQw_MfUWZAYPqwdSn6e7O5-xVk4,664
+opics-0.1.9.dist-info/AUTHORS.rst,sha256=vv-UbtBu9JprfjW0Foz1vmmSpcW8KLk_12kQyKFGhDU,222
+opics-0.1.9.dist-info/LICENSE,sha256=d5avsQ_nZInIwIRkQkJceVCZgU74biEMd2L92nK1Uhc,1093
+opics-0.1.9.dist-info/METADATA,sha256=eZSirzLTGiPfhkm4DkbZLuTjCwoeu09CsyWyUWYCd-I,2963
+opics-0.1.9.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+opics-0.1.9.dist-info/top_level.txt,sha256=H78J1Q9W_3rw4w4hjVrDMZ3Yj6BZGcUHmzydBWqkM4M,12
+opics-0.1.9.dist-info/RECORD,,
