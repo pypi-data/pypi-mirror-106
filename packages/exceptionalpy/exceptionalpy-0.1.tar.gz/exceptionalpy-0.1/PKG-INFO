@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: exceptionalpy
+Version: 0.1
+Summary: global exception handler with notification features
+Home-page: https://github.com/nbdy/exceptionalpy
+Author: Pascal Eberlein
+Author-email: pascal@eberlein.io
+License: UNKNOWN
+Description: # exceptionalpy
+        ## features
+        - Handler
+          - [X] handle exceptions
+            - [X] print stacktrace
+            - [X] forward stacktrace to notifier
+        
+        - BaseNotifier
+          - [X] provide interface for extensions
+          
+        - HTTPNotifier
+          - [X] send stacktrace via POST to specified url
+          
+        - SMTPNotifier
+          - [X] send stacktrace via Mail to specified email addresses
+        
+        - Rescuer
+          - [ ] Manager like interface for threads / processes
+          - [ ] Capture exceptions, 
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
