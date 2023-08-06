@@ -1,0 +1,8 @@
+pandas>=1.0.5
+PyCrowdTangle>=0.5.0
+tqdm>=4.47.0
+networkx>=2.4
+python-louvain>=0.14
+tldextract>=3.1.0
+pyarrow>=4.0.0
+ratelimiter>=1.2.0
