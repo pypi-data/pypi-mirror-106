@@ -1,0 +1,12 @@
+kurl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kurl/__main__.py,sha256=ZPA7M4P9qwC3wJfQtX9e07JQsNLcxcai7d0QrgWFPjg,55
+kurl/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+secret/SCRATCH.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secret/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kurl-0.0.1.dist-info/LICENSE,sha256=qa7R_AbaR83ZfoUV_42NLm1y03WIzvfz5kcIrGwX-UY,1075
+kurl-0.0.1.dist-info/METADATA,sha256=FNIyk1olLuHUCiz9pQjPj65Pw0tZgfPzwvOIKCQ_DmA,650
+kurl-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kurl-0.0.1.dist-info/entry_points.txt,sha256=jlhmvRtK9BpXkBwRiMc8O7rl1ECRYpJJNveLkhemUIk,45
+kurl-0.0.1.dist-info/top_level.txt,sha256=p8hfJJ3MUu1rxvmzkI4_gTVxFh7Desb-LDZEfSXpa4w,18
+kurl-0.0.1.dist-info/RECORD,,
