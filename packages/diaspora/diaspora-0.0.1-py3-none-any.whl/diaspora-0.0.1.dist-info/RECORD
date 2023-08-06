@@ -1,0 +1,12 @@
+diaspora/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diaspora/__main__.py,sha256=ZPA7M4P9qwC3wJfQtX9e07JQsNLcxcai7d0QrgWFPjg,55
+diaspora/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+secret/SCRATCH.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secret/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diaspora-0.0.1.dist-info/LICENSE,sha256=qa7R_AbaR83ZfoUV_42NLm1y03WIzvfz5kcIrGwX-UY,1075
+diaspora-0.0.1.dist-info/METADATA,sha256=ya5U-OfOqXC4jA5slhKoK9ZmbI_k2OXwyOMsMePutug,658
+diaspora-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+diaspora-0.0.1.dist-info/entry_points.txt,sha256=L-NCXIao4nGsn4jFqcMt7KNC_5obHf_qH2ADLb9wp-A,53
+diaspora-0.0.1.dist-info/top_level.txt,sha256=ng4ApHPNcxhOtmn8PRIHYy3E6fTS2aI0_YHdGTbgXpw,22
+diaspora-0.0.1.dist-info/RECORD,,
