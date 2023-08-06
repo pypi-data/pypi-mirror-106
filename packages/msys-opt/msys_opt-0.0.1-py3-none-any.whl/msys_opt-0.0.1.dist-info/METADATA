@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: msys-opt
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/willi-z/mdd
+Author: WILLI Zschiebsch
+License: BSD-3-Clause
+Project-URL: Source Code, https://github.com/willi-z/msys-opt
+Project-URL: Issue Tracker, https://github.com/willi-z/msys-opt/issues/
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: pyparsing (~=2.4)
+Requires-Dist: numpy (~=1.20)
+Requires-Dist: msys
+
+UNKNOWN
+
+
