@@ -1,0 +1,11 @@
+numerai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerai/data.py,sha256=Zi6EEDwOyJJrgPQqnj9wNqV-PYdu6HR3OoRO0sshy_4,6223
+numerai/model_dispatcher.py,sha256=JJ97dj6xPbMDlAii6H91xdtOOgvaS_lN8ZfAVw5XoRg,2422
+numerai/scoring.py,sha256=QgeDCCDTWBE_l_sfpaZmF3EGQBD0f7cY5I9mdqGR5ps,2491
+numerai/secrets.py,sha256=77ioJPa6slDYFTTVdiWzgQ5Ky31BhctWyw6a46YIEnc,123
+numerai/train.py,sha256=aQ3JkBsGvWMwOX0K8G9_pQnEDpHOBeCQtR6Es6OoyEU,4118
+marloz_numerai-0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+marloz_numerai-0.1.dist-info/METADATA,sha256=iWotMtQxYlTUm_G5R7Teriahy3NDvFwosyp7Gc7vOxY,264
+marloz_numerai-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+marloz_numerai-0.1.dist-info/top_level.txt,sha256=pdBJlzoYYYKRkDIF_wXC8oeXT-FGc4F40hPNBDuKx3k,8
+marloz_numerai-0.1.dist-info/RECORD,,
