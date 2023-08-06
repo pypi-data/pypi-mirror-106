@@ -1,0 +1,3 @@
+[pylsp]
+pyls_flake8 = pyls_flake8.plugin
+
