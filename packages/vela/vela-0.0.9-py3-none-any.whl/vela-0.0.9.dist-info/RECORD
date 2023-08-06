@@ -1,0 +1,10 @@
+vela.py,sha256=JwWti1fhGRgayp1kw6JmJaYn4ALONGqHm_TQM9R67RY,3106
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/vela.py,sha256=JwWti1fhGRgayp1kw6JmJaYn4ALONGqHm_TQM9R67RY,3106
+vela/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vela/vela.py,sha256=JwWti1fhGRgayp1kw6JmJaYn4ALONGqHm_TQM9R67RY,3106
+vela-0.0.9.dist-info/LICENSE,sha256=a5LSoeMQOK3uDL8Wv4WBQNVgmbCtKaAj0EE9tvT6a04,1072
+vela-0.0.9.dist-info/METADATA,sha256=yaWhpV2VJDAsscvlYYuN6LibBfQSuuBO1ys9yXd09G0,919
+vela-0.0.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vela-0.0.9.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+vela-0.0.9.dist-info/RECORD,,
