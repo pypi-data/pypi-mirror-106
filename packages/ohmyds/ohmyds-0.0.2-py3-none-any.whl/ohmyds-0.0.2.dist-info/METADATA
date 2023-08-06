@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: ohmyds
+Version: 0.0.2
+Summary: Python library to visualize data strcutures
+Home-page: https://github.com/prabhupant/oh-my-ds
+Author: Prabhu Pant
+Author-email: prabhupant09@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/prabhupant/oh-my-ds/issues
+Keywords: data structures,tree,graph,linked list,stack,queue,education,visualization
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# oh-my-ds
+Python library to pretty print data structures
+
+# Installation
+
+```python3
+pip3 install ohmyds
+```
+
+# Usage
+
+Right now only binary tree is supported
+
+```python3
+
+from ohmyds import binary_tree
+
+root = binary_tree.create_tree([1,2,3,4,None,5,None,6,7,8])
+```
+
+For binary tree, you can do two operations right now - level order traversal and print
+
+```python3
+print(root)
+```
+
+The above command will print binary tree in a beautiful way (beauty is in the eyes of the beholder!)
+
+```
+ _1    
+/  \   
+3  2_  
+ \   \ 
+ 5   4 
+    / \
+    7 6
+```
+
+
