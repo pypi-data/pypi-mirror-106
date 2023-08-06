@@ -1,0 +1,8 @@
+README.md
+setup.py
+gpcrmining.egg-info/PKG-INFO
+gpcrmining.egg-info/SOURCES.txt
+gpcrmining.egg-info/dependency_links.txt
+gpcrmining.egg-info/not-zip-safe
+gpcrmining.egg-info/requires.txt
+gpcrmining.egg-info/top_level.txt
