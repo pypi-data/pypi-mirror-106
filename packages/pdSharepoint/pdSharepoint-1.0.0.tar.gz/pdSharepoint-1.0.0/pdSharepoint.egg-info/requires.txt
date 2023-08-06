@@ -1,0 +1,4 @@
+O365
+pandas
+openpyxl
+xlrd

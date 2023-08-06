@@ -1,0 +1,8 @@
+README.md
+setup.py
+pdSharepoint/__init__.py
+pdSharepoint.egg-info/PKG-INFO
+pdSharepoint.egg-info/SOURCES.txt
+pdSharepoint.egg-info/dependency_links.txt
+pdSharepoint.egg-info/requires.txt
+pdSharepoint.egg-info/top_level.txt
