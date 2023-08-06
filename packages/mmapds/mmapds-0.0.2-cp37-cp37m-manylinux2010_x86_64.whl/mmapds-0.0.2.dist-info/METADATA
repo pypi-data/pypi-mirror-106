@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mmapds
+Version: 0.0.2
+Summary: python mmap data struct
+Home-page: https://github.com/reyoung/mmapds
+Author: Yang Yu
+Author-email: reyoung@126.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+Data structure implementations using unix-mmap.
+
+
