@@ -1,0 +1,21 @@
+{% extends "page.html" %}
+
+{% block main %}
+<div id="jupyter-admin"></div>
+<div id="jupyter-admin-hook">
+  <!-- React Hook -->
+</div>
+{% endblock %}
+
+{% block footer %}
+<div class="container-fluid navbar-default small version_footer">
+  <div class="navbar-text">
+    JupyterHub {{ server_version }}
+  </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<!-- {{ super() }} -->
+<script type="text/javascript" src="{{base_url}}jupyter-admin-static/js/jupyter-admin.js"></script>
+{% endblock %}
