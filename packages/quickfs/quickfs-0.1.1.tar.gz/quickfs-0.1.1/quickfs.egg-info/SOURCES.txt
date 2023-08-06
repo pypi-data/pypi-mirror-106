@@ -1,0 +1,8 @@
+README.md
+setup.py
+quickfs/__init__.py
+quickfs/quickfs.py
+quickfs.egg-info/PKG-INFO
+quickfs.egg-info/SOURCES.txt
+quickfs.egg-info/dependency_links.txt
+quickfs.egg-info/top_level.txt
