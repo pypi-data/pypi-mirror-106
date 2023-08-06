@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.py
+bin/samrand
+samrand/__init__.py
+samrand/reader.py
+samrand/sampler.py
+samrand.egg-info/PKG-INFO
+samrand.egg-info/SOURCES.txt
+samrand.egg-info/dependency_links.txt
+samrand.egg-info/not-zip-safe
+samrand.egg-info/requires.txt
+samrand.egg-info/top_level.txt
