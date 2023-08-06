@@ -1,0 +1,9 @@
+License.txt
+README.txt
+setup.py
+GIFgraph/__init__.py
+GIFgraph.egg-info/PKG-INFO
+GIFgraph.egg-info/SOURCES.txt
+GIFgraph.egg-info/dependency_links.txt
+GIFgraph.egg-info/requires.txt
+GIFgraph.egg-info/top_level.txt
