@@ -1,0 +1,14 @@
+test/snapshots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/snapshots/snap_gulp_pdf_test.py,sha256=sqrAOz26JtG_ErO5XwrKrhXBMADKlsrrFtySncoN_g0,3814
+toggle_report_to_gulp/__init__.py,sha256=mqMuQB3aqJVPrHHqJMLjqiMKUiJjozc7EPLcX5DpKHg,22
+toggle_report_to_gulp/gulp_pdf.py,sha256=2KYp451Eg-vii_wI8G59A3rv7J6YCAfPi-ekO40wOzY,4761
+toggle_report_to_gulp/report.py,sha256=0GMLUVVsMqFJ5ds2C4clhvG31mvLUwwEY6OuROmc6rI,1141
+toggle_report_to_gulp/report_summary.py,sha256=uX5rK1A1bHqQS2xdnpfJf053lRp8gBuEvPg-_-LZa18,1598
+toggle_report_to_gulp/toggl_client.py,sha256=vlhivWMlQQnWi9ExLp-NKObuahqwhyI6u02w2KBs0xw,2572
+toggle_report_to_gulp/utils.py,sha256=rZQe9v_vztRs0ZEPYYaoxMG0ij7dg1MXO8bBaBDvBKk,896
+toggl_report-1.0.6.dist-info/LICENSE,sha256=iHYbhd0OHqvQxGwOWzVUWzLAPDOzZXBETywJZp2UZoY,1073
+toggl_report-1.0.6.dist-info/METADATA,sha256=EBtUe9ii8w4JryPeEoUSKhCAyowDJs8kg-OqmZIG6zA,2046
+toggl_report-1.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+toggl_report-1.0.6.dist-info/entry_points.txt,sha256=NgCDtV5-lVTAbfBC6uXX6ce0IrN2hpUqWELCMDSHkwY,43
+toggl_report-1.0.6.dist-info/top_level.txt,sha256=_k-34tz9Rhp2knnDNyhO125ZiFw-axj_Cd7tdJU9hQs,27
+toggl_report-1.0.6.dist-info/RECORD,,
