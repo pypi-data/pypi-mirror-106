@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: binaryPy
+Version: 1.0.5
+Summary: binaryPy encryption
+Home-page: https://github.com/xqlip/binaryPy
+Author: XiaoQingLin
+Author-email: xiaoqinglin2018@gmail.com
+License: MIT
+Description: # binaryPy
+        
+        ## 工具介绍
+        
+        将python代码加密为so或pyd（支持项目文件/单个文件加密）
+        
+        Git仓库地址: https://github.com/xqlip/binaryPy.git
+        
+        python: 3.6 +
+        ## 安装
+        
+            pip install binaryPy
+        
+        ## 使用方法
+        
+            binaryPy -i "project dir/ file " [-o output dir] [-I ignore files]
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

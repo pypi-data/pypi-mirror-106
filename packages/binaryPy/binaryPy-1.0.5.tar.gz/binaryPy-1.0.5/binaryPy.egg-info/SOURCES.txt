@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+binaryPy/__init__.py
+binaryPy/binary_encrypt.py
+binaryPy/cmdline.py
+binaryPy/log.py
+binaryPy.egg-info/PKG-INFO
+binaryPy.egg-info/SOURCES.txt
+binaryPy.egg-info/dependency_links.txt
+binaryPy.egg-info/entry_points.txt
+binaryPy.egg-info/requires.txt
+binaryPy.egg-info/top_level.txt
