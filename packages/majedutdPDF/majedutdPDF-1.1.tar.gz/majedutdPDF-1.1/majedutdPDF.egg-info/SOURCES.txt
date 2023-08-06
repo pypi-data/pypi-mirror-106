@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+majedpdf/__init__.py
+majedpdf/pdf2image.py
+majedpdf/pdf2text.py
+majedutdPDF.egg-info/PKG-INFO
+majedutdPDF.egg-info/SOURCES.txt
+majedutdPDF.egg-info/dependency_links.txt
+majedutdPDF.egg-info/top_level.txt
