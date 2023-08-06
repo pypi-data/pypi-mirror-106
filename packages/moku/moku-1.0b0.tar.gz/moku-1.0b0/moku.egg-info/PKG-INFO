@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: moku
+Version: 1.0b0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Liquid Instruments
+Author-email: info@liquidinstruments.com
+License: MIT
+Description: Python scripting interface to the Liquid Instruments Moku
+Keywords: moku,mokugo,liquid instruments,test,measurement,lab,equipment
+Platform: UNKNOWN
+Requires-Python: >=3.5
