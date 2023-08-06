@@ -1,0 +1,11 @@
+ark_client/__init__.py,sha256=TDmm6E15Bh7QrdXyXRudQayB3QQoLmluWqKPAipZ4P4,6739
+ark_client/mapping.py,sha256=ht8Rz-5pmCzuFD9810Lvx5co-TQYh8d5zhysxrIRrSc,1396
+ark_client/mapping_inputs.py,sha256=jIY7Z2X5wzQncGG-DAqAeanq7MjP294JSN03SV2BcZk,1605
+cid_client/__init__.py,sha256=ApiATq4K1zpvR2VCdk_rWuRaxEbO-JtQKKL5J_NeufU,11575
+cid_client/mapping.py,sha256=wUTRK8K0MJSFFxYxrOKjVxh1Chvij2zj20cpn1yufzo,7736
+cid_client/mapping_inputs.py,sha256=GpCUNGwx2SuWMl3x6Tc0U_Vtac3IE0mt6VXV9tMUas4,9541
+cid_client-0.0.9.dist-info/LICENSE.txt,sha256=Eibsm_mZOrJXuQvQmo2BHG9qtoh2b9ortDMxxi_sTiE,1115
+cid_client-0.0.9.dist-info/METADATA,sha256=3NTKoDvH7UFlyOqxslZaeblCSjJ7-hqnFLPh4oQZFj8,228
+cid_client-0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cid_client-0.0.9.dist-info/top_level.txt,sha256=WWhMQO3rTcqshxMnXsqQSRx2COBMHMN729FC-bgYTIk,22
+cid_client-0.0.9.dist-info/RECORD,,
