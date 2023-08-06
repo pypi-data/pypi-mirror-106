@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+cbfeeds/__init__.py
+cbfeeds/feed.py
+cbfeeds_fork.egg-info/PKG-INFO
+cbfeeds_fork.egg-info/SOURCES.txt
+cbfeeds_fork.egg-info/dependency_links.txt
+cbfeeds_fork.egg-info/not-zip-safe
+cbfeeds_fork.egg-info/top_level.txt
