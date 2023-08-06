@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+logregnumpy/LogRegNumpy.py
+logregnumpy/__init__.py
+logregnumpy.egg-info/PKG-INFO
+logregnumpy.egg-info/SOURCES.txt
+logregnumpy.egg-info/dependency_links.txt
+logregnumpy.egg-info/not-zip-safe
+logregnumpy.egg-info/top_level.txt

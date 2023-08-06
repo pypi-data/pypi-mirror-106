@@ -1,0 +1,2 @@
+from .LogRegNumpy import LogRegNumpy
+
