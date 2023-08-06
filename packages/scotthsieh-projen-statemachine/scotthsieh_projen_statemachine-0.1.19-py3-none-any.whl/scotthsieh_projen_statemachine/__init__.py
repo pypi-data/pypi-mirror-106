@@ -1,0 +1,193 @@
+'''
+# projen-simple
+
+Build a custom construct based on an AWS Blog post and use projen to publish to 4 language repositories.
+(Hope Go is coming soon)
+
+# Architecture
+
+This library constrcution is referred to [this AWS blog](https://aws.amazon.com/tw/blogs/compute/introducing-amazon-api-gateway-service-integration-for-aws-step-functions/).
+
+# How to utilize polyglot packages
+
+## TypeScript
+
+```bash
+$ cdk --init language typescript
+$ yarn add projen-statemachine-example
+```
+
+```python
+# Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+from scotthsieh_projen_statemachine import StateMachineApiGatewayExample
+
+class TypescriptStack(cdk.Stack):
+    def __init__(self, scope, id, props=None):
+        super().__init__(scope, id, props)
+
+        stage_name = "default"
+        part_path = "pets"
+        example_construct = StateMachineApiGatewayExample(self, "KerKer",
+            stage_name=stage_name, part_path=part_path
+        )
+
+        cdk.CfnOutput(self, "OStateMachine",
+            value=example_construct.state_machine.state_machine_arn
+        )
+        cdk.CfnOutput(self, "OExecutionOutput",
+            value=example_construct.execution_input, description="Sample input to StartExecution."
+        )
+```
+
+## Python
+
+```bash
+$ cdk init --language python
+$ cat <<EOL > requirements.txt
+aws-cdk.core
+scotthsieh_projen_statemachine
+EOL
+$ python -m pip install -r requirements.txt
+```
+
+```python
+from aws_cdk import core as cdk
+from scotthsieh_projen_statemachine import StateMachineApiGatewayExample
+
+class PythonStack(cdk.Stack):
+    def __init__(self, scope: cdk.Construct, construct_id: str, **kwargs) -> None:
+         super().__init__(scope, construct_id, **kwargs)
+
+         stage_name = 'default'
+         part_path = 'pets'
+         example_construct = StateMachineApiGatewayExample(
+             self, 'PythonStatemachne', stage_name=stage_name, part_path=part_path,
+         )
+
+         cdk.CfnOutput(self, "OStateMachine",
+             value=example_construct.state_machine.state_machine_arn
+         )
+         cdk.CfnOutput(self, "OExecutionOutput", value=example_construct.execution_input, description="Sample input to StartExecution.")
+```
+
+# References
+
+* [jsii reference](https://github.com/cdklabs/jsii-release)
+* [aws-cdk-go](https://github.com/aws/aws-cdk-go)
+* [jsii](https://github.com/aws/jsii)
+'''
+import abc
+import builtins
+import datetime
+import enum
+import typing
+
+import jsii
+import publication
+import typing_extensions
+
+from ._jsii import *
+
+import aws_cdk.aws_stepfunctions
+import aws_cdk.core
+
+
+class StateMachineApiGatewayExample(
+    aws_cdk.core.Construct,
+    metaclass=jsii.JSIIMeta,
+    jsii_type="projen-statemachine-example.StateMachineApiGatewayExample",
+):
+    '''Converted from an AWS Blog post.
+
+    It is the first example mentioned in https://aws.amazon.com/tw/blogs/compute/introducing-amazon-api-gateway-service-integration-for-aws-step-functions/.
+    This constcut will create an API Gateway Rest API with two methods and
+    are manipulated by a state machine managed in AWS StepFucntions.
+    '''
+
+    def __init__(
+        self,
+        parent: aws_cdk.core.Construct,
+        name: builtins.str,
+        *,
+        part_path: builtins.str,
+        stage_name: builtins.str,
+    ) -> None:
+        '''
+        :param parent: -
+        :param name: -
+        :param part_path: The path part for the resource. Default: 'pets'
+        :param stage_name: A stage name for the rest api. Default: 'default'
+        '''
+        props = StateMachineApiGatewayExampleProps(
+            part_path=part_path, stage_name=stage_name
+        )
+
+        jsii.create(StateMachineApiGatewayExample, self, [parent, name, props])
+
+    @builtins.property # type: ignore[misc]
+    @jsii.member(jsii_name="executionInput")
+    def execution_input(self) -> builtins.str:
+        '''sample input to start execution for the workflow.'''
+        return typing.cast(builtins.str, jsii.get(self, "executionInput"))
+
+    @builtins.property # type: ignore[misc]
+    @jsii.member(jsii_name="stateMachine")
+    def state_machine(self) -> aws_cdk.aws_stepfunctions.StateMachine:
+        '''the representation of a state machine.'''
+        return typing.cast(aws_cdk.aws_stepfunctions.StateMachine, jsii.get(self, "stateMachine"))
+
+
+@jsii.data_type(
+    jsii_type="projen-statemachine-example.StateMachineApiGatewayExampleProps",
+    jsii_struct_bases=[],
+    name_mapping={"part_path": "partPath", "stage_name": "stageName"},
+)
+class StateMachineApiGatewayExampleProps:
+    def __init__(self, *, part_path: builtins.str, stage_name: builtins.str) -> None:
+        '''
+        :param part_path: The path part for the resource. Default: 'pets'
+        :param stage_name: A stage name for the rest api. Default: 'default'
+        '''
+        self._values: typing.Dict[str, typing.Any] = {
+            "part_path": part_path,
+            "stage_name": stage_name,
+        }
+
+    @builtins.property
+    def part_path(self) -> builtins.str:
+        '''The path part for the resource.
+
+        :default: 'pets'
+        '''
+        result = self._values.get("part_path")
+        assert result is not None, "Required property 'part_path' is missing"
+        return typing.cast(builtins.str, result)
+
+    @builtins.property
+    def stage_name(self) -> builtins.str:
+        '''A stage name for the rest api.
+
+        :default: 'default'
+        '''
+        result = self._values.get("stage_name")
+        assert result is not None, "Required property 'stage_name' is missing"
+        return typing.cast(builtins.str, result)
+
+    def __eq__(self, rhs: typing.Any) -> builtins.bool:
+        return isinstance(rhs, self.__class__) and rhs._values == self._values
+
+    def __ne__(self, rhs: typing.Any) -> builtins.bool:
+        return not (rhs == self)
+
+    def __repr__(self) -> str:
+        return "StateMachineApiGatewayExampleProps(%s)" % ", ".join(
+            k + "=" + repr(v) for k, v in self._values.items()
+        )
+
+
+__all__ = [
+    "StateMachineApiGatewayExample",
+    "StateMachineApiGatewayExampleProps",
+]
+
+publication.publish()
