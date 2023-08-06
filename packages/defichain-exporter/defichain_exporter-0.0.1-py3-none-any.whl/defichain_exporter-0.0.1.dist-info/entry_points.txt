@@ -1,0 +1,3 @@
+[console_scripts]
+defichain-exporter = defichain_exporter.__main__:main
+
