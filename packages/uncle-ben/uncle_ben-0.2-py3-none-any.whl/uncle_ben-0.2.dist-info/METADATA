@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: uncle-ben
+Version: 0.2
+Summary: Uncle Ben
+Home-page: UNKNOWN
+Author: Cristiano Werner Araujo
+Author-email: cristianowerneraraujo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pydantic
+Requires-Dist: python-dateutil
+Requires-Dist: radon
+Requires-Dist: pylama
+Requires-Dist: pip-tools
+Requires-Dist: pip-package-list
+
+UNKNOWN
+
+
