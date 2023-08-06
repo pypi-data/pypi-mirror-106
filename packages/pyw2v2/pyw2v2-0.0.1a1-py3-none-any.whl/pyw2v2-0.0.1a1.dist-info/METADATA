@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyw2v2
+Version: 0.0.1a1
+Summary: Simple wav2vec2 wrapper
+Home-page: https://github.com/vbrydik/pyw2v2
+Author: vbrydik (Vitalii Brydinskyi)
+Author-email: <vbrydinskyi@gmail.com>
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: librosa
+Requires-Dist: transformers
+Requires-Dist: datasets
+
+A simple wrapper for wav2vec2 for accelerated ASR research.
+
+

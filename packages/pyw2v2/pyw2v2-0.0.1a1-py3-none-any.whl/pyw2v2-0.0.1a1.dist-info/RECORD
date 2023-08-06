@@ -1,0 +1,12 @@
+pyw2v2/__init__.py,sha256=JpxAEZX2-jpi4bXzJpCEo--Ghh0GZ782sOfn4J_lCuo,286
+pyw2v2/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyw2v2/components/dataset_proc.py,sha256=GjgHjY39Z1St0GwrUiF3clzVQ_AdFAUjL3LKMDv0gBw,2992
+pyw2v2/components/metrics.py,sha256=lP6O4mbsDu7sc8_Ej9wJtW6AS14k1RP9N0DiV0-atr4,452
+pyw2v2/components/model_ctc.py,sha256=jvGqLc_fX64bTGO_DrxG0K43oIQwI3m3o-5mFwax2pI,3265
+pyw2v2/external/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyw2v2/external/data_collator_ctc.py,sha256=ojjtn3p8CNzLJ70Vvac3p4Cre_VjtFLoziJmhnEnOEM,3240
+pyw2v2-0.0.1a1.dist-info/LICENSE.txt,sha256=ST39ixnOn92hYJKbLv7AEkkI8yDxsZWYBzJwVJhx9rU,1072
+pyw2v2-0.0.1a1.dist-info/METADATA,sha256=y5RWR_J3rrI1v9-GrmCV5VgR3aoHmc16dbUBxfRc0oY,760
+pyw2v2-0.0.1a1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyw2v2-0.0.1a1.dist-info/top_level.txt,sha256=SveCU1_dCo5thTO0KiwIiq2NryooI16QnsESstq-vRA,7
+pyw2v2-0.0.1a1.dist-info/RECORD,,
