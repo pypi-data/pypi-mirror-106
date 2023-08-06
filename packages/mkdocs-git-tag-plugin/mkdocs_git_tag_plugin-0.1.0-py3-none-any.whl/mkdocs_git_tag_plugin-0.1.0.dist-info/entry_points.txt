@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+git-tag=mkdocs_git_tag_plugin.plugin:GitTagPlugin
+
