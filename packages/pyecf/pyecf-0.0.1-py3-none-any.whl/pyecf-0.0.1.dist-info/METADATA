@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyecf
+Version: 0.0.1
+Summary: Elliptic Curve Factorization
+Home-page: https://github.com/NikitaYurasov/ECF
+Author: Yurasov Nikita
+Author-email: n.yurasov@yahoo.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: gmpy2 (==2.1.0b1)
+Requires-Dist: numpy (==1.20.2)
+Requires-Dist: sage (==9.2)
+
+UNKNOWN
+
+
