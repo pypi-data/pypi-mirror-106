@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "paxexpress-cli"
+version = "0.2.0"
+description = ""
+authors = ["Florian Ludwig <f.ludwig@greyrook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typer = "^0.3.2"
+httpx = "^0.16.1"
+PyYAML = "^5.4.1"
+pydantic = { extras = ["email"], version = "^1.8.1" }
+keyring = "^22.3.0"
+pypiwin32 = { version = "^223", markers = "sys_platform == 'win32'" }
+inquirer = "^2.7.0"
+rich = "^9.13.0"
+
+
+[tool.poetry.scripts]
+paxexpress = 'paxexpress_cli.cli:cli'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
