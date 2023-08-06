@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/phdictionary/__init__.py
+src/phdictionary/dictionary.py
+src/phdictionary/file_manager.py
+src/phdictionary/purifier.py
+src/phdictionary/requestor.py
+src/phdictionary.egg-info/PKG-INFO
+src/phdictionary.egg-info/SOURCES.txt
+src/phdictionary.egg-info/dependency_links.txt
+src/phdictionary.egg-info/top_level.txt
