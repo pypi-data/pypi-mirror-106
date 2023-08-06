@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+cnn_blocks/__init__.py
+cnn_blocks.egg-info/PKG-INFO
+cnn_blocks.egg-info/SOURCES.txt
+cnn_blocks.egg-info/dependency_links.txt
+cnn_blocks.egg-info/top_level.txt
