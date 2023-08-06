@@ -1,0 +1,11 @@
+kivy_garden/draggable/__init__.py,sha256=sjUEZ5rQZuWN4Hw9fJ3BytbsVdcd1_x9OQqz_-2uxyA,1621
+kivy_garden/draggable/_impl.py,sha256=lQCDLGG0Hl7ajdf0MrNgiKgTL4ZVYbn47YGSVamzMFI,17100
+kivy_garden/draggable/_utils.py,sha256=eMnGdglQr_wHtoR3VOVGo2NTNlM5Tr0LutbMAtCt8lg,2765
+kivy_garden/draggable/_version.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+kivy_garden/draggable/tests/test_import.py,sha256=iGGFuCZLnW5-siOTMT-QMzKeuEz3jUIfR9JYxTgubYQ,222
+kivy_garden/draggable/tests/test_utils_restore_widget_location.py,sha256=7uWybongtZ5FZk0RQho0YGcbaLHc5NyirkY-3Zc1OMY,4322
+kivy_garden/draggable/tests/test_utils_save_widget_location.py,sha256=NMqgL9yg4_DFQ3Z3VXwtK_ohlkXNoqyxaDIdAUv236U,1942
+kivy_garden.draggable-0.1.1.dist-info/LICENSE.txt,sha256=Qx08hp_bmwXr7Y7_tTH3lpdI-3F0r2_I0sN1uZdIuwE,1077
+kivy_garden.draggable-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+kivy_garden.draggable-0.1.1.dist-info/METADATA,sha256=PPhGdbg7Kje7WyIP5jQkD3DFNIvNdliSCFf7Vveocw8,6028
+kivy_garden.draggable-0.1.1.dist-info/RECORD,,
