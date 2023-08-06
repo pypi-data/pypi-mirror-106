@@ -1,0 +1,16 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+datanonymizer/__init__.py
+datanonymizer/__main__.py
+datanonymizer/conversion.py
+datanonymizer/generators.py
+datanonymizer/parser.py
+datanonymizer.egg-info/PKG-INFO
+datanonymizer.egg-info/SOURCES.txt
+datanonymizer.egg-info/dependency_links.txt
+datanonymizer.egg-info/entry_points.txt
+datanonymizer.egg-info/not-zip-safe
+datanonymizer.egg-info/requires.txt
+datanonymizer.egg-info/top_level.txt
