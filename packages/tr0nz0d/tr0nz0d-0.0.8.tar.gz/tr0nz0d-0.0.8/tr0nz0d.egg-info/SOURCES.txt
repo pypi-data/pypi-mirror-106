@@ -1,0 +1,17 @@
+CHANGELOG.txt
+MANIFEST.in
+README.md
+setup.py
+tr0nz0d/__init__.py
+tr0nz0d.egg-info/PKG-INFO
+tr0nz0d.egg-info/SOURCES.txt
+tr0nz0d.egg-info/dependency_links.txt
+tr0nz0d.egg-info/requires.txt
+tr0nz0d.egg-info/top_level.txt
+tr0nz0d/security/__init__.py
+tr0nz0d/security/criptografia.py
+tr0nz0d/security/pswd.py
+tr0nz0d/tools/__init__.py
+tr0nz0d/tools/cnpj.py
+tr0nz0d/tools/cpf.py
+tr0nz0d/tools/text.py
