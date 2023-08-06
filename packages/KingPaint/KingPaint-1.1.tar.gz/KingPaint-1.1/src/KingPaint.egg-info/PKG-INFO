@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: KingPaint
+Version: 1.1
+Summary: Interactive paint aim to learn geometry
+Home-page: https://github.com/KingAirC/KingPaint
+Author: KingAirC
+Author-email: 1904192877@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/KingAirC/KingPaint/issues
+Description: # KingPaint
+        Provide the simplest way to paint interactively.
+        
+        This lib is used to learn 2 dimension analytic geometry and plane geometry.
+        
+        The main function such as: triangle, circle, conic, line, etc.
+        
+        You can extend this lib easy.
+        
+        You can learn this lib at: https://github.com/KingAirC/KingPaintExamples
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
