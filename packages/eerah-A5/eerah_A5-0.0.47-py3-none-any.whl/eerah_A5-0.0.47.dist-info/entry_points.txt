@@ -1,0 +1,3 @@
+[console_scripts]
+eerah-A5 = eerah_A5.__main__:main
+
