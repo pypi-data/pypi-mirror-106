@@ -1,0 +1,21 @@
+
+    <!--    previous page-->
+    {% if bills.has_previous %}
+        <a class="btn btn-outline-primary mb-4" href="?page=1{% for k, v in request.GET.items %}{% if k != 'page' %}&{{ k }}={{ v }}{% endif %}{% endfor %}">First</a>
+        <a class="btn btn-outline-primary mb-4" href="?page={{bills.previous_page_number}}{% for k, v in request.GET.items %}{% if k != 'page' %}&{{ k }}={{ v }}{% endif %}{% endfor %}">Previous</a>
+    {% endif %}
+
+    <!--    Additional pages-->
+    {% for num in bills.paginator.page_range %}
+        {% if bills.number == num %}
+            <a class="btn btn-primary mb-4" href="?page={{ num }} {% for k, v in request.GET.items %}{% if k != 'page' %}&{{ k }}={{ v }}{% endif %}{% endfor %}">{{ num }}</a>
+        {% elif num > bills.number|add:'-3' and num < bills.number|add:'3' %}
+            <a class="btn btn-outline-primary mb-4" href="?page={{ num }}{% for k, v in request.GET.items %}{% if k != 'page' %}&{{ k }}={{ v }}{% endif %}{% endfor %}">{{ num }}</a>
+        {% endif %}
+    {% endfor %}
+
+    <!--    next page-->
+    {% if bills.has_next %}
+        <a class="btn btn-outline-primary mb-4" href="?page={{bills.next_page_number}}{% for k, v in request.GET.items %}{% if k != 'page' %}&{{ k }}={{ v }}{% endif %}{% endfor %}">Next</a>
+        <a class="btn btn-outline-primary mb-4" href="?page={{bills.paginator.num_pages}}{% for k, v in request.GET.items %}{% if k != 'page' %}&{{ k }}={{ v }}{% endif %}{% endfor %}">Last</a>
+    {% endif %}
