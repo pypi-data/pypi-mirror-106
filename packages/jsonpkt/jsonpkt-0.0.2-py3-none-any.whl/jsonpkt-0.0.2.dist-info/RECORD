@@ -1,0 +1,14 @@
+jsonpkt/__init__.py,sha256=dlxTJs8avVI8u_KWDMIJH1LbZ5oAvljgyh3sb1DLrbw,70
+jsonpkt/__main__.py,sha256=I4uK8RUCfnI1X9SizfJVo_yHxc8wrR2n2Ym8hYyt1Q8,38
+jsonpkt/core.py,sha256=g92Yi8u02jcd8l6tUBxARBO1yLA4URnpin0RJ1C7etw,1689
+jsonpkt/utils.py,sha256=ay-xjYgTZ40y7aEIrwbZ5qorqgz4Z52sFA5isma-nmg,1846
+jsonpkt/commands/__init__.py,sha256=yYWnXgfEDZq7TEZFraQ6c4pmFaH6qLIn2akmXWWtNm0,192
+jsonpkt/commands/base.py,sha256=xBJR5_z9V2IkYjtwLRADlbB8AbxZn_ufOnFQZdbUXTY,129
+jsonpkt/commands/send.py,sha256=VsmqiI7aKUQFtU6vMbLfLTjiih3ZYbHZ-U5etlOOB8Q,450
+jsonpkt/commands/sendrecv.py,sha256=7KqdK374-o01SdAF0a15QVYho3IK9XKsOyqMNLGpoXc,564
+jsonpkt/commands/view.py,sha256=peol6lLF2s9Lr5a5X4cfbSYy8etYws3HHv0mOeXmPUo,498
+jsonpkt-0.0.2.dist-info/LICENSE.txt,sha256=BRFV2wB-LCAoTUhySHjWHtr2l9JHeQXofYksVeB5uSA,1068
+jsonpkt-0.0.2.dist-info/METADATA,sha256=2-teQV7STXzcce_OOTJjwXp-830EIeYpYMqMlj83d9g,189
+jsonpkt-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jsonpkt-0.0.2.dist-info/top_level.txt,sha256=RIdFuTqPAWNsoIZlOk0DlMThC_mTygxJOyVdF3ESdmI,8
+jsonpkt-0.0.2.dist-info/RECORD,,
