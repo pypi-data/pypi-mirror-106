@@ -1,0 +1,385 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>ukitai.apis.LedEyes &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../../',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules.html">所有模块</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html">模块代码</a> &raquo;</li>
+        
+      <li>ukitai.apis.LedEyes</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>ukitai.apis.LedEyes 源代码</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">enum</span> <span class="kn">import</span> <span class="n">Enum</span>
+
+<span class="kn">from</span> <span class="nn">ukitai.link</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.common</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.protos</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.apis</span> <span class="kn">import</span> <span class="o">*</span>
+
+
+<div class="viewcode-block" id="Emotion"><a class="viewcode-back" href="../../../ukitai.apis.LedEyes.html#ukitai.apis.LedEyes.Emotion">[文档]</a><span class="k">class</span> <span class="nc">Emotion</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;表情定义</span>
+
+<span class="sd">    BLINK: 眨眼</span>
+
+<span class="sd">    SHY: 害羞</span>
+
+<span class="sd">    TEARS: 热泪盈眶</span>
+
+<span class="sd">    FLASHING_TEARS: 泪光闪动</span>
+
+<span class="sd">    CRY: 哭泣</span>
+
+<span class="sd">    DIZZY: 晕</span>
+
+<span class="sd">    HAPPY: 开心</span>
+
+<span class="sd">    SURPRISED: 惊讶</span>
+
+<span class="sd">    BREATH: 呼吸</span>
+
+<span class="sd">    FLASH: 闪烁</span>
+
+<span class="sd">    FAN: 风扇</span>
+
+<span class="sd">    WIPERS: 雨刮</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">BLINK</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">SHY</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">TEARS</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="n">FLASHING_TEARS</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">CRY</span> <span class="o">=</span> <span class="mi">4</span>
+    <span class="n">DIZZY</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="n">HAPPY</span> <span class="o">=</span> <span class="mi">6</span>
+    <span class="n">SURPRISED</span> <span class="o">=</span> <span class="mi">7</span>
+    <span class="n">BREATH</span> <span class="o">=</span> <span class="mi">8</span>
+    <span class="n">FLASH</span> <span class="o">=</span> <span class="mi">9</span>
+    <span class="n">FAN</span> <span class="o">=</span> <span class="mi">10</span>
+    <span class="n">WIPERS</span> <span class="o">=</span> <span class="mi">11</span></div>
+
+
+<div class="viewcode-block" id="Scene"><a class="viewcode-back" href="../../../ukitai.apis.LedEyes.html#ukitai.apis.LedEyes.Scene">[文档]</a><span class="k">class</span> <span class="nc">Scene</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;场景定义</span>
+
+<span class="sd">    COLORED_LIGHTS: 七彩跑马灯</span>
+
+<span class="sd">    DISCO: Disco</span>
+
+<span class="sd">    PRIMARY_COLOR: 三原色</span>
+
+<span class="sd">    COLOR_STACKING: 色彩堆叠</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">COLORED_LIGHTS</span> <span class="o">=</span> <span class="mi">12</span>
+    <span class="n">DISCO</span> <span class="o">=</span> <span class="mi">13</span>
+    <span class="n">PRIMARY_COLOR</span> <span class="o">=</span> <span class="mi">14</span>
+    <span class="n">COLOR_STACKING</span> <span class="o">=</span> <span class="mi">15</span></div>
+
+
+<div class="viewcode-block" id="set_state"><a class="viewcode-back" href="../../../ukitai.apis.LedEyes.html#ukitai.apis.LedEyes.set_state">[文档]</a><span class="k">def</span> <span class="nf">set_state</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">enabled</span><span class="p">:</span> <span class="nb">bool</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;打开/关闭眼灯功能</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 传感器 id</span>
+
+<span class="sd">        enabled: True=开打眼灯功能，False=关闭眼灯功能</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">CommonApi</span><span class="o">.</span><span class="n">comp_state</span><span class="p">(</span><span class="n">compType</span><span class="o">=</span><span class="n">CompType</span><span class="o">.</span><span class="n">LED</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="nb">id</span><span class="p">,</span> <span class="n">enabled</span><span class="o">=</span><span class="n">enabled</span><span class="p">,</span> <span class="n">link</span><span class="o">=</span><span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_emotion"><a class="viewcode-back" href="../../../ukitai.apis.LedEyes.html#ukitai.apis.LedEyes.show_emotion">[文档]</a><span class="k">def</span> <span class="nf">show_emotion</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">emotion</span><span class="p">:</span> <span class="n">Emotion</span><span class="p">,</span> <span class="n">color</span><span class="p">:</span> <span class="n">Color</span><span class="p">,</span> <span class="n">times</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;显示表情控制</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 传感器 id</span>
+
+<span class="sd">        emotion (Emotion): 表情id</span>
+
+<span class="sd">        color (Color): 颜色值</span>
+
+<span class="sd">        times (int): 重复次数</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">color</span><span class="p">:</span>
+        <span class="n">color</span> <span class="o">=</span> <span class="p">(</span><span class="n">color</span><span class="o">.</span><span class="n">color</span> <span class="o">&lt;&lt;</span> <span class="mi">8</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mh">0xFFFFFF00</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">color</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">times</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">times</span><span class="p">,</span> <span class="mh">0xFFFF</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;expressions_type&#39;</span><span class="p">:</span> <span class="n">emotion</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="s1">&#39;time&#39;</span><span class="p">:</span> <span class="n">times</span><span class="p">,</span> <span class="s1">&#39;rgbc&#39;</span><span class="p">:</span> <span class="n">color</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d8_Led_pb2</span><span class="o">.</span><span class="n">d8c1000_led_fix_exp_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d8_Led_pb2</span><span class="o">.</span><span class="n">d8c1000_led_fix_exp_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LED</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_scene"><a class="viewcode-back" href="../../../ukitai.apis.LedEyes.html#ukitai.apis.LedEyes.show_scene">[文档]</a><span class="k">def</span> <span class="nf">show_scene</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">scene</span><span class="p">:</span> <span class="n">Scene</span><span class="p">,</span> <span class="n">times</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;显示场景效果</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 传感器 id</span>
+
+<span class="sd">        scene (Scene): 场景id</span>
+
+<span class="sd">        times (int): 重复次数</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">times</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">times</span><span class="p">,</span> <span class="mh">0xFFFF</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;expressions_type&#39;</span><span class="p">:</span> <span class="n">scene</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="s1">&#39;time&#39;</span><span class="p">:</span> <span class="n">times</span><span class="p">,</span> <span class="s1">&#39;rgbc&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d8_Led_pb2</span><span class="o">.</span><span class="n">d8c1000_led_fix_exp_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d8_Led_pb2</span><span class="o">.</span><span class="n">d8c1000_led_fix_exp_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LED</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_custom_light"><a class="viewcode-back" href="../../../ukitai.apis.LedEyes.html#ukitai.apis.LedEyes.show_custom_light">[文档]</a><span class="k">def</span> <span class="nf">show_custom_light</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">colors</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span> <span class="n">time</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;自定义灯光颜色</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 传感器 id</span>
+
+<span class="sd">        colors (list): 每一个灯瓣颜色，长度为8</span>
+
+<span class="sd">        time (int): 亮灯时间</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">time</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">time</span><span class="p">,</span> <span class="mh">0xFFFFFFFF</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+    <span class="n">color_lump</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">colors</span><span class="p">)):</span>
+        <span class="n">color_lump</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">&#39;index&#39;</span><span class="p">:</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">i</span><span class="p">,</span> <span class="s1">&#39;rgbc&#39;</span><span class="p">:</span> <span class="p">(</span><span class="n">colors</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">color</span> <span class="o">&lt;&lt;</span> <span class="mi">8</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mh">0xFFFFFF00</span><span class="p">})</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;color_lump&#39;</span><span class="p">:</span> <span class="n">color_lump</span><span class="p">,</span> <span class="s1">&#39;time&#39;</span><span class="p">:</span> <span class="n">time</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d8_Led_pb2</span><span class="o">.</span><span class="n">d8c1001_led_exp_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d8_Led_pb2</span><span class="o">.</span><span class="n">d8c1001_led_exp_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LED</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1001</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="turn_off"><a class="viewcode-back" href="../../../ukitai.apis.LedEyes.html#ukitai.apis.LedEyes.turn_off">[文档]</a><span class="k">def</span> <span class="nf">turn_off</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;关闭灯光</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 传感器 id</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;expressions_type&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;time&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;rgbc&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d8_Led_pb2</span><span class="o">.</span><span class="n">d8c1000_led_fix_exp_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d8_Led_pb2</span><span class="o">.</span><span class="n">d8c1000_led_fix_exp_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LED</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

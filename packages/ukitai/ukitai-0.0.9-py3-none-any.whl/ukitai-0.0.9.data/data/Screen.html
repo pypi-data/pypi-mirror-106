@@ -1,0 +1,634 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>ukitai.apis.Screen &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../../',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules.html">所有模块</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html">模块代码</a> &raquo;</li>
+        
+      <li>ukitai.apis.Screen</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>ukitai.apis.Screen 源代码</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">enum</span> <span class="kn">import</span> <span class="n">Enum</span>
+
+<span class="kn">from</span> <span class="nn">ukitai.apis</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.common</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.link</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.protos</span> <span class="kn">import</span> <span class="o">*</span>
+
+
+<div class="viewcode-block" id="Fruit"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.Fruit">[文档]</a><span class="k">class</span> <span class="nc">Fruit</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;水果</span>
+
+<span class="sd">    APPLE: 苹果</span>
+
+<span class="sd">    BANANA: 香蕉</span>
+
+<span class="sd">    ORANGE: 橙子</span>
+
+<span class="sd">    WATERMELON: 西瓜</span>
+
+<span class="sd">    GRAPE: 葡萄</span>
+
+<span class="sd">    KIWI: 猕猴桃</span>
+
+<span class="sd">    PEAR: 梨</span>
+
+<span class="sd">    PITAYA: 火龙果</span>
+
+<span class="sd">    STRAWBERRY: 草莓</span>
+
+<span class="sd">    PINEAPPLE: 菠萝</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">APPLE</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">BANANA</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="n">ORANGE</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">WATERMELON</span> <span class="o">=</span> <span class="mi">4</span>
+    <span class="n">GRAPE</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="n">KIWI</span> <span class="o">=</span> <span class="mi">6</span>
+    <span class="n">PEAR</span> <span class="o">=</span> <span class="mi">7</span>
+    <span class="n">PITAYA</span> <span class="o">=</span> <span class="mi">8</span>
+    <span class="n">STRAWBERRY</span> <span class="o">=</span> <span class="mi">9</span>
+    <span class="n">PINEAPPLE</span> <span class="o">=</span> <span class="mi">10</span></div>
+
+
+<div class="viewcode-block" id="TrafficSign"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.TrafficSign">[文档]</a><span class="k">class</span> <span class="nc">TrafficSign</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;交通标志</span>
+
+<span class="sd">    RED: 红灯</span>
+
+<span class="sd">    GREEN: 绿灯</span>
+
+<span class="sd">    YELLOW: 黄灯</span>
+
+<span class="sd">    TURN_LEFT: 左转</span>
+
+<span class="sd">    TURN_RIGHT: 右转</span>
+
+<span class="sd">    HORN: 鸣笛</span>
+
+<span class="sd">    WATCH_OUT: 注意儿童</span>
+
+<span class="sd">    NO_STOPPING: 禁止长时间停车</span>
+
+<span class="sd">    TUNNEL: 进入隧道</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">RED</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">GREEN</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="n">YELLOW</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">TURN_LEFT</span> <span class="o">=</span> <span class="mi">4</span>
+    <span class="n">TURN_RIGHT</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="n">HORN</span> <span class="o">=</span> <span class="mi">6</span>
+    <span class="n">WATCH_OUT</span> <span class="o">=</span> <span class="mi">7</span>
+    <span class="n">NO_STOPPING</span> <span class="o">=</span> <span class="mi">8</span>
+    <span class="n">TUNNEL</span> <span class="o">=</span> <span class="mi">9</span></div>
+
+
+<div class="viewcode-block" id="Emotion"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.Emotion">[文档]</a><span class="k">class</span> <span class="nc">Emotion</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;表情图案</span>
+
+<span class="sd">    SMILE: 微笑</span>
+
+<span class="sd">    SAD: 难过</span>
+
+<span class="sd">    BLINK: 眨眼</span>
+
+<span class="sd">    SHY: 害羞</span>
+
+<span class="sd">    SURPRISED: 惊讶</span>
+
+<span class="sd">    DIZZY: 晕</span>
+
+<span class="sd">    SIGH: 叹气</span>
+
+<span class="sd">    LAUGH: 大笑</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">SMILE</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">SAD</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="n">BLINK</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">SHY</span> <span class="o">=</span> <span class="mi">4</span>
+    <span class="n">SURPRISED</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="n">DIZZY</span> <span class="o">=</span> <span class="mi">6</span>
+    <span class="n">SIGH</span> <span class="o">=</span> <span class="mi">7</span>
+    <span class="n">LAUGH</span> <span class="o">=</span> <span class="mi">8</span></div>
+
+
+<div class="viewcode-block" id="Color"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.Color">[文档]</a><span class="k">class</span> <span class="nc">Color</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;颜色定义</span>
+
+<span class="sd">    WHITE: 白色</span>
+
+<span class="sd">    PURPLE: 紫色</span>
+
+<span class="sd">    RED: 红色</span>
+
+<span class="sd">    ORANGE: 橙色</span>
+
+<span class="sd">    YELLOW: 黄色</span>
+
+<span class="sd">    GREEN: 绿色</span>
+
+<span class="sd">    CYAN: 青色</span>
+
+<span class="sd">    BLUE: 蓝色</span>
+
+<span class="sd">    BLACK: 黑色</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">WHITE</span> <span class="o">=</span> <span class="mh">0x07</span>
+    <span class="n">PURPLE</span> <span class="o">=</span> <span class="mh">0x06</span>
+    <span class="n">RED</span> <span class="o">=</span> <span class="mh">0x00</span>
+    <span class="n">ORANGE</span> <span class="o">=</span> <span class="mh">0x01</span>
+    <span class="n">YELLOW</span> <span class="o">=</span> <span class="mh">0x02</span>
+    <span class="n">GREEN</span> <span class="o">=</span> <span class="mh">0x03</span>
+    <span class="n">CYAN</span> <span class="o">=</span> <span class="mh">0x05</span>
+    <span class="n">BLUE</span> <span class="o">=</span> <span class="mh">0x04</span>
+    <span class="n">BLACK</span> <span class="o">=</span> <span class="mh">0x08</span></div>
+
+
+<div class="viewcode-block" id="SensorType"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.SensorType">[文档]</a><span class="k">class</span> <span class="nc">SensorType</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;传感器类型</span>
+
+<span class="sd">    INFRARED: 红外传感器</span>
+
+<span class="sd">    ULTRASONIC: 超声传感器</span>
+
+<span class="sd">    SOUND: 声音传感器</span>
+
+<span class="sd">    LIGHT: 亮度传感器</span>
+
+<span class="sd">    COLOR: 颜色传感器</span>
+
+<span class="sd">    HUMITURE: 温湿度传感器</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">INFRARED</span> <span class="o">=</span> <span class="mh">0x5</span>
+    <span class="n">ULTRASONIC</span> <span class="o">=</span> <span class="mh">0x9</span>
+    <span class="n">SOUND</span> <span class="o">=</span> <span class="mh">0x7</span>
+    <span class="n">LIGHT</span> <span class="o">=</span> <span class="mh">0x11</span>
+    <span class="n">COLOR</span> <span class="o">=</span> <span class="mh">0xd</span>
+    <span class="n">HUMITURE</span> <span class="o">=</span> <span class="mh">0x6</span></div>
+
+
+<div class="viewcode-block" id="set_state"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.set_state">[文档]</a><span class="k">def</span> <span class="nf">set_state</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">enabled</span><span class="p">:</span> <span class="nb">bool</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;打开/关闭屏幕功能</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        enabled: True=开打屏幕功能，False=关闭屏幕功能</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">CommonApi</span><span class="o">.</span><span class="n">comp_state</span><span class="p">(</span><span class="n">compType</span><span class="o">=</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">enabled</span><span class="o">=</span><span class="n">enabled</span><span class="p">,</span> <span class="n">link</span><span class="o">=</span><span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="off"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.off">[文档]</a><span class="k">def</span> <span class="nf">off</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕关闭</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">set_state</span><span class="p">(</span><span class="n">enabled</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">link</span><span class="o">=</span><span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="clear"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.clear">[文档]</a><span class="k">def</span> <span class="nf">clear</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕清屏</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1001_lcd_clear_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1001_lcd_clear_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1001</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="set_brightness"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.set_brightness">[文档]</a><span class="k">def</span> <span class="nf">set_brightness</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">brightness</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕亮度</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        brightness: 亮度值，范围[0, 100]</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="n">brightness</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1002_lcd_back_light_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1002_lcd_back_light_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1002</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="set_background_color"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.set_background_color">[文档]</a><span class="k">def</span> <span class="nf">set_background_color</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">color</span><span class="p">:</span> <span class="n">Color</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕亮度</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        color: 背景色，定义在 Screen.Color 中</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="n">color</span><span class="o">.</span><span class="n">value</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1003_lcd_background_color_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1003_lcd_background_color_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1003</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<span class="c1"># def set_status_info(*, visible: bool, wifi_ssid: str = &#39;&#39;, link: uKitAiLink):</span>
+<div class="viewcode-block" id="set_status_info"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.set_status_info">[文档]</a><span class="k">def</span> <span class="nf">set_status_info</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">visible</span><span class="p">:</span> <span class="nb">bool</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕状态界面显示</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        visible: 状态界面是否可见</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;status&#39;</span><span class="p">:</span> <span class="n">visible</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1004_lcd_bar_display_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1004_lcd_bar_display_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1004</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_fruit"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.show_fruit">[文档]</a><span class="k">def</span> <span class="nf">show_fruit</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">fruit</span><span class="p">:</span> <span class="n">Fruit</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕显示水果</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        fruit: 水果, 定义在 Screen.Fruit 中</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;index&#39;</span><span class="p">:</span> <span class="n">fruit</span><span class="o">.</span><span class="n">value</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1008_lcd_inner_pic_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1008_lcd_inner_pic_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1008</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_traffic_sign"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.show_traffic_sign">[文档]</a><span class="k">def</span> <span class="nf">show_traffic_sign</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">traffic_sign</span><span class="p">:</span> <span class="n">TrafficSign</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕显示交通标志</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        traffic_sign: 交通标志, 定义在 Screen.TrafficSign 中</span>
+
+<span class="sd">        x: 屏幕水平方向坐标</span>
+
+<span class="sd">        y: 屏幕垂直方向坐标</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;index&#39;</span><span class="p">:</span> <span class="n">traffic_sign</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="s1">&#39;post_x&#39;</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="s1">&#39;post_y&#39;</span><span class="p">:</span> <span class="n">y</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1007_lcd_icon_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1007_lcd_icon_rq</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1007</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_emotion"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.show_emotion">[文档]</a><span class="k">def</span> <span class="nf">show_emotion</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">emotion</span><span class="p">:</span> <span class="n">Emotion</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕显示表情</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        emotion: 表情, 定义在 Screen.Emotion 中</span>
+
+<span class="sd">        x: 屏幕水平方向坐标</span>
+
+<span class="sd">        y: 屏幕垂直方向坐标</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;index&#39;</span><span class="p">:</span> <span class="n">emotion</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="s1">&#39;post_x&#39;</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="s1">&#39;post_y&#39;</span><span class="p">:</span> <span class="n">y</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1007_lcd_icon_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1007_lcd_icon_rq</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1007</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_words"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.show_words">[文档]</a><span class="k">def</span> <span class="nf">show_words</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">color</span><span class="p">:</span> <span class="n">Color</span> <span class="o">=</span> <span class="n">Color</span><span class="o">.</span><span class="n">WHITE</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕显示静态文本文字</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        text: 文字内容</span>
+
+<span class="sd">        color: 文字颜色, 定义在 Screen.Color 中</span>
+
+<span class="sd">        x: 屏幕水平方向坐标</span>
+
+<span class="sd">        y: 屏幕垂直方向坐标</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="n">Common</span><span class="o">.</span><span class="n">str_to_gbk</span><span class="p">(</span><span class="n">text</span><span class="p">),</span> <span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="n">color</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="s1">&#39;post_x&#39;</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="s1">&#39;post_y&#39;</span><span class="p">:</span> <span class="n">y</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1005_lcd_static_text_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1005_lcd_static_text_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1005</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_marquee_words"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.show_marquee_words">[文档]</a><span class="k">def</span> <span class="nf">show_marquee_words</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">color</span><span class="p">:</span> <span class="n">Color</span> <span class="o">=</span> <span class="n">Color</span><span class="o">.</span><span class="n">WHITE</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕显示动态滚动文本文字</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        text: 文字内容</span>
+
+<span class="sd">        color: 文字颜色, 定义在 Screen.Color 中</span>
+
+<span class="sd">        x: 屏幕水平方向坐标</span>
+
+<span class="sd">        y: 屏幕垂直方向坐标</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="n">Common</span><span class="o">.</span><span class="n">str_to_gbk</span><span class="p">(</span><span class="n">text</span><span class="p">),</span> <span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="n">color</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="s1">&#39;post_x&#39;</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="s1">&#39;post_y&#39;</span><span class="p">:</span> <span class="n">y</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1006_lcd_roll_text_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1006_lcd_roll_text_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1006</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="start_display_sensor_data"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.start_display_sensor_data">[文档]</a><span class="k">def</span> <span class="nf">start_display_sensor_data</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">sensor_type</span><span class="p">:</span> <span class="n">SensorType</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕开始显示传感器数值</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        sensor_type: 传感器类型，定义在 Screen.SensorType 中</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;opt&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;dev&#39;</span><span class="p">:</span> <span class="n">sensor_type</span><span class="o">.</span><span class="n">value</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1010_lcd_sensor_display_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1010_lcd_sensor_display_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1010</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="stop_display_sensor_data"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.stop_display_sensor_data">[文档]</a><span class="k">def</span> <span class="nf">stop_display_sensor_data</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕关闭显示传感器数值</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;opt&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1010_lcd_sensor_display_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1010_lcd_sensor_display_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1010</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_custom_emotion"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.show_custom_emotion">[文档]</a><span class="k">def</span> <span class="nf">show_custom_emotion</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕显示自定义表情</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        name: 自定义表情名称</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="n">name</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1009_lcd_pic_display_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1009_lcd_pic_display_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1009</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_custom_picture"><a class="viewcode-back" href="../../../ukitai.apis.Screen.html#ukitai.apis.Screen.show_custom_picture">[文档]</a><span class="k">def</span> <span class="nf">show_custom_picture</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制屏幕显示自定义图片</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        name: 自定义图片名称</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="n">name</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1009_lcd_pic_display_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1B_Lcd_pb2</span><span class="o">.</span><span class="n">d1bc1009_lcd_pic_display_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LCD</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1009</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

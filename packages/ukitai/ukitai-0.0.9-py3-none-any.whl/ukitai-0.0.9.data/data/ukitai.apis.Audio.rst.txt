@@ -1,0 +1,7 @@
+音频控制
+----------------------------------
+
+.. automodule:: ukitai.apis.Audio
+    :members:
+    :show-inheritance:
+

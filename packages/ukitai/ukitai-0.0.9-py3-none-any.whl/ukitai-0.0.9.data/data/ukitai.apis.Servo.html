@@ -1,0 +1,383 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>舵机 &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="电机" href="ukitai.apis.Motor.html" />
+    <link rel="prev" title="电池/电源" href="ukitai.apis.Battery.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">所有模块</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="apis.html">接口模块</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Battery.html">电池/电源</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">舵机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Motor.html">电机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LedEyes.html">眼灯</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Ultrasonic.html">超声波传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.InfraredSensor.html">红外传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.TouchSensor.html">触碰传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.ColorSensor.html">颜色传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.HumiditySensor.html">温湿度传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LuxSensor.html">亮度传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.SoundSensor.html">声音传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LedBox.html">LED灯盒</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Audio.html">音频控制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Screen.html">显示屏</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Vision.html">视觉模块</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="links.html">设备连接模块</a></li>
+<li class="toctree-l2"><a class="reference internal" href="common.html">公共基础模块</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">所有模块</a> &raquo;</li>
+        
+          <li><a href="apis.html">接口模块</a> &raquo;</li>
+        
+      <li>舵机</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ukitai.apis.Servo.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-ukitai.apis.Servo">
+<span id="id1"></span><h1>舵机<a class="headerlink" href="#module-ukitai.apis.Servo" title="永久链接至标题">¶</a></h1>
+<dl class="class">
+<dt id="ukitai.apis.Servo.ServoDirection">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Servo.</code><code class="descname">ServoDirection</code><a class="reference internal" href="_modules/ukitai/apis/Servo.html#ServoDirection"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Servo.ServoDirection" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>运动方向</p>
+<p>CLOCKWISE: 顺时针</p>
+<p>ANTICLOCKWISE: 逆时针</p>
+<p>STOP: 停止</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Servo.SpeedMode">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Servo.</code><code class="descname">SpeedMode</code><a class="reference internal" href="_modules/ukitai/apis/Servo.html#SpeedMode"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Servo.SpeedMode" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>速度档位</p>
+<p>VERY_SLOW: 非常慢</p>
+<p>SLOW: 慢</p>
+<p>MEDIUM: 中速</p>
+<p>FAST: 快</p>
+<p>VERY_FAST: 非常快</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Servo.read_servo_angle">
+<code class="descclassname">ukitai.apis.Servo.</code><code class="descname">read_servo_angle</code><span class="sig-paren">(</span><em>*</em>, <em>id: int</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Servo.html#read_servo_angle"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Servo.read_servo_angle" title="永久链接至目标">¶</a></dt>
+<dd><p>读取舵机角度</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">id: 舵机 id</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(int): 舵机角度，范围[-120, 120]，读取失败时返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Servo.stop_servo">
+<code class="descclassname">ukitai.apis.Servo.</code><code class="descname">stop_servo</code><span class="sig-paren">(</span><em>*</em>, <em>id: int</em>, <em>mode: int = 0</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Servo.html#stop_servo"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Servo.stop_servo" title="永久链接至目标">¶</a></dt>
+<dd><p>控制舵机停止转动</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>id: 舵机 id
+mode: 保留字段，默认为0</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Servo.turn_servo_angle">
+<code class="descclassname">ukitai.apis.Servo.</code><code class="descname">turn_servo_angle</code><span class="sig-paren">(</span><em>*</em>, <em>id: int</em>, <em>angle: int</em>, <em>duration_ms: int</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; tuple<a class="reference internal" href="_modules/ukitai/apis/Servo.html#turn_servo_angle"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Servo.turn_servo_angle" title="永久链接至目标">¶</a></dt>
+<dd><p>控制舵机用指定的时长转转至某个角度</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">id: 舵机 id</p>
+<p>angle (int): 指定舵机旋转到达的角度值,单位:度, 范围:[-118, 118]</p>
+<p>duration_ms (int): 旋转耗时,单位:毫秒,范围:[20, 5000]</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+<dt>示例:</dt>
+<dd><p class="first"># 控制 id 为 2 的舵机用 500 毫秒转动到 100°</p>
+<p>Motion.turn_servo_angle(id=2, angle=100, duration_ms=500, link=link)</p>
+<p># 控制 id 为 1 的舵机用 1 秒转动到 -80°</p>
+<p class="last">Motion.turn_servo_angle(id=1, angle=-80, duration_ms=1000, link=link)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Servo.turn_servo_speed">
+<code class="descclassname">ukitai.apis.Servo.</code><code class="descname">turn_servo_speed</code><span class="sig-paren">(</span><em>*</em>, <em>id: int</em>, <em>direction: ukitai.apis.Servo.ServoDirection</em>, <em>speed: int</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Servo.html#turn_servo_speed"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Servo.turn_servo_speed" title="永久链接至目标">¶</a></dt>
+<dd><p>控制舵机按照指定的方向和速度旋转</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>id: 舵机 id
+direction (Servo.ServoDirection): 指定转动方向, 如果参数为 Servo.ServoDirection.STOP, 舵机会停止
+speed (int): 速度, 单位: 度/秒, 范围:[0, 1000]
+link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+<dt>示例:</dt>
+<dd><p class="first"># 控制 id 为 2 的舵机以100 度/秒的速度逆时针转动</p>
+<p>Servo.turn_servo_speed(id=2, direction=Servo.ServoDirection.ANTICLOCKWISE, speed=100, link=link)</p>
+<p># 停止舵机 1</p>
+<p class="last">Servo.turn_servo_speed(id=1, direction=Servo.ServoDirection.STOP, speed=0, link=link)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Servo.turn_servo_speed_mode">
+<code class="descclassname">ukitai.apis.Servo.</code><code class="descname">turn_servo_speed_mode</code><span class="sig-paren">(</span><em>*</em>, <em>id: int</em>, <em>direction: ukitai.apis.Servo.ServoDirection</em>, <em>speed_mode: ukitai.apis.Servo.SpeedMode</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Servo.html#turn_servo_speed_mode"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Servo.turn_servo_speed_mode" title="永久链接至目标">¶</a></dt>
+<dd><p>控制舵机按照指定的方向和速度档位转动</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>id: 舵机 id
+direction (Servo.ServoDirection): 指定转动方向, 如果参数为 Servo.ServoDirection.STOP, 舵机会停止
+speed_mode (Servo.SpeedMode): 速度档位
+link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+<dt>示例:</dt>
+<dd><p class="first"># 控制 id 为 2 的舵机以非常慢的速度逆时针转动</p>
+<p>Servo.turn_servo_speed_mode(id=2, direction=Servo.ServoDirection.ANTICLOCKWISE, speed_mode=Servo.SpeedMode.VERY_SLOW, link=link)</p>
+<p># 停止舵机 1</p>
+<p class="last">Servo.turn_servo_speed_mode(id=1, direction=Servo.ServoDirection.STOP, speed_mode=Servo.SpeedMode.VERY_SLOW, link=link)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Servo.turn_servo_speed_percent">
+<code class="descclassname">ukitai.apis.Servo.</code><code class="descname">turn_servo_speed_percent</code><span class="sig-paren">(</span><em>*</em>, <em>id: int</em>, <em>direction: ukitai.apis.Servo.ServoDirection</em>, <em>speed_percent: int</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Servo.html#turn_servo_speed_percent"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Servo.turn_servo_speed_percent" title="永久链接至目标">¶</a></dt>
+<dd><p>控制舵机按照指定的方向和速度百分比旋转</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>id: 舵机 id
+direction (Servo.ServoDirection): 指定转动方向, 如果参数为 Servo.ServoDirection.STOP, 舵机会停止
+speed_percent (int): 全速 658 度/秒 的百分比, 范围:[0, 100]
+link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+<dt>示例:</dt>
+<dd><p class="first"># 控制 id 为 1 的舵机以全速 50% 的速度顺时针转动</p>
+<p>Servo.turn_servo_speed_percent(id=1, direction=Servo.ServoDirection.CLOCKWISE, speed_percent=50, link=link)</p>
+<p># 控制 id 为 2 的舵机以全速逆时针转动</p>
+<p class="last">Servo.turn_servo_speed_percent(id=2, direction=Servo.ServoDirection.ANTICLOCKWISE, speed_percent=100, link=link)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="ukitai.apis.Motor.html" class="btn btn-neutral float-right" title="电机" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="ukitai.apis.Battery.html" class="btn btn-neutral float-left" title="电池/电源" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

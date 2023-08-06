@@ -1,0 +1,53 @@
+from time import sleep
+
+from ukitai import *
+
+link = uKitAiSerialLink.create("/dev/ttyUSB0")
+if link.open():
+    # Servo
+    ack, response = Servo.turn_servo_angle(id=1, angle=118, duration_ms=400, link=link)
+    print("Ack={}".format(ack))
+    sleep(0.4)
+    ack, response = Servo.turn_servo_angle(id=1, angle=-118, duration_ms=400, link=link)
+    print("Ack={}".format(ack))
+    sleep(0.4)
+    ack, response = Servo.turn_servo_speed_mode(id=1, direction=Servo.ServoDirection.CLOCKWISE, speed_mode=Servo.SpeedMode.VERY_SLOW, link=link)
+    print("Ack={}".format(ack))
+    sleep(1)
+    ack, response = Servo.turn_servo_speed_mode(id=1, direction=Servo.ServoDirection.ANTICLOCKWISE, speed_mode=Servo.SpeedMode.SLOW, link=link)
+    print("Ack={}".format(ack))
+    sleep(1)
+    ack, response = Servo.turn_servo_speed_mode(id=1, direction=Servo.ServoDirection.CLOCKWISE, speed_mode=Servo.SpeedMode.MEDIUM, link=link)
+    print("Ack={}".format(ack))
+    sleep(1)
+    ack, response = Servo.turn_servo_speed_mode(id=1, direction=Servo.ServoDirection.ANTICLOCKWISE, speed_mode=Servo.SpeedMode.FAST, link=link)
+    print("Ack={}".format(ack))
+    sleep(1)
+    ack, response = Servo.turn_servo_speed_mode(id=1, direction=Servo.ServoDirection.CLOCKWISE, speed_mode=Servo.SpeedMode.VERY_FAST, link=link)
+    print("Ack={}".format(ack))
+    sleep(1)
+    ack, response = Servo.stop_servo(id=1, link=link)
+    print("Ack={}".format(ack))
+    sleep(1)
+    ack, response = Servo.turn_servo_speed(id=1, direction=Servo.ServoDirection.ANTICLOCKWISE, speed=666, link=link)
+    print("Ack={}".format(ack))
+    sleep(1)
+    ack, response = Servo.turn_servo_speed(id=1, direction=Servo.ServoDirection.CLOCKWISE, speed=333, link=link)
+    print("Ack={}".format(ack))
+    sleep(1)
+    ack, response = Servo.turn_servo_speed_percent(id=1, direction=Servo.ServoDirection.ANTICLOCKWISE, speed_percent=20, link=link)
+    print("Ack={}".format(ack))
+    sleep(1)
+    ack, response = Servo.turn_servo_speed_percent(id=1, direction=Servo.ServoDirection.CLOCKWISE, speed_percent=80, link=link)
+    print("Ack={}".format(ack))
+    sleep(1)
+    ack, response = Servo.stop_servo(id=1, link=link)
+    print("Ack={}".format(ack))
+    sleep(1)
+
+    print("SERVO_ANGLE={}".format(Servo.read_servo_angle(id=1, link=link)))
+    sleep(0.1)
+
+    link.close()
+else:
+    print('Connect Failure!')

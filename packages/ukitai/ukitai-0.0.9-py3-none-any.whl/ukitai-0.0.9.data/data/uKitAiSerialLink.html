@@ -1,0 +1,328 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>ukitai.link.uKitAiSerialLink &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../../',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules.html">所有模块</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html">模块代码</a> &raquo;</li>
+        
+      <li>ukitai.link.uKitAiSerialLink</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>ukitai.link.uKitAiSerialLink 源代码</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">_thread</span>
+<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+
+<span class="kn">import</span> <span class="nn">serial</span>
+<span class="kn">import</span> <span class="nn">serial.tools.list_ports</span>
+
+<span class="kn">from</span> <span class="nn">ukitai.link.uKitAiLink</span> <span class="kn">import</span> <span class="n">uKitAiLink</span>
+
+
+<div class="viewcode-block" id="uKitAiSerialLink"><a class="viewcode-back" href="../../../ukitai.link.uKitAiSerialLink.html#ukitai.link.uKitAiSerialLink.uKitAiSerialLink">[文档]</a><span class="k">class</span> <span class="nc">uKitAiSerialLink</span><span class="p">(</span><span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="n">_port</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">_serial</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">def</span> <span class="nf">_background_received_thread</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">while</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">isOpen</span><span class="p">():</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">remainLen</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">inWaiting</span><span class="p">()</span>
+                <span class="k">if</span> <span class="n">remainLen</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                    <span class="n">data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">remainLen</span><span class="p">)</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_onReceivedData</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+                <span class="n">sleep</span><span class="p">(</span><span class="mf">0.01</span><span class="p">)</span>
+            <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+                <span class="k">pass</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">port</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_port</span> <span class="o">=</span> <span class="n">port</span>
+
+<div class="viewcode-block" id="uKitAiSerialLink.isOpen"><a class="viewcode-back" href="../../../ukitai.link.uKitAiSerialLink.html#ukitai.link.uKitAiSerialLink.uKitAiSerialLink.isOpen">[文档]</a>    <span class="k">def</span> <span class="nf">isOpen</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;判断是否已经和目标设备成功建立连接</span>
+
+<span class="sd">        返回值说明:</span>
+<span class="sd">            (bool): 是否已经成功连接设备</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">isOpen</span><span class="p">()</span></div>
+
+<div class="viewcode-block" id="uKitAiSerialLink.open"><a class="viewcode-back" href="../../../ukitai.link.uKitAiSerialLink.html#ukitai.link.uKitAiSerialLink.uKitAiSerialLink.open">[文档]</a>    <span class="k">def</span> <span class="nf">open</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">timeout</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">0.5</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;与目标设备建立连接</span>
+
+<span class="sd">        参数值说明:</span>
+<span class="sd">            timeout (float): 超时时间，单位秒</span>
+
+<span class="sd">        返回值说明:</span>
+<span class="sd">            (bool): 是否已经成功连接设备</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">isOpen</span><span class="p">():</span>
+                <span class="k">return</span> <span class="kc">False</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span> <span class="o">=</span> <span class="n">serial</span><span class="o">.</span><span class="n">Serial</span><span class="p">(</span><span class="n">port</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_port</span><span class="p">,</span> <span class="n">baudrate</span><span class="o">=</span><span class="mi">115200</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">isOpen</span><span class="p">():</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">open</span><span class="p">()</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">isOpen</span><span class="p">():</span>
+                <span class="n">_thread</span><span class="o">.</span><span class="n">start_new_thread</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_background_received_thread</span><span class="p">,</span> <span class="p">())</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">isOpen</span><span class="p">()</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+            <span class="k">return</span> <span class="kc">False</span></div>
+
+<div class="viewcode-block" id="uKitAiSerialLink.close"><a class="viewcode-back" href="../../../ukitai.link.uKitAiSerialLink.html#ukitai.link.uKitAiSerialLink.uKitAiSerialLink.close">[文档]</a>    <span class="k">def</span> <span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;中断已建立的连接并释放资源</span>
+
+<span class="sd">        返回值说明:</span>
+<span class="sd">            (bool): 是否已经断开设备连接</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">isOpen</span><span class="p">():</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+            <span class="k">return</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">isOpen</span><span class="p">()</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span></div>
+
+    <span class="k">def</span> <span class="nf">_sendData</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">bytes</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">isOpen</span><span class="p">():</span>
+                <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_serial</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+            <span class="k">return</span> <span class="o">-</span><span class="mi">1</span></div>
+
+
+<div class="viewcode-block" id="listDevices"><a class="viewcode-back" href="../../../ukitai.link.uKitAiSerialLink.html#ukitai.link.uKitAiSerialLink.listDevices">[文档]</a><span class="k">def</span> <span class="nf">listDevices</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;列出当前通过串口识别到的所有uKitAi设备信息</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (None): 通过控制台显示结果</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">index</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">port_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">serial</span><span class="o">.</span><span class="n">tools</span><span class="o">.</span><span class="n">list_ports</span><span class="o">.</span><span class="n">comports</span><span class="p">())</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">port_list</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">dev</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">port_list</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">dev</span><span class="o">.</span><span class="n">vid</span> <span class="o">==</span> <span class="mh">0x0403</span> <span class="ow">and</span> <span class="n">dev</span><span class="o">.</span><span class="n">pid</span> <span class="o">==</span> <span class="mh">0x6001</span><span class="p">:</span>
+                    <span class="n">index</span> <span class="o">=</span> <span class="n">index</span> <span class="o">+</span> <span class="mi">1</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Device </span><span class="si">%d</span><span class="s2">: </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="se">\n\t</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="n">dev</span><span class="o">.</span><span class="n">manufacturer</span><span class="p">,</span> <span class="n">dev</span><span class="o">.</span><span class="n">product</span><span class="p">,</span> <span class="n">dev</span><span class="o">.</span><span class="n">device</span><span class="p">))</span>
+    <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+        <span class="k">pass</span></div>
+
+
+<div class="viewcode-block" id="create"><a class="viewcode-back" href="../../../ukitai.link.uKitAiSerialLink.html#ukitai.link.uKitAiSerialLink.create">[文档]</a><span class="k">def</span> <span class="nf">create</span><span class="p">(</span><span class="n">port</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">uKitAiSerialLink</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;创建一个uKitAi串口连接对象</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        port (str): 串口设备端口</span>
+
+<span class="sd">        在Linux系统上面格式一般为：&#39;/dev/ttyUSBXXXX&#39;</span>
+
+<span class="sd">        在MacOS系统上面格式一般为：&#39;/dev/tty.usbserial-XXXX&#39;</span>
+
+<span class="sd">        在Windows系统上面格式一般为：&#39;COMXXXX&#39;</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (bool): 返回创建好的uKitAi串口连接对象</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">uKitAiSerialLink</span><span class="p">(</span><span class="n">port</span><span class="p">)</span></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,540 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>显示屏 &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="视觉模块" href="ukitai.apis.Vision.html" />
+    <link rel="prev" title="音频控制" href="ukitai.apis.Audio.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">所有模块</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="apis.html">接口模块</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Battery.html">电池/电源</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Servo.html">舵机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Motor.html">电机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LedEyes.html">眼灯</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Ultrasonic.html">超声波传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.InfraredSensor.html">红外传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.TouchSensor.html">触碰传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.ColorSensor.html">颜色传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.HumiditySensor.html">温湿度传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LuxSensor.html">亮度传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.SoundSensor.html">声音传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LedBox.html">LED灯盒</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Audio.html">音频控制</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">显示屏</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Vision.html">视觉模块</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="links.html">设备连接模块</a></li>
+<li class="toctree-l2"><a class="reference internal" href="common.html">公共基础模块</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">所有模块</a> &raquo;</li>
+        
+          <li><a href="apis.html">接口模块</a> &raquo;</li>
+        
+      <li>显示屏</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ukitai.apis.Screen.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-ukitai.apis.Screen">
+<span id="id1"></span><h1>显示屏<a class="headerlink" href="#module-ukitai.apis.Screen" title="永久链接至标题">¶</a></h1>
+<dl class="class">
+<dt id="ukitai.apis.Screen.Color">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Screen.</code><code class="descname">Color</code><a class="reference internal" href="_modules/ukitai/apis/Screen.html#Color"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.Color" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>颜色定义</p>
+<p>WHITE: 白色</p>
+<p>PURPLE: 紫色</p>
+<p>RED: 红色</p>
+<p>ORANGE: 橙色</p>
+<p>YELLOW: 黄色</p>
+<p>GREEN: 绿色</p>
+<p>CYAN: 青色</p>
+<p>BLUE: 蓝色</p>
+<p>BLACK: 黑色</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Screen.Emotion">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Screen.</code><code class="descname">Emotion</code><a class="reference internal" href="_modules/ukitai/apis/Screen.html#Emotion"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.Emotion" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>表情图案</p>
+<p>SMILE: 微笑</p>
+<p>SAD: 难过</p>
+<p>BLINK: 眨眼</p>
+<p>SHY: 害羞</p>
+<p>SURPRISED: 惊讶</p>
+<p>DIZZY: 晕</p>
+<p>SIGH: 叹气</p>
+<p>LAUGH: 大笑</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Screen.Fruit">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Screen.</code><code class="descname">Fruit</code><a class="reference internal" href="_modules/ukitai/apis/Screen.html#Fruit"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.Fruit" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>水果</p>
+<p>APPLE: 苹果</p>
+<p>BANANA: 香蕉</p>
+<p>ORANGE: 橙子</p>
+<p>WATERMELON: 西瓜</p>
+<p>GRAPE: 葡萄</p>
+<p>KIWI: 猕猴桃</p>
+<p>PEAR: 梨</p>
+<p>PITAYA: 火龙果</p>
+<p>STRAWBERRY: 草莓</p>
+<p>PINEAPPLE: 菠萝</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Screen.SensorType">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Screen.</code><code class="descname">SensorType</code><a class="reference internal" href="_modules/ukitai/apis/Screen.html#SensorType"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.SensorType" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>传感器类型</p>
+<p>INFRARED: 红外传感器</p>
+<p>ULTRASONIC: 超声传感器</p>
+<p>SOUND: 声音传感器</p>
+<p>LIGHT: 亮度传感器</p>
+<p>COLOR: 颜色传感器</p>
+<p>HUMITURE: 温湿度传感器</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Screen.TrafficSign">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Screen.</code><code class="descname">TrafficSign</code><a class="reference internal" href="_modules/ukitai/apis/Screen.html#TrafficSign"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.TrafficSign" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>交通标志</p>
+<p>RED: 红灯</p>
+<p>GREEN: 绿灯</p>
+<p>YELLOW: 黄灯</p>
+<p>TURN_LEFT: 左转</p>
+<p>TURN_RIGHT: 右转</p>
+<p>HORN: 鸣笛</p>
+<p>WATCH_OUT: 注意儿童</p>
+<p>NO_STOPPING: 禁止长时间停车</p>
+<p>TUNNEL: 进入隧道</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.clear">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">clear</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#clear"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.clear" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕清屏</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.off">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">off</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#off"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.off" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕关闭</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.set_background_color">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">set_background_color</code><span class="sig-paren">(</span><em>*</em>, <em>color: ukitai.apis.Screen.Color</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#set_background_color"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.set_background_color" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕亮度</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">color: 背景色，定义在 Screen.Color 中</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.set_brightness">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">set_brightness</code><span class="sig-paren">(</span><em>*</em>, <em>brightness: int</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#set_brightness"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.set_brightness" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕亮度</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">brightness: 亮度值，范围[0, 100]</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.set_state">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">set_state</code><span class="sig-paren">(</span><em>*</em>, <em>enabled: bool</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#set_state"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.set_state" title="永久链接至目标">¶</a></dt>
+<dd><p>打开/关闭屏幕功能</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">enabled: True=开打屏幕功能，False=关闭屏幕功能</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.set_status_info">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">set_status_info</code><span class="sig-paren">(</span><em>*</em>, <em>visible: bool</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#set_status_info"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.set_status_info" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕状态界面显示</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">visible: 状态界面是否可见</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.show_custom_emotion">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">show_custom_emotion</code><span class="sig-paren">(</span><em>*</em>, <em>name: str</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#show_custom_emotion"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.show_custom_emotion" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕显示自定义表情</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">name: 自定义表情名称</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.show_custom_picture">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">show_custom_picture</code><span class="sig-paren">(</span><em>*</em>, <em>name: str</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#show_custom_picture"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.show_custom_picture" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕显示自定义图片</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">name: 自定义图片名称</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.show_emotion">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">show_emotion</code><span class="sig-paren">(</span><em>*</em>, <em>emotion: ukitai.apis.Screen.Emotion</em>, <em>x: int = 0</em>, <em>y: int = 0</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#show_emotion"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.show_emotion" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕显示表情</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">emotion: 表情, 定义在 Screen.Emotion 中</p>
+<p>x: 屏幕水平方向坐标</p>
+<p>y: 屏幕垂直方向坐标</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.show_fruit">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">show_fruit</code><span class="sig-paren">(</span><em>*</em>, <em>fruit: ukitai.apis.Screen.Fruit</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#show_fruit"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.show_fruit" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕显示水果</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">fruit: 水果, 定义在 Screen.Fruit 中</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.show_marquee_words">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">show_marquee_words</code><span class="sig-paren">(</span><em>*</em>, <em>text: str</em>, <em>color: ukitai.apis.Screen.Color = &lt;Color.WHITE: 7&gt;</em>, <em>x: int = 0</em>, <em>y: int = 0</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#show_marquee_words"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.show_marquee_words" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕显示动态滚动文本文字</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">text: 文字内容</p>
+<p>color: 文字颜色, 定义在 Screen.Color 中</p>
+<p>x: 屏幕水平方向坐标</p>
+<p>y: 屏幕垂直方向坐标</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.show_traffic_sign">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">show_traffic_sign</code><span class="sig-paren">(</span><em>*</em>, <em>traffic_sign: ukitai.apis.Screen.TrafficSign</em>, <em>x: int = 0</em>, <em>y: int = 0</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#show_traffic_sign"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.show_traffic_sign" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕显示交通标志</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">traffic_sign: 交通标志, 定义在 Screen.TrafficSign 中</p>
+<p>x: 屏幕水平方向坐标</p>
+<p>y: 屏幕垂直方向坐标</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.show_words">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">show_words</code><span class="sig-paren">(</span><em>*</em>, <em>text: str</em>, <em>color: ukitai.apis.Screen.Color = &lt;Color.WHITE: 7&gt;</em>, <em>x: int = 0</em>, <em>y: int = 0</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#show_words"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.show_words" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕显示静态文本文字</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">text: 文字内容</p>
+<p>color: 文字颜色, 定义在 Screen.Color 中</p>
+<p>x: 屏幕水平方向坐标</p>
+<p>y: 屏幕垂直方向坐标</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.start_display_sensor_data">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">start_display_sensor_data</code><span class="sig-paren">(</span><em>*</em>, <em>sensor_type: ukitai.apis.Screen.SensorType</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#start_display_sensor_data"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.start_display_sensor_data" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕开始显示传感器数值</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">sensor_type: 传感器类型，定义在 Screen.SensorType 中</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Screen.stop_display_sensor_data">
+<code class="descclassname">ukitai.apis.Screen.</code><code class="descname">stop_display_sensor_data</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Screen.html#stop_display_sensor_data"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Screen.stop_display_sensor_data" title="永久链接至目标">¶</a></dt>
+<dd><p>控制屏幕关闭显示传感器数值</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="ukitai.apis.Vision.html" class="btn btn-neutral float-right" title="视觉模块" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="ukitai.apis.Audio.html" class="btn btn-neutral float-left" title="音频控制" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

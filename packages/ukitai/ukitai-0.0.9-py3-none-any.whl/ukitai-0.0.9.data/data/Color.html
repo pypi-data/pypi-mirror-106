@@ -1,0 +1,336 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>ukitai.common.Color &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../../',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules.html">所有模块</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html">模块代码</a> &raquo;</li>
+        
+      <li>ukitai.common.Color</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>ukitai.common.Color 源代码</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">from</span> <span class="nn">ukitai.common</span> <span class="kn">import</span> <span class="o">*</span>
+
+
+<div class="viewcode-block" id="Color"><a class="viewcode-back" href="../../../common.html#ukitai.common.Color.Color">[文档]</a><span class="k">class</span> <span class="nc">Color</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; 定义颜色类型 &quot;&quot;&quot;</span>
+    <span class="n">color</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">color</span> <span class="o">=</span> <span class="n">color</span>
+
+<div class="viewcode-block" id="Color.red"><a class="viewcode-back" href="../../../common.html#ukitai.common.Color.Color.red">[文档]</a>    <span class="k">def</span> <span class="nf">red</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot; 获取颜色值红色分量</span>
+
+<span class="sd">        返回值说明:</span>
+<span class="sd">            (int): 范围[0, 255]</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">color</span> <span class="o">&amp;</span> <span class="mh">0x00FF0000</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="mi">16</span></div>
+
+<div class="viewcode-block" id="Color.green"><a class="viewcode-back" href="../../../common.html#ukitai.common.Color.Color.green">[文档]</a>    <span class="k">def</span> <span class="nf">green</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot; 获取颜色值绿色分量</span>
+
+<span class="sd">        返回值说明:</span>
+<span class="sd">            (int): 范围[0, 255]</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">color</span> <span class="o">&amp;</span> <span class="mh">0x0000FF00</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="mi">8</span></div>
+
+<div class="viewcode-block" id="Color.blue"><a class="viewcode-back" href="../../../common.html#ukitai.common.Color.Color.blue">[文档]</a>    <span class="k">def</span> <span class="nf">blue</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot; 获取颜色值蓝色分量</span>
+
+<span class="sd">        返回值说明:</span>
+<span class="sd">            (int): 范围[0, 255]</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">color</span> <span class="o">&amp;</span> <span class="mh">0x000000FF</span></div></div>
+
+
+<div class="viewcode-block" id="create_color_rgb"><a class="viewcode-back" href="../../../common.html#ukitai.common.Color.create_color_rgb">[文档]</a><span class="k">def</span> <span class="nf">create_color_rgb</span><span class="p">(</span><span class="n">red</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">green</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">blue</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Color</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;根据红, 绿, 蓝分量值创建颜色</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        red (int): 红通分量</span>
+
+<span class="sd">        green (int): 绿通分量</span>
+
+<span class="sd">        blue (int): 蓝通分量</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (Color): 返回 Color 对象</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">v_red</span> <span class="o">=</span> <span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">red</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="n">v_green</span> <span class="o">=</span> <span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">green</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="n">v_blue</span> <span class="o">=</span> <span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">blue</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="n">v_red</span> <span class="o">&lt;&lt;</span> <span class="mi">16</span> <span class="o">|</span> <span class="n">v_green</span> <span class="o">&lt;&lt;</span> <span class="mi">8</span> <span class="o">|</span> <span class="n">v_blue</span>
+    <span class="k">return</span> <span class="n">Color</span><span class="p">(</span><span class="n">v</span><span class="p">)</span></div>
+
+
+<span class="k">def</span> <span class="nf">__create_color_hsv</span><span class="p">(</span><span class="n">hue</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">saturation</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">value</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;[summary]</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        hue (int): 色调值, 范围: [0, 360]</span>
+
+<span class="sd">        saturation (int): 饱和度, 范围: [0, 100]</span>
+
+<span class="sd">        value (int): 明度, 范围: [0, 100]</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">h</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">hue</span><span class="p">)</span> <span class="o">%</span> <span class="mi">360</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">saturation</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.01</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.01</span>
+
+    <span class="n">i</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="n">h</span> <span class="o">/</span> <span class="mi">60</span><span class="p">)</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="p">(</span><span class="n">h</span> <span class="o">/</span> <span class="mi">60</span><span class="p">)</span> <span class="o">-</span> <span class="n">i</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">v</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">s</span><span class="p">)</span>
+    <span class="n">q</span> <span class="o">=</span> <span class="n">v</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="p">(</span><span class="n">s</span> <span class="o">*</span> <span class="n">f</span><span class="p">))</span>
+    <span class="n">t</span> <span class="o">=</span> <span class="n">v</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="p">(</span><span class="n">s</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">f</span><span class="p">)))</span>
+
+    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">rr</span> <span class="o">=</span> <span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">p</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">rr</span> <span class="o">=</span> <span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">p</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="n">rr</span> <span class="o">=</span> <span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+        <span class="n">rr</span> <span class="o">=</span> <span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+        <span class="n">rr</span> <span class="o">=</span> <span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">rr</span> <span class="o">=</span> <span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+
+    <span class="n">result</span> <span class="o">=</span> <span class="n">Color</span><span class="o">.</span><span class="n">create_color_rgb</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="n">rr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="mi">255</span><span class="p">),</span>
+                                    <span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="n">rr</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="mi">255</span><span class="p">),</span>
+                                    <span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="n">rr</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">*</span> <span class="mi">255</span><span class="p">))</span>
+    <span class="c1"># print(&quot;===== create_color_hsv:&quot;, result.color)</span>
+    <span class="k">return</span> <span class="n">result</span>
+
+
+<div class="viewcode-block" id="create_color_hsv"><a class="viewcode-back" href="../../../common.html#ukitai.common.Color.create_color_hsv">[文档]</a><span class="k">def</span> <span class="nf">create_color_hsv</span><span class="p">(</span><span class="n">hue_percent</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">saturation</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">value</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Color</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;根据色调, 饱和度, 亮度值创建颜色</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        hue_percent (int): 色调值百分比, 范围: [0, 100]</span>
+
+<span class="sd">        saturation (int): 饱和度, 范围: [0, 100]</span>
+
+<span class="sd">        value (int): 明度, 范围: [0, 100]</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (Color): 返回 Color 对象</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">hue_percent</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">__create_color_hsv</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">p</span> <span class="o">*</span> <span class="mi">360</span> <span class="o">*</span> <span class="mf">0.01</span><span class="p">),</span> <span class="n">saturation</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span></div>
+
+
+<span class="n">RED</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mh">0x00FF0000</span><span class="p">)</span>
+<span class="n">ORANGE</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mh">0x00FF8000</span><span class="p">)</span>
+<span class="n">YELLOW</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mh">0x00FFF000</span><span class="p">)</span>
+<span class="n">GREEN</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mh">0x0000FF00</span><span class="p">)</span>
+<span class="n">CYAN</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mh">0x0000FFFF</span><span class="p">)</span>
+<span class="n">BLUE</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mh">0x000000FF</span><span class="p">)</span>
+<span class="n">PURPLE</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mh">0x00FF00FF</span><span class="p">)</span>
+<span class="n">BLACK</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mh">0x00000000</span><span class="p">)</span>
+<span class="n">WHITE</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mh">0x00FFFFFF</span><span class="p">)</span>
+<span class="n">GREY</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mh">0x00BEBEBE</span><span class="p">)</span>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
