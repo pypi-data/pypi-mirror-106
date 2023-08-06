@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+pygamehotkeys/src/pygamehotkeys.egg-info/PKG-INFO
+pygamehotkeys/src/pygamehotkeys.egg-info/SOURCES.txt
+pygamehotkeys/src/pygamehotkeys.egg-info/dependency_links.txt
+pygamehotkeys/src/pygamehotkeys.egg-info/top_level.txt
+pygamehotkeys/src/pygamehotkeys.py
+pygamehotkeys/src/pygamehotkeys.egg-info/SOURCES.txt
