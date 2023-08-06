@@ -1,0 +1,8 @@
+setup.py
+flagtest/__init__.py
+flagtest/data.py
+flagtest/flagmoji.py
+flagtest.egg-info/PKG-INFO
+flagtest.egg-info/SOURCES.txt
+flagtest.egg-info/dependency_links.txt
+flagtest.egg-info/top_level.txt
