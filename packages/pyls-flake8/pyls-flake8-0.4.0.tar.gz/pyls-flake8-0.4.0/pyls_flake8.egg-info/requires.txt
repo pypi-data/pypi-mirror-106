@@ -1,0 +1,2 @@
+python-lsp-server
+flake8>=3.6.0
