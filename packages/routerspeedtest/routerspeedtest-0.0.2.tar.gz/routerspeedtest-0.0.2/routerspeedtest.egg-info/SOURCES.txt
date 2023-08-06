@@ -1,0 +1,8 @@
+setup.py
+routerspeedtest/__init__.py
+routerspeedtest/speed_test.py
+routerspeedtest.egg-info/PKG-INFO
+routerspeedtest.egg-info/SOURCES.txt
+routerspeedtest.egg-info/dependency_links.txt
+routerspeedtest.egg-info/requires.txt
+routerspeedtest.egg-info/top_level.txt
