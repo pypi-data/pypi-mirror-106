@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: datagovernancenew
+Version: 0.0.2
+Summary: A very basic cleaning data
+Home-page: UNKNOWN
+Author: vignesh
+Author-email: vigneshlike007@gmail.com
+License: MIT
+Description: This is a very simple data profiling that takes data cleaning .
+        
+        
+        Change Log
+        ==========
+        
+        0.0.2 (14/05/2021)
+        -------------------
+        - First Release
+        
+Keywords: cleaning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
