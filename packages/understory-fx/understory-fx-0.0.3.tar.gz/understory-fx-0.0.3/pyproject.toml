@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "understory-fx"
+version = "0.0.3"
+description = "Tools for metamodern audiovisual effects"
+authors = ["Angelo Gladding <angelo@lahacker.net>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+packages = [
+    { include = "understory" }
+]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/canopy/understory-fx"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+lxml = "^4.6.3"
+Pygments = "^2.9.0"
+emoji = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
