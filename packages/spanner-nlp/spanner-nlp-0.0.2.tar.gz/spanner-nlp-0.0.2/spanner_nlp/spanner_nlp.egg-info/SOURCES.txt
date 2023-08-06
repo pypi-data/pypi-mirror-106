@@ -1,0 +1,6 @@
+README.md
+setup.py
+spanner_nlp/spanner_nlp.egg-info/PKG-INFO
+spanner_nlp/spanner_nlp.egg-info/SOURCES.txt
+spanner_nlp/spanner_nlp.egg-info/dependency_links.txt
+spanner_nlp/spanner_nlp.egg-info/top_level.txt
