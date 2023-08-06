@@ -1,0 +1,4 @@
+Flask
+
+[dev]
+pytest>=3.7
