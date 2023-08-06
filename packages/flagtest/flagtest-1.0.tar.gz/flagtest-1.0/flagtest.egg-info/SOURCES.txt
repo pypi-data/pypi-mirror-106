@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+flagtest.egg-info/PKG-INFO
+flagtest.egg-info/SOURCES.txt
+flagtest.egg-info/dependency_links.txt
+flagtest.egg-info/top_level.txt
