@@ -1,0 +1,8 @@
+understory/icu.c,sha256=a6EzT9AGMsOo7JMuqmDb545vv5iLDu98-ZiyUHaYMUo,14633
+understory/kv.py,sha256=hEtf-qUMuJWugxoUTFrby-LmFnJqzuVZIWktni9sKbI,33292
+understory/libsqliteicu.so,sha256=AvTnZ61ZtOrBqc3uiBZ3AKzK7GJrZ1_LDh7aheHi9GU,21408
+understory/sql.py,sha256=-SQqXXbf1-nP61LYpQAw5oEO6hq3rQ3PoiYxcrOnebY,15209
+understory_db-0.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+understory_db-0.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+understory_db-0.0.1.dist-info/METADATA,sha256=PZR_MujXJjdXxV-mECtIxKE-cZpGg2KHLY9NeMimLwE,828
+understory_db-0.0.1.dist-info/RECORD,,
