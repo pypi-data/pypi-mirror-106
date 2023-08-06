@@ -1,0 +1,29 @@
+#!usr/bin/env python3
+
+from setuptools import find_packages
+from distutils.core import setup
+
+if __name__ == '__main__':
+    setup(
+        name='{{ pkg_name }}',
+        version='{{ pkg_version }}',
+        author='{{ name }}',
+        author_email='{{ email }}',
+        packages=['{{ pkg_name }}],
+        scripts=['bin/__main__.py'],
+    {% if url != false %}
+        url='{{ pkg_url }}',
+    {% endif %}
+    {% if lic != false %}
+        license='LICENSE',
+    {% endif %}
+        description="{{ short_desc }}",
+    {% if long_desc != false %}
+        long_description=open('README.txt').read(),
+    {% elif not long_desc %}
+        long_description="",
+    {% endif %}
+    {% if pkg_deps is not none %}
+        install_requires={{ pkg_requires }},
+    {% endif %}
+    )
