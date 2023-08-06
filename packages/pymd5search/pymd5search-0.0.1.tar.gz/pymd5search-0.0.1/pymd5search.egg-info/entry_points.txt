@@ -1,0 +1,3 @@
+[console_scripts]
+pymd5search = pymd5search.__init__:pymd5search
+
