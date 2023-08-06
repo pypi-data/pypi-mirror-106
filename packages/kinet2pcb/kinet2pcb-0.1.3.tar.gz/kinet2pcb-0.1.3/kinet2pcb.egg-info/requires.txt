@@ -1,0 +1,2 @@
+kinparse>=0.1.2
+hierplace@ git+https://git@github.com/xesscorp/HierPlace@master
