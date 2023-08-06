@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: cylinderize
+Version: 1.0.0
+Summary: Turn any file into a cylinder
+Home-page: https://github.com/donno2048/cylinderize
+Author: Elisha Hollander
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow (==8.2.0)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: numpy (==1.20.3)
+
+# cylinderize
+
+Turn any file or text into a cylinder
+
+## install
+
+### From PyPi
+
+```sh
+pip3 install cylinderize
+```
+
+### From GitHub
+
+```sh
+pip3 install git+https://github.com/donno2048/cylinderize
+```
+
+## Usage
+
+Run `cylinderize <file>` to show the text of the file as a cylinder
+
+Or in a script:
+
+```py
+from cylinderize import cylinderize
+cylinderize("text\nmore text\n...")
+```
+
+
