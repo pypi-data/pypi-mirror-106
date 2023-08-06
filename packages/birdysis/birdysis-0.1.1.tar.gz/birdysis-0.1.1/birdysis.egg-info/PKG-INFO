@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: birdysis
+Version: 0.1.1
+Summary: Retrieves and downloads liked tweets on Twitter.
+Home-page: https://github.com/sweeneyngo/birdysis
+Author: Sweeney Ngo
+Author-email: sweeneyngo@gmail.com
+License: LICENSE
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.py
+birdysis.egg-info/PKG-INFO
+birdysis.egg-info/SOURCES.txt
+birdysis.egg-info/dependency_links.txt
+birdysis.egg-info/entry_points.txt
+birdysis.egg-info/requires.txt
+birdysis.egg-info/top_level.txt
+src/__init__.py
