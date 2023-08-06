@@ -1,0 +1,13 @@
+gbmarrsmodules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gbmarrsmodules/common.py,sha256=yA9v7u-hZAuwyOXYYWn7MMB01Qm-_rxWSAw-FpHzg28,2316
+gbmarrsmodules/miriamRegex.py,sha256=i9YoctGu7iP6T8ID4BdhecZpssgTu3cK_jhHJqArRg0,3080
+gbmarrsmodules/namespaces.py,sha256=kDCLo7foPneXjSYkcj_82ZPLxe2N5u6HGMSGASDjOoc,3310
+gbmarrsmodules/project_graph_modules.py,sha256=5lRfAp3Ljgn6swfixIrb1hmtBKq6PGdQfDSlY5TkcRs,24990
+gbmarrsmodules/rdfWriterValidated.py,sha256=K_KZnM-U9lNNX3cgzmijdK7MKBagYaobJ-cOkcX0tec,5875
+gbmarrsmodules/rdfstream.py,sha256=VR1lcB341TcvfAkS65rhKwRE0NoIaqwbIsBP07M5vwU,2627
+gbmarrsmodules/util.py,sha256=yoDCvwZ--glZf3mo_udw36-RgQoixglYyLVnfp2q3RI,3817
+gbmarrsmodules-0.13.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+gbmarrsmodules-0.13.dist-info/METADATA,sha256=Bp_0B9hzepdm9Zs3vzVtZL6nkleRXTFksA6Rg5i2S48,531
+gbmarrsmodules-0.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gbmarrsmodules-0.13.dist-info/top_level.txt,sha256=bgFI-8DdyFEb1cUAb3uKJEURaQvs4lKRh_hEuu2bquQ,15
+gbmarrsmodules-0.13.dist-info/RECORD,,
