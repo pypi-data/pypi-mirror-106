@@ -1,0 +1,7 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+TGAATWWAHATKCAVTWWWTWTGMATAAAWATWCAHTRR	MX000116	-21	2.90112e-07	5.83125e-05	5.5351e-05	14	TGAATTAAAATGCAATAAATATGAATAAATATTCACTAA	TGAATAAAAATTCA	+
+TGAATWWAHATKCAVTWWWTWTGMATAAAWATWCAHTRR	MX000043	-20	4.3084e-07	8.65988e-05	5.5351e-05	16	TGAATTAAAATGCAATAAATATGAATAAATATTCACTAA	ATGAATAAAAATTCAT	-
+
+# Tomtom (Motif Comparison Tool): Version 5.0.5 compiled on Apr 26 2019 at 12:22:05
+# The format of this file is described at http://meme-suite.org//doc/tomtom-output-format.html.
+# tomtom -oc tmp/ArgR/tomtom -thresh 0.001 -incomplete-scores -png tmp/ArgR/meme.txt /home/anand/PycharmProjects/pymodulon/src/pymodulon/data/meme/prodoric.meme
