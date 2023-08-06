@@ -1,0 +1,14 @@
+bidsphysio.acq2bids
+bidsphysio.base
+bidsphysio.physio2bids
+bidsphysio.events
+bidsphysio.dcm2bids
+bidsphysio.pmu2bids
+bidsphysio.session
+bidsphysio.edf2bids
+
+[all]
+pytest
+
+[tests]
+pytest
