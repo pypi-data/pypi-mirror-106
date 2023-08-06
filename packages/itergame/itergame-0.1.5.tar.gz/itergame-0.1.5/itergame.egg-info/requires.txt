@@ -1,0 +1,14 @@
+bbopt>=1.2.1
+tqdm
+
+[dev]
+coconut-develop
+pdoc3
+Markdown
+
+[examples]
+numpy
+scipy
+mpmath
+scikit-learn
+matplotlib
