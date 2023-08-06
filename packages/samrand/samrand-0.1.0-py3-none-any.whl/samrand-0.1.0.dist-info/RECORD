@@ -1,0 +1,9 @@
+samrand/__init__.py,sha256=K4bqp4JdOs9KHYMltFboNleHcCgvR1V7uAJwB8wlYQw,18
+samrand/reader.py,sha256=efyG-Zl4v1TEtiGyb6Kj9IHm2IbB62BIqDW2_vK5T7c,1779
+samrand/sampler.py,sha256=YET5wFUOeGTyxD0Cltu1SyOJ-H3hs7guPIpc7jDONRc,7305
+samrand-0.1.0.data/scripts/samrand,sha256=WQL9ueIzHpmGZvclYWxvN63K_S3nHag3HyRtARU-Dl8,3118
+samrand-0.1.0.dist-info/LICENSE,sha256=rTHAe5R6-TIpIHnaADMkc6mQBlpyovkj8Xj3GWiTbL0,1070
+samrand-0.1.0.dist-info/METADATA,sha256=5ny_ScfP82mJFmj9XxLoZufEDYn0S_0lUacQo9H9ST0,7148
+samrand-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+samrand-0.1.0.dist-info/top_level.txt,sha256=_31QuUG9kHAhtc2FNjTdcltMCWvXW-0Mcogt0MVRIQM,8
+samrand-0.1.0.dist-info/RECORD,,
