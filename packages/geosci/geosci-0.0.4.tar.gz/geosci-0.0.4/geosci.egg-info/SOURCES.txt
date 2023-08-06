@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+geosci/__init__.py
+geosci/common.py
+geosci/geosci.py
+geosci/utils.py
+geosci.egg-info/PKG-INFO
+geosci.egg-info/SOURCES.txt
+geosci.egg-info/dependency_links.txt
+geosci.egg-info/not-zip-safe
+geosci.egg-info/requires.txt
+geosci.egg-info/top_level.txt
