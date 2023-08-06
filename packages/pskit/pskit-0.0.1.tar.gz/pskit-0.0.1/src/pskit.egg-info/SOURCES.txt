@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pskit.egg-info/PKG-INFO
+src/pskit.egg-info/SOURCES.txt
+src/pskit.egg-info/dependency_links.txt
+src/pskit.egg-info/requires.txt
+src/pskit.egg-info/top_level.txt
