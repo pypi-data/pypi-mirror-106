@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pip-search-color
+Version: 0.2.7
+Summary: Wrapper for "pip search" with color and hyperlink features.
+Home-page: https://github.com/kkatayama/pip_search
+Author: Teddy Katayama
+Author-email: katayama@udel.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: bs4
+Requires-Dist: requests
+
+# pip-search-color
+Wrapper for "pip search" with color and hyperlink features.
+
+![https://raw.githubusercontent.com/kkatayama/pip_search/main/docs/screenshot.png](https://raw.githubusercontent.com/kkatayama/pip_search/main/docs/screenshot.png)
+
+
