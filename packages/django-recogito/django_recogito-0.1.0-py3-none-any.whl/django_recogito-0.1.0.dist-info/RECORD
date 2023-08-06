@@ -1,0 +1,13 @@
+recogito/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+recogito/admin.py,sha256=ANl3kw_DLfBVqJrNAM35cswSr2eYwxgbjeYrmronrHE,421
+recogito/api_renderers.py,sha256=3qZ9Ddz-dJi1Uqr9m0JkYQlcb40kTwN4w7bd1Pz_c9w,313
+recogito/api_serializers.py,sha256=9YT4KqGZiwnZ23bUqYO-1miyUYMdjACYCs6aUgPcovM,289
+recogito/api_views.py,sha256=WQ7qxZb38UYopgaEt4QRAfr7BQUBvdon3AFg46d4tIU,764
+recogito/apps.py,sha256=IriVsL288yhCFnoaVk4hsise9AM1CK5rE8zNiogmPiQ,154
+recogito/models.py,sha256=BxdED8TBjnR5FGDmER9jfdoafS3PHv8Rl-TFNwB3w2E,1136
+recogito/tests.py,sha256=cmZKEOcw3B6Juqg_-B068rzYR53TU086mJdyA-CgO64,939
+recogito/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_recogito-0.1.0.dist-info/METADATA,sha256=OsrloZEeVbUVn4xgA4MH3-bjsXaP4V3VdPzztIniqAM,675
+django_recogito-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_recogito-0.1.0.dist-info/top_level.txt,sha256=CzEO5edP-ckliD-8FJsd6Il1s0_YZ8MazLrFNi91WQ8,9
+django_recogito-0.1.0.dist-info/RECORD,,
