@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mags-hypermodern-python
+Version: 0.1.0
+Summary: The hypermodern Python project
+Home-page: https://github.com/magavendon/mags-hypermodern-python
+License: MIT
+Keywords: hypermodern
+Author: James Grider
+Author-email: james.grider@faa.gov
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: desert (>=2020.11.18,<2021.0.0)
+Requires-Dist: marshmallow (>=3.12.1,<4.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Project-URL: Repository, https://github.com/magavendon/mags-hypermodern-python
+Description-Content-Type: text/markdown
+
+# Mag's Hypermodern Python
+
+[![Tests](https://github.com/magavendon/mags-hypermodern-python/workflows/Tests/badge.svg)](https://github.com/magavendon/mags-hypermodern-python/actions?workflow=Tests)
+[![Codecov](https://codecov.io/gh/magavendon/mags-hypermodern-python/branch/master/graph/badge.svg)](https://codecov.io.gh/magavendon/mags-hypermodern-python)
+
+Created following the Hypermodern Python guide: https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
+

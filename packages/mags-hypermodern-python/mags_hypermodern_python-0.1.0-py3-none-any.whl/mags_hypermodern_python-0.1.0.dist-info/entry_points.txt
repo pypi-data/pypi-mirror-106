@@ -1,0 +1,4 @@
+[console_scripts]
+mags-hypermodern-python=src.mags_hypermodern_python.console:main
+mhp=src.mags_hypermodern_python.console:main
+
