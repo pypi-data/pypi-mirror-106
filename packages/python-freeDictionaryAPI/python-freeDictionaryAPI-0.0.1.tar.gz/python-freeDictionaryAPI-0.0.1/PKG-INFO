@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: python-freeDictionaryAPI
+Version: 0.0.1
+Summary: Wrapper for Free Dictionary API [https://dictionaryapi.dev/]
+Home-page: https://github.com/Max-Zhenzhera/python-freeDictionaryAPI
+Author: Max Zhenzhera
+Author-email: maxzhenzhera@gmail.com
+License: MIT
+Description: Welcome to python-FreeDictionaryApi!
+        ====================================
+        
+        .. note::
+        
+            It is in development now!
+        
+            Release soon!
+        
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: async-client
+Provides-Extra: sync-client

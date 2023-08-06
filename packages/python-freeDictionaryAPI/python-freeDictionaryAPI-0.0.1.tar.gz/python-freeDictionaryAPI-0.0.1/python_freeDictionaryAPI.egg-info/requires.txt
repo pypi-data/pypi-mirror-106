@@ -1,0 +1,6 @@
+
+[async-client]
+aiohttp>=3.7.4.post0
+
+[sync-client]
+httpx>=0.18.1
