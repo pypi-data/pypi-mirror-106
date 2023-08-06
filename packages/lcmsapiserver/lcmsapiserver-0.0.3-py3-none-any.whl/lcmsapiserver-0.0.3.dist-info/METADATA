@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lcmsapiserver
+Version: 0.0.3
+Summary: Can use it to save or recall preferences from Python.
+Home-page: UNKNOWN
+Author: shpark85
+Author-email: shpark85@lotte.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
