@@ -1,0 +1,9 @@
+README.md
+setup.py
+omni_comscore/__init__.py
+omni_comscore/omni_comscore.py
+omnicom_comscore.egg-info/PKG-INFO
+omnicom_comscore.egg-info/SOURCES.txt
+omnicom_comscore.egg-info/dependency_links.txt
+omnicom_comscore.egg-info/requires.txt
+omnicom_comscore.egg-info/top_level.txt
