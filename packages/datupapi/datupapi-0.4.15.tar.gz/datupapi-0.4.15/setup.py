@@ -1,0 +1,33 @@
+from setuptools import setup
+
+setup(name='datupapi',
+      version='0.4.15',
+      description='Utility library to support Datup AI/MLOps processes',
+      author='Ramiro Chaparro-Vargas',
+      email_author='ramiro@datup.ai',
+      packages=['datupapi',
+                'datupapi.transform',
+                'datupapi.configure',
+                'datupapi.extract',
+                'datupapi.feateng',
+                'datupapi.prepare',
+                'datupapi.training',
+                'datupapi.evaluate',
+                'datupapi.predict',
+                'datupapi.utils'],
+      install_requires=['beautifulsoup4==4.9.3',
+                        'boto3==1.16.54',
+                        'mysql-connector-python==8.0.24',
+                        'openpyxl==3.0.6',
+                        'pandas>=1.1.5',
+                        'pymssql-linux==2.1.6',
+                        'pymysql==1.0.2',
+                        'pytest==6.2.1',
+                        'pyyaml==5.3.1',
+                        'requests==2.25.1',
+                        'scikit-learn==0.24.1',
+                        'SQLAlchemy==1.3.22',
+                        'unidecode==1.1.2',
+                        'xlrd==1.0.0'
+                        ]
+      )
