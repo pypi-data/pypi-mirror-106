@@ -1,0 +1,6 @@
+nltk
+spacy
+setuptools
+natasha
+Pyphen
+pymorphy2
