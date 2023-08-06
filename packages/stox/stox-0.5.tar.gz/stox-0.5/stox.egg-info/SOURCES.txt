@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+stox/__init__.py
+stox/data.py
+stox/predicter.py
+stox/stox.py
+stox.egg-info/PKG-INFO
+stox.egg-info/SOURCES.txt
+stox.egg-info/dependency_links.txt
+stox.egg-info/requires.txt
+stox.egg-info/top_level.txt
