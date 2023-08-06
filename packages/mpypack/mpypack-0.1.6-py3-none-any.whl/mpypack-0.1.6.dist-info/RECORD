@@ -1,0 +1,13 @@
+mpypack/__init__.py,sha256=weFnf5DGeFd1nlsJJvwPELjYl0rR64zHSkKooMB0QYQ,9
+mpypack/cli.py,sha256=9EYJCq19S1RHl0uJAL-7BXZ5rVikDwaDtnYKEtgJTbQ,11864
+mpypack/fileexplorer.py,sha256=HkFOSyuUV0SYDxWibQ2tqPBYMAiDL_7Xq4GEE9p9HT4,15426
+mpypack/filesync.py,sha256=J0ANi45ZYJ88nyCSQk8l3_T2KmAzMSWj4KilIg9qcdY,11493
+mpypack/mpycross.py,sha256=92r2YIsnzeDmFq4nAbjloyGtfBg7n-pr8QueVfgo3Go,1377
+mpypack/pyboard.py,sha256=8cYrfp-r6egfN5BadPqE18-FmqXOWqXqPfG6JgEN2yA,7167
+mpypack/version.py,sha256=Bx0YRKDKVcrzmd4woDKJI9nPUKr4BAE88iivJVB0vv8,55
+mpypack-0.1.6.dist-info/LICENSE,sha256=HC3Y09oh8amBDNNsY9MKQYTr8fDFqBD_5kRxqW_3myw,1077
+mpypack-0.1.6.dist-info/METADATA,sha256=s9kSDREYHTdUsopVJGRt86gzhuXksuQwZSQZszaMpAI,2708
+mpypack-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mpypack-0.1.6.dist-info/entry_points.txt,sha256=cJXorebUCjzo-ce3rexcgfau9tqJis8KgJg9h_Iq2YU,46
+mpypack-0.1.6.dist-info/top_level.txt,sha256=8LzvmEL9UTT6Rf3fLnrEtvpynmFUwRnYp1u6HNZY89o,8
+mpypack-0.1.6.dist-info/RECORD,,
