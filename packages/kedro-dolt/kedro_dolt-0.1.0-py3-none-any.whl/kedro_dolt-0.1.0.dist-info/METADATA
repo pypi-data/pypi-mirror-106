@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: kedro-dolt
+Version: 0.1.0
+Summary: Kedro-Dolt Plugin
+Author: Max Hoffman
+Author-email: max@dolthub.com
+Requires-Python: >=3.6.2,<3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: kedro (>=0.17.3,<0.18.0)
+Requires-Dist: pymysql (>=1.0.2,<2.0.0)
