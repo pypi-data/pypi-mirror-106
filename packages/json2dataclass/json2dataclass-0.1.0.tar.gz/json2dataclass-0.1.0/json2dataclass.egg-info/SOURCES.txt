@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+json2dataclass.egg-info/PKG-INFO
+json2dataclass.egg-info/SOURCES.txt
+json2dataclass.egg-info/dependency_links.txt
+json2dataclass.egg-info/top_level.txt
+test/test_json2dataclass.py
