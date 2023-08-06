@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+example_python_dictionary.py
+plover_python_dictionary_lib.py
+setup.cfg
+setup.py
+plover_python_dictionary_lib.egg-info/PKG-INFO
+plover_python_dictionary_lib.egg-info/SOURCES.txt
+plover_python_dictionary_lib.egg-info/dependency_links.txt
+plover_python_dictionary_lib.egg-info/requires.txt
+plover_python_dictionary_lib.egg-info/top_level.txt
+plover_python_dictionary_lib.egg-info/zip-safe
