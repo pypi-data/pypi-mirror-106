@@ -1,0 +1,16 @@
+ipadumper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipadumper/__main__.py,sha256=tR2XEC-qe8Tyl55uSrWcA4dVKpDKls3EZB70Jcw0bq4,71
+ipadumper/appledl.py,sha256=BxlcjYMtgaKcQ1pyCP_vLvbjTJbsL1FIoSpJ6t2c31k,24728
+ipadumper/dump.js,sha256=rgs_kdmRTMlqbwGYKhGeVDZ3ugZcQ9E7XyGVZ5d7y6E,12988
+ipadumper/main.py,sha256=GRMfBXcyTG_PFKVDou2GS1a39ajhPxgskWqD9tHJkL4,7367
+ipadumper/utils.py,sha256=sKsoA5DDexb35ALGvcoe0Ef1B4CwsLO3b-VPDTkC_lw,2704
+ipadumper/appstore_images/dark_de/cloud.png,sha256=LuZ5tpootMm1GvBeA9IVdF94kHQZvxqka4Q5T8hBero,4639
+ipadumper/appstore_images/dark_de/dissallow.png,sha256=5eLjh9j06IChTxsy0jmvvawsj-a8t_RGv4miIk-5gdM,28900
+ipadumper/appstore_images/dark_de/get.png,sha256=9B260hAhkFnXTeYVDibJBBZ3siZOjpPEsrNallAlUgo,5284
+ipadumper/appstore_images/dark_de/install.png,sha256=EZa6_mVvrFn4RufyvomHXQXjARrUDGieW7yncQGcT-c,11514
+ipadumper/appstore_images/dark_de/open.png,sha256=WDMZYlYeJkPE8IbprCVGRkdo5oo1aiNH8NUVhwL3yiI,5455
+ipadumper-0.0.5.dist-info/METADATA,sha256=yTt5JPchvUh3EqyO2ll4FQTd2B4kzMmveSQy4NNezTc,6412
+ipadumper-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ipadumper-0.0.5.dist-info/entry_points.txt,sha256=yWPMWiXg57N3zSmzI1tbEAAmSpHv90w2HsMW36rFpcs,51
+ipadumper-0.0.5.dist-info/top_level.txt,sha256=IAtTv0JlY_PQWMX9t5-OyHxD-nNfHMjQuFWZclK8pO0,10
+ipadumper-0.0.5.dist-info/RECORD,,
