@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tripleo-get-hash
+Version: 0.1.1.dev34
+Summary: Get the tripleo build hash for a known RDO named tag. See https://opendev.org/openstack/tripleo-repos/src/branch/master/tripleo-get-hash/README.md#what-is-tripleo-get-hash for more information.
+Home-page: https://opendev.org/openstack/tripleo-repos/src/branch/master/tripleo-get-hash
+Author: Marios Andreou
+Author-email: marios@redhat.com
+License: Apache-2.0
+Project-URL: Bug Tracker, https://launchpad.net/tripleo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: requests
+
+Get the tripleo build hash for a known RDO named tag. See https://opendev.org/openstack/tripleo-repos/src/branch/master/tripleo-get-hash/README.md#what-is-tripleo-get-hash for more information.
+
+
