@@ -1,0 +1,5 @@
+deltalake/__init__.py,sha256=n5SwRWSYDDbJAf1tcgzGt10t84Q7jX3pc4mklA8LmHo,80
+deltalake/deltatable.py,sha256=UAXylpA3g9M1S7eIAQNzCdWd5hWTxxuzGBCiS7T3FAw,7216
+delta_lake_reader-0.2.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+delta_lake_reader-0.2.3.dist-info/METADATA,sha256=hkGdX14hk3uo48Tfgy5vHs18BZ26Al7yGGzoLfmwyd0,10660
+delta_lake_reader-0.2.3.dist-info/RECORD,,
