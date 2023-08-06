@@ -1,0 +1,17 @@
+session_keeper/__init__.py,sha256=jvSpaUgyyXHcuvovOBgVZubrhvwwpg4VZEJFjZn3-sI,292
+session_keeper/__main__.py,sha256=schE67JzeF4uYozHtlKcYr0M1jCJWk6gBqdC4FvH-A8,62
+session_keeper/cli.py,sha256=1h3flMhFOqnVQDaagKt0bYayz0Mp8erHe6JuDq0RFBc,64
+session_keeper/keeper/__init__.py,sha256=tJS1EeA5y2Punp6zFdafOf5lBRaOcm9a5uhEUqq6_Y8,121
+session_keeper/keeper/base.py,sha256=nSIFBlqprrQtw7ENBIbJZGgYcd1FNrRtMhB78AmrDk8,2340
+session_keeper/keeper/cli.py,sha256=ALMItrY88AsXd1cWE1b-aWRS3djW1xgwuEIuGcE_3yg,5845
+session_keeper/session.py,sha256=uE1DMJpM8G8Bh3MellDjGQhXopDdF2V-IETHRQTTyIk,1442
+session_keeper/storage/__init__.py,sha256=29U7zbRyZ0IfPWCWMP8SNMk2L-yn666J-UnOYMrgLjQ,368
+session_keeper/storage/abstract.py,sha256=1CrDJpCAXZEjbgrOm7D2WLKHfjKPOd7mOfr3KM7j0wI,1120
+session_keeper/storage/ejs.py,sha256=D1AZtXLe2ZFu0CvMQV0sZ4T-ZXLcHfZMpZz1aZqVA4A,4333
+session_keeper/storage/exceptions.py,sha256=A4zHovzBJCfNmXIvYZiHomq0925_sjFprUSKUISygXw,188
+session_keeper/version.py,sha256=mdp2CftfqYbdKtP-eWv1z7rAUycYv6X1ntXSMUf8Kss,22
+tg_session_keeper-0.1.2.dist-info/entry_points.txt,sha256=WRjfSNbsCtuoR7wb_sN8RPz4zM0mhGMVi-09lIGYwrg,63
+tg_session_keeper-0.1.2.dist-info/LICENSE,sha256=D3KcGZ-S9ml6FdLpM6V2pcykf8EGLOoPPb3ufqXVLKg,1056
+tg_session_keeper-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+tg_session_keeper-0.1.2.dist-info/METADATA,sha256=DuXdMwsUKx-WMAjh2qVjiXETrHkqjmbQXWk2Isw5s1Q,3518
+tg_session_keeper-0.1.2.dist-info/RECORD,,

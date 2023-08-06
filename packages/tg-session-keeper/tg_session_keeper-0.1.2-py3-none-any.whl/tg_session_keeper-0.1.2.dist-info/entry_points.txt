@@ -1,0 +1,3 @@
+[console_scripts]
+session-keeper=session_keeper:CLIKeeper.run
+
