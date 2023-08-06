@@ -1,0 +1,3 @@
+[console_scripts]
+ToolXmind2Testcase = ToolXmind2Testcase.test:test
+
