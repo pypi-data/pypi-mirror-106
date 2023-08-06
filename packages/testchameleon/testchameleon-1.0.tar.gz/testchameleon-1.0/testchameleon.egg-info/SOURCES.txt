@@ -1,0 +1,9 @@
+README.md
+setup.py
+testchameleon/__init__.py
+testchameleon/_version.py
+testchameleon/algorithm.py
+testchameleon.egg-info/PKG-INFO
+testchameleon.egg-info/SOURCES.txt
+testchameleon.egg-info/dependency_links.txt
+testchameleon.egg-info/top_level.txt
