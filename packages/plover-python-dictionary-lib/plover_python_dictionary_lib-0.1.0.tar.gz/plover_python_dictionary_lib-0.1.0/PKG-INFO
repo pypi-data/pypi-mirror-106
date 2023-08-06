@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: plover_python_dictionary_lib
+Version: 0.1.0
+Summary: Library for writing Python dictionary for Plover, and generating JSON dictionary file from Python dictionary.
+Home-page: https://github.com/user202729/plover-python-dictionary-lib
+Author: user202729
+License: GNU General Public License v3 or later (GPLv3+)
+Description: # plover-python-dictionary-lib
+        Library for writing Python dictionary for Plover,
+        and generating JSON dictionary file from Python dictionary.
+        
+        Example & usage: See [`example_python_dictionary.py`](./example_python_dictionary.py).
+        
+        To generate JSON (the Python dictionary must be written with this plugin),
+        call `print_items()` on the main `Dictionary` object.
+        
+Keywords: plover
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
