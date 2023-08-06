@@ -1,0 +1,4 @@
+mproto.egg-info/PKG-INFO
+mproto.egg-info/SOURCES.txt
+mproto.egg-info/dependency_links.txt
+mproto.egg-info/top_level.txt

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: mproto
+Version: 0.0.1
+Summary: Make custom protocols in python
+Home-page: https://github.com/ninjamar/mproto
+Author: ninjamar
+Author-email: author@example.com
+License: UNKNOWN
+Description: ## Description
+        mproto is a python package for making custom protocols
+        
+        ## Installation
+        ### Pip
+        ```bash
+        pip install mproto
+        ```
+        
+        ## Usage
+        ```python
+        import mproto
+        import urllib.request as urlreq
+        
+        class MyCustomProtocol(mproto.BaseProtoHandler)
+          def protocolname_open(self,req): #name must be protocol name + _open
+            # do stuff with req
+            return req.get_full_url()
+        
+        mproto.install(MyCustomProtocol)
+        print(urlreq.urlopen('protocolname://abc')) #should print "protocolname://abc"
+        ```
+        
+        ## Usefull informations
+        [Docs](https://ninjamar.repl.co/mproto/docs)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
