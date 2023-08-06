@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: psscraper
+Version: 1.0.0
+Summary: A web scrapper library for powerschool websites.
+Home-page: https://github.com/Desperationis/psscraper
+Author: Diego Contreras
+Author-email: smarttdiego@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Desperationis/psscraper
+Description: # psscraper
+        A web scrapper library for powerschool websites that have a similar log in page to above. This library exposes an interface that allows you to log in, check your grades, and predict your grades.
+        
+        ## Getting Started
+        Here is a basic script that will print all the classes you have:
+        
+            from psscraper import *
+            import psscraper.scrapper.PowerschoolClassInfoScrapper
+            
+            # Log in to a powerschool website
+            print("Logging in...")
+            browser = psscraper.PowerschoolBrowser(Link="https://powerschool.nlmusd.k12.ca.us/", headless=True)
+            browser.login("username", "password")
+        
+            # Parse home page for class IDs
+            print("Parsing page for class IDs...")
+            pageSource = browser.getPageSource()
+            classInfoScrapper = psscraper.scrapper.PowerschoolClassInfoScrapper(pageSource)
+            classIDs = classInfoScrapper.getCourseIDs()
+        
+            for classID in classIDs:
+                # Get period and name for each class and print it
+                courseInfo = classInfoScrapper.getCourseInfo(classID)
+                className = " ".join(courseInfo)
+                print(className)
+        
+        To log in, you must first initialize `psscraper.PowerschoolBrowser` then use the `.login(username, password)` method to log in. 
+        
+        After that, you can do whatever you want. To get information from actual pages from Powerschool, you feed in raw html data into a scrapper object (found in `psscraper.scrapper`) that will allow you to scrape as much information as you want. In this example, `psscraper.scrapper.PowerschoolClassInfoScrapper` is imported in order to scrap classroom information from `guardian/home.html` -- the page that is automatically switched to when you first log in. 
+        
+        ## Why is it slow?
+        This library is a browser-based web-scraper, meaning it literally opens up a browser, logs in, and scraps information with BeautifulSoup. This is because Powerschool does not have its own API, or at least doesn't provide it as open-source, to use to interact with your accounts. Because of this, the speed of this application is completely dependent on the speed of Firefox on your system and your internet connection. 
+        
+        The beauty of this library however is that you can do anything you want with it. To speed the process up, you can cache your grades into a text file once you log in then write a separate program to read from that text file and use the information off of it really quickly. If you do this, you would only need to use this library whenever you want to update the grades on that text file. 
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

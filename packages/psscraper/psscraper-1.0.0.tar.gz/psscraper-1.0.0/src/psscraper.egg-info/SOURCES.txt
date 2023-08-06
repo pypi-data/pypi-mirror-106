@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/psscraper/PowerschoolBrowser.py
+src/psscraper/__init__.py
+src/psscraper.egg-info/PKG-INFO
+src/psscraper.egg-info/SOURCES.txt
+src/psscraper.egg-info/dependency_links.txt
+src/psscraper.egg-info/top_level.txt
+src/psscraper/scrapper/PowerschoolAssignmentScrapper.py
+src/psscraper/scrapper/PowerschoolClassInfoScrapper.py
+src/psscraper/scrapper/PowerschoolScrapper.py
+src/psscraper/scrapper/__init__.py
