@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lessqlite
+Version: 0.1.4
+Summary: A less-like command-line tool for paging through SQLite databases.
+Home-page: https://github.com/dvanderweele/lessqlite
+Keywords: less,pager,sqlite,cli,database
+Author: Dave VanderWeele
+Author-email: weele.me@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.0,<9.0.0)
+Requires-Dist: coveralls (>=3.0.1,<4.0.0)
+Project-URL: Documentation, https://github.com/dvanderweele/lessqlite/blob/main/README.md
+Project-URL: Repository, https://github.com/dvanderweele/lessqlite
