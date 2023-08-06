@@ -1,0 +1,8 @@
+[msys.modules]
+math = msys_opt.modules.math:Math
+processor = msys_opt.modules.processor:DefaultProcessor
+sql = msys_opt.modules.sql:SQL
+
+[msys.types]
+vector = msys_opt.types.vector:VectorType
+
