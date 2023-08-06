@@ -1,0 +1,10 @@
+README.md
+setup.py
+tkit_memory_performer_xl/__init__.py
+tkit_memory_performer_xl/autoregressive_wrapper.py
+tkit_memory_performer_xl/memory_transformer_xl.py
+tkit_memory_performer_xl.egg-info/PKG-INFO
+tkit_memory_performer_xl.egg-info/SOURCES.txt
+tkit_memory_performer_xl.egg-info/dependency_links.txt
+tkit_memory_performer_xl.egg-info/requires.txt
+tkit_memory_performer_xl.egg-info/top_level.txt

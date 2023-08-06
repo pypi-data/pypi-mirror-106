@@ -1,0 +1,3 @@
+torch
+performer-pytorch>=1.0.10
+mogrifier
