@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nmea-parser
+Version: 0.1.0
+Summary: Python library to parse NMEA streams
+Home-page: https://gitlab.com/bek3/nmea-parser
+Author: Brendan Kristiansen
+Author-email: b@bek.sh
+License: Mozilla Public License 2.0
+Platform: UNKNOWN
+Requires-Dist: pyserial
+
+UNKNOWN
+
+
