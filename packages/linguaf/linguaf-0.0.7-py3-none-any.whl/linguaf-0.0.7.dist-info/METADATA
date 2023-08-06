@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: linguaf
+Version: 0.0.7
+Summary: Python package for calculating famous measures in computational linguistics
+Home-page: https://github.com/Perevalov/LinguaF
+Author: Aleksandr Perevalov
+Author-email: perevalovproduction@gmail.com
+License: MIT
+Keywords: language features computational linguistics quantitative text analysis
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: nltk
+Requires-Dist: spacy
+Requires-Dist: setuptools
+Requires-Dist: natasha
+Requires-Dist: Pyphen
+Requires-Dist: pymorphy2
+
+# LinguaF
+
+**LinguaF provides an easy access for researchers and developers to calculate famous computational linguistics measures**
+
+## Usage
+
+## Install
+
+## Language Support
+
+## List of Measures
+
+
+
+
