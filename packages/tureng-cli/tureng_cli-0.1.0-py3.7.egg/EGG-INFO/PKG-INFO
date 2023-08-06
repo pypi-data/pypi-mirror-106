@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: tureng-cli
+Version: 0.1.0
+Summary: Tureng CLI
+Home-page: https://github.com/hamitaksln/tureng-cli
+Author: Abdulhamit Akaslan
+Author-email: hamtaksln@gmail.com
+License: MIT
+Description: # `tureng-cli` - Tureng CLI
+        ## Tureng CLI is a very basic command line tool for tureng.com
+        
+        ## Install
+        ```
+        pip install tureng-cli
+        ```
+        
+        ## Usage
+        ```python
+        Usage:
+        tureng.py tr <word>
+        tureng.py en <word>
+        
+        -h --help help
+        ```
+        ## Example
+        ### tr-en
+        ```
+        $ tureng tr bilgisayar
+        https://tureng.com/en/turkish-english/bilgisayar
+        Word: bilgisayar Language: tr
+        ----------------------------------------
+        computer
+        hardware system
+        machine
+        data computer
+        computing device
+        computing machine
+        thinking-machine
+        machine
+        computer
+        computer
+        ```
+        ### en-tr
+        ```
+        $ tureng en computer
+        https://tureng.com/en/turkish-english/computer
+        Word: computer Language: en
+        ----------------------------------------
+        bilgisayar
+        kompÃ¼ter
+        elektronik beyin
+        bilgisayar
+        kompÃ¼ter
+        bilgisayar
+        kompÃ¼tÃ¶r
+        bilgi sayar
+        bilgisayarÄ± kapatmak
+        bilgisayarÄ± Ã§Ã¶kmek
+        ```
+        ## Requirements
+        ```
+        requests==2.25.1
+        docopt==0.6.2
+        selectolax==0.2.11
+        ```
+Keywords: tureng
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
