@@ -1,0 +1,4 @@
+[wai.annotations.plugins]
+from-blue-channel-is = wai.annotations.format.blue_channel.specifier:BlueChannelInputFormatSpecifier
+to-blue-channel-is = wai.annotations.format.blue_channel.specifier:BlueChannelOutputFormatSpecifier
+
