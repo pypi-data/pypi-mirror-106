@@ -1,0 +1,1 @@
+from .encode import KAMABAY_ENCODE_DECODE
