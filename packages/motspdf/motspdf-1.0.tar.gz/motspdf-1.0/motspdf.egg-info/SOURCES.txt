@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+motspdf/__init__.py
+motspdf/pdf2image.py
+motspdf/pdf2text.py
+motspdf.egg-info/PKG-INFO
+motspdf.egg-info/SOURCES.txt
+motspdf.egg-info/dependency_links.txt
+motspdf.egg-info/top_level.txt
