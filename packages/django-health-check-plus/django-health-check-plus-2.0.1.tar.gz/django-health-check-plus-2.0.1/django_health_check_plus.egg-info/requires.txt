@@ -1,0 +1,1 @@
+django-health-check<=3.16.4,>=3.16.3
