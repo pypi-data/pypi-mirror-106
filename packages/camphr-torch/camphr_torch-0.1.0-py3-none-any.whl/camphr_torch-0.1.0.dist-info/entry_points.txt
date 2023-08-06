@@ -1,0 +1,3 @@
+[spacy_languages]
+camphr_torch=camphr_torch.lang:TorchLanguage
+

@@ -1,0 +1,9 @@
+camphr_torch/VERSION.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+camphr_torch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+camphr_torch/lang.py,sha256=dMyXum_oPFm2RL7MOm3vPM94KPxjRhh9_7ykJJzJ30s,6066
+camphr_torch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+camphr_torch/utils.py,sha256=gaXFyXuQjKZYD-xTHu7qrv3j4d99rQ2TL8PBLqr7_WY,3651
+camphr_torch-0.1.0.dist-info/entry_points.txt,sha256=VqhLGgfDzajzyGGv61tppEe63-4fuVLvBeCzwr8gjOc,64
+camphr_torch-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+camphr_torch-0.1.0.dist-info/METADATA,sha256=oAcXm5emKe1vZatRUYzS67w_uCwEDA1gr-EEqw2O0UI,686
+camphr_torch-0.1.0.dist-info/RECORD,,
