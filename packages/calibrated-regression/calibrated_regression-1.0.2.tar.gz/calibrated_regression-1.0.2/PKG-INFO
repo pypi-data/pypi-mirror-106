@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: calibrated_regression
+Version: 1.0.2
+Summary: calibrated regression
+Home-page: UNKNOWN
+Author: Yu-Lun Liu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+* Installation
+
+```
+pip install calibrated_regression  
+```
+
+* Usage
+
+```
+import calibrated_regression
+
+calibrated_cases = calibrated_regression.calibrated_new_cases(new_cases=721,calibrated_regression_number=400)
+```
+
