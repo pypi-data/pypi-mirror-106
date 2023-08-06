@@ -1,0 +1,5 @@
+""" version which can be consumed from within the module """
+VERSION_STR = "0.0.1"
+DESCRIPTION = "help you handle cookies"
+APP_NAME = "pycookie"
+LOGGER_NAME = "pycookie"

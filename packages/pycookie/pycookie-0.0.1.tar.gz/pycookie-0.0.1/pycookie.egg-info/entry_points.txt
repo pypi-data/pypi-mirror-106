@@ -1,0 +1,3 @@
+[console_scripts]
+pycookie = pycookie.main:main
+
