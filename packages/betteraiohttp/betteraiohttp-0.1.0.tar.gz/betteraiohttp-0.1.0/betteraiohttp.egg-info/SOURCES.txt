@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+betteraiohttp/__init__.py
+betteraiohttp/client.py
+betteraiohttp/errors.py
+betteraiohttp.egg-info/PKG-INFO
+betteraiohttp.egg-info/SOURCES.txt
+betteraiohttp.egg-info/dependency_links.txt
+betteraiohttp.egg-info/requires.txt
+betteraiohttp.egg-info/top_level.txt
