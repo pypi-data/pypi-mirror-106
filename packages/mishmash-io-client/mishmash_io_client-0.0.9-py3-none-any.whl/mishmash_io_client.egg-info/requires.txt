@@ -1,0 +1,16 @@
+mishmash-io-rpc>=0.0.4
+
+[aws]
+mishmash-io-auth-aws
+
+[azure]
+mishmash-io-auth-azure
+
+[dev]
+pytest
+
+[google]
+mishmash-io-auth-google
+
+[jwt]
+mishmash-io-auth-jwt
