@@ -1,0 +1,11 @@
+blackbricks/__init__.py,sha256=zYiFHqR7JwbvdK9dvKrh-RTNfUqjHUwC4CTcFAPVYLc,22
+blackbricks/blackbricks.py,sha256=C5oxjKTe5HLMcn-QDePLCyHatekApJY6fKVmhDZ5GN8,5753
+blackbricks/cli.py,sha256=Ir0sJzyprP7Xvcpq7bqQjyzGcZeawXO4ulAk7jxKKcE,6313
+blackbricks/databricks_sync.py,sha256=VSQVACTZYgYdDz1fyISIWo4-zNP4w5SRdVL8PxXFIG4,4924
+blackbricks/files.py,sha256=DvAuNEefmyUHU944YJi_gEWGgChNr2kGDWZdjIlQqRU,2067
+blackbricks-0.6.3.dist-info/LICENSE,sha256=3OPDAFU3kAExYSXvYIPbDpSAKtvtHYugCIK4RTucHm4,1086
+blackbricks-0.6.3.dist-info/METADATA,sha256=VqYm3noC1N3Cva6OYK99FjdlVOfM5nP0wJMw3kNWV9o,8521
+blackbricks-0.6.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+blackbricks-0.6.3.dist-info/entry_points.txt,sha256=0GT4JXKvZSTj6ChweatM8ebT2HX-Ehr2y0HozxZYEzA,53
+blackbricks-0.6.3.dist-info/top_level.txt,sha256=2ZvOqn1CgxNFdSjg-GAWmUFBQ4Q3yrDUlqmN2qjSdOY,12
+blackbricks-0.6.3.dist-info/RECORD,,
