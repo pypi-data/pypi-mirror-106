@@ -1,0 +1,2 @@
+avocado-framework==88.1
+resultsdb-api
