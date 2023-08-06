@@ -1,0 +1,4 @@
+[wai.annotations.plugins]
+from-vgg-od = wai.annotations.vgg.specifier:VGGInputFormatSpecifier
+to-vgg-od = wai.annotations.vgg.specifier:VGGOutputFormatSpecifier
+
