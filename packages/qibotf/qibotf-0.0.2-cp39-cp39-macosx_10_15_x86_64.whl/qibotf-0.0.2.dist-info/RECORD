@@ -1,0 +1,14 @@
+qibotf/__init__.py,sha256=7chpDc3Q__o0zs7MTmQ41TUP3JX1lLnPu5QxPXxFYPA,116
+qibotf/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qibotf/tests/test_custom_operators.py,sha256=6vDMSd2HVmfFLHnQtN3RmCHnT4LUTSzCkhA9B4GkpqM,23185
+qibotf/.dylibs/libomp.dylib,sha256=Q4ySgtgH4CB85V4YPOitGvxJpm_EurPm-8ytLnkZY7o,617920
+qibotf/custom_operators/__init__.py,sha256=Dww75Y04NCoEVXGi6phNAb6nW7dNiAuVKDsjpQ-hXIE,1162
+qibotf/custom_operators/python/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+qibotf/custom_operators/python/ops/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+qibotf/custom_operators/python/ops/qibo_tf_custom_operators.py,sha256=7PabJcb_76D3fys3N8vmvHCmvoZVx6AFx_xUGCMDX80,2634
+qibotf/custom_operators/python/ops/_qibo_tf_custom_operators.so,sha256=otcGTsU1ISF27QNPbGNUfOWfQ2j_6nU74jIuI4C5Aa4,240512
+qibotf-0.0.2.dist-info/RECORD,,
+qibotf-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+qibotf-0.0.2.dist-info/WHEEL,sha256=3FJFrWj3N25u06WXdTN6PwDo1viKMTVIfJVbMCz5YvM,110
+qibotf-0.0.2.dist-info/top_level.txt,sha256=tmvyQYOrolR6aqTm_fpaKRMjxv1cM1usJ4hVre2kCAo,7
+qibotf-0.0.2.dist-info/METADATA,sha256=hXgVeoEXsEcP9NVTw_0guaB-1fKWmiEnHN9TQ7sX57c,1645
