@@ -1,0 +1,10 @@
+setup.py
+first-package-andrewking1597/__init__.py
+first-package-andrewking1597/person.py
+first-package-andrewking1597/pets.py
+first-package-andrewking1597/inanimate/__init__.py
+first-package-andrewking1597/inanimate/rock.py
+first_package_andrewking1597.egg-info/PKG-INFO
+first_package_andrewking1597.egg-info/SOURCES.txt
+first_package_andrewking1597.egg-info/dependency_links.txt
+first_package_andrewking1597.egg-info/top_level.txt
