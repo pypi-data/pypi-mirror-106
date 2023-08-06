@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: camphr-core
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/PKSHATechnology-Research/camphr
+License: Apache-2.0
+Author: tamuhey
+Author-email: tamuhey@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: all
+Provides-Extra: juman
+Provides-Extra: mecab
+Provides-Extra: sentencepiece
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: fugashi (>=1.1.0,<2.0.0); extra == "all" or extra == "mecab"
+Requires-Dist: ipadic (>=1.0.0,<2.0.0); extra == "all" or extra == "mecab"
+Requires-Dist: mecab-python3 (>=1.0.3,<2.0.0); extra == "all" or extra == "mecab"
+Requires-Dist: mojimoji (>=0.0.11,<0.0.12); extra == "all" or extra == "juman"
+Requires-Dist: more-itertools (>=8.7.0,<9.0.0)
+Requires-Dist: pyknp (>=0.4.2,<0.5.0); extra == "all" or extra == "juman"
+Requires-Dist: sentencepiece (>=0.1.95,<0.2.0); extra == "all" or extra == "all" or extra == "sentencepiece"
+Requires-Dist: spacy (>=2.2,<=2.3.5)
+Requires-Dist: typing-extensions (>=3.7.4)
+Project-URL: Repository, https://github.com/PKSHATechnology-Research/camphr
