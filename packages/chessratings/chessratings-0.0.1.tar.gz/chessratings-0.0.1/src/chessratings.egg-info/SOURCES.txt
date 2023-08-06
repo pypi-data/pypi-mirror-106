@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/chessratings/uscf_elo.py
+src/chessratings.egg-info/PKG-INFO
+src/chessratings.egg-info/SOURCES.txt
+src/chessratings.egg-info/dependency_links.txt
+src/chessratings.egg-info/requires.txt
+src/chessratings.egg-info/top_level.txt
+tests/test_uscf_elo.py

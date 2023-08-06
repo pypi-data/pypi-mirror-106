@@ -1,0 +1,6 @@
+numpy
+datetime
+
+[dev]
+pytest>=3.7
+twine
