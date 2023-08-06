@@ -1,0 +1,14 @@
+camphr_transformers/VERSION.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+camphr_transformers/__init__.py,sha256=Tm18NVNTh-Mpv3LlZDesheRxXD8FAvmPn8Ea7hVpDgs,368
+camphr_transformers/auto.py,sha256=rFec5_H1HGstgQzLE4Q_UcQXOTYYhT5RI9FYku_Ww4E,2238
+camphr_transformers/maskedlm.py,sha256=nmJ9uasLZUGBqRyXVx2AjmeBvP05BwH1kuadIlY5z7c,5591
+camphr_transformers/model.py,sha256=TVxqdH-KLhXaOa3astjhE_JVaFan_HjZgO1g07wqt7k,4418
+camphr_transformers/ner.py,sha256=pV38v857HMP6B1CUt7Z5Oj_65jtMzfFPA1lZDMcbxiw,6848
+camphr_transformers/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+camphr_transformers/seq_classification.py,sha256=59vAUtRBnFRA3YScmehh31L-tS7UTzRCfGfeqYQM5xM,5297
+camphr_transformers/tokenizer.py,sha256=erpWPBLYZEVO45fDcCyj-OUsGdHv-HP4CR-ZSrjaCd0,2758
+camphr_transformers/utils.py,sha256=Umo4BnDjfJlRe0zpRsITd7VvFKn-DN-5Sy_NcI6XpDE,11567
+camphr_transformers-0.1.0.dist-info/entry_points.txt,sha256=gjOhIZ06OYmxa8JgTBs6XHripH5569NVSwZuIdy_FPo,397
+camphr_transformers-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+camphr_transformers-0.1.0.dist-info/METADATA,sha256=P6yvVjBbiE1Ixt44YNl84MRZS_UOK-SL172yD-kFzoI,578
+camphr_transformers-0.1.0.dist-info/RECORD,,
