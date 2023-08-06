@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: pop-release
+Version: 2.0.1
+Summary: UNKNOWN
+Home-page: https://gitlab.com/saltstack/pop/pop-release
+Maintainer: Tyler Johnson
+Maintainer-email: tyjohnson@vmware.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: idem
+Requires-Dist: pop (>=17.0)
+Requires-Dist: pytest
+Requires-Dist: semantic-version
+Requires-Dist: twine
+
+===========
+POP-RELEASE
+===========
+
+.. image:: https://img.shields.io/badge/made%20with-pop-teal
+   :alt: Made with pop, a Python implementation of Plugin Oriented Programming
+   :target: https://pop.readthedocs.io/
+
+.. image:: https://img.shields.io/badge/made%20with-python-yellow
+   :alt: Made with Python
+   :target: https://www.python.org/
+
+
+Release facilitator for pop-projects.
+
+About
+=====
+
+Pop Release is a simple tool to automate the process of creating a release.
+When making POP software releases should be happening very quickly, every
+few commits should justify a release.
+
+Since releases happen so frequently, and since they should be executed in
+an identical way from project to project, pop-release becomes a simple command
+to update the release locally and on pypi.
+
+
+What is POP?
+------------
+
+This project is built with `pop <https://pop.readthedocs.io/>`__, a Python-based
+implementation of *Plugin Oriented Programming (POP)*. POP seeks to bring
+together concepts and wisdom from the history of computing in new ways to solve
+modern computing problems.
+
+For more information:
+
+* `Intro to Plugin Oriented Programming (POP) <https://pop-book.readthedocs.io/en/latest/>`__
+* `pop-awesome <https://gitlab.com/saltstack/pop/pop-awesome>`__
+* `pop-create <https://gitlab.com/saltstack/pop/pop-create/>`__
+
+Getting Started
+===============
+
+Prerequisites
+-------------
+
+* Python 3.6+
+* git *(if installing from source, or contributing to the project)*
+
+Installation
+------------
+
+.. note::
+
+   If wanting to contribute to the project, and setup your local development
+   environment, see the ``CONTRIBUTING.rst`` document in the source repository
+   for this project.
+
+If wanting to use ``pop-release``, you can do so by either
+installing from PyPI or from source.
+
+Install from PyPI
++++++++++++++++++
+
+    If package is available via PyPI, include the directions.
+
+    .. code-block:: bash
+
+        pip install pop-release
+
+
+Install from source
++++++++++++++++++++
+
+.. code-block:: bash
+
+   # clone repo
+   git clone git@gitlab.com/saltstack/pop/pop-release.git
+   cd pop-release
+
+   # Setup venv
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -e .
+
+Usage
+=====
+
+PyPi release:
+.. code-block:: bash
+
+    pop-release pop-project 2.0.0 --acct-profile=default
+
+PyPi testing release:
+
+.. code-block:: bash
+
+    pop-release pop-project 2.0.0 --acct-profile=testing
+
+Acknowledgements
+================
+
+* `Img Shields <https://shields.io>`__ for making repository badges easy.
+
+
