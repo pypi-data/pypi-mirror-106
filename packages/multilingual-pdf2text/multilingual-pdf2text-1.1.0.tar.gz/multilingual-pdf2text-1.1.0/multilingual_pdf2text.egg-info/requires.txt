@@ -1,0 +1,4 @@
+pydantic
+pytesseract
+pdf2image
+pillow
