@@ -1,0 +1,3 @@
+[console_scripts]
+tool=fmod_tool.tool:tools
+
