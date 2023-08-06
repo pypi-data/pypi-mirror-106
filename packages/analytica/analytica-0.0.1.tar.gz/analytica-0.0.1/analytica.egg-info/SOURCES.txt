@@ -1,0 +1,8 @@
+MANIFEST.in
+README.txt
+setup.py
+analytica/__init__.py
+analytica.egg-info/PKG-INFO
+analytica.egg-info/SOURCES.txt
+analytica.egg-info/dependency_links.txt
+analytica.egg-info/top_level.txt
