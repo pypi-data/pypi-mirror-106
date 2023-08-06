@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: FadeMaxSize
+Version: 1.0.0
+Summary: Search for file with maximum size
+Home-page: https://github.com/whyfade/FadeMaxSize
+Author: Petrov D.S.
+Author-email: pvrple.drank.xvi@gmail.com
+License: UNKNOWN
+Platform: any
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Manual
+```python
+from FadeMaxSize.findMax import find_max_file
+
+answer = find_max_file('path')
+print(answer)
+"""
+{
+    'file': 'path to largest file',
+    'size': 1234 # Largest file size in kilobytes
+}
+"""
+```
+
+
+### How to start tests?
+'python -m unittest -v tests/test_find.py' from /max_size
+
