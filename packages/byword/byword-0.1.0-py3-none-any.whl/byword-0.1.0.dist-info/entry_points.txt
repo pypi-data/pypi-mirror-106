@@ -1,0 +1,3 @@
+[console_scripts]
+byword = byword.__main__:main
+
