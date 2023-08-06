@@ -1,0 +1,13 @@
+xyw_macro/__init__.py,sha256=jrjxnIKPDrVFcjpiZ6pmmuOTg9rDAAbH-vtPEzleI_c,167
+xyw_macro/command.py,sha256=BewlsjtcoL1O5kIsojnLd0d3SiEYcNBD4CQVIph0x4w,4939
+xyw_macro/contants.py,sha256=mKLnBuNtJ7i-giC95nesFVW4--_liuJycQPRr-ptX7Y,98
+xyw_macro/hook.py,sha256=cZMcoP-2NnQlPmhAEuKbrrnRl3CPn4ccOL79zuM0l0M,22498
+xyw_macro/macro.py,sha256=6KdM8DqRFxasc9Qwh7oC6ECfvFh6bLMfN0UHdCdVJXI,2759
+xyw_macro/notify.py,sha256=2ByGxr9puRSTxecqhFjOjfTDo02q-f9_t326nAKJj2Y,10644
+xyw_macro/utils.py,sha256=TlM1rSGUxLAXUhF1UN2rFLmQs1YtCkxlC7dKxZME-ss,405
+xyw_macro/win32.py,sha256=GaNYrlPzCGvMj4D4XT91jur-1KdOQ4Ys3H4g8vwasIE,4827
+xyw_macro-0.0.12.dist-info/LICENSE,sha256=Hh87Rvyn4T-F2XYz7M6RfJw1P8hu87H6Nmu_kzaSEaM,1085
+xyw_macro-0.0.12.dist-info/METADATA,sha256=TGF6KI-XnP9_QDRmwabB_HpWNDdj5D3MVFkBit-B5Wc,6201
+xyw_macro-0.0.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xyw_macro-0.0.12.dist-info/top_level.txt,sha256=_FihvCTou26xXsjVioYbONg1d4q6VVTeq6UcVKydS2A,10
+xyw_macro-0.0.12.dist-info/RECORD,,
