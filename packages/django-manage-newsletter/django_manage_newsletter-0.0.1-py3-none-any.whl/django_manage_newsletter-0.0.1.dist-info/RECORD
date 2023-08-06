@@ -1,0 +1,16 @@
+newsletter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+newsletter/admin.py,sha256=SyZboJzKxSc0rvFG8Hwf03v_0inQXTA0DfU6bV2sAL4,102
+newsletter/apps.py,sha256=iyC_BQdJCWxwiEkdWKZ9KEUINka4EFuvYPYfi9YUOpE,158
+newsletter/forms.py,sha256=STVHPEz0L_3U7ngUEYDMPfNpHjXjfz9n5ZYEwHmfZRo,336
+newsletter/models.py,sha256=H9zcsv32kUi2r8FNEOv4eGLmMVndQiYvDwDGHdRBEGc,1587
+newsletter/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+newsletter/urls.py,sha256=6rnKKd7Wxco_GbuaN28j-cdcwBuACMfIpZ7LIJ2RfTQ,175
+newsletter/views.py,sha256=z-OWC1uE5KEJSG1Kk48ofmWnbLEaKYwxIC6sk19m7hk,1446
+newsletter/migrations/0001_initial.py,sha256=iNP__lXSlTSD_iPQYghNZ68pgVj6nqgsiYUTP-XdD78,1092
+newsletter/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+newsletter/templates/newsletter/news_letter.html,sha256=K3ADfxcZ5eQCpzF7vsx-AHkJN7xa1pbJi1AV2V4CeD8,750
+django_manage_newsletter-0.0.1.dist-info/LICENSE,sha256=j5FlnH10cM6y5hl7dPnqk_G9zRsK7FPJfQcc8exC6Uc,1347
+django_manage_newsletter-0.0.1.dist-info/METADATA,sha256=M-gwmPd77DjQWq78qnc5NuAyVGJgJrXndFTXLGsvanA,2945
+django_manage_newsletter-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_manage_newsletter-0.0.1.dist-info/top_level.txt,sha256=vxkSml-YFcIsSfUBUJHl37wLi64TqLZElH0dimomm3k,11
+django_manage_newsletter-0.0.1.dist-info/RECORD,,
