@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: detect_boxes
+Version: 0.1
+Summary: Get tables and check boxes in a document using this simple library
+Home-page: https://github.com/Vishnunkumar/detect_boxes
+Author: Vishnu N
+Author-email: vishnunkumar25@gmail.com
+License: MIT
+Download-URL: https://github.com/Vishnunkumar/detect_boxes/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Computer Vision,Machine learning,OpenCV
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
