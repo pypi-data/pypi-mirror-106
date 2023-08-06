@@ -1,0 +1,9 @@
+LICENCE
+README.rst
+setup.py
+kamabayEncoder/__init__.py
+kamabayEncoder/kamabayEncoder.py
+kamabayEncoder.egg-info/PKG-INFO
+kamabayEncoder.egg-info/SOURCES.txt
+kamabayEncoder.egg-info/dependency_links.txt
+kamabayEncoder.egg-info/top_level.txt
