@@ -1,0 +1,48 @@
+Metadata-Version: 1.1
+Name: engutils
+Version: 21.5
+Summary: Importable utilities for engineering problem solving.
+Home-page: https://github.com/MattCJones/engutils
+Author: Matthew C. Jones
+Author-email: matt.c.jones.aoe@gmail.com
+License: MIT License
+Description: # Engineering Utilities
+        
+        ## About
+        Module that contains commonly used utilities for solving arbitrary engineering
+        problems.
+        
+        ## Author
+        Matthew C. Jones <matt.c.jones.aoe@gmail.com>
+        
+        ## Installation
+        Install with:
+        
+            pip install <path/to/engutils>
+        
+        ## Usage
+        In an ipython notebook or a Python script, import my utilities with:
+        
+            from engutils import *
+        
+        ## License
+        
+        Engutils is licensed under the MIT LICENSE. See the LICENSE document.
+        
+        ## Dependencies
+        * [ambiance](https://github.com/airinnova/ambiance/)
+        * [pint](https://pint.readthedocs.io)
+        * [numpy](https://numpy.org)
+        
+Keywords: utility engineering design problem solving
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
