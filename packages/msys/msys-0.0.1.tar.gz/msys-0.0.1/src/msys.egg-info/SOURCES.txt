@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/msys.egg-info/PKG-INFO
+src/msys.egg-info/SOURCES.txt
+src/msys.egg-info/dependency_links.txt
+src/msys.egg-info/requires.txt
+src/msys.egg-info/top_level.txt
+src/test/__init__.py
