@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: python_switch
+Version: 1.0
+Summary: Python Switch Like JavaScript Switch Statement
+Home-page: https://github.com/isacolak/python_switch
+Author: isacolak
+Author-email: isacolak04@gmail.com
+License: MIT
+Download-URL: https://github.com/isacolak/python_switch/archive/python_switch_v_1.tar.gz
+Description: # Python Switch Like JavaScript Switch Statement
+        
+        ## Installing
+        
+        Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):
+        
+        ```sh
+        pip install python-switch
+        ```
+        
+        ### A Simple Examples
+        
+        ```Python
+        from python_switch import Switch
+        
+        s = Switch({"d":lambda x:f"returns {x} (d)","default":lambda x: f"returns {x} (default)"})
+        
+        print(s.get("d")(1))
+        ```
+        
+        Adding a case later.
+        
+        ```Python
+        from python_switch import Switch
+        
+        s = Switch({"default":lambda x: f"returns {x} (default)"})
+        
+        s.addCase("d",lambda x:f"returns {x} (d)")
+        
+        print(s.get("d")(1))
+        ```
+        
+        Adding cases with the decorator.
+        
+        ```Python
+        from python_switch import Switch
+        
+        s = Switch({"default":lambda x: f"returns {x} (default)"})
+        
+        @s.case()
+        def d(x):
+         return f"returns {x} (d)"
+        
+        print(s.get("d")(1))
+        ```
+        
+Keywords: switch,python js switch,python javascript switch,python switch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
