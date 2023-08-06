@@ -1,0 +1,6 @@
+pandas
+xarray
+google-cloud-storage
+h5netcdf
+tables
+numpy>=1.20.0
