@@ -1,0 +1,14 @@
+__init__.py,sha256=Of-F5Z3pCNmw-AuWoMPjnFTxytNnktTd1NqYaPAmVp8,361
+baseobjects/__init__.py,sha256=FCsTbJtc85S--CGk6Mo8Ruud13rk89pqC9Ic5BxtXHc,557
+baseobjects/__main__.py,sha256=kEY2P4Snj8Bp5YUY9JvAulqPhZoWjnC2QNkjE5bkoQs,445
+baseobjects/basemeta.py,sha256=_wkayjQiBgffw2ZlcmrBq2cVcJOYMVFbzmCGyNEvBqU,3609
+baseobjects/baseobject.py,sha256=rDY0urw0GzyKFWMxK27UL0K0OVQS0EMKu_eBhkQSt0E,4141
+baseobjects/initmeta.py,sha256=6LTEMlqGsc_r6UMdltJdzwfDP4xkAEeoCbyfpMoE3oM,911
+baseobjects/wrappers.py,sha256=07IIZ4XMijlxKDub0cjxq3lHKqYn7LtlBOFjtOmJ_ME,11983
+baseobjects-1.1.0.dist-info/AUTHORS.rst,sha256=6MdILGkAGl7y9bvC8HSokaukVtQzLHy4rbBLFqnlpwY,45
+baseobjects-1.1.0.dist-info/LICENSE,sha256=oYfpMPCm0LvFE-CPabtromfJ4-uobCIPlif5w4D8riA,1108
+baseobjects-1.1.0.dist-info/METADATA,sha256=YOYK6owZpX6CiKW-EpClsAPuu8WNKw1glDbU2yd97T8,2178
+baseobjects-1.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+baseobjects-1.1.0.dist-info/entry_points.txt,sha256=RiChKY4ZR_kjRz8LCgYkCSNl5PFHurrX4l3MEZpxWK4,54
+baseobjects-1.1.0.dist-info/top_level.txt,sha256=DoFSt4ndfOz4DxojGyXyKUDj4aKfqozsOF7-Qdml7s8,21
+baseobjects-1.1.0.dist-info/RECORD,,
