@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+datagovernance/__init__.py
+datagovernance.egg-info/PKG-INFO
+datagovernance.egg-info/SOURCES.txt
+datagovernance.egg-info/dependency_links.txt
+datagovernance.egg-info/top_level.txt
