@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/javaman.egg-info/PKG-INFO
+src/javaman.egg-info/SOURCES.txt
+src/javaman.egg-info/dependency_links.txt
+src/javaman.egg-info/requires.txt
+src/javaman.egg-info/top_level.txt
