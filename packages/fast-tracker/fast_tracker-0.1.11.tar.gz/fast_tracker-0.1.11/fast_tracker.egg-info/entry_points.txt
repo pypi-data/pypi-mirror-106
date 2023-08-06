@@ -1,0 +1,3 @@
+[console_scripts]
+fast-tracker = fast_tracker.admin:main
+
