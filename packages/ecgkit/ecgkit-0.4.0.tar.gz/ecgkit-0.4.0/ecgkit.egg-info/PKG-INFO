@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ecgkit
+Version: 0.4.0
+Summary: ECG Toolkits
+Home-page: https://github.com/SergejTHU/ecgkit
+Author: sergioyf
+Author-email: yangf18@mails.tsinghua.edu.cn
+License: MIT Licence
+Description: Toolkits for ECG Analysis in Python
+Keywords: ECG,preprocess,plot,generation,morphological
+Platform: any

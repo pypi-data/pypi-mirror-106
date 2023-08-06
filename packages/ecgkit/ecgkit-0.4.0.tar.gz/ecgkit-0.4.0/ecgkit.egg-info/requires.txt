@@ -1,0 +1,10 @@
+matplotlib
+numpy
+scipy
+wfdb
+pywavelets
+peakutils
+filterpy
+sympy
+torch
+torchdiffeq
