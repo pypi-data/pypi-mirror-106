@@ -1,0 +1,9 @@
+pyshellrunner/__init__.py,sha256=kB7Lz5kqLcQDuhhRFo_BpP7exkNZzi7FMeM42bY384s,2929
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pyshell_with_values.py,sha256=9MJG0LRLW_za7RkRhWyQ8vM8KucaAqRi_HyoKW3bmEQ,389
+tests/test_run.py,sha256=e8hfIhBmFD6nj8-GIFYy7wrRzUJp37MoWnr9VyZPVnM,292
+pyshellrunner_sorinaso-0.4.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pyshellrunner_sorinaso-0.4.0.dist-info/METADATA,sha256=geiyFrJ7pUF0d0pXLpVNy2JoJxgs0H5ymOwFO_q4gMs,512
+pyshellrunner_sorinaso-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyshellrunner_sorinaso-0.4.0.dist-info/top_level.txt,sha256=EeS3VqapZ5p6q_ppWTpsVlTlOn0Pa_O76heRzd1lI0Y,20
+pyshellrunner_sorinaso-0.4.0.dist-info/RECORD,,
