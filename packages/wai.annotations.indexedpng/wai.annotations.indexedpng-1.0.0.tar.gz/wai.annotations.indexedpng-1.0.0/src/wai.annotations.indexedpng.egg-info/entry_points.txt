@@ -1,0 +1,4 @@
+[wai.annotations.plugins]
+from-indexed-png-is = wai.annotations.indexed_png.specifier:IndexedPNGInputFormatSpecifier
+to-indexed-png-is = wai.annotations.indexed_png.specifier:IndexedPNGOutputFormatSpecifier
+
