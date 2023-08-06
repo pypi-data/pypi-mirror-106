@@ -1,0 +1,17 @@
+#!python
+
+from platform import system
+from subprocess import Popen, PIPE
+
+def uniqueid() -> str:
+    id = None
+    if system().lower().startswith('win'):
+        from subprocess import STARTUPINFO, STARTF_USESHOWWINDOW
+        si = STARTUPINFO()
+        si.dwFlags |= STARTF_USESHOWWINDOW
+        with Popen(['powershell', '(Get-CimInstance -Class Win32_ComputerSystemProduct).UUID'], stdout=PIPE, startupinfo=si) as proc:
+            id = proc.stdout.read()
+    else:
+        with Popen(['cat', '/etc/machine-id'], stdout=PIPE) as proc:
+            id = proc.stdout.read()
+    return id
