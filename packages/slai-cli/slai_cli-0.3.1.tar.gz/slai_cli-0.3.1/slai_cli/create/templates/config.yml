@@ -1,0 +1,6 @@
+project_id: "{{ SLAI_PROJECT_ID }}"
+project_name: "{{ SLAI_PROJECT_NAME }}"
+service_name: "{{ SLAI_SERVICE_NAME }}"
+client_id: "{{ SLAI_CLIENT_ID }}"
+client_secret: "{{ SLAI_CLIENT_SECRET }}"
+profile: "{{ SLAI_PROFILE_NAME }}"
