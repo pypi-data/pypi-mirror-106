@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+coq-config/coq_config.egg-info/PKG-INFO
+coq-config/coq_config.egg-info/SOURCES.txt
+coq-config/coq_config.egg-info/dependency_links.txt
+coq-config/coq_config.egg-info/entry_points.txt
+coq-config/coq_config.egg-info/requires.txt
+coq-config/coq_config.egg-info/top_level.txt
+coq-config/coqconfig/__init__.py
+coq-config/coqconfig/coqconfig.py
