@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: nessiedemo
+Version: 0.0.17
+Summary: Project Nessie Demos Helper
+Home-page: https://github.com/projectnessie/nessie
+Author: Robert Stupp
+Author-email: nessie-release-builder@dremio.com
+License: Apache Software License 2.0
+Keywords: nessiedemo
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Requires-Dist: PyYAML (>=3.13)
+Requires-Dist: requests (>=2.23.0)
+
+==========================
+Nessie Python Demos Helper
+==========================
+
+Nessie is a system to provide Git like capability for Iceberg Tables, Delta Lake Tables, Hive Tables and Sql Views.
+
+More information can be found at projectnessie.org_
+
+.. _projectnessie.org: https://projectnessie.org
+
+=======
+History
+=======
+
+0.0.1
+-----
+
+* Initial release
+
+

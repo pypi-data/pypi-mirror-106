@@ -1,0 +1,9 @@
+nessiedemo/__init__.py,sha256=nkDttX11UsycddX-z1PTMtqcHwCZTZP_FORWTG9bvJU,740
+nessiedemo/delta_spark.py,sha256=z8mmgQr6TE7L7SfTCgLan20lRFIMQnBqMbemCY6Rh9k,5824
+nessiedemo/demo.py,sha256=xw-0OhibV5LU6gIWvkkAn88WchhsYj2T5exvivXq7-g,19674
+nessiedemo/iceberg_spark.py,sha256=vv7xo_jgsBJpyU6MflDWvDaTBMqCbHkV05Nhx6XFl3w,6056
+nessiedemo/spark_base.py,sha256=piEjzfKVQZUhNn7U8nl3eKxCj__yOW6MhEP7_yQuc2A,5451
+nessiedemo-0.0.17.dist-info/METADATA,sha256=Jvwgg6GuD0t69AoLKGnmE5yFR9D1so6fQDXEtY-mHV8,1131
+nessiedemo-0.0.17.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+nessiedemo-0.0.17.dist-info/top_level.txt,sha256=cSA4tKGX8HVgRYbo2viYeqsqbXiF1TMhCCvy2uxijXY,11
+nessiedemo-0.0.17.dist-info/RECORD,,
