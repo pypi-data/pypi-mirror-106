@@ -1,0 +1,9 @@
+spatialentropy/__init__.py,sha256=pY9WneEcaVs8gi2OhDClibeoX74yPa9qWBhqgEf04FU,116
+spatialentropy/_altieri_entropy.py,sha256=Xmx0xgjEgvYe3aho0QVqueCYP_e3taRgc-9vDiRilK4,3879
+spatialentropy/_leibovici_entropy.py,sha256=xURI0B2FdGn39Gwe9c2Mfb1XyNn5hUS9pMDuHGd5mFQ,2167
+spatialentropy/_utils.py,sha256=GH-oy8wnYDDigVqGtgBww1xnqAlJ0V0RW8IpakGEMzs,3303
+spatialentropy-0.1.0.dist-info/LICENSE,sha256=Reyt4_tAyHiUCYJEb9pt4F9ZOWAYYpOJZw17tSitm58,1067
+spatialentropy-0.1.0.dist-info/METADATA,sha256=Kkc8DK01drq_AKlfjYDY6chcwNPZcJ44u-mYETGSpG0,2736
+spatialentropy-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spatialentropy-0.1.0.dist-info/top_level.txt,sha256=kZ2O3m63aGfWY9riujmdtRJsiFfr2xBIkIydncDAiAU,15
+spatialentropy-0.1.0.dist-info/RECORD,,
