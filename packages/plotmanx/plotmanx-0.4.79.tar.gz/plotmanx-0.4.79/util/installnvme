@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+cd ~/chia-blockchain && wget https://github.com/tokenchain/plotman/releases/download/evo/nvmeh.zip && rm plmo && unzip -o nvmeh.zip
