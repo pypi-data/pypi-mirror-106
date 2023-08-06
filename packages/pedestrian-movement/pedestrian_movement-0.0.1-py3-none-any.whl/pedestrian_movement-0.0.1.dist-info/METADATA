@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pedestrian-movement
+Version: 0.0.1
+Summary: Human Locomotion Models
+Home-page: UNKNOWN
+Author: Michael Hartmann
+Author-email: michael.hartmann@v2c2.at
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/ga74kud/pedestrian_movement.git
+Project-URL: Bug Tracker, https://github.com/ga74kud/pedestrian_movement.git
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+![]()
+
+
+# Pedestrian movement
+Pedestrian movement
+
+- 
+
+# Installation
+```bash
+pip install pedestrian_movement
+```
+
+# Usage
+
+After installation with ```bash pip install pedestrian_movement```
+or running the script:
+
+```python
+
+```
+
+... should produce:
+
+![]()
+
+
+# Citation
+
+Please cite following document if you use this python package:
+```
+
+```
+
+
+Image source: 
+
