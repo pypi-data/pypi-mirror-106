@@ -1,0 +1,3 @@
+[console_scripts]
+twprefix = twprefix.__main__:main
+

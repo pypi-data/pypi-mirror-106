@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: twprefix
+Version: 0.2
+Summary: Process a Vue component with Tailwind CSS classes and add prefixes to all classes.
+Home-page: https://github.com/smlbiobot/tw-prefix/
+Author: See-ming Lee (SML)
+Author-email: seeminglee@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
