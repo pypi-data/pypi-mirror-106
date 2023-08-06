@@ -1,0 +1,42 @@
+Metadata-Version: 1.2
+Name: guess_number-atalay
+Version: 1.2
+Summary: Guess the number game
+Home-page: https://github.com/atalaydenknalbant/Guess_Number
+Author: Atalay Denknalbant
+Author-email: atalaydenknalbant@hotmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # Guess Number
+        
+        Guess the number game(python package) for given range
+        
+        ### Prerequisites
+        
+        Python => 3.6
+        
+        ### Installing
+        
+        Install package by using pip
+        
+        ```
+        pip install guess_number-atalay
+        ```
+        
+        ## Usage
+        
+        Call Guess_Number object to start the game.
+        
+        ## Source
+        
+        https://pypi.org/project/guess-number-atalay/
+        
+        ## Authors
+        
+        * **Atalay Denknalbant** - *Guess Number* 
+        
+        ## License
+        
+        This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE](LICENSE.txt) file for details
+Platform: UNKNOWN
+Requires-Python: >=3.6

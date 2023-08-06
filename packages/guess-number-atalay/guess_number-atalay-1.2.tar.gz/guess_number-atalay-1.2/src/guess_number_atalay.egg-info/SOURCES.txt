@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/guess_number/__init__.py
+src/guess_number/guess_number.py
+src/guess_number_atalay.egg-info/PKG-INFO
+src/guess_number_atalay.egg-info/SOURCES.txt
+src/guess_number_atalay.egg-info/dependency_links.txt
+src/guess_number_atalay.egg-info/top_level.txt
