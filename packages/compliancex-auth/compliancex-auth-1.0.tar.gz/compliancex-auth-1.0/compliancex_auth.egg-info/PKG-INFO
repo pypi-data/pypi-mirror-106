@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: compliancex-auth
+Version: 1.0
+Summary: compliancex common authentication package
+Home-page: UNKNOWN
+Author: eurus
+Author-email: admin@eurustechnologies.com
+Maintainer: eurus
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
