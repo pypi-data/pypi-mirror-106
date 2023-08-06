@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+eaa_lib.egg-info/PKG-INFO
+eaa_lib.egg-info/SOURCES.txt
+eaa_lib.egg-info/dependency_links.txt
+eaa_lib.egg-info/top_level.txt
