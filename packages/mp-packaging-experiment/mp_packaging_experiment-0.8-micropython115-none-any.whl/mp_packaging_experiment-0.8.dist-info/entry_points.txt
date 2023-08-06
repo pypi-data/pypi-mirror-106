@@ -1,0 +1,3 @@
+[console_scripts]
+packaging_experiment = packaging_experiment:main
+
