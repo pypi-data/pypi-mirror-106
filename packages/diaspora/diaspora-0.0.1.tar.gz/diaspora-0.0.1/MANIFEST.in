@@ -1,0 +1,2 @@
+recursive-include diaspora *
+global-exclude *.py[cod]
