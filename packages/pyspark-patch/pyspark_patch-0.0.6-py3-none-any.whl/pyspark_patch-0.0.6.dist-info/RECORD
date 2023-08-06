@@ -1,0 +1,10 @@
+pyspark-patch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyspark-patch/pyspark_sql_context.py,sha256=xZ6DQt-QXAqiw5ZP0CQG7qChw1M_IpTNHSyRiBuu0DU,22656
+pyspark-patch/pyspark_sql_dataframe.py,sha256=bvOoheLmpJLGljzpFbfMyabx2Wu8dUHUwE7ukIystD8,91052
+pyspark-patch/pyspark_sql_session.zip,sha256=i1jZod5aJZlNco5xOKxyG4lN387OdS3zC3x0_PwOfiE,8338
+pyspark-patch/pyspark_sql_types.py,sha256=k4INqvHh4wqc7Zbf-6GrhQIZomuzfo3O76hnk17Y3ww,58675
+pyspark-patch/unzip.py,sha256=V06D-Hg1saVgqZEtmd-Jyu9Pi1xwPrMXW6G6Oaj5_Es,818
+pyspark_patch-0.0.6.dist-info/METADATA,sha256=hi2RKul_R7OlV_aOTmJZ3GDj6ZlZ1oIiiZQFNowCbqM,405
+pyspark_patch-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyspark_patch-0.0.6.dist-info/top_level.txt,sha256=WXoe0LPmkiZiKuIv-w4JGWMGExOuoc2cDmIR-MRWTDo,14
+pyspark_patch-0.0.6.dist-info/RECORD,,
