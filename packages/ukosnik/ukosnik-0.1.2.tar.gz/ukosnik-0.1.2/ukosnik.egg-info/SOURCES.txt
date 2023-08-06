@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+ukosnik/__init__.py
+ukosnik/__main__.py
+ukosnik/docent.py
+ukosnik/document.py
+ukosnik/http.py
+ukosnik.egg-info/PKG-INFO
+ukosnik.egg-info/SOURCES.txt
+ukosnik.egg-info/dependency_links.txt
+ukosnik.egg-info/entry_points.txt
+ukosnik.egg-info/requires.txt
+ukosnik.egg-info/top_level.txt
