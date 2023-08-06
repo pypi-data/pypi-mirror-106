@@ -1,0 +1,5 @@
+joblib
+flask
+easysettings
+tensorflow
+requests
