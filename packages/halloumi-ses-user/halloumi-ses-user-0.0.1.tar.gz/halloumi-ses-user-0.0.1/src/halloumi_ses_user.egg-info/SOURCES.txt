@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/halloumi_ses_user/__init__.py
+src/halloumi_ses_user/py.typed
+src/halloumi_ses_user.egg-info/PKG-INFO
+src/halloumi_ses_user.egg-info/SOURCES.txt
+src/halloumi_ses_user.egg-info/dependency_links.txt
+src/halloumi_ses_user.egg-info/requires.txt
+src/halloumi_ses_user.egg-info/top_level.txt
+src/halloumi_ses_user/_jsii/__init__.py
+src/halloumi_ses_user/_jsii/halloumi-ses@0.0.1.jsii.tgz
