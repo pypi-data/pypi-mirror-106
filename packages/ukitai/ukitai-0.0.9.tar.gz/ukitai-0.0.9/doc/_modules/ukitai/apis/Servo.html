@@ -1,0 +1,401 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>ukitai.apis.Servo &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../../',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules.html">所有模块</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html">模块代码</a> &raquo;</li>
+        
+      <li>ukitai.apis.Servo</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>ukitai.apis.Servo 源代码</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">enum</span> <span class="kn">import</span> <span class="n">Enum</span>
+
+<span class="kn">from</span> <span class="nn">ukitai.apis</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.common</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.link</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.protos</span> <span class="kn">import</span> <span class="o">*</span>
+
+
+<div class="viewcode-block" id="ServoDirection"><a class="viewcode-back" href="../../../ukitai.apis.Servo.html#ukitai.apis.Servo.ServoDirection">[文档]</a><span class="k">class</span> <span class="nc">ServoDirection</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;运动方向</span>
+
+<span class="sd">    CLOCKWISE: 顺时针</span>
+
+<span class="sd">    ANTICLOCKWISE: 逆时针</span>
+
+<span class="sd">    STOP: 停止</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">CLOCKWISE</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">ANTICLOCKWISE</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+    <span class="n">STOP</span> <span class="o">=</span> <span class="mi">0</span></div>
+
+
+<div class="viewcode-block" id="SpeedMode"><a class="viewcode-back" href="../../../ukitai.apis.Servo.html#ukitai.apis.Servo.SpeedMode">[文档]</a><span class="k">class</span> <span class="nc">SpeedMode</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;速度档位</span>
+
+<span class="sd">    VERY_SLOW: 非常慢</span>
+
+<span class="sd">    SLOW: 慢</span>
+
+<span class="sd">    MEDIUM: 中速</span>
+
+<span class="sd">    FAST: 快</span>
+
+<span class="sd">    VERY_FAST: 非常快</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">VERY_SLOW</span> <span class="o">=</span> <span class="mi">128</span>
+    <span class="n">SLOW</span> <span class="o">=</span> <span class="mi">234</span>
+    <span class="n">MEDIUM</span> <span class="o">=</span> <span class="mi">500</span>
+    <span class="n">FAST</span> <span class="o">=</span> <span class="mi">800</span>
+    <span class="n">VERY_FAST</span> <span class="o">=</span> <span class="mi">1000</span></div>
+
+
+<div class="viewcode-block" id="read_servo_angle"><a class="viewcode-back" href="../../../ukitai.apis.Servo.html#ukitai.apis.Servo.read_servo_angle">[文档]</a><span class="k">def</span> <span class="nf">read_servo_angle</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;读取舵机角度</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 舵机 id</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (int): 舵机角度，范围[-120, 120]，读取失败时返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">CommonApi</span><span class="o">.</span><span class="n">read_value</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="nb">id</span><span class="p">,</span> <span class="n">data_type</span><span class="o">=</span><span class="n">DataType</span><span class="o">.</span><span class="n">SERVO_ANGLE</span><span class="p">,</span> <span class="n">link</span><span class="o">=</span><span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="turn_servo_angle"><a class="viewcode-back" href="../../../ukitai.apis.Servo.html#ukitai.apis.Servo.turn_servo_angle">[文档]</a><span class="k">def</span> <span class="nf">turn_servo_angle</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">angle</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">duration_ms</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;控制舵机用指定的时长转转至某个角度</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 舵机 id</span>
+
+<span class="sd">        angle (int): 指定舵机旋转到达的角度值,单位:度, 范围:[-118, 118]</span>
+
+<span class="sd">        duration_ms (int): 旋转耗时,单位:毫秒,范围:[20, 5000]</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+
+<span class="sd">    示例:</span>
+<span class="sd">        # 控制 id 为 2 的舵机用 500 毫秒转动到 100°</span>
+
+<span class="sd">        Motion.turn_servo_angle(id=2, angle=100, duration_ms=500, link=link)</span>
+
+<span class="sd">        # 控制 id 为 1 的舵机用 1 秒转动到 -80°</span>
+
+<span class="sd">        Motion.turn_servo_angle(id=1, angle=-80, duration_ms=1000, link=link)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">duration</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">duration_ms</span><span class="p">,</span> <span class="mi">5000</span><span class="p">,</span> <span class="mi">20</span><span class="p">))</span>
+    <span class="n">angle</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">angle</span> <span class="o">+</span> <span class="mi">120</span><span class="p">,</span> <span class="mi">238</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="mi">10</span><span class="p">)</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;tar_angle&#39;</span><span class="p">:</span> <span class="n">angle</span><span class="p">,</span> <span class="s1">&#39;rotation_time&#39;</span><span class="p">:</span> <span class="n">duration</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d3_Servo_pb2</span><span class="o">.</span><span class="n">d3c1000_srv_angle_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d3_Servo_pb2</span><span class="o">.</span><span class="n">d3c1000_srv_angle_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">SERVO</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="turn_servo_speed_mode"><a class="viewcode-back" href="../../../ukitai.apis.Servo.html#ukitai.apis.Servo.turn_servo_speed_mode">[文档]</a><span class="k">def</span> <span class="nf">turn_servo_speed_mode</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">direction</span><span class="p">:</span> <span class="n">ServoDirection</span><span class="p">,</span> <span class="n">speed_mode</span><span class="p">:</span> <span class="n">SpeedMode</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制舵机按照指定的方向和速度档位转动</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 舵机 id</span>
+<span class="sd">        direction (Servo.ServoDirection): 指定转动方向, 如果参数为 Servo.ServoDirection.STOP, 舵机会停止</span>
+<span class="sd">        speed_mode (Servo.SpeedMode): 速度档位</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+
+<span class="sd">    示例:</span>
+<span class="sd">        # 控制 id 为 2 的舵机以非常慢的速度逆时针转动</span>
+
+<span class="sd">        Servo.turn_servo_speed_mode(id=2, direction=Servo.ServoDirection.ANTICLOCKWISE, speed_mode=Servo.SpeedMode.VERY_SLOW, link=link)</span>
+
+<span class="sd">        # 停止舵机 1</span>
+
+<span class="sd">        Servo.turn_servo_speed_mode(id=1, direction=Servo.ServoDirection.STOP, speed_mode=Servo.SpeedMode.VERY_SLOW, link=link)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">speed</span> <span class="o">=</span> <span class="n">speed_mode</span><span class="o">.</span><span class="n">value</span> <span class="o">*</span> <span class="n">direction</span><span class="o">.</span><span class="n">value</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;pwm&#39;</span><span class="p">:</span> <span class="n">speed</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d3_Servo_pb2</span><span class="o">.</span><span class="n">d3c1002_srv_pwm_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d3_Servo_pb2</span><span class="o">.</span><span class="n">d3c1002_srv_pwm_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">SERVO</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1002</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="turn_servo_speed"><a class="viewcode-back" href="../../../ukitai.apis.Servo.html#ukitai.apis.Servo.turn_servo_speed">[文档]</a><span class="k">def</span> <span class="nf">turn_servo_speed</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">direction</span><span class="p">:</span> <span class="n">ServoDirection</span><span class="p">,</span> <span class="n">speed</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制舵机按照指定的方向和速度旋转</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 舵机 id</span>
+<span class="sd">        direction (Servo.ServoDirection): 指定转动方向, 如果参数为 Servo.ServoDirection.STOP, 舵机会停止</span>
+<span class="sd">        speed (int): 速度, 单位: 度/秒, 范围:[0, 1000]</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+
+<span class="sd">    示例:</span>
+<span class="sd">        # 控制 id 为 2 的舵机以100 度/秒的速度逆时针转动</span>
+
+<span class="sd">        Servo.turn_servo_speed(id=2, direction=Servo.ServoDirection.ANTICLOCKWISE, speed=100, link=link)</span>
+
+<span class="sd">        # 停止舵机 1</span>
+
+<span class="sd">        Servo.turn_servo_speed(id=1, direction=Servo.ServoDirection.STOP, speed=0, link=link)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">speed</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">speed</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span> <span class="o">*</span> <span class="n">direction</span><span class="o">.</span><span class="n">value</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;pwm&#39;</span><span class="p">:</span> <span class="n">speed</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d3_Servo_pb2</span><span class="o">.</span><span class="n">d3c1002_srv_pwm_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d3_Servo_pb2</span><span class="o">.</span><span class="n">d3c1002_srv_pwm_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">SERVO</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1002</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="turn_servo_speed_percent"><a class="viewcode-back" href="../../../ukitai.apis.Servo.html#ukitai.apis.Servo.turn_servo_speed_percent">[文档]</a><span class="k">def</span> <span class="nf">turn_servo_speed_percent</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">direction</span><span class="p">:</span> <span class="n">ServoDirection</span><span class="p">,</span> <span class="n">speed_percent</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制舵机按照指定的方向和速度百分比旋转</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 舵机 id</span>
+<span class="sd">        direction (Servo.ServoDirection): 指定转动方向, 如果参数为 Servo.ServoDirection.STOP, 舵机会停止</span>
+<span class="sd">        speed_percent (int): 全速 658 度/秒 的百分比, 范围:[0, 100]</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+
+
+<span class="sd">    示例:</span>
+<span class="sd">        # 控制 id 为 1 的舵机以全速 50% 的速度顺时针转动</span>
+
+<span class="sd">        Servo.turn_servo_speed_percent(id=1, direction=Servo.ServoDirection.CLOCKWISE, speed_percent=50, link=link)</span>
+
+<span class="sd">        # 控制 id 为 2 的舵机以全速逆时针转动</span>
+
+<span class="sd">        Servo.turn_servo_speed_percent(id=2, direction=Servo.ServoDirection.ANTICLOCKWISE, speed_percent=100, link=link)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">speed</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">speed_percent</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">*</span> <span class="n">direction</span><span class="o">.</span><span class="n">value</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;pwm&#39;</span><span class="p">:</span> <span class="n">speed</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d3_Servo_pb2</span><span class="o">.</span><span class="n">d3c1002_srv_pwm_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d3_Servo_pb2</span><span class="o">.</span><span class="n">d3c1002_srv_pwm_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">SERVO</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1002</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="stop_servo"><a class="viewcode-back" href="../../../ukitai.apis.Servo.html#ukitai.apis.Servo.stop_servo">[文档]</a><span class="k">def</span> <span class="nf">stop_servo</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">mode</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制舵机停止转动</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 舵机 id</span>
+<span class="sd">        mode: 保留字段，默认为0</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">mode</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">mode</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;mode&#39;</span><span class="p">:</span> <span class="n">mode</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d3_Servo_pb2</span><span class="o">.</span><span class="n">d3c1004_srv_stop_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d3_Servo_pb2</span><span class="o">.</span><span class="n">d3c1004_srv_stop_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">SERVO</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1004</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

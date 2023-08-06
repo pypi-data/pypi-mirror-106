@@ -1,0 +1,729 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>ukitai.apis.Audio &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../../',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules.html">所有模块</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html">模块代码</a> &raquo;</li>
+        
+      <li>ukitai.apis.Audio</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>ukitai.apis.Audio 源代码</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">enum</span> <span class="kn">import</span> <span class="n">Enum</span>
+
+<span class="kn">from</span> <span class="nn">ukitai.apis</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.common</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.link</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.protos</span> <span class="kn">import</span> <span class="o">*</span>
+
+
+<div class="viewcode-block" id="Tone"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.Tone">[文档]</a><span class="k">class</span> <span class="nc">Tone</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;音调</span>
+
+<span class="sd">    C5, D5, E5, F5, G5, A5, B5, C6</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">C5</span> <span class="o">=</span> <span class="s1">&#39;C5&#39;</span>
+    <span class="n">D5</span> <span class="o">=</span> <span class="s1">&#39;D5&#39;</span>
+    <span class="n">E5</span> <span class="o">=</span> <span class="s1">&#39;E5&#39;</span>
+    <span class="n">F5</span> <span class="o">=</span> <span class="s1">&#39;F5&#39;</span>
+    <span class="n">G5</span> <span class="o">=</span> <span class="s1">&#39;G5&#39;</span>
+    <span class="n">A5</span> <span class="o">=</span> <span class="s1">&#39;A5&#39;</span>
+    <span class="n">B5</span> <span class="o">=</span> <span class="s1">&#39;B5&#39;</span>
+    <span class="n">C6</span> <span class="o">=</span> <span class="s1">&#39;C6&#39;</span></div>
+
+
+<div class="viewcode-block" id="Beat"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.Beat">[文档]</a><span class="k">class</span> <span class="nc">Beat</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;节拍</span>
+
+<span class="sd">    EIGHTH: 1/8拍</span>
+
+<span class="sd">    QUARTER: 1/4拍</span>
+
+<span class="sd">    HALF: 1/2拍</span>
+
+<span class="sd">    ONE: 1拍</span>
+
+<span class="sd">    DOUBLE: 2拍</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">EIGHTH</span> <span class="o">=</span> <span class="s1">&#39;-1-8&#39;</span>
+    <span class="n">QUARTER</span> <span class="o">=</span> <span class="s1">&#39;-1-4&#39;</span>
+    <span class="n">HALF</span> <span class="o">=</span> <span class="s1">&#39;-1-2&#39;</span>
+    <span class="n">ONE</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="n">DOUBLE</span> <span class="o">=</span> <span class="s1">&#39;-2&#39;</span></div>
+
+
+<div class="viewcode-block" id="Volume"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.Volume">[文档]</a><span class="k">class</span> <span class="nc">Volume</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;音量等级</span>
+
+<span class="sd">    MINIMUM: 最低音量</span>
+
+<span class="sd">    LOW: 低音量</span>
+
+<span class="sd">    MEDIUM: 中等音量</span>
+
+<span class="sd">    HIGH: 高音量</span>
+
+<span class="sd">    MAXIMUM: 最高音量</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">MINIMUM</span> <span class="o">=</span> <span class="mi">42</span>
+    <span class="n">LOW</span> <span class="o">=</span> <span class="mi">56</span>
+    <span class="n">MEDIUM</span> <span class="o">=</span> <span class="mi">70</span>
+    <span class="n">HIGH</span> <span class="o">=</span> <span class="mi">84</span>
+    <span class="n">MAXIMUM</span> <span class="o">=</span> <span class="mi">98</span></div>
+
+
+<div class="viewcode-block" id="Sound"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.Sound">[文档]</a><span class="k">class</span> <span class="nc">Sound</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="k">pass</span></div>
+
+
+<div class="viewcode-block" id="Animal"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.Animal">[文档]</a><span class="k">class</span> <span class="nc">Animal</span><span class="p">(</span><span class="n">Sound</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;动物声音</span>
+
+<span class="sd">    ELEPHANT: 大象</span>
+
+<span class="sd">    BEAR: 熊</span>
+
+<span class="sd">    BIRD: 鸟</span>
+
+<span class="sd">    CHICKEN: 鸡</span>
+
+<span class="sd">    COW: 牛</span>
+
+<span class="sd">    DOG: 狗</span>
+
+<span class="sd">    GIRAFFE: 长颈鹿</span>
+
+<span class="sd">    HORSE: 马</span>
+
+<span class="sd">    LION: 狮子</span>
+
+<span class="sd">    MONKEY: 猴子</span>
+
+<span class="sd">    PIG: 猪</span>
+
+<span class="sd">    RHINO: 犀牛</span>
+
+<span class="sd">    SEA_LION: 海狮</span>
+
+<span class="sd">    TIGER: 老虎</span>
+
+<span class="sd">    WALRUS: 海象</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">__AT</span> <span class="o">=</span> <span class="s1">&#39;animal&#39;</span>
+    <span class="n">ELEPHANT</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;elephant&#39;</span><span class="p">)</span>
+    <span class="n">BEAR</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;bear&#39;</span><span class="p">)</span>
+    <span class="n">BIRD</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;bird&#39;</span><span class="p">)</span>
+    <span class="n">CHICKEN</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;chicken&#39;</span><span class="p">)</span>
+    <span class="n">COW</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;cow&#39;</span><span class="p">)</span>
+    <span class="n">DOG</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">)</span>
+    <span class="n">GIRAFFE</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;giraffe&#39;</span><span class="p">)</span>
+    <span class="n">HORSE</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;horse&#39;</span><span class="p">)</span>
+    <span class="n">LION</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;lion&#39;</span><span class="p">)</span>
+    <span class="n">MONKEY</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;monkey&#39;</span><span class="p">)</span>
+    <span class="n">PIG</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;pig&#39;</span><span class="p">)</span>
+    <span class="n">RHINO</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;rhinoceros&#39;</span><span class="p">)</span>
+    <span class="n">SEA_LION</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;sealions&#39;</span><span class="p">)</span>
+    <span class="n">TIGER</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;tiger&#39;</span><span class="p">)</span>
+    <span class="n">WALRUS</span> <span class="o">=</span> <span class="p">(</span><span class="n">__AT</span><span class="p">,</span> <span class="s1">&#39;walrus&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="Machine"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.Machine">[文档]</a><span class="k">class</span> <span class="nc">Machine</span><span class="p">(</span><span class="n">Sound</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;机器声音</span>
+
+<span class="sd">    AMBULANCE: 救护车</span>
+
+<span class="sd">    BUSY: 忙音</span>
+
+<span class="sd">    CAR_HORN1: 汽车喇叭1</span>
+
+<span class="sd">    CAR_HORN2: 汽车喇叭2</span>
+
+<span class="sd">    DOORBELL: 门铃</span>
+
+<span class="sd">    ENGINE: 引擎</span>
+
+<span class="sd">    LASER: 激光</span>
+
+<span class="sd">    MEEBOT: 小黄人</span>
+
+<span class="sd">    POLICE_CAR1: 警车1</span>
+
+<span class="sd">    POLICE_CAR2: 警车2</span>
+
+<span class="sd">    INCOMING_CALL: 来电铃声</span>
+
+<span class="sd">    ROBOT: 机器人</span>
+
+<span class="sd">    OUTGOING_CALL: 电话呼叫</span>
+
+<span class="sd">    TOUCH_TONE: 按键音</span>
+
+<span class="sd">    WAVE: 电波</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">__MT</span> <span class="o">=</span> <span class="s1">&#39;machine&#39;</span>
+    <span class="n">AMBULANCE</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;ambulance&#39;</span><span class="p">)</span>
+    <span class="n">BUSY</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;busy_tone&#39;</span><span class="p">)</span>
+    <span class="n">CAR_HORN1</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;carhorn&#39;</span><span class="p">)</span>
+    <span class="n">CAR_HORN2</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;carhorn1&#39;</span><span class="p">)</span>
+    <span class="n">DOORBELL</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;doorbell&#39;</span><span class="p">)</span>
+    <span class="n">ENGINE</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;engine&#39;</span><span class="p">)</span>
+    <span class="n">LASER</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;laser&#39;</span><span class="p">)</span>
+    <span class="n">MEEBOT</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;meebot&#39;</span><span class="p">)</span>
+    <span class="n">POLICE_CAR1</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;police_car_1&#39;</span><span class="p">)</span>
+    <span class="n">POLICE_CAR2</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;police_car_2&#39;</span><span class="p">)</span>
+    <span class="n">INCOMING_CALL</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;ringtones&#39;</span><span class="p">)</span>
+    <span class="n">ROBOT</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;robot&#39;</span><span class="p">)</span>
+    <span class="n">OUTGOING_CALL</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;telephone_call&#39;</span><span class="p">)</span>
+    <span class="n">TOUCH_TONE</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;touch_tone&#39;</span><span class="p">)</span>
+    <span class="n">WAVE</span> <span class="o">=</span> <span class="p">(</span><span class="n">__MT</span><span class="p">,</span> <span class="s1">&#39;wave&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="Emotion"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.Emotion">[文档]</a><span class="k">class</span> <span class="nc">Emotion</span><span class="p">(</span><span class="n">Sound</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;情绪声音</span>
+
+<span class="sd">    HAPPY: 高兴</span>
+
+<span class="sd">    SURPRISED: 惊讶</span>
+
+<span class="sd">    CHEERFUL: 愉快</span>
+
+<span class="sd">    TEARS: 热泪盈眶</span>
+
+<span class="sd">    SOLILOQUY: 呓语</span>
+
+<span class="sd">    SNORING: 呼噜</span>
+
+<span class="sd">    YAWN: 哈欠</span>
+
+<span class="sd">    DOUBT: 疑问</span>
+
+<span class="sd">    ANGRY: 生气</span>
+
+<span class="sd">    UPSET: 失落</span>
+
+<span class="sd">    FRUSTRATED: 失败</span>
+
+<span class="sd">    MUSIC1: 歌曲1</span>
+
+<span class="sd">    MUSIC2: 歌曲2</span>
+
+<span class="sd">    MUSIC3: 歌曲3</span>
+
+<span class="sd">    MUSIC4: 歌曲4</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">__ET</span> <span class="o">=</span> <span class="s1">&#39;emotion&#39;</span>
+    <span class="n">HAPPY</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;happy&#39;</span><span class="p">)</span>
+    <span class="n">SURPRISED</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;surprise&#39;</span><span class="p">)</span>
+    <span class="n">CHEERFUL</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;cheerful&#39;</span><span class="p">)</span>
+    <span class="n">TEARS</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;actingcute&#39;</span><span class="p">)</span>
+    <span class="n">SOLILOQUY</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;nonsense&#39;</span><span class="p">)</span>
+    <span class="n">SNORING</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;snoring&#39;</span><span class="p">)</span>
+    <span class="n">YAWN</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;yawn&#39;</span><span class="p">)</span>
+    <span class="n">DOUBT</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;doubt&#39;</span><span class="p">)</span>
+    <span class="n">ANGRY</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;angry&#39;</span><span class="p">)</span>
+    <span class="n">UPSET</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;lose&#39;</span><span class="p">)</span>
+    <span class="n">FRUSTRATED</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;fail&#39;</span><span class="p">)</span>
+    <span class="n">MUSIC1</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;come_and_play&#39;</span><span class="p">)</span>
+    <span class="n">MUSIC2</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;flexin&#39;</span><span class="p">)</span>
+    <span class="n">MUSIC3</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;london_bridge&#39;</span><span class="p">)</span>
+    <span class="n">MUSIC4</span> <span class="o">=</span> <span class="p">(</span><span class="n">__ET</span><span class="p">,</span> <span class="s1">&#39;yankee_doodle&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="Command"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.Command">[文档]</a><span class="k">class</span> <span class="nc">Command</span><span class="p">(</span><span class="n">Sound</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;命令声音</span>
+
+<span class="sd">    OBEY: 遵命</span>
+
+<span class="sd">    RECEIVED: 收到</span>
+
+<span class="sd">    COMPLETE: 完成</span>
+
+<span class="sd">    TRANSFORM: 变身</span>
+
+<span class="sd">    COVER: 掩护</span>
+
+<span class="sd">    SUPPORT: 支援</span>
+
+<span class="sd">    MOVE: 移动</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">__CT</span> <span class="o">=</span> <span class="s1">&#39;command&#39;</span>
+    <span class="n">OBEY</span> <span class="o">=</span> <span class="p">(</span><span class="n">__CT</span><span class="p">,</span> <span class="s1">&#39;yes&#39;</span><span class="p">)</span>
+    <span class="n">RECEIVED</span> <span class="o">=</span> <span class="p">(</span><span class="n">__CT</span><span class="p">,</span> <span class="s1">&#39;received&#39;</span><span class="p">)</span>
+    <span class="n">COMPLETE</span> <span class="o">=</span> <span class="p">(</span><span class="n">__CT</span><span class="p">,</span> <span class="s1">&#39;complete&#39;</span><span class="p">)</span>
+    <span class="n">TRANSFORM</span> <span class="o">=</span> <span class="p">(</span><span class="n">__CT</span><span class="p">,</span> <span class="s1">&#39;transfiguration&#39;</span><span class="p">)</span>
+    <span class="n">COVER</span> <span class="o">=</span> <span class="p">(</span><span class="n">__CT</span><span class="p">,</span> <span class="s1">&#39;cover&#39;</span><span class="p">)</span>
+    <span class="n">SUPPORT</span> <span class="o">=</span> <span class="p">(</span><span class="n">__CT</span><span class="p">,</span> <span class="s1">&#39;support&#39;</span><span class="p">)</span>
+    <span class="n">MOVE</span> <span class="o">=</span> <span class="p">(</span><span class="n">__CT</span><span class="p">,</span> <span class="s1">&#39;move&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="play_tone"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.play_tone">[文档]</a><span class="k">def</span> <span class="nf">play_tone</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">tone</span><span class="p">:</span> <span class="n">Tone</span><span class="p">,</span> <span class="n">beat</span><span class="p">:</span> <span class="n">Beat</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制主控以指定节拍播放指定音调</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        tone: 音调, 定义在 Audio.Tone 中</span>
+
+<span class="sd">        beat: 节拍, 定义在 Audio.Beat 中</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+
+<span class="sd">    示例:</span>
+<span class="sd">        # 以 1/2 节拍播放 C6 音调</span>
+
+<span class="sd">        Audio.play_tone(tone=Audio.Tone.C6, beat=Audio.Beat.HALF, link=link)</span>
+
+<span class="sd">        # 以 1 节拍播放 C5 音调</span>
+
+<span class="sd">        Audio.play_tone(tone=Audio.Tone.C5, beat=Audio.Beat.ONE, link=link)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">file_name</span> <span class="o">=</span> <span class="n">tone</span><span class="o">.</span><span class="n">value</span> <span class="o">+</span> <span class="n">beat</span><span class="o">.</span><span class="n">value</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;file_type&#39;</span><span class="p">:</span> <span class="s1">&#39;tune&#39;</span><span class="p">,</span> <span class="s1">&#39;file_name&#39;</span><span class="p">:</span> <span class="n">file_name</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1026_vr_effect_play_start_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1026_vr_effect_play_start_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1026</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="play_sound"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.play_sound">[文档]</a><span class="k">def</span> <span class="nf">play_sound</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">sound</span><span class="p">:</span> <span class="n">Sound</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制主控以指定节拍播放指定音调</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        sound: 音效, 定义在 Audio.Sound 中</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+
+<span class="sd">    示例:</span>
+<span class="sd">        # 以 1/2 节拍播放 C6 音调</span>
+
+<span class="sd">        Audio.play_sound(sound=Audio.Animal.ELEPHANT, link=link)</span>
+
+<span class="sd">        # 以 1 节拍播放 C5 音调</span>
+
+<span class="sd">        Audio.play_sound(sound=Audio.Emotion.CHEERFUL, link=link)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">_type</span><span class="p">,</span> <span class="n">name</span> <span class="o">=</span> <span class="n">sound</span><span class="o">.</span><span class="n">value</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;file_type&#39;</span><span class="p">:</span> <span class="n">_type</span><span class="p">,</span> <span class="s1">&#39;file_name&#39;</span><span class="p">:</span> <span class="n">name</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1026_vr_effect_play_start_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1026_vr_effect_play_start_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1026</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="play_record"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.play_record">[文档]</a><span class="k">def</span> <span class="nf">play_record</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制主控以指定节拍播放指定音调</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        name: 录音名称</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+
+<span class="sd">    示例:</span>
+<span class="sd">        # 播放录音 &quot;录音文件1&quot;, 不等待播放结束</span>
+
+<span class="sd">        Audio.play_record(name=&quot;录音文件1&quot;, link=link)</span>
+
+<span class="sd">        # 播放录音 &quot;aaa&quot;</span>
+
+<span class="sd">        Audio.play_record(name=&quot;aaa&quot;, link=link)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;file_name&#39;</span><span class="p">:</span> <span class="n">name</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1027_vr_record_play_start_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1027_vr_record_play_start_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1027</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="read_record_nums"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.read_record_nums">[文档]</a><span class="k">def</span> <span class="nf">read_record_nums</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;获取录音文件个数</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (int): 录音文件个数，读取失败时返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1039_vr_file_num_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1039_vr_file_num_ra</span><span class="p">()</span>
+    <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1039</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ack</span> <span class="o">!=</span> <span class="mi">0</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">response</span><span class="p">:</span>
+        <span class="c1"># 请求失败</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="n">file_num</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s1">&#39;file_num&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">file_num</span></div>
+
+
+<div class="viewcode-block" id="read_records"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.read_records">[文档]</a><span class="k">def</span> <span class="nf">read_records</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;获取录音列表</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (dist): 录音文件列表以及对应的录音时长，读取失败时返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1022_vr_file_list_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1022_vr_file_list_ra</span><span class="p">()</span>
+    <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1022</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ack</span> <span class="o">!=</span> <span class="mi">0</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">response</span><span class="p">:</span>
+        <span class="c1"># 请求失败</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="n">_list</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s1">&#39;list&#39;</span><span class="p">)</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">_list</span><span class="p">)):</span>
+        <span class="n">result</span><span class="p">[</span><span class="nb">getattr</span><span class="p">(</span><span class="n">_list</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="s1">&#39;file_name&#39;</span><span class="p">)]</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">_list</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="s1">&#39;file_duration&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">result</span></div>
+
+
+<div class="viewcode-block" id="stop_play"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.stop_play">[文档]</a><span class="k">def</span> <span class="nf">stop_play</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;停止播放声音</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1028_vr_file_play_stop_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1028_vr_file_play_stop_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1028</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="play_tts"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.play_tts">[文档]</a><span class="k">def</span> <span class="nf">play_tts</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">content</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;停止播放声音</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        content: 播放文本内容</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;text&#39;</span><span class="p">:</span> <span class="n">content</span><span class="p">,</span> <span class="s1">&#39;language&#39;</span><span class="p">:</span> <span class="s1">&#39;zh&#39;</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1030_vr_tts_play_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1030_vr_tts_play_rq</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1030</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="set_volume"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.set_volume">[文档]</a><span class="k">def</span> <span class="nf">set_volume</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">volume</span><span class="p">:</span> <span class="n">Volume</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;设置音量等级</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        volume: 音量等级</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="n">volume</span><span class="o">.</span><span class="n">value</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1035_vr_set_volume_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1035_vr_set_volume_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1035</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="read_volume"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.read_volume">[文档]</a><span class="k">def</span> <span class="nf">read_volume</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;读取当前音量等级</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (int): 当前音量等级，读取失败时返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1036_vr_get_volume_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1036_vr_get_volume_ra</span><span class="p">()</span>
+    <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1036</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ack</span> <span class="o">!=</span> <span class="mi">0</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">response</span><span class="p">:</span>
+        <span class="c1"># 请求失败</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="n">volume</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">volume</span></div>
+
+
+<div class="viewcode-block" id="read_voice_direction"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.read_voice_direction">[文档]</a><span class="k">def</span> <span class="nf">read_voice_direction</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;读取当前声源方位</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (int): 当前声源方位</span>
+
+<span class="sd">        None: 读取失败</span>
+
+<span class="sd">        0: 没有声音或者超出有效范围</span>
+
+<span class="sd">        1: 中间，声源方位角在区间范围 [75, 105]</span>
+
+<span class="sd">        2: 左边，声源方位角在区间范围 [0, 75)</span>
+
+<span class="sd">        3: 右边，声源方位角在区间范围 (105, 180]</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1042_vr_dir_init_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1042_vr_dir_init_ra</span><span class="p">()</span>
+    <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1042</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ack</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="c1"># 请求失败</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1043_vr_dir_get_rq</span><span class="p">()</span>
+        <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1043_vr_dir_get_ra</span><span class="p">()</span>
+        <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1043</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">ack</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">response</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">_dir</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s1">&#39;dir&#39;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">_dir</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>
+    <span class="c1"># 请求失败</span>
+    <span class="k">return</span> <span class="kc">None</span></div>
+
+
+<div class="viewcode-block" id="read_asr"><a class="viewcode-back" href="../../../ukitai.apis.Audio.html#ukitai.apis.Audio.read_asr">[文档]</a><span class="k">def</span> <span class="nf">read_asr</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;读取asr结果</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (str): 当前听到的asr结果，读取失败时返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;language&#39;</span><span class="p">:</span> <span class="s1">&#39;zh&#39;</span><span class="p">}</span>
+        <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1032_vr_asr_start_rq</span><span class="p">()</span>
+        <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1032_vr_asr_start_ra</span><span class="p">()</span>
+        <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1032</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">ack</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="c1"># 请求失败</span>
+            <span class="k">return</span> <span class="kc">None</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+            <span class="n">message</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1044_vr_asr_get_text_rq</span><span class="p">()</span>
+            <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1044_vr_asr_get_text_ra</span><span class="p">()</span>
+            <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1044</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">ack</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">response</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">text</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s1">&#39;text&#39;</span><span class="p">)</span>
+                <span class="k">return</span> <span class="n">text</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+        <span class="c1"># 请求失败</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="k">finally</span><span class="p">:</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="n">pbReq</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1033_vr_asr_stop_rq</span><span class="p">()</span>
+        <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">dE_VoiceRecognition_pb2</span><span class="o">.</span><span class="n">dec1033_vr_asr_stop_ra</span><span class="p">()</span>
+        <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">AUDIO</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1033</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

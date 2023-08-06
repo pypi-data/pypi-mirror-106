@@ -1,0 +1,681 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>视觉模块 &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="设备连接模块" href="links.html" />
+    <link rel="prev" title="显示屏" href="ukitai.apis.Screen.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">所有模块</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="apis.html">接口模块</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Battery.html">电池/电源</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Servo.html">舵机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Motor.html">电机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LedEyes.html">眼灯</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Ultrasonic.html">超声波传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.InfraredSensor.html">红外传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.TouchSensor.html">触碰传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.ColorSensor.html">颜色传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.HumiditySensor.html">温湿度传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LuxSensor.html">亮度传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.SoundSensor.html">声音传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LedBox.html">LED灯盒</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Audio.html">音频控制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Screen.html">显示屏</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">视觉模块</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="links.html">设备连接模块</a></li>
+<li class="toctree-l2"><a class="reference internal" href="common.html">公共基础模块</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">所有模块</a> &raquo;</li>
+        
+          <li><a href="apis.html">接口模块</a> &raquo;</li>
+        
+      <li>视觉模块</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ukitai.apis.Vision.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-ukitai.apis.Vision">
+<span id="id1"></span><h1>视觉模块<a class="headerlink" href="#module-ukitai.apis.Vision" title="永久链接至标题">¶</a></h1>
+<dl class="class">
+<dt id="ukitai.apis.Vision.ColorIdentifyResult">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">ColorIdentifyResult</code><a class="reference internal" href="_modules/ukitai/apis/Vision.html#ColorIdentifyResult"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.ColorIdentifyResult" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Vision.IdentifyResultType" title="ukitai.apis.Vision.IdentifyResultType"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Vision.IdentifyResultType</span></code></a></p>
+<p>颜色识别结果</p>
+<p>RED: 红色</p>
+<p>ORANGE: 橙色</p>
+<p>YELLOW: 黄色</p>
+<p>GREEN: 绿色</p>
+<p>BLUE: 蓝色</p>
+<p>PURPLE: 紫色</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.EmotionIdentifyResult">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">EmotionIdentifyResult</code><a class="reference internal" href="_modules/ukitai/apis/Vision.html#EmotionIdentifyResult"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.EmotionIdentifyResult" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Vision.IdentifyResultType" title="ukitai.apis.Vision.IdentifyResultType"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Vision.IdentifyResultType</span></code></a></p>
+<p>情绪识别结果</p>
+<p>HAPPY: 开心</p>
+<p>CALM: 平静</p>
+<p>ANGRY: 生气</p>
+<p>SURPRISED: 惊讶</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.GarbageIdentifyResult">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">GarbageIdentifyResult</code><a class="reference internal" href="_modules/ukitai/apis/Vision.html#GarbageIdentifyResult"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.GarbageIdentifyResult" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Vision.IdentifyResultType" title="ukitai.apis.Vision.IdentifyResultType"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Vision.IdentifyResultType</span></code></a></p>
+<p>垃圾识别结果</p>
+<p>BONE: 吃剩的大棒骨</p>
+<p>PAPER: 废纸团</p>
+<p>CANDY: 塑料包装纸</p>
+<p>DURIAN: 榴莲壳</p>
+<p>USED_TISSUE: 用过的纸巾</p>
+<p>BOOK: 废弃书本</p>
+<p>BOTTLE: 塑胶瓶</p>
+<p>CARTON: 纸盒</p>
+<p>CLEAN_BOTTLE: 干净的矿泉水瓶</p>
+<p>METAL_TABLEWARE: 金属餐具</p>
+<p>CHICKEN: 鸡骨头</p>
+<p>KIWI: 猕猴桃皮</p>
+<p>APPLE: 苹果核</p>
+<p>BREAD: 剩饼干</p>
+<p>BANANA: 香蕉皮</p>
+<p>TEA: 碎茶叶</p>
+<p>MELON: 西瓜皮</p>
+<p>FISH: 吃剩的鱼骨头</p>
+<p>CELL: 废旧干电池</p>
+<p>CAPSULE: 过期药片</p>
+<p>BULB: 坏灯泡</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.GenderIdentifyResult">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">GenderIdentifyResult</code><a class="reference internal" href="_modules/ukitai/apis/Vision.html#GenderIdentifyResult"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.GenderIdentifyResult" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Vision.IdentifyResultType" title="ukitai.apis.Vision.IdentifyResultType"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Vision.IdentifyResultType</span></code></a></p>
+<p>性别识别结果</p>
+<p>MAN: 男</p>
+<p>WOMAN: 女</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.GestureIdentifyResult">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">GestureIdentifyResult</code><a class="reference internal" href="_modules/ukitai/apis/Vision.html#GestureIdentifyResult"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.GestureIdentifyResult" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Vision.IdentifyResultType" title="ukitai.apis.Vision.IdentifyResultType"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Vision.IdentifyResultType</span></code></a></p>
+<p>手势识别结果</p>
+<p>OK: OK</p>
+<p>ROCK: 石头</p>
+<p>SCISSORS: 剪刀</p>
+<p>CLOTH: 布</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.IdentifyElement">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">IdentifyElement</code><span class="sig-paren">(</span><em>_id: int</em>, <em>_type: ukitai.apis.Vision.IdentifyResultType</em>, <em>_name: str</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyElement"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyElement" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+<p>模型识别结果所属元素</p>
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyElement.getId">
+<code class="descname">getId</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyElement.getId"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyElement.getId" title="永久链接至目标">¶</a></dt>
+<dd><p>模型识别结果元素标识</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyElement.getName">
+<code class="descname">getName</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyElement.getName"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyElement.getName" title="永久链接至目标">¶</a></dt>
+<dd><p>模型识别结果元素名称</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyElement.getType">
+<code class="descname">getType</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ukitai.apis.Vision.IdentifyResultType<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyElement.getType"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyElement.getType" title="永久链接至目标">¶</a></dt>
+<dd><p>模型识别结果元素对象定义</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.IdentifyResult">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">IdentifyResult</code><span class="sig-paren">(</span><em>_type: ukitai.apis.Vision.IdentifyType</em>, <em>_element: ukitai.apis.Vision.IdentifyElement</em>, <em>_x: int</em>, <em>_y: int</em>, <em>_w: int</em>, <em>_h: int</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyResult"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyResult" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+<p>模型识别结果</p>
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyResult.getCenterX">
+<code class="descname">getCenterX</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyResult.getCenterX"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyResult.getCenterX" title="永久链接至目标">¶</a></dt>
+<dd><p>获取模型识别结果区域的中心位置X坐标</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyResult.getCenterY">
+<code class="descname">getCenterY</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyResult.getCenterY"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyResult.getCenterY" title="永久链接至目标">¶</a></dt>
+<dd><p>获取模型识别结果区域的中心位置Y坐标</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyResult.getHeight">
+<code class="descname">getHeight</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyResult.getHeight"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyResult.getHeight" title="永久链接至目标">¶</a></dt>
+<dd><p>获取模型识别结果区域的高度</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyResult.getIdentifyElement">
+<code class="descname">getIdentifyElement</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ukitai.apis.Vision.IdentifyElement<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyResult.getIdentifyElement"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyResult.getIdentifyElement" title="永久链接至目标">¶</a></dt>
+<dd><p>获取模型识别结果所属元素</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyResult.getIdentifyType">
+<code class="descname">getIdentifyType</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ukitai.apis.Vision.IdentifyType<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyResult.getIdentifyType"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyResult.getIdentifyType" title="永久链接至目标">¶</a></dt>
+<dd><p>获取模型识别结果所属类别</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyResult.getWidth">
+<code class="descname">getWidth</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyResult.getWidth"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyResult.getWidth" title="永久链接至目标">¶</a></dt>
+<dd><p>获取模型识别结果区域的宽度</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyResult.getX">
+<code class="descname">getX</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyResult.getX"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyResult.getX" title="永久链接至目标">¶</a></dt>
+<dd><p>获取模型识别结果区域的左上角位置X坐标</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyResult.getY">
+<code class="descname">getY</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyResult.getY"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyResult.getY" title="永久链接至目标">¶</a></dt>
+<dd><p>获取模型识别结果区域的左上角位置Y坐标</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyResult.isIdentifyResultType">
+<code class="descname">isIdentifyResultType</code><span class="sig-paren">(</span><em>t: ukitai.apis.Vision.IdentifyResultType</em><span class="sig-paren">)</span> &#x2192; bool<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyResult.isIdentifyResultType"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyResult.isIdentifyResultType" title="永久链接至目标">¶</a></dt>
+<dd><p>判断是否指定所属类别</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.IdentifyResultType">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">IdentifyResultType</code><a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyResultType"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyResultType" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>An enumeration.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.IdentifyType">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">IdentifyType</code><span class="sig-paren">(</span><em>_id: int</em>, <em>_name: str</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyType"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyType" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+<p>模型识别结果所属类别</p>
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyType.getId">
+<code class="descname">getId</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyType.getId"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyType.getId" title="永久链接至目标">¶</a></dt>
+<dd><p>模型识别结果类别标识</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ukitai.apis.Vision.IdentifyType.getName">
+<code class="descname">getName</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="_modules/ukitai/apis/Vision.html#IdentifyType.getName"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.IdentifyType.getName" title="永久链接至目标">¶</a></dt>
+<dd><p>模型识别结果类别名称</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.MaskIdentifyResult">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">MaskIdentifyResult</code><a class="reference internal" href="_modules/ukitai/apis/Vision.html#MaskIdentifyResult"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.MaskIdentifyResult" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Vision.IdentifyResultType" title="ukitai.apis.Vision.IdentifyResultType"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Vision.IdentifyResultType</span></code></a></p>
+<p>口罩识别结果</p>
+<p>NO_WARE_MASK: 没戴口罩</p>
+<p>WARE_MASK: 戴口罩</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.ModelToysIdentifyResult">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">ModelToysIdentifyResult</code><a class="reference internal" href="_modules/ukitai/apis/Vision.html#ModelToysIdentifyResult"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.ModelToysIdentifyResult" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Vision.IdentifyResultType" title="ukitai.apis.Vision.IdentifyResultType"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Vision.IdentifyResultType</span></code></a></p>
+<p>模型小车小人识别结果</p>
+<p>CAR: 模型小车</p>
+<p>ROBOT: 模型小人</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.TrafficIdentifyResult">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">TrafficIdentifyResult</code><a class="reference internal" href="_modules/ukitai/apis/Vision.html#TrafficIdentifyResult"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.TrafficIdentifyResult" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Vision.IdentifyResultType" title="ukitai.apis.Vision.IdentifyResultType"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Vision.IdentifyResultType</span></code></a></p>
+<p>交通模型识别结果</p>
+<p>TURN_LEFT: 左转</p>
+<p>TURN_RIGHT: 右转</p>
+<p>NO_LONG_PARKING: 禁止长时间停车</p>
+<p>WHISTLE: 鸣笛</p>
+<p>ENTER_TUNNEL: 进入隧道</p>
+<p>CHILDREN: 注意儿童</p>
+<p>RED_LIGHT: 红灯</p>
+<p>GREEN_LIGHT: 绿灯</p>
+<p>YELLOW_LIGHT: 黄灯</p>
+<p>STOP_LINE: 停止线</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.TrafficLightIdentifyResult">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">TrafficLightIdentifyResult</code><a class="reference internal" href="_modules/ukitai/apis/Vision.html#TrafficLightIdentifyResult"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.TrafficLightIdentifyResult" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Vision.IdentifyResultType" title="ukitai.apis.Vision.IdentifyResultType"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Vision.IdentifyResultType</span></code></a></p>
+<p>模型红绿灯识别结果</p>
+<p>RED: 模型红灯</p>
+<p>GREEN: 模型绿灯</p>
+<p>YELLOW: 模型黄灯</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Vision.VisionModel">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Vision.</code><code class="descname">VisionModel</code><a class="reference internal" href="_modules/ukitai/apis/Vision.html#VisionModel"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.VisionModel" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>模型定义</p>
+<p>TRAFFIC: 交通模型</p>
+<p>FACE: 人脸识别</p>
+<p>FACE_COUNT: 人脸数量</p>
+<p>GENDER: 性别</p>
+<p>MASK: 口罩</p>
+<p>EMOTION: 情绪</p>
+<p>GESTURE: 手势</p>
+<p>MODEL_TOYS: 模型小车小人</p>
+<p>TRAFFIC_LIGHT_MODEL: 模型红绿灯</p>
+<p>GARBAGE: 垃圾</p>
+<p>HANDWRITTEN_DIGIT: 数字</p>
+<p>HANDWRITTEN_LETTER: 字母</p>
+<p>COLOR: 指定识别物颜色识别</p>
+<p>CUSTOM_COLOR: 自定义颜色识别</p>
+<p>CUSTOM_AI_MODULE: 在线识别</p>
+<p>LOCAL_CUSTOM_MODEL: 本地自定义模型</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.color_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">color_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#color_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.color_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>颜色识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的颜色信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.custom_color_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">custom_color_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#custom_color_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.custom_color_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>自定义颜色识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的自定义颜色信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.emotion_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">emotion_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#emotion_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.emotion_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>情绪识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的情绪信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.face_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">face_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#face_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.face_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>人脸识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的人脸信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.face_num_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">face_num_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/ukitai/apis/Vision.html#face_num_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.face_num_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>人脸数量识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(int): 识别到的人脸数量，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.garbage_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">garbage_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#garbage_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.garbage_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>垃圾识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的垃圾信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.gender_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">gender_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#gender_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.gender_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>性别识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的性别信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.gesture_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">gesture_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#gesture_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.gesture_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>手势识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的手势信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.get_mid_offset">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">get_mid_offset</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/ukitai/apis/Vision.html#get_mid_offset"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.get_mid_offset" title="永久链接至目标">¶</a></dt>
+<dd><p>获取中部偏移量</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(int): 中部偏移量，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.handwritten_digit_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">handwritten_digit_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#handwritten_digit_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.handwritten_digit_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>手写数字识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的手写数字信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.handwritten_letter_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">handwritten_letter_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#handwritten_letter_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.handwritten_letter_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>手写字母识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的手写字母信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.mask_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">mask_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#mask_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.mask_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>口罩识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的口罩信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.model_toys_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">model_toys_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#model_toys_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.model_toys_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>模型小车小人识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的模型小车小人信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.traffic_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">traffic_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#traffic_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.traffic_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>交通标志识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的交通标志，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Vision.traffic_light_identify">
+<code class="descclassname">ukitai.apis.Vision.</code><code class="descname">traffic_light_identify</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; list<a class="reference internal" href="_modules/ukitai/apis/Vision.html#traffic_light_identify"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Vision.traffic_light_identify" title="永久链接至目标">¶</a></dt>
+<dd><p>模型红绿灯识别</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(list): IdentifyResult数组，包含所有识别到的模型红绿灯信息，接口调用失败则返回None</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="links.html" class="btn btn-neutral float-right" title="设备连接模块" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="ukitai.apis.Screen.html" class="btn btn-neutral float-left" title="显示屏" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

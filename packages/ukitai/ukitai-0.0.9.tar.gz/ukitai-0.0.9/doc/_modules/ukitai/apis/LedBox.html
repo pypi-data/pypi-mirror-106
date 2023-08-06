@@ -1,0 +1,417 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>ukitai.apis.LedBox &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../../',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules.html">所有模块</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html">模块代码</a> &raquo;</li>
+        
+      <li>ukitai.apis.LedBox</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>ukitai.apis.LedBox 源代码</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">ukitai.link</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.common</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.protos</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.apis</span> <span class="kn">import</span> <span class="o">*</span>
+
+
+<div class="viewcode-block" id="Scene"><a class="viewcode-back" href="../../../ukitai.apis.LedBox.html#ukitai.apis.LedBox.Scene">[文档]</a><span class="k">class</span> <span class="nc">Scene</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;场景定义</span>
+
+<span class="sd">    COLORED_LIGHTS: 跑马灯</span>
+
+<span class="sd">    DISCO: Disco</span>
+
+<span class="sd">    PRIMARY_COLOR: 三原色</span>
+
+<span class="sd">    COLOR_STACKING: 色彩堆叠</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">COLORED_LIGHTS</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">DISCO</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">PRIMARY_COLOR</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="n">COLOR_STACKING</span> <span class="o">=</span> <span class="mi">3</span></div>
+
+
+<div class="viewcode-block" id="set_lights_brightness"><a class="viewcode-back" href="../../../ukitai.apis.LedBox.html#ukitai.apis.LedBox.set_lights_brightness">[文档]</a><span class="k">def</span> <span class="nf">set_lights_brightness</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">brightness</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;设置灯带亮度</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 灯盒 id</span>
+
+<span class="sd">        brightness (dict): 亮度参数, 型如 {belt_id: brightness}</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">_brightness</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">brightness</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">_brightness</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">&#39;port&#39;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">k</span><span class="p">),</span> <span class="s1">&#39;brightness&#39;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">v</span><span class="p">)})</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;brightness&#39;</span><span class="p">:</span> <span class="n">_brightness</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1003_led_belt_brightness_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1003_led_belt_brightness_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LIGHT_BOX</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1003</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_colors"><a class="viewcode-back" href="../../../ukitai.apis.LedBox.html#ukitai.apis.LedBox.show_colors">[文档]</a><span class="k">def</span> <span class="nf">show_colors</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">colors</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制灯带显示颜色</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 灯盒 id</span>
+
+<span class="sd">        colors (dict): 颜色参数, 型如 {belt_id: (start_beads, end_beads, color)}</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pixel</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">e</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span> <span class="ow">in</span> <span class="n">colors</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">e</span> <span class="o">=</span> <span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">color</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">if</span> <span class="n">c</span><span class="p">:</span>
+            <span class="n">color</span> <span class="o">=</span> <span class="p">(</span><span class="n">c</span><span class="o">.</span><span class="n">color</span> <span class="o">&lt;&lt;</span> <span class="mi">8</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mh">0xFFFFFF00</span>
+        <span class="n">pixel</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">&#39;port&#39;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">k</span><span class="p">),</span> <span class="s1">&#39;start_pixel&#39;</span><span class="p">:</span> <span class="n">s</span><span class="p">,</span> <span class="s1">&#39;end_pixel&#39;</span><span class="p">:</span> <span class="n">e</span><span class="p">,</span> <span class="s1">&#39;rgbc&#39;</span><span class="p">:</span> <span class="n">color</span><span class="p">})</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;pixel&#39;</span><span class="p">:</span> <span class="n">pixel</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1006_led_belt_expressions_continuous_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1006_led_belt_expressions_continuous_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LIGHT_BOX</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1006</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_colors_breath"><a class="viewcode-back" href="../../../ukitai.apis.LedBox.html#ukitai.apis.LedBox.show_colors_breath">[文档]</a><span class="k">def</span> <span class="nf">show_colors_breath</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">colors</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制灯带显示呼吸灯效果颜色</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 灯盒 id</span>
+
+<span class="sd">        colors (dict): 颜色参数, 型如 {belt_id: (start_beads, end_beads, color, time=2000)}</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pixel</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">colors</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">v</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">e</span> <span class="o">=</span> <span class="n">v</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="n">v</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">4</span><span class="p">:</span>
+            <span class="n">t</span> <span class="o">=</span> <span class="n">v</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">t</span> <span class="o">=</span> <span class="mi">2000</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">e</span> <span class="o">=</span> <span class="n">Common</span><span class="o">.</span><span class="n">num_normal</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">color</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">if</span> <span class="n">c</span><span class="p">:</span>
+            <span class="n">color</span> <span class="o">=</span> <span class="p">(</span><span class="n">c</span><span class="o">.</span><span class="n">color</span> <span class="o">&lt;&lt;</span> <span class="mi">8</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mh">0xFFFFFF00</span>
+        <span class="n">pixel</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">&#39;port&#39;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">k</span><span class="p">),</span> <span class="s1">&#39;start_pixel&#39;</span><span class="p">:</span> <span class="n">s</span><span class="p">,</span> <span class="s1">&#39;end_pixel&#39;</span><span class="p">:</span> <span class="n">e</span><span class="p">,</span> <span class="s1">&#39;rgbc&#39;</span><span class="p">:</span> <span class="n">color</span><span class="p">,</span> <span class="s1">&#39;time&#39;</span><span class="p">:</span> <span class="n">t</span><span class="p">})</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;pixel&#39;</span><span class="p">:</span> <span class="n">pixel</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1007_led_belt_expressions_continuous_breath_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1007_led_belt_expressions_continuous_breath_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LIGHT_BOX</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1007</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="move_beads"><a class="viewcode-back" href="../../../ukitai.apis.LedBox.html#ukitai.apis.LedBox.move_beads">[文档]</a><span class="k">def</span> <span class="nf">move_beads</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">move_parameters</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制灯珠移动效果</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 灯盒 id</span>
+
+<span class="sd">        move_parameters (dict): 移动参数, 型如 {belt_id: (count, times)}</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">move</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span> <span class="ow">in</span> <span class="n">move_parameters</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">move</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">&#39;port&#39;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">k</span><span class="p">),</span> <span class="s1">&#39;pixel&#39;</span><span class="p">:</span> <span class="n">c</span><span class="p">,</span> <span class="s1">&#39;time&#39;</span><span class="p">:</span> <span class="n">t</span><span class="p">})</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;move&#39;</span><span class="p">:</span> <span class="n">move</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1005_led_belt_move_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1005_led_belt_move_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LIGHT_BOX</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1005</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="show_scene"><a class="viewcode-back" href="../../../ukitai.apis.LedBox.html#ukitai.apis.LedBox.show_scene">[文档]</a><span class="k">def</span> <span class="nf">show_scene</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">expressions_type</span><span class="p">:</span> <span class="n">Scene</span><span class="p">,</span> <span class="n">times</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">color</span><span class="p">:</span> <span class="n">Color</span><span class="p">,</span> <span class="n">port</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;控制灯带显示场景效果</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 灯盒 id</span>
+
+<span class="sd">        expressions_type (Scene): 表情种类</span>
+
+<span class="sd">        times (int): 显示次数</span>
+
+<span class="sd">        color (Color): 颜色值</span>
+
+<span class="sd">        port (int): belt_id</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">_color</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">if</span> <span class="n">color</span><span class="p">:</span>
+        <span class="n">_color</span> <span class="o">=</span> <span class="p">(</span><span class="n">color</span><span class="o">.</span><span class="n">color</span> <span class="o">&lt;&lt;</span> <span class="mi">8</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mh">0xFFFFFF00</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;expressions_type&#39;</span><span class="p">:</span> <span class="n">expressions_type</span><span class="p">,</span> <span class="s1">&#39;time&#39;</span><span class="p">:</span> <span class="n">times</span><span class="p">,</span> <span class="s1">&#39;port&#39;</span><span class="p">:</span> <span class="n">port</span><span class="p">,</span> <span class="s1">&#39;rgbc&#39;</span><span class="p">:</span> <span class="n">_color</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1002_led_belt_fix_exp_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1002_led_belt_fix_exp_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LIGHT_BOX</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1002</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="turn_off"><a class="viewcode-back" href="../../../ukitai.apis.LedBox.html#ukitai.apis.LedBox.turn_off">[文档]</a><span class="k">def</span> <span class="nf">turn_off</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">belts</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;关闭LED灯盒</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 灯盒 id</span>
+
+<span class="sd">        belts (list): 灯盒端口</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (ack, response): ack: 接口调用结果，response: 接口返回数据</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;port&#39;</span><span class="p">:</span> <span class="n">belts</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1004_led_belt_off_set_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1004_led_belt_off_set_ra</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LIGHT_BOX</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1004</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="read_blet_nums"><a class="viewcode-back" href="../../../ukitai.apis.LedBox.html#ukitai.apis.LedBox.read_blet_nums">[文档]</a><span class="k">def</span> <span class="nf">read_blet_nums</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;获取灯珠个数</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        id: 灯盒 id</span>
+
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (dict): 灯盒下各个端口对应的灯珠个数，读取失败时返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1001_led_belt_leds_num_get_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d1A_LedBelt_pb2</span><span class="o">.</span><span class="n">d1ac1001_led_belt_leds_num_get_ra</span><span class="p">()</span>
+    <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">LIGHT_BOX</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="mi">1001</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ack</span> <span class="o">!=</span> <span class="mi">0</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">response</span><span class="p">:</span>
+        <span class="c1"># 请求失败</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="n">num_lump</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s1">&#39;num_lump&#39;</span><span class="p">)</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
+        <span class="n">result</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">num_lump</span><span class="p">)):</span>
+        <span class="n">result</span><span class="p">[</span><span class="nb">getattr</span><span class="p">(</span><span class="n">num_lump</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="s1">&#39;port&#39;</span><span class="p">)]</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">num_lump</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="s1">&#39;total&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">result</span></div>
+
+
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

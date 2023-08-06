@@ -1,0 +1,7 @@
+显示屏
+----------------------------------
+
+.. automodule:: ukitai.apis.Screen
+    :members:
+    :show-inheritance:
+

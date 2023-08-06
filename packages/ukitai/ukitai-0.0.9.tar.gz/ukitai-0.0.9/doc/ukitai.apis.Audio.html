@@ -1,0 +1,535 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>音频控制 &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="显示屏" href="ukitai.apis.Screen.html" />
+    <link rel="prev" title="LED灯盒" href="ukitai.apis.LedBox.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">所有模块</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="apis.html">接口模块</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Battery.html">电池/电源</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Servo.html">舵机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Motor.html">电机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LedEyes.html">眼灯</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Ultrasonic.html">超声波传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.InfraredSensor.html">红外传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.TouchSensor.html">触碰传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.ColorSensor.html">颜色传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.HumiditySensor.html">温湿度传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LuxSensor.html">亮度传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.SoundSensor.html">声音传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LedBox.html">LED灯盒</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">音频控制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Screen.html">显示屏</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Vision.html">视觉模块</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="links.html">设备连接模块</a></li>
+<li class="toctree-l2"><a class="reference internal" href="common.html">公共基础模块</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">所有模块</a> &raquo;</li>
+        
+          <li><a href="apis.html">接口模块</a> &raquo;</li>
+        
+      <li>音频控制</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ukitai.apis.Audio.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-ukitai.apis.Audio">
+<span id="id1"></span><h1>音频控制<a class="headerlink" href="#module-ukitai.apis.Audio" title="永久链接至标题">¶</a></h1>
+<dl class="class">
+<dt id="ukitai.apis.Audio.Animal">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Audio.</code><code class="descname">Animal</code><a class="reference internal" href="_modules/ukitai/apis/Audio.html#Animal"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.Animal" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Audio.Sound" title="ukitai.apis.Audio.Sound"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Audio.Sound</span></code></a></p>
+<p>动物声音</p>
+<p>ELEPHANT: 大象</p>
+<p>BEAR: 熊</p>
+<p>BIRD: 鸟</p>
+<p>CHICKEN: 鸡</p>
+<p>COW: 牛</p>
+<p>DOG: 狗</p>
+<p>GIRAFFE: 长颈鹿</p>
+<p>HORSE: 马</p>
+<p>LION: 狮子</p>
+<p>MONKEY: 猴子</p>
+<p>PIG: 猪</p>
+<p>RHINO: 犀牛</p>
+<p>SEA_LION: 海狮</p>
+<p>TIGER: 老虎</p>
+<p>WALRUS: 海象</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Audio.Beat">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Audio.</code><code class="descname">Beat</code><a class="reference internal" href="_modules/ukitai/apis/Audio.html#Beat"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.Beat" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>节拍</p>
+<p>EIGHTH: 1/8拍</p>
+<p>QUARTER: 1/4拍</p>
+<p>HALF: 1/2拍</p>
+<p>ONE: 1拍</p>
+<p>DOUBLE: 2拍</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Audio.Command">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Audio.</code><code class="descname">Command</code><a class="reference internal" href="_modules/ukitai/apis/Audio.html#Command"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.Command" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Audio.Sound" title="ukitai.apis.Audio.Sound"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Audio.Sound</span></code></a></p>
+<p>命令声音</p>
+<p>OBEY: 遵命</p>
+<p>RECEIVED: 收到</p>
+<p>COMPLETE: 完成</p>
+<p>TRANSFORM: 变身</p>
+<p>COVER: 掩护</p>
+<p>SUPPORT: 支援</p>
+<p>MOVE: 移动</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Audio.Emotion">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Audio.</code><code class="descname">Emotion</code><a class="reference internal" href="_modules/ukitai/apis/Audio.html#Emotion"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.Emotion" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Audio.Sound" title="ukitai.apis.Audio.Sound"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Audio.Sound</span></code></a></p>
+<p>情绪声音</p>
+<p>HAPPY: 高兴</p>
+<p>SURPRISED: 惊讶</p>
+<p>CHEERFUL: 愉快</p>
+<p>TEARS: 热泪盈眶</p>
+<p>SOLILOQUY: 呓语</p>
+<p>SNORING: 呼噜</p>
+<p>YAWN: 哈欠</p>
+<p>DOUBT: 疑问</p>
+<p>ANGRY: 生气</p>
+<p>UPSET: 失落</p>
+<p>FRUSTRATED: 失败</p>
+<p>MUSIC1: 歌曲1</p>
+<p>MUSIC2: 歌曲2</p>
+<p>MUSIC3: 歌曲3</p>
+<p>MUSIC4: 歌曲4</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Audio.Machine">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Audio.</code><code class="descname">Machine</code><a class="reference internal" href="_modules/ukitai/apis/Audio.html#Machine"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.Machine" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#ukitai.apis.Audio.Sound" title="ukitai.apis.Audio.Sound"><code class="xref py py-class docutils literal"><span class="pre">ukitai.apis.Audio.Sound</span></code></a></p>
+<p>机器声音</p>
+<p>AMBULANCE: 救护车</p>
+<p>BUSY: 忙音</p>
+<p>CAR_HORN1: 汽车喇叭1</p>
+<p>CAR_HORN2: 汽车喇叭2</p>
+<p>DOORBELL: 门铃</p>
+<p>ENGINE: 引擎</p>
+<p>LASER: 激光</p>
+<p>MEEBOT: 小黄人</p>
+<p>POLICE_CAR1: 警车1</p>
+<p>POLICE_CAR2: 警车2</p>
+<p>INCOMING_CALL: 来电铃声</p>
+<p>ROBOT: 机器人</p>
+<p>OUTGOING_CALL: 电话呼叫</p>
+<p>TOUCH_TONE: 按键音</p>
+<p>WAVE: 电波</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Audio.Sound">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Audio.</code><code class="descname">Sound</code><a class="reference internal" href="_modules/ukitai/apis/Audio.html#Sound"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.Sound" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>An enumeration.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Audio.Tone">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Audio.</code><code class="descname">Tone</code><a class="reference internal" href="_modules/ukitai/apis/Audio.html#Tone"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.Tone" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>音调</p>
+<p>C5, D5, E5, F5, G5, A5, B5, C6</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.Audio.Volume">
+<em class="property">class </em><code class="descclassname">ukitai.apis.Audio.</code><code class="descname">Volume</code><a class="reference internal" href="_modules/ukitai/apis/Audio.html#Volume"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.Volume" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>音量等级</p>
+<p>MINIMUM: 最低音量</p>
+<p>LOW: 低音量</p>
+<p>MEDIUM: 中等音量</p>
+<p>HIGH: 高音量</p>
+<p>MAXIMUM: 最高音量</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Audio.play_record">
+<code class="descclassname">ukitai.apis.Audio.</code><code class="descname">play_record</code><span class="sig-paren">(</span><em>*</em>, <em>name: str</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Audio.html#play_record"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.play_record" title="永久链接至目标">¶</a></dt>
+<dd><p>控制主控以指定节拍播放指定音调</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">name: 录音名称</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+<dt>示例:</dt>
+<dd><p class="first"># 播放录音 &#8220;录音文件1&#8221;, 不等待播放结束</p>
+<p>Audio.play_record(name=&#8221;录音文件1&#8221;, link=link)</p>
+<p># 播放录音 &#8220;aaa&#8221;</p>
+<p class="last">Audio.play_record(name=&#8221;aaa&#8221;, link=link)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Audio.play_sound">
+<code class="descclassname">ukitai.apis.Audio.</code><code class="descname">play_sound</code><span class="sig-paren">(</span><em>*</em>, <em>sound: ukitai.apis.Audio.Sound</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Audio.html#play_sound"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.play_sound" title="永久链接至目标">¶</a></dt>
+<dd><p>控制主控以指定节拍播放指定音调</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">sound: 音效, 定义在 Audio.Sound 中</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+<dt>示例:</dt>
+<dd><p class="first"># 以 1/2 节拍播放 C6 音调</p>
+<p>Audio.play_sound(sound=Audio.Animal.ELEPHANT, link=link)</p>
+<p># 以 1 节拍播放 C5 音调</p>
+<p class="last">Audio.play_sound(sound=Audio.Emotion.CHEERFUL, link=link)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Audio.play_tone">
+<code class="descclassname">ukitai.apis.Audio.</code><code class="descname">play_tone</code><span class="sig-paren">(</span><em>*</em>, <em>tone: ukitai.apis.Audio.Tone</em>, <em>beat: ukitai.apis.Audio.Beat</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Audio.html#play_tone"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.play_tone" title="永久链接至目标">¶</a></dt>
+<dd><p>控制主控以指定节拍播放指定音调</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">tone: 音调, 定义在 Audio.Tone 中</p>
+<p>beat: 节拍, 定义在 Audio.Beat 中</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+<dt>示例:</dt>
+<dd><p class="first"># 以 1/2 节拍播放 C6 音调</p>
+<p>Audio.play_tone(tone=Audio.Tone.C6, beat=Audio.Beat.HALF, link=link)</p>
+<p># 以 1 节拍播放 C5 音调</p>
+<p class="last">Audio.play_tone(tone=Audio.Tone.C5, beat=Audio.Beat.ONE, link=link)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Audio.play_tts">
+<code class="descclassname">ukitai.apis.Audio.</code><code class="descname">play_tts</code><span class="sig-paren">(</span><em>*</em>, <em>content: str</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Audio.html#play_tts"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.play_tts" title="永久链接至目标">¶</a></dt>
+<dd><p>停止播放声音</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">content: 播放文本内容</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Audio.read_asr">
+<code class="descclassname">ukitai.apis.Audio.</code><code class="descname">read_asr</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Audio.html#read_asr"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.read_asr" title="永久链接至目标">¶</a></dt>
+<dd><p>读取asr结果</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(str): 当前听到的asr结果，读取失败时返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Audio.read_record_nums">
+<code class="descclassname">ukitai.apis.Audio.</code><code class="descname">read_record_nums</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Audio.html#read_record_nums"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.read_record_nums" title="永久链接至目标">¶</a></dt>
+<dd><p>获取录音文件个数</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(int): 录音文件个数，读取失败时返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Audio.read_records">
+<code class="descclassname">ukitai.apis.Audio.</code><code class="descname">read_records</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; dict<a class="reference internal" href="_modules/ukitai/apis/Audio.html#read_records"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.read_records" title="永久链接至目标">¶</a></dt>
+<dd><p>获取录音列表</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(dist): 录音文件列表以及对应的录音时长，读取失败时返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Audio.read_voice_direction">
+<code class="descclassname">ukitai.apis.Audio.</code><code class="descname">read_voice_direction</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Audio.html#read_voice_direction"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.read_voice_direction" title="永久链接至目标">¶</a></dt>
+<dd><p>读取当前声源方位</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd><p class="first">(int): 当前声源方位</p>
+<p>None: 读取失败</p>
+<p>0: 没有声音或者超出有效范围</p>
+<p>1: 中间，声源方位角在区间范围 [75, 105]</p>
+<p>2: 左边，声源方位角在区间范围 [0, 75)</p>
+<p class="last">3: 右边，声源方位角在区间范围 (105, 180]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Audio.read_volume">
+<code class="descclassname">ukitai.apis.Audio.</code><code class="descname">read_volume</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Audio.html#read_volume"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.read_volume" title="永久链接至目标">¶</a></dt>
+<dd><p>读取当前音量等级</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(int): 当前音量等级，读取失败时返回None</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Audio.set_volume">
+<code class="descclassname">ukitai.apis.Audio.</code><code class="descname">set_volume</code><span class="sig-paren">(</span><em>*</em>, <em>volume: ukitai.apis.Audio.Volume</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/Audio.html#set_volume"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.set_volume" title="永久链接至目标">¶</a></dt>
+<dd><p>设置音量等级</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">volume: 音量等级</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.Audio.stop_play">
+<code class="descclassname">ukitai.apis.Audio.</code><code class="descname">stop_play</code><span class="sig-paren">(</span><em>*</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span> &#x2192; dict<a class="reference internal" href="_modules/ukitai/apis/Audio.html#stop_play"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.Audio.stop_play" title="永久链接至目标">¶</a></dt>
+<dd><p>停止播放声音</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd>link: 设备连接</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="ukitai.apis.Screen.html" class="btn btn-neutral float-right" title="显示屏" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="ukitai.apis.LedBox.html" class="btn btn-neutral float-left" title="LED灯盒" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

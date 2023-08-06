@@ -1,0 +1,7 @@
+颜色传感器
+----------------------------------
+
+.. automodule:: ukitai.apis.ColorSensor
+    :members:
+    :show-inheritance:
+

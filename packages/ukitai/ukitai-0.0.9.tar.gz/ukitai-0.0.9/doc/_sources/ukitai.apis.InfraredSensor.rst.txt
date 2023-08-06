@@ -1,0 +1,7 @@
+红外传感器
+----------------------------------
+
+.. automodule:: ukitai.apis.InfraredSensor
+    :members:
+    :show-inheritance:
+

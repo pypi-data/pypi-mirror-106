@@ -1,0 +1,357 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>眼灯 &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="超声波传感器" href="ukitai.apis.Ultrasonic.html" />
+    <link rel="prev" title="电机" href="ukitai.apis.Motor.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">所有模块</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="apis.html">接口模块</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Battery.html">电池/电源</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Servo.html">舵机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Motor.html">电机</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">眼灯</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Ultrasonic.html">超声波传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.InfraredSensor.html">红外传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.TouchSensor.html">触碰传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.ColorSensor.html">颜色传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.HumiditySensor.html">温湿度传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LuxSensor.html">亮度传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.SoundSensor.html">声音传感器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.LedBox.html">LED灯盒</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Audio.html">音频控制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Screen.html">显示屏</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ukitai.apis.Vision.html">视觉模块</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="links.html">设备连接模块</a></li>
+<li class="toctree-l2"><a class="reference internal" href="common.html">公共基础模块</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">所有模块</a> &raquo;</li>
+        
+          <li><a href="apis.html">接口模块</a> &raquo;</li>
+        
+      <li>眼灯</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ukitai.apis.LedEyes.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-ukitai.apis.LedEyes">
+<span id="id1"></span><h1>眼灯<a class="headerlink" href="#module-ukitai.apis.LedEyes" title="永久链接至标题">¶</a></h1>
+<dl class="class">
+<dt id="ukitai.apis.LedEyes.Emotion">
+<em class="property">class </em><code class="descclassname">ukitai.apis.LedEyes.</code><code class="descname">Emotion</code><a class="reference internal" href="_modules/ukitai/apis/LedEyes.html#Emotion"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.LedEyes.Emotion" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>表情定义</p>
+<p>BLINK: 眨眼</p>
+<p>SHY: 害羞</p>
+<p>TEARS: 热泪盈眶</p>
+<p>FLASHING_TEARS: 泪光闪动</p>
+<p>CRY: 哭泣</p>
+<p>DIZZY: 晕</p>
+<p>HAPPY: 开心</p>
+<p>SURPRISED: 惊讶</p>
+<p>BREATH: 呼吸</p>
+<p>FLASH: 闪烁</p>
+<p>FAN: 风扇</p>
+<p>WIPERS: 雨刮</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="ukitai.apis.LedEyes.Scene">
+<em class="property">class </em><code class="descclassname">ukitai.apis.LedEyes.</code><code class="descname">Scene</code><a class="reference internal" href="_modules/ukitai/apis/LedEyes.html#Scene"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.LedEyes.Scene" title="永久链接至目标">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(在 Python v3.9)"><code class="xref py py-class docutils literal"><span class="pre">enum.Enum</span></code></a></p>
+<p>场景定义</p>
+<p>COLORED_LIGHTS: 七彩跑马灯</p>
+<p>DISCO: Disco</p>
+<p>PRIMARY_COLOR: 三原色</p>
+<p>COLOR_STACKING: 色彩堆叠</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.LedEyes.set_state">
+<code class="descclassname">ukitai.apis.LedEyes.</code><code class="descname">set_state</code><span class="sig-paren">(</span><em>*</em>, <em>id: int</em>, <em>enabled: bool</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/LedEyes.html#set_state"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.LedEyes.set_state" title="永久链接至目标">¶</a></dt>
+<dd><p>打开/关闭眼灯功能</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">id: 传感器 id</p>
+<p>enabled: True=开打眼灯功能，False=关闭眼灯功能</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.LedEyes.show_custom_light">
+<code class="descclassname">ukitai.apis.LedEyes.</code><code class="descname">show_custom_light</code><span class="sig-paren">(</span><em>*</em>, <em>id: int</em>, <em>colors: list</em>, <em>time: int</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/LedEyes.html#show_custom_light"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.LedEyes.show_custom_light" title="永久链接至目标">¶</a></dt>
+<dd><p>自定义灯光颜色</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">id: 传感器 id</p>
+<p>colors (list): 每一个灯瓣颜色，长度为8</p>
+<p>time (int): 亮灯时间</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.LedEyes.show_emotion">
+<code class="descclassname">ukitai.apis.LedEyes.</code><code class="descname">show_emotion</code><span class="sig-paren">(</span><em>*</em>, <em>id: int</em>, <em>emotion: ukitai.apis.LedEyes.Emotion</em>, <em>color: &lt;module 'ukitai.common.Color' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/common/Color.py'&gt;</em>, <em>times: int</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/LedEyes.html#show_emotion"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.LedEyes.show_emotion" title="永久链接至目标">¶</a></dt>
+<dd><p>显示表情控制</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">id: 传感器 id</p>
+<p>emotion (Emotion): 表情id</p>
+<p>color (Color): 颜色值</p>
+<p>times (int): 重复次数</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.LedEyes.show_scene">
+<code class="descclassname">ukitai.apis.LedEyes.</code><code class="descname">show_scene</code><span class="sig-paren">(</span><em>*</em>, <em>id: int</em>, <em>scene: ukitai.apis.LedEyes.Scene</em>, <em>times: int</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/LedEyes.html#show_scene"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.LedEyes.show_scene" title="永久链接至目标">¶</a></dt>
+<dd><p>显示场景效果</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">id: 传感器 id</p>
+<p>scene (Scene): 场景id</p>
+<p>times (int): 重复次数</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="ukitai.apis.LedEyes.turn_off">
+<code class="descclassname">ukitai.apis.LedEyes.</code><code class="descname">turn_off</code><span class="sig-paren">(</span><em>*</em>, <em>id: int</em>, <em>link: &lt;module 'ukitai.link.uKitAiLink' from '/home/naoki/app/Workspace/ukitai-sdk/ukitai/link/uKitAiLink.py'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ukitai/apis/LedEyes.html#turn_off"><span class="viewcode-link">[源代码]</span></a><a class="headerlink" href="#ukitai.apis.LedEyes.turn_off" title="永久链接至目标">¶</a></dt>
+<dd><p>关闭灯光</p>
+<dl class="docutils">
+<dt>参数值说明:</dt>
+<dd><p class="first">id: 传感器 id</p>
+<p class="last">link: 设备连接</p>
+</dd>
+<dt>返回值说明:</dt>
+<dd>(ack, response): ack: 接口调用结果，response: 接口返回数据</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="ukitai.apis.Ultrasonic.html" class="btn btn-neutral float-right" title="超声波传感器" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="ukitai.apis.Motor.html" class="btn btn-neutral float-left" title="电机" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

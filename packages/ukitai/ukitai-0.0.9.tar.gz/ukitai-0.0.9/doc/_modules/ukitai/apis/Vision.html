@@ -1,0 +1,879 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>ukitai.apis.Vision &mdash; uKitAi Python SDK 0.0.9 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../../',
+              VERSION:'0.0.9',
+              LANGUAGE:'zh_cn',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> uKitAi Python SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules.html">所有模块</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">uKitAi Python SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html">模块代码</a> &raquo;</li>
+        
+      <li>ukitai.apis.Vision</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>ukitai.apis.Vision 源代码</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">enum</span> <span class="kn">import</span> <span class="n">Enum</span>
+
+<span class="kn">from</span> <span class="nn">ukitai.common</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.link</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.protos</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">ukitai.apis</span> <span class="kn">import</span> <span class="o">*</span>
+
+
+<div class="viewcode-block" id="VisionModel"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.VisionModel">[文档]</a><span class="k">class</span> <span class="nc">VisionModel</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;模型定义</span>
+
+<span class="sd">    TRAFFIC: 交通模型</span>
+
+<span class="sd">    FACE: 人脸识别</span>
+
+<span class="sd">    FACE_COUNT: 人脸数量</span>
+
+<span class="sd">    GENDER: 性别</span>
+
+<span class="sd">    MASK: 口罩</span>
+
+<span class="sd">    EMOTION: 情绪</span>
+
+<span class="sd">    GESTURE: 手势</span>
+
+<span class="sd">    MODEL_TOYS: 模型小车小人</span>
+
+<span class="sd">    TRAFFIC_LIGHT_MODEL: 模型红绿灯</span>
+
+<span class="sd">    GARBAGE: 垃圾</span>
+
+<span class="sd">    HANDWRITTEN_DIGIT: 数字</span>
+
+<span class="sd">    HANDWRITTEN_LETTER: 字母</span>
+
+<span class="sd">    COLOR: 指定识别物颜色识别</span>
+
+<span class="sd">    CUSTOM_COLOR: 自定义颜色识别</span>
+
+<span class="sd">    CUSTOM_AI_MODULE: 在线识别</span>
+
+<span class="sd">    LOCAL_CUSTOM_MODEL: 本地自定义模型</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">TRAFFIC</span> <span class="o">=</span> <span class="mh">0x00</span>
+    <span class="n">FACE</span> <span class="o">=</span> <span class="mh">0x01</span>
+    <span class="n">FACE_COUNT</span> <span class="o">=</span> <span class="mh">0x0D</span>
+    <span class="n">GENDER</span> <span class="o">=</span> <span class="mh">0x02</span>
+    <span class="n">MASK</span> <span class="o">=</span> <span class="mh">0x03</span>
+    <span class="n">EMOTION</span> <span class="o">=</span> <span class="mh">0x04</span>
+    <span class="n">GESTURE</span> <span class="o">=</span> <span class="mh">0x05</span>
+    <span class="n">MODEL_TOYS</span> <span class="o">=</span> <span class="mh">0x07</span>
+    <span class="n">TRAFFIC_LIGHT_MODEL</span> <span class="o">=</span> <span class="mh">0x08</span>
+    <span class="n">GARBAGE</span> <span class="o">=</span> <span class="mh">0x06</span>
+    <span class="n">HANDWRITTEN_DIGIT</span> <span class="o">=</span> <span class="mh">0x09</span>
+    <span class="n">HANDWRITTEN_LETTER</span> <span class="o">=</span> <span class="mh">0x0A</span>
+    <span class="n">COLOR</span> <span class="o">=</span> <span class="mh">0x0B</span>
+    <span class="n">CUSTOM_COLOR</span> <span class="o">=</span> <span class="mh">0x0C</span>
+    <span class="n">CUSTOM_AI_MODULE</span> <span class="o">=</span> <span class="mh">0x80</span>
+    <span class="n">LOCAL_CUSTOM_MODEL</span> <span class="o">=</span> <span class="mh">0x0E</span></div>
+
+
+<div class="viewcode-block" id="IdentifyResultType"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyResultType">[文档]</a><span class="k">class</span> <span class="nc">IdentifyResultType</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="k">pass</span></div>
+
+
+<div class="viewcode-block" id="TrafficIdentifyResult"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.TrafficIdentifyResult">[文档]</a><span class="k">class</span> <span class="nc">TrafficIdentifyResult</span><span class="p">(</span><span class="n">IdentifyResultType</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;交通模型识别结果</span>
+
+<span class="sd">    TURN_LEFT: 左转</span>
+
+<span class="sd">    TURN_RIGHT: 右转</span>
+
+<span class="sd">    NO_LONG_PARKING: 禁止长时间停车</span>
+
+<span class="sd">    WHISTLE: 鸣笛</span>
+
+<span class="sd">    ENTER_TUNNEL: 进入隧道</span>
+
+<span class="sd">    CHILDREN: 注意儿童</span>
+
+<span class="sd">    RED_LIGHT: 红灯</span>
+
+<span class="sd">    GREEN_LIGHT: 绿灯</span>
+
+<span class="sd">    YELLOW_LIGHT: 黄灯</span>
+
+<span class="sd">    STOP_LINE: 停止线</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">TURN_LEFT</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">)</span>
+    <span class="n">TURN_RIGHT</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x01</span><span class="p">)</span>
+    <span class="n">NO_LONG_PARKING</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x02</span><span class="p">)</span>
+    <span class="n">WHISTLE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x03</span><span class="p">)</span>
+    <span class="n">ENTER_TUNNEL</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x04</span><span class="p">)</span>
+    <span class="n">CHILDREN</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x05</span><span class="p">)</span>
+    <span class="n">RED_LIGHT</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x06</span><span class="p">)</span>
+    <span class="n">GREEN_LIGHT</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x07</span><span class="p">)</span>
+    <span class="n">YELLOW_LIGHT</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x08</span><span class="p">)</span>
+    <span class="n">STOP_LINE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x09</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="GenderIdentifyResult"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.GenderIdentifyResult">[文档]</a><span class="k">class</span> <span class="nc">GenderIdentifyResult</span><span class="p">(</span><span class="n">IdentifyResultType</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;性别识别结果</span>
+
+<span class="sd">    MAN: 男</span>
+
+<span class="sd">    WOMAN: 女</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">MAN</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">)</span>
+    <span class="n">WOMAN</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x01</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="MaskIdentifyResult"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.MaskIdentifyResult">[文档]</a><span class="k">class</span> <span class="nc">MaskIdentifyResult</span><span class="p">(</span><span class="n">IdentifyResultType</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;口罩识别结果</span>
+
+<span class="sd">    NO_WARE_MASK: 没戴口罩</span>
+
+<span class="sd">    WARE_MASK: 戴口罩</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">NO_WARE_MASK</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">)</span>
+    <span class="n">WARE_MASK</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x02</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="EmotionIdentifyResult"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.EmotionIdentifyResult">[文档]</a><span class="k">class</span> <span class="nc">EmotionIdentifyResult</span><span class="p">(</span><span class="n">IdentifyResultType</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;情绪识别结果</span>
+
+<span class="sd">    HAPPY: 开心</span>
+
+<span class="sd">    CALM: 平静</span>
+
+<span class="sd">    ANGRY: 生气</span>
+
+<span class="sd">    SURPRISED: 惊讶</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">HAPPY</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">)</span>
+    <span class="n">CALM</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x01</span><span class="p">)</span>
+    <span class="n">ANGRY</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x02</span><span class="p">)</span>
+    <span class="n">SURPRISED</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x03</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="GestureIdentifyResult"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.GestureIdentifyResult">[文档]</a><span class="k">class</span> <span class="nc">GestureIdentifyResult</span><span class="p">(</span><span class="n">IdentifyResultType</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;手势识别结果</span>
+
+<span class="sd">    OK: OK</span>
+
+<span class="sd">    ROCK: 石头</span>
+
+<span class="sd">    SCISSORS: 剪刀</span>
+
+<span class="sd">    CLOTH: 布</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">OK</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x03</span><span class="p">)</span>
+    <span class="n">ROCK</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x04</span><span class="p">)</span>
+    <span class="n">SCISSORS</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x05</span><span class="p">)</span>
+    <span class="n">CLOTH</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x06</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="ModelToysIdentifyResult"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.ModelToysIdentifyResult">[文档]</a><span class="k">class</span> <span class="nc">ModelToysIdentifyResult</span><span class="p">(</span><span class="n">IdentifyResultType</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;模型小车小人识别结果</span>
+
+<span class="sd">    CAR: 模型小车</span>
+
+<span class="sd">    ROBOT: 模型小人</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">CAR</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">)</span>
+    <span class="n">ROBOT</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x01</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="TrafficLightIdentifyResult"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.TrafficLightIdentifyResult">[文档]</a><span class="k">class</span> <span class="nc">TrafficLightIdentifyResult</span><span class="p">(</span><span class="n">IdentifyResultType</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;模型红绿灯识别结果</span>
+
+<span class="sd">    RED: 模型红灯</span>
+
+<span class="sd">    GREEN: 模型绿灯</span>
+
+<span class="sd">    YELLOW: 模型黄灯</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">RED</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">)</span>
+    <span class="n">GREEN</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x01</span><span class="p">)</span>
+    <span class="n">YELLOW</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x02</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="GarbageIdentifyResult"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.GarbageIdentifyResult">[文档]</a><span class="k">class</span> <span class="nc">GarbageIdentifyResult</span><span class="p">(</span><span class="n">IdentifyResultType</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;垃圾识别结果</span>
+
+<span class="sd">    BONE: 吃剩的大棒骨</span>
+
+<span class="sd">    PAPER: 废纸团</span>
+
+<span class="sd">    CANDY: 塑料包装纸</span>
+
+<span class="sd">    DURIAN: 榴莲壳</span>
+
+<span class="sd">    USED_TISSUE: 用过的纸巾</span>
+
+<span class="sd">    BOOK: 废弃书本</span>
+
+<span class="sd">    BOTTLE: 塑胶瓶</span>
+
+<span class="sd">    CARTON: 纸盒</span>
+
+<span class="sd">    CLEAN_BOTTLE: 干净的矿泉水瓶</span>
+
+<span class="sd">    METAL_TABLEWARE: 金属餐具</span>
+
+<span class="sd">    CHICKEN: 鸡骨头</span>
+
+<span class="sd">    KIWI: 猕猴桃皮</span>
+
+<span class="sd">    APPLE: 苹果核</span>
+
+<span class="sd">    BREAD: 剩饼干</span>
+
+<span class="sd">    BANANA: 香蕉皮</span>
+
+<span class="sd">    TEA: 碎茶叶</span>
+
+<span class="sd">    MELON: 西瓜皮</span>
+
+<span class="sd">    FISH: 吃剩的鱼骨头</span>
+
+<span class="sd">    CELL: 废旧干电池</span>
+
+<span class="sd">    CAPSULE: 过期药片</span>
+
+<span class="sd">    BULB: 坏灯泡</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">BONE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">)</span>
+    <span class="n">PAPER</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x01</span><span class="p">)</span>
+    <span class="n">CANDY</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x02</span><span class="p">)</span>
+    <span class="n">DURIAN</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x03</span><span class="p">)</span>
+    <span class="n">USED_TISSUE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x04</span><span class="p">)</span>
+    <span class="n">BOOK</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x02</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">)</span>
+    <span class="n">BOTTLE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x02</span><span class="p">,</span> <span class="mh">0x01</span><span class="p">)</span>
+    <span class="n">CARTON</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x02</span><span class="p">,</span> <span class="mh">0x02</span><span class="p">)</span>
+    <span class="n">CLEAN_BOTTLE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x02</span><span class="p">,</span> <span class="mh">0x03</span><span class="p">)</span>
+    <span class="n">METAL_TABLEWARE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x02</span><span class="p">,</span> <span class="mh">0x04</span><span class="p">)</span>
+    <span class="n">CHICKEN</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x03</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">)</span>
+    <span class="n">KIWI</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x03</span><span class="p">,</span> <span class="mh">0x01</span><span class="p">)</span>
+    <span class="n">APPLE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x03</span><span class="p">,</span> <span class="mh">0x02</span><span class="p">)</span>
+    <span class="n">BREAD</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x03</span><span class="p">,</span> <span class="mh">0x03</span><span class="p">)</span>
+    <span class="n">BANANA</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x03</span><span class="p">,</span> <span class="mh">0x04</span><span class="p">)</span>
+    <span class="n">TEA</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x03</span><span class="p">,</span> <span class="mh">0x05</span><span class="p">)</span>
+    <span class="n">MELON</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x03</span><span class="p">,</span> <span class="mh">0x06</span><span class="p">)</span>
+    <span class="n">FISH</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x03</span><span class="p">,</span> <span class="mh">0x07</span><span class="p">)</span>
+    <span class="n">CELL</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x04</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">)</span>
+    <span class="n">CAPSULE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x04</span><span class="p">,</span> <span class="mh">0x01</span><span class="p">)</span>
+    <span class="n">BULB</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x04</span><span class="p">,</span> <span class="mh">0x02</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="ColorIdentifyResult"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.ColorIdentifyResult">[文档]</a><span class="k">class</span> <span class="nc">ColorIdentifyResult</span><span class="p">(</span><span class="n">IdentifyResultType</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;颜色识别结果</span>
+
+<span class="sd">    RED: 红色</span>
+
+<span class="sd">    ORANGE: 橙色</span>
+
+<span class="sd">    YELLOW: 黄色</span>
+
+<span class="sd">    GREEN: 绿色</span>
+
+<span class="sd">    BLUE: 蓝色</span>
+
+<span class="sd">    PURPLE: 紫色</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">RED</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">)</span>
+    <span class="n">ORANGE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x01</span><span class="p">)</span>
+    <span class="n">YELLOW</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x02</span><span class="p">)</span>
+    <span class="n">GREEN</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x03</span><span class="p">)</span>
+    <span class="n">BLUE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x04</span><span class="p">)</span>
+    <span class="n">PURPLE</span> <span class="o">=</span> <span class="p">(</span><span class="mh">0x01</span><span class="p">,</span> <span class="mh">0x05</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="IdentifyType"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyType">[文档]</a><span class="k">class</span> <span class="nc">IdentifyType</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;模型识别结果所属类别&quot;&quot;&quot;</span>
+    <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">_name</span><span class="p">:</span> <span class="nb">str</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_id</span> <span class="o">=</span> <span class="n">_id</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_name</span> <span class="o">=</span> <span class="n">_name</span>
+
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_name</span>
+
+<div class="viewcode-block" id="IdentifyType.getId"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyType.getId">[文档]</a>    <span class="k">def</span> <span class="nf">getId</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;模型识别结果类别标识&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_id</span></div>
+
+<div class="viewcode-block" id="IdentifyType.getName"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyType.getName">[文档]</a>    <span class="k">def</span> <span class="nf">getName</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;模型识别结果类别名称&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_name</span></div></div>
+
+
+<div class="viewcode-block" id="IdentifyElement"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyElement">[文档]</a><span class="k">class</span> <span class="nc">IdentifyElement</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;模型识别结果所属元素&quot;&quot;&quot;</span>
+    <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">_type</span><span class="p">:</span> <span class="n">IdentifyResultType</span>
+    <span class="n">_name</span><span class="p">:</span> <span class="nb">str</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">_type</span><span class="p">:</span> <span class="n">IdentifyResultType</span><span class="p">,</span> <span class="n">_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_id</span> <span class="o">=</span> <span class="n">_id</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_type</span> <span class="o">=</span> <span class="n">_type</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_name</span> <span class="o">=</span> <span class="n">_name</span>
+
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_name</span>
+
+<div class="viewcode-block" id="IdentifyElement.getType"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyElement.getType">[文档]</a>    <span class="k">def</span> <span class="nf">getType</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IdentifyResultType</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;模型识别结果元素对象定义&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_type</span></div>
+
+<div class="viewcode-block" id="IdentifyElement.getId"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyElement.getId">[文档]</a>    <span class="k">def</span> <span class="nf">getId</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;模型识别结果元素标识&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_id</span></div>
+
+<div class="viewcode-block" id="IdentifyElement.getName"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyElement.getName">[文档]</a>    <span class="k">def</span> <span class="nf">getName</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;模型识别结果元素名称&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_name</span></div></div>
+
+
+<div class="viewcode-block" id="IdentifyResult"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyResult">[文档]</a><span class="k">class</span> <span class="nc">IdentifyResult</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;模型识别结果&quot;&quot;&quot;</span>
+    <span class="n">_type</span><span class="p">:</span> <span class="n">IdentifyType</span>
+    <span class="n">_element</span><span class="p">:</span> <span class="n">IdentifyElement</span>
+    <span class="n">_x</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">_y</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">_w</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">_h</span><span class="p">:</span> <span class="nb">int</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_type</span><span class="p">:</span> <span class="n">IdentifyType</span><span class="p">,</span> <span class="n">_element</span><span class="p">:</span> <span class="n">IdentifyElement</span><span class="p">,</span> <span class="n">_x</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">_y</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">_w</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">_h</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_type</span> <span class="o">=</span> <span class="n">_type</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_element</span> <span class="o">=</span> <span class="n">_element</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_x</span> <span class="o">=</span> <span class="n">_x</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_y</span> <span class="o">=</span> <span class="n">_y</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_w</span> <span class="o">=</span> <span class="n">_w</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_h</span> <span class="o">=</span> <span class="n">_h</span>
+
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;Type: </span><span class="si">{}</span><span class="s1">, Element: </span><span class="si">{}</span><span class="s1">, X: </span><span class="si">{}</span><span class="s1">, Y: </span><span class="si">{}</span><span class="s1">, Width: </span><span class="si">{}</span><span class="s1">, Height: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_type</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_element</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_w</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_h</span><span class="p">)</span>
+
+<div class="viewcode-block" id="IdentifyResult.getIdentifyType"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyResult.getIdentifyType">[文档]</a>    <span class="k">def</span> <span class="nf">getIdentifyType</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IdentifyType</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;获取模型识别结果所属类别&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_type</span></div>
+
+<div class="viewcode-block" id="IdentifyResult.isIdentifyResultType"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyResult.isIdentifyResultType">[文档]</a>    <span class="k">def</span> <span class="nf">isIdentifyResultType</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">t</span><span class="p">:</span> <span class="n">IdentifyResultType</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;判断是否指定所属类别&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_element</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">_element</span><span class="o">.</span><span class="n">getType</span><span class="p">()</span> <span class="o">==</span> <span class="n">t</span></div>
+
+<div class="viewcode-block" id="IdentifyResult.getIdentifyElement"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyResult.getIdentifyElement">[文档]</a>    <span class="k">def</span> <span class="nf">getIdentifyElement</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IdentifyElement</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;获取模型识别结果所属元素&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_element</span></div>
+
+<div class="viewcode-block" id="IdentifyResult.getX"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyResult.getX">[文档]</a>    <span class="k">def</span> <span class="nf">getX</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;获取模型识别结果区域的左上角位置X坐标&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_x</span></div>
+
+<div class="viewcode-block" id="IdentifyResult.getCenterX"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyResult.getCenterX">[文档]</a>    <span class="k">def</span> <span class="nf">getCenterX</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;获取模型识别结果区域的中心位置X坐标&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_x</span> <span class="o">+</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_w</span> <span class="o">/</span> <span class="mi">2</span><span class="p">))</span></div>
+
+<div class="viewcode-block" id="IdentifyResult.getY"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyResult.getY">[文档]</a>    <span class="k">def</span> <span class="nf">getY</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;获取模型识别结果区域的左上角位置Y坐标&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_y</span></div>
+
+<div class="viewcode-block" id="IdentifyResult.getCenterY"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyResult.getCenterY">[文档]</a>    <span class="k">def</span> <span class="nf">getCenterY</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;获取模型识别结果区域的中心位置Y坐标&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_y</span> <span class="o">+</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_h</span> <span class="o">/</span> <span class="mi">2</span><span class="p">))</span></div>
+
+<div class="viewcode-block" id="IdentifyResult.getWidth"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyResult.getWidth">[文档]</a>    <span class="k">def</span> <span class="nf">getWidth</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;获取模型识别结果区域的宽度&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_w</span></div>
+
+<div class="viewcode-block" id="IdentifyResult.getHeight"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.IdentifyResult.getHeight">[文档]</a>    <span class="k">def</span> <span class="nf">getHeight</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;获取模型识别结果区域的高度&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_h</span></div></div>
+
+
+<span class="k">def</span> <span class="nf">__find_identify_result</span><span class="p">(</span><span class="n">model</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">tid</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">eid</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IdentifyResultType</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">model</span> <span class="o">==</span> <span class="n">VisionModel</span><span class="o">.</span><span class="n">TRAFFIC</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">TrafficIdentifyResult</span><span class="p">:</span>
+            <span class="n">_tid</span><span class="p">,</span> <span class="n">_eid</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">value</span>
+            <span class="k">if</span> <span class="n">_tid</span> <span class="o">==</span> <span class="n">tid</span> <span class="ow">and</span> <span class="n">_eid</span> <span class="o">==</span> <span class="n">eid</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">result</span>
+    <span class="k">elif</span> <span class="n">model</span> <span class="o">==</span> <span class="n">VisionModel</span><span class="o">.</span><span class="n">GENDER</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">GenderIdentifyResult</span><span class="p">:</span>
+            <span class="n">_tid</span><span class="p">,</span> <span class="n">_eid</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">value</span>
+            <span class="k">if</span> <span class="n">_tid</span> <span class="o">==</span> <span class="n">tid</span> <span class="ow">and</span> <span class="n">_eid</span> <span class="o">==</span> <span class="n">eid</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">result</span>
+    <span class="k">elif</span> <span class="n">model</span> <span class="o">==</span> <span class="n">VisionModel</span><span class="o">.</span><span class="n">MASK</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">MaskIdentifyResult</span><span class="p">:</span>
+            <span class="n">_tid</span><span class="p">,</span> <span class="n">_eid</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">value</span>
+            <span class="k">if</span> <span class="n">_tid</span> <span class="o">==</span> <span class="n">tid</span> <span class="ow">and</span> <span class="n">_eid</span> <span class="o">==</span> <span class="n">eid</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">result</span>
+    <span class="k">elif</span> <span class="n">model</span> <span class="o">==</span> <span class="n">VisionModel</span><span class="o">.</span><span class="n">EMOTION</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">EmotionIdentifyResult</span><span class="p">:</span>
+            <span class="n">_tid</span><span class="p">,</span> <span class="n">_eid</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">value</span>
+            <span class="k">if</span> <span class="n">_tid</span> <span class="o">==</span> <span class="n">tid</span> <span class="ow">and</span> <span class="n">_eid</span> <span class="o">==</span> <span class="n">eid</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">result</span>
+    <span class="k">elif</span> <span class="n">model</span> <span class="o">==</span> <span class="n">VisionModel</span><span class="o">.</span><span class="n">GESTURE</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">GestureIdentifyResult</span><span class="p">:</span>
+            <span class="n">_tid</span><span class="p">,</span> <span class="n">_eid</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">value</span>
+            <span class="k">if</span> <span class="n">_tid</span> <span class="o">==</span> <span class="n">tid</span> <span class="ow">and</span> <span class="n">_eid</span> <span class="o">==</span> <span class="n">eid</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">result</span>
+    <span class="k">elif</span> <span class="n">model</span> <span class="o">==</span> <span class="n">VisionModel</span><span class="o">.</span><span class="n">MODEL_TOYS</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">ModelToysIdentifyResult</span><span class="p">:</span>
+            <span class="n">_tid</span><span class="p">,</span> <span class="n">_eid</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">value</span>
+            <span class="k">if</span> <span class="n">_tid</span> <span class="o">==</span> <span class="n">tid</span> <span class="ow">and</span> <span class="n">_eid</span> <span class="o">==</span> <span class="n">eid</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">result</span>
+    <span class="k">elif</span> <span class="n">model</span> <span class="o">==</span> <span class="n">VisionModel</span><span class="o">.</span><span class="n">TRAFFIC_LIGHT_MODEL</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">TrafficLightIdentifyResult</span><span class="p">:</span>
+            <span class="n">_tid</span><span class="p">,</span> <span class="n">_eid</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">value</span>
+            <span class="k">if</span> <span class="n">_tid</span> <span class="o">==</span> <span class="n">tid</span> <span class="ow">and</span> <span class="n">_eid</span> <span class="o">==</span> <span class="n">eid</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">result</span>
+    <span class="k">elif</span> <span class="n">model</span> <span class="o">==</span> <span class="n">VisionModel</span><span class="o">.</span><span class="n">GARBAGE</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">GarbageIdentifyResult</span><span class="p">:</span>
+            <span class="n">_tid</span><span class="p">,</span> <span class="n">_eid</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">value</span>
+            <span class="k">if</span> <span class="n">_tid</span> <span class="o">==</span> <span class="n">tid</span> <span class="ow">and</span> <span class="n">_eid</span> <span class="o">==</span> <span class="n">eid</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">result</span>
+    <span class="k">elif</span> <span class="n">model</span> <span class="o">==</span> <span class="n">VisionModel</span><span class="o">.</span><span class="n">COLOR</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">ColorIdentifyResult</span><span class="p">:</span>
+            <span class="n">_tid</span><span class="p">,</span> <span class="n">_eid</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">value</span>
+            <span class="k">if</span> <span class="n">_tid</span> <span class="o">==</span> <span class="n">tid</span> <span class="ow">and</span> <span class="n">_eid</span> <span class="o">==</span> <span class="n">eid</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">result</span>
+    <span class="k">return</span> <span class="kc">None</span>
+
+
+<span class="k">def</span> <span class="nf">__model_identify</span><span class="p">(</span><span class="n">model</span><span class="p">:</span> <span class="n">VisionModel</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">model</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;model&#39;</span><span class="p">:</span> <span class="n">model</span><span class="o">.</span><span class="n">value</span><span class="p">}</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d20_VisionModule_pb2</span><span class="o">.</span><span class="n">d20c1008_visionmodule_model_switch_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d20_VisionModule_pb2</span><span class="o">.</span><span class="n">d20c1008_visionmodule_model_switch_ra</span><span class="p">()</span>
+    <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">VISION</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1008</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">,</span> <span class="n">timeout_ms</span><span class="o">=</span><span class="mi">5500</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ack</span> <span class="o">!=</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">response</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="n">_result</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s1">&#39;result&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">_result</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;model&#39;</span><span class="p">:</span> <span class="n">model</span><span class="o">.</span><span class="n">value</span><span class="p">}</span>
+        <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d20_VisionModule_pb2</span><span class="o">.</span><span class="n">d20c1005_visionmodule_identify_rq</span><span class="p">()</span>
+        <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d20_VisionModule_pb2</span><span class="o">.</span><span class="n">d20c1005_visionmodule_identify_ra</span><span class="p">()</span>
+        <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">VISION</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1005</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">,</span> <span class="n">timeout_ms</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">ack</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">response</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">_model</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s1">&#39;model&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">model</span><span class="o">.</span><span class="n">value</span> <span class="o">!=</span> <span class="n">_model</span><span class="p">:</span>
+                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.1</span><span class="p">)</span>
+                <span class="k">continue</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s1">&#39;info&#39;</span><span class="p">):</span>
+                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.1</span><span class="p">)</span>
+                <span class="k">continue</span>
+            <span class="n">info</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s1">&#39;info&#39;</span><span class="p">)</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">info</span><span class="p">)):</span>
+                <span class="n">tid</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="s1">&#39;tid&#39;</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">tid</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                    <span class="k">continue</span>
+                <span class="n">eid</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="s1">&#39;eid&#39;</span><span class="p">)</span>
+                <span class="n">tname</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="s1">&#39;tname&#39;</span><span class="p">)</span>
+                <span class="n">ename</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="s1">&#39;ename&#39;</span><span class="p">)</span>
+                <span class="n">x</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="s1">&#39;x&#39;</span><span class="p">)</span>
+                <span class="n">y</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="s1">&#39;y&#39;</span><span class="p">)</span>
+                <span class="n">w</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span>
+                <span class="n">h</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="s1">&#39;h&#39;</span><span class="p">)</span>
+                <span class="n">identifyResultType</span> <span class="o">=</span> <span class="n">__find_identify_result</span><span class="p">(</span><span class="n">_model</span><span class="p">,</span> <span class="n">tid</span><span class="p">,</span> <span class="n">eid</span><span class="p">)</span>
+                <span class="n">_type</span><span class="p">:</span> <span class="n">IdentifyType</span> <span class="o">=</span> <span class="n">IdentifyType</span><span class="p">(</span><span class="n">tid</span><span class="p">,</span> <span class="n">tname</span><span class="p">)</span>
+                <span class="n">_element</span><span class="p">:</span> <span class="n">IdentifyElement</span> <span class="o">=</span> <span class="n">IdentifyElement</span><span class="p">(</span><span class="n">eid</span><span class="p">,</span> <span class="n">identifyResultType</span><span class="p">,</span> <span class="n">ename</span><span class="p">)</span>
+                <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">IdentifyResult</span><span class="p">(</span><span class="n">_type</span><span class="p">,</span> <span class="n">_element</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">w</span><span class="p">,</span> <span class="n">h</span><span class="p">))</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="k">return</span> <span class="kc">None</span>
+            <span class="k">return</span> <span class="n">result</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.1</span><span class="p">)</span>
+    <span class="c1"># 请求失败</span>
+    <span class="k">return</span> <span class="kc">None</span>
+
+
+<div class="viewcode-block" id="traffic_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.traffic_identify">[文档]</a><span class="k">def</span> <span class="nf">traffic_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;交通标志识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的交通标志，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">TRAFFIC</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="face_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.face_identify">[文档]</a><span class="k">def</span> <span class="nf">face_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;人脸识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的人脸信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">FACE</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="face_num_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.face_num_identify">[文档]</a><span class="k">def</span> <span class="nf">face_num_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;人脸数量识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (int): 识别到的人脸数量，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">FACE_COUNT</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">result</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="gender_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.gender_identify">[文档]</a><span class="k">def</span> <span class="nf">gender_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;性别识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的性别信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">GENDER</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="mask_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.mask_identify">[文档]</a><span class="k">def</span> <span class="nf">mask_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;口罩识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的口罩信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">MASK</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="emotion_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.emotion_identify">[文档]</a><span class="k">def</span> <span class="nf">emotion_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;情绪识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的情绪信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">EMOTION</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="gesture_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.gesture_identify">[文档]</a><span class="k">def</span> <span class="nf">gesture_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;手势识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的手势信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">GESTURE</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="garbage_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.garbage_identify">[文档]</a><span class="k">def</span> <span class="nf">garbage_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;垃圾识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的垃圾信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">GARBAGE</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="model_toys_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.model_toys_identify">[文档]</a><span class="k">def</span> <span class="nf">model_toys_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;模型小车小人识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的模型小车小人信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">MODEL_TOYS</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="traffic_light_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.traffic_light_identify">[文档]</a><span class="k">def</span> <span class="nf">traffic_light_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;模型红绿灯识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的模型红绿灯信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">TRAFFIC_LIGHT_MODEL</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="handwritten_digit_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.handwritten_digit_identify">[文档]</a><span class="k">def</span> <span class="nf">handwritten_digit_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;手写数字识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的手写数字信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">HANDWRITTEN_DIGIT</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="handwritten_letter_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.handwritten_letter_identify">[文档]</a><span class="k">def</span> <span class="nf">handwritten_letter_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;手写字母识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的手写字母信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">HANDWRITTEN_LETTER</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="color_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.color_identify">[文档]</a><span class="k">def</span> <span class="nf">color_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;颜色识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的颜色信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">COLOR</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="custom_color_identify"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.custom_color_identify">[文档]</a><span class="k">def</span> <span class="nf">custom_color_identify</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;自定义颜色识别</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (list): IdentifyResult数组，包含所有识别到的自定义颜色信息，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">__model_identify</span><span class="p">(</span><span class="n">VisionModel</span><span class="o">.</span><span class="n">CUSTOM_COLOR</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="get_mid_offset"><a class="viewcode-back" href="../../../ukitai.apis.Vision.html#ukitai.apis.Vision.get_mid_offset">[文档]</a><span class="k">def</span> <span class="nf">get_mid_offset</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">link</span><span class="p">:</span> <span class="n">uKitAiLink</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;获取中部偏移量</span>
+
+<span class="sd">    参数值说明:</span>
+<span class="sd">        link: 设备连接</span>
+
+<span class="sd">    返回值说明:</span>
+<span class="sd">        (int): 中部偏移量，接口调用失败则返回None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pbReq</span> <span class="o">=</span> <span class="n">d20_VisionModule_pb2</span><span class="o">.</span><span class="n">d20c1003_visionmodule_mid_offset_rq</span><span class="p">()</span>
+    <span class="n">pbRsp</span> <span class="o">=</span> <span class="n">d20_VisionModule_pb2</span><span class="o">.</span><span class="n">d20c1003_visionmodule_mid_offset_ra</span><span class="p">()</span>
+    <span class="n">ack</span><span class="p">,</span> <span class="n">response</span> <span class="o">=</span> <span class="n">link</span><span class="o">.</span><span class="n">sendRequest</span><span class="p">(</span><span class="n">CompType</span><span class="o">.</span><span class="n">VISION</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1003</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">pbReq</span><span class="p">,</span> <span class="n">pbRsp</span><span class="p">,</span> <span class="n">timeout_ms</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ack</span> <span class="o">!=</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">response</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="n">offset</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s1">&#39;offset&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">offset</span><span class="p">)</span></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ubtech Robotics Corp.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
