@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: nlpbook
+Version: 0.0.1
+Summary: Applied Natural Language Processing in the Enterprise - An O'Reilly Media Publication
+Home-page: https://github.com/nlpbook/nlpbook/tree/master/
+Author: Ankur A. Patel and Ajay Uppili Arasanipalai
+Author-email: authors@appliednlpbook.com
+License: MIT License
+Keywords: nlp ai deep-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fastai
+Requires-Dist: transformers
+Requires-Dist: torch
+Requires-Dist: torchtext
+Requires-Dist: pyspark
+
+# Applied Natural Language Processing in the Enterprise
+
+
+
+## Install
+
+`pip install nlpbook`
+
+## How to use
+
+Fill me in please! Don't forget code examples:
+
+```python
+1+1
+```
+
+
+
+
+    2
+
+
+
+
