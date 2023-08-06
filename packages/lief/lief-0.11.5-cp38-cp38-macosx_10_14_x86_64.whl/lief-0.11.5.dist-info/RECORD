@@ -1,0 +1,9 @@
+lief.cpython-38-darwin.so,sha256=e8wp2iXPnfw_K4fWdFp6KHdXqm9SMny8T1dp99wVhsQ,10933616
+lief-0.11.5.data/scripts/elf_reader.py,sha256=MbadcMzfxnF2z1cWE70_uO3zsmUjwq8XJUyjelYANQw,22414
+lief-0.11.5.data/scripts/macho_reader.py,sha256=E-aITp774IGaokjqcxpz-BSNbO5zuW40wDusXGeWMNc,32463
+lief-0.11.5.data/scripts/pe_reader.py,sha256=F8NMk3wQKtuuuv0cGGnTpKB_prS4BoIRCJkYP8Oi_lw,26777
+lief-0.11.5.dist-info/LICENSE,sha256=xDnlAfmzcwU0Ip3uY3i8bqv2VZafGsFkQMWM-GOVHVI,11381
+lief-0.11.5.dist-info/METADATA,sha256=pr04TRrj96dLw-TmsrH5cM0TbHkKLEX7TYwlEcLjWSo,3894
+lief-0.11.5.dist-info/WHEEL,sha256=V3dP579bkkoFyEn0eRX4OUiUM3w2HVock1BmzwB7n_c,110
+lief-0.11.5.dist-info/top_level.txt,sha256=EMooSApYQQWgWfld9cqDaRQv18gGk4D4Tr5hO4uJ8NM,5
+lief-0.11.5.dist-info/RECORD,,
