@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+codemagic/__init__.py
+codemagic/apps.py
+codemagic/builds.py
+codemagic/codemagic.py
+codemagic/enums.py
+codemagic/utils.py
+codemagic.egg-info/PKG-INFO
+codemagic.egg-info/SOURCES.txt
+codemagic.egg-info/dependency_links.txt
+codemagic.egg-info/requires.txt
+codemagic.egg-info/top_level.txt
