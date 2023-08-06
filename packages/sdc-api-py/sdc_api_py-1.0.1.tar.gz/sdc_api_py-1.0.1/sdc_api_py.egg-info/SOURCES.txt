@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+_types/Guild.py
+_types/Raw.py
+_types/User.py
+_types/Warns.py
+_types/__init__.py
+classes/Bots.py
+classes/Lib.py
+classes/Monitoring.py
+classes/NikaWarns.py
+classes/__init__.py
+sdc_api_py.egg-info/PKG-INFO
+sdc_api_py.egg-info/SOURCES.txt
+sdc_api_py.egg-info/dependency_links.txt
+sdc_api_py.egg-info/top_level.txt
