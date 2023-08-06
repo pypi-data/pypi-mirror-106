@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: japanese-number-converter
+Version: 1.0.0
+Summary: convert japanese numbers to arabic numbers
+Home-page: https://github.com/kitagawa-hr/japanese-numbers-converter
+License: MIT
+Keywords: japanese,number,parser
+Author: Haruki Kitagawa
+Author-email: kitagawahr@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/kitagawa-hr/japanese-numbers-converter
+Description-Content-Type: text/markdown
+
+# japanese-number-converter
+
+Converts [Japanese Numerals](https://en.wikipedia.org/wiki/Japanese_numerals) into `arabic number`.
+
+## Installation
+
+```sh
+pip install japanese-number-converter
+```
+
+## Usage
+
+```py
+import jnc
+
+assert jnc.ja_to_arabic("九千七兆千九百九十二億五千四百七十四万九百九十一") == 9007199254740991
+```
+
+For detail, see [test cases](./test_jnc.py).
+
+## Supported formats
+
+### numbers 0 to 9
+
+- `〇`, `一`, `二`, `三`, `四`, `五`, `六`, `七`, `八`, `九`
+
+### names of powers of 10
+
+- `十`, `百`, `千`, `万`, `億`, `兆`
+
+### [formal numerals (daiji) used in legal documents](https://en.wikipedia.org/wiki/Japanese_numerals#Formal_numbers)
+
+- `壱`, `弐`, `参`, `拾`
+
+## Reference
+
+I used [japanese-numerals-to-number](https://github.com/twada/japanese-numerals-to-number) as a reference.
+
