@@ -1,0 +1,5 @@
+Flask==2.0.0
+arcor2~=0.16.0
+numpy-quaternion[numba,scipy]==2021.4.5.14.42.35
+numpy==1.20.3
+pyserial==3.5
