@@ -1,0 +1,3 @@
+[console_scripts]
+mod9-asr-rest-api = mod9.rest.server:main
+
