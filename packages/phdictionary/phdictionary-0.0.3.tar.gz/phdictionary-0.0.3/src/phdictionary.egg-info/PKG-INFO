@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: phdictionary
+Version: 0.0.3
+Summary: PhDictionary. The best tool for language learning
+Home-page: https://github.com/RediIVIideR/phdictionary
+Author: RediIVIider
+Author-email: maksimsserovmail.ru@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/RediIVIideR/phdictionary
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PhDictionary | Best tool for language learning
+
+This tool can help you to provide better understanding of foreign word using examples, definitions and translation.
+
+You can collect all the words that you want to get acquainted with and just put a txt file into this tool to generate Word documents like this:
+
+You can find all the documentation on GitHub: https://github.com/RediIVIideR/phdictionary
+
