@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: shapelets-compute
+Version: 0.2.2
+Summary: Shapelets Compute is an accelerated platform for time series analysis.
+Home-page: https://shapelets.io
+Author: Justo Ruiz Ferrer et al.
+Author-email: info@shapelets.io
+Maintainer: Shapelets Developers
+Maintainer-email: info@shapelets.io
+License: BSD
+Download-URL: https://pypi.python.org/pypi/shapelets
+Project-URL: Documentation, https:://shapelets.io/doc/dev
+Platform: ["windows"
+Platform: "Linux"
+Platform: "Mac OS"
+Platform: "Unix"]
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Shapelets Compute
+
+`Shapelets Compute` is a python library with key algorithms to deal with data mining and 
+machine learning tasks over time series using OpenCL and CUDA devices.  
+
+`Shapelets Compute` provides:
+  * Accelerated array operations, based on [ArrayFile](https://arrayfire.com/), including broadcasting, linear algebra, Fourier transform and radom number capabilities. 
+  * A similiar API to [NumPy](https://numpy.org/)
+  * Fastest implementation of [Matrix Profile](https://www.cs.ucr.edu/~eamonn/MatrixProfile.html) for CPU and GPU architectures ([SCAMP](https://github.com/zpzim/SCAMP)).
+  * One of the largest collection of distance meassures.
+  * and much more...
+
+Besides its immediate application to analyse time series, Shapelets Compute arrays can be 
+used in combination with all other libraries present in the Python ecosystem.
+
+All Shapelets wheels distributed on PyPI are BSD licensed.
+
+
