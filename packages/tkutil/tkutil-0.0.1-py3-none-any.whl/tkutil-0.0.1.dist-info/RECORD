@@ -1,0 +1,12 @@
+secret/SCRATCH.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secret/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkutil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkutil/__main__.py,sha256=ZPA7M4P9qwC3wJfQtX9e07JQsNLcxcai7d0QrgWFPjg,55
+tkutil/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+tkutil-0.0.1.dist-info/LICENSE,sha256=qa7R_AbaR83ZfoUV_42NLm1y03WIzvfz5kcIrGwX-UY,1075
+tkutil-0.0.1.dist-info/METADATA,sha256=yH2lu9c2JFLsQ2TsANOxV26h63LVqJa0V2gL3_JUjUE,654
+tkutil-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tkutil-0.0.1.dist-info/entry_points.txt,sha256=mZmzkKGxikXDqnc1HBTksoFhWiw3UDe30JDarcSwxro,49
+tkutil-0.0.1.dist-info/top_level.txt,sha256=4QM_fOsIJj19j0fCirSCK-Xb1AOJoyObkXjZ47ioNH0,20
+tkutil-0.0.1.dist-info/RECORD,,
