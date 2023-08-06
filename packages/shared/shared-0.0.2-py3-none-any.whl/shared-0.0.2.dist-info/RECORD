@@ -1,0 +1,12 @@
+secret/SCRATCH.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secret/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shared/__init__.py,sha256=mu5uZQ80JRc0eeIcb7wOlkOBcTJGdDzCMA9R-pP_UMc,7545
+shared/__main__.py,sha256=P-trTJ_WIcqmwVUkrj7ikxEHCvaQXZYa2eCHXqGg2Dc,3858
+shared/version.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shared-0.0.2.dist-info/LICENSE,sha256=qa7R_AbaR83ZfoUV_42NLm1y03WIzvfz5kcIrGwX-UY,1075
+shared-0.0.2.dist-info/METADATA,sha256=3RJMAlGU-7i5HR1x6rEHH4oh1oK8cS58aPtD5ATKSqs,3190
+shared-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+shared-0.0.2.dist-info/entry_points.txt,sha256=A8dFPL99VH3nteQCdovlLCwMOW4yBvW0BXri9J52hw4,49
+shared-0.0.2.dist-info/top_level.txt,sha256=STF-dhWG_tro7xT96X1rA6LzP62155NKjGV2PisWiSc,20
+shared-0.0.2.dist-info/RECORD,,
