@@ -1,0 +1,11 @@
+[console_scripts]
+align_json = asrtoolkit.align_json:cli
+clean_formatting = asrtoolkit.clean_formatting:cli
+combine_audio_files = asrtoolkit.combine_audio_files:main
+convert_transcript = asrtoolkit.convert_transcript:cli
+degrade_audio_file = asrtoolkit.degrade_audio_file:cli
+extract_excel_spreadsheets = asrtoolkit.extract_excel_spreadsheets:main
+prepare_audio_corpora = asrtoolkit.prepare_audio_corpora:cli
+split_audio_file = asrtoolkit.split_audio_file:cli
+wer = asrtoolkit.wer:cli
+
