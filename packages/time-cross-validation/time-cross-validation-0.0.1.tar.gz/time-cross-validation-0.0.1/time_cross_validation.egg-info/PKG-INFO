@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: time-cross-validation
+Version: 0.0.1
+Summary: Time series cross validation tool, supplementing or replacing relevant existing sklearn libraries.
+Home-page: UNKNOWN
+Author: Riccardo Doyle
+Author-email: riccardo.doyle.14@ucl.ac.uk
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: cross validation
+Platform: UNKNOWN
