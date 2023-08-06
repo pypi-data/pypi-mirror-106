@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyequalizer/Filter.py
+pyequalizer/__init__.py
+pyequalizer/__version__.py
+pyequalizer/utils.py
+pyequalizer.egg-info/PKG-INFO
+pyequalizer.egg-info/SOURCES.txt
+pyequalizer.egg-info/dependency_links.txt
+pyequalizer.egg-info/top_level.txt
