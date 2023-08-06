@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+lnm_client.egg-info/PKG-INFO
+lnm_client.egg-info/SOURCES.txt
+lnm_client.egg-info/dependency_links.txt
+lnm_client.egg-info/requires.txt
+lnm_client.egg-info/top_level.txt
