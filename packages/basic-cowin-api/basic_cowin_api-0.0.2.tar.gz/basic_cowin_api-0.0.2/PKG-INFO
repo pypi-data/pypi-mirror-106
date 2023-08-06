@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: basic_cowin_api
+Version: 0.0.2
+Summary: Python wrapper for Indian CoWin APIhttps://apisetu.gov.in/public/marketplace/api/cowin/cowin-public-v2
+Home-page: https://gitlab.com/mayankjohri/cowin_api
+Author: Mayank Johri
+Author-email: mayankjohri@gmail.com
+License: GNU 3.0
+Project-URL: Bug Reports, https://gitlab.com/mayankjohri/cowin_api/-/issues
+Project-URL: Source, https://gitlab.com/mayankjohri/cowin_api
+Description: # Basic Cowin API 
+        
+        Python API wrapper for CoWin API, for details visit https://apisetu.gov.in/public/marketplace/api/cowin/cowin-public-v2
+        
+        
+        Basic Example:
+        
+        ```python
+        from cowin_api import CoWin
+        
+        cw = CoWin()
+        
+        # Returns the details of states
+        result = cw.get_state_list()
+        print(result)
+        
+        # Returns the details of districts for a given state
+        # in this case with state_id 2
+        result = cw.get_districts_list(2)
+        print(result)
+        
+        # Returns the details of slots available in area with 
+        # pincode 462003
+        result = cw.check_by_pincode(462003)
+        print(result)
+        
+        # Returns the details of slots available in area with 
+        # district id 650 -> obtained from `get_districts_list`
+        result = cw.check_by_district_id(650)
+        print(result)
+        ```
+        
+        # Install
+        
+        `pip install basic_cowin_api`
+        
+        
+        # Notes:
+        
+        The API's of CoWin MAY NOT work from servers outside of India.
+        Payment Options are: `any`, `free` and `paid`.
+        Age Options are: `18` and `45`
+        
+        ---
+        
+        # Roadmap:
+        
+        - [x] Add a filter to search by age group of 18-45 and 45+
+        - [x] Add a filter for free and paid vaccine
+        - [ ] Add a filter based of vaccine
+        - [ ] Search for multiple pin codes
+        - [ ] Search for multiple districts
+        - [ ] Implement test cases
+        
+        ---
+        
+        # License:
+        
+        GNU 3
+Keywords: cowin, covid, vaccine
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
