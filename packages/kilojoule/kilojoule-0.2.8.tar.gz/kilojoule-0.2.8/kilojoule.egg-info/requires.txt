@@ -1,0 +1,9 @@
+coolprop
+matplotlib
+numpy
+pandas
+pint
+pyromat
+regex
+scipy
+sympy
