@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: tkit-mlp-pytorch
+Version: 0.0.0.1
+Summary: Terry toolkit mlp pytorch
+Home-page: https://github.com/napoler/mlp-pytorch.git
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pytorch-lightning (>=1.2.10)
+
+# 一个简单的多层神经网络库
+
+
+```
+pip install tkit_mlp_pytorch
+
+```
+ or 从源码安装 
+```
+pip install git+https://github.com/napoler/mlp-pytorch.git
+
+```
+
+
+```
+from tkit_mlp_pytorch import MLP
+mlp=MLP()
+
+# 查看帮助
+
+help(mlp)
+
+```
+
+
+## 快速上传操作
+可以自动查找依赖，然后上传
+```
+sh upload.sh
+```
+
+
