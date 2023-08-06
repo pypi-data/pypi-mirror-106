@@ -1,0 +1,8 @@
+servicecatalogtordf/__init__.py,sha256=B3nun479-C2MzYsrSrlyVKFbfRYSpsXvbSL4ipia_Tw,1401
+servicecatalogtordf/public_organization.py,sha256=rAXKF9wloc3iOKTkKbyYwyGr5uB-bum5k7iwB3N0WaE,6406
+servicecatalogtordf/rule.py,sha256=FPs5Gmql1UL7bdPUV1BKpY4odSwQbPn0-Wtc6Z2MjlQ,4803
+servicecatalogtordf/service.py,sha256=25WiwmxQmSSYqh2t3eBVNv-5SppjKmHgeXkc2_vr-8g,6628
+servicecatalogtordf-0.1.0a5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+servicecatalogtordf-0.1.0a5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+servicecatalogtordf-0.1.0a5.dist-info/METADATA,sha256=EbxtWfWdFxIcxOXh-B2f9CogdlJL7X_T0qqxaKspXW0,3500
+servicecatalogtordf-0.1.0a5.dist-info/RECORD,,
