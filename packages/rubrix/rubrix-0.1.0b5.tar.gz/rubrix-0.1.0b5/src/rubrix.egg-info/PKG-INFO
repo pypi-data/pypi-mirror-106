@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rubrix
+Version: 0.1.0b5
+Summary: UNKNOWN
+Home-page: https://recogn.ai
+Author: recognai
+Author-email: contact@recogn.ai
+Maintainer: recognai
+Maintainer-email: contact@recogn.ai
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: server
