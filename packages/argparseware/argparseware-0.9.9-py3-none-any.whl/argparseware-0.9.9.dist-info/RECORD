@@ -1,0 +1,15 @@
+argparseware/__init__.py,sha256=v-AFw_HreyaLbLk-ujqjoy6cwfg3qf4Td7TE9-2pT0k,519
+argparseware/common.py,sha256=vOhCvUC9wyFL1sSjvxBdSJRvDOKCh1vSNOWZNe2iQDo,2843
+argparseware/config.py,sha256=6bWwIkOIVgnB8RnKmxVYG9poB4FH6tTPmAFMfnQQO8A,12558
+argparseware/core.py,sha256=5sSeY7Of7gt6Y_QrYj1psLNoTBQS7_iCP7FhQXFz5K4,4757
+argparseware/server.py,sha256=QGfOAs0K4Ovzp94E6bYARlOQJG7v-E0ahqPhNacx15c,10326
+argparseware/setuputils.py,sha256=-P0GHqjlD8dzwgdf_-rSDWfpx0Voay4EQ_KwLRX800M,6698
+argparseware/utils.py,sha256=wes2m31gwwVkaWgncFw1yK8VAs2se21rpBWBawGQtiI,2587
+argparseware/commands/__init__.py,sha256=CLO3BpVIMH-yk0Xwktz-POd2jEEOqvg1clTr-zH1RF8,6053
+argparseware/commands/flask_cli.py,sha256=E6zpU1TGrUVC9eIQNLSz109dNCVYwkLyNXHKQ4QqZnk,7839
+argparseware/commands/setuptools.py,sha256=cEMa64_PvxqtZ18KerwqanATCCJ158_Lrh85fMLt_kU,3297
+argparseware-0.9.9.dist-info/LICENSE,sha256=mEDz9PhbBJcqUTm2VeEh73t78xYzRV36DVSdyptlXSk,1053
+argparseware-0.9.9.dist-info/METADATA,sha256=WWSdnv2uIWBIClXTg5EH-HXWgSN34dZpLsWMhHQuj74,6534
+argparseware-0.9.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+argparseware-0.9.9.dist-info/top_level.txt,sha256=OYwZRkC-gTDwZRvzWvqt3ZUFIO97qAhnADuirgx7beY,13
+argparseware-0.9.9.dist-info/RECORD,,
