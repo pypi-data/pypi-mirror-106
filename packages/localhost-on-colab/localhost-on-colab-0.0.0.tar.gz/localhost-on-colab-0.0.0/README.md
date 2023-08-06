@@ -1,0 +1,82 @@
+# localhost-on-colab
+Thin wrapper to help you run localhost stuff on colab. 
+
+Running webapps(or other localhost stuff) on the colab GPU is much easier with this module.
+
+## Usage
+
+```python
+
+from localhost_on_colab.core import LocalHostOnColab
+
+bridge = LocalHostOnColab()
+
+url = bridge.run(
+    function = some_function,
+    kwargs = {},
+    port = 5000
+)
+
+print(url)
+```
+
+## Flask Example
+
+Imports + mininmal flask app
+
+```python
+from flask import Flask
+from localhost_on_colab.core import LocalHostOnColab
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return "Hello :)"
+```
+
+Running the bridge
+```python
+bridge = LocalHostOnColab()
+
+url = bridge.run(
+    function = app.run,
+    kwargs = {'port': 8989},
+    port = 8989,
+)
+
+print(url)
+```
+
+## FastAPI example
+
+Imports + mininmal fastAPI app
+```python
+import uvicorn
+from fastapi import FastAPI
+from localhost_on_colab.core import LocalHostOnColab
+
+app = FastAPI()
+
+@app.get('/')
+async def home():
+  return "Hello Santa"
+```
+
+Running the bridge
+```python
+bridge2 = LocalHostOnColab()
+
+url = bridge2.run(
+    function = uvicorn.run,
+    kwargs = {
+        'app': app, 
+        'port': 9999
+    },
+    port = 9999,
+)
+
+print(url)
+```
+
+
