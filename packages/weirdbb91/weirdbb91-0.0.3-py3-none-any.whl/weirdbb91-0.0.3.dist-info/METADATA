@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: weirdbb91
+Version: 0.0.3
+Summary: it's my first pip deploy, say hi and bye
+Home-page: https://github.com/weirdbb91/first_pip_deploy
+Author: seungho.baek
+Author-email: weirdbb91@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/weirdbb91/first_pip_deploy/archive/master.zip
+Keywords: pypi deploy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+
+UNKNOWN
+
+
