@@ -1,0 +1,12 @@
+beautifulsoup4
+browsercookie
+lxml
+numpy
+pandas
+pylogconf
+pytconf
+pytidylib
+pyyaml
+requests
+tqdm
+unidecode
