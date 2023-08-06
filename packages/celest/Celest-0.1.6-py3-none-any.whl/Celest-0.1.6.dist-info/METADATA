@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: Celest
+Version: 0.1.6
+Summary: Satellite orbital position representation library.
+Home-page: https://github.com/JaiWillems/Celest
+Author: Jai Willems
+Author-email: jai52h@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Celest
+
+The Celest library is designed to provide a simple interface for satellite positional representations and encounter planning.
+* ***Documentation:*** https://jaiwillems.github.io/Celest/
+* ***Source Code:*** https://github.com/JaiWillems/Celest/tree/main/celest
+* ***PyPI:*** https://pypi.org/project/Celest/
+
+## Installation
+Celest can be installed through a terminal using the following command:
+```terminal
+pip install Celest
+```
+
+## Upcomming Release
+The following release will include:
+* Julian date and offset inputs,
+* Type annotations,
+* Numpy style documentation strings,
+* Encounter scheduling function for the encounter class, and
+* Faster ECI and ECEF conversions through new multiplication method.
+
+
