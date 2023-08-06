@@ -1,0 +1,9 @@
+attrs
+
+[serial]
+pyserial-asyncio
+
+[test]
+pytest
+pytest-mock
+pytest-asyncio
