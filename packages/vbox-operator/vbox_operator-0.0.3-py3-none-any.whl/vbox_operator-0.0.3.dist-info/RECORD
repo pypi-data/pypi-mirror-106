@@ -1,0 +1,10 @@
+vbox_operator/__init__.py,sha256=sF8ZxffyZA3Kb3utj3HhhxdIIAjPkYeQxd_3Ae3kKNk,71
+vbox_operator/__main__.py,sha256=8YjPhH5oXpl52i_Xje4aT7pvrVOcfhi3uumdmh5LWzg,10367
+vbox_operator/commands_dict.py,sha256=wmKc91nj9AL4XybXJVNjZtOy5r0QhIKHxcEjtV7bRq4,561
+vbox_operator/menu.py,sha256=Nc2xVdCdKuVQfwdJIka3l2-Rq-qKD-2rDe31UPb4yi4,2503
+vbox_operator-0.0.3.dist-info/LICENSE,sha256=1tu17E6iCXs1Ih1zvN22j8nXcSXUqxn7KGEf9rNREB0,1086
+vbox_operator-0.0.3.dist-info/METADATA,sha256=SNj0pjNvN004yQZaXfSo4D0Q4Xy2sDc1EgGEoCpRyOg,1598
+vbox_operator-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vbox_operator-0.0.3.dist-info/entry_points.txt,sha256=MRF1VHVH6CNr6es0GJXZsBP_nTi1IxLlRMY8QYab_PA,63
+vbox_operator-0.0.3.dist-info/top_level.txt,sha256=ivJtCCmwkEdStsalJVYWdztJ5xMKkDzhdkFa2mfTwYA,14
+vbox_operator-0.0.3.dist-info/RECORD,,
