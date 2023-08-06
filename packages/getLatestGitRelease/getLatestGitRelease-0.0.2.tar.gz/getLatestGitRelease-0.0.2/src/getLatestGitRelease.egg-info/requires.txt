@@ -1,0 +1,4 @@
+datasize
+pywin32
+ConfigFileHelper>=0.0.2
+PyGithub

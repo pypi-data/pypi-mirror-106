@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/getLatestGitRelease/__init__.py
+src/getLatestGitRelease.egg-info/PKG-INFO
+src/getLatestGitRelease.egg-info/SOURCES.txt
+src/getLatestGitRelease.egg-info/dependency_links.txt
+src/getLatestGitRelease.egg-info/requires.txt
+src/getLatestGitRelease.egg-info/top_level.txt
