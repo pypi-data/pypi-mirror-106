@@ -1,0 +1,9 @@
+argparse==1.4.0
+pyparsing==2.4.7
+
+[dev]
+build==0.3.1
+twine==3.4.1
+pytest==6.2.4
+coverage==5.5
+pyyaml==5.4.1
