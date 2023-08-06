@@ -1,0 +1,8 @@
+tkit_transformer_xl/__init__.py,sha256=wYt7byvE9d57MliaLheVPaeCK35BGEXqDpZdRiPca3I,137
+tkit_transformer_xl/autoregressivewrapper.py,sha256=J2KYVUKWnJtHbGpH2Ru_XIzjXEvsZBoE4ArpAIgcRtY,5547
+tkit_transformer_xl/transformer_xl.py,sha256=GkQF4uR2gZr0jToUkkhFhdH79SGhjwjXVjRClY2LNZo,6457
+tkit_transformer_xl-0.0.0.5.dist-info/LICENSE,sha256=CfO_jZGRHc5TE9YraZeMwoy6cYUu7-ppHM4Tsf4p-gI,11357
+tkit_transformer_xl-0.0.0.5.dist-info/METADATA,sha256=Ksh3zTcOVOm3jgIcAzNg0a1XNF-5BomhXaWTnUF2KQA,659
+tkit_transformer_xl-0.0.0.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+tkit_transformer_xl-0.0.0.5.dist-info/top_level.txt,sha256=hqj7ATwBrBwz6ZuC71-lQmBusqG6W4PEom5_nVsGYSQ,20
+tkit_transformer_xl-0.0.0.5.dist-info/RECORD,,
