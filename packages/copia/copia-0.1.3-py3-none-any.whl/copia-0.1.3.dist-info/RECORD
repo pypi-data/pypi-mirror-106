@@ -1,0 +1,12 @@
+copia/__init__.py,sha256=pBQu3tasGFrkpr1djdccfTF9nP07d616dqnNTgvbJuE,55
+copia/hill.py,sha256=VCZVmZUF89d0UxquIoygRb94PhGWXEJjEUnzIKhhyY4,3125
+copia/plot.py,sha256=QMDNLAsqjFQt4oAD6OKL7ah6wyKECaQvbazJaR2YaDI,19436
+copia/richness.py,sha256=_Z725fibHi4LoAGrufDnilF8Koh2bAeOi4yYdSS9AC4,17955
+copia/simulation.py,sha256=kMcDSF668sS0Oct0Pq5qrOdT7LBvyJZ7YL8H0eYP_f0,1709
+copia/stats.py,sha256=eptqFFhfi_2rIW3csVWMI0fPKFxCduSGeTJ8w7ITsDs,5691
+copia/utils.py,sha256=ntddCno9p3hAxg6xmUUVe83z7fh6nufURg18MFsIVgI,6992
+copia-0.1.3.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+copia-0.1.3.dist-info/METADATA,sha256=tMt0PNIHd_ub7n9sCjpJNkZWGor7Uz_6rmI101YgoCE,1593
+copia-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+copia-0.1.3.dist-info/top_level.txt,sha256=B1KUI4NNpBe1Imqtunw4qONBCjFxKiHfXsFjsx13t9s,6
+copia-0.1.3.dist-info/RECORD,,
