@@ -1,0 +1,4 @@
+pandas
+colorama
+openpyxl
+mailjet_rest
