@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+python_md.py
+setup.cfg
+setup.py
+python_md.egg-info/PKG-INFO
+python_md.egg-info/SOURCES.txt
+python_md.egg-info/dependency_links.txt
+python_md.egg-info/top_level.txt
