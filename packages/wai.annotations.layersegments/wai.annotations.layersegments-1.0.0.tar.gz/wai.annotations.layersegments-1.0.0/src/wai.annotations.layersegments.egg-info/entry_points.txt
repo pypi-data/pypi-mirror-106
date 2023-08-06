@@ -1,0 +1,4 @@
+[wai.annotations.plugins]
+from-layer-segments-is = wai.annotations.layer_segments.specifier:LayerSegmentsSourceStageSpecifier
+to-layer-segments-is = wai.annotations.layer_segments.specifier:LayerSegmentsSinkStageSpecifier
+
