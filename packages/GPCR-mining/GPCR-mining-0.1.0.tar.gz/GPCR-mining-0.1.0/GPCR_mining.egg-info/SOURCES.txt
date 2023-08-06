@@ -1,0 +1,9 @@
+README.md
+setup.py
+GPCR_mining.egg-info/PKG-INFO
+GPCR_mining.egg-info/SOURCES.txt
+GPCR_mining.egg-info/dependency_links.txt
+GPCR_mining.egg-info/not-zip-safe
+GPCR_mining.egg-info/requires.txt
+GPCR_mining.egg-info/top_level.txt
+gpcrmining/__init__.py
