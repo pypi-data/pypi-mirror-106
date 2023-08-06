@@ -1,0 +1,10 @@
+pre-commit
+biopython
+click>=7.0
+filetype
+pandas>=1.0
+wheel
+requests
+python-levenshtein
+pyarrow
+semantic_version
