@@ -1,0 +1,16 @@
+UArchiver-0.0.4.data/scripts/uarchiver,sha256=pvIpaJ4YRm_uGmLFE_GwmgiebL11Lls34SEuGn6cmDA,761
+udl/Base.py,sha256=m9p0xpS34fUyuuK7nnYgUdFAfKqhUQbV-0XSoU67spg,484
+udl/Downloader.py,sha256=u-G6QS2s6S7kJbpDYnEwtthE6eXWhbCipl3TwbSdGb0,4625
+udl/Loader.py,sha256=iY6am9Wb1Y4fBRGgLCQwHPAHKsdN6dPqJ_bGwT8jj90,1898
+udl/__init__.py,sha256=mFbZSZbTtorDnytq98mPnK73S7xWv5XbW7-CLmyBUuo,32
+udl/errors.py,sha256=JVqAsvmbImzToYN_t1mNq01DscqxLL4TJiyxgwvIEyk,145
+udl/returncodes.py,sha256=6Puc2zyQ32PtyPJPy_XS_Rj04ip53cQaDFmHDIOqMsQ,47
+udl/utils.py,sha256=bmmSMMT1eSCGKhw6AHchXn4lwxbH5XPIY4LuG-DpnxQ,1491
+udl/version.py,sha256=EMzdweYsN7PI-JJgvF1FNnvXTYLZsSwYXTluqHyq1QQ,16
+udl/kernels/thingiverse.py,sha256=AU81KyWxCe-1OteWmZFJ8K1Ps6w0XYZQnAEURMyVwnM,819
+udl/kernels/youtube_dl.py,sha256=gbAJZv3TIm_BjGS5FfQsWcR8M9F_DcCp3hJ3CUEWLIg,405
+UArchiver-0.0.4.dist-info/LICENSE,sha256=CcA3V7ZS5RTUiR4PBBtRrCxxTMkAds5EnY5Ej4NOJ_8,33095
+UArchiver-0.0.4.dist-info/METADATA,sha256=CvYjyyB9RGmU4TVoMEyABel5NVVs0FXLjQTUBipNWSo,1301
+UArchiver-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+UArchiver-0.0.4.dist-info/top_level.txt,sha256=djAbOifPkF_vcZZSLf3_l91IqtKBjaznlzbm54KEbhc,4
+UArchiver-0.0.4.dist-info/RECORD,,

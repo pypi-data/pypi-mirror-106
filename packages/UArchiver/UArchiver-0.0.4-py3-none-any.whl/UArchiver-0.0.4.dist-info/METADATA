@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: UArchiver
+Version: 0.0.4
+Summary: Ultimate Archiver -- A modular archiving tool
+Home-page: https://github.com/joshbarrass/UArchiver
+Author: joshbarrass
+Author-email: josh.barrass.work@gmail.com
+License: UNKNOWN
+Keywords: downloader archive dump
+Platform: UNKNOWN
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: docopt (>=0.6.2)
+Requires-Dist: youtube-dl
+
+# Ultimate Archiver
+
+Ultimate Archiver -- A modular archiving tool
+
+------------------------------------------------
+
+Ultimate Archiver (UArchiver for short) is a modular, all-in-one autoamted archiving tool. Rather than needing to keep track of several tools for downloading from different sites, this tool aims to unify them all under a single tool. Downloading is instead performed using "downloading kernels", which provide a standard interface for downloading from different domains by either using or replacing these external tools. These kernels can be selected automatically based on the site you're downloading from. **The end-goal is that you should be able to download from a site without needing to know how.**
+
+
