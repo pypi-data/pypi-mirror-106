@@ -1,0 +1,11 @@
+comcigan/__init__.py,sha256=d5tqqUijddgU3KpU0vSNE7bSTxIQgKsPQ7VTEsrr_6c,64
+comcigan/async_school.py,sha256=lP-XSxW-CtGT5GCzWTiq-LimQxBcDTlTqXh1HQDfv-E,3994
+comcigan/reg.py,sha256=rcGFG61WxblKBch_jlx4DMS7-PI7p2nRrhUh9gl52tU,468
+comcigan/school.py,sha256=5nRBZ8W9mqjTmT2hfYVXnnN8k3iTbDPifI53ITC_OrM,3091
+test/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+test/test_search.py,sha256=5A1AUTsUDXl1l5Zhi_0aEQq1u-cZs9TRvGNdBZkwmDc,1027
+comcigan-1.4.2.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+comcigan-1.4.2.dist-info/METADATA,sha256=ilvUosZc4w8SBkrOfRiZnmmKKOcuANssI0fHoU7pCnk,2290
+comcigan-1.4.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+comcigan-1.4.2.dist-info/top_level.txt,sha256=LDaIgyTrSl09YiLuSRO1B8ru6WgwZhXsXslgkixDkTk,14
+comcigan-1.4.2.dist-info/RECORD,,
