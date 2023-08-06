@@ -1,0 +1,18 @@
+include pyproject.toml
+include *.md
+include LICENSE
+include setup.py
+include tox.ini
+
+recursive-include src py.typed *.service *.timer
+recursive-include docs *.rst conf.py Makefile .gitignore
+recursive-include docs/ansible *.yml
+recursive-include docs/api *.rst
+recursive-include tests *.py
+
+exclude .editorconfig
+exclude .gitlab-ci.yml
+exclude .pre-commit-config.yaml
+prune ansible
+prune ci
+prune debian

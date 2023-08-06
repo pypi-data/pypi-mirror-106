@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pglift
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://gitlab.com/dalibo/pglift
+Author: Dalibo SCOP
+Author-email: contact@dalibo.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: postgresql deployment administration
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Database
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Typing :: Typed
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
