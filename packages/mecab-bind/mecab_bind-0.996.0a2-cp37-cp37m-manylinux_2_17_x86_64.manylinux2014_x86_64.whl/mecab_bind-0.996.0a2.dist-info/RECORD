@@ -1,0 +1,16 @@
+mecab_bind-0.996.0a2.dist-info/RECORD,,
+mecab_bind-0.996.0a2.dist-info/METADATA,sha256=fhpx9YqffgMLKui_xJuvWwKzZY7y52xuaXUnTqzhI2A,845
+mecab_bind-0.996.0a2.dist-info/top_level.txt,sha256=x8WZ0UArm7kuCMkR2-XXfVKcI1RoSzC6PynQAtwnQsY,6
+mecab_bind-0.996.0a2.dist-info/WHEEL,sha256=Tc71-kipv70x3UUdKAWR5WF4VgRrQ_XEu6SkY16H6gk,150
+mecab_bind-0.996.0a2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mecab_bind-0.996.0a2.dist-info/entry_points.txt,sha256=nqqGcYv27_GtT2HQICmXPBVIDb5SpCfViLpdF0rg5xs,351
+mecab/__init__.py,sha256=_wjYKTQjMDTkfdDHW7mopznvh8aFRS0PPCnddyXyZeg,175
+mecab/bind.so,sha256=K5bj_ozyxY4Ec7D62pwWn4lzsVe8N7t-tXgkOKBjuoo,1725592
+mecab/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecab/bin/mecab-system-eval,sha256=ZZ6L3PVJoxVsJt4hwDZmmkDyDU6wKBnDnpiQngOXsvI,84376
+mecab/bin/mecab-test-gen,sha256=9HCXMBqg7hOs8b9RHnbNRurC7AnaoHGX337Ht84DS8E,84368
+mecab/bin/mecab-dict-gen,sha256=MTJ3GyYTkedjZPpysqFWmfzhsSVEQZpXSZNv2zY-h7Y,1759744
+mecab/bin/mecab-cost-train,sha256=l8HDwkDFzVZEr3uOdtj5SEsPbTexrXFgFRzBCRW9OjE,1423800
+mecab/bin/mecab,sha256=bY6wBxTqdzJZ0udVL1_WPo_LIvOz4-EA6WEVMgGU1L4,1328520
+mecab/bin/cli_main.py,sha256=U2DpQ53UigrXQDkqQY7JNJdA6KLgTL4n3SGk2WaeeB0,803
+mecab/bin/mecab-dict-index,sha256=Ux1wGIKxUhTVokDy320b8SrygVDOCQ5cluGGnV8U3rs,1349560
