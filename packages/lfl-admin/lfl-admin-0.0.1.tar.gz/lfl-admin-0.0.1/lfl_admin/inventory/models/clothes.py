@@ -1,0 +1,61 @@
+import logging
+
+from bitfield import BitField
+
+from isc_common.fields.related import ForeignKeyProtect
+from isc_common.models.audit import Model_withOldIds
+from isc_common.models.base_ref import BaseRef, BaseRefManager, BaseRefQuerySet
+from lfl_admin.inventory.models.clothes_type import Clothes_type
+
+logger = logging.getLogger(__name__)
+
+
+class ClothesQuerySet(BaseRefQuerySet):
+    def delete(self):
+        return super().delete()
+
+    def create(self, **kwargs):
+        return super().create(**kwargs)
+
+    def filter(self, *args, **kwargs):
+        return super().filter(*args, **kwargs)
+
+
+class ClothesManager(BaseRefManager):
+
+    @classmethod
+    def props(cls):
+        return BitField(flags=(
+            ('active', 'Актуальность'),  # 1
+        ), default=1, db_index=True)
+
+    @staticmethod
+    def getRecord(record):
+        res = {
+            'id': record.id,
+            'code': record.code,
+            'name': record.name,
+            'description': record.description,
+            'editing': record.editing,
+            'deliting': record.deliting,
+        }
+        return res
+
+    def get_queryset(self):
+        return ClothesQuerySet(self.model, using=self._db)
+
+
+class Clothes(BaseRef, Model_withOldIds):
+    clothes_type = ForeignKeyProtect(Clothes_type)
+    props = ClothesManager.props()
+
+    objects = ClothesManager()
+
+    def __str__(self):
+        return f'ID:{self.id}'
+
+    def __repr__(self):
+        return self.__str__()
+
+    class Meta:
+        verbose_name = 'Одежда'
