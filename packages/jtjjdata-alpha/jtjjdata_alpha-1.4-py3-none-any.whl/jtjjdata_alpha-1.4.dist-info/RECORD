@@ -1,0 +1,14 @@
+DataLoader/Base.py,sha256=jdW5IqFVWCV2_6odHvRGrv4fX-m6djiO-IUpYz9VJ2I,20798
+DataLoader/__init__.py,sha256=3bmMURujcsGAnTwU1E0-8E3jPGMMjFlKA41xMw0gQ5M,41
+DataLoader/calendarpd.py,sha256=ftx000FfUp8CRjqFiZvn68vrngpDgmo49mBzYab5ME8,2856
+DataLoader/config.py,sha256=35kP3651BDnsNrqCukodfCJ1ygrvEPazi2ujL6t7aEY,1289
+DataLoader/daily.py,sha256=JNGxZVAyrniAR9QWe2_JaQi_32l7MfsHcq-gTHJVMW8,5367
+DataLoader/reports.py,sha256=T3C-hwOaafLadHqa9aJTctcs83z-S_bExft4O5uEgL8,3638
+DataLoader/status.py,sha256=31hpuZqOPqfpB3lRkiTo_QI_RMWNPH9g1k4kZS46kQY,4992
+DataLoader/tools.py,sha256=roHyz4qbIKKqhoiy8W9fcp8Szf56bFc_la4kfJ1TRzE,1921
+DataLoader/utils.py,sha256=GXk_qvE5xLuKu-hUypxcq1rjXanY5UaXfxUNkO_i7aQ,3919
+jtjjdata_alpha-1.4.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+jtjjdata_alpha-1.4.dist-info/METADATA,sha256=hBxqiW7CIQfzI3fm8mGuemgrH99YqawaeZ5QMcBZFaM,207
+jtjjdata_alpha-1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jtjjdata_alpha-1.4.dist-info/top_level.txt,sha256=o7A4Ty01QRNQKzYKr0ghxvTVK7TCIxogkJIqCa55AO0,11
+jtjjdata_alpha-1.4.dist-info/RECORD,,
