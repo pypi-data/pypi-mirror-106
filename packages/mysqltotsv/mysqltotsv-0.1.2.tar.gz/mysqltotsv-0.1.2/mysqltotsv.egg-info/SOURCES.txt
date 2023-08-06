@@ -1,0 +1,9 @@
+README.md
+mysql-to-tsv.py
+setup.py
+mysqltotsv/__init__.py
+mysqltotsv.egg-info/PKG-INFO
+mysqltotsv.egg-info/SOURCES.txt
+mysqltotsv.egg-info/dependency_links.txt
+mysqltotsv.egg-info/requires.txt
+mysqltotsv.egg-info/top_level.txt
