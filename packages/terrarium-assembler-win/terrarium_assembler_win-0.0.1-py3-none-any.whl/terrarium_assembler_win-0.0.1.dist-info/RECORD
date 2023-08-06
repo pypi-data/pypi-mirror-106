@@ -1,0 +1,13 @@
+terrarium_assembler_win/__init__.py,sha256=VeWstAm-h1YXYRD_Y5-1jukfnAVeFsLk1028oYXil28,583
+terrarium_assembler_win/cli.py,sha256=jwgpbx5oCzRx-gN7ipNBJJlu_PbRv31yon7aMm-ltX4,276
+terrarium_assembler_win/nuitkaflags.py,sha256=bXyoHuNN270qQmO9KrWfLtryCt9F0MV6yRMooL24sL8,4991
+terrarium_assembler_win/ta.py,sha256=0u3Xj5XDccuddJxnOxqvuhGfd0yhPqxoW3saASb_GYs,36046
+terrarium_assembler_win/utils.py,sha256=QbOafbrEwhqqU00bSAKaFVwgx9zojftPR68t7djG-_o,4239
+terrarium_assembler_win/wheel_utils.py,sha256=RqjTR92qIfhnyKYjSQ6al-O7BYZK7K3hMH_Lfm5REn4,3855
+terrarium_assembler_win/windows-builder.py,sha256=oI4kQaPiN8o05Z1NKrqANzoCAxqLdESBlYqon60JSn0,39769
+terrarium_assembler_win-0.0.1.dist-info/LICENSE,sha256=YP8J0foALjBHRNbZhHjX_ufX9YsBhUNph2qoT4Q2_No,1091
+terrarium_assembler_win-0.0.1.dist-info/METADATA,sha256=TXrHxM6p4mP6HnRt0jhCtXMD2sCh4DpaU2ZtozqRCSo,1966
+terrarium_assembler_win-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+terrarium_assembler_win-0.0.1.dist-info/entry_points.txt,sha256=Q4Tce1ZeiLwQsctiF7KS7c3cYKYW8-PT71wxgNZxzYc,78
+terrarium_assembler_win-0.0.1.dist-info/top_level.txt,sha256=S-RKrjV2jk7oKBIvIIQP-3FcDHtmoyXeX37ZYKxJeBw,24
+terrarium_assembler_win-0.0.1.dist-info/RECORD,,
