@@ -1,0 +1,13 @@
+pynviread/__init__.py,sha256=rNAZ9exN8AuG3I8Tq1D5Gi9Q5yyOS9a__ZjNQmALmHs,153
+pynviread/_version.py,sha256=TNAodMIaRrN_OXwgLnud2YcSl_63z3RuUuMxCoPeOfk,21
+pynviread/reader.py,sha256=kDmRzN-HHyzcrMBdBrucpplUiNhKukAoz-igJy-OrDI,4602
+pynviread/subprocess_calls.py,sha256=TzZKLVdjIl-s3ODpG_DrkM528dXWAiBnGnhVjYJfjsA,1093
+pynviread/examples/__init__.py,sha256=7-sy_Z-XCQEiFxiBrLAU4XP6e4HbPowK47Medj0DIBE,362
+pynviread/examples/cockatoo.mp4,sha256=X9419aKIyobiFtLcKBiKtktFYNMCHyc_rv3w3oDziqU,728751
+pynviread/examples/cockatoo_yuv420p.mp4,sha256=OHyPBN4LVUPJB6UKGlq04JCr9MsVs-vKr75fm9nEYGE,951880
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/testNvidiaReader.py,sha256=UhRpSgd0wjgAzufQ_OciNkoRyGxJTAkTLhEXFxmy198,1549
+pynviread-0.1.dist-info/METADATA,sha256=EbpoKDRPL7X80uaYtW1wEVsst7WsBlNwaqPpi9bU3B4,338
+pynviread-0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pynviread-0.1.dist-info/top_level.txt,sha256=F7VQMsh0p_cRhxvqiojfyfPpZZWzIwIF8Iy3uhj_shE,15
+pynviread-0.1.dist-info/RECORD,,
