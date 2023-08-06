@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+drf_jwt_auth.egg-info/PKG-INFO
+drf_jwt_auth.egg-info/SOURCES.txt
+drf_jwt_auth.egg-info/dependency_links.txt
+drf_jwt_auth.egg-info/requires.txt
+drf_jwt_auth.egg-info/top_level.txt
+drfjwtauth/__init__.py
+drfjwtauth/auth.py
+drfjwtauth/settings.py
+drfjwtauth/tests.py
+drfjwtauth/user.py
+drfjwtauth/views.py
