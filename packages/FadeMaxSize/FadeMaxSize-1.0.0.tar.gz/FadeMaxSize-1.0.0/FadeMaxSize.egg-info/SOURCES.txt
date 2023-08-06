@@ -1,0 +1,9 @@
+setup.py
+FadeMaxSize/__init__.py
+FadeMaxSize/findMax.py
+FadeMaxSize.egg-info/PKG-INFO
+FadeMaxSize.egg-info/SOURCES.txt
+FadeMaxSize.egg-info/dependency_links.txt
+FadeMaxSize.egg-info/top_level.txt
+tests/__init__.py
+tests/test_find.py
