@@ -1,0 +1,14 @@
+stratify-0.2.post0.dist-info/WHEEL,sha256=2R091Yw4KyYpPRWurYLI13P5couY5AMwxl7kvxKMQ9Y,148
+stratify-0.2.post0.dist-info/top_level.txt,sha256=7lEEpdpR0Rqg45Qqn36uMMWMujNLFp2do9AsRU7j7nI,9
+stratify-0.2.post0.dist-info/RECORD,,
+stratify-0.2.post0.dist-info/LICENSE,sha256=BYhLmRfwIy7OfDrfzLzNojr_31x4D4P098qpptJpD-Q,1513
+stratify-0.2.post0.dist-info/METADATA,sha256=2k6lvgQQExJO8DDmzrUqr1GPk7N3-TUYmoh_Qe1DZsE,3542
+stratify/_vinterp.cpython-38-x86_64-linux-gnu.so,sha256=zGvhRwAAm3qkW1SaguTX5j9L7WPhjEcx1owdTg1-vZA,2666256
+stratify/_bounded_vinterp.py,sha256=0axKfsgLG0fbvVqd3OnhshWm1DshcqEvvGIQyPt5Ro0,5516
+stratify/__init__.py,sha256=ybeDjO9Bp2BGo3jm4c_bTkjiQ49BNWDnCpTtXv-Tu7o,172
+stratify/_conservative.cpython-38-x86_64-linux-gnu.so,sha256=B1x6H2Y4qn9Byg5eZ0UOF9SEcz1LuRsm86ADGzTtwkA,657592
+stratify/_version.py,sha256=0fUihvwYhkpVz1kI6N1uYRDUtj2iDmo2xctucXyuSmw,152
+stratify/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stratify/tests/test_bounded_vinterp.py,sha256=qaUf7bVOrcg8SuHwXUaOCGUH3Z9Lje7Fg9LlMnPeTz0,9396
+stratify/tests/performance.py,sha256=b1gsft0R0teHtAGerPmKVSJ6joAvD3wZ2QT_p67p8qE,672
+stratify/tests/test_vinterp.py,sha256=Qb2R2JvDF3kdGUgexRE-UTLPqfRw3T3dmcmfAIc8kHU,19158
