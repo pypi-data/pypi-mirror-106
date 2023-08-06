@@ -1,0 +1,15 @@
+AUTHORS.md,sha256=gfRswALvIge3MWoWJY6qb5a3FecKob48jGPPSKfcK7E,224
+HISTORY.md,sha256=imM994YAqoVfOLYDS64jE6TpWEMIzym5bGKJwyFu7Gg,244
+LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos/api_gateway/discovery/__init__.py,sha256=whldy2nRVjWT92uqb0z4afG5W2av1n_eSZ9Mhq4CfvE,384
+minos/api_gateway/discovery/database/__init__.py,sha256=okh5GPyBGPRdR3Ds3uY5__a8uxNKSjlwt0ndEXp5htk,46
+minos/api_gateway/discovery/database/client.py,sha256=hNMrDNUAJauD_C4Qv7XrfH81h7lzdv6rSH3-gn4hg1c,2771
+minos/api_gateway/discovery/handlers.py,sha256=yjmgwBdk9rIM09Ku-5-RN-vZ_DZTNkeuMD8IfPeSCYU,2489
+minos/api_gateway/discovery/periodic/__init__.py,sha256=Q9TBnVTewRuQHxEGyhDbmqtZzFsy-NFLcVOEzzQbkHc,105
+minos/api_gateway/discovery/periodic/abc.py,sha256=JrN3631Xy3xRr2eZYidYQ_EJvvwYiPQdQmxrTO08UAI,2316
+minos/api_gateway/discovery/periodic/service.py,sha256=-1Kf8kUEMdRi92HjO9q_cnLL7-5b9UkUZ5sJwHVLY4M,1161
+minos/api_gateway/discovery/service.py,sha256=uK-Jq2Y8xBcMax2Z1G-ZUWiCShoZnFN4iT5DuX436ds,712
+minos_discovery-0.0.1.dist-info/LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos_discovery-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+minos_discovery-0.0.1.dist-info/METADATA,sha256=3vw9E3fYrFEfvL9u1x9XVNHOzivbBA3aBJcQsv7NfyA,1049
+minos_discovery-0.0.1.dist-info/RECORD,,
