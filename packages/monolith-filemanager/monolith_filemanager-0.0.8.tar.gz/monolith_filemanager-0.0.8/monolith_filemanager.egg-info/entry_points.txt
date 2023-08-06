@@ -1,0 +1,3 @@
+[console_scripts]
+file-hello = monolith_filemanager.console_commands.hello:print_logo
+
