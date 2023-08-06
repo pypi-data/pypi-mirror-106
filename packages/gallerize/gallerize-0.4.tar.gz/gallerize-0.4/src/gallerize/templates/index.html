@@ -1,0 +1,38 @@
+{% extends "_layout.html" %}
+
+{% set gallery_title = gallery.title %}
+
+{% block head_additions %}
+    <style>
+      ol.thumbnails li {
+        {%- set image_border_width = 2 %}
+        height: {{ gallery.max_thumbnail_size.height + (image_border_width * 2) }}px;
+        width: {{ gallery.max_thumbnail_size.width + (image_border_width * 2) }}px;
+      }
+      ol.thumbnails li img {
+        max-height: {{ gallery.max_thumbnail_size.height }}px;
+        max-width: {{ gallery.max_thumbnail_size.width }}px;
+      }
+    </style>
+{%- endblock head_additions %}
+
+{% block body %}
+
+    {%- if gallery.title is not none %}
+    <header>
+      <h1>{{ gallery.title }}</h1>
+    </header>
+    {%- endif %}
+
+    <p>{{ gallery.images|length }} images</p>
+    <ol class="thumbnails">
+    {%- for image in gallery.images %}
+      <li>
+        <figure>
+          <a href="{{ url_for_page(image.page_name) }}"><img src="{{ image.thumbnail_filename }}" loading="lazy"></a>
+        </figure>
+      </li>
+    {%- endfor %}
+    </ol>
+
+{%- endblock body %}
