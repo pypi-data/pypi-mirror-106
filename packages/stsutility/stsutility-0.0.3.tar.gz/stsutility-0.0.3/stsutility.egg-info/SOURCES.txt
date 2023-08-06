@@ -1,0 +1,8 @@
+README.md
+setup.py
+stsutility/__init__.py
+stsutility.egg-info/PKG-INFO
+stsutility.egg-info/SOURCES.txt
+stsutility.egg-info/dependency_links.txt
+stsutility.egg-info/requires.txt
+stsutility.egg-info/top_level.txt
