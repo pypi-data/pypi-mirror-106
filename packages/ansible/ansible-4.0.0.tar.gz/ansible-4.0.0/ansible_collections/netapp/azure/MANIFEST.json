@@ -1,0 +1,37 @@
+{
+ "collection_info": {
+  "namespace": "netapp",
+  "name": "azure",
+  "version": "21.5.0",
+  "authors": [
+   "NetApp Ansible Team <ng-ansibleteam@netapp.com>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "storage",
+   "cloud",
+   "netapp",
+   "cvs",
+   "anf",
+   "azure"
+  ],
+  "description": "Azure NetApp Files (ANF)",
+  "license": [],
+  "license_file": "COPYING",
+  "dependencies": {
+   "azure.azcollection": ">=1.0.0"
+  },
+  "repository": "https://github.com/ansible-collections/netapp",
+  "documentation": null,
+  "homepage": "https://netapp.io/configuration-management-and-automation/",
+  "issues": null
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "adf56e49cc45367030dcd3dbe3475b24ab46c1285a421853d3680be59fe614b2",
+  "format": 1
+ },
+ "format": 1
+}
