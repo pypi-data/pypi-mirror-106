@@ -1,0 +1,10 @@
+kanjidraw/__init__.py,sha256=PHI73fPl2KdYaSWwsI37TvgRdJX67vPgFuWGC_Gka7o,48
+kanjidraw/data.json,sha256=mQ9c7VTPTtKz29QE2FS_cYrFv8Z7ouAFBho0XmAvjnE,1684689
+kanjidraw/gui.py,sha256=1-NLo7dVE2COLF5mNpGL4DdQ5qvXUKsLZW6Ja5pgjpM,5956
+kanjidraw/lib.py,sha256=sqDRQwpBhUzCViRoaPEeXyW1wBfEPrs7xN4hk2G0MIg,12708
+kanjidraw-0.2.1.dist-info/LICENSE.AGPLv3,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+kanjidraw-0.2.1.dist-info/METADATA,sha256=bv7fv_HqqXj52b8rrS_jdvuawGSf2Qi_4pwzx2SVNTw,3760
+kanjidraw-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kanjidraw-0.2.1.dist-info/entry_points.txt,sha256=hRc7rgh5pbWcKsDQ-IF3k6b5_KA2Ii-DXa1jWyuf0Jw,50
+kanjidraw-0.2.1.dist-info/top_level.txt,sha256=8rzoJM7blMWZ9pN9MwhUPLe1MUy5MJjbf9k8cMUFs9I,10
+kanjidraw-0.2.1.dist-info/RECORD,,
