@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: miau
+Version: 1.0.1
+Summary: Libreria de pruebas MIAU.
+Home-page: UNKNOWN
+Author: Javier Bermejo Gonzalez
+Author-email: javier.bermejo@me.com
+License: GNU GPLv3
+Keywords: practicas
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+MIAU
+==============
+
+Este es un programa test para el curso de Python.
+
+
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+
