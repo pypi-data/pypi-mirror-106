@@ -1,0 +1,3 @@
+[console_scripts]
+sendEmail = jujube_pill:sendEmail
+
