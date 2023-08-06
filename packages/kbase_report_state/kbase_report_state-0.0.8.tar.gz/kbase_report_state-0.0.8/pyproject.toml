@@ -1,0 +1,16 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=2,<4"]
+
+[project]
+authors = [
+    {name = "Dakota Blair", email = "dblair@bnl.gov"},
+]
+classifiers = [ "License :: OSI Approved :: MIT License",]
+readme = "README.md"
+dynamic = ["version", "description"]
+name = "kbase_report_state"
+requires-python = ">=3.8.2"
+
+[tool.black]
+line-length = 80
