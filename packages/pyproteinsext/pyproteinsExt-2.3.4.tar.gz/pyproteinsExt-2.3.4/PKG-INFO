@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyproteinsext
+Version: 2.3.4
+Summary: Extending pyproteins for bioinformatics tools&services
+Author: glaunay
+Author-email: pitooon@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Flask (>=2.0.0,<3.0.0)
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: marshmallow (>=3.12.1,<4.0.0)
+Requires-Dist: progressbar2 (>=3.53.1,<4.0.0)
+Requires-Dist: pyproteins (>=1.5,<2.0)
+Requires-Dist: pyrediscore (>=0.0.2,<0.0.3)

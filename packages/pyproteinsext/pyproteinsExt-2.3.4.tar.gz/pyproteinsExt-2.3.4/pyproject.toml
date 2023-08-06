@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pyproteinsExt"
+version = "2.3.4"
+description = "Extending pyproteins for bioinformatics tools&services"
+authors = ["glaunay <pitooon@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+docopt = "^0.6.2"
+Flask = "^2.0.0"
+pyproteins = "^1.5"
+pyrediscore = "^0.0.2"
+marshmallow = "^3.12.1"
+progressbar2 = "^3.53.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
