@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/playmedia.egg-info/PKG-INFO
+src/playmedia.egg-info/SOURCES.txt
+src/playmedia.egg-info/dependency_links.txt
+src/playmedia.egg-info/requires.txt
+src/playmedia.egg-info/top_level.txt
