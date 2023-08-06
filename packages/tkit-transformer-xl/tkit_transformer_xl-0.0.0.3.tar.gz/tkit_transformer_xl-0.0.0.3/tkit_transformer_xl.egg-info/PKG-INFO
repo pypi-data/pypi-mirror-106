@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tkit-transformer-xl
+Version: 0.0.0.3
+Summary: Terry toolkit tkitDemo
+Home-page: https://github.com/napoler/tkit_transformer_xl
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Description: # Transformer_xl
+        处理长文本序列
+        替代lstm
+        
+        
+        ```
+        pip install tkit_transformer_xl
+        pip install git+https://github.com/napoler/tkit_transformer_xl.git
+        
+        ```
+        
+        
+        ```
+        from tkit_transformer_xl import Transformer_xl
+        model=Transformer_xl()
+        
+        ```
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
