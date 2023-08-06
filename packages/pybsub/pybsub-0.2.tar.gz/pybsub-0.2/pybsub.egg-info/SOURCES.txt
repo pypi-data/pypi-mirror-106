@@ -1,0 +1,7 @@
+README.md
+setup.py
+pybsub/__init__.py
+pybsub.egg-info/PKG-INFO
+pybsub.egg-info/SOURCES.txt
+pybsub.egg-info/dependency_links.txt
+pybsub.egg-info/top_level.txt
