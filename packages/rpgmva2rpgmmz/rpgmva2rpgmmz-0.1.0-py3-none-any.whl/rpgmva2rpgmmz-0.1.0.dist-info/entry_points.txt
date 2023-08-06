@@ -1,0 +1,3 @@
+[console_scripts]
+rpgmva2rpgmmz=rpgmva2rpgmmz.main:main
+

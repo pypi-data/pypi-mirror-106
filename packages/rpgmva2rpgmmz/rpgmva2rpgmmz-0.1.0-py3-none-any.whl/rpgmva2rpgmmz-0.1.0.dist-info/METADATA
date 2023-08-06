@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: rpgmva2rpgmmz
+Version: 0.1.0
+Summary: Convert and extract tilesets from RPG Maker VX/Ace to RPG Maker MV/MZ format
+Home-page: https://github.com/Konosprod/rpgmva2rpgmmz
+License: MIT
+Author: Konosprod
+Author-email: konosprod@free.fr
+Requires-Python: >=3.4,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Dist: rubymarshal (>=1.2.7,<2.0.0)
+Description-Content-Type: text/markdown
+
+# animated-journey
+Convert RPG Maker VX Ace Tileset.rvdata2 to RPG Maker MV/MZ JSON
+
+# Needs
+
+* [RubyMarshal](https://github.com/d9pouces/RubyMarshal)
+
