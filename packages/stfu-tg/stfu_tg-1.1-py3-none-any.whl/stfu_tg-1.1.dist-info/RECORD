@@ -1,0 +1,10 @@
+stfu_tg/__init__.py,sha256=iY4qW9dvaTCsz2aCW5uL8xHivbK2XnjVrcWoshKLqvA,413
+stfu_tg/base.py,sha256=SZ-wU9uJepG2LMa567ZveCNykcRomZLIgaCsfz4ATx0,390
+stfu_tg/extras.py,sha256=s7PsLr20xvldRb74-kBT5QhSL_Cx4fn5JOYkaay2Dts,366
+stfu_tg/formatting.py,sha256=QvGZr3W0RNWHZIOQxPQCA0Cky2aMonUYrkcfl4A6r9w,1011
+stfu_tg/sections.py,sha256=2aYx2Pp5hIGrEdYVA_V3pDE17VcwDbKEzV-x_DDY69g,2577
+stfu_tg/telegram.py,sha256=yowkEU7-GTdWljrgmjXnlhTnUUWVrHcwDM44P-w4rmo,220
+stfu_tg-1.1.dist-info/LICENSE.md,sha256=TfPDBt3ar0uv_f9cqCDMZ5rIzW3CY8anRRd4PkL6ejs,34522
+stfu_tg-1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+stfu_tg-1.1.dist-info/METADATA,sha256=t7Oic7iLV00pi6rCEeGF0Om_XKw7mus8Jxs2pmFzhmg,501
+stfu_tg-1.1.dist-info/RECORD,,
