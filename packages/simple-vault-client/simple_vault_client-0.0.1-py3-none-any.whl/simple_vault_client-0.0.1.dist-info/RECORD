@@ -1,0 +1,7 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vault_client/__init__.py,sha256=bqvwkpU5oeq7z0hXB7DCeW9ngLK641tUpgpub6eW2BE,106
+vault_client/client.py,sha256=9YhZDDwU9c-m6sBSD8PxoLuTCwcKEv_2a2BN45LWXig,14585
+simple_vault_client-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simple_vault_client-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+simple_vault_client-0.0.1.dist-info/METADATA,sha256=9sxZOkQ3915t2Olodf3yWH_pm8964bVU2j6yeOU2ivU,2964
+simple_vault_client-0.0.1.dist-info/RECORD,,
