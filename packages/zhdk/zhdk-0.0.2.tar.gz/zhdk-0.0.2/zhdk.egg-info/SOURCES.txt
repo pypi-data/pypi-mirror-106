@@ -1,0 +1,8 @@
+README.md
+setup.py
+zhdk/__init__.py
+zhdk/file.py
+zhdk.egg-info/PKG-INFO
+zhdk.egg-info/SOURCES.txt
+zhdk.egg-info/dependency_links.txt
+zhdk.egg-info/top_level.txt
