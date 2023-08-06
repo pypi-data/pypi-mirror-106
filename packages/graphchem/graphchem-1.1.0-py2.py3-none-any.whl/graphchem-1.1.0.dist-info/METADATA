@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: graphchem
+Version: 1.1.0
+Summary: Graph-based machine learning for chemical property prediction
+Home-page: https://github.com/ecrl/graphchem
+Author: Travis Kessler
+Author-email: Travis_Kessler@student.uml.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: torch (==1.8.0)
+Requires-Dist: pytorch-nlp (==0.5.0)
+Requires-Dist: torch-scatter (==2.0.6)
+Requires-Dist: torch-sparse (==0.6.9)
+Requires-Dist: torch-cluster (==1.5.9)
+Requires-Dist: torch-spline-conv (==1.2.1)
+Requires-Dist: torch-geometric (==1.6.3)
+
+UNKNOWN
+
+
