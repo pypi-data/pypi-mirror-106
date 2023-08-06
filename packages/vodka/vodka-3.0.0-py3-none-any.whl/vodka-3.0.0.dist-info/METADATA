@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: vodka
+Version: 3.0.0
+Summary: plugin based real-time web service daemon
+License: Apache-2.0
+Author: 20C
+Author-email: code@20c.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Requires-Dist: click
+Requires-Dist: munge (>=1,<2)
+Requires-Dist: pluginmgr (>=1,<2)
+Requires-Dist: tmpl (>=0,<1)
