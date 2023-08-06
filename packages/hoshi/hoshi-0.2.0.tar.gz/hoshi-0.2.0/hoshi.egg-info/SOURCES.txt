@@ -1,0 +1,12 @@
+.gitignore
+setup.py
+example/example.py
+hoshi/__init__.py
+hoshi/i18n.py
+hoshi/sets.py
+hoshi/translation.py
+hoshi.egg-info/PKG-INFO
+hoshi.egg-info/SOURCES.txt
+hoshi.egg-info/dependency_links.txt
+hoshi.egg-info/requires.txt
+hoshi.egg-info/top_level.txt
