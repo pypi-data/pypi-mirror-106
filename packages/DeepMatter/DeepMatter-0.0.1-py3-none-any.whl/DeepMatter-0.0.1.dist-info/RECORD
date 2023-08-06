@@ -1,0 +1,10 @@
+DeepMatter/__init__.py,sha256=MHt4DRgVqBQAm3XmDk2j0HZqhnqZgukY9lCGY9Djwys,55
+DeepMatter/rand_util/__init__.py,sha256=EKT2fkmBfKZU62--V0NkeACAk_QImUFPvhDcifwLwYg,23
+DeepMatter/rand_util/rand_gen.py,sha256=JJ8Sv23K7TMQIfp42SFSVM2xATFF6PdFrF1kTuodvA0,488
+DeepMatter/spectral_fitters/__init__.py,sha256=G96lbG9Ma7kjx9YkrXk_mtBQZDOTTa0BdRwnhpX1NAE,23
+DeepMatter/spectral_fitters/gaussian.py,sha256=8f_-LTdVr8mXL3pXzPo7j_ZShm-rcmXTJ0D20W8W2n8,1839
+DeepMatter-0.0.1.dist-info/LICENSE,sha256=R2-pTh4Vnlg_UHislDo_Kbm4PL4XFjQbFQoRDqQ7lGc,1575
+DeepMatter-0.0.1.dist-info/METADATA,sha256=4Beuj6r-aIYzdk5Fi1qBlFGID5Me7-KmEZxBGK51EB0,441
+DeepMatter-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+DeepMatter-0.0.1.dist-info/top_level.txt,sha256=V6Fa24Vwn9pl-8dsOfU4Bhz6iSxW4yC4_iDZ8YbGMGw,11
+DeepMatter-0.0.1.dist-info/RECORD,,
