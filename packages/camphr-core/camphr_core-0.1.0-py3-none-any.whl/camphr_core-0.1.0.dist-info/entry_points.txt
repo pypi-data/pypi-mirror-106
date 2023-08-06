@@ -1,0 +1,5 @@
+[spacy_languages]
+ja_juman=camphr_core.lang.juman:Japanese
+ja_mecab=camphr_core.lang.mecab:Japanese
+sentencepiece=camphr_core.lang.sentencepiece:SentencePieceLang
+
