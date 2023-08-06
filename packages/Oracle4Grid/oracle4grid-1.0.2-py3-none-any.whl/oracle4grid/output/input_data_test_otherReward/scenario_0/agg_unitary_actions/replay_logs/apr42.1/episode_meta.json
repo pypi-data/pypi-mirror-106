@@ -1,0 +1,11 @@
+{
+    "agent_seed": 249524660,
+    "backend_type": "LightSimBackend_input_data_test_otherReward",
+    "chronics_max_timestep": "400",
+    "chronics_path": "D:\\Projets\\RTE\\input_data_test_otherReward\\chronics\\apr42.1",
+    "cumulative_reward": 0.0,
+    "env_seed": 508848152,
+    "env_type": "Environment_input_data_test_otherReward",
+    "grid_path": "D:\\Projets\\RTE\\input_data_test_otherReward\\grid.json",
+    "nb_timestep_played": 1
+}
