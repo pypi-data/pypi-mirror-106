@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mawaqit_times_calculator/__init__.py
+mawaqit_times_calculator/pray_times_calculator.py
+mawaqit_times_calculator.egg-info/PKG-INFO
+mawaqit_times_calculator.egg-info/SOURCES.txt
+mawaqit_times_calculator.egg-info/dependency_links.txt
+mawaqit_times_calculator.egg-info/not-zip-safe
+mawaqit_times_calculator.egg-info/top_level.txt
