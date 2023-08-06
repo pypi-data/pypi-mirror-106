@@ -1,0 +1,239 @@
+Metadata-Version: 2.1
+Name: mol2grid
+Version: 0.1.2
+Summary: Python package to insert a ligand in a 3D grid, created based         on its respective receptor, considering each atom type as an integer
+Home-page: https://github.com/jvsguerra/mol2grid
+Author: João Victor da Silva Guerra
+Author-email: jvsguerra@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/jvsguerra/mol2grid/
+Project-URL: Issues, https://github.com/jvsguerra/mol2grid/issues
+Keywords: structural biology,proteins
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/x-rst
+Requires-Dist: toml (>=0.10.2)
+Requires-Dist: numpy (>=1.19.4)
+
+############################
+Molecules to grid (mol2grid)
+############################
+
+|PyPI version shields.io| |PyPI pyversions| |PyPI license|
+
+.. |PyPI version shields.io| image:: https://img.shields.io/pypi/v/mol2grid.svg
+   :target: https://pypi.python.org/pypi/mol2grid/
+
+.. |PyPI pyversions| image:: https://img.shields.io/pypi/pyversions/mol2grid.svg
+   :target: https://pypi.python.org/pypi/mol2grid/
+
+.. |PyPI license| image:: https://img.shields.io/pypi/l/mol2grid.svg
+   :target: https://pypi.python.org/pypi/mol2grid/
+
+Python package to insert a molecule in a 3D grid, considering each atom type as an integer.
+
+See also:
+
+- `GitHub repository <https://github.com/jvsguerra/mol2grid/>`_
+
+************
+Requirements
+************
+
+- Python 3.7+
+- NumPy 1.19.4+
+- toml 0.10.2+
+
+************
+Installation
+************
+
+To install the latest release on `PyPI <https://pypi.org/project/mol2grid>`_, run:
+
+.. code-block:: bash
+
+    pip install mol2grid
+
+To install the latest developmental version, run:
+
+.. code-block:: bash
+
+    git clone https://github.com/jvsguerra/mol2grid.git
+    pip install mol2grid
+
+*****
+Usage
+*****
+
+First, save the ligand and receptor structures to PDB-formatted files.
+
+.. code-block:: python
+
+    >>> ligand = 'path/to/ligand.pdb' # path to a target ligand
+    >>> receptor = 'path/to/receptor.pdb' # path to a target receptor
+
+The ``lig2grid`` function takes a ligand and a receptor PDB-formatted files and inserts this ligand to a 3D grid created based on the receptor, a padding and a grid spacing (step).
+
+.. code-block:: python
+
+    >>> from mol2grid import lig2grid
+    >>> lig = lig2grid(ligand, receptor, padding=4.0, step=0.6, file=None, vdw=None, catalog=None, ignore_h=True)
+
+The ``rec2grid`` function takes a receptor PDB-formatted file and inserts this receptor to a 3D grid created based on the receptor, a padding and a grid spacing (step).
+
+.. code-block:: python
+
+    >>> from mol2grid import rec2grid
+    >>> rec = rec2grid(receptor, padding=4.0, step=0.6, file=None, vdw=None, catalog=None, ignore_h=True)
+
+The ``pair2grid`` function takes a ligand and a receptor PDB-formatted files and inserts this ligand and receptor to 3D grids created based on the receptor, a padding and a grid spacing (step).
+
+.. code-block:: python
+
+    >>> from mol2grid import pair2grid
+    >>> lig, rec = pair2grid(ligand, receptor, padding=4.0, step=0.6, file=None, vdw=None, catalog=None, ignore_h=True)
+
+***
+API
+***
+
+mol2grid.lig2grid
+=================
+
+Inserts a target receptor to a 3D grid, created based on the receptor, a padding and a grid spacing (step).
+
+.. code-block:: python
+
+    mol2grid.lig2grid(ligand: str, receptor: str, padding: float, step: float = 0.6, file: Optional[str] = None, vdw: Optional[str] = None, catalog: Optional[str] = None, ignore_h: bool = True, nthreads: int = os.cpu_count() - 1, verbose: bool = False) → numpy.ndarray
+
+
+:Args:
+
+    -  **ligand** (*str*) – A path to a PDB-formatted file of a target ligand
+
+    -  **receptor** (*str*) – A path to a PDB-formatted file of a target receptor
+
+    -  **padding** (*float*) – A length to be added in each direction of the 3D grid
+
+    -  **step** (*float*, *optional*) – Grid spacing (A), by default 0.6
+
+    -  **file** (*str*, *optional*) – A path to a PDB-formatted file to write the grid points where atoms lay on and the barcodes are mapped on the B-values, by default None
+
+    -  **vdw** (*str*, *optional*) – A path to a custom van der Waals radii file, by default None
+
+    -  **catalog** (*str*, *optional*) – A path to a custom catalog file, by default None
+
+    -  **ignore_h** (*bool*, *optional*) – Whether to ignore hydrogen atoms, by default True
+
+    -  **nthreads** (*int*, *optional*) – Number of threads, by default {os.cpu_count()-1}
+
+    -  **verbose** (*bool*, *optional*) – Whether to print extra information to standard output, by default False
+
+:Returns:
+    A numpy.ndarray with grid points corresponding to the atom barcodes of the receptor
+
+:Return type:
+    numpy.ndarray
+
+:Note:
+    Greater barcodes have priority in the 3D grid when atoms overlap
+
+mol2grid.rec2grid
+=================
+
+Inserts a target receptor to a 3D grid, created based on the receptor, a padding and a grid spacing (step).
+
+.. code-block:: python
+
+    mol2grid.rec2grid(receptor: str, padding: float, step: float = 0.6, file: Optional[str] = None, vdw: Optional[str] = None, catalog: Optional[str] = None, ignore_h: bool = True, nthreads: int = os.cpu_count() - 1, verbose: bool = False) → numpy.ndarray
+
+:Args:
+
+    -  **receptor** (*str*) – A path to a PDB-formatted file of a target receptor
+
+    -  **padding** (*float*) – A length to be added in each direction of the 3D grid
+
+    -  **step** (*float*, *optional*) – Grid spacing (A), by default 0.6
+
+    -  **file** (*str*, *optional*) – A path to a PDB-formatted file to write the grid points where atoms lay on and the barcodes are mapped on the B-values, by default None
+
+    -  **vdw** (*str*, *optional*) – A path to a custom van der Waals radii file, by default None
+
+    -  **catalog** (*str*, *optional*) – A path to a custom catalog file, by default None
+
+    -  **ignore_h** (*bool*, *optional*) – Whether to ignore hydrogen atoms, by default True
+
+    -  **nthreads** (*int*, *optional*) – Number of threads, by default {os.cpu_count()-1}
+
+    -  **verbose** (*bool*, *optional*) – Whether to print extra information to standard output, by default False
+
+:Returns:
+    A numpy.ndarray with grid points corresponding to the atom barcodes of the ligand
+
+:Return type:
+    numpy.ndarray
+
+:Note:
+    Greater barcodes have priority in the 3D grid when atoms overlap
+
+
+mol2grid.pair2grid
+==================
+
+Inserts a target receptor to a 3D grid, created based on the receptor, a padding and a grid spacing (step).
+
+.. code-block:: python
+
+    mol2grid.pair2grid(ligand: str, receptor: str, padding: float, step: float = 0.6, ligfile: Optional[str] = None, recfile: Optional[str] = None, vdw: Optional[str] = None, catalog: Optional[str] = None, ignore_h: bool = True, nthreads: int = os.cpu_count() - 1, verbose: bool = False) → Tuple[numpy.ndarray,numpy.ndarray]
+
+:Args:
+
+    -  **ligand** (*str*) – A path to a PDB-formatted file of a target ligand
+
+    -  **receptor** (*str*) – A path to a PDB-formatted file of a target receptor
+
+    -  **padding** (*float*) – A length to be added in each direction of the 3D grid
+
+    -  **step** (*float*, *optional*) – Grid spacing (A), by default 0.6
+
+    -  **ligfile** (*str*, *optional*) – A path to a PDB-formatted file to write the grid points where atoms of the ligand lay on and the barcodes are mapped on the B-values, by default None
+
+    -  **recfile** (*str*, *optional*) – A path to a PDB-formatted file to write the grid points where atoms of the receptor lay on and the barcodes are mapped on the B-values, by default None
+
+    -  **vdw** (*str*, *optional*) – A path to a custom van der Waals radii file, by default None
+
+    -  **catalog** (*str*, *optional*) – A path to a custom catalog file, by default None
+
+    -  **ignore_h** (*bool*, *optional*) – Whether to ignore hydrogen atoms, by default True
+
+    -  **nthreads** (*int*, *optional*) – Number of threads, by default {os.cpu_count()-1}
+
+    -  **verbose** (*bool*, *optional*) – Whether to print extra information to standard output, by default False
+
+:Returns:
+    A tuple with numpy.ndarrays with grid points corresponding to the atom barcodes of the ligand and the receptor
+
+:Return type:
+    numpy.ndarray
+
+:Note:
+    Greater barcodes have priority in the 3D grid when atoms overlap
+
+*******
+License
+*******
+
+The software is licensed under the terms of the GNU General Public License version 3 (GPL3) and is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+
