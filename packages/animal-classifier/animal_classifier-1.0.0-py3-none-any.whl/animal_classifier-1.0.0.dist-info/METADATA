@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: animal-classifier
+Version: 1.0.0
+Summary: It classify the cat or dog images
+Home-page: https://github.com/xvinay28x/animal_classifier_library
+Author: Vinay Garg
+Author-email: xvinay28x@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow
+
+# animal-classifier
+It is a cat and dog classifire.
+
+## Installation
+```python
+pip install cat_dog_classifier
+```
+
+## How to use it
+It take the image path and classify the image, if it is cat then answer is 0 else 1 for dog.
+ ```python 
+import animal-classifier
+
+image_path = "C:\Users\xvinay28x\Desktop\dog.jpg"
+result = animal-classifier.cat_dog(image_path)
+if result ==  1:
+    print("It is Dog")
+else:
+    print("It is Cat")
+```
+
+## License
+
+Â© 2021 Vinay Garg
+
