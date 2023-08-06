@@ -1,0 +1,3 @@
+[console_scripts]
+backupman = backupman.backupman:main
+
