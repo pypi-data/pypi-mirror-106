@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+perpy/__init__.py
+perpy.egg-info/PKG-INFO
+perpy.egg-info/SOURCES.txt
+perpy.egg-info/dependency_links.txt
+perpy.egg-info/requires.txt
+perpy.egg-info/top_level.txt
