@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: uroko
+Version: 0.1.0
+Summary: Data scaling tool for CSV/TSV
+License: MIT
+Author: Kohei Tsuyuki
+Author-email: kotsuyuki@gmail.com
+Requires-Python: >=3.7,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.0,<9.0.0)
+Requires-Dist: numpy (>=1.20.3,<2.0.0)
