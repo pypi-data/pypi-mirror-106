@@ -1,0 +1,10 @@
+docker_patch/__init__.py,sha256=42mJ0JEHk7_EeYLiIt6ED_3wx_ji1CP60tfodhMgKtQ,2294
+docker_patch/__main__.py,sha256=x7kna-z43adHUaVRDnRD7R4LuvUtLojPDk_oNzbQZtQ,1235
+tests/__init__.py,sha256=5NP9jo9z5Yp5LHM9sPeusFAMS6Hacq0ESg43-cgHx3E,67
+tests/data.py,sha256=JeEqfGg398oVZ0HTUJND91IcsMTEdyhrSDZiTrUCsvM,93
+tests/test_cli.py,sha256=7JwpIjfWZ5c-tUUnWu44hUCEm2vVgrX0Dsp_UoCaZ1M,661
+docker_patch-0.1.1.dist-info/METADATA,sha256=JMQQwtGm0_ETMMKOsIqQMr4WXR2-QyXSUvFBHzz2TbI,2022
+docker_patch-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+docker_patch-0.1.1.dist-info/entry_points.txt,sha256=AMPvwXonds3CvaI8iGdp2qzy7h9SFqR464vM0UGJfTg,65
+docker_patch-0.1.1.dist-info/top_level.txt,sha256=9IZx1inX3UUDe94aAdZ5GpZWJxeACd09YaFge0Okmco,19
+docker_patch-0.1.1.dist-info/RECORD,,
