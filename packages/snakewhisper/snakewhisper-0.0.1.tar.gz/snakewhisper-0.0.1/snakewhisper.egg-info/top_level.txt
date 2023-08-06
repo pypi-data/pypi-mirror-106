@@ -1,0 +1,2 @@
+snakewhisper_chat
+snakewhisper_key

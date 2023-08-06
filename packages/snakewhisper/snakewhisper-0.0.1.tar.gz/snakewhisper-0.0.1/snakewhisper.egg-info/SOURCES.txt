@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+snakewhisper.egg-info/PKG-INFO
+snakewhisper.egg-info/SOURCES.txt
+snakewhisper.egg-info/dependency_links.txt
+snakewhisper.egg-info/requires.txt
+snakewhisper.egg-info/top_level.txt
+snakewhisper_chat/__init__.py
+snakewhisper_chat/__main__.py
+snakewhisper_key/__init__.py
+snakewhisper_key/__main__.py
