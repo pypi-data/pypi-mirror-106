@@ -1,0 +1,10 @@
+uwtools/Coordinates.file,sha256=f3TCL4UYb6gJQyRLNJVT3X8NyvyUPMzUouW4m85xGew,3304
+uwtools/__init__.py,sha256=D_FKHTAAiSKcF4bHsmyivppe8RCfBQ_bB_W27zH8_dQ,342
+uwtools/parse_buildings.py,sha256=ROY7K0vHMHfQC8CmCWKuqTdkslYxuG8sQlGdwY5YBcc,7083
+uwtools/parse_courses.py,sha256=ZwNYeJ6qYUp5gnP09y4iM9iFQAKgcG7Wwve_XG5kK9g,28802
+uwtools/parse_schedules.py,sha256=sYWpmc0klnsen5euSJo2SaZqHYuCLiX0qCjbThLUFp0,14727
+uwtools-1.6.1.dist-info/LICENSE,sha256=YmXIHxn3bdUZkZEs7pR5Misc9fczU9gzlJrkoaAVdTA,1087
+uwtools-1.6.1.dist-info/METADATA,sha256=Wp-EB8bcbCBRiJkmX15SVL4tZVmEv6jWMu6wIjH7z8g,2511
+uwtools-1.6.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+uwtools-1.6.1.dist-info/top_level.txt,sha256=lFsSBQopI0PU_olv70YtEg2fVyMKM_CJmRzC_nQobrc,8
+uwtools-1.6.1.dist-info/RECORD,,
