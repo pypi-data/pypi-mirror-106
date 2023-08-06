@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: baiocas
+Version: 1.0.0.dev0
+Summary: A simple Bayeux client for Python following the Comet paradigm.
+Home-page: http://github.com/silentsound/baiocas
+Author: Yoann Roman
+Author-email: silentsound@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: pycurl (>=7.19.0)
+Requires-Dist: tornado (>3.0)
+
+UNKNOWN
+
+
