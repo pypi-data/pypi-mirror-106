@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: spatialtis
+Version: 0.3.2
+Summary: spatial analysis toolkit for single-cell multiplexed tissue data
+Home-page: https://github.com/Mr-Milk/SpatialTis
+Author: Mr-Milk
+Author-email: yb97643@um.edu.mo
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: anndata
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: shapely
+Requires-Dist: bokeh
+Requires-Dist: rich[jupyter]
+Requires-Dist: seaborn
+Requires-Dist: colour
+Requires-Dist: matplotlib
+Requires-Dist: pyecharts
+Requires-Dist: lightgbm
+Requires-Dist: scikit-learn
+Requires-Dist: spatialentropy
+Requires-Dist: snapshot-phantomjs
+Requires-Dist: neighborhood-analysis
+Requires-Dist: leidenalg
+Requires-Dist: python-igraph
+Requires-Dist: ray ; python_version < "3.9"
+Provides-Extra: all
+Requires-Dist: scikit-image ; extra == 'all'
+Requires-Dist: alphashape ; extra == 'all'
+Requires-Dist: tifffile ; extra == 'all'
+
+<p align="center">
+<img src="img/Logo.svg" width="200"/>
+<p/>
+
+
+# SpatialTis
+[![Documentation Status](https://readthedocs.org/projects/spatialtis/badge/?version=latest&style=flat-square)](https://spatialtis.readthedocs.io/en/latest/?badge=latest)
+![CI](https://flat.badgen.net/github/status/Mr-Milk/SpatialTis?icon=github&label=CI)
+![codecov](https://flat.badgen.net/codecov/c/github/Mr-Milk/SpatialTis)
+![pypi](https://flat.badgen.net/pypi/v/spatialtis?color=blue)
+![licence](https://flat.badgen.net/github/license/Mr-Milk/SpatialTis)
+
+SpatialTis is a high-performance spatial analysis toolkit for single-cell multiplexed tissue data using [`AnnData`](https://icb-anndata.readthedocs-hosted.com/en/stable/#) object as input with **parallel processing** support.
+
+**Documentation**: [![rtd](img/view_on_rtd.svg)](https://spatialtis.readthedocs.io/en/latest/)
+
+[Quick Start](https://spatialtis.readthedocs.io/en/latest/tutorial/1-basic_usage.html)
+
+## Installation
+
+### pypi
+
+Install the basics
+
+```shell
+pip install spatialtis
+```
+
+For the full features
+
+```shell
+pip install 'spatialtis[all]'
+```
+
+Install the current development version
+
+```shell
+pip install git+https://github.com/Mr-Milk/SpatialTis.git
+```
+
+## SpatialTis modules
+
+- **Preprocessing**
+- **Basic analysis**
+    - Cell components
+    - Cell density
+    - Cell morphology
+    - Cell co-occurrence
+- **Spatial analysis**
+    - Find cell neighbors
+    - Spatial distribution
+    - Spatial heterogeneity
+    - Hotspot detection
+    - Cell-cell interaction
+    - Spatial co-expression
+    - Spatial community detection
+    - Neighbor dependent markers
+
+
