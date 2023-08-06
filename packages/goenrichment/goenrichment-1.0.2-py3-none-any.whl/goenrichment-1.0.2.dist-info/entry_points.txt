@@ -1,0 +1,4 @@
+[console_scripts]
+goenrich = goenrichment.goenrich:main
+goenrich_createdb = goenrichment.goenrichDB:main
+
