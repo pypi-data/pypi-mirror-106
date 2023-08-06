@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+geomytry/__init__.py
+geomytry/circles.py
+geomytry/constants.py
+geomytry/squares.py
+geomytry/triangles.py
+geomytry.egg-info/PKG-INFO
+geomytry.egg-info/SOURCES.txt
+geomytry.egg-info/dependency_links.txt
+geomytry.egg-info/top_level.txt
