@@ -1,0 +1,1 @@
+from pyinger import PingChecker
