@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+greetings_sdk.egg-info/PKG-INFO
+greetings_sdk.egg-info/SOURCES.txt
+greetings_sdk.egg-info/dependency_links.txt
+greetings_sdk.egg-info/requires.txt
+greetings_sdk.egg-info/top_level.txt
