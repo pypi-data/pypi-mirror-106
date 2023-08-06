@@ -1,0 +1,8 @@
+README.md
+setup.py
+customize_notifications/__init__.py
+customize_notifications/customize-notifications.py
+customize_notifications.egg-info/PKG-INFO
+customize_notifications.egg-info/SOURCES.txt
+customize_notifications.egg-info/dependency_links.txt
+customize_notifications.egg-info/top_level.txt
