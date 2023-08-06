@@ -1,0 +1,3 @@
+[console_scripts]
+YunxinServerApiSigner = YunxinServerApiSigner.main:main
+
