@@ -1,0 +1,8 @@
+servicex_did_finder_lib/__init__.py,sha256=z9I0WHZKpUb-73_iYcmH5aQ1Ap-gFQxfadCTYcs0tOM,80
+servicex_did_finder_lib/communication.py,sha256=sQy4zQQRsjkRm6OBpNrxQ4pD0YCUxlp3W2c9IDOvCaY,7950
+servicex_did_finder_lib/did_summary.py,sha256=poxp3t7njU9WsKr78Xx0lLaICUQyRj52RSxlb7MIIWU,3655
+servicex_did_finder_lib/servicex_adaptor.py,sha256=DY0d9t_7chl3zFS98r7vSKYOvAXTlXq0CGsDkbIYZ68,4468
+servicex_did_finder_lib-1.0.0a1.dist-info/LICENSE,sha256=F96EzotgWhhpnQTW2TcdoqrMDir1jyEo6H915tGQ-QE,11524
+servicex_did_finder_lib-1.0.0a1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+servicex_did_finder_lib-1.0.0a1.dist-info/METADATA,sha256=ldNM4pQveQNMc8MpX9YBbIxYmWoDGutKsEyIFGy_9Zw,450
+servicex_did_finder_lib-1.0.0a1.dist-info/RECORD,,
