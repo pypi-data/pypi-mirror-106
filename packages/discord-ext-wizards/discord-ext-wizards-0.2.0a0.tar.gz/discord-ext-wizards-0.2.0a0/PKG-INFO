@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: discord-ext-wizards
+Version: 0.2.0a0
+Summary: A module for making setup wizards easily.
+Home-page: https://github.com/CircuitsBots/discord-ext-wizards
+Author: Circuit
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5.3
