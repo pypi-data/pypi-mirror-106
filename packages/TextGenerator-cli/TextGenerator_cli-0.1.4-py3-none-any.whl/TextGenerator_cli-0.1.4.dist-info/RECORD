@@ -1,0 +1,9 @@
+TextGenerator/GenerateText.py,sha256=Gxb8HRMSdEJhdlZVLBnhDjtpxym3uSm0ON8R3neUalY,4708
+TextGenerator/PrepareChain.py,sha256=mpjgunWYfembMHOgVBHkARCEzimeEdSp4pjteQ-9TB8,5560
+TextGenerator/__init__.py,sha256=aBEbDvx4LMg8A1TJJR6dEHu8rQODVin528hLS_EDvuA,22
+TextGenerator/main.py,sha256=kSqOlq08S5Gxn-YqTZ46EuYYZlbsYDUDE5XeMDKf65A,4275
+TextGenerator_cli-0.1.4.dist-info/METADATA,sha256=WeKAieZeqS0M9ZoNAElDr-YSM3QyTn8xSdHO3pZRY-A,4642
+TextGenerator_cli-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+TextGenerator_cli-0.1.4.dist-info/entry_points.txt,sha256=JmSSsfjuE_ORsgi4rVjAwoeVnVYPrv8oohHMtpxsezI,53
+TextGenerator_cli-0.1.4.dist-info/top_level.txt,sha256=tStQzyGesD1mMXjq_EfsjXnBftNx18pazQQKyMtvszg,14
+TextGenerator_cli-0.1.4.dist-info/RECORD,,
