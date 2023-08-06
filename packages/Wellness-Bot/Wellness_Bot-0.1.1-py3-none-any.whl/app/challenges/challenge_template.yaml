@@ -1,0 +1,5 @@
+name: "mrh"
+author: "David Sean"
+challenge:
+  timeout: 60
+  description: "stretch"

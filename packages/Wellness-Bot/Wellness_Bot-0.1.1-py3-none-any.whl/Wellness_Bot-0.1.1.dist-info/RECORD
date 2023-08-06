@@ -1,0 +1,20 @@
+Wellness_Bot-0.1.1.data/scripts/start,sha256=0X3wxsPYv2GNipWq-gXi7DfTTHN1a2gTW7ajjnB8frA,27
+Wellness_Bot-0.1.1.dist-info/METADATA,sha256=0O6_hF2IVgWA6IoPiBT-zez2m795tzBLVz1xpG9KGhI,1545
+Wellness_Bot-0.1.1.dist-info/RECORD,,
+Wellness_Bot-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+Wellness_Bot-0.1.1.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+app/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/__main__.py,sha256=p3rMzfrs6IaCiDwGTcQ4PnVhF8N8vgRBQNDOka0C8Tk,3339
+app/__version__.py,sha256=FYU-5LNOxm7YT_du31Lqj4HBq29Mf5FGgeV9cPbnOCE,106
+app/challenge.py,sha256=kEER9oVD_YXFvMoBM0GzXnUYVayAvL49UzIC42uyoqE,409
+app/challenge_runner.py,sha256=88NzhXkbJzqZqsnXDcaj7a8IcJUN6fKzCUnAg6yB5Is,1625
+app/challenges/10crunches.yaml,sha256=2UhLolKcGOx8TNeu-dbOwjuj-M22H_m5A1j0brhD7-Y,97
+app/challenges/10ice-climbers.yaml,sha256=FYISlUE19I8ZsoZFGdkMs6bSkEtmafeFlvhMcwas_Ig,153
+app/challenges/5burpees.yaml,sha256=XPZ0ld907SD7Zuprrsb5eIVpakOIZgFydclLEWj8K_A,95
+app/challenges/5pushups.yaml,sha256=usgRT3X-xKzdYPov5I6KPFDLsTnhbIaIBvSCyuFgJaE,95
+app/challenges/5squats.yaml,sha256=TXUMYclLaPaCtaZwyBVqHzXn-OB9VoIcZJSPVTiVogg,93
+app/challenges/backstretch.yaml,sha256=IaSq4-7QL0O2uNgAzYCKfaQ_-uso_Y64qEtexBgK_ow,117
+app/challenges/challenge_template.yaml,sha256=diaCUWdG4uXR5QvFPpW3bhVnpD33drfRR0nzqnoXKic,83
+app/challenges/mScale3 copy.yaml,sha256=LVDxBn9lYuU7kr59Cwda73BED9hXVCWigugyj9SMWFQ,135
+app/challenges/mScale3.yaml,sha256=xNv7lZMQRL_kOEVcMXIPBgrEop3L21CtamGfVYCRAWQ,135
