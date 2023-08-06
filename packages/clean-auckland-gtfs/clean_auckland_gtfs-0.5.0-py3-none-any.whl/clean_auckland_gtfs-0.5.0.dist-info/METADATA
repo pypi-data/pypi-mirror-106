@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: clean-auckland-gtfs
+Version: 0.5.0
+Summary: Python 3.8+ code for cleaning Auckland, New Zealand GTFS feeds
+License: MIT
+Author: Alex Raichev
+Author-email: araichev@mrcagney.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: gtfs_kit (>=5)
