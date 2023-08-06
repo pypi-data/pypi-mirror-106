@@ -1,0 +1,5 @@
+beets>=1.4.9
+mediafile==0.6.0
+
+[:python_version < "3"]
+futures
