@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: strappy
+Version: 0.0.3
+Summary: Python Utilities for Data Science
+Home-page: https://github.com/Strabes/strappy
+Author: Greg Strabel
+Author-email: gregory.strabel@gmail.com
+License: BSD 3
+Download-URL: https://github.com/Strabes/strappy/archive/refs/tags/v0.0.3.tar.gz
+Description: # strappy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
