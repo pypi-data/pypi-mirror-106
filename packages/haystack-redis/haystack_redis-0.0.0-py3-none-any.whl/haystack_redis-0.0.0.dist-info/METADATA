@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: haystack-redis
+Version: 0.0.0
+Summary: Use redis as a persistence layer for Whoosh and Haystack
+Home-page: https://github.com/steinbro/haystack-redis
+Author: Jökull Sólberg Auðunsson
+Author-email: jokull@solberg.is
+Maintainer: Daniel W. Steinbrook
+Maintainer-email: steinbro@post.harvard.edu
+License: BSD
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: haystack
+Requires-Dist: redis
+Requires-Dist: whoosh
+
+
+haystack-redis
+~~~~~~~~~~~~~~~~~~~~~~
+
+A Whoosh storage engine using redis for persistence. A Haystack
+``SearchBackend``  subclass is also provided. Normally the ``STORAGE`` key could
+just be set but Haystack 2.0.0alpha is only aware of ``file`` and ``ram``
+backends.
+
+This is especially useful for small sites hosted on Heroku, which does not allow
+writing to local disk. The ``REDISTOGO_URL`` environment variable is read,
+falling back to the localhost default port.
+
+Usage
+-----
+
+Configure your Haystack connections in ``settings.py``::
+
+    import tempfile
+    HAYSTACK_CONNECTIONS = {
+        'default': {
+            'ENGINE': 'haystack_redis.RedisEngine',
+            'PATH': tempfile.gettempdir(),
+        },
+    }
+
+
+
