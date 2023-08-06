@@ -1,0 +1,7 @@
+biopython
+lxml
+matplotlib
+numpy
+pandas
+pyranges
+seaborn
