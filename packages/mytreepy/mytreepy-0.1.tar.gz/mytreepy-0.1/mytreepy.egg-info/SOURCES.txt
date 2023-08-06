@@ -1,0 +1,10 @@
+README.md
+setup.py
+mytreepy.egg-info/PKG-INFO
+mytreepy.egg-info/SOURCES.txt
+mytreepy.egg-info/dependency_links.txt
+mytreepy.egg-info/entry_points.txt
+mytreepy.egg-info/not-zip-safe
+mytreepy.egg-info/top_level.txt
+treepy/__init__.py
+treepy/main.py
