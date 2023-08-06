@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ecgkit
+Version: 0.4.0
+Summary: ECG Toolkits
+Home-page: https://github.com/SergejTHU/ecgkit
+Author: sergioyf
+Author-email: yangf18@mails.tsinghua.edu.cn
+License: MIT Licence
+Keywords: ECG,preprocess,plot,generation,morphological
+Platform: any
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: wfdb
+Requires-Dist: pywavelets
+Requires-Dist: peakutils
+Requires-Dist: filterpy
+Requires-Dist: sympy
+Requires-Dist: torch
+Requires-Dist: torchdiffeq
+
+Toolkits for ECG Analysis in Python
+
+
