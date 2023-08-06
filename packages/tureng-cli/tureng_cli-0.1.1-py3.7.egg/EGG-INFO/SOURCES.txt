@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+tureng_cli/__init__.py
+tureng_cli/get_tureng.py
+tureng_cli/requirements.txt
+tureng_cli/tureng.py
+tureng_cli.egg-info/PKG-INFO
+tureng_cli.egg-info/SOURCES.txt
+tureng_cli.egg-info/dependency_links.txt
+tureng_cli.egg-info/entry_points.txt
+tureng_cli.egg-info/requires.txt
+tureng_cli.egg-info/top_level.txt
