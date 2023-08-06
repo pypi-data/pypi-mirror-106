@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: mishmash-io-auth-jwt
+Version: 0.0.1
+Summary: mishmash io auth jwt plugin
+Home-page: https://mishmash.io
+Author: mishmash.io
+Author-email: info@mishmash.io
+License: Apache License v2.0
+Project-URL: Bug Tracker, https://github.com/mishmash-io/mishmash-io-auth-plugins/tree/main/python/mishmash-io-auth-jwt/issues
+Project-URL: Documentation, https://mishmash.io
+Project-URL: Source Code, https://github.com/mishmash-io/mishmash-io-auth-plugins/tree/main/python/mishmash-io-auth-jwt
+Keywords: database,artificial intelligence,development
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Database
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: PyJWT
+Requires-Dist: requests
+Requires-Dist: pycryptodome
+Requires-Dist: pyjwt[crypto]
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
+# Mishmash io jwt authentication plugin
+Mishmash io jwt authentication plugin allows you to authenticate to Mishmash io server.
+
+
+# Prerequisites
+Python 3.6 or greater
+
+# Installation
+
+Install using pip:
+
+``` pip install mishmash-io-jwt-auth```
+
+To upgrade the package to its latest version:
+
+``` pip install mishmash-io-jwt-auth --upgrade ```
+
+
+# Configuration
+Mishmash io jwt authentication plugin needs some configuration variables.
+
+## MISHMASHIO_AUTH_PRIVATE_KEY 
+
+A private key to sign the token - This private key must be unique and never be revealed. 
+To add the private key you should set environment variable called  MISHMASHIO_AUTH_PRIVATE_KEY or add it to config file
+
+## MISHMASHIO_AUTH_SERVER
+
+authentication server endpoint
+
+## MISHMASHIO_APP_ID
+
+registered mishmash app id in mishmash server 
+
+
