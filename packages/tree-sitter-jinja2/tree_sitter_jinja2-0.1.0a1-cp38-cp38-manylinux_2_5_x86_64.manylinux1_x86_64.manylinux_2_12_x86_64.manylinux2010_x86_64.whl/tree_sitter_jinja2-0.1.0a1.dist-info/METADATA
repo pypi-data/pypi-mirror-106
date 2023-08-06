@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: tree-sitter-jinja2
+Version: 0.1.0a1
+Summary: A Jinja2 grammar for tree-sitter
+Home-page: https://github.com/fishtown-analytics/tree-sitter-jinja2
+Author: Fishtown Analytics
+Author-email: info@fishtownanalytics.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+Requires-Dist: tree-sitter (==0.19.0)
+Requires-Dist: setuptools-dso (==2.0a1)
+
+# Bindings for Python
+
+## To use the bindings in your project:
+```
+# requirements.txt
+tree-sitter==0.19.0
+tree-sitter-jinja2
+```
+
+```python
+from tree_sitter_jinja2 import JINJA2_LANGUAGE
+from tree_sitter import Parser
+
+source = bytes("{{ True }}", "utf8")
+
+parser = Parser()
+parser.set_language(JINJA2_LANGUAGE)
+
+tree = parser.parse(source)
+```
+
+## To build the wheel locally
+```
+make bindings
+```
+
+
