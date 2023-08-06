@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pycrunch-trace
+Version: 0.1.6
+Summary: PyCrunch Time Travel Debugger
+Home-page: https://pytrace.com/
+Author: Gleb Sevruk
+Author-email: gleb@pycrunch.com
+License: MIT
+Project-URL: Source, https://github.com/gleb-sevruk/pycrunch-trace/
+Project-URL: Funding, https://pycrunch.com/donate
+Description: UNKNOWN
+Keywords: tracing,debugging,time-travel debugging,record-and-replay debugging,live coding
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Debuggers
