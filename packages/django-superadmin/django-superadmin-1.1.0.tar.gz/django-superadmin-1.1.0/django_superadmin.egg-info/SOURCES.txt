@@ -1,0 +1,9 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_superadmin.egg-info/PKG-INFO
+django_superadmin.egg-info/SOURCES.txt
+django_superadmin.egg-info/dependency_links.txt
+django_superadmin.egg-info/top_level.txt
