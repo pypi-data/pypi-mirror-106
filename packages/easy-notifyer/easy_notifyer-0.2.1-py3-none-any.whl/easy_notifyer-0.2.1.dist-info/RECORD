@@ -1,0 +1,15 @@
+easy_notifyer/__init__.py,sha256=guawNMZ2_bLpgRdEBJAii_6g4ewU8HomYbfFEljDFwA,374
+easy_notifyer/report.py,sha256=uzSEoMGWIDXCfmmpp38VnNdy5eFRJ81bqXFoWAFDZqc,2353
+easy_notifyer/utils.py,sha256=CYaeXe9hn2evO7PhS9NtVaQYTk0LW5RQC-KOBSk4SS0,3242
+easy_notifyer/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_notifyer/clients/mailer.py,sha256=ynMparkh_3_xvKW_ykfiSc_exLM5QXJXaaFXr0b953M,4227
+easy_notifyer/clients/requests.py,sha256=FXbwgZExqS2fb790jf_LnJWHWTVGmiDjtMzsPEofWO8,2025
+easy_notifyer/clients/telegram.py,sha256=AuIS4OX25AFMIdgFWgtq91pYr5-SpBNetqm20bULwXw,9247
+easy_notifyer/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_notifyer/handlers/mailer.py,sha256=FNi8tiDf1-95C0PG9_XHp5TWfLUxCtSWOUIOurQcp94,5648
+easy_notifyer/handlers/telegram.py,sha256=KHcu7GcdVL2EIn7zD3b_wbWs_CFehMSIOUu9rMPZ1M8,8196
+easy_notifyer-0.2.1.dist-info/LICENSE.txt,sha256=DOQS2HtOgfjsJumQidcmycZ_8EQNaaQBMpbKKGTxLrk,1062
+easy_notifyer-0.2.1.dist-info/METADATA,sha256=qSO0OdkE-_RQ657R_jxiDQGtrO1PEaeTnCQ0kmQjvpY,5510
+easy_notifyer-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+easy_notifyer-0.2.1.dist-info/top_level.txt,sha256=W91fEtt4PNJvuP7TfGwqA1lw7GNDM8ZX4rBFwwncbcY,14
+easy_notifyer-0.2.1.dist-info/RECORD,,
