@@ -1,0 +1,15 @@
+scripts/Example_CommandsFromScratch.txt,sha256=sK-iQ_U-SFDsYIbeWblQEbgep7Tdr4lGMXcI6TEvUio,3138
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/defineAndCountClades.py,sha256=m8ORJ5tt8FRzANVRWUXmMzCBPFI8JYEoD2oNfaqdALw,21600
+scripts/drawMuller.py,sha256=AavGJAPp5knqXjmmL8MM7y6NRlgw_IAVJ0fkRIqS2ME,23698
+scripts/extractCoding.py,sha256=14qUmiOCAf_mRmJ3fhU0QC7BVdkN68ozGFQ_lpVBNZE,3712
+scripts/mutationLinages_report.py,sha256=yYF_B-SXRiA_O4_PCyw6-gWo2wq66h2IPt1-cbT5XbA,8496
+scripts/parse.py,sha256=iylaOnoKbc2qwRdL9H2WCbhwK521PKbsIEjGpdCpbIE,7405
+scripts/parseFastaNames.py,sha256=7wOh2-q8JbJi-8oOL5SVju9GeQACOqEFCTp7snq8kIM,2303
+scripts/treeClass.py,sha256=oR6D1F3mQwJmlpaDqmmeEo1OHWN2XZEk1gSD4vnXY_c,299
+epimuller-0.0.6.dist-info/LICENSE.txt,sha256=ICPCV6G55IPuvfrK_ylOjt0U19qAsTNjqVyCkzLBVL8,1093
+epimuller-0.0.6.dist-info/METADATA,sha256=DACUZDlBajNsrdWG9GW1DE-jWysW_93qcx9DwhYS4Nc,15418
+epimuller-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+epimuller-0.0.6.dist-info/entry_points.txt,sha256=baf5NeLDHLchIbqE0LdZrhovCg35naTHNL4BNdKnT7Y,208
+epimuller-0.0.6.dist-info/top_level.txt,sha256=rmzd5mewlrJy4sT608KPib7sM7edoY75AeqJeY3SPB4,8
+epimuller-0.0.6.dist-info/RECORD,,
