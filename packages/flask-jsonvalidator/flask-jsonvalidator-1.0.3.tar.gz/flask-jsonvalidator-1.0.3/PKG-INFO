@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: flask-jsonvalidator
+Version: 1.0.3
+Summary: Validates JSON data
+Home-page: UNKNOWN
+Author: Kenneth Gabriel
+Author-email: kennethgabriel78@gmail.com
+License: UNKNOWN
+Description: \n# Flask JSONvalidator\r\n\r\n**flask_jsonvalidator** is a library for validating request JSON data or pratically any json data, such as those obtained from external services or command-line parsing, converted in JSON format.\r\n\r\n## Installing\r\nInstall and update using pip:\r\n\r\n```shell\r\n$ pip install flask-jsonvalidator\r\n```\r\n\r\n## Example\r\n\r\nHere is a quick example to using `flask_jsonvalidator`, validating a request JSON data:\\\r\n\r\n**All neccessary imports**\r\n```python\r\nfrom flask_jsonvalidator import (\r\n    JSONValidator,\r\n    IntValidator,\r\n    StringValidator,\r\n    ArrayOfValidator\r\n)\r\n```\r\n\r\n**A simple validator class**\r\n\r\n```python\r\n# validators.py\r\n\r\nclass JSONCheck(JSONValidator):\r\n    validators = {\r\n        "name"    : StringValidator(max=15, min=2, nullable=False),\r\n        "age"     : IntValidator(min=13, nullable=False),\r\n        "hobbies" : ArrayOfValidator(validator=StringValidator(min=2,max=15, nullable=False))\r\n    }\r\n```\r\n\r\n#### A simple decorator for the JSON data check \r\n\r\n```python\r\n\r\nfrom functools import wraps\r\nfrom flask import request, abort\r\n\r\ndef args_check(validator):\r\n    def decorator(f):\r\n        @wraps(f)\r\n        def decorated_function(*args, **kwargs):\r\n            if not validator.validate(request.json):\r\n                return abort(400)\r\n            return f(*args, **kwargs)\r\n        return decorated_function\r\n    return decorator\r\n```\r\n\r\n#### Use case\r\n\r\n```python\r\nfrom flask import (\r\n    Flask, \r\n    jsonify, \r\n    request, \r\n    abort\r\n)\r\nfrom validators import JSONCheck\r\n\r\napp = Flask(__name__)\r\n\r\nusers = []\r\n\r\n@app.route("/users", methods=["GET"])\r\ndef get_users():\r\n    return jsonify(users)\r\n\r\n@app.route("/users", methods=["POST"])\r\n@args_check(JSONCheck())\r\ndef add_user():\r\n    global users\r\n    \r\n    user = dict(\r\n        name   = request.json.get("name"),\r\n        age    = request.json.get("age"),\r\n        hobbies= request.json.get("hobbies")\r\n    )\r\n    users.append(user)\r\n    return jsonify(user)\r\n\r\nif __name__ == "__main__":\r\n    app.run(debug=True)\r\n    \r\n```\r\n
+Keywords: python,json,request,validator
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
