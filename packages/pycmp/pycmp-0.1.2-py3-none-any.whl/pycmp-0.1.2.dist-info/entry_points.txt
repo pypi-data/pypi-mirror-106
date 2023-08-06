@@ -1,0 +1,3 @@
+[console_scripts]
+pycmp = cmp.__main__:main
+
