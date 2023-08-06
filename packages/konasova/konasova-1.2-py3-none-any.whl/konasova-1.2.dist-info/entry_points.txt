@@ -1,0 +1,3 @@
+[console_scripts]
+manage = task_manager.common_cli:common_cli
+
