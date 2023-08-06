@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: defichain-exporter
+Version: 0.0.1
+Summary: DefiChain exporter for Prometheus
+Home-page: https://github.com/sandrich/defichain_exporter
+Author: Christian Sandrini
+Author-email: mail@chrissandrini.ch
+License: UNKNOWN
+Description: # DefiChain Exporter
+        Prometheus exporter for DefiChain Masternodes [defichain.io](defichain.io)
+        
+        ## Installation
+        
+        ```
+        pip3 install defichain-exporter
+        ```
+        
+        ## Usage
+        By default defichain-exporter will run on port 8000 and run in foreground. Ideally this is installed into a daemon service such as systemd.
+        
+        ```
+        usage: defichain-exporter [-h] [--username USERNAME] [--password PASSWORD]
+                                  [--port PORT] [--masternode MASTERNODE]
+        
+        DefiChain Exporter
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          --username USERNAME   rpc username
+          --password PASSWORD   rpc password
+          --port PORT           exporter port (default 8000)
+          --masternode MASTERNODE
+                                masternode host (default http://localhost:8554)
+        ```
+        
+        ## License
+        MIT
+        
+        
+Keywords: python,defichain,exporter
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
