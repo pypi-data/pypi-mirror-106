@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: json2dataclass
+Version: 0.1.0
+Summary: A generator of dataclasses, using JSON as input
+Home-page: https://github.com/mischareitsma/json2dataclass
+Author: Mischa Reitsma
+Author-email: reitsma.mischa@gmail.com
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/mischareitsma/json2dataclass/issues
+Project-URL: Changelog, https://github.com/mischareitsma/json2dataclass/blob/main/CHANGELOG.md
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# JSON to DataClass Generator
+
+This project can take JSON files as an input, and generate corresponding
+data classes. The main purpose is to easily create data classes that can be
+used with API output, without resorting to dicts or named tuples.
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog] and this project adheres to
+[Semantic Versioning].
+
+## [0.1.0]
+
+- Initial working version
+
+[Keep a Changelog]: https://keepachangelog.com/en/1.0.0/
+[Semantic Versioning]: https://semver.org/spec/v2.0.0.html
+
+
