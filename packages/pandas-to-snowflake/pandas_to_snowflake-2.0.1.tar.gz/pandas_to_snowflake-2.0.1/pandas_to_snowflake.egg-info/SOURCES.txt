@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+pandas_to_snowflake/__init__.py
+pandas_to_snowflake/pandas_to_snowflake.py
+pandas_to_snowflake.egg-info/PKG-INFO
+pandas_to_snowflake.egg-info/SOURCES.txt
+pandas_to_snowflake.egg-info/dependency_links.txt
+pandas_to_snowflake.egg-info/requires.txt
+pandas_to_snowflake.egg-info/top_level.txt
