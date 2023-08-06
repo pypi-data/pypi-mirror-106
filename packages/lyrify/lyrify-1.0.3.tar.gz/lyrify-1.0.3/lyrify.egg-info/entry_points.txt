@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        lyrify=lyrify.lyrify:lyrify_cli
+    
