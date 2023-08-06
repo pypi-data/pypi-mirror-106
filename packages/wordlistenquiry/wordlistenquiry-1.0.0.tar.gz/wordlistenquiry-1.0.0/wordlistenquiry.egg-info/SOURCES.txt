@@ -1,0 +1,7 @@
+README.md
+setup.py
+wordlistenquiry/__init__.py
+wordlistenquiry.egg-info/PKG-INFO
+wordlistenquiry.egg-info/SOURCES.txt
+wordlistenquiry.egg-info/dependency_links.txt
+wordlistenquiry.egg-info/top_level.txt
