@@ -1,0 +1,8 @@
+redpocket/__init__.py,sha256=QKXM-5xM8wTlwK6An4SCM1kN1MXjiUaK9aYIOXbLch4,236
+redpocket/__main__.py,sha256=RBKm9saT4x68VIgFakO1OigWHzymzk65FJlQQVOd668,825
+redpocket/api.py,sha256=2e_J4xVzISLqn0_dU-gGPuFeLHvNeDOjzxbzfY5UGo0,8777
+redpocket/exceptions.py,sha256=3un15vCfHqGeGKi59VkZL4MSKCm11Tfv2SpVIWW5WYE,492
+python_redpocket-0.2.0.dist-info/LICENSE,sha256=LcLnXiyAPdkzgtE8URrnknl6k8Vlncp1YH5wG4Wt_uc,1068
+python_redpocket-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+python_redpocket-0.2.0.dist-info/METADATA,sha256=vvEoKvNRFnoKoeF03iUb-1vnk2FrG95gBq0ecPIqQnA,4041
+python_redpocket-0.2.0.dist-info/RECORD,,
