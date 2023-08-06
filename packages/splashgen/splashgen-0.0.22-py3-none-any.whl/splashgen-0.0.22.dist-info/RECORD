@@ -1,0 +1,12 @@
+splashgen/__init__.py,sha256=0lRwqZlF5kUnxiODMyv84MVTeemEMlJyVf8_Bd93Pk8,3774
+splashgen/cli.py,sha256=nW0iOmi9Vvu2bTqESdq3hJR8wFrZZMwf3hkT6hVpGvg,1331
+splashgen/integrations.py,sha256=z8FHaRVLqzdFavpeg1UypcYtx3QrWqI3bqcrkdhBh7U,1108
+splashgen/assets/logo-default.png,sha256=Hy2ZTYjqX7qj6IeCXUPGouQQfsuZG0_ShEgFp2c8xzg,19455
+splashgen/templates/mailchimp_signup.html.jinja,sha256=OPfr79NcjNcow9XpeA_roWdpYcayOqq9TLEigAePfFo,824
+splashgen/templates/splash_site.html.jinja,sha256=-Cb1APrT1Jp7T6RqZRl6wFm8qZbGf8_6xj5kA7pN2TY,5247
+splashgen-0.0.22.dist-info/LICENSE,sha256=M-KHmVrkxvIt2cpJHp6bdF4uj2lSEXGroG9DDdJ1syQ,1103
+splashgen-0.0.22.dist-info/METADATA,sha256=lp6HwG7JmXLyyoygNCPLf8n5QRMxFJ4kSTveUPkYi58,2045
+splashgen-0.0.22.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+splashgen-0.0.22.dist-info/entry_points.txt,sha256=PDA5riZ4gJaJp9Kg9gbSlBTHs-_ZSt3ez2iLD2MHCAw,50
+splashgen-0.0.22.dist-info/top_level.txt,sha256=IP7ZFHLo2Rt8T45lsIoeA6eMx6mKS9eF906lR8ws5w8,10
+splashgen-0.0.22.dist-info/RECORD,,
