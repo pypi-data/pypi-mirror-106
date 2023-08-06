@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pysqlar
+Version: 0.1.2
+Summary: Pure Python library for working with SQLite Archives.
+Home-page: http://github.com/Frojdholm/pysqlar
+Author: Hampus Fröjdholm
+Author-email: hampus.frojdholm@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pysqlar
+
+Module for working with [SQLite Archive files](https://www.sqlite.org/sqlar.html)
+with an API mimicking the zipfile module.
+
+The module requires the zlib and sqlite3 support, but has no external dependencies.
+
+
