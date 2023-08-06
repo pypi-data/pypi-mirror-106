@@ -1,0 +1,13 @@
+soxr/__init__.pxd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soxr/__init__.py,sha256=j-EfsBVIFCrRzCq0VOmLlmZwdfg9aTBTqIb4sQP_ewY,5295
+soxr/csoxr.pxd,sha256=Gbczme-cveuzURqqmpK-DIS9Xbu9cBserLKBmDTAMwA,2008
+soxr/cysoxr.c,sha256=DdXllZH3jihV-t8dalTSizjmltDuO5mZnXDErRuGMPo,1305929
+soxr/cysoxr.cpython-39-darwin.so,sha256=069yuxiQ9u5DqXMT4wWJ5k8wdptSXQ4oIdIGuiATAyU,538744
+soxr/cysoxr.pyx,sha256=DJECoDRlmObb6bKJk7k7xqzfsUnPQFmpyW-ys0lI09o,8064
+soxr/soxr-config.h,sha256=v37avwRpkz2I68XmLgIeDXS_kLUsya6pw8jSckgCW1E,490
+soxr/version.py,sha256=3d74cfKoa25s36ubXiDj0ZbiX8Teg7-hOl_wqP9XEIA,142
+soxr-0.2.3.dist-info/LICENSE.txt,sha256=3GJlINzVOiL3J68-5Cx3DlbJemT-OtsGN5nYqwMv5VE,26530
+soxr-0.2.3.dist-info/METADATA,sha256=fiQU8wpWODfiqiS6QNuz50TnRrTC1tO9fkOsokobHpM,3588
+soxr-0.2.3.dist-info/WHEEL,sha256=bRe_g_g-vZInZP5wOdewl-4AeWx8E2_UC3Ffr2csPyk,109
+soxr-0.2.3.dist-info/top_level.txt,sha256=hKgwfQsbwN5KovL0oYn-hpTVQIIyWMxYyGNzZqs_w-o,5
+soxr-0.2.3.dist-info/RECORD,,
