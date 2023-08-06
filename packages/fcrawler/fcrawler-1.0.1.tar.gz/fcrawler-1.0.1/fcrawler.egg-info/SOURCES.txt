@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+fcrawler/__init__.py
+fcrawler/__main__.py
+fcrawler/application.py
+fcrawler/utils.py
+fcrawler/version.py
+fcrawler.egg-info/PKG-INFO
+fcrawler.egg-info/SOURCES.txt
+fcrawler.egg-info/dependency_links.txt
+fcrawler.egg-info/entry_points.txt
+fcrawler.egg-info/requires.txt
+fcrawler.egg-info/top_level.txt
