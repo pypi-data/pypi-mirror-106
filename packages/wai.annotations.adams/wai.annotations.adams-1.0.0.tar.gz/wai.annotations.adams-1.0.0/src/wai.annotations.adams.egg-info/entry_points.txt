@@ -1,0 +1,6 @@
+[wai.annotations.plugins]
+from-adams-ic = wai.annotations.adams.ic.specifier:ADAMSICInputFormatSpecifier
+from-adams-od = wai.annotations.adams.od.specifier:ADAMSODInputFormatSpecifier
+to-adams-ic = wai.annotations.adams.ic.specifier:ADAMSICOutputFormatSpecifier
+to-adams-od = wai.annotations.adams.od.specifier:ADAMSODOutputFormatSpecifier
+
