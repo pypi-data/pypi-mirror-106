@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: nothingness
+Version: 1.0.0
+Summary: This is nothing, just a template for PyPI packages
+Home-page: https://github.com/donno2048/nothingness
+Author: Elisha Hollander
+Author-email: just4now666666@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/donno2048/nothingness#readme
+Project-URL: Bug Reports, https://github.com/donno2048/nothingness/issues
+Project-URL: Source Code, https://github.com/donno2048/nothingness
+Description: # nothingness
+        
+        This is nothing, just a template for PyPI packages
+        
+        ## Installation
+        
+        ### From PyPI
+        
+        ```sh
+        pip3 install nothingness
+        ```
+        
+        ### From GitHub
+        
+        ```sh
+        pip3 install git+https://github.com/donno2048/nothingness
+        ```
+        
+        ## Usage
+        
+        ### Import fun from \_\_init__.py
+        
+        ```py
+        from nothingness import fun
+        ```
+        
+        ### Run \_\_main__.py
+        
+        ```sh
+        python3 -m nothingness
+        ```
+        
+        ### Run main from \_\_main__.py
+        
+        ```sh
+        nothingness
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

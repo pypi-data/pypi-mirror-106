@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nothingness/__init__.py
+nothingness/__main__.py
+nothingness.egg-info/PKG-INFO
+nothingness.egg-info/SOURCES.txt
+nothingness.egg-info/dependency_links.txt
+nothingness.egg-info/entry_points.txt
+nothingness.egg-info/top_level.txt
