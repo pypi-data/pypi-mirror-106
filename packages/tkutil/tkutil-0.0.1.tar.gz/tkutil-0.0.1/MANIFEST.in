@@ -1,0 +1,2 @@
+recursive-include tkutil *
+global-exclude *.py[cod]
