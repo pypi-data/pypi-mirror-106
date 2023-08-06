@@ -1,0 +1,5 @@
+{
+  "load_extensions": {
+    "orbitcontrol_patch/extension": true
+  }
+}
