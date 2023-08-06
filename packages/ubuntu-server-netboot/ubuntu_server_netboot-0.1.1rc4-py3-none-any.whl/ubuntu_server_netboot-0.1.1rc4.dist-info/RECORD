@@ -1,0 +1,12 @@
+usn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usn/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usn/tests/data/grub_expected.cfg,sha256=KmqJf50W1PIQcBGLk4ehRZkJagANCIT3y829aEovqNY,943
+usn/tests/data/grub_ubuntu-20.04.2-live-server-arm64.cfg,sha256=wu7HqnVpkMFO04RGgNcgPwbd52AuTPjmtzBrZ3AKKA8,553
+usn/tests/test_grub_cfg.py,sha256=Bi-nrC99990oHU1toaMlZYv5hVKOZDURj-BOSwGvETA,1836
+usn/ubuntu_server_netboot.py,sha256=FpGyZDpMRT4vIS8zD7kDys_THW4PF54L0lbNdbPYsIY,7794
+usn/usn.py,sha256=JAgkdA8L-l5w4IYgrbJ4z1ZCHda3ewONLKnCLOH2bhE,4967
+ubuntu_server_netboot-0.1.1rc4.dist-info/entry_points.txt,sha256=pgSh-aCEhC0NCbiiFDoymxKUDhZMgQGXQYyiOKA9Qy8,71
+ubuntu_server_netboot-0.1.1rc4.dist-info/LICENSE,sha256=KLxINZpBrs8fFpODSUPudqaHhQthFizSpSwbHcqXTOk,723
+ubuntu_server_netboot-0.1.1rc4.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+ubuntu_server_netboot-0.1.1rc4.dist-info/METADATA,sha256=cGMgDjK1hAjtxXfTN0jjjd445i6vno0At0J9Nscm_9U,4253
+ubuntu_server_netboot-0.1.1rc4.dist-info/RECORD,,
