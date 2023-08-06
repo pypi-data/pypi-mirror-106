@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: edlio
+Version: 0.1.0
+Summary: Module to work with data in an Experiment Directory Layout (EDL) structure
+Home-page: https://edl.readthedocs.io/
+License: UNKNOWN
+Author: Matthias Klumpp
+Author-email: matthias@tenstral.net
