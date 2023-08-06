@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: discord-ext-wizard
+Version: 0.3.0
+Summary: A Discord.py extension that makes setup wizards too easy.
+Home-page: https://github.com/FalseDev/discord-ext-wizard
+Author: FalseDev
+Author-email: 59121948+FalseDev@users.noreply.github.com
+License: MIT
+Description: # Wizard
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
