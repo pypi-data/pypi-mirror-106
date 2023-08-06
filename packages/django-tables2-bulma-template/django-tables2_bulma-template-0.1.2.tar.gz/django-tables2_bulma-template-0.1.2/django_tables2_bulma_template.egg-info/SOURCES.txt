@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_tables2_bulma_template/__init__.py
+django_tables2_bulma_template.egg-info/PKG-INFO
+django_tables2_bulma_template.egg-info/SOURCES.txt
+django_tables2_bulma_template.egg-info/dependency_links.txt
+django_tables2_bulma_template.egg-info/not-zip-safe
+django_tables2_bulma_template.egg-info/requires.txt
+django_tables2_bulma_template.egg-info/top_level.txt
+django_tables2_bulma_template/templates/django-tables2/bulma.html
