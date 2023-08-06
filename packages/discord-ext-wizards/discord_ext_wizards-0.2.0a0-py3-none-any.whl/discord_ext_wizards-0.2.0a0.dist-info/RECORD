@@ -1,0 +1,11 @@
+discord/ext/wizards/__init__.py,sha256=0RYiuiq5UKudLMx8svZ_cx9q1x09w2fOnHP3gxDzg2M,227
+discord/ext/wizards/action.py,sha256=CxPOMZE3-LaGuurh07EkMC26yTtpNqi74zc6A1AP8mM,285
+discord/ext/wizards/constants.py,sha256=O8n2nK2GjXIhSuwIcT_k0Hd-QyQnkESDF6JgdJkzQY8,167
+discord/ext/wizards/step.py,sha256=UU7UGOuUgu-hPkcbD1WyXA9jgfWEa2lEETV-V-A1RM4,2307
+discord/ext/wizards/stopreason.py,sha256=faH3mP02vjoO68_ZKac21vc3xmFcBuL5lCx_mooF3IM,124
+discord/ext/wizards/wizard.py,sha256=8wjDzlyQ4AOSjoSlTBmq3xPtCZaRqQDnFA31KwUa9e8,3053
+discord_ext_wizards-0.2.0a0.dist-info/LICENSE,sha256=lPrZYFezAIVHoiPYvYZ3sWi3zuJhxbxAl9X3jSTupXQ,1069
+discord_ext_wizards-0.2.0a0.dist-info/METADATA,sha256=xTKVJFRsd_Dt7fcI3IBM_0ZQLF8pwlLbdFT6tLYd5dY,262
+discord_ext_wizards-0.2.0a0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+discord_ext_wizards-0.2.0a0.dist-info/top_level.txt,sha256=fJkrNbR-_8ubMBUcDEJBcfkpECrvSEmMrNKgvLlQFoM,8
+discord_ext_wizards-0.2.0a0.dist-info/RECORD,,
