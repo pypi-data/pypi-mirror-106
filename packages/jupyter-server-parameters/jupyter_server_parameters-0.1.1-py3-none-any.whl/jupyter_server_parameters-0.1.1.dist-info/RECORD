@@ -1,0 +1,10 @@
+jupyter_server_parameters/__init__.py,sha256=EomGF2PqdfCdKGW3Bo01XAsxbLbssHRwgAlfalxVMrM,766
+jupyter_server_parameters/config.py,sha256=eYaGBJNWpKoWXRwbDoVr-lHSD3Kp495hilwVUH-Mjow,894
+jupyter_server_parameters/handlers.py,sha256=1xiOIUa2X31rsjw2azZjKcQjfhryIsImOE24QpkQciI,729
+jupyter_server_parameters/utils.py,sha256=Olu507uh4VoThLb37EvyaGxcAVtWd6r7EdDJLcclotI,986
+jupyter_server_parameters-0.1.1.data/data/etc/jupyter/jupyter_server_config.d/jupyter_server_parameters.json,sha256=Z8kjD7Quue-yuR0m_FudqXP1eBUr9JO6Bb427NjFGGw,118
+jupyter_server_parameters-0.1.1.dist-info/LICENSE,sha256=dOUin1hbrJnK2pg2HMJOIFC2c0VHyHpqk0KIeTYM8Jc,1522
+jupyter_server_parameters-0.1.1.dist-info/METADATA,sha256=N6vwm5RlkZblW4GGK8xWglKBNmJPFmwG7dNwSSFcUSY,1272
+jupyter_server_parameters-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jupyter_server_parameters-0.1.1.dist-info/top_level.txt,sha256=p0bpzp6STrqkUYcE1hFoggejaMY5_fzAO6EJvW6CCBc,26
+jupyter_server_parameters-0.1.1.dist-info/RECORD,,
