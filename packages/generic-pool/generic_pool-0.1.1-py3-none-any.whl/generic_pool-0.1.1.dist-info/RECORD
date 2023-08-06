@@ -1,0 +1,8 @@
+generic_pool/__init__.py,sha256=u0eKxiEGoBk_TN5Ga04bpo38y0legWZQqZiMT1XOT-A,189
+generic_pool/errors.py,sha256=d9kZIqDj1p8Blx08py4JKuiVcLNdeHkw1iz67NRkRGQ,521
+generic_pool/factory.py,sha256=uiExSDNmqZzgMrBq18PGWEWCV5N5LwOUnj1sqJfj0bQ,575
+generic_pool/pool.py,sha256=5_os_3DzYJQPx2CszWUyKf6Yi_vByT-58G7Gmsjk7L0,3026
+generic_pool-0.1.1.dist-info/LICENSE,sha256=u8ddMuZHquwU95FPs2am7IWqZUm3xD8VgEpqugMhwYk,1082
+generic_pool-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+generic_pool-0.1.1.dist-info/METADATA,sha256=zpfLC3Dtd3prmt2SPu-V0nVR1Yg5Z6P11JXqt5Sa2us,1733
+generic_pool-0.1.1.dist-info/RECORD,,
