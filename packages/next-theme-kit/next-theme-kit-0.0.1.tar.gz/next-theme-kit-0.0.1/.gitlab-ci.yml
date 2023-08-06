@@ -1,0 +1,11 @@
+image: python:alpine
+
+stages:
+    - test
+
+test:
+    stage: test
+    script:
+        - pip install .[test]
+        - flake8
+        - python setup.py test
