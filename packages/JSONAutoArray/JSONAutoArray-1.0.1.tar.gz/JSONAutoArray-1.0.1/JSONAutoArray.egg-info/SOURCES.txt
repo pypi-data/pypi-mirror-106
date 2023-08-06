@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+JSONAutoArray.egg-info/PKG-INFO
+JSONAutoArray.egg-info/SOURCES.txt
+JSONAutoArray.egg-info/dependency_links.txt
+JSONAutoArray.egg-info/top_level.txt
+json_autoarray/JSONAutoArray.py
+json_autoarray/__init__.py
