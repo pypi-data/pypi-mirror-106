@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mindpile
+Version: 0.0.1
+Summary: Transpiles Mindstorms to ev3dev2 python.
+Home-page: https://github.com/MelbourneHighSchoolRobotics/mindpile
+Author: Angus Trau, Richard Huang, Jackson Goerner, Peter Drew
+Author-email: contact@angus.ws, me@huangrichard.com, jgoerner@outlook.com, peter@pdrew.com
+License: BSD-3-Clause
+Description: # mindpile
+        
+        A transpiler for EV3 Mindstorms to ev3dev2 Python.
+        
+        Using mypy for types and black for code-auto-formatting.
+        
+        ## Using
+        
+        [ev3sim](https://github.com/MelbourneHighSchoolRobotics/ev3sim) includes native mindpile support, this is the easiest way to get started.
+        
+        ## Blocks Not Implemented
+        
+        
+        ## Blocks Partially Implemented
+        
+        - Display: Doesn't support displaying images, white colour, or text size
+        - Sound: Doesn't support playing files, repeat play type, or stopping sounds
+        - Loop Interrupt: Only supports breaking out of a loop it is directly inside. It can't break out more than 1 layer
+        - Brick Buttons: This probably has some bugs
+        - Motor Sensors: You must use a motor from that port before reading the value
+        - Comment: Comments aren't inserted into Python code
+        
+        ## Contributing
+        
+        Install the package locally with 
+        
+            pip install -e  ./
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
