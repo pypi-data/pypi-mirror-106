@@ -1,0 +1,14 @@
+net_contextdiff/__init__.py,sha256=R-4KSNj6plOYYiWydCdh_SzAqkjVFPbv_67BJdKi9Wo,52
+net_contextdiff/__main__.py,sha256=QG34UAGRjn2OuLLxnlg0dvA-gIImBvPFwNNFtbd1e_g,12460
+net_contextdiff/config.py,sha256=sQs2IBmth7axAiTGLn5onUdaaELq1tRMggzdzh-Kneg,13845
+net_contextdiff/diff.py,sha256=fPNzoRuU2vdbbtaE4DcyCLUxH2gVTo-PZhnmPfUTHoY,35400
+net_contextdiff/ios/__init__.py,sha256=gureljFox-MroEun0WaOS76KKiCxk5KcdkH1LPwfflw,137
+net_contextdiff/ios/cmds.py,sha256=Nx18h9lONC5j_GsVtH_n6VtWUlqHupk7WYzuWPbq4HU,17130
+net_contextdiff/ios/config.py,sha256=u6MtJwDCGpiW680ukIT5czx64SNV2KgTEgyoUWrHaus,1478
+net_contextdiff/ios/diff.py,sha256=HqvD0mhdp1a4oR-dm1Wdz8QcYG2XxJzKwr8DTgxXf24,24019
+net_contextdiff/ios/utils.py,sha256=2oHNHz9Jy1ZpOjOSS06v35Scgr8QK19sK5DDZ09aJR4,19302
+net_contextdiff-0.11.6.dist-info/LICENSE,sha256=lnIbUlxIw5Z-6m8_QIH2PNiyBzijI0kdiqQ58c_z5IU,1101
+net_contextdiff-0.11.6.dist-info/METADATA,sha256=SomsUY2I_zjf2EAuA5TnTvCflFe8o45X1U7J2_HAE3Y,2346
+net_contextdiff-0.11.6.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+net_contextdiff-0.11.6.dist-info/top_level.txt,sha256=y1gVbAVwiwhKaS5CcJ-_w1KS6ssH4LPHe_i3h3ENSG8,16
+net_contextdiff-0.11.6.dist-info/RECORD,,
