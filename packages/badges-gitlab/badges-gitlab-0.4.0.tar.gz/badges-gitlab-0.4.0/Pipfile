@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+anybadge = "*"
+python-gitlab = "*"
+iso8601 = "*"
+xmltodict = "*"
+
+[dev-packages]
+flake8 = "*"
+pylint = "*"
+mypy = "*"
+coverage = "*"
+isort = "*"
+unittest-xml-reporting = "*"
+twine = "*"
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+statictest = "bash ./scripts/pipenv_run_statictest"
+security = "pipenv check"
+unit = "python -m unittest discover -s tests/ -p *.py"
