@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: cubedol3
+Version: 0.0.1
+Summary: simple demo cube
+Home-page: UNKNOWN
+Author: David Lignell
+Author-email: <davidlignell@byu.edu>
+License: UNKNOWN
+Description: simple demo for a cube class for pypi
+Keywords: python,cubedol3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
