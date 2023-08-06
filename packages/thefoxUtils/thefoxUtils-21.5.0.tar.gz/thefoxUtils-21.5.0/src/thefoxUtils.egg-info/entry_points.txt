@@ -1,0 +1,6 @@
+[console_scripts]
+tf = thefoxUtils.tf:main
+unidata = thefoxUtils.unidata:main
+unidump = thefoxUtils.unidump:main
+unikey = thefoxUtils.unikey:main
+

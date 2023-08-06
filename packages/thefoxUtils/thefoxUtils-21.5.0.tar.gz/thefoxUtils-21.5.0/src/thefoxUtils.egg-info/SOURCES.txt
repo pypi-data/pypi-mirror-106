@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/thefoxUtils/__init__.py
+src/thefoxUtils/tf.py
+src/thefoxUtils/unidata.py
+src/thefoxUtils/unidump.py
+src/thefoxUtils/unikey.py
+src/thefoxUtils.egg-info/PKG-INFO
+src/thefoxUtils.egg-info/SOURCES.txt
+src/thefoxUtils.egg-info/dependency_links.txt
+src/thefoxUtils.egg-info/entry_points.txt
+src/thefoxUtils.egg-info/top_level.txt
