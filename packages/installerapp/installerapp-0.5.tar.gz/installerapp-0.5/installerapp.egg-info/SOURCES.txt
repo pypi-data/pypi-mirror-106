@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+InstallerApp/__init__.py
+installerapp/__init__.py
+installerapp/app.py
+installerapp.egg-info/PKG-INFO
+installerapp.egg-info/SOURCES.txt
+installerapp.egg-info/dependency_links.txt
+installerapp.egg-info/requires.txt
+installerapp.egg-info/top_level.txt
