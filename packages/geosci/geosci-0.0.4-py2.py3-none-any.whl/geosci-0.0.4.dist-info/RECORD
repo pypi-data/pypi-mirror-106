@@ -1,0 +1,10 @@
+geosci/__init__.py,sha256=FaFHgdql0boQ3aMQ0ldARtqdENP_i8XnZgNI7CuVzNg,163
+geosci/common.py,sha256=WDLXff2_WfxwQ7PMQI3MQMn1p0UsP2w2M-hS1no9of0,76
+geosci/geosci.py,sha256=yI8yqsGBhyG_J3rdLkotzkUlsx3fqtmrlxQs-VrG7dY,4934
+geosci/utils.py,sha256=crbffJbXXjuBK8i-QI-YfTeKS6V8zmv1cFxWeNjvyqI,425
+geosci-0.0.4.dist-info/LICENSE,sha256=mT_FeNZxaXD7ww8Z6qnNoAyVJj9A9APb0WZ43RDZkxc,1068
+geosci-0.0.4.dist-info/METADATA,sha256=g-ac9JOpDwxPzyv0lLZ-8pm6b1ay4tWJDtmGMVxTNKA,2278
+geosci-0.0.4.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+geosci-0.0.4.dist-info/dependency_links.txt,sha256=TWSsy6u8ep_7iMXI1WWCAdkMywUevQNnh1wSAffyOj0,40
+geosci-0.0.4.dist-info/top_level.txt,sha256=jDQRr1kiMFv1Iker_WyComAfJuoe8eUSuWeb05siBs8,7
+geosci-0.0.4.dist-info/RECORD,,
