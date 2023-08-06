@@ -1,0 +1,2 @@
+(self.webpackChunk=self.webpackChunk||[]).push([["app_views_releases_index_tsx"],{"./app/views/releases/index.tsx":(e,s,n)=>{"use strict";n.r(s),n.d(s,{default:()=>t});const t=function(e){return e.children}}}]);
+//# sourceMappingURL=app_views_releases_index_tsx.js.map
