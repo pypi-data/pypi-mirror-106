@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.cfg
+setup.py
+similar_words_vz/__init__.py
+similar_words_vz/nero_looking_for.py
+similar_words_vz/utils.py
+similar_words_vz.egg-info/PKG-INFO
+similar_words_vz.egg-info/SOURCES.txt
+similar_words_vz.egg-info/dependency_links.txt
+similar_words_vz.egg-info/not-zip-safe
+similar_words_vz.egg-info/requires.txt
+similar_words_vz.egg-info/top_level.txt
+similar_words_vz/books/mt_gold_65875.csv

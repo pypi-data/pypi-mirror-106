@@ -1,0 +1,1 @@
+from .nero_looking_for import main
