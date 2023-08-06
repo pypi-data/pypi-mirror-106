@@ -1,0 +1,12 @@
+cffi
+cycler
+kiwisolver
+matplotlib
+numpy
+Pillow
+pycparser
+pyparsing
+python-dateutil
+six
+sounddevice
+SoundFile
