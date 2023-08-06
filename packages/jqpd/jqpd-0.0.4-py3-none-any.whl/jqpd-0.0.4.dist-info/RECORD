@@ -1,0 +1,9 @@
+jqpd/__init__.py,sha256=hDE24bQTCXqzAqJu4aq1R8JAVrq2_kNZ2IUEsPCZkvQ,21
+jqpd/jqpd.py,sha256=JcV2So4QVqujYecrz0NNrUyggISLCHO2yhQgjUgXha4,7150
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_jqpd.py,sha256=7OM0FlLHZ_lJEitsOU2otKMUAOKEfgAUpUM8ehfg0EE,4418
+jqpd-0.0.4.dist-info/LICENSE.txt,sha256=qzmdfHuXSQ11Xf8AZNvl6iZXmaAM4bGqIUH2F4MabGM,1086
+jqpd-0.0.4.dist-info/METADATA,sha256=NClVcxtMy24QL_UNmxm7fQh-zqLhpin1amZQQArKvvk,667
+jqpd-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jqpd-0.0.4.dist-info/top_level.txt,sha256=CRNwJ5tqaMq4X8QPVn5rwa1_ixa-HIYxMHR3PRW9sbg,11
+jqpd-0.0.4.dist-info/RECORD,,
