@@ -1,0 +1,3 @@
+[pioreactor.plugins]
+pioreactor_airpump = pioreactor_airpump
+

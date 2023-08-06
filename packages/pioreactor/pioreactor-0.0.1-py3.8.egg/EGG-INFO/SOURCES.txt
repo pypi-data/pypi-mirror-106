@@ -1,0 +1,7 @@
+README.md
+setup.py
+pioreactor.egg-info/PKG-INFO
+pioreactor.egg-info/SOURCES.txt
+pioreactor.egg-info/dependency_links.txt
+pioreactor.egg-info/entry_points.txt
+pioreactor.egg-info/top_level.txt
