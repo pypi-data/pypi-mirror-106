@@ -1,0 +1,3 @@
+[console_scripts]
+share-secrets = share_secrets:main
+
