@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: orkestra
+Version: 0.2.2
+Summary: For orchestration using AWS Step Functions
+License: MIT
+Keywords: orchestration,aws,cloud
+Author-email: Stephan Fitzpatrick <knowsuchagency@gmail.com>
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: cdk
+Provides-Extra: validation
+Project-URL: Repository, https://github.com/knowsuchagency/orkestra
+Project-URL: homepage, https://github.com/knowsuchagency/orkestra
