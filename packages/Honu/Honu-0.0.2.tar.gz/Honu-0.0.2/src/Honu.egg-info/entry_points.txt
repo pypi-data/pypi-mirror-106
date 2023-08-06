@@ -1,0 +1,3 @@
+[console_scripts]
+honutest = honu.cli.honu_test:main
+
