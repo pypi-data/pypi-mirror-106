@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: SearchFile
+Version: 0.1.0
+Summary: Search for files by the specified path.
+Home-page: UNKNOWN
+Author: Prudnikov Artem
+Author-email: artem_prudnikov_2002@mail.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# SearchFile
+#### Table of contents
+1. [Installation](#Installation)
+2. [Description](#Description)
+3. [Using](#Using)
+4. [Code](#Code)
+## Installation
+Installation using a terminal:
+
+```pip install SearchFile```
+## Description
+This library is designed to search for files by a given path.s the path we pass.
+## Using
+```import SearchFile```
+
+or
+
+```from SearchFile import search```
+
+The argument of the `search` function is the path passed as a string.
+#### For Windows
+Also, the directory separator should be written in the form `\\`, so as not to form control characters (\n, \t, \r, etc.). Examples:
+```
+search("C:\\Users")
+search("D:\\Downloads\\test.txt")
+search("D:\\Git\\cmd")
+```
+#### Linux
+The directory separator should be used `/`. Examples:
+```
+search("/home/artem/desktop/")
+search("/home/artem/tmp/file1")
+search("/home/artem/desktop/tmp/")
+```
+#### Mac OS
+The directory separator should be used `/`. Examples:
+```
+search("/Library/Desktop Pictures")
+search("/Library/Desktop Pictures/pictures1.jpg")
+search("/Library/Desktop Pictures/gallery")
+```
+## Code
+```
+import os
+import sys
+
+
+def search(path):
+
+    base = sys.platform
+    sep = "\\"
+
+    if base == "darwin" or "linux":
+        sep = "/"
+
+    if os.path.isdir(path):
+        try:
+            for i in os.listdir(path):
+                if os.path.isdir(path + sep + i):
+                    search(path + sep + i)
+                else:
+                    print("\n", path + sep + i)
+        except PermissionError:
+            print("\n""РћС‚РєР°Р·Р°РЅРѕ РІ РґРѕСЃС‚СѓРїРµ - " + path)
+    else:
+        if os.path.isfile(path):
+            print(path)
+        else:
+            print("РќРµРІРµСЂРЅРѕ СѓРєР°Р·Р°РЅ РїСѓС‚СЊ!")
+```
+
