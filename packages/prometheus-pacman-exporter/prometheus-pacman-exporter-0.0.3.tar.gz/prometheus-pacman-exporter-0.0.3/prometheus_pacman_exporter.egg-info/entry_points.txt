@@ -1,0 +1,3 @@
+[console_scripts]
+prometheus-pacman-exporter = prometheus_pacman_exporter:main
+
