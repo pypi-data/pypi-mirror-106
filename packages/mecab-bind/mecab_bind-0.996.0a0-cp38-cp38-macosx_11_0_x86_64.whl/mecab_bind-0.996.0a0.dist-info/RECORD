@@ -1,0 +1,8 @@
+mecab_bind-0.996.0a0.data/purelib/mecab/__init__.py,sha256=O3J37Qvds7r09X6YNu6zuNba_DJV4e0Lc32ySVKAb88,175
+mecab_bind-0.996.0a0.data/purelib/mecab/bind.so,sha256=0bh-Pv0sl4aeEhqs9DJp8mqajPZvHMJcar5r285Pe2E,1437040
+mecab_bind-0.996.0a0.data/purelib/mecab/c.py,sha256=0t-4Qobpnol724_mcnK_2XScY6t1qFWKDnT-FUkidpY,407
+mecab_bind-0.996.0a0.data/purelib/mecab/libmecab.a,sha256=BUdZPINa0BmkR8uFLTyDzXRVvJEnMcCXT5q2pkzpReo,2544776
+mecab_bind-0.996.0a0.dist-info/METADATA,sha256=RTDHS_lnTEud7rrsjo11SF06ydjP-leuVjh5DKMYMyY,689
+mecab_bind-0.996.0a0.dist-info/WHEEL,sha256=mJUhM6xk5uGuGdsmQlSqd9235pVr529Y-P1VP4AaxzE,109
+mecab_bind-0.996.0a0.dist-info/top_level.txt,sha256=x8WZ0UArm7kuCMkR2-XXfVKcI1RoSzC6PynQAtwnQsY,6
+mecab_bind-0.996.0a0.dist-info/RECORD,,
