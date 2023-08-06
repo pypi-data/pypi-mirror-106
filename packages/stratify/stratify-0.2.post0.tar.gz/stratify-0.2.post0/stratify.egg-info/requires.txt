@@ -1,0 +1,15 @@
+numpy
+
+[dev]
+pre-commit
+pytest
+pytest-cov
+codecov
+
+[lint]
+black==21.5b0
+flake8==3.9.2
+isort==5.8.0
+
+[release]
+twine
