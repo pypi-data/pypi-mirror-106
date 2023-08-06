@@ -1,0 +1,14 @@
+modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modules/hook.py,sha256=bQ2vraDvcgZL_on78Vdt02FyNKMqULAZbymPBZZruIs,759
+modules/ALFA/ALFA.py,sha256=qqdyygD78VfNmHTglK4QyXlO7DgIzY872S2JUPxN3g4,16939
+modules/ALFA/__init__.py,sha256=vrAuq_0yQw5b-4FC_txX6WnKyFtoBm6Eq-Dot_nmXUI,72
+modules/tin_score/__init__.py,sha256=urZaUM3nwB41_hc8TCqI1Vt43DcGqeHtDUoLc72evww,77
+modules/tin_score/tin_score.py,sha256=ZUOcvY2aUWCEDCc36wn20xFhLzZnCq11jwmZNSgLF7w,4178
+modules/zpca/__init__.py,sha256=mKB84D-PXqoQyc7MGnr-iC-s_zmzhKgX4IVhizFn2hg,72
+modules/zpca/zpca.py,sha256=OexTWhWy4U7A7mynWY_u48l9sweBzYSlJf4HHQLYOo0,10129
+multiqc_plugins-1.2.1.dist-info/LICENSE,sha256=NOKSFbUFjmGDzsfO8ftPInQXkTcr2ZbgIy_WgcaD0m0,11373
+multiqc_plugins-1.2.1.dist-info/METADATA,sha256=4pk2pMcqZ6ZHzMQjHVRRXlSU-ER9dKS8zgjZdofYaak,939
+multiqc_plugins-1.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+multiqc_plugins-1.2.1.dist-info/entry_points.txt,sha256=HMtTqH_llaRHrdtplEuiv7SlZb5R7zr4MXQUa40i2MM,201
+multiqc_plugins-1.2.1.dist-info/top_level.txt,sha256=F7U4jdIxH3MVMmyX9rbajWuG0bj5tcZN4L1DZSxW72E,8
+multiqc_plugins-1.2.1.dist-info/RECORD,,
