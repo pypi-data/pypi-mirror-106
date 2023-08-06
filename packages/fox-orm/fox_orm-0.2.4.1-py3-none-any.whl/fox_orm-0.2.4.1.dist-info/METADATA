@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fox-orm
+Version: 0.2.4.1
+Summary: Simple pydantic & databases based orm
+Home-page: https://hub.vanutp.dev
+Author: vanutp
+Author-email: hello@vanutp.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: databases (~=0.4.3)
+Requires-Dist: pydantic (~=1.8.2)
+Requires-Dist: SQLAlchemy (~=1.4.15)
+Provides-Extra: dev
+Requires-Dist: aiosqlite ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+
+UNKNOWN
+
+
