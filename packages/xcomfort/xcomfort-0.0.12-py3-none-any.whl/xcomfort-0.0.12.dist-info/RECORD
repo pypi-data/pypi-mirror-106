@@ -1,0 +1,9 @@
+xcomfort/__init__.py,sha256=fe-zbQCGqAEflqeUOkj95gwFaBYV9ljn0lbljgTrm3I,54
+xcomfort/bridge.py,sha256=pL3aLsWNzwhp0ouSrhZNGHL2WWbx3U2kloAfceMitsU,4322
+xcomfort/connection.py,sha256=lhTV-wc6QksCJdz4l5lMEGa_Ch1m_cHsPLdUxxqdCik,8269
+xcomfort/devices.py,sha256=Sqd2eT2ybfVHB2oAxdNIVofYmj8_ZzBfvjwjM3nd3rA,921
+xcomfort-0.0.12.dist-info/LICENSE,sha256=MNEv8I98xQ0jRjXZgT7VxfjBDId8Yp4zDOI3YYrvsQM,1064
+xcomfort-0.0.12.dist-info/METADATA,sha256=7H1X0Gt7JwTOA3HA_OS38BQWNQC-P4Dg5ArDfb42Dt0,1348
+xcomfort-0.0.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xcomfort-0.0.12.dist-info/top_level.txt,sha256=cK__h1Qnh5GDuhiMy4UlSV0JXbelvFHAsdH0K1iKz6A,9
+xcomfort-0.0.12.dist-info/RECORD,,
