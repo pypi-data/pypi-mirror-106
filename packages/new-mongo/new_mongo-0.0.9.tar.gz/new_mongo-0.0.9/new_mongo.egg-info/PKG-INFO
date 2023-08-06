@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: new-mongo
+Version: 0.0.9
+Summary: Mongodb operation.
+Home-page: https://github.com/Michael07220823/mongo.git
+Author: Overcomer
+Author-email: michael31703@gmail.com
+License: MIT License
+Description: # new_mongo
+        
+Keywords: mongo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
