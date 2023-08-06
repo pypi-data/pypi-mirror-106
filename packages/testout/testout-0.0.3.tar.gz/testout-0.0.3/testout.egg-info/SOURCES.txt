@@ -1,0 +1,15 @@
+setup.py
+classification/Image_classification_cal.py
+classification/Image_classification_test.py
+classification/__init__.py
+semanteme/__init__.py
+semanteme/semanteme_division_cal.py
+semanteme/semanteme_division_test.py
+target/__init__.py
+target/target_detection_cal.py
+target/target_detection_test.py
+testout.egg-info/PKG-INFO
+testout.egg-info/SOURCES.txt
+testout.egg-info/dependency_links.txt
+testout.egg-info/not-zip-safe
+testout.egg-info/top_level.txt
