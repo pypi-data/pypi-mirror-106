@@ -1,0 +1,10 @@
+README.md
+setup.py
+chrplotlib/__init__.py
+chrplotlib/animation.py
+chrplotlib/bar.py
+chrplotlib.egg-info/PKG-INFO
+chrplotlib.egg-info/SOURCES.txt
+chrplotlib.egg-info/dependency_links.txt
+chrplotlib.egg-info/not-zip-safe
+chrplotlib.egg-info/top_level.txt
