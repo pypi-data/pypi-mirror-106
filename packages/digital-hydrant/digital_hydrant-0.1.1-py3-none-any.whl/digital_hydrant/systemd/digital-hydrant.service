@@ -1,0 +1,9 @@
+[Unit]
+Description=Digital Hydrant
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/hydrant
+
+[Install]
+WantedBy=multi-user.target
