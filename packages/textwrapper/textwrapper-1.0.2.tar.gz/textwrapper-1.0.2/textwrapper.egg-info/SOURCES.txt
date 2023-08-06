@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+textwrapper.py
+textwrapper.egg-info/PKG-INFO
+textwrapper.egg-info/SOURCES.txt
+textwrapper.egg-info/dependency_links.txt
+textwrapper.egg-info/entry_points.txt
+textwrapper.egg-info/top_level.txt
