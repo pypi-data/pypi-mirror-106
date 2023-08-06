@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: AlmacenBebidasAlba1
+Version: 1.1.5
+Summary: Práctica UF4
+Home-page: https://github.com/albanv01/practicaUUF4
+Author: Alba Navarro
+Author-email: 41012054h@iespoblenou.org
+License: NOTFOUND
+Download-URL: https://pypi.org/project/AlmacenBebidasAlba/
+Description: long description
+Keywords: ejemplo_paquete,ejemplo,paquete,package,example
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
