@@ -1,0 +1,8 @@
+pandas
+internetarchive
+google-api-python-client
+curation_utils
+python-rest-client
+
+[test]
+pytest

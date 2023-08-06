@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+curation_projects/__init__.py
+curation_projects/rgveda.py
+video_curation/__init__.py
+video_curation/video_repo.py
+video_curation/youtube_client.py
+video_curation.egg-info/PKG-INFO
+video_curation.egg-info/SOURCES.txt
+video_curation.egg-info/dependency_links.txt
+video_curation.egg-info/requires.txt
+video_curation.egg-info/top_level.txt
