@@ -1,0 +1,3 @@
+include *.txt
+recursive-include accounting *.txt *.py *.html *.css *.js
+recursive-include for_readme *.png

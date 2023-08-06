@@ -1,0 +1,8 @@
+Babel==1.0
+Django>=2.0.13
+django-bootstrap3==12.0.2
+django-classy-tags==0.5.1
+django-datetime-widget2==0.9.5
+django-select2==7.0.2
+django-tempus-dominus==5.1.2.13
+python-dateutil==2.2
