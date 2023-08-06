@@ -1,0 +1,7 @@
+s3_storage_provider.py,sha256=uRxHa3eYNeIhA8t7fp3QqURTFEpa1yiaeS_2VY4l9ds,12000
+synapse_s3_storage_provider-1.0.data/scripts/s3_media_upload,sha256=5CUgd8iKma1yiIRTzMCIYExMyHyVRCinKckSyq5VDCo,13807
+synapse_s3_storage_provider-1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+synapse_s3_storage_provider-1.0.dist-info/METADATA,sha256=QNbcSaRxTWg69meGKkmryL81jGQd1rnThj9kSRpTtTY,484
+synapse_s3_storage_provider-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+synapse_s3_storage_provider-1.0.dist-info/top_level.txt,sha256=F2tQXGf8wZdgHUUa5jMAwdVTJABSpZkYhsgHfNhgWjg,20
+synapse_s3_storage_provider-1.0.dist-info/RECORD,,
