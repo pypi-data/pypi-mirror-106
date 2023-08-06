@@ -1,0 +1,15 @@
+pytrendseries/README.md,sha256=NA7YjpDVLfwHEOnEC3yMsOgGB4OWqCd-wz4Ev5n-5tU,7893
+pytrendseries/README_pypi.md,sha256=sl2Jgu_LyjA6Yt9y4ZZb4NbhWadfPXxbvClFjdpqmSg,6601
+pytrendseries/__init__.py,sha256=I1viw8Sd2-AYWlVBid_TnuxgRMbWpCemVhqNY_2ylSQ,116
+pytrendseries/coverage.xml,sha256=Qpb16N-1o38b7woxe50wBuerfLF9dr6JthNHttUI5JI,5199
+pytrendseries/detecttrend.py,sha256=-1s_YdnAysmWLi6ckLBACmhKJ5XDgCVKPN-BGJfkxrI,7039
+pytrendseries/example.py,sha256=P22EUly3iXFzRu-_ZKOfJwdmo1mshKHou-xYJX9FT4M,3718
+pytrendseries/maxtrend.py,sha256=G_0y_n0UvXKVL4lGqkq9RX1W5wK1dNtU8ugd0dKtYxM,4115
+pytrendseries/poetry.lock,sha256=2wGG85uZoi3dU5Gs5AN0VUTYN0bque896OJaxnbkTrA,28229
+pytrendseries/pyproject.toml,sha256=h8XjvXNCCM0bbMspTIi3IWRtWfIBEQLOcT1hRRR_7r4,436
+pytrendseries/setup.py,sha256=ayETnEJOqOjOduZ5AnXPb0dNs7ZKOAPyzxVzGqDnkFY,1027
+pytrendseries/vizplot.py,sha256=sqGOebs3ooPIuGqsCsKIu5Vyia4MfYulTRZzo3E2HnI,3947
+pytrendseries-0.1.3.dist-info/METADATA,sha256=zEv6965C4cHl6mKhWcgYK3r37X-ZDH_NRcizXQYjsO0,7094
+pytrendseries-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytrendseries-0.1.3.dist-info/top_level.txt,sha256=vGmWHQ9LltxKPmR_pfiWBWNPkvPKmtlTk43Vu1gSwdI,14
+pytrendseries-0.1.3.dist-info/RECORD,,
