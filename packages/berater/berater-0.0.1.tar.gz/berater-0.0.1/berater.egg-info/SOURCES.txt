@@ -1,0 +1,10 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+berater/__init__.py
+berater.egg-info/PKG-INFO
+berater.egg-info/SOURCES.txt
+berater.egg-info/dependency_links.txt
+berater.egg-info/top_level.txt
