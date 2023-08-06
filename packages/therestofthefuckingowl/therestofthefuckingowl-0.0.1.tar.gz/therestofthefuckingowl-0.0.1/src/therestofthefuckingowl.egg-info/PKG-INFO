@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: therestofthefuckingowl
+Version: 0.0.1
+Summary: The Rest of the Fucking Owl
+Home-page: https://github.com/boppreh/therestofthefuckingowl
+Author: BoppreH
+Author-email: therestofthefuckingowl@boppreh.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/boppreh/therestofthefuckingowl/issues
+Description: Rest of the Fucking Owl
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

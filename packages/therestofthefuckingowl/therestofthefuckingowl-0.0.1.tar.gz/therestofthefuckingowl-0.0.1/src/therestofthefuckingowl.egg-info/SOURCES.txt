@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/therestofthefuckingowl.egg-info/PKG-INFO
+src/therestofthefuckingowl.egg-info/SOURCES.txt
+src/therestofthefuckingowl.egg-info/dependency_links.txt
+src/therestofthefuckingowl.egg-info/top_level.txt
