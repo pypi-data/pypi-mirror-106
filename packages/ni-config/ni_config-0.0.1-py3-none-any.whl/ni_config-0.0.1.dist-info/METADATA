@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ni-config
+Version: 0.0.1
+Summary: 把json文件当作配置文件使用时，为了方便对配置文件进行操作而创建的配置文件类库
+Home-page: https://github.com/KrixTam/ni-config
+Author: Krix Tam
+Author-email: krix.tam@qq.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/KrixTam/ni-config/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: jsonschema
+Requires-Dist: pyyaml
+
+# ni-config
+把json文件当作配置文件使用时，为了方便对配置文件进行操作而创建的配置文件类库
+
+
