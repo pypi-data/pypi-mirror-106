@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+lpmclient.egg-info/PKG-INFO
+lpmclient.egg-info/SOURCES.txt
+lpmclient.egg-info/dependency_links.txt
+lpmclient.egg-info/requires.txt
+lpmclient.egg-info/top_level.txt
