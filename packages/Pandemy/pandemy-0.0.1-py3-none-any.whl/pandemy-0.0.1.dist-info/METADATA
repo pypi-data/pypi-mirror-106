@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pandemy
+Version: 0.0.1
+Summary: Wrapper around Pandas and SQLAlchemy to provide an easy interface for DataFrames and databases.
+Home-page: https://coming.soon.com
+Author: Anton Lydell
+Author-email: antoningenjoren@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# pandemy
+*pandemy* is a wrapper around *[Pandas](https://pandas.pydata.org/)* and *[SQLAlchemy](https://www.sqlalchemy.org/)* to easily get DataFrames in and out of databases.
+This package is for those who enjoy working with *Pandas* and SQL but do not want to learn all bells and whistles of the *SQLAlchemy* ORM. Use your existing SQL knowledge to provide text based SQL-statements to work with the databases. 
+
+A first version is coming soon.
+
+
