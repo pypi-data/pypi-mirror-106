@@ -1,0 +1,3 @@
+[console_scripts]
+AlignR-Launch = AlignmentReporter.UI.py:launch
+
