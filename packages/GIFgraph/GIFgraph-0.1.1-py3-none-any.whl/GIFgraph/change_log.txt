@@ -1,0 +1,5 @@
+V0.1.0 20/05/2021
+Basic functionality, four charts: bar, line, pie, scatter. 
+
+V0.1.1 20/05/2021
+Bug fixe relating to logo. 
