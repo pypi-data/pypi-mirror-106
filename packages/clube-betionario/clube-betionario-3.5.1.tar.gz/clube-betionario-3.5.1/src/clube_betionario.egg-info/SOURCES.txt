@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/clube_betionario/__init__.py
+src/clube_betionario.egg-info/PKG-INFO
+src/clube_betionario.egg-info/SOURCES.txt
+src/clube_betionario.egg-info/dependency_links.txt
+src/clube_betionario.egg-info/top_level.txt
