@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "understory-web"
+version = "0.0.1"
+description = "Tools for metamodern web development"
+authors = ["Angelo Gladding <angelo@lahacker.net>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+packages = [
+    { include = "understory" }
+]
+
+[tool.poetry.urls]
+"Homepage" = "https://github.com/canopy/understory-web"
+
+[tool.poetry.scripts]
+web = "understory.web.__main__:main"
+# indieauth = "understory.web.indie.indieauth:main"
+# micropub = "understory.web.indie.micropub:main"
+# microsub = "understory.web.indie.microsub:main"
+# mentions = "understory.web.indie.webmention:main"
+# followers = "understory.web.indie.followers:main"
+
+[tool.poetry.plugins."web.apps"]
+"indieauth-client" = "understory.web.indie.indieauth:client"
+"indieauth-server" = "understory.web.indie.indieauth:server"
+"micropub" = "understory.web.indie.micropub:server"
+"microsub" = "understory.web.indie.microsub:server"
+"webmention" = "understory.web.indie.webmention:receiver"
+"websub" = "understory.web.indie.websub:hub"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+gunicorn = "^20.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
