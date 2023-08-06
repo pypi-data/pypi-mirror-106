@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: numfi
+Version: 0.0.1
+Summary: a numpy.ndarray subclass for fixed-point
+Home-page: https://github.com/ZZZZzzzzac/numfi
+Author: ZinGer_KyoN
+Author-email: zinger.kyon@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ZZZZzzzzac/numfi/issues
+Description: a numpy.ndarray subclass for fixed-point
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

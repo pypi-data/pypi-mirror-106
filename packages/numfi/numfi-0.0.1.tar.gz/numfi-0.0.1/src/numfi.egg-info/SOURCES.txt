@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/numfi/__init__.py
+src/numfi/object.py
+src/numfi.egg-info/PKG-INFO
+src/numfi.egg-info/SOURCES.txt
+src/numfi.egg-info/dependency_links.txt
+src/numfi.egg-info/requires.txt
+src/numfi.egg-info/top_level.txt
