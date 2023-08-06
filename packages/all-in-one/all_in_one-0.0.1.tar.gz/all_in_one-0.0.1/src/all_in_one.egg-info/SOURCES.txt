@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/All_In_One/__init__.py
+src/All_In_One/__main__.py
+src/All_In_One/all_in_one.py
+src/all_in_one.egg-info/PKG-INFO
+src/all_in_one.egg-info/SOURCES.txt
+src/all_in_one.egg-info/dependency_links.txt
+src/all_in_one.egg-info/top_level.txt
