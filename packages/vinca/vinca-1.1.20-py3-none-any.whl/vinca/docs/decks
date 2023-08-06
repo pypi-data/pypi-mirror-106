@@ -1,0 +1,9 @@
+decks are not an attribute of the cards nor viseversa.
+A deck is simply a tag command e.g. +spanish -math) as well as a default tagging for new cards
+
+Example
+a general deck might be programmed to exclude spanish cards, but it will not make any tags by default
+
+Example 
+a statistical biology subdeck could include all cards with those two tags, and by default tag cards with them.
+
