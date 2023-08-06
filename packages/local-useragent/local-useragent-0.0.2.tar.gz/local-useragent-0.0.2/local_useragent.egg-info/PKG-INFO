@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: local-useragent
+Version: 0.0.2
+Summary: fake_useragent use local data
+Home-page: https://github.com/g1im2/fake_useragent_local
+Author: fxf
+Author-email: fxfpro@163.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/g1im2/fake_useragent_local/issues
+Description: UNKNOWN
+Platform: UNKNOWN
