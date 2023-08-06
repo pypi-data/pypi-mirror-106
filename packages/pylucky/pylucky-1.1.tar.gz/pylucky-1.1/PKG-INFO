@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pylucky
+Version: 1.1
+Summary: A simple version of random
+Home-page: https://xiaodong.indouyin.cn/python/modules/pylucky/index.html
+Author: DY_XiaoDong
+Author-email: xiaodong@indouyin.cn
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: random

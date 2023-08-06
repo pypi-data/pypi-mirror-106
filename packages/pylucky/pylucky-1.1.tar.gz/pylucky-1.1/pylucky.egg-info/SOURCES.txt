@@ -1,0 +1,6 @@
+setup.py
+pylucky/__init__.py
+pylucky.egg-info/PKG-INFO
+pylucky.egg-info/SOURCES.txt
+pylucky.egg-info/dependency_links.txt
+pylucky.egg-info/top_level.txt
