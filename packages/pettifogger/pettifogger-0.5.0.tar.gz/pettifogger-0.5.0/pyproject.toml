@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "pettifogger"
+authors = ["Aki Mäkinen"]
+version = "0.5.0"
+description = "Github actions workflow validator"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10"
+]
+homepage = "https://gitlab.com/blissfulreboot/python/pettifogger"
+
+include = [
+    "CHANGELOG.md",
+    "VERSION",
+    "README.md"
+]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+colorama = "^0.4.4"
+jsonschema = "^3.2.0"
+"ruamel.yaml" = "^0.17.4"
+networkx = "^2.5.1"
+python = "^3.8"
+watchdog = "2.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+
+[tool.poetry.scripts]
+pettifogger = 'pettifogger.main:main'
+

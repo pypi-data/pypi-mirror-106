@@ -1,0 +1,10 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  job2:
+    runs-on: general
+    steps:
+      - uses: actions/checkout@v2

@@ -1,0 +1,48 @@
+env:
+  VAR1: 123
+  VAR2: FOOBAR
+  VAR3: SOMETHING_PROPABLSY_MISSPLELLED
+  NONEXISTENT: 123
+
+jobs:
+  job1:
+    runs-on: general
+    steps:
+      - uses: actions/chekcout@v2
+
+  job2:
+    runs-on: general
+    needs:
+      - job3
+    steps:
+      - uses: actions/chekcout@v2
+
+  job3:
+    runs-on: general
+    needs:
+      - job1
+      - job2
+    steps:
+      - uses: actions/chekcout@v2
+      - env:
+          THISTOODOESNOTEXIST: 123
+        run: |
+          echo "$NONEXISTENT ${THISTOODOESNOTEXIST}"
+          echo "ssome other line"
+          echo "and yet another line" AMISUSPICIOUS
+
+  job4:
+    runs-on: general
+    needs:
+      - job3
+    steps:
+      - uses: actions/chekcout@v2
+      - run: echo "VAR1"
+      - run: echo "$VAR2"
+
+  job5:
+    runs-on: general
+    needs:
+      - job1
+    steps:
+      - run: echo "foobar"

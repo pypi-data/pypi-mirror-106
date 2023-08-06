@@ -1,0 +1,209 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Github workflow",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "on": {
+      "oneOf": [
+        { "$ref": "#/definitions/trigger_event" },
+        {
+          "type": "array",
+          "items": { "$ref": "#/definitions/trigger_event" }
+        },
+        {
+          "type": "object",
+          "properties": {}
+        }
+      ]
+    },
+    "permissions": {},
+    "env": { "$ref": "#/definitions/env" },
+    "defaults": {},
+    "concurrency": {},
+    "jobs": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z_][a-zA-Z0-9_-]*$": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string", "minLength": 1 },
+            "needs": {
+              "anyOf": [
+                { "type": "string", "minLength": 1 },
+                {
+                  "type": "array",
+                  "items": { "type": "string", "minLength": 1 }
+                }
+              ]
+            },
+            "runs-on": { "type": "string", "minLength": 1 },
+            "permissions": {},
+            "environment": {
+              "anyOf": [
+                { "type": "string", "minLength": 1 },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": { "type": "string", "minLength": 1 },
+                    "url": { "type": "string", "minLength": 1 }
+                  },
+                  "required": ["name"]
+                }
+              ]
+            },
+            "concurrency": {},
+            "outputs": {
+              "type": "object",
+              "patternProperties": {
+                "^[a-zA-Z0-9_][a-zA-Z0-9_-]*$": {
+                  "type": "string"
+                }
+              }
+            },
+            "env": { "$ref": "#/definitions/env" },
+            "defaults": {},
+            "if": { "type": "string", "minLength": 1 },
+            "steps": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": { "type": "string", "pattern": "^[a-zA-Z0-9_][a-zA-Z0-9_-]*$" },
+                  "if": { "type": "string", "minLength": 1 },
+                  "name": { "type": "string", "minLength": 1 },
+                  "uses": { "type": "string", "minLength": 1 },
+                  "run": { "type": "string", "minLength": 1 },
+                  "with": {
+                    "type": "object",
+                    "patternProperties": {
+                      "^[a-zA-Z0-9_][a-zA-Z0-9_-]*$": { "type": ["string", "number"] }
+                    }
+                  },
+                  "env": { "$ref": "#/definitions/env" },
+                  "continue-on-error": { "type": "boolean" },
+                  "timeout-minutes": { "type": "integer" }
+                },
+                "oneOf": [
+                  { "required": ["uses"] },
+                  { "required": ["run"] }
+                ]
+              },
+              "minItems": 1
+            },
+            "timeout-minutes": { "type": "integer" },
+            "strategy": {
+              "type": "object",
+              "properties": {
+                "matrix": {
+                  "patterProperties": {
+                    "^[a-zA-Z_][a-zA-Z0-9_-]*$": {}
+                  }
+                },
+                "fail-fast": { "type": "boolean" },
+                "max-parallel": { "type": "integer" }
+              }
+            },
+            "continue-on-error": { "type": "boolean" },
+            "container": {
+              "anyOf": [
+                { "type": "string", "minLength": 1 },
+                { "$ref": "#/definitions/container" }
+              ]
+            },
+            "services": {
+              "type": "object",
+              "patterProperties": {
+                "^[a-zA-Z_][a-zA-Z0-9_-]*$": { "$ref": "#/definitions/container" }
+              }
+            }
+          },
+          "required": [
+            "runs-on",
+            "steps"
+          ]
+        }
+      }
+    }
+  },
+  "required": [
+    "on", "jobs"
+  ],
+  "additionalProperties": false,
+
+  "definitions": {
+    "container": {
+      "type": "object",
+      "properties": {
+        "image": { "type": "string", "minLength": 1 },
+        "credentials": {
+          "type": "object",
+          "properties": {
+            "username": { "type": "string", "minLength": 1 },
+            "password": { "type": "string", "minLength": 1 }
+          },
+          "required": ["username", "password"]
+        },
+        "env": { "$ref": "#/definitions/env" },
+        "ports": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "volumes": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "options": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "env": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9_]+$": {
+          "type": ["string", "number"]
+        }
+      }
+    },
+    "trigger_event": {
+      "type": "string",
+      "enum": [
+        "schedule",
+        "workflow_dispatch",
+        "repository_dispatch",
+        "check_run",
+        "check_suite",
+        "create",
+        "delete",
+        "deployment",
+        "deployment_status",
+        "fork",
+        "gollum",
+        "issue_comment",
+        "issues",
+        "label",
+        "milestone",
+        "page_build",
+        "project",
+        "project_card",
+        "project_column",
+        "public",
+        "pull_request",
+        "pull_request_review",
+        "pull_request_review_comment",
+        "pull_request_target",
+        "push",
+        "registry_package",
+        "release",
+        "status",
+        "watch",
+        "workflow_run"
+      ]
+    }
+  }
+}

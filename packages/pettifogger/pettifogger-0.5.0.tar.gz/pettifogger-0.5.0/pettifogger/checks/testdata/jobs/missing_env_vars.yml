@@ -1,0 +1,12 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  job2:
+    runs-on: general
+    steps:
+      - run: |
+          echo "Foobar"
+          echo "$FOO $FOOBAR"
