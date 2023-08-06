@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/vendia_utils/__init__.py
+src/vendia_utils/blocks.py
+src/vendia_utils_brian_mcnamara.egg-info/PKG-INFO
+src/vendia_utils_brian_mcnamara.egg-info/SOURCES.txt
+src/vendia_utils_brian_mcnamara.egg-info/dependency_links.txt
+src/vendia_utils_brian_mcnamara.egg-info/requires.txt
+src/vendia_utils_brian_mcnamara.egg-info/top_level.txt
+src/vendia_utils_brian_mcnamara.egg-info/zip-safe

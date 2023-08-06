@@ -1,0 +1,6 @@
+graphql-core
+typing
+
+[testing]
+pytest
+pytest-cov
