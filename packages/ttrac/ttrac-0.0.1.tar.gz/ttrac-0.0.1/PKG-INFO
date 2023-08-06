@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ttrac
+Version: 0.0.1
+Summary: track your working times
+Home-page: https://github.com/ljurk/ttrac
+Author: Lukas Jurk
+Author-email: ljurk@pm.me
+License: GPLv3
+Description: # ttrac
+        
+        a script to track your working times
+        
+Keywords: time work ttrac
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
