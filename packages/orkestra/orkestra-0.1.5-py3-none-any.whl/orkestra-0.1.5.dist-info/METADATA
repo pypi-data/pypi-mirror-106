@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: orkestra
+Version: 0.1.5
+Summary: For orchestration using AWS Step Functions
+License: MIT
+Keywords: orchestration,aws,cloud
+Author-email: Stephan Fitzpatrick <knowsuchagency@gmail.com>
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: cdk
+Requires-Dist: aws-cdk.core; extra == "cdk"
+Requires-Dist: aws-cdk.aws_events; extra == "cdk"
+Requires-Dist: aws-cdk.aws_events_targets; extra == "cdk"
+Requires-Dist: aws-cdk.aws_lambda_python; extra == "cdk"
+Requires-Dist: aws-cdk.aws_stepfunctions_tasks; extra == "cdk"
+Project-URL: Repository, https://github.com/knowsuchagency/composer
+Project-URL: homepage, https://github.com/knowsuchagency/composer
