@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: shoonya
+Version: 0.1.0
+Summary: Unofficial Trading APIs for Finvasia Shoonya Platform, help for algo traders
+Author: Algo 2 Trade
+Author-email: help@algo2.trade
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
