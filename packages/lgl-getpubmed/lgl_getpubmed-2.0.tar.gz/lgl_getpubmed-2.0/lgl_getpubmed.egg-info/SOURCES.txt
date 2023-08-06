@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+lgl_getpubmed/__init__.py
+lgl_getpubmed.egg-info/PKG-INFO
+lgl_getpubmed.egg-info/SOURCES.txt
+lgl_getpubmed.egg-info/dependency_links.txt
+lgl_getpubmed.egg-info/top_level.txt
