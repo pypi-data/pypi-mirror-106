@@ -1,0 +1,8 @@
+README.md
+setup.py
+./rsql
+RockSQL.egg-info/PKG-INFO
+RockSQL.egg-info/SOURCES.txt
+RockSQL.egg-info/dependency_links.txt
+RockSQL.egg-info/requires.txt
+RockSQL.egg-info/top_level.txt
