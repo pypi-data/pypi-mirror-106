@@ -1,0 +1,9 @@
+README.md
+setup.py
+wetai/__init__.py
+wetai/test.py
+wetai.egg-info/PKG-INFO
+wetai.egg-info/SOURCES.txt
+wetai.egg-info/dependency_links.txt
+wetai.egg-info/requires.txt
+wetai.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wetai
+Version: 0.0.1
+Summary: wetAI Python utilities
+Home-page: https://github.com/braingeneers/wetai
+Author: Braingeneers
+License: UNKNOWN
+Description: # Braingeneers Python Utilities
+        
+        [This package][github] is supposed to collect, as well as make installable
+        through Pip, all of the Python code and utilities that we develop as
+        part of the wetAI project.
+        
+        [github]: https://www.github.com/braingeneers/wetai
+        
+Keywords: machine-learning,jupyter,neuroscience,wetai,braingeneers
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
