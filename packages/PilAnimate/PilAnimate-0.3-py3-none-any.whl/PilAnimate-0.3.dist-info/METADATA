@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: PilAnimate
+Version: 0.3
+Summary: A python library using PIL to create animations. Mostly for my own personal use so won't really be documented.
+Home-page: https://github.com/jetstream0/PilAnimate
+Author: John Doe
+Author-email: prussia@prussia.dev
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: Pillow
+Requires-Dist: opencv-python
+
+# PilAnimate
+A python library using PIL to create animations. Mostly for my own personal use so won't really be documented. 
+
+
