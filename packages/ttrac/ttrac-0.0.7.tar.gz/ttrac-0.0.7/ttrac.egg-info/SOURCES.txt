@@ -1,0 +1,8 @@
+setup.py
+ttrac/ttrac.py
+ttrac.egg-info/PKG-INFO
+ttrac.egg-info/SOURCES.txt
+ttrac.egg-info/dependency_links.txt
+ttrac.egg-info/entry_points.txt
+ttrac.egg-info/requires.txt
+ttrac.egg-info/top_level.txt
