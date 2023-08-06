@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+./django/__init__.py
+short_lived_tokens/VERSION
+short_lived_tokens.egg-info/PKG-INFO
+short_lived_tokens.egg-info/SOURCES.txt
+short_lived_tokens.egg-info/dependency_links.txt
+short_lived_tokens.egg-info/requires.txt
+short_lived_tokens.egg-info/top_level.txt
