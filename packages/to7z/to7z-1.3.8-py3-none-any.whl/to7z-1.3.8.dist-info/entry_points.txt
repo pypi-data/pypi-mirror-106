@@ -1,0 +1,3 @@
+[console_scripts]
+to7z=to7z.cli:main
+
