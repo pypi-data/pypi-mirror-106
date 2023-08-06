@@ -1,0 +1,8 @@
+README.md
+setup.py
+zfhe/__init__.py
+zfhe/file.py
+zfhe.egg-info/PKG-INFO
+zfhe.egg-info/SOURCES.txt
+zfhe.egg-info/dependency_links.txt
+zfhe.egg-info/top_level.txt
