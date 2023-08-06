@@ -1,0 +1,10 @@
+pyzstd-0.15.0.dist-info/RECORD,,
+pyzstd-0.15.0.dist-info/WHEEL,sha256=0lBhIfDbUQ5HJ-t6GFkjuZOVUP0yzWZLMot0fk4X30Q,115
+pyzstd-0.15.0.dist-info/METADATA,sha256=OCu5NcdoHCu0DpWGyt4wyxESK5rYSTrI_p4znYgWq18,3814
+pyzstd-0.15.0.dist-info/LICENSE,sha256=r6TvF8FMw89VT3cuWrdOkD-R-TkED6_H-aW8o-2Vg80,1522
+pyzstd-0.15.0.dist-info/top_level.txt,sha256=9Sl3x1CXrPdyG5muunGLOQpJEbiwW6WW8Y46nZMgWsE,7
+pyzstd/__init__.pyi,sha256=Gd5vMlsCj5yeNgj7hAcb3A1KpJhugQg__SsTLe7WiCE,6400
+pyzstd/__init__.py,sha256=ft2TnbaRnxQpaGh3x4w9KQsPRQRI1wuu_3zGaOvcCkE,20599
+pyzstd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyzstd/cffi/_cffi_zstd.pypy37-pp73-x86_64-linux-gnu.so,sha256=IlyADQ-iHfFk4rp8q9OkuAQuzXLk-KDsEJdl50ZrV6c,854520
+pyzstd/cffi/cffi_pyzstd.py,sha256=Qo9tSaWqs9_iCP7N9-pK43h6jG8Ro-yJir2G82mus_E,62600
