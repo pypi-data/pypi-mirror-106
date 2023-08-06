@@ -1,0 +1,3 @@
+psu-base>=4.2.1
+pandas>=1.2.4
+psu-scheduler>=1.0.0
