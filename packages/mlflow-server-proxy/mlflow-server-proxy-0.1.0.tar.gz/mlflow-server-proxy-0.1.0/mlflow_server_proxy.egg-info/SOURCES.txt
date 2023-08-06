@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+mlflow_server_proxy/__init__.py
+mlflow_server_proxy.egg-info/PKG-INFO
+mlflow_server_proxy.egg-info/SOURCES.txt
+mlflow_server_proxy.egg-info/dependency_links.txt
+mlflow_server_proxy.egg-info/entry_points.txt
+mlflow_server_proxy.egg-info/requires.txt
+mlflow_server_proxy.egg-info/top_level.txt
+mlflow_server_proxy/icons/mlflow.svg
+mlflow_server_proxy/tests/__init__.py
+mlflow_server_proxy/tests/test_setup.py

@@ -1,0 +1,11 @@
+jupyter-server-proxy
+
+[dev]
+autopep8
+pytest
+flake8
+pytest-cov>=2.6.1
+mock
+
+[resources]
+mlflow
