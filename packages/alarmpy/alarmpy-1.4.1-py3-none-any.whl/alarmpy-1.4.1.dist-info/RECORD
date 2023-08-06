@@ -1,0 +1,11 @@
+alarmpy/__init__.py,sha256=D60qZ_6aeqFlybVvBst4KDErkV6mLj3Q1fuCvjs0gD0,25
+alarmpy/alarmpy.py,sha256=XJoq9ZKm5dJKXSsEY3ebL67ENWOz59oPIRrgjDiToiU,9824
+alarmpy/data/labels.json,sha256=MASBD3dKIWachcXbfFp9vNvZuuHQXxXHMTAadYc6PA4,770056
+alarmpy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alarmpy/tests/test_alarmpy.py,sha256=DigM6Yqzme4qtMeMXAMTSxsQa6exPhkl-yJ-y1zi7Zo,85
+alarmpy-1.4.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+alarmpy-1.4.1.dist-info/METADATA,sha256=irbWdmjaJxW5qVRt5OkYeNigrL_o_uB1em2KntofGcM,5458
+alarmpy-1.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+alarmpy-1.4.1.dist-info/entry_points.txt,sha256=BBZyPuibbjFm2PsVIDUn-0CQSWvPEaJ6zkmRtWSBXUI,82
+alarmpy-1.4.1.dist-info/top_level.txt,sha256=tOyJBZf2J_8a1MYeCG6C_myNkRrY9p_c7FIzq1vUnY4,8
+alarmpy-1.4.1.dist-info/RECORD,,
