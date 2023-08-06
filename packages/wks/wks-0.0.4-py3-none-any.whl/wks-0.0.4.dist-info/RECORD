@@ -1,0 +1,17 @@
+wks-0.0.4.data/scripts/wks,sha256=CWAjpmxcwJF9dEN1JSjdZ3fPb0vKgdZpdKpWWqzhkEE,549
+workspace/__init__.py,sha256=EIWddm6JA2NuhP5eovb2UyqUUd7sqdo9wCSmNKj7oYI,20
+workspace/cmake.py,sha256=sJ4vCdYl89kMH_iFeA17KvCpBUrsih7L_UmrX13uqjI,1201
+workspace/command_build.py,sha256=fX_Fqd24i1EKFVUFYxc6tIvFtKFZpZWrKNvnjniOuPM,319
+workspace/command_cmake.py,sha256=urlhGedNRNeXH0MReGwd0R3J0my9styYResozhsnkjI,181
+workspace/command_help.py,sha256=rT_QepjXhdv7HPNa6442V4g8ErTV7CcG7rvcx9LNE6M,489
+workspace/command_install.py,sha256=w682rNQgiD4UdCWjV4UkZMShx5-BwCt8wARlzIDVw2w,399
+workspace/command_pull.py,sha256=reRbnzL9aSIyRqBjfSobln-NpjToJm0-PFhRKzD7jIc,186
+workspace/commands.py,sha256=0tmoWKnGElW28nbwtokNKeNzmumkdJ2YIxaNn65D7R0,196
+workspace/deps.py,sha256=g5M5vHjqnVbQSPhRhlA0m9QPwVZTADB7xfnJ9ceQSe8,240
+workspace/env.py,sha256=Z-KgyN7lvek4wNyFCWBlyCZ-UxN3BIDrxaM3S40fcTk,51
+workspace/git.py,sha256=dCc_5z_JSGIJSaPIru6OkFJlmn8ObbqrwMJYhHZyOZo,2628
+workspace/message.py,sha256=zcfYQSIHC6elU6WpsESSWULHmwmTpvi_OBbY4PHTI40,313
+wks-0.0.4.dist-info/METADATA,sha256=X9evRS8-7nVokySRAlKoRlgMEB8GNHZj4BrJjeCK_Qk,357
+wks-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wks-0.0.4.dist-info/top_level.txt,sha256=0un1Y0GWmdEve-CSlz-UolXk_9VWdyL6OHWg6RUBwBA,10
+wks-0.0.4.dist-info/RECORD,,
