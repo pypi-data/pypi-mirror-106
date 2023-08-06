@@ -1,0 +1,9 @@
+validate_cpf/__init__.py,sha256=YKdk5RcaFr3TimLEcE8SpIVfMzTkiiENcVZ0AVF_xDU,177
+validate_cpf/__main__.py,sha256=8zDT1qTuyYLSyywt1AlL-83JXcCY0rs7reEQ40up9aU,103
+validate_cpf/cli.py,sha256=OzAdFIg7TNwQFT9RYVfwJGWUSAeVDbB_wq8pmjkOP1Y,449
+validate_cpf/py.typed,sha256=NDn05us5lPTEQGpdKZrP71EPR0ONAlxFv3x_6j2hptY,158
+validate_cpf/validate_cpf.py,sha256=ETSRgI1XH_myQcN5GnEKlDP8JqJADXrSwwjxsFe7PuM,1097
+validate_cpf-0.1.2.dist-info/LICENSE,sha256=K2cui9h7f2Vixxlr1g2ZP9BzPA6r--_ZJbmLnVyBFBs,1077
+validate_cpf-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+validate_cpf-0.1.2.dist-info/METADATA,sha256=2FZs5wYB_gJhjr4DzQbQO9eul5AttnSdKgzn3k6dOPg,1774
+validate_cpf-0.1.2.dist-info/RECORD,,
