@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+bilnn.egg-info/PKG-INFO
+bilnn.egg-info/SOURCES.txt
+bilnn.egg-info/dependency_links.txt
+bilnn.egg-info/requires.txt
+bilnn.egg-info/top_level.txt
