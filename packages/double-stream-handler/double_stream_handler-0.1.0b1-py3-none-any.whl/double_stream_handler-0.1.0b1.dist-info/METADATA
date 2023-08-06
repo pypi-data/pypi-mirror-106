@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: double-stream-handler
+Version: 0.1.0b1
+Summary: A StreamHandler wrapper that outputs messages to different streams based on loglevel
+License: BSD-3-Clause
+Author: Nikita Karamov
+Author-email: nick@karamoff.dev
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
