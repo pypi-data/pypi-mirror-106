@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: SimpQL
+Version: 0.0.1
+Summary: Simplified MySQL
+Home-page: UNKNOWN
+Author: Skye Adamson
+Author-email: skye.b.adamson@protonmail.com
+License: MIT
+Description: I wanted an easier way to call MySQL... Nuff said
+        
+        Change Log
+        ==========
+        
+        0.0.1 (20/05/2021)
+        ------------------
+        - First Release
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
