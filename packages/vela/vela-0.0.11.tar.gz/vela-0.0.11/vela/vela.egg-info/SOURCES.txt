@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+vela/vela.egg-info/PKG-INFO
+vela/vela.egg-info/SOURCES.txt
+vela/vela.egg-info/dependency_links.txt
+vela/vela.egg-info/top_level.txt
