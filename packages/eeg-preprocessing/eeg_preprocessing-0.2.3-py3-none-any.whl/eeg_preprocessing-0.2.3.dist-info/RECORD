@@ -1,0 +1,13 @@
+eeg_preprocessing/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+eeg_preprocessing/preprocessing.py,sha256=nElii1R9TL0-a4mZXafJiGCtWnJv3J2bY-1fnju7Ip0,3146
+eeg_preprocessing/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eeg_preprocessing/utils/config.py,sha256=I6yYeOXecLsqo6vWe9WotlqBDDTUirYOVBdaRHqGMlI,178
+eeg_preprocessing/utils/events.py,sha256=qaz661x1AlQTSKENtGuny11DmT9KnqICtMyPgYY0Nr0,5967
+eeg_preprocessing/utils/faster.py,sha256=GcMCD8BY_w0YO7cdZBbCYCZBnzArD-GdQj-Id2gsW9M,3669
+eeg_preprocessing/utils/io_raw.py,sha256=wMOH6KIox9PwlzUawutob07B-keGShTriVGHtjhPTnc,2373
+eeg_preprocessing/utils/montage.py,sha256=NSXcUiCcBvS-bn0PHDhUGqRBaLyEyGC0WZzAlVak5sE,1455
+eeg_preprocessing-0.2.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+eeg_preprocessing-0.2.3.dist-info/METADATA,sha256=WpzwKapae_HRP4lYZqcpmLSE6S3ztGE2dM05znVt4JY,1308
+eeg_preprocessing-0.2.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+eeg_preprocessing-0.2.3.dist-info/top_level.txt,sha256=4tyGrvuRzzmJFby-uMyKUCkJe4XOtTfOn6e6HOndz5k,18
+eeg_preprocessing-0.2.3.dist-info/RECORD,,
