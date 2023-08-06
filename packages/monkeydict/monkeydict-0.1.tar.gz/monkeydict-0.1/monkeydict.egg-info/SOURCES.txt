@@ -1,0 +1,11 @@
+CHANGES
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+monkeydict/__init__.py
+monkeydict.egg-info/PKG-INFO
+monkeydict.egg-info/SOURCES.txt
+monkeydict.egg-info/dependency_links.txt
+monkeydict.egg-info/not-zip-safe
+monkeydict.egg-info/top_level.txt
