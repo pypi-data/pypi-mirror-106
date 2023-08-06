@@ -1,0 +1,8 @@
+requests>=2.25
+lxml>=4.5.2
+IPy>=1.01
+PyYAML>=5.4.1
+paramiko
+colorama
+pycryptodome
+ruamel.yaml
