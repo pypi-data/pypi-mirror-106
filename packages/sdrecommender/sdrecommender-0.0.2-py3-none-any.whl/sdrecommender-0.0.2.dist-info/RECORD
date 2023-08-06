@@ -1,0 +1,13 @@
+sdrecommender/__init__.py,sha256=x2Kp5M2Iebh2CxhPtLPFT6zSnWnbbp0CL25znHATG60,78
+sdrecommender/_abcrecommender.py,sha256=3A5PpJFA32wK3tPcRNweRACepAZ4quksm44gpkBQkOY,247
+sdrecommender/classifier_model/__init__.py,sha256=nhWJfCkHK2h2zVkzS9s419wrOl_osbhgBS_ory0de2w,72
+sdrecommender/classifier_model/_mlrecommender.py,sha256=Wnty4EqmzqCBMgXl3dzMhZPrVgyx2KYq3nz_O3tCJPw,4124
+sdrecommender/collaborative_model/__init__.py,sha256=ifX7YHjNon_ko8JzOvhail8nOaWoItDh2ELRDyrE67w,138
+sdrecommender/collaborative_model/_itemitemfilter.py,sha256=fs83I7iTMc8lo1H8x6z0PBRfWkN3mDnNcMTZFhfxjQk,5453
+sdrecommender/collaborative_model/_useritemfilter.py,sha256=FzyzJBJyoCsfcNmFF-EBbssn3bxaIdeP6Ve76tOanaM,4404
+sdrecommender/content_based_model/__init__.py,sha256=LnTh-48mpQP-UcYN9jtYsR8dbMei2JYl_Ve7aVdDLMs,87
+sdrecommender/content_based_model/_contentbasedfilter.py,sha256=JA6h_5_EIQDshjn-0N5Vm5L7YzKhhplAYaB9UFAbvVQ,5726
+sdrecommender-0.0.2.dist-info/METADATA,sha256=SQSNb4QKlwMNfuJOlFnbAPQvnYz3YpGpY06RRj3aL0E,4130
+sdrecommender-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sdrecommender-0.0.2.dist-info/top_level.txt,sha256=7cKZ5d7UZN0KCa5ar2-tWk3XxfiFK_iumliu9BTvBpM,14
+sdrecommender-0.0.2.dist-info/RECORD,,
