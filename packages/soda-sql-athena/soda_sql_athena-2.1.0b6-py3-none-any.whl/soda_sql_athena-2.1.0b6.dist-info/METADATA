@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: soda-sql-athena
+Version: 2.1.0b6
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: soda-sql-core (==2.1.0b6)
+Requires-Dist: PyAthena (>=2.2.0)
+
+UNKNOWN
+
+
