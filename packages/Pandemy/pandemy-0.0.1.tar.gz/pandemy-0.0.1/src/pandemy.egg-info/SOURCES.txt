@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pandemy/__init__.py
+src/pandemy/db.py
+src/pandemy.egg-info/PKG-INFO
+src/pandemy.egg-info/SOURCES.txt
+src/pandemy.egg-info/dependency_links.txt
+src/pandemy.egg-info/top_level.txt
