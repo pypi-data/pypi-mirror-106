@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/FPfda/__init__.py
+src/FPfda/mypr.py
+src/skfirsttry.egg-info/PKG-INFO
+src/skfirsttry.egg-info/SOURCES.txt
+src/skfirsttry.egg-info/dependency_links.txt
+src/skfirsttry.egg-info/top_level.txt

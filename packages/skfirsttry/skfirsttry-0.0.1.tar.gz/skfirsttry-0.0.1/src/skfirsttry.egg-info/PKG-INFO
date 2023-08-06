@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: skfirsttry
+Version: 0.0.1
+Summary: A try of distribute my code.
+Home-page: https://github.com/pypa/sampleproject
+Author: Shunke B
+Author-email: skdom6@163.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Description: 这是一个学习尝试
+        如何将自己的代码发布
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
