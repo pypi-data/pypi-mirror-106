@@ -1,0 +1,11 @@
+keepachangelog/__init__.py,sha256=SIrxRGnhZGgAkv8iTqnoArYJgBKxvfloGhVdqF3hnTI,115
+keepachangelog/_changelog.py,sha256=1yGz6UtbtgpMyT2FLo5DUUISXOCT6AARYsaFuGEde4w,5993
+keepachangelog/_versioning.py,sha256=vciKtRluL40_wR1lQSbOoU3N5Fy45jUeAVRx5Ws8Fso,3761
+keepachangelog/flask_restx.py,sha256=sYYXP-Sh1acEgJsWmyKD1HNIdp8LZAB6u8Om60f53iw,3044
+keepachangelog/starlette.py,sha256=mpKxlnoRKsAINFjo0NDH6SXcyKyd1z7221Yb1qUplAw,886
+keepachangelog/version.py,sha256=gBd2fBdUFC2LzU5Ysl0LMEOztg9YLp9eB4nGLTYWq3Y,371
+keepachangelog-1.0.0.dist-info/LICENSE,sha256=xd320zQeoc-jRB1LnCTKMFT2x0yIIqqX64icuabaQtE,1071
+keepachangelog-1.0.0.dist-info/METADATA,sha256=RmsG8FvethhIN_TvON-HlZ6za6WpfVWghg-RAv0vPVM,9487
+keepachangelog-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+keepachangelog-1.0.0.dist-info/top_level.txt,sha256=UvpKQoQCBuUxzbRJEYT8zlZUjiSP1_z_PAAM1zJatsI,15
+keepachangelog-1.0.0.dist-info/RECORD,,
