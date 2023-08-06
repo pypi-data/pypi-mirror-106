@@ -1,0 +1,10 @@
+rctiplus_rabbitmq_python_sdk/__init__.py,sha256=DglLqLyukNr5I_xWPySA7sAhctqg1rm8_SWVxB0zpq0,51
+rctiplus_rabbitmq_python_sdk/rabbitmq.py,sha256=bcgG7ODTRn_3GkWHKBkjxUhE-9TDQbnAWOcXFzhNkV0,4184
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/receive.py,sha256=pTNnQDdalwIa8SheAVtX-NbMZ04TQFj2wjfZ_8zDQRA,1465
+tests/send.py,sha256=uv_oY6VCAvaaslAWbkzggMymT9omeYKguwEe7oKyb5o,1189
+rctiplus_rabbitmq_python_sdk-0.0.1.dist-info/LICENSE,sha256=ScBmT6S-4JwdMbV9RRoOYIN37zdOvUKkrb9v6G42V0Y,35042
+rctiplus_rabbitmq_python_sdk-0.0.1.dist-info/METADATA,sha256=U-1IEdbkuwMJmJ7UN3eEkT2Mf14o3bAVVDfnz_7xr4Y,5491
+rctiplus_rabbitmq_python_sdk-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rctiplus_rabbitmq_python_sdk-0.0.1.dist-info/top_level.txt,sha256=71fVjgajXA0PJZrGbNtgKOxGDBxlic6SgnuWBUcgprY,35
+rctiplus_rabbitmq_python_sdk-0.0.1.dist-info/RECORD,,
