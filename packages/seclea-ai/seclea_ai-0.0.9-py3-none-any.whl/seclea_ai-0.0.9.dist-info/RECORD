@@ -1,0 +1,8 @@
+seclea_ai/__init__.py,sha256=1mvgz8HNi2q-AsAkSuYAubtCdIEuJeho2t7IK28lG4g,27
+seclea_ai/upload.py,sha256=VhWS2cG0UvFXf1tqas786guoPKzKm9bgckc16SMsBMQ,4391
+testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testing/test_upload.py,sha256=_V_MpJkw4hZT_jQHfqrCEO0C0zI2oBVnUvFsKCtb_0I,656
+seclea_ai-0.0.9.dist-info/METADATA,sha256=Kew3BMwpLz2fAlcfY4cqS9q1Sq2IO46dnd2Eyoi3Mb0,445
+seclea_ai-0.0.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+seclea_ai-0.0.9.dist-info/top_level.txt,sha256=WWQCvZNn0UD6YGanEpm3z5uwGcUFcy37ImLTnI_whPI,18
+seclea_ai-0.0.9.dist-info/RECORD,,
