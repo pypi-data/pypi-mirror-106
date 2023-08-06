@@ -1,0 +1,4 @@
+pytorch-lightning>=1.2.10
+transformers>=4.0.0
+memory-transformer-xl>=0.1.0
+tkit-memory-performer-xl>=0.0.1.0
