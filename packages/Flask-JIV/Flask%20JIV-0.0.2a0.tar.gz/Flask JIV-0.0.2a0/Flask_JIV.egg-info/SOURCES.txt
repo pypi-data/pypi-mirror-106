@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Flask_JIV.egg-info/PKG-INFO
+Flask_JIV.egg-info/SOURCES.txt
+Flask_JIV.egg-info/dependency_links.txt
+Flask_JIV.egg-info/requires.txt
+Flask_JIV.egg-info/top_level.txt
+flask_json_validator/__init__.py
