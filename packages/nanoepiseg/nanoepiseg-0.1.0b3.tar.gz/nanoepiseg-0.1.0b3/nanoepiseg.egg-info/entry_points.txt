@@ -1,0 +1,3 @@
+[console_scripts]
+nanoepiseg = nanoepiseg.__main__:main
+
