@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>273</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0" colspan="5">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="font">
+       <font>
+        <pointsize>1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/title_background/png/title/rectangle.png);</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="rightMargin">
+        <number>5</number>
+       </property>
+       <property name="horizontalSpacing">
+        <number>5</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="logo">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="title.qrc">:/logo/png/title/logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::MinimumExpanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>35</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="2">
+        <widget class="QToolButton" name="help">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="font">
+          <font>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton{background-color: transparent; border:0; color : white}</string>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhNone</set>
+         </property>
+         <property name="icon">
+          <iconset>
+           <activeoff>:/help/png/title/spot-icons-help-inactive.png</activeoff>
+           <activeon>:/help/png/title/spot-icons-help-active.png</activeon>
+          </iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>24</width>
+           <height>18</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="popupMode">
+          <enum>QToolButton::DelayedPopup</enum>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonIconOnly</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QToolButton" name="wifi">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton{background-color: transparent; border:0; color : white}</string>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhNone</set>
+         </property>
+         <property name="icon">
+          <iconset>
+           <activeoff>:/wifi/png/title/spot-icons-wifi-inactive.png</activeoff>
+           <activeon>:/wifi/png/title/spot-icons-wifi-active.png</activeon>
+          </iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>24</width>
+           <height>18</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="popupMode">
+          <enum>QToolButton::InstantPopup</enum>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonIconOnly</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QToolButton" name="volume">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton{background-color: transparent; border:0; color : white}</string>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhNone</set>
+         </property>
+         <property name="icon">
+          <iconset>
+           <activeoff>:/sound/png/title/spot-icons-sound-inactive.png</activeoff>
+           <activeon>:/sound/png/title/spot-icons-sound-active.png</activeon>
+          </iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>24</width>
+           <height>18</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="popupMode">
+          <enum>QToolButton::InstantPopup</enum>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonIconOnly</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="5">
+        <widget class="QToolButton" name="calendar">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton{background-color: transparent; border:0; color : white}</string>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhNone</set>
+         </property>
+         <property name="icon">
+          <iconset>
+           <activeoff>:/calendar/png/title/spot-icons-calendar-inactive.png</activeoff>
+           <activeon>:/calendar/png/title/spot-icons-calendar-active.png</activeon>
+          </iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>24</width>
+           <height>18</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="popupMode">
+          <enum>QToolButton::InstantPopup</enum>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonIconOnly</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="6">
+        <widget class="QToolButton" name="setting">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton{background-color: transparent; border:0; color : white}</string>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhNone</set>
+         </property>
+         <property name="icon">
+          <iconset>
+           <activeoff>:/setting/png/title/spot-icons-settings-inactive.png</activeoff>
+           <activeon>:/setting/png/title/spot-icons-settings-active.png</activeon>
+          </iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>24</width>
+           <height>18</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="popupMode">
+          <enum>QToolButton::InstantPopup</enum>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonIconOnly</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="7">
+        <widget class="QToolButton" name="quit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+           <kerning>false</kerning>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton{background-color: transparent; border:0; color : white}</string>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhNone</set>
+         </property>
+         <property name="text">
+          <string>Exit</string>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>24</width>
+           <height>18</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="popupMode">
+          <enum>QToolButton::InstantPopup</enum>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonIconOnly</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QStackedWidget" name="slot_1">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="empty">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/empty_slot/png/slot/spot-slot-empty.png);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="detecting">
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/slot_1/png/slot/slot_1/detecting 1.png);
+</string>
+       </property>
+       <widget class="QPushButton" name="detecting_id">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="detecting_timer">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>132</y>
+          <width>96</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>05:30</string>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="warning">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_1/png/slot/slot_1/warning - 1.png);</string>
+       </property>
+       <widget class="QPushButton" name="warning_id">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="positive">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_1/png/slot/slot_1/positive 1.png);</string>
+       </property>
+       <widget class="QPushButton" name="positive_id">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="negative">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_1/png/slot/slot_1/negative - 1.png);</string>
+       </property>
+       <widget class="QPushButton" name="negative_id">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="invalid">
+       <property name="styleSheet">
+        <string notr="true">QWidget{background-image:url(:/slot_1/png/slot/slot_1/invalid - 1.png);border:0px}</string>
+       </property>
+       <widget class="QPushButton" name="invalid_id">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QStackedWidget" name="slot_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="empty_2">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/empty_slot/png/slot/spot-slot-empty.png);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="detecting_2">
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/slot_2/png/slot/slot_2/detecting 2.png);
+</string>
+       </property>
+       <widget class="QPushButton" name="detecting_id_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="detecting_timer_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>132</y>
+          <width>96</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>05:30</string>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="warning_2">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_2/png/slot/slot_2/warning - 2.png);</string>
+       </property>
+       <widget class="QPushButton" name="warning_id_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="positive_2">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_2/png/slot/slot_2/positive 2.png);</string>
+       </property>
+       <widget class="QPushButton" name="positive_id_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="negative_2">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_2/png/slot/slot_2/negative - 2.png);</string>
+       </property>
+       <widget class="QPushButton" name="negative_id_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="invalid_2">
+       <property name="styleSheet">
+        <string notr="true">QWidget{background-image:url(:/slot_2/png/slot/slot_2/invalid - 2.png);border:0px}</string>
+       </property>
+       <widget class="QPushButton" name="invalid_id_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QStackedWidget" name="slot_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="empty_3">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/empty_slot/png/slot/spot-slot-empty.png);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="detecting_3">
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/slot_3/png/slot/slot_3/detecting 3.png);
+</string>
+       </property>
+       <widget class="QPushButton" name="detecting_id_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="detecting_timer_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>132</y>
+          <width>96</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>05:30</string>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="warning_3">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_3/png/slot/slot_3/warning - 3.png);</string>
+       </property>
+       <widget class="QPushButton" name="warning_id_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="positive_3">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_3/png/slot/slot_3/positive 3.png);</string>
+       </property>
+       <widget class="QPushButton" name="positive_id_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="negative_3">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_3/png/slot/slot_3/negative - 3.png);</string>
+       </property>
+       <widget class="QPushButton" name="negative_id_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="invalid_3">
+       <property name="styleSheet">
+        <string notr="true">QWidget{background-image:url(:/slot_3/png/slot/slot_3/invalid - 3.png);border:0px}</string>
+       </property>
+       <widget class="QPushButton" name="invalid_id_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QStackedWidget" name="slot_4">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="empty_4">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/empty_slot/png/slot/spot-slot-empty.png);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="detecting_4">
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/slot_4/png/slot/slot_4/detecting 4.png);
+</string>
+       </property>
+       <widget class="QPushButton" name="detecting_id_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="detecting_timer_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>132</y>
+          <width>96</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>05:30</string>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="warning_4">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_4/png/slot/slot_4/warning - 4.png);</string>
+       </property>
+       <widget class="QPushButton" name="warning_id_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="positive_4">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_4/png/slot/slot_4/positive 4.png);</string>
+       </property>
+       <widget class="QPushButton" name="positive_id_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="negative_4">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_4/png/slot/slot_4/negative - 4.png);</string>
+       </property>
+       <widget class="QPushButton" name="negative_id_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="invalid_4">
+       <property name="styleSheet">
+        <string notr="true">QWidget{background-image:url(:/slot_4/png/slot/slot_4/invalid - 4.png);border:0px}</string>
+       </property>
+       <widget class="QPushButton" name="invalid_id_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QStackedWidget" name="slot_5">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="empty_5">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/empty_slot/png/slot/spot-slot-empty.png);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="detecting_5">
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/slot_5/png/slot/slot_5/detecting 5.png);
+</string>
+       </property>
+       <widget class="QPushButton" name="detecting_id_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="detecting_timer_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>132</y>
+          <width>96</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>05:30</string>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="warning_5">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_5/png/slot/slot_5/warning - 5.png);</string>
+       </property>
+       <widget class="QPushButton" name="warning_id_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="positive_5">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_5/png/slot/slot_5/positive 5.png);</string>
+       </property>
+       <widget class="QPushButton" name="positive_id_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="negative_5">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/slot_5/png/slot/slot_5/negative - 5.png);</string>
+       </property>
+       <widget class="QPushButton" name="negative_id_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="invalid_5">
+       <property name="styleSheet">
+        <string notr="true">QWidget{background-image:url(:/slot_5/png/slot/slot_5/invalid - 5.png);border:0px}</string>
+       </property>
+       <widget class="QPushButton" name="invalid_id_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>195</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background-color: transparent; border:0; color : white}</string>
+        </property>
+        <property name="text">
+         <string>La0000009</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="title.qrc"/>
+ </resources>
+ <connections/>
+</ui>
