@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: fastapi-spa-kit
+Version: 0.0.4
+Summary: Kit for developing SPA with FastAPI.
+Home-page: https://github.com/swimmwatch/fastapi-spa-kit
+Author: Dmitry Vasiliev
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/swimmwatch/fastapi-spa-kit/issues
+Description: # fastapi-spa-kit
+        Kit for developing SPA with FastAPI.
+        
+        ## Install
+        ```shell
+        pip install fastapi-spa-kit
+        ```
+        
+        ## Features
+        * Handler for static files and HTML file.
+          Typically, static files are handled by [Nginx](https://www.nginx.com/) or something like that. 
+          But for development mode it can take a long time to set up a separate config file.
+          `add_dev_spa_static_handler` function mounts [`StaticFiles`](https://fastapi.tiangolo.com/tutorial/static-files/#use-staticfiles)
+          class to FastAPI `app` and adds route that handles getting HTML file.
+          ### Example
+          ```python
+          from fastapi import FastAPI
+          from fastapi_spa_kit import add_dev_spa_static_handler
+          
+          # config module contains project configuration.
+          # IS_DEV_MODE is state of current environment.
+          from .config import IS_DEV_MODE
+          
+          app = FastAPI()
+          
+          # add some handlers...
+          
+          # finally, add route '/static' and HTML file handler
+          if IS_DEV_MODE:
+              add_dev_spa_static_handler(
+                  app, 
+                  'path/to/static',
+                  'path/to/index.html'
+              )
+          ```
+        
+        ## Documentation
+        This repository contains [documentation](https://fastapi-spa-kit.readthedocs.io).
+        
+        ## TODO
+        * Add tests
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+fastapi_spa_kit/__init__.py
+fastapi_spa_kit.egg-info/PKG-INFO
+fastapi_spa_kit.egg-info/SOURCES.txt
+fastapi_spa_kit.egg-info/dependency_links.txt
+fastapi_spa_kit.egg-info/top_level.txt
