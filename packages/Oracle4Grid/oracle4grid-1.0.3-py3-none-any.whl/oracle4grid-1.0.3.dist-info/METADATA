@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: oracle4grid
+Version: 1.0.3
+Summary: Oracle agent that finds the best course of actions aposteriori, within a given perimeter of actions
+License: Mozilla Public License 2.0 (MPL 2.0)
+Author: Mario Jothy
+Author-email: mariojothy@gmail.com
+Requires-Python: >=3.7.1,<3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Grid2Op (>=1.5.2,<2.0.0)
+Requires-Dist: ipykernel (>=5.5.4,<6.0.0)
+Requires-Dist: ipywidgets (>=7.6.3,<8.0.0)
+Requires-Dist: matplotlib (>=3.4.2,<4.0.0)
+Requires-Dist: networkx (>=2.5.1,<3.0.0)
+Requires-Dist: numba (>=0.53.1,<0.54.0)
+Requires-Dist: numpy (==1.19.3)
+Requires-Dist: pandas (>=1.2.4,<2.0.0)
+Requires-Dist: psutil (>=5.8.0,<6.0.0)
+Requires-Dist: pybind11 (>=2.5.0,<3.0.0)
+Requires-Dist: pytest (>=6.2.4,<7.0.0)
