@@ -1,0 +1,9 @@
+genfact/__init__.py,sha256=eu-lf2XDFiZPZRvsIxlnExadqlh-qJmkcQC1Loc27p0,4817
+genfact/genfact.py,sha256=Jv5o6uCGBx5aqAAsaDHpr_w246CGt1KtphiZwcZnnMo,4820
+genfact/util.py,sha256=_IRs09kJ8S-IVCNhgzmc6_lGCYcf_gsRdGhN3uGYHCs,5007
+genfact/data/encoded_fbdata.csv,sha256=dSgj2aHN5hhxBpmvH0ZQ6ptits1PgKZo0KlXpWz2mxg,90481
+genfact-0.0.8.dist-info/LICENSE,sha256=BHePw0TWtGgO28LO5lAEYrrcn7etym96Ac9lv-n0qgI,1093
+genfact-0.0.8.dist-info/METADATA,sha256=DYmk54-gjdsTqK8BDxt2LhhCqGA2egVcVb77JO_OtQQ,4291
+genfact-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+genfact-0.0.8.dist-info/top_level.txt,sha256=MJ1yLe49NDO5ZtCnoVD_pNbe2Lr07jbuAsbLWJBVmQk,8
+genfact-0.0.8.dist-info/RECORD,,
