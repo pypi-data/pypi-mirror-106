@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: diagnet
+Version: 0.0.4
+Summary: A python network diagnosis tool
+Home-page: https://github.com/slowpoke1214/Diagnet
+Author: Joey Kennedy
+Author-email: joey.s.k.kennedy@gmail.com
+License: UNKNOWN
+Description: # Diagnet
+        
+        ## A network diagnosis tool written in Python.
+        ### Author: Joey Kennedy
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
