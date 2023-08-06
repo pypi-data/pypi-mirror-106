@@ -1,0 +1,7 @@
+requests
+websocket_client==0.59.0
+pydantic
+
+[extra]
+numpy
+wsaccel
