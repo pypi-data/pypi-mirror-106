@@ -1,0 +1,10 @@
+chino/__init__.py,sha256=_tsZI_c1B9oGxrbwoABQGxOxBb2pzBVdfYe9TBsCxWA,55
+chino/api.py,sha256=zAt5E5Hih6D_L1-YEFS1VxV-dUQaDHLda6jHG8AM2AM,54004
+chino/exceptions.py,sha256=J5vmSsZJ3xVEXT_QTWfNqWMVqiwbjdFncM0LwBHs1cw,941
+chino/objects.py,sha256=nnZWYDfgksGI9p4zubBUIiooGZaUNINXodk9Wcn5ORQ,27360
+chino-2.6.2.dist-info/AUTHORS,sha256=0PntFavo-2xrhgIZPbkvh1tO_KX5KBCHqM-7llwruo8,364
+chino-2.6.2.dist-info/METADATA,sha256=qtsO6geY7kQ5QYL7KJjejJ93HN9GFufW1s--XQjm634,930
+chino-2.6.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+chino-2.6.2.dist-info/pbr.json,sha256=3QSNsuvn9D7njmoK47k-GmdWVrCgzuDpLmqz-7tXWiY,46
+chino-2.6.2.dist-info/top_level.txt,sha256=LKR77Imt4YyIj5sih8vQVtyrkDaFuRfya-RrZI2N1gI,6
+chino-2.6.2.dist-info/RECORD,,
