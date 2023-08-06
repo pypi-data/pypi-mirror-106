@@ -1,0 +1,6 @@
+praw
+requests
+SQLAlchemy
+SQLAlchemy-utils
+psycopg2
+beautifulsoup4
