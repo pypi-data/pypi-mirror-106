@@ -1,0 +1,2 @@
+django_easy_api
+easy_api

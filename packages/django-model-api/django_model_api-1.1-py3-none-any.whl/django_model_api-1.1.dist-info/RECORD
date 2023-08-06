@@ -1,0 +1,16 @@
+django_easy_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_easy_api/asgi.py,sha256=4DmegDDnV0dlNiNZFVc4E3_0ka-xUHMKLK8sEaBT7uw,407
+django_easy_api/settings.py,sha256=Mm4EQ2bBzELDencPx7EGzp8K1gONnvXJ-9_lx0AEcpQ,3301
+django_easy_api/urls.py,sha256=zgrRAbOFLwLjPOZjay0eF8pd4TRco2ksCjT4fJoEGxI,766
+django_easy_api/wsgi.py,sha256=dSSS7b1CGlWee4NhYwswJNW0iybmdos-pfgXIk5hA4I,407
+easy_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_api/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+easy_api/api.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_api/apps.py,sha256=Gd6WLwCVO5WxZk8Y7q_MSxTJfnMcfmL7aU7wFlLY2No,147
+easy_api/models.py,sha256=-rRi_IuhyPwxWoVr8sfnGtwR6apmdbEp8jnDyvtBSN0,3465
+easy_api/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+easy_api/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_model_api-1.1.dist-info/METADATA,sha256=VM9B6OT4x0slwdhgRgSJ6mTJHfGrkZmc6VzNg7sSM5Y,396
+django_model_api-1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_model_api-1.1.dist-info/top_level.txt,sha256=rtpByOp7bTIcwczAcJOIIUfKCl-0w-vUK8glsyQKQnw,25
+django_model_api-1.1.dist-info/RECORD,,
