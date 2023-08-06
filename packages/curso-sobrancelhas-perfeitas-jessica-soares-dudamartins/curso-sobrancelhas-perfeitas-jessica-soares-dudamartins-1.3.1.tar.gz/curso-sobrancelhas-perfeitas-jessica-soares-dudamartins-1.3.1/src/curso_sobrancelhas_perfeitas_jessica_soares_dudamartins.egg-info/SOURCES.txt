@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/curso-sobrancelhas-perfeitas-jessica-soares/__init__.py
+src/curso_sobrancelhas_perfeitas_jessica_soares_dudamartins.egg-info/PKG-INFO
+src/curso_sobrancelhas_perfeitas_jessica_soares_dudamartins.egg-info/SOURCES.txt
+src/curso_sobrancelhas_perfeitas_jessica_soares_dudamartins.egg-info/dependency_links.txt
+src/curso_sobrancelhas_perfeitas_jessica_soares_dudamartins.egg-info/top_level.txt
