@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pearson-api
+Version: 1.1
+Summary: Pearson API
+Home-page: https://github.com/kapi2289/pearson-api
+Author: Kacper Ziubryniewicz
+Author-email: kapi2289@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
+
