@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: utils-ak
+Version: 0.1.13
+Summary: Lots of small utils
+License: MIT
+Author: akadaner
+Author-email: arseniikadaner@gmail.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

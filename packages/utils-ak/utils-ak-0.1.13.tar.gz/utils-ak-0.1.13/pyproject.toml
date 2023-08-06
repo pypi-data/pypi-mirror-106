@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "utils-ak"
+version = "0.1.13"
+description = "Lots of small utils"
+authors = ["akadaner <arseniikadaner@gmail.com>"]
+license = "MIT"
+packages = [
+    { include = "utils_ak" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

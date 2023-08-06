@@ -1,0 +1,7 @@
+id: <deployment_id>
+containers:
+  hello-world:
+    image: <image>
+    python_main: main.py
+    command_line_arguments:
+      name: Friend

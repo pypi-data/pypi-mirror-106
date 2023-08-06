@@ -1,0 +1,3 @@
+MONGODB_HOST: "mongodb+srv://arseniikadaner:Nash0lsapog@cluster0.2umoy.mongodb.net"
+MONGODB_DB: "feature-store"
+TRANSPORT: ["kafka", {"host": "localhost: 9092"}]
