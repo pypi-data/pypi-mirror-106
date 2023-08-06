@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wizardry
+Version: 0.1.1
+Summary: Wizardry is an open-source CLI for building powerful algorithmic trading strategies faster and easier
+Author: ssantoshp
+Author-email: santoshpassoubady@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyInquirer (>=1.0.2,<2.0.0)
+Requires-Dist: lean (>=0.1.53,<0.2.0)
+Requires-Dist: pyfiglet (>=0.8.0,<0.9.0)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Requires-Dist: typer[all] (>=0.3.2,<0.4.0)
