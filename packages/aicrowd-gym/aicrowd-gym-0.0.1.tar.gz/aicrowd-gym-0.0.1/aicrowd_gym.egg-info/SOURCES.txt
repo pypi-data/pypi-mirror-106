@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+aicrowd_gym/__init__.py
+aicrowd_gym/make.py
+aicrowd_gym/version.py
+aicrowd_gym.egg-info/PKG-INFO
+aicrowd_gym.egg-info/SOURCES.txt
+aicrowd_gym.egg-info/dependency_links.txt
+aicrowd_gym.egg-info/requires.txt
+aicrowd_gym.egg-info/top_level.txt
