@@ -1,0 +1,6 @@
+include Makefile
+include COPYING
+include README.md
+recursive-include configs *.toml
+recursive-include rpmlint *.toml
+recursive-include test *
