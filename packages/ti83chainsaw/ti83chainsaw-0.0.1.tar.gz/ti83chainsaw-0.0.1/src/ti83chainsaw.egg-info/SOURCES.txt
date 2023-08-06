@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ti83chainsaw/__init__.py
+src/ti83chainsaw/var83p.py
+src/ti83chainsaw.egg-info/PKG-INFO
+src/ti83chainsaw.egg-info/SOURCES.txt
+src/ti83chainsaw.egg-info/dependency_links.txt
+src/ti83chainsaw.egg-info/top_level.txt
