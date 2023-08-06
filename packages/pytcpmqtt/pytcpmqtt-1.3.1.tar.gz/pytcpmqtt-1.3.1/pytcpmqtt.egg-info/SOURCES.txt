@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+pytcpmqtt/__init__.py
+pytcpmqtt/main.py
+pytcpmqtt.egg-info/PKG-INFO
+pytcpmqtt.egg-info/SOURCES.txt
+pytcpmqtt.egg-info/dependency_links.txt
+pytcpmqtt.egg-info/requires.txt
+pytcpmqtt.egg-info/top_level.txt
