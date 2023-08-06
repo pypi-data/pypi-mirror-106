@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+rxsci_river/__init__.py
+rxsci_river/base.py
+rxsci_river/concept_drift.py
+rxsci_river/metric.py
+rxsci_river/preprocess.py
+rxsci_river.egg-info/PKG-INFO
+rxsci_river.egg-info/SOURCES.txt
+rxsci_river.egg-info/dependency_links.txt
+rxsci_river.egg-info/requires.txt
+rxsci_river.egg-info/top_level.txt
+rxsci_river/evaluate/__init__.py
+rxsci_river/evaluate/prequential.py
