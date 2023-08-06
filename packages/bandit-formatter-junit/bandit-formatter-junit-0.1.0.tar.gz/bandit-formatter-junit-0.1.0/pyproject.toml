@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bandit-formatter-junit"
+version = "0.1.0"
+description = "A bandit formatter plugin for valid JUnit output"
+authors = ["Martin Styk <mart.styk@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+bandit = "^1.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."bandit.formatters"]
+junit = "bandit_formatter_junit:junit"
