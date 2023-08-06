@@ -1,0 +1,9 @@
+bbcloud_python_sdk/__init__.py,sha256=AI3KcQ_pScEX59HLrezySIXcYfIHJmG3o-Nsw1FlboA,24318
+bbcloud_python_sdk/FileCache/OssFileCache.py,sha256=ky0YS7Gs9bbFL_mbnXjDUQNNlJ2EHPP4W3_BEpEIOKM,3052
+bbcloud_python_sdk/FileCache/SynologyFileCache.py,sha256=uCJtYGcHq7DVEHncI9OJk1ohJ-yF2RGZuXuHBzGeAw4,4058
+bbcloud_python_sdk/FileCache/__init__.py,sha256=uZ0jO4dUks6JLga3-GGx93n9XnbMqWWN0dzatP5abto,4611
+bbcloud_python_sdk-0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+bbcloud_python_sdk-0.0.3.dist-info/METADATA,sha256=2sGD13JDUyfkYnsN5g0tn0VDMvbddXP-w2lAu7fNGRA,546
+bbcloud_python_sdk-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bbcloud_python_sdk-0.0.3.dist-info/top_level.txt,sha256=QYsLHd2187Xgflp6XRjpfs540IRFnDwx928WUW9ngGo,19
+bbcloud_python_sdk-0.0.3.dist-info/RECORD,,
