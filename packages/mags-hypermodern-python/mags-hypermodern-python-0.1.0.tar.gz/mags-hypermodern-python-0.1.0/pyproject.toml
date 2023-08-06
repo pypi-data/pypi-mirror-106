@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "mags-hypermodern-python"
+version = "0.1.0"
+description = "The hypermodern Python project"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/magavendon/mags-hypermodern-python"
+repository = "https://github.com/magavendon/mags-hypermodern-python"
+keywords = ["hypermodern"]
+authors = ["James Grider <james.grider@faa.gov>"]
+
+[tool.poetry.scripts]
+mags-hypermodern-python = "src.mags_hypermodern_python.console:main"
+mhp = "src.mags_hypermodern_python.console:main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+requests = "^2.25.1"
+desert = "^2020.11.18"
+marshmallow = "^3.12.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+coverage = {extras = ["toml"], version = "^5.5"}
+pytest-cov = "^2.11.1"
+pytest-mock = "^3.6.1"
+black = "^21.5b1"
+flake8 = "^3.9.2"
+flake8-bandit = "^2.1.2"
+flake8-black = "^0.2.1"
+flake8-bugbear = "^21.4.3"
+flake8-import-order = "^0.18.1"
+safety = "^1.10.3"
+mypy = "^0.812"
+pytype = {version = "^2021.5.11", python = "3.7"}
+typeguard = "^2.12.0"
+flake8-annotations = "^2.6.2"
+flake8-docstrings = "^1.6.0"
+darglint = "^1.8.0"
+xdoctest = "^0.15.4"
+Sphinx = "^4.0.1"
+sphinx-autodoc-typehints = "^1.12.0"
+codecov = "^2.1.11"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["mags_hypermodern_python"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
