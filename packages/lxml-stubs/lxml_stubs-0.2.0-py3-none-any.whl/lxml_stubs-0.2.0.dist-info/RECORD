@@ -1,0 +1,11 @@
+lxml-stubs/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lxml-stubs/cssselect.pyi,sha256=CF7Na0Yg2ugb5DNxn_JivWsVMYfeYkoyCXgcFYoJzKI,420
+lxml-stubs/etree.pyi,sha256=bpemNEEpYmex1bu5_AgloDdVSX5Xr3nl1ffz-a1chts,16892
+lxml-stubs/objectify.pyi,sha256=bn8mTqCNMQ6fVFyJCDc_S5vRMPwt0irBhHMRIydkJ1k,336
+lxml-stubs/html/__init__.pyi,sha256=O32YrTiNT6VpvK_AZMtD964qe_z0eAZmaC4D_wxFGvg,2708
+lxml-stubs/html/defs.pyi,sha256=l7t4IXYbkX6VqTGJrtmgClOBY3A3zpMK9NipGUtg5dY,573
+lxml_stubs-0.2.0.dist-info/LICENSE,sha256=tBt49WKi5lt1yrRDVDNfb0NdTvcwZVCWAKyRDPTiL-A,12658
+lxml_stubs-0.2.0.dist-info/METADATA,sha256=yRCGDy-NCKEVdxfFpnkSt8lSimxdhESVTKTUlqsp-d4,1404
+lxml_stubs-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+lxml_stubs-0.2.0.dist-info/top_level.txt,sha256=b6bhUPzpoc1XhcMk9QkOrJQAxLbNliHG_IL34BDxdK0,11
+lxml_stubs-0.2.0.dist-info/RECORD,,
