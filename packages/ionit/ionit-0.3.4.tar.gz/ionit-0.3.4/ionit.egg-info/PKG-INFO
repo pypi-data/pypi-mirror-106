@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ionit
+Version: 0.3.4
+Summary: Render configuration files from Jinja templates
+Home-page: https://github.com/bdrung/ionit
+Author: Benjamin Drung
+Author-email: benjamin.drung@cloud.ionos.com
+License: ISC
+Description: ionit is a simple and small configuration templating tool. It collects a context and renders Jinja templates in a given directory. The context can be either static JSON or YAML files or dynamic Python files. Python files can also define functions passed through to the rendering.
+Platform: UNKNOWN
