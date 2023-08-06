@@ -1,0 +1,51 @@
+[project]
+dependencies = []
+description = "For orchestration using AWS Step Functions"
+dynamic = [ "classifiers",]
+keywords = [ "orchestration", "aws", "cloud",]
+name = "orkestra"
+requires-python = ">=3.8"
+version = "0.2.1"
+[[project.authors]]
+name = "Stephan Fitzpatrick"
+email = "knowsuchagency@gmail.com"
+
+[build-system]
+build-backend = "pdm.pep517.api"
+requires = [ "pdm-pep517",]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Repository = "https://github.com/knowsuchagency/orkestra"
+homepage = "https://github.com/knowsuchagency/orkestra"
+
+[project.optional-dependencies]
+cdk = [ "aws-cdk.core", "aws-cdk.aws_events", "aws-cdk.aws_events_targets", "aws-cdk.aws_lambda_python", "aws-cdk.aws_stepfunctions_tasks",]
+validation = [ "pydantic~=1.8",]
+
+[tool.black]
+line-length = 79
+include = "\\.pyi?$"
+exclude = "/(\n    \\.git\n  | \\.hg\n  | \\.mypy_cache\n  | \\.tox\n  | \\.venv\n  | \\.history\n  | _build\n  | buck-out\n  | build\n  | dist\n  | __pypackages__\n  | cdk.out\n)/\n"
+
+[tool.pdm.scripts]
+format = "black ./"
+synth = "cdk synth"
+shell = "set -x\npdm build\npdm run test-publish\npdm run publish\n"
+test-publish = "twine upload --repository testpypi dist/*"
+
+[tool.pdm.dev-dependencies]
+dev = [ "loguru~=0.5", "klaxon", "pre-commit~=2.12", "black~=21.5b1",]
+
+[tool.pdm.scripts._]
+env_file = ".env"
+
+[tool.pdm.scripts.deploy]
+
+[tool.pdm.scripts.destroy]
+
+[tool.pdm.scripts.publish]
+
+[tool.pdm.scripts.pub]
