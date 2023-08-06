@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: multiqc_plugins
+Version: 1.2.1
+Summary: MultiQC plugins for the Zavolan Lab         @ University of Basel, Switzerland
+Home-page: https://github.com/zavolanlab/multiqc-plugins
+Author: Krish Agarwal
+Author-email: akrish136@gmail.com
+License: Apache 2.0
+Download-URL: https://github.com/zavolanlab/multiqc-plugins
+Description: UNKNOWN
+Keywords: bioinformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
