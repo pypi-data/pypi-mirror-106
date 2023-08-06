@@ -1,0 +1,9 @@
+origen_autoapi/__init__.py,sha256=0VEltcTBrRLDSIYqZkLqDjmuztP-09he_vP-X_KYrXU,749
+origen_autoapi/apinode.py,sha256=wfEbi9zIN6g0G1hu35xXOHeRKlrCv7pFaJIgizrioeo,18486
+origen_autoapi/sphinx.py,sha256=NpWH5u3XmOBPI__E31p3kb-G1M96iijrhW5Vzgctk5M,6696
+origen_autoapi/templates/autoapi/module.rst,sha256=l7QbBAUsRQxjdDwBW3yuc2S-fVQOSCSgtfXCQEIBJB0,2298
+origen_autoapi-2.0.1.dist-info/LICENSE,sha256=y16Ofl9KOYjhBjwULGDcLfdWBfTEZRXnduOspt-XbhQ,11325
+origen_autoapi-2.0.1.dist-info/METADATA,sha256=j0Ub7FrIwqPiKKGKaJOiXuz-NwWK6TkwQLOfC6vggvY,2507
+origen_autoapi-2.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+origen_autoapi-2.0.1.dist-info/top_level.txt,sha256=NXViwiiISRnyeDCg3HMRP3Mqms0Kk_1UB1Xt4drF6kA,15
+origen_autoapi-2.0.1.dist-info/RECORD,,
