@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: evansung
+Version: 1.5
+Summary: evansung yyds
+Home-page: UNKNOWN
+Author: evansung
+Author-email: evansung@outlook.com
+License: UNKNOWN
+Description: 很牛逼的包
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
