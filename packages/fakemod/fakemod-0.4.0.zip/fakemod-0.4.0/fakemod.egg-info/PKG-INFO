@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: fakemod
+Version: 0.4.0
+Summary: Auto-Reloadable Modules and Namespaces
+Home-page: http://github.com/serwy/relmod
+Author: Roger D. Serwy
+Author-email: roger.serwy@gmail.com
+License: BSD License
+Description: # fakemod
+        
+        The `fakemod` package has been renamed to `relmod`. 
+        It can be found here: https://github.com/serwy/relmod
+        
+        This stub package will install `relmod`, and any imports
+        of `fakemod` will import `relmod` instead and display a warning message.
+Keywords: reload module
+Platform: Windows
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing :: Unit
+Description-Content-Type: text/markdown
