@@ -1,0 +1,6 @@
+README.md
+dogescan.egg-info/PKG-INFO
+dogescan.egg-info/SOURCES.txt
+dogescan.egg-info/dependency_links.txt
+dogescan.egg-info/top_level.txt
+dogescan.egg-info/zip-safe
