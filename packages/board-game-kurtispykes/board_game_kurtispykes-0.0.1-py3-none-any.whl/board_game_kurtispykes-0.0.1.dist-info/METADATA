@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: board-game-kurtispykes
+Version: 0.0.1
+Summary: Different traditional board games
+Home-page: https://github.com/kurtispykes/board_games
+Author: Kurtis Pykes
+Author-email: kurtispykes@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kurtispykes/board_games/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Board Games
+
+
+
+Tic-tac-toe, noughts and crosses, or Xs and Os/“X’y O’sies”, is a paper-and-pencil game for 
+two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who 
+succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is 
+the winner [**Source**: [Wikipedia](https://en.wikipedia.org/wiki/Tic-tac-toe)].
+
+The main purpose of the project was to become accustomed with packaging projects and 
+distributing them on PyPi.  
+
+**Note**: Source code was inspired by [Tic Tac Toe Game - Python Tkinter GUI Tutorial](https://www.youtube.com/watch?v=xx0qmpuA-vM)
+
+
