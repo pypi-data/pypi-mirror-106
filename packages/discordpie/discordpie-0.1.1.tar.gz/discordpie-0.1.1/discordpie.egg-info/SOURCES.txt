@@ -1,0 +1,7 @@
+README.md
+setup.py
+discordpie.egg-info/PKG-INFO
+discordpie.egg-info/SOURCES.txt
+discordpie.egg-info/dependency_links.txt
+discordpie.egg-info/requires.txt
+discordpie.egg-info/top_level.txt
