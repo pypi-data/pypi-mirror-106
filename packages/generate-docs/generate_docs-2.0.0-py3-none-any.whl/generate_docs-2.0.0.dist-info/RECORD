@@ -1,0 +1,12 @@
+generate_docs/__init__.py,sha256=tpHaayAeiAGQ-zbZ1n5KY0nDrEF5lPWHlIqT8vp3pMU,23
+generate_docs/generator.py,sha256=Sc88wiK_jIZzb-HK5yfJzK9OheywxLqOAE-eeyxL--A,1474
+generate_docs/markdown.py,sha256=shxn2671wvTaUElbCOy4MQXJM5pqSAdt6wK7VF1P9OM,3503
+generate_docs/readme.py,sha256=hxuVAbmCV4IWr6cCdjSepAoIEZtTUxtwoyeNVHE25Vw,2943
+generate_docs/repo.py,sha256=Ew_jhELbgZ_cgVO8Gu_Uj04v3W0RCulqSjgLtZx4g0M,7278
+generate_docs/wiki.py,sha256=c6Zcr_qC37lj0Ig0WgQwhYcXwaomIQPn9ehxGyFe1-I,6490
+generate_docs-2.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+generate_docs-2.0.0.dist-info/METADATA,sha256=TOhiHiXQqDqWtZ6Vmw-El8S4uiK9z1khXDU1k7Q9mH8,3058
+generate_docs-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+generate_docs-2.0.0.dist-info/entry_points.txt,sha256=agkbF7iNfZCTpLrYSKZ7Abhqz-UdtH1mgDQrm2PZ_E8,106
+generate_docs-2.0.0.dist-info/top_level.txt,sha256=qLHI1go_5_xh0nzHo2_DLIQUQGvTFgoTo6UsVVdUpes,14
+generate_docs-2.0.0.dist-info/RECORD,,
