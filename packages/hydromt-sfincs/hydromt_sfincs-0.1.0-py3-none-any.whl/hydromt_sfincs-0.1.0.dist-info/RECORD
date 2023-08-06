@@ -1,0 +1,15 @@
+hydromt_sfincs/__init__.py,sha256=A6IqVx03xTMpOz5v_e2K9GpCXFARaTNCO35qaCzr1dI,168
+hydromt_sfincs/sfincs.py,sha256=L43u5izJHsgdoiGmSLmAFs38726Ja1i-tJ09toiMNlo,65295
+hydromt_sfincs/data/lulc/README,sha256=VDggim0O7bTZ7GN2f59oEoIQWDIf2Wbh2QWTDsAcGRI,200
+hydromt_sfincs/data/lulc/corine_mapping.csv,sha256=5SaNdbJ23I4uYozufHOaY7qiCxUoM5nnijtSDWOSN5M,2726
+hydromt_sfincs/data/lulc/globcover_mapping.csv,sha256=MvDuuRazUlolOFKqMHlRr97W_jAUR49buovTwhLnHIs,2521
+hydromt_sfincs/data/lulc/globcover_mapping_sediment.csv,sha256=zIT4jkkeLyDMPsBvnXiRwi4OFc9aJHuAu8xMSZAY7-c,1869
+hydromt_sfincs/data/lulc/vito_mapping.csv,sha256=VXJKr0ES3KRAHQVdVcXwvGsn6P4V5ZnxBYiO0HhaEI4,1788
+hydromt_sfincs/data/sfincs/sfincs.inp,sha256=ctdH_88YS6R1TL0OjwphuTEARpYN7Uzpt106McxyIkY,679
+hydromt_sfincs/workflows/__init__.py,sha256=g16IUGhU2J5wd5Z1NyPAswBOC5EsKz1z82LyyZ0uUD4,57
+hydromt_sfincs/workflows/landuse.py,sha256=MsOe18NCzROp7mPnNYxVwAe3-d0CUYlM_7-pHVIOirc,2602
+hydromt_sfincs-0.1.0.dist-info/entry_points.txt,sha256=HW67ng0XaBUn-cvGhLEq3-Tj_OSsW30_RKXHvOYdks8,59
+hydromt_sfincs-0.1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+hydromt_sfincs-0.1.0.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+hydromt_sfincs-0.1.0.dist-info/METADATA,sha256=m2a_u2lf1HoF7LpBRwiqDcZwf7BDgFx05hylyXKT7I0,3897
+hydromt_sfincs-0.1.0.dist-info/RECORD,,
