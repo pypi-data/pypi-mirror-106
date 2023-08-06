@@ -1,0 +1,14 @@
+ftpdata/Instance.py,sha256=VF6c-zmGl0F9C9kQh2qwln7kSWeIKIaE8wV7GfruolE,263
+ftpdata/Navigator.py,sha256=jbGe65A2m4-SBkpPoMAsceg0mCj2gQQ5XIjRjCcfYuE,1288
+ftpdata/QueryResult.py,sha256=KuTe1RWl_exlchtTT0iUDPGracmHImVjvAUAonl-9oY,1704
+ftpdata/__init__.py,sha256=t5xR7nKBgoxs36o4vXo6YeSqvd7KmGx7zhzqo8ioJFE,70
+ftpdata/create_engine.py,sha256=s6XSX6Pu85mPrId5T-c0T30O4L0mVRq_vlSVSI-PhLU,1954
+ftpdata/exceptions.py,sha256=dkpvE6p8hg6fnVV_aMf8dZX6nHZd6IaBUUolnxYtuRM,550
+ftpdata/preset.py,sha256=y_2RdmeCrL_6KBu0fzUg7t3esNUJB8_KyPc43k3KR4U,1133
+ftpdata/util.py,sha256=pTFPbKLqulCcROSbk0RIrF4uL0whxK0h2u7p_k3guKA,988
+testbench/MockSFTP/__init__.py,sha256=65YaKMHUnB7I60cgkWB-dRI8LRkRcvm2FD1bYzdJBjc,3239
+ftpdata-0.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+ftpdata-0.0.1.dist-info/METADATA,sha256=Ls72PBSv_EalOR-qOLUIePh1cf8lc302B9kJ_atpUj4,803
+ftpdata-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ftpdata-0.0.1.dist-info/top_level.txt,sha256=hTJds8BwxQPr0tdPkXa5kxCYaDqDjwTgBydhT_g06Zw,18
+ftpdata-0.0.1.dist-info/RECORD,,
