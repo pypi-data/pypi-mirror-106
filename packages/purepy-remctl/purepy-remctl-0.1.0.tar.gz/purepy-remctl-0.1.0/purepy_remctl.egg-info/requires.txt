@@ -1,0 +1,6 @@
+gssapi>=1.2.0
+
+[dev]
+k5test~=0.9.2
+pytest~=6.2
+pytest-cov~=2.11.1
