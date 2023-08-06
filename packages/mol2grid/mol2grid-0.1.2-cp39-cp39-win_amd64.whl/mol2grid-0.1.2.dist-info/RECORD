@@ -1,0 +1,12 @@
+_mol2grid.cp39-win_amd64.pyd,sha256=URfwkTNO7wDeduzTJZqng_EaXVEZzAOVT4867tNvvnE,43520
+mol2grid/__init__.py,sha256=8GShQUq6EJe3YLFkqBcVDk4YnzfWnNAJhSIABgV0guk,200
+mol2grid/main.py,sha256=34r_XTzExG25ks0M201FCrUtllEM_mtrMB6gneAG3io,16175
+mol2grid/utils.py,sha256=TeeBSbJrDoECknO-MVTfA5haDA6ofUWcQWUqo_w8vwQ,15467
+mol2grid/data/catalog.dat,sha256=ZPYaeMk2V4jEEgyN4ZIYzIkCR8Z-bHePmb6GcfXtsQk,231
+mol2grid/data/vdw.dat,sha256=-Mc6cdUwEJOmrQESE7_ai1Oi0DZSPBUHk6EJ3wvkVLI,11292
+mol2grid-0.1.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+mol2grid-0.1.2.dist-info/METADATA,sha256=IldoMNN6NSnH9SMvMdsxoO46dvklNBKelQ0vVFQsdMs,9246
+mol2grid-0.1.2.dist-info/WHEEL,sha256=jr7ubY0Lkz_yXH9FfFe9PTtLhGOsf62dZkNvTYrJINE,100
+mol2grid-0.1.2.dist-info/entry_points.txt,sha256=PZSMNGPpRRmgIg_tC9Rkg3hwYfsLQJYrFNnoFANGlt8,85
+mol2grid-0.1.2.dist-info/top_level.txt,sha256=r4L3Sgu4o6P2PM5WO32WvXV7kf-ieCxZ2h-zQTD8aew,19
+mol2grid-0.1.2.dist-info/RECORD,,
