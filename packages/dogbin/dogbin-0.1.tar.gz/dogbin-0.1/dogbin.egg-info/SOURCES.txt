@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+dogbin/__init__.py
+dogbin/dogbin.py
+dogbin.egg-info/PKG-INFO
+dogbin.egg-info/SOURCES.txt
+dogbin.egg-info/dependency_links.txt
+dogbin.egg-info/requires.txt
+dogbin.egg-info/top_level.txt
