@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tds-django
+Version: 0.0.1
+Summary: Django backend for SQL Server using tds
+Home-page: https://github.com/ecogels/tds-django
+Author: Etienne Cogels
+Author-email: ecogels@users.noreply.github.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ecogels/tds-django/issues
+Description: # Django backend for SQL Server
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
