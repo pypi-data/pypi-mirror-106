@@ -1,0 +1,8 @@
+emailable/__init__.py,sha256=H5FF2-wf48Gs0SthHpALAnzy-SSgRUykPB7w5fJjoxA,235
+emailable/client.py,sha256=e7yAnK4PXTd5QdvR7FQCCggrUjYg4m2gGMwxVxLlMMY,2199
+emailable/error.py,sha256=eYVAjIG102B0VwZmLb9kBz3lj3Im3RQCdLTdAh09s_U,276
+emailable/response.py,sha256=wNLd8HKD1E2qY99e-wjvDtf3R0-fMs5zA700yDZgE-M,180
+emailable_backport-1.0.0.dist-info/LICENSE,sha256=akYRhA8SXe-bVnLSpPDGxpdwa7CjLoOIh6CHV398e7M,1143
+emailable_backport-1.0.0.dist-info/WHEEL,sha256=Tf_JTHRUsYmRccQnQfn1tqmNatmXkNB0OFKM-B4YyuA,87
+emailable_backport-1.0.0.dist-info/METADATA,sha256=CpnWAgS7C2kwVv0UF-uwoY4IzG6aTsnaEmv0v52I9fU,4160
+emailable_backport-1.0.0.dist-info/RECORD,,
