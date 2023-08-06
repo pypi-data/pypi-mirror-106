@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rctiplus_rabbitmq_python_sdk/__init__.py
+rctiplus_rabbitmq_python_sdk/rabbitmq.py
+rctiplus_rabbitmq_python_sdk.egg-info/PKG-INFO
+rctiplus_rabbitmq_python_sdk.egg-info/SOURCES.txt
+rctiplus_rabbitmq_python_sdk.egg-info/dependency_links.txt
+rctiplus_rabbitmq_python_sdk.egg-info/requires.txt
+rctiplus_rabbitmq_python_sdk.egg-info/top_level.txt
+tests/__init__.py
+tests/receive.py
+tests/send.py
