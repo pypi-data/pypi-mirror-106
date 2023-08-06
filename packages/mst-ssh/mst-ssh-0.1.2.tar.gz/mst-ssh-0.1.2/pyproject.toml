@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mst-ssh"
+version = "0.1.2"
+description = "A command line utility to setup SSH connection to Missouri S&T's Linux virtual machines"
+authors = ["Kevin Lai <zlnh4@umsystem.edu>"]
+packages = [
+    { include = "mst_ssh.py" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+mst-ssh = "mst_ssh:main"
