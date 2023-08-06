@@ -1,0 +1,13 @@
+bigquery/BigQueryDBStream.py,sha256=alYa67FkB1ncDafAjITuDLmtDmG_0zaWHjrvh4RGeDA,9813
+bigquery/__init__.py,sha256=bKeiKNE-4kIjQBDDVUHP1ZW4IIqNiTCrPpVrN_9yKpw,55
+bigquery/core/Column.py,sha256=JRi9lcDCqPNtm_cSrU1XGlHPJgn250BdsU16uxDXVT0,5557
+bigquery/core/Table.py,sha256=86OU-kLpwiaROlRPrxsxM68pAfU0yf1C4gSIkGwSaqU,4278
+bigquery/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bigquery/core/mapping_type.py,sha256=IkDM7vO8uZIMahF1OloBZSqv8k3AFx_jLt9avUn7jy8,113
+bigquery/core/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bigquery/core/tools/print_colors.py,sha256=0wouPUkvbWP1qSyNXOzM4HuAbg_r7LCd6kNh5y8iRSQ,197
+bigquery-0.0.13.dist-info/LICENSE,sha256=vD633J5Yh-KQezlqUKOf1eIPaGC_vi8aGLBaIphhvUw,1049
+bigquery-0.0.13.dist-info/METADATA,sha256=Vi8oZ5UklWTIBwQSGPVtgwX8VzrXM_ZRVgfaLG9EXfw,686
+bigquery-0.0.13.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bigquery-0.0.13.dist-info/top_level.txt,sha256=TC4NanAHwQE8VJ1D_-uW0Agcd6yw-wimxEjORoKBnjs,9
+bigquery-0.0.13.dist-info/RECORD,,
