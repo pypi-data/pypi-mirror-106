@@ -1,0 +1,65 @@
+xlsx:
+  styles:
+    cell_width_px: 25
+    font_name: Roboto
+
+    header:
+      font_color: 0x666666
+      align: center
+      bg_color: 0xFFFFFF
+      left: 1
+      left_color: 0xE0E0E0
+      right: 1
+      right_color: 0xE0E0E0
+
+      months:
+        cell_height_px: 30
+        valign: bottom
+        font_size: 12
+        bold: True
+        top: 1
+        top_color: 0xE0E0E0
+        bottom: 1
+        bottom_color: 0xE0E0E0
+
+      days:
+        valign: bottom
+        font_size: 9
+        top: 1
+        top_color: 0xE0E0E0
+
+      weekdays:
+        valign: top
+        font_size: 9
+        bottom: 1
+        bottom_color: 0xE0E0E0
+
+    layers:
+      font_color: auto
+      bg_color: 0xFFFFFF
+      left: 1
+      left_color: blackout
+      right: 1
+      right_color: blackout
+
+      space_row:
+        cell_height_px: 6
+
+      tasks:
+        top: 1
+        top_color: blackout
+        bottom: 1
+        bottom_color: blackout
+
+    days_off:
+      use_blackout: True
+      blackout_value: 0.12
+      left: 1
+      left_color: 0xE0E0E0
+      right: 1
+      right_color: 0xE0E0E0
+
+      layers:
+        tasks:
+          left_color: blackout
+          right_color: blackout
