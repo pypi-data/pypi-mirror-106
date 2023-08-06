@@ -1,0 +1,13 @@
+camphr_cli/.gitignore,sha256=Awv9ZzCujvg5IWKFdFiV9bdntGhUitUOhyy3Wqb4tb8,9
+camphr_cli/VERSION.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+camphr_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+camphr_cli/__main__.py,sha256=Qb8uWF33WbmbAKZnJDvTfWslWzN8BAbCkZEoJOms9vQ,827
+camphr_cli/conf/train/config.yaml,sha256=2EDJz59AqbkzhrgmWGrnuswNQWJ-l8-gaBkDI0E8Jaw,205
+camphr_cli/conf/train/example/ner.yaml,sha256=ZgYT-zYn60XMfj1zgk5uVbASi41eVNgw_g4cka_SX5Q,500
+camphr_cli/config.py,sha256=MJRe_MxQZd1zIwgufuOJx0b624hScg0-W1aipw-xuzA,652
+camphr_cli/train.py,sha256=csv8_SRNVn4SN4ttDMBgoldqYS-hoGoMpVeXn7CoJR0,7040
+camphr_cli/utils.py,sha256=vnXeWo38WFdiFZdNl3zZcMXSk9kPU9EGR_XGQ82_lZ4,2391
+camphr_cli-0.1.0.dist-info/entry_points.txt,sha256=UO-zUKbNn_UCwKM7FJWckTZyilqCuX-_29Ikq2Udtn4,51
+camphr_cli-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+camphr_cli-0.1.0.dist-info/METADATA,sha256=fj0f8mRvK00LR3rUa7gIVZFiDbbYGC1k5-bQ6GE71B4,592
+camphr_cli-0.1.0.dist-info/RECORD,,
