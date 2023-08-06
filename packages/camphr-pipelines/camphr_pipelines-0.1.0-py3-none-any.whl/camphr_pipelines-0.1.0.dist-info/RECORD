@@ -1,0 +1,10 @@
+camphr_pipelines/VERSION.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+camphr_pipelines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+camphr_pipelines/model_config/knp.yml,sha256=eTfcgfG32hucsQ3JHokDZPdOlqE0PHVtDyh37oOaIsw,161
+camphr_pipelines/model_config/trf_model.yml,sha256=OESAD64oo9zwSG1l0LJqDdUlTno1bNEcFtE2WPxLMoc,244
+camphr_pipelines/model_config/trf_ner.yml,sha256=OESAD64oo9zwSG1l0LJqDdUlTno1bNEcFtE2WPxLMoc,244
+camphr_pipelines/models.py,sha256=TGlt7TgztQiiIRjS42dL_zzl5VDh_tWKOjBY1aXfYGM,9542
+camphr_pipelines/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+camphr_pipelines-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+camphr_pipelines-0.1.0.dist-info/METADATA,sha256=VTWJMQr-no201H8S9GzfyKwz7MkcD7o_W4FNCltWenE,437
+camphr_pipelines-0.1.0.dist-info/RECORD,,
