@@ -1,0 +1,8 @@
+pymysqlpool/__init__.py,sha256=qKpbYCNQnmZwmyANwtrVbrsvSmfXbzZbg8p4ceQVInQ,21
+pymysqlpool/connection.py,sha256=Qxb8lU5IodVBIBlBSVY3uiAlfZnzkCcaDg880Ya8ydY,8355
+pymysqlpool/pooled_db.py,sha256=i2j39wHToL_7Nen3g12AEWvyeQn-cgGWLwaAZtDDEi0,3022
+pymysql_dbpool-0.0.1.dist-info/LICENSE,sha256=5mqw0O1IL_yXdFnaJ01ezeNOlN9BdS8xS6kzVC2NaDg,1063
+pymysql_dbpool-0.0.1.dist-info/METADATA,sha256=PrTgfrQ0ZlenwamtyzckyNX66h_RJFYyS2hdAr-A_aA,2477
+pymysql_dbpool-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pymysql_dbpool-0.0.1.dist-info/top_level.txt,sha256=UWblZ-upWS5uvD1fKiqUBrmB477eAK2ELDRcUtDOW8s,12
+pymysql_dbpool-0.0.1.dist-info/RECORD,,
