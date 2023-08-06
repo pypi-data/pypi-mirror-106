@@ -1,0 +1,9 @@
+README.rst
+setup.py
+color_convert/__init__.py
+color_convert/color.py
+color_convert.egg-info/PKG-INFO
+color_convert.egg-info/SOURCES.txt
+color_convert.egg-info/dependency_links.txt
+color_convert.egg-info/not-zip-safe
+color_convert.egg-info/top_level.txt
