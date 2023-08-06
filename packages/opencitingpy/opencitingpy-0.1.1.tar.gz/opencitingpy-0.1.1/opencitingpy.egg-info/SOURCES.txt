@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+opencitingpy/__init__.py
+opencitingpy/classes.py
+opencitingpy/client.py
+opencitingpy/metadata.py
+opencitingpy.egg-info/PKG-INFO
+opencitingpy.egg-info/SOURCES.txt
+opencitingpy.egg-info/dependency_links.txt
+opencitingpy.egg-info/requires.txt
+opencitingpy.egg-info/top_level.txt
