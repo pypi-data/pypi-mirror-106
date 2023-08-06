@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+haystack_redis.py
+setup.py
+haystack_redis.egg-info/PKG-INFO
+haystack_redis.egg-info/SOURCES.txt
+haystack_redis.egg-info/dependency_links.txt
+haystack_redis.egg-info/not-zip-safe
+haystack_redis.egg-info/requires.txt
+haystack_redis.egg-info/top_level.txt
