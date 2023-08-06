@@ -1,0 +1,9 @@
+amazon_textract_pipeline_pagedimensions-0.0.1.data/scripts/amazon-textract-pipeline-pagedimensions,sha256=UOWO8buDqM_k6kSBwEWPO4eCDKAogoPmqKNe4B8lsMs,1984
+textractpagedimensions/__init__.py,sha256=I0XX9ODePfhoC70fG_fN77fvNJ5gxceyP4v1r4zBi4E,137
+textractpagedimensions/_version.py,sha256=gJ6yc2NU7c4kVObGiO9xyIPFomyhZwuHzZ0IlXwpXKU,23
+textractpagedimensions/t_pagedimensions.py,sha256=k_-FYa5IGWGf9zf1Ktqikh62ehGTkDj8TFxdVBT5FQM,3973
+amazon_textract_pipeline_pagedimensions-0.0.1.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+amazon_textract_pipeline_pagedimensions-0.0.1.dist-info/METADATA,sha256=VYM87tmmLsyAxQIX8NOxXpBPbCVd5MdRA_msvQfBj4U,2757
+amazon_textract_pipeline_pagedimensions-0.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+amazon_textract_pipeline_pagedimensions-0.0.1.dist-info/top_level.txt,sha256=vB0UhvxeM1YeqOBsRC-4I_Ee2YTVbFmtXl2g63bQ-MQ,23
+amazon_textract_pipeline_pagedimensions-0.0.1.dist-info/RECORD,,
