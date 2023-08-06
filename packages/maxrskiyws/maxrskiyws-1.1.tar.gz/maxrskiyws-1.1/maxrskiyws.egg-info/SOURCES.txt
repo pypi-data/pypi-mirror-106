@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+maxrskiyws/__init__.py
+maxrskiyws/maxrskiy_ws.py
+maxrskiyws/models.py
+maxrskiyws/setup.py
+maxrskiyws.egg-info/PKG-INFO
+maxrskiyws.egg-info/SOURCES.txt
+maxrskiyws.egg-info/dependency_links.txt
+maxrskiyws.egg-info/not-zip-safe
+maxrskiyws.egg-info/top_level.txt
