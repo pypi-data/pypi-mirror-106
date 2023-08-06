@@ -1,0 +1,8 @@
+tk
+threading
+requests
+urllib
+zipfile
+PIL
+shutil
+pythoncom
