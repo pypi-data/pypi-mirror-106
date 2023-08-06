@@ -1,0 +1,2 @@
+"""Speed Test Runner init"""
+
