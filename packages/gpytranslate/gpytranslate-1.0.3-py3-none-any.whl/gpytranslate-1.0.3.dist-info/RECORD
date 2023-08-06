@@ -1,0 +1,9 @@
+gpytranslate/__init__.py,sha256=bxHfU8O0p4KMe8qGUSGxCQ0hVWBLfLSSvnhHsv81_bI,123
+gpytranslate/gpytranslate.py,sha256=jNpJV7k_6EUixnsuPoIjl8bA42JdXji4J657uirIAMU,5518
+gpytranslate/types/__init__.py,sha256=qnoaes583OKzROwYPVwBvYIBkJMz60KHmz2MSeYfxMw,49
+gpytranslate/types/translated_object.py,sha256=WMOauO5sTIfci-EvVlWzUvGXRDiNV_otrt3jlxMNLBE,640
+gpytranslate-1.0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+gpytranslate-1.0.3.dist-info/METADATA,sha256=zZkOi58YuowJzVBwTC6yZNC1JFPq2L_xKPgtkM4oR9o,1733
+gpytranslate-1.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gpytranslate-1.0.3.dist-info/top_level.txt,sha256=FWBVx6DLl2RNVndtyRBKsKxWoD7miQh7zWj3lT7e0ME,13
+gpytranslate-1.0.3.dist-info/RECORD,,
