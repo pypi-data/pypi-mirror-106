@@ -1,0 +1,13 @@
+NCBImeta-0.8.1.dev0.data/scripts/NCBImeta,sha256=eKD8zmgfFBjaa0Iiu7u2VRxUR2iWKFYn9ecSdGNr0bc,23343
+NCBImeta-0.8.1.dev0.data/scripts/NCBImetaAnnotateConcatenate,sha256=Az9WjuT51TgH0exrHj5Rice5NZlbd0PcYUl-Cv1IoWk,8230
+NCBImeta-0.8.1.dev0.data/scripts/NCBImetaAnnotateReplace,sha256=jyh0NmAaQZB9Ad1_UtRtp8oT1Bql6yfI-RiWRQOKokM,7351
+NCBImeta-0.8.1.dev0.data/scripts/NCBImetaExport,sha256=q-9-TcV6_B36pu_UwKFeEI4ehy-aPypdmSge5GDC6l0,3946
+NCBImeta-0.8.1.dev0.data/scripts/NCBImetaJoin,sha256=vpAC6cuj3b4J8mubdxeI3Sf0_tSbJmspPor0DuWRYCo,14174
+ncbimeta/NCBImetaErrors.py,sha256=HItXmTq9_v5uUbgio2N1OE5Ev6C08rNnpidehykfztg,7867
+ncbimeta/NCBImetaUtilities.py,sha256=2NMChKihFATB1vl1s7z213NhdLu_gqe_eE89tfeEQqw,12213
+ncbimeta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NCBImeta-0.8.1.dev0.dist-info/LICENSE,sha256=KZPhtoeAYKCY1jctUvdBC3itHZFZOtWqfsv4AnpBCMI,1076
+NCBImeta-0.8.1.dev0.dist-info/METADATA,sha256=3QFr6H-Ajw8X2L9KuZidTVS4WwDteVouCxrP_BdXkEY,10211
+NCBImeta-0.8.1.dev0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+NCBImeta-0.8.1.dev0.dist-info/top_level.txt,sha256=6KC5jibEJjNJinCQFBar4xv3fnLtDKlMtNcKGGuFGiQ,9
+NCBImeta-0.8.1.dev0.dist-info/RECORD,,
