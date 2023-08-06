@@ -1,0 +1,5 @@
+setup.py
+pypiano.egg-info/PKG-INFO
+pypiano.egg-info/SOURCES.txt
+pypiano.egg-info/dependency_links.txt
+pypiano.egg-info/top_level.txt
