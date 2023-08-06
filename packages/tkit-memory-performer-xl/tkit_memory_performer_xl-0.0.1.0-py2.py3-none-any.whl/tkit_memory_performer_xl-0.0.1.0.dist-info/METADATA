@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tkit-memory-performer-xl
+Version: 0.0.1.0
+Summary: Memory performer-XL, a variant of performer-XL that uses linear attention update long term memory
+Home-page: https://github.com/napoler/memory-transformer-xl
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: Apache License 2.0 
+Keywords: attention mechanism,artificial intelligence,transformer,deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: torch
+Requires-Dist: performer-pytorch (>=1.0.10)
+Requires-Dist: mogrifier
+
+UNKNOWN
+
+
