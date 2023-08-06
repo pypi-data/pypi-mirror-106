@@ -1,0 +1,3 @@
+[bandit.formatters]
+junit=bandit_formatter_junit:junit
+
