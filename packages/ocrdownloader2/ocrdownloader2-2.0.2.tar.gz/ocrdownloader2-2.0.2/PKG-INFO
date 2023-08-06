@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ocrdownloader2
+Version: 2.0.2
+Summary: Download songs from OC ReMix before packs are available
+Author: Anthony Porthouse
+Author-email: anthony@porthou.se
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (>=4.9.3,<5.0.0)
+Requires-Dist: click (>=8.0.0,<9.0.0)
+Requires-Dist: html5lib (>=1.1,<2.0)
+Requires-Dist: importlib-metadata (>=1.0,<2.0); python_version < "3.8"
+Requires-Dist: requests (>=2.25.1,<3.0.0)
