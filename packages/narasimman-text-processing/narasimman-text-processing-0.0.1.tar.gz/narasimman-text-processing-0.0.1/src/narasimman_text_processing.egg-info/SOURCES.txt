@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/narasimman_text_processing.egg-info/PKG-INFO
+src/narasimman_text_processing.egg-info/SOURCES.txt
+src/narasimman_text_processing.egg-info/dependency_links.txt
+src/narasimman_text_processing.egg-info/top_level.txt
+src/narasimman_text_processing_pkg/__init__.py
+src/narasimman_text_processing_pkg/text_process.py

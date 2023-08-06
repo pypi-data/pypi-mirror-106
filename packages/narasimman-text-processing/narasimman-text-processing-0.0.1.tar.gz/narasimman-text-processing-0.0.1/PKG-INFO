@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: narasimman-text-processing
+Version: 0.0.1
+Summary: This is the basic text processing library
+Home-page: UNKNOWN
+Author: Narasimman Saravana
+Author-email: narasimman.saravana@gmail.com
+License: UNKNOWN
+Description: # narasimman-text-processing
+        
+        This is the basic text processing library
+        In future more feature will be add and also supports the computation process with CPU and GPU.
+        
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
