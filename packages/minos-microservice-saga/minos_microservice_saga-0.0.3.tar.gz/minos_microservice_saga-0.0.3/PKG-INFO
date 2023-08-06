@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: minos-microservice-saga
+Version: 0.0.3
+Summary: Saga Library for MinOS project.
+Home-page: https://clariteia.com
+License: MIT
+Keywords: clariteia,minos,microservice,saga
+Author: Clariteia Devs
+Author-email: pypi@clariteia.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dependency-injector (>=4.32.2,<5.0.0)
+Requires-Dist: minos-microservice-common (>=0.0,<0.1)
+Project-URL: Repository, https://github.com/clariteia/minos_microservice_saga
+Description-Content-Type: text/markdown
+
+Minos Microservice Saga
+=======================
+
+[![codecov](https://codecov.io/gh/Clariteia/minos_microservice_saga/branch/main/graph/badge.svg)](https://codecov.io/gh/Clariteia/minos_microservice_saga)
+
+![Tests](https://github.com/Clariteia/minos_microservice_saga/actions/workflows/python-tests.yml/badge.svg)
+
+Python Package for Saga Management in MinOS Microservice Infrastructure
+
+Credits
+-------
+
+This package was created with ![Cookiecutter](https://github.com/audreyr/cookiecutter)  and the ![Minos Package](https://github.com/Clariteia/minos-pypackage) project template.
+
+
+
