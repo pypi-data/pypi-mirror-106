@@ -1,0 +1,7 @@
+PyQt5
+colorama
+matplotlib
+numpy
+pandas
+pillow
+scipy
