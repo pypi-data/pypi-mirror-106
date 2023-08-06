@@ -1,0 +1,15 @@
+pandas>=1.0.3
+numpy>=1.18.1
+scipy>=1.4.1
+scikit-learn>=0.22.1
+plotly>=4.2.1
+click<8,>=7
+xlmhg>=2.5.4
+scanpy>=1.5.1
+umap-learn>=0.4.6
+
+[docs]
+
+[tests]
+pytest>=5.2.1
+pytest-cov>=2.7.1
