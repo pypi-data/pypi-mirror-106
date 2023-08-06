@@ -1,0 +1,11 @@
+viewser/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+viewser/cli.py,sha256=PUYuUAN2t8jtEqU_RMRE3ma07UiILF4iRy7pHJHE7tk,3213
+viewser/cli_utils.py,sha256=Oq7Yd0l0OU_ohEowKuth_Iw-j-9SQvH-qzCeiFcnlYk,82
+viewser/crud.py,sha256=jcvvNHlr0Jjqj_seFwUm1WJqc-ns0MQIM00DNCsILUw,2748
+viewser/models.py,sha256=52O0vzlTAsZQvjDn8nttLZzdY6nwTC8sYFyiQEP678U,403
+viewser/operations.py,sha256=SyLUrun-LezoLLd309t-XMTrxNydYC1k1vDmeLiMNEo,1297
+viewser/settings.py,sha256=VGrka1Qge2YZYzUBF3pjegQ6VHZpbdFDHHrN0Z45gaQ,953
+viewser-1.0.0.dist-info/entry_points.txt,sha256=2vuzYaOdd9g7lj294SV4kOM6qBYR2sXZeVtyZASAvTA,43
+viewser-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+viewser-1.0.0.dist-info/METADATA,sha256=7KthC1EPbrQeWGPM9Dp1MizKqrFQLJu3I0V3p3p_WK4,610
+viewser-1.0.0.dist-info/RECORD,,
