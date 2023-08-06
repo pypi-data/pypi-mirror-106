@@ -1,0 +1,15 @@
+cookiecutter
+diskcache
+jinja2<3
+toml
+tox
+
+[tests]
+cookiecutter
+coverage
+diskcache
+h-matchers
+jinja2<3
+pytest
+toml
+tox
