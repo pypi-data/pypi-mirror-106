@@ -1,0 +1,14 @@
+numpy
+scikit-learn
+pandas
+scipy
+requests
+matplotlib
+networkx
+sympy
+
+[tf]
+tensorflow>=2.4.0
+
+[tf_gpu]
+tensorflow-gpu>=2.4.0
