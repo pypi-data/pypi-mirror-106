@@ -1,0 +1,13 @@
+pop>=17.0
+pop-loop>=1.0.0
+sniffio
+
+[qt]
+qasync
+
+[trio]
+trio
+trio-asyncio
+
+[uvloop]
+uvloop
