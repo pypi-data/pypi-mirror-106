@@ -1,0 +1,14 @@
+symbolName   moduleName   flatTimePercentage
+-----------  -----------  ------------------
+[Max depth]  [Max depth]  99.92             
+thrust::zip  /home/user_  24.17             
+thrust::zip  /home/user_  24.17             
+thrust::det  /home/user_  24.17             
+thrust::det  /home/user_  24.17             
+symbolName      moduleName                                   selfTimePercentage
+--------------  -------------------------------------------  ------------------
+0x7fbc984982b6  /usr/lib/x86_64-linux-gnu/libcuda.so.418.39  5.29              
+0x7fbc982d0010  /usr/lib/x86_64-linux-gnu/libcuda.so.418.39  2.81              
+thrust::iterat  /home/user_name/NVIDIA_CUDA-10.1_Samples/6_  2.23              
+thrust::iterat  /home/user_name/NVIDIA_CUDA-10.1_Samples/6_  1.55              
+void thrust::i  /home/user_name/NVIDIA_CUDA-10.1_Samples/6_  1.55              

@@ -1,0 +1,8 @@
+start       end         globalPid          shortName      nvtxRange 
+----------  ----------  -----------------  -------------  ----------
+526545376   526676256   72057700439031808  MatrixMulCUDA            
+526899648   527030368   72057700439031808  MatrixMulCUDA  Add       
+527031648   527162272   72057700439031808  MatrixMulCUDA  Add       
+527163584   527294176   72057700439031808  MatrixMulCUDA  My Kernel 
+527296160   527426592   72057700439031808  MatrixMulCUDA  My Range  
+527428096   527558656   72057700439031808  MatrixMulCUDA            

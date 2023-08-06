@@ -1,0 +1,8 @@
+PID         TID         start       end         name                    callchainId  stackDepth  symbolName                      moduleName                              
+----------  ----------  ----------  ----------  ----------------------  -----------  ----------  ------------------------------  ----------------------------------------
+19163       19176       360897690   860966851   pthread_cond_timedwait  88           0           pthread_cond_timedwait@GLIBC_2  /lib/x86_64-linux-gnu/libpthread-2.27.so
+19163       19176       360897690   860966851   pthread_cond_timedwait  88           1           0x7fbc983b7227                  /usr/lib/x86_64-linux-gnu/libcuda.so.418
+19163       19176       360897690   860966851   pthread_cond_timedwait  88           2           0x7fbc9835d5c7                  /usr/lib/x86_64-linux-gnu/libcuda.so.418
+19163       19176       360897690   860966851   pthread_cond_timedwait  88           3           0x7fbc983b64a8                  /usr/lib/x86_64-linux-gnu/libcuda.so.418
+19163       19176       360897690   860966851   pthread_cond_timedwait  88           4           start_thread                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+19163       19176       360897690   860966851   pthread_cond_timedwait  88           5           __clone                         /lib/x86_64-linux-gnu/libc-2.27.so      

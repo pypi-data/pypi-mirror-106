@@ -1,0 +1,5 @@
+PID         TID         CPU_utilization  thread_name    
+----------  ----------  ---------------  ---------------
+19163       19163       98.4             radixSortThrust
+19163       19168       1.35             CUPTI worker th
+19163       19166       0.25             [NS]           

@@ -1,0 +1,23 @@
+json_insert('{}',
+    '$.sourceId', sourceId,
+    '$.data', json(data)
+)                                       
+---------------------------------------------------------------------------------------------------------------
+{"sourceId":72057602627862528,"data":{"Name":"FTrace","TimeSource":"ClockMonotonicRaw","SourceGroup":"FTrace"}}
+json_insert('{}',
+    '$.typeId', typeId,
+    '$.sourceId', sourceId,
+    '$.data', json(data)
+)                                                                                                                                                                                                                                             
+--------------------------------------------------------------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+{"typeId":72057602627862547,"sourceId":72057602627862528,"data":{"Name":"raw_syscalls:sys_enter","Format":"\"NR %ld (%lx, %lx, %lx, %lx, %lx, %lx)\", REC->id, REC->args[0], REC->args[1], REC->args[2], REC->args[3], REC->args[4], REC->args[5]","Fields":[{"Name":"common_pid","Prefix":"int","Suffix":""},{"Name":"common_preempt_count",
+{"typeId":72057602627862670,"sourceId":72057602627862528,"data":{"Name":"irq:irq_handler_entry","Format":"\"irq=%d name=%s\", REC->irq, __get_str(name)","Fields":[{"Name":"common_pid","Prefix":"int","Suffix":""},{"Name":"common_preempt_count","Prefix":"unsigned char","Suffix":""},{"Name":"name","Prefix":"__data_loc char[]","Suffix"
+json_insert('{}',
+    '$.rawTimestamp', rawTimestamp,
+    '$.timestamp', timestamp,
+    '$.typeId', typeId,
+    '$.data', json(data)
+)                                                                 
+--------------------------------------------------------------------------------------------------------------------                                                                                   
+{"rawTimestamp":1183694330725221,"timestamp":6236683,"typeId":72057602627862670,"data":{"common_pid":"0","common_preempt_count":"0","name":"327696","irq":"66","common_type":"142","common_flags":"9"}}
+{"rawTimestamp":1183694333695687,"timestamp":9207149,"typeId":72057602627862670,"data":{"common_pid":"0","common_preempt_count":"0","name":"327696","irq":"66","common_type":"142","common_flags":"9"}}
