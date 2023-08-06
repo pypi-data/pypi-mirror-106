@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: pyhtml5ren
+Version: 1.0.0
+Summary: A way to render html in python/tk
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: I will add, but for now, do: 
+        
+        import html5renderer as h5r; help(h5r)
+Platform: UNKNOWN

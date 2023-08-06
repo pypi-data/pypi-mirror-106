@@ -1,0 +1,7 @@
+setup.py
+html5renderer/__init__.py
+pyhtml5ren.egg-info/PKG-INFO
+pyhtml5ren.egg-info/SOURCES.txt
+pyhtml5ren.egg-info/dependency_links.txt
+pyhtml5ren.egg-info/requires.txt
+pyhtml5ren.egg-info/top_level.txt
