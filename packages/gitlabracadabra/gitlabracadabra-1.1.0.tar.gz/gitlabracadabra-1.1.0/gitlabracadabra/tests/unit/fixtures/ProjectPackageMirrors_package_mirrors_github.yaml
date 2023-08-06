@@ -1,0 +1,488 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-type:
+      - application/json
+      PRIVATE-TOKEN:
+      - gySnkuzLBziyxdSBHNBy
+      User-Agent:
+      - python-gitlab/2.7.1
+    method: GET
+    uri: http://localhost:3000/api/v4/projects/test%2Ftest_from_github
+  response:
+    body:
+      string: '{"id":25,"description":"","name":"test_from_github","name_with_namespace":"test
+        / test_from_github","path":"test_from_github","path_with_namespace":"test/test_from_github","created_at":"2021-05-20T11:53:03.615Z","default_branch":null,"tag_list":[],"ssh_url_to_repo":"ssh://git@127.0.0.1:2222/test/test_from_github.git","http_url_to_repo":"http://127.0.0.1:3000/test/test_from_github.git","web_url":"http://127.0.0.1:3000/test/test_from_github","readme_url":null,"avatar_url":null,"forks_count":0,"star_count":0,"last_activity_at":"2021-05-20T11:53:03.615Z","namespace":{"id":109,"name":"test","path":"test","kind":"group","full_path":"test","parent_id":null,"avatar_url":null,"web_url":"http://127.0.0.1:3000/groups/test"},"_links":{"self":"http://127.0.0.1:3000/api/v4/projects/25","issues":"http://127.0.0.1:3000/api/v4/projects/25/issues","merge_requests":"http://127.0.0.1:3000/api/v4/projects/25/merge_requests","repo_branches":"http://127.0.0.1:3000/api/v4/projects/25/repository/branches","labels":"http://127.0.0.1:3000/api/v4/projects/25/labels","events":"http://127.0.0.1:3000/api/v4/projects/25/events","members":"http://127.0.0.1:3000/api/v4/projects/25/members"},"packages_enabled":true,"empty_repo":true,"archived":false,"visibility":"private","resolve_outdated_diff_discussions":false,"container_registry_enabled":true,"container_expiration_policy":{"cadence":"1d","enabled":false,"keep_n":10,"older_than":"90d","name_regex":".*","name_regex_keep":null,"next_run_at":"2021-05-21T11:53:03.777Z"},"issues_enabled":true,"merge_requests_enabled":true,"wiki_enabled":true,"jobs_enabled":true,"snippets_enabled":true,"service_desk_enabled":false,"service_desk_address":null,"can_create_merge_request_in":true,"issues_access_level":"enabled","repository_access_level":"enabled","merge_requests_access_level":"enabled","forking_access_level":"enabled","wiki_access_level":"enabled","builds_access_level":"enabled","snippets_access_level":"enabled","pages_access_level":"private","operations_access_level":"enabled","analytics_access_level":"enabled","emails_disabled":null,"shared_runners_enabled":true,"lfs_enabled":true,"creator_id":1,"import_status":"none","import_error":null,"open_issues_count":0,"runners_token":"i_Vyad2JK8b8skjgojHR","ci_default_git_depth":50,"ci_forward_deployment_enabled":true,"public_jobs":true,"build_git_strategy":"fetch","build_timeout":3600,"auto_cancel_pending_pipelines":"enabled","build_coverage_regex":null,"ci_config_path":null,"shared_with_groups":[],"only_allow_merge_if_pipeline_succeeds":false,"allow_merge_on_skipped_pipeline":null,"restrict_user_defined_variables":false,"request_access_enabled":true,"only_allow_merge_if_all_discussions_are_resolved":false,"remove_source_branch_after_merge":true,"printing_merge_request_link_enabled":true,"merge_method":"merge","suggestion_commit_message":null,"auto_devops_enabled":true,"auto_devops_deploy_strategy":"continuous","autoclose_referenced_issues":true,"repository_storage":"default","requirements_enabled":null,"security_and_compliance_enabled":true,"compliance_frameworks":[],"permissions":{"project_access":null,"group_access":{"access_level":50,"notification_level":3}}}'
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 20 May 2021 11:55:35 GMT
+      Etag:
+      - W/"4571bb51a3425746cfbc7af91745ade5"
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Gitlab-Feature-Category:
+      - projects
+      X-Request-Id:
+      - 01F64T312B864YVVFF0N9WV94E
+      X-Runtime:
+      - '0.683158'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/operator-framework/operator-lifecycle-manager/releases/latest
+  response:
+    body:
+      string: !!binary |
+        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
+        AAA=
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation,
+        Sunset
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1712'
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 20 May 2021 11:55:35 GMT
+      ETag:
+      - W/"c94770d84cfcb90a01bb488c4a0847905007a64ed589e4ed0d7ca5c5b0d80832"
+      Last-Modified:
+      - Wed, 05 May 2021 19:37:22 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Vary:
+      - Accept, Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C5CE:1293:4C25D4:4F6D5E:60A64E37
+      X-RateLimit-Limit:
+      - '60'
+      X-RateLimit-Remaining:
+      - '53'
+      X-RateLimit-Reset:
+      - '1621515206'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '7'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - PyGithub/Python
+    method: GET
+    uri: https://api.github.com/repos/operator-framework/operator-lifecycle-manager/releases/42498775/assets
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+2XbW/aMBDHv4tfA04MSSHSNG3qNG0STJW6ag+akHEMuHXiyHZ4KOK77xwCBdaV
+        sBesLyJVojH3P9+dcz/OP1co1xJFaGptZiKMaSZaE2Gn+ajFVII1z5TBKuOaWqWbY00TPlf64WlJ
+        ijFnSyZ5M6EpnXANGsmp4QZTY7g1uB12wiAkHmogEaNo+9hAqYr50C2h/vWH5Rf5WY4+3k0ZuXvP
+        2gMZX/fJ4Pq7P7j/NAdpCjuDJZty9mDyxLTMlJIghG8kHXFIIc2lbKA8k4rGXKNohaSaiBQ0fBEv
+        tpv7QScMPf9w85vw7ttAsvv+YnB7Qwb375w5nVFL9fCoPMWiKUuUG66ZSi1PbVGtHLdL/29nbzrg
+        Y6JLL0WWsPBisZ07g8topzaRR5vvnUtpNFZSqjmojsM8PMUnx3ingGA2/4t0cqYaFCus7JRDdSDk
+        tUtUGFs9iMJ6hd0HnL/TG6iq5nHlQEp7CGOeQgSr4kUtHOUjw7TIrFBp9YAOVOBF6QlNxSM9zwuo
+        DIiLnqmcSWENKj6Dt6i6bGO+wpkWM8qWLnXNGRczKOKZro504MkuM9drX+FwXUmF5UMaJ66XxlQa
+        vm6g8q0flpY0y6RgRbmwYpbbprGa02RzstY5KxszLhw+wgoh3QaK4fxcww6ZylOLIg9cg9BCFhQe
+        EfGI3/QC+Lv1e1E7iAL/B3jIs/glm46zGWk1hwSGuy0Oe2+vmf4Rb1vHeOa1/G7Lx3+wad24FF79
+        qzakvMMrPFbFa/+WPYJ0i1cdm9aSJhKWaq7WXK25+mq4umiWfQm/fc8TNSQdrwuNfwxVP2h7wctg
+        JZF/dQqsYNP7T2DdUemSRHUD3B5RO2cQ1c26JVFFCuclJYyrNVLrUbUeVV/TqLpoFl35V6D6nQC4
+        eYzTLumdgik5OaWSaGNz+Sl1D0iXpGlwSFOoa7XrP8yn/hNNlUzq8bS8uNfX/vraD53xSq79p8fT
+        3rM3ft8j3fAkT9unh1NS2FyepzskrX/9BvvVc+tOFQAA
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation,
+        Sunset
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '774'
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 20 May 2021 11:55:35 GMT
+      ETag:
+      - W/"4c224f1050345d8cbabda0bc76adbf78c8d6b9efa9562f60809c5bf33b2b5e2d"
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Vary:
+      - Accept, Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C5CE:1293:4C25F2:4F6D86:60A64E37
+      X-RateLimit-Limit:
+      - '60'
+      X-RateLimit-Remaining:
+      - '52'
+      X-RateLimit-Reset:
+      - '1621515206'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '8'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: HEAD
+    uri: https://api.github.com/repos/operator-framework/operator-lifecycle-manager/releases/assets/36465174
+  response:
+    body:
+      string: ''
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation,
+        Sunset
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '546'
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 20 May 2021 11:55:36 GMT
+      ETag:
+      - W/"92c3b95d743ff557167d6eb211b1f1be45ca77092669a0af14a8002c59395cc1"
+      Last-Modified:
+      - Wed, 05 May 2021 19:32:21 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Vary:
+      - Accept, Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C5D0:3ADB:8EC1FC:92889F:60A64E37
+      X-RateLimit-Limit:
+      - '60'
+      X-RateLimit-Remaining:
+      - '51'
+      X-RateLimit-Reset:
+      - '1621515206'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '9'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic cGVyc29uYWwtYWNjZXNzLXRva2VuOmd5U25rdXpMQnppeXhkU0JITkJ5
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: HEAD
+    uri: http://localhost:3000/api/v4/projects/test%2Ftest_from_github/packages/generic/olm/v0.18.1/install.sh
+  response:
+    body:
+      string: ''
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 20 May 2021 11:55:36 GMT
+      Vary:
+      - Origin
+      X-Request-Id:
+      - 01F64T32SJQV07WDGEFS3C7HE9
+      X-Runtime:
+      - '0.421378'
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://api.github.com/repos/operator-framework/operator-lifecycle-manager/releases/assets/36465174
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA51UXYvbMBD8L3pOotj56J2hlJaUQiEpB+nR9sUo0sbWVZGEJDvJmfz3rnzOXZKH
+        NikYbC8zs7O7WjWkcopkpAzB+oxSZuWgkKGsVgNuNtSBNZ4aC44F4/prxzawNe73W0jJNfA9V9Df
+        MM0KcMhRwDx4yryH4OloOp5Okndj0iNSkOz42yPaCMhjiMxnn/ff1Fe1+vJY8vTxEx8tlJjN08Xs
+        ZzJf8iFSNWZGpNQ+MKUGvsSYYitA87pSqkcqqwwT4EjWEGUKqRENO7E7pk0m4+l0mJynfZg+/lgo
+        /jTfLZYP6eLpY4SzmgXm8ovGtEHfNafy4LjRAXRo+1TRUaf/oX4fKy1cp9LWh4G/tjnKedq5LcNG
+        XSQ/mUgHWhulzBZZlzbP5/cmTF8ZaOblW+riRjYyGmpCCdgdtHyIhUofrjfRohsaXzj5yMdxOgfi
+        aiMdHm1sNTpo2iPaClUrz520QRp9vaEzFqoYVzAtn9ltKsjySG635epKWjSyoMZTdD3tBd5Q62TN
+        +D6W7oCDrLGJN0pd8FAp7G3csu843NhSGSBnYhN3ac2Uh0OPdKc+75DMWiV52y6667dbiRMKUaRb
+        SNEKPWMkGU8mPSJwcHFTc24qHUh2l96jqgMkiZxhgKTDNOkPJ/gsk/tslGZp8gtFKiv+iVk5s0Xv
+        +WuS87U72aP/vNOOwrQeDpK7QUJPLqTDH1Z4J25NBQAA
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation,
+        Sunset
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '546'
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 20 May 2021 11:55:36 GMT
+      ETag:
+      - W/"92c3b95d743ff557167d6eb211b1f1be45ca77092669a0af14a8002c59395cc1"
+      Last-Modified:
+      - Wed, 05 May 2021 19:32:21 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Vary:
+      - Accept, Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - C5D0:3ADB:8EC293:928932:60A64E38
+      X-RateLimit-Limit:
+      - '60'
+      X-RateLimit-Remaining:
+      - '50'
+      X-RateLimit-Reset:
+      - '1621515206'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '10'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: !!python/object/new:_io.BytesIO
+      state: !!python/tuple
+      - !!binary |
+        H4sIAAAAAAAAA51UXYvbMBD8L3pOotj56J2hlJaUQiEpB+nR9sUo0sbWVZGEJDvJmfz3rnzOXZKH
+        NikYbC8zs7O7WjWkcopkpAzB+oxSZuWgkKGsVgNuNtSBNZ4aC44F4/prxzawNe73W0jJNfA9V9Df
+        MM0KcMhRwDx4yryH4OloOp5Okndj0iNSkOz42yPaCMhjiMxnn/ff1Fe1+vJY8vTxEx8tlJjN08Xs
+        ZzJf8iFSNWZGpNQ+MKUGvsSYYitA87pSqkcqqwwT4EjWEGUKqRENO7E7pk0m4+l0mJynfZg+/lgo
+        /jTfLZYP6eLpY4SzmgXm8ovGtEHfNafy4LjRAXRo+1TRUaf/oX4fKy1cp9LWh4G/tjnKedq5LcNG
+        XSQ/mUgHWhulzBZZlzbP5/cmTF8ZaOblW+riRjYyGmpCCdgdtHyIhUofrjfRohsaXzj5yMdxOgfi
+        aiMdHm1sNTpo2iPaClUrz520QRp9vaEzFqoYVzAtn9ltKsjySG635epKWjSyoMZTdD3tBd5Q62TN
+        +D6W7oCDrLGJN0pd8FAp7G3csu843NhSGSBnYhN3ac2Uh0OPdKc+75DMWiV52y6667dbiRMKUaRb
+        SNEKPWMkGU8mPSJwcHFTc24qHUh2l96jqgMkiZxhgKTDNOkPJ/gsk/tslGZp8gtFKiv+iVk5s0Xv
+        +WuS87U72aP/vNOOwrQeDpK7QUJPLqTDH1Z4J25NBQAA
+      - 0
+      - null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic cGVyc29uYWwtYWNjZXNzLXRva2VuOmd5U25rdXpMQnppeXhkU0JITkJ5
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '546'
+      User-Agent:
+      - python-requests/2.25.1
+    method: PUT
+    uri: http://localhost:3000/api/v4/projects/test%2Ftest_from_github/packages/generic/olm/v0.18.1/install.sh
+  response:
+    body:
+      string: '{"message":"201 Created"}'
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Length:
+      - '25'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 20 May 2021 11:55:38 GMT
+      Etag:
+      - W/"6025f9a740871d09d0230776e3dbc7bf"
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Gitlab-Feature-Category:
+      - package_registry
+      X-Request-Id:
+      - 01F64T33ASH3S5X5FF2TJET6JM
+      X-Runtime:
+      - '0.804312'
+    status:
+      code: 201
+      message: Created
+version: 1
