@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: aicrowd-gym
+Version: 0.0.3
+Summary: A gym wrapper for RL evaluations on AIcrowd
+Home-page: https://gitlab.aicrowd.com/aicrowd/aicrowd-gym
+Author: AIcrowd
+Author-email: devops@aicrowd.com
+License: MIT
+Download-URL: https://gitlab.aicrowd.com/aicrowd/aicrowd-gym/-/archive/v0.0.3/aicrowd-gym-v0.0.3.tar.gz
+Keywords: AIcrowd,Gym
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: gym
+Requires-Dist: numpy
+Requires-Dist: loguru
+Requires-Dist: minio
+Requires-Dist: msgpack
+Requires-Dist: msgpack-numpy
+Requires-Dist: six
+Requires-Dist: tqdm
+Requires-Dist: zmq
+Requires-Dist: timeout-decorator (==0.5.0)
+
+# AIcrowd Gym
+
+A gym wrapper for RL evaluations on AIcrowd.
+
+
+
