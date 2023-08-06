@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: search-engines
+Version: 1.0.6
+Summary: Query and scrape search engines.
+Home-page: https://github.com/djkelleher/search_engines
+Author: Dan Kelleher
+Author-email: kelleherjdan@gmail.com
+Maintainer: Dan Kelleher
+Maintainer-email: kelleherjdan@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: test
