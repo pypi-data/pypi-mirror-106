@@ -1,0 +1,8 @@
+setup.py
+ypdf/__init__.py
+ypdf/pdf2image.py
+ypdf/pdf2text.py
+ypdf.egg-info/PKG-INFO
+ypdf.egg-info/SOURCES.txt
+ypdf.egg-info/dependency_links.txt
+ypdf.egg-info/top_level.txt
