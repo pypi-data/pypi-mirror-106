@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: md2web
+Version: 0.0.9
+Summary: An awesome and also useful sqlite high level api tools for python developer, enjoy~
+Home-page: https://github.com/szj2ys/md2web
+Author: szj
+Author-email: szj2ys@qq.com
+License: MIT
+Description: 
+        # md2web
+        Translate markdown to html, enjoy ~
+        
+        # Usage
+        
+        ## in command line 
+        ```shell
+        md2web --help
+        ```
+        example
+        ```shell
+        md2web README.md -f README.html
+        ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+include README.md requirements.txt
+include LICENSE
+recursive-exclude * __pycache__
+recursive-include examples *.py *.txt
+recursive-include sqliting/sqlite3_to_mysql/*
+recursive-include sqliting/static/*
+recursive-include sqliting/static/css/*
+recursive-include sqliting/static/fonts/*
+recursive-include sqliting/static/img/*
+recursive-include sqliting/static/js/*
+recursive-include sqliting/templates/*
