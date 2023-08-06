@@ -1,0 +1,9 @@
+mangadex/__init__.py,sha256=1YIwEi8CocPZ1u3FTKoZ-AJIrQzWqlM2vkgNjK7Ttt0,376
+mangadex/api.py,sha256=olwER0owb4Vwec4QZ9VoEX2RR7ioTC1Oni5q73kYpMk,23299
+mangadex/errors.py,sha256=CqfhTbqmyIMRjg9LA55bxBvaKOXjnKdfCL-P5s7gkHY,365
+mangadex/models.py,sha256=yfOgN_xtmW8-SdsZcgmLMfqMpkvnUe-oNQ7SR2WItsM,8299
+mangadex-1.3.0.dist-info/LICENSE,sha256=zHyKBEWL6IGI-SDZA8Q3LLs-KQJ5G1MijlmCFoO0uF8,1069
+mangadex-1.3.0.dist-info/METADATA,sha256=x1CfnP06arq6VdIlUldMk3Bfoueu5nKyRGf1PBcy-co,8622
+mangadex-1.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mangadex-1.3.0.dist-info/top_level.txt,sha256=JSSjyI23m7cFW615hiReg8wjlEQQjtoCgCLXSLeakPo,9
+mangadex-1.3.0.dist-info/RECORD,,
