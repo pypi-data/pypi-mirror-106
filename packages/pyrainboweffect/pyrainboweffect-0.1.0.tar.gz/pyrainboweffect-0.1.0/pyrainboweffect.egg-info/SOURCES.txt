@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyrainboweffect/__init__.py
+pyrainboweffect/__main__.py
+pyrainboweffect/pyrainboweffect.py
+pyrainboweffect.egg-info/PKG-INFO
+pyrainboweffect.egg-info/SOURCES.txt
+pyrainboweffect.egg-info/dependency_links.txt
+pyrainboweffect.egg-info/requires.txt
+pyrainboweffect.egg-info/top_level.txt
+test/test_pyrainboweffect.py

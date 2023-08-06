@@ -1,0 +1,34 @@
+[build-system]
+requires = [ "setuptools >= 35.0.2", "wheel >= 0.29.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py36,py36,py37,py38,py39
+
+[gh-actions]
+python =
+    3.6: py36
+    3.7: py37
+    3.8: py38
+    3.9: py39
+
+[testenv]
+deps = coverage
+       numpy
+       opencv-python
+       pillow
+       pycodestyle
+       pydoc-markdown==2.1.3
+       pylint
+commands = pycodestyle pyrainboweffect test setup.py
+           pylint --disable=E1101 pyrainboweffect test setup.py
+           coverage run --source=pyrainboweffect -m unittest discover
+           coverage report -m
+           python setup.py sdist
+           bash -c 'pydocmd simple pyrainboweffect++ \
+             pyrainboweffect.rainbowify++ pyrainboweffect.psychedelic_gif++ \
+             pyrainboweffect.psychedelic_mp4++ > doc/api_documentation.md'
+whitelist_externals = /bin/bash
+"""
