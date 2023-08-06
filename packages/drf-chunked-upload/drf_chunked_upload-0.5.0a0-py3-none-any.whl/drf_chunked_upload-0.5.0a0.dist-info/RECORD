@@ -1,0 +1,13 @@
+drf_chunked_upload/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+drf_chunked_upload/admin.py,sha256=WpwNvO7Sn4GJDCNtDSS_lk4B2f9pkwjWOfMa75cLQLs,431
+drf_chunked_upload/exceptions.py,sha256=x321e40KAjqS5cDv7lIc1TEoSYwTw-pHm7eZV_o0xBI,262
+drf_chunked_upload/models.py,sha256=sIOgP7M_k-lVIV6fsSNEvjKXwXCLNk-PmkjroTfTSoY,4528
+drf_chunked_upload/response.py,sha256=v6eWmuFchsfbzNwh0MOaZzfTqbl2H-mcvP3JRXyj-Fg,376
+drf_chunked_upload/serializers.py,sha256=TyJOFNG2ikQ7h0opuoA4cf9V1volBoSIc0iTfABtPCM,549
+drf_chunked_upload/settings.py,sha256=Z4WT8P1IHPyrYPvj6yYf2XImAyt_wLqX_vdI8Ft45Ek,1451
+drf_chunked_upload/views.py,sha256=KSTxuFSBQIQkeIUrFFUHy5drTgA3hin6UXAEg0ZF3LQ,10555
+drf_chunked_upload-0.5.0a0.dist-info/LICENSE.txt,sha256=yEiIU30_C-W1OUibUj_8TNn93O6lRm7I66w_s0NNUT4,980
+drf_chunked_upload-0.5.0a0.dist-info/METADATA,sha256=mOrlhUOOvq7GS9SzHWsY_U8-3iHvT5tmtFy6WwBitLA,5164
+drf_chunked_upload-0.5.0a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+drf_chunked_upload-0.5.0a0.dist-info/top_level.txt,sha256=4uZcXzL8FgPIAxa41Q35qMADgRoeOVFcaPfUglyh9ds,19
+drf_chunked_upload-0.5.0a0.dist-info/RECORD,,
