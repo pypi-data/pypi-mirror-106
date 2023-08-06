@@ -1,0 +1,7 @@
+jfaleiro_pqueue/__init__.py,sha256=A2lZHTevoESeb4x8qrbPaiEE-joDQi3KF6Rfwo97mEE,853
+jfaleiro_pqueue/_version.py,sha256=3tW2WwCUFv8MnvksjHYqilxGH4kh3KZZwnRL2nx2Yto,112
+jfaleiro_pqueue/heap.py,sha256=jaZoqcxvyvI3PqtutfFVOW0Kks5Pz5i1pmtGnK1YVDI,2236
+jfaleiro.pqueue-0.0.1.dist-info/entry_points.txt,sha256=Do1W9nucjhGDOovfdt9nnfU0tEdmgR0RpE7Uh5FylLI,57
+jfaleiro.pqueue-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+jfaleiro.pqueue-0.0.1.dist-info/METADATA,sha256=duozQEBEELVDq7EV5Bbhj5R9_5dXt5tnGpSs3HGsFPM,4788
+jfaleiro.pqueue-0.0.1.dist-info/RECORD,,
