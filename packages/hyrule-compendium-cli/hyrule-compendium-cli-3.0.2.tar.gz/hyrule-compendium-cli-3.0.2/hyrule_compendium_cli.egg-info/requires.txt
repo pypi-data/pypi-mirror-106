@@ -1,0 +1,4 @@
+pyrule-compendium==2.4.1
+click
+Pygments
+termcolor
