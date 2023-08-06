@@ -1,0 +1,17 @@
+wrapt~=1.10
+aenum
+filelock
+mypy_extensions<0.5.0,>=0.4.0
+
+[:platform_system == "Windows"]
+windows-curses
+pywin32
+
+[neovi]
+python-ics>=2.12
+
+[seeedstudio]
+pyserial>=3.0
+
+[serial]
+pyserial~=3.0

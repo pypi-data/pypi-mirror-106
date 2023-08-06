@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: Driver_zch
+Version: 3.2.0
+Summary: Controller Area Network interface module for Python
+Home-page: https://github.com/ZhouCH1218/zhouch23
+Author: zhouch23
+Author-email: 844582152@qq.com
+License: LGPL v3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Natural Language :: English
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Provides-Extra: seeedstudio
+Provides-Extra: serial
+Provides-Extra: neovi
