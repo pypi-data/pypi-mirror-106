@@ -1,0 +1,25 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+Wellness_Bot.egg-info/PKG-INFO
+Wellness_Bot.egg-info/SOURCES.txt
+Wellness_Bot.egg-info/dependency_links.txt
+Wellness_Bot.egg-info/requires.txt
+Wellness_Bot.egg-info/top_level.txt
+app/.DS_Store
+app/__init__.py
+app/__main__.py
+app/__version__.py
+app/challenge.py
+app/challenge_runner.py
+app/challenges/10crunches.yaml
+app/challenges/10ice-climbers.yaml
+app/challenges/5burpees.yaml
+app/challenges/5pushups.yaml
+app/challenges/5squats.yaml
+app/challenges/backstretch.yaml
+app/challenges/challenge_template.yaml
+app/challenges/mScale3 copy.yaml
+app/challenges/mScale3.yaml
+bin/start
