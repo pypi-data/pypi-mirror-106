@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+silkpy/__init__.py
+silkpy/geometry_map.py
+silkpy.egg-info/PKG-INFO
+silkpy.egg-info/SOURCES.txt
+silkpy.egg-info/dependency_links.txt
+silkpy.egg-info/top_level.txt
