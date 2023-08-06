@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: audio-curation
+Version: 0.0.2
+Summary: Some scripts for checking and curating audio file contributions to the Mahabharata audio project.
+Home-page: https://github.com/sanskrit-coders/audio_curation
+Author: Sanskrit programmers
+Author-email: sanskrit-programmers@googlegroups.com
+License: MIT
+Description: UNKNOWN
+Keywords: audio internet-archive
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: test
