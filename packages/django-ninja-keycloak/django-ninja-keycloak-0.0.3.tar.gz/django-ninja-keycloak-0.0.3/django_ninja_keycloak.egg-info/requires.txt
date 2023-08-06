@@ -1,0 +1,3 @@
+django-ninja
+pyjwt
+python-keycloak
