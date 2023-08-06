@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pycololight
+Version: 0.0.0
+Summary: Placeholds description
+Home-page: https://github.com/BazaJayGee66/pycololight
+License: MIT
+Author: BazaJayGee66
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/BazaJayGee66/pycololight
+Description-Content-Type: text/markdown
+
+# pycololight
+A Python3 wrapper for interacting with LifeSmart ColoLight
+
