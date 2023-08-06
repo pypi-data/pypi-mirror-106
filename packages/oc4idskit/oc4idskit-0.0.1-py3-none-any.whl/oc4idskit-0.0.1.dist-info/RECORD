@@ -1,0 +1,13 @@
+oc4idskit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oc4idskit/transforms.py,sha256=avn5GcEw6qKz5pHaZzd7FyUOyXh_L4HEb6Ksc4Vr1IM,36495
+oc4idskit/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oc4idskit/cli/__main__.py,sha256=mdldK7rDkqYb3i5sF4t67N-qO5UWWUf3WjXtrJkdCg4,437
+oc4idskit/cli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oc4idskit/cli/commands/convert_from_ocds.py,sha256=Fodovo2R_hCCX3a0loLo8FceS101TRFCMHe3B4e7TbU,1579
+oc4idskit/cli/commands/split_project_packages.py,sha256=bp-WZRm3CWONqj0Ia-If1_HhJ6mDvojggREYIyNdCkY,726
+oc4idskit-0.0.1.dist-info/LICENSE,sha256=b7zZ1sga-QQqFbGom2wqzEnrs0PHjEfK6FlpSUL_qAM,1528
+oc4idskit-0.0.1.dist-info/METADATA,sha256=C03P9NWruwZLd7O48TrwUkeFbnmj6Ug3pULf4DzpBUA,2054
+oc4idskit-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+oc4idskit-0.0.1.dist-info/entry_points.txt,sha256=K2Z3TZNvlxez26o6l46ABqxucIXq1IDHyc41tZswWMg,59
+oc4idskit-0.0.1.dist-info/top_level.txt,sha256=QStSTHuVfXazi_kjNQ8nheFJwnwjxzFXdQ14mM4O4hg,10
+oc4idskit-0.0.1.dist-info/RECORD,,
