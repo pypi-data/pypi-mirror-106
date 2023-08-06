@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aural-features
+Version: 1.0.0
+Summary: MERIDIAN Python package for computing a set of perceptual acoustic features chacterizing a sound as it is perceived by the human brain
+Home-page: https://gitlab.meridian.cs.dal.ca/public_projects/aural-features
+Author: Dave Flogeras, Oliver Kirsebom
+Author-email: dflogeras2@gmail.com, oliver.kirsebom@dal.ca
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy (>=1.6.0)
+
+UNKNOWN
+
+
