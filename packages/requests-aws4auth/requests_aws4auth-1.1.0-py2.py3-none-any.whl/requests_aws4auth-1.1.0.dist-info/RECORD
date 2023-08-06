@@ -1,0 +1,12 @@
+HISTORY.md,sha256=vZBy_J9sC2d-Mfz8U5MPNrM5bzIHcnSpoanBSNm5F0E,5004
+LICENSE,sha256=pbMpx9Os-ZCah3royRy9iL-e2UrjtB_dSNcPcduFDrQ,1082
+README.md,sha256=Sc1bDOHFQbie_XSLRWXrOMn6bKOIIaIRtbBRs_gigwA,10516
+requests_aws4auth/__init__.py,sha256=vd0x14u1zA2QZR3jLZxSaudPKulMLDP1foU4FiurUY0,8452
+requests_aws4auth/aws4auth.py,sha256=r85v-WG737UPgG99S4DD8XTxPBahW0QE4uBEeOAtP7I,33685
+requests_aws4auth/aws4signingkey.py,sha256=8ooNvrKCk-pjitb_0VLvtNBQgusQV1yvFwywIOTh1Xs,5437
+requests_aws4auth/exceptions.py,sha256=j5slGw2ugxqGfeq6zbXiQshOaP0qf3KZlvtRy-AzoPw,408
+requests_aws4auth-1.1.0.dist-info/LICENSE,sha256=pbMpx9Os-ZCah3royRy9iL-e2UrjtB_dSNcPcduFDrQ,1082
+requests_aws4auth-1.1.0.dist-info/METADATA,sha256=andlwXNPQzPnjFl19ESVCwFNRD95xTIpNC2jrK8Gq_Q,16666
+requests_aws4auth-1.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+requests_aws4auth-1.1.0.dist-info/top_level.txt,sha256=V51K8w0kWZWck06dvvntjIFHAzzxKs86IsO3NqcIzDk,18
+requests_aws4auth-1.1.0.dist-info/RECORD,,
