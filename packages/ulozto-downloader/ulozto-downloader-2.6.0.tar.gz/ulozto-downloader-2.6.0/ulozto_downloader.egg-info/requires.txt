@@ -1,0 +1,6 @@
+requests
+Pillow
+ansicolors
+numpy
+pysocks
+stem
