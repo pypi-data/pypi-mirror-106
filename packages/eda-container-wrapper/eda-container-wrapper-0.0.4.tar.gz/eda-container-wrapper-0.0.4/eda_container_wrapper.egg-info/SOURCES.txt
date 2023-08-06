@@ -1,0 +1,15 @@
+.gitignore
+README.md
+setup.py
+.github/workflows/python-publish.yml
+eda_container_wrapper.egg-info/PKG-INFO
+eda_container_wrapper.egg-info/SOURCES.txt
+eda_container_wrapper.egg-info/dependency_links.txt
+eda_container_wrapper.egg-info/entry_points.txt
+eda_container_wrapper.egg-info/top_level.txt
+edacontainerwrapper/__init__.py
+edacontainerwrapper/arguments.py
+edacontainerwrapper/main.py
+edacontainerwrapper/run.py
+edacontainerwrapper/tools.py
+edacontainerwrapper/version.py
