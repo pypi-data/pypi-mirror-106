@@ -1,0 +1,12 @@
+sidis/__init__.py,sha256=rEY7Ttqmn5Qzt8n39fMGAajH1jLN_mitv_V15-Apzr8,369
+sidis/_nbdev.py,sha256=iJXh5LzWuXcXzEdYhTyQrofp2uJZKaDXqW94CSSR9c4,2664
+sidis/conversion.py,sha256=RhRWG4yiuBAvNwd2Vfw3b98dtSTN-vf-PgyO67B9x-w,14062
+sidis/recursion.py,sha256=ssx4hla7CzfmpPLjUELh2U8pYFGzx3TH1KHeVB4h2Eg,8897
+sidis/templates.py,sha256=bzF-rpblAL3NL86LY3xBpSWKyliu5agivEa0cuSfVSU,4830
+sidis/utils.py,sha256=NPYAHsr4Q96nlGkJH1ME5duUv9Gjc-FWdced3Ee1IXQ,4783
+sidis-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+sidis-0.0.1.dist-info/METADATA,sha256=aVJYIsihSb3ouie8QI8FLMYXxuOyOMHf3caAIo628-A,5523
+sidis-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+sidis-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+sidis-0.0.1.dist-info/top_level.txt,sha256=WliNzyJ2ZBg7V4LNSzTqHiL9vkre9dMoz8uRM_8XW-A,6
+sidis-0.0.1.dist-info/RECORD,,
