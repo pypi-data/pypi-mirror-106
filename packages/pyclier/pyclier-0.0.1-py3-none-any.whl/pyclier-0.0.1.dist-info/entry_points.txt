@@ -1,0 +1,3 @@
+[console_scripts]
+pyclier = pyclier.pyclier:main
+
