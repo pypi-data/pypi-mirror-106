@@ -1,0 +1,13 @@
+json2netns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json2netns/config.py,sha256=835eAPyQbjt1-PpvA_BEgd7mc9ovNSno3pDo3OROO9c,552
+json2netns/main.py,sha256=UAHbxEHbAybtjPrd7eBEgxj_tQIznaSp4mMeHF-sKtw,4229
+json2netns/netns.py,sha256=cHJTTJzcN-EtGW30HrgfiIvyP_lq7V1AIesEI7G1REE,11712
+json2netns/sample.json,sha256=abL_niX-Rv-sr_F_R4R6S_0BkUgXNyvQYPpugZqqKTY,1080
+json2netns/tests/base.py,sha256=vugmB7y4ESzZsfBaIA1WEqODR1iuQa0al9xYTrxnsH4,2181
+json2netns/tests/netns.py,sha256=MuawHsiwDfw-2YD37O-hXAdvYeVSxz8vlJyTCyU_Qjc,3597
+json2netns-2021.5.17.dist-info/LICENSE,sha256=iPt69jjkMf88LnkE8BqKB6gnIrvmWT42TubY7bKXJdo,1321
+json2netns-2021.5.17.dist-info/METADATA,sha256=CTKzGmhpUtWbaH6mE62yqaLB2PilXT4E1bYtFcJrrRs,3424
+json2netns-2021.5.17.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+json2netns-2021.5.17.dist-info/entry_points.txt,sha256=bnamFHe7helvezhgXbO3n9PruBi724Q4Ytzz2f1gyts,53
+json2netns-2021.5.17.dist-info/top_level.txt,sha256=LXcDWCfUTP8hhaDFrsLlgE04XAQmBZydVORbOVqPFJ8,11
+json2netns-2021.5.17.dist-info/RECORD,,
