@@ -1,0 +1,13 @@
+ftpdata/Instance.py,sha256=VF6c-zmGl0F9C9kQh2qwln7kSWeIKIaE8wV7GfruolE,263
+ftpdata/Navigator.py,sha256=kIieRDC75hzFunzeoECobRPEqwmBnHV2zaP3KZogAI4,891
+ftpdata/QueryResult.py,sha256=A6N1dyFuziKXOaSmjCAkRTkbhbBRLbSXAiqkq8NCD3I,2248
+ftpdata/__init__.py,sha256=0cJeDrXe94yXWKyIxGYp3EZdtvvSXqqQm9kCy6c3K-E,70
+ftpdata/create_engine.py,sha256=ZRMmbiAexxBqfNIKtPSl6rKrphXM8QH5JZ79VJTog6c,425
+ftpdata/exceptions.py,sha256=vnHov0oqdIpUEHZXUUYI5mt5VEIpTzgZ1BSEhvqjZck,393
+ftpdata/preset.py,sha256=y_2RdmeCrL_6KBu0fzUg7t3esNUJB8_KyPc43k3KR4U,1133
+ftpdata/util.py,sha256=elISL1edie3doU-VAwqJUWCP2HfQK3WZjNiPNVhMSuk,690
+ftpdata-0.0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+ftpdata-0.0.4.dist-info/METADATA,sha256=McON6uTHTVytxfIgR_GsBlTXW_F6_CkAMGAoctAFRBo,803
+ftpdata-0.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ftpdata-0.0.4.dist-info/top_level.txt,sha256=54evQF4mKJsZf3nOPbQD_oUayTA4PD7AFsyUc5r1A54,8
+ftpdata-0.0.4.dist-info/RECORD,,
