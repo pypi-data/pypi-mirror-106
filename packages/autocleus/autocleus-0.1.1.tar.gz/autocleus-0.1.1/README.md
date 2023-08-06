@@ -1,0 +1,67 @@
+<h1 style="color: white; background-color: #af9cd9; padding: 2em 0; text-align: center">Autocleus<img align="left" width="50" height="50" src="https://user-images.githubusercontent.com/46717543/119012691-3e6b0000-b964-11eb-9472-850824720128.png"></h1>
+
+A demi god amongst CLIs: A CLI for creating your own CLIs in Python Easily. Autocleus provides the core engine for your CLI, allowing you to focus on building out the functionality of your CLI without the concern of actually building a CLI. When you finished developing your CLI, you can then package it up using Autocleus. Let Autocleus be of service to you.
+
+## Quickstart
+You can install the most recent version of autocleus from the PyPi repository:
+
+<code>pip3 install autocleus</code>
+
+Autocleus requirements:
+
+* Pydantic==1.7.3
+* typing==3.7.4.3
+* PyInquirer==1.0.3
+* virtualenv==20.4.4
+* art==5.1
+* jinja2==2.10.1
+* setuptools==45.2.0
+* pip==20.0.2
+* asciimatics==1.12.0
+* yaspin==1.5.0
+* yamldirs==1.1.8
+
+Also need to install python3-venv (Ubuntu, apt-get install -y python3-venv)
+
+Please note that this is still under development and has not been properly unit tested. 
+
+Once you've installed autocleus, the CLI will be accessible from your environment. Currently there is only 1 subcommand <code>generate</code> with two options:
+
+1. <code>--custom_cli</code>: Will launch the interactive form for starting an autocleus CLI project, which is contained within a virtual environment.
+2. <code>--concretized_cli</code>: Will launch the interactive form to package an autocleus CLI project into an installable .whl file and a .tar archive (if desired). This will also produce a CLI spec, which is an sqlite database that stores all information about your package, including all of the building blocks of your package. This is meant to be used in an upcoming feature to allow any number of autocleus CLI projects to be combined into a single "master" CLI.
+  
+Here we will go through the two options for the <code>generate</code> subcommand. 
+ 
+  1. <code>autocleus generate --custom_cli</code>
+  
+  ![autocleus custom_cli demo](https://user-images.githubusercontent.com/46717543/119040566-92391180-b983-11eb-8a36-75077a12b613.gif)
+   **Questions**
+   * Tasks: Use space bar or click to select what tasks you would like performed. While all are suggested, only those required are selected by default.
+   *  
+   * 
+      
+   2. <code>autocleus generate --concretized_cli</code>
+   <br>*work in progress*
+  
+  ![autocleus concretized_cli demo](https://user-images.githubusercontent.com/46717543/119048027-a8979b00-b98c-11eb-8a8e-a6356207641e.gif)
+
+   **Questions**
+   * Tasks: Use space bar or click to select what tasks you would like performed. While all are suggested, only those required are selected by default.
+   *  
+   * 
+## Developing a CLI with Autocleus
+
+## TODOs
+* Finish README
+* The main parser help function does not work (i.e --help-all or --help)
+* Add feature to output responses to interactive form to YAML and allow autocleus to auto-detect such YAMLs or allow build from such YAMLs (i.e non-interactive mode).
+* Way to many redundant (lazy) imports across package - needs to be cleaned up.
+* More error catching needs to be added in many places (when creating files, directories, etc...).
+* Write real unit tests and setup GitHub actions for CI/CD - current codes in 'tests' directory are just me trying to get things to work :)
+
+## Known Issues
+Autocleus depends on python-virtualenv library: On Unbuntu 20.04 sometimes it is required that you remove and re-install this. 
+
+<code>sudo apt-get remove python3-venv </code>
+<br>
+<code>sudo apt-get install -y python3-venv</code>
