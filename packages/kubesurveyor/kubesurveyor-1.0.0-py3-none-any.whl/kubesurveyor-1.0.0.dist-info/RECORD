@@ -1,0 +1,6 @@
+kubesurveyor/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+kubesurveyor/main.py,sha256=IFn30fwjZDKTOPR1GZPmv7ERYMFosp6YxKYkTk9CRzA,13289
+kubesurveyor-1.0.0.dist-info/entry_points.txt,sha256=aRrTvj5x9sAEF72ZOCClkf1ov-h7vToqrtm-ZbYko_Y,61
+kubesurveyor-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+kubesurveyor-1.0.0.dist-info/METADATA,sha256=soSs51GFMuGpIIBW9HQEIUgMCSNcgyml3vVpDG53UDk,2489
+kubesurveyor-1.0.0.dist-info/RECORD,,
