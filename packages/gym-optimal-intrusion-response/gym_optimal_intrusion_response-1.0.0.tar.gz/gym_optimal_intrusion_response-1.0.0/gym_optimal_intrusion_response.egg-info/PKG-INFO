@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: gym-optimal-intrusion-response
+Version: 1.0.0
+Summary: A Simulated Optimal Intrusion Response Game
+Home-page: https://github.com/Limmen/gym-optimal-intrusion-response
+Author: Kim Hammar
+Author-email: hammar.kim@gmail.com
+License: Creative Commons Attribution-ShareAlike 4.0 International
+Description: UNKNOWN
+Keywords: Reinforcement-Learning Cyber-Security
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

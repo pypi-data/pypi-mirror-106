@@ -1,0 +1,6 @@
+gym
+pyglet
+numpy
+torch
+stable_baselines3
+jsonpickle
