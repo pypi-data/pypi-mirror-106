@@ -1,0 +1,8 @@
+README.md
+setup.py
+pytfhe/__init__.py
+pytfhe/file.py
+pytfhe.egg-info/PKG-INFO
+pytfhe.egg-info/SOURCES.txt
+pytfhe.egg-info/dependency_links.txt
+pytfhe.egg-info/top_level.txt
