@@ -1,0 +1,8 @@
+htminify/__init__.py,sha256=pbwU9Ssb78_8I5jgCT4ZHE3ktymAhgPoaAzz_3Cw98M,46
+htminify/htminify.py,sha256=sfh1eSOeR8vzXXWP-jOUpFejBywalt3fENesI9Ogpko,1538
+htminify/wsgi.py,sha256=T6XazSSoqX3cfExHmEzxI8so9q68UjVPwKwnaofvRaY,3028
+LICENSE,sha256=B08FvftCpTvPd-QNwyllg2Up0x4u4eJ-d6b1R_UxmU8,1552
+htminify-0.1.1.dist-info/LICENSE,sha256=B08FvftCpTvPd-QNwyllg2Up0x4u4eJ-d6b1R_UxmU8,1552
+htminify-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+htminify-0.1.1.dist-info/METADATA,sha256=8As2-qcvGniz1yxRbchqyrrnvdCBDYJTFaY0l_VyJh4,3762
+htminify-0.1.1.dist-info/RECORD,,
