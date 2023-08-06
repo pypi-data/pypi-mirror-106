@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: colorful-logger
+Version: 0.0.1
+Summary: 
+        A colorful logger for python3.        
+Home-page: https://github.com/thep0y/python-logger
+Author: thepoy
+Author-email: thepoy@163.com
+License: MIT
+Keywords: log logger logging colorful
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# python-logger
+Colorful logger for python3
+
+## How to use
+
+### Install
+
+```shell
+pip install colorful-logger
+```
+
+### Usage
+
+You can directly use the default logger, the colored logs will be printed on the terminal, and the default logger level is **warning**.
+
+```python
+from colorful_logger.logger import logger
+
+logger.warning("This is a warning message.")
+```
+
+You can also change the log level, save the log to a file, change the logger name, and the log may not be output to the terminal.
+
+```python
+import logging
+from colorful_logger.logger import get_logger
+
+logger = get_logger(name="logger", level=logging.INFO, show=False, file_path="./test.log")
+
+logger.info("This is a info message.")
+logger.warning("This is a warning message.")
+logger.error("This is a error message.")
+logger.fatal("This is a fatal message.")
+```
+
+
+
+
+
