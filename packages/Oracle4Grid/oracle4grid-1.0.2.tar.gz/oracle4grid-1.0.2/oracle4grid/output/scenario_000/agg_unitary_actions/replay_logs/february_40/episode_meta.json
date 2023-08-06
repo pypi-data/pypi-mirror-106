@@ -1,0 +1,11 @@
+{
+    "agent_seed": null,
+    "backend_type": "LightSimBackend_wcci_test",
+    "chronics_max_timestep": "400",
+    "chronics_path": "D:\\Projets\\RTE\\Oracle4Grid\\data\\wcci_test\\chronics\\february_40",
+    "cumulative_reward": 0.0,
+    "env_seed": null,
+    "env_type": "Environment_wcci_test",
+    "grid_path": "D:\\Projets\\RTE\\Oracle4Grid\\data\\wcci_test\\grid.json",
+    "nb_timestep_played": 1
+}
