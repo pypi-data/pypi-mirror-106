@@ -1,0 +1,3 @@
+[console_scripts]
+theming = theming.__main__:main
+
