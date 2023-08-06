@@ -1,0 +1,13 @@
+README.md
+setup.py
+PythonPip.egg-info/PKG-INFO
+PythonPip.egg-info/SOURCES.txt
+PythonPip.egg-info/dependency_links.txt
+PythonPip.egg-info/top_level.txt
+myPackage/__init__.py
+myPackage/libPackage/__init__.py
+myPackage/libPackage/getAdministrativeDivions.py
+myPackage/libPackage/getCities.py
+myPackage/libPackage2/__init__.py
+myPackage/libPackage2/getCountries.py
+myPackage/libPackage2/getCountriesByName.py
