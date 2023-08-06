@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: netmri-bootstrap
+Version: 0.0.3
+Summary: Bootstrapper for interaction with NetMRI
+Home-page: https://github.com/infobloxopen/netmri-bootstrap
+Author: Ingmar Van Glabbeek
+Author-email: ingmar@infoblox.com
+License: Apache
+Keywords: netmri-bootstrap
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+Requires-Dist: requests (>=2.5.2)
+Requires-Dist: urllib3 (>=1.13)
+Requires-Dist: setuptools (>=17.1)
+Requires-Dist: six (>=1.10)
+Requires-Dist: wheel (>=0.33)
+Requires-Dist: lxml (>=4.5.0)
+Requires-Dist: gitpython (>=3.1.2)
+Requires-Dist: infoblox-netmri (>=3.7.0.0)
+
+===============================
+README: NetMRI Bootstrap
+===============================
+
+.. image:: https://img.shields.io/pypi/v/netmri-bootstrap.svg
+        :target: https://pypi.python.org/pypi/netmri-bootstrap
+
+.. image:: https://codecov.io/github/infobloxopen/netmri-bootstrap/coverage.svg?branch=master
+        :target: https://codecov.io/github/infobloxopen/netmri-bootstrap?branch=master
+
+.. image:: https://readthedocs.org/projects/netmri-bootstrap/badge/?version=latest
+        :target: http://netmri-bootstrap.readthedocs.org/en/latest/?badge=latest
+
+.. image:: https://travis-ci.org/infobloxopen/netmri-bootstrap.svg?branch=master
+    :target: https://travis-ci.org/infobloxopen/netmri-bootstrap
+
+Bootstrap Framework to facilitate development on NetMRI
+
+* Free software: Apache license
+* Documentation: https://netmri-bootstrap.readthedocs.org.
+
+Intent
+------------
+The goal of NetMRI-bootstrap is to be a framework that allows you to easily write, maintain and run scripts
+and policies on NetMRI. The workflow would be that you clone this project so it can access your NetMRI instance
+and place your scripts in the relevant folder.
+
+
+
+Installation
+------------
+
+Install netmri-bootstrap using pip:
+
+::
+
+  pip install netmri-bootstrap
+
+
+
+
+History
+-------
+0.0.1 (2019-11-07)
+___________________
+* Initial commit
+
+
