@@ -1,0 +1,15 @@
+jcore/__init__.py,sha256=Az-kn4-0gAETSkC2JJfHgLn5f_5d1lqyw6r7apgryzc,711
+jcore/__main__.py,sha256=HGklcXjhMOAbx1O60epQ3HP6p8UW9eJwiecil30hdTQ,644
+jcore/client.py,sha256=UuPmQc_thbuMf65SlZ5K-4AhjPUAJqNM5qIdertSDoU,23226
+jcore/exceptions.py,sha256=zyKruBZ9bFZvbiI-nvwxyW33Cy_ApLtcZJbKUIwqr9o,1471
+jcore/jsocket.py,sha256=hIrbsE2JHkKhu0dOPdal5E2CRH3yV8jRY3_DJCRTTE4,9090
+jcore/message.py,sha256=xyN9drK1ryCQprzF00wNDBd_BeS4wg4jSpXjDnrhgPo,20029
+jcore/messageparser.py,sha256=YSfqoeLsGH4CeI8ik1aG8uaz8XrmsysDEGI0cmC8vyk,13142
+jcore/extensions/__init__.py,sha256=c9Dz7VukRiobLSv9AvaXQpaMEO3_GKw_GQpSfTQ9W0E,28
+jcore/extensions/module.py,sha256=dySme9xmPLeCAOoywS5N30YCN99gZPYZnTcoS2UjOFE,3489
+jcore/helpers/__init__.py,sha256=Wr1kI3K6HM-ETHpe10jsLzpCD9M_AJUtzw6ZJIpBKRg,32
+jcore/helpers/settings.py,sha256=FRsO0pVy0mRmKY0CS4M_htdedfvDoUVvSMApuxtLQ-0,4116
+jcore-0.2.0.1.dist-info/METADATA,sha256=2Pp9wORuRE8NyIlAb_i_VGm-MyW9zrvmRkpPk01DfpM,3664
+jcore-0.2.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jcore-0.2.0.1.dist-info/top_level.txt,sha256=o4MYycn2tizs-BDQksjxXWsokAeVaiBH0dws8iALQQc,6
+jcore-0.2.0.1.dist-info/RECORD,,
