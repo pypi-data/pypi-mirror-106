@@ -1,0 +1,6 @@
+README.md
+setup.py
+chameleontest.egg-info/PKG-INFO
+chameleontest.egg-info/SOURCES.txt
+chameleontest.egg-info/dependency_links.txt
+chameleontest.egg-info/top_level.txt
