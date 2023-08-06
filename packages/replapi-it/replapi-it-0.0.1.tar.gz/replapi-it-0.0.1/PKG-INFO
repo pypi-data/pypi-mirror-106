@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: replapi-it
+Version: 0.0.1
+Summary: ReplAPI-It for Python
+Home-page: https://github.com/ReplAPI-it/Python-ReplAPI-It
+License: GPL-3.0-only
+Author: BD103
+Author-email: dont@stalk.me
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/ReplAPI-it/Python-ReplAPI-It
+Description-Content-Type: text/markdown
+
+# Python-ReplAPI-It
+Python package that mirrors the original Nodejs ReplAPI-It.
+
+## Contributing
+
+1. Fork the repo:
+
+```shell
+$ git clone https://github.com/ReplAPI-it/Python-ReplAPI-It.$ poetry install
+```
+
+2. Edit the project
+3. Clean up:
+
+```shell
+$ isort .
+$ flake8
+```
+
+4. Create a PR!
