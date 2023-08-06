@@ -1,0 +1,9 @@
+JJCale/__init__.py,sha256=YklpEP1oZZdIdA1dkhiEgaIJfmUgoW1j-9lR3iAXPnw,47
+JJCale/app.py,sha256=c46HccpbMcUvFQQ1cMpuS5HN7E-2viGV6lRsnjR_JFQ,1333
+JJCale/middlewares.py,sha256=5plypJy6SqBFcbb2MSpCHnv_KElm5dbIZmMTdIPpkeA,1058
+JJCale/response.py,sha256=IvXadP6A2JD5xykXNV5EVT_hZy4FkR0Xw_VZw7Zwf5E,714
+JJCale/router.py,sha256=lfM6VeKnJ0TpndgREYV5u_zk98WXbQWsY6WloCFpRYs,2389
+JJCale-0.0.3.1.dist-info/METADATA,sha256=8qh4joAWti00N2WyUwgN5GYFdV3VMs9wGulWVy4qL7Y,414
+JJCale-0.0.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+JJCale-0.0.3.1.dist-info/top_level.txt,sha256=Mpe_vhFRpvTV8n6eyndbMFbhVNQ6wB41ZleCjTLvyoo,7
+JJCale-0.0.3.1.dist-info/RECORD,,
