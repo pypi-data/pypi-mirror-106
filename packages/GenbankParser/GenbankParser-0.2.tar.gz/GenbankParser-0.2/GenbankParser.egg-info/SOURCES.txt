@@ -1,0 +1,9 @@
+README.md
+setup.py
+GenbankParser/__init__.py
+GenbankParser.egg-info/PKG-INFO
+GenbankParser.egg-info/SOURCES.txt
+GenbankParser.egg-info/dependency_links.txt
+GenbankParser.egg-info/top_level.txt
+GenbankParser/Classes/ParseGenbank.py
+GenbankParser/Classes/__init__.py

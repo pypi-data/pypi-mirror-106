@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: GenbankParser
+Version: 0.2
+Summary: Python classes for parsing Genbank files.
+Home-page: UNKNOWN
+Author: Sander Granneman
+Author-email: sgrannem@ed.ac.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Freeware
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
