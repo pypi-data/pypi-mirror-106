@@ -1,0 +1,11 @@
+pdbr/__init__.py,sha256=W_srBKSYHbxv8Qmta_ULQ6mK3uQqWzNVBogJDV8jBMY,169
+pdbr/__main__.py,sha256=ibyXs-qR6bXn09e2m-T-ejz9rlGH-ncW5WY_LUZYZck,1039
+pdbr/_pdbr.py,sha256=tZEv-l5QYS0fg13Ud9Vp0bCtu1zGu9TVGstCAi0GZ20,10736
+pdbr/cli.py,sha256=PUicAWiyLh20GrF8u-ib-yAETB2yehNVug1PqWogxYY,2412
+pdbr/console_layout.py,sha256=tlRJM-o6MWvyhw6iJ25ZSNEhcQ5qhClV1MS5ZWqoptA,1577
+pdbr/utils.py,sha256=i7dM1uHAXk29DJqVMp15PZXSmf51-HdXPrDejdw27qA,2813
+pdbr-0.5.2.dist-info/entry_points.txt,sha256=pbBuwBF79P-zxaiaViw_nvfamL9w6Kg7NwBj7evpTYM,67
+pdbr-0.5.2.dist-info/LICENSE,sha256=rLQYH2__0ql2zG1t_iUmJZ8BL-DhX9VHhvQOZ-C5oII,1070
+pdbr-0.5.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pdbr-0.5.2.dist-info/METADATA,sha256=rWIjei2WflrzrtVwyMX_u4-E9mDu0AAvOVjojvDWPOA,4626
+pdbr-0.5.2.dist-info/RECORD,,
