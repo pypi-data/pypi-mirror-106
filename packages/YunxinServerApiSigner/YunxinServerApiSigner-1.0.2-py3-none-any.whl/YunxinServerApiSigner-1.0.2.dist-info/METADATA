@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: YunxinServerApiSigner
+Version: 1.0.2
+Summary: 云信服务端api签名器
+Home-page: https://g.hz.netease.com/jiaojian1/yunxinserverapisigner
+Author: netease.jiaojian1
+Author-email: netease.jiaojian1@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+
+UNKNOWN
+
+
