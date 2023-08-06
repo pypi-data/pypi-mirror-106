@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/deeperwin/__init__.py
+src/deeperwin/__main__.py
+src/deeperwin/main.py
+src/deeperwin.egg-info/PKG-INFO
+src/deeperwin.egg-info/SOURCES.txt
+src/deeperwin.egg-info/dependency_links.txt
+src/deeperwin.egg-info/requires.txt
+src/deeperwin.egg-info/top_level.txt
