@@ -1,0 +1,15 @@
+classification:
+  default:
+    - LogisticRegression
+    - SupportVectorMachine
+    - GradientBoostingTree
+    - XGBClassifier
+    - LightGBMClassifier
+    - RandomForestClassifier
+    - KNNClassifier
+    - DecisionTreeClassifier
+    - AdaboostClassifier
+regression:
+  default:
+    - LinearRegression
+    - GradientBoostingRegressor
