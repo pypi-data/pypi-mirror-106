@@ -1,0 +1,2 @@
+This is a sample file content for an additional data file
+(Don't manage configurations that way -> use the user directory instead to save configs)

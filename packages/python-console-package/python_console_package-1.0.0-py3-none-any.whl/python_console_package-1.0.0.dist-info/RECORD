@@ -1,0 +1,17 @@
+package/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+package/entrypoint.py,sha256=3r4LcispWErFlFl7jwy8gssQSGqLZYRqnVZd4Uwhhh8,1858
+package/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/models/module_functions.py,sha256=-c7uLzH6vtlO8yKJqO9YJ5-U9yy4bXM3S_bKCtsY0lQ,187
+package/models/mymodel.py,sha256=8TN19nPcMp2u49FJu07A1lGTiQPFjYxvyMPaGk7MX8c,232
+python_console_package/__init__.py,sha256=Aj77VL1d5Mdku7sgCgKQmPuYavPpAHuZuJcy6bygQZE,21
+python_console_package/entrypoint.py,sha256=TuaSaMMxrK4ls2hyNk8lSi1k289MlSmbgxI16f5zxgs,1904
+python_console_package/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_console_package/models/module_functions.py,sha256=7sM6xg8E1IUqDXQ59hs4wqOjHY2Ys4CcaC6rX6YYmi0,187
+python_console_package/models/mymodel.py,sha256=8TN19nPcMp2u49FJu07A1lGTiQPFjYxvyMPaGk7MX8c,232
+python_console_package/models/someresource.txt,sha256=r6AgFNXiycFWns0wfvGD_c2vBgaGFTYshV-sPaFm9nM,146
+python_console_package-1.0.0.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+python_console_package-1.0.0.dist-info/METADATA,sha256=ULHe7YjZHT_hIk4MVy9WW0tOobC4lCTsKSYgJ9zH1tA,4456
+python_console_package-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_console_package-1.0.0.dist-info/entry_points.txt,sha256=NVfon8mxziJym2upMh8pOHYjjdHiWizuxHeSeOTJhTs,83
+python_console_package-1.0.0.dist-info/top_level.txt,sha256=5Tj8aqcutnE-Drkgk8TBMNbWfKYmr9B40uMtbeysV-Q,23
+python_console_package-1.0.0.dist-info/RECORD,,
