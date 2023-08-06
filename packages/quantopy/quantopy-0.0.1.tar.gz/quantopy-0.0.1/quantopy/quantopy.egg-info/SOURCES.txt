@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+quantopy/quantopy.egg-info/PKG-INFO
+quantopy/quantopy.egg-info/SOURCES.txt
+quantopy/quantopy.egg-info/dependency_links.txt
+quantopy/quantopy.egg-info/top_level.txt
