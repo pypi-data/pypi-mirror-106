@@ -1,0 +1,10 @@
+geomytry/__init__.py,sha256=ZJJP_mI56rXVMX_U94ZYh89w659-TNFx4y4_vOs5A7E,129
+geomytry/circles.py,sha256=gMhjP_vQBTNyLiJaneNPAxXRZpZBq-dByMrefRFLJO8,878
+geomytry/constants.py,sha256=FdM0d8TYBmjUp8x4Vlwmj8FAWV8UCuUnMvar73f7f3c,126
+geomytry/squares.py,sha256=31StaYGu7dSw38AC5a6MTf_fgLMkxsqVn5QvuZY4Jjc,143
+geomytry/triangles.py,sha256=l278NtLKr6SCvZFlbO4IjsyD-GKdfdudY_n1SbqPH-A,263
+geomytry-1.0.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geomytry-1.0.0.dist-info/METADATA,sha256=nbFeO89CfDd6W8ev9QF9RinhcKNzatgcU8OseQMefOw,1381
+geomytry-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+geomytry-1.0.0.dist-info/top_level.txt,sha256=5TtAh95MU6gN0Hd34HDykwRSYKsDLtcPm0dFMUQ36aE,9
+geomytry-1.0.0.dist-info/RECORD,,
