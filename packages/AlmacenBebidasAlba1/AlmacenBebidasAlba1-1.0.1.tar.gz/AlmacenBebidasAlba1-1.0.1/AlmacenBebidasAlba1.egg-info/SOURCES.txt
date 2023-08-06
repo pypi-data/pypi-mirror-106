@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+AlmacenBebidasAlba/Almacen.py
+AlmacenBebidasAlba/Bebida.py
+AlmacenBebidasAlba/__init__.py
+AlmacenBebidasAlba1.egg-info/PKG-INFO
+AlmacenBebidasAlba1.egg-info/SOURCES.txt
+AlmacenBebidasAlba1.egg-info/dependency_links.txt
+AlmacenBebidasAlba1.egg-info/requires.txt
+AlmacenBebidasAlba1.egg-info/top_level.txt
