@@ -1,0 +1,17 @@
+stcal/__init__.py,sha256=9n-5EKaZAdQG-uV97l7LXwaV4Ckbzi9jm-h0oeGg-Bc,73
+stcal/_version.py,sha256=sBvZKLSprkiPLvvjL0DM8Teceq9S0EKEizm5SoZt43I,142
+stcal/basic_utils.py,sha256=01Baa4Nt9FeH-GTR8Y2ikndKlx_tozfQ0D2oTO2ZAYg,1158
+stcal/dqflags.py,sha256=GoM9ysskSKVxgibRAvyZX4a5WbSWdheNDF4qpLbSdT4,3628
+stcal/dynamicdq.py,sha256=8idPR4OTKvpp0uUhBX_s67VgRMv-pKuoMvwFzjOg0IM,1539
+stcal/ramp_fitting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stcal/ramp_fitting/constants.py,sha256=0eDufJno_TwJcXV1DRAPBmR5t39Tf50eoAAC26qWGkA,301
+stcal/ramp_fitting/gls_fit.py,sha256=PxBHWBpSO2OQ1nw4zAfxNUeKefZJeLWl2qcLI5Rixt8,51712
+stcal/ramp_fitting/ols_fit.py,sha256=AG-slwcu8zgYrkIdAX3rOZ9KR8Dbm7lXRbGWbc7ki-E,126725
+stcal/ramp_fitting/ramp_fit.py,sha256=JcClS-mY506nt8hGGxGf97lClG0a4ZUDemTmarl89oM,4113
+stcal/ramp_fitting/utils.py,sha256=J1ly6hzNNrjHmI5MxWYH0xL9kBAhhKStkjmT2bMfkXs,49235
+stcal-0.2.1.dist-info/LICENSE,sha256=z2cunYEKqBVTN9QyyaHpersp2wzw-Y9mWpVWJEUpz_c,1463
+stcal-0.2.1.dist-info/METADATA,sha256=slWcGEczkitkvr7bi2SFHsxs7M8P7Wggyjte45BhdVs,1177
+stcal-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stcal-0.2.1.dist-info/top_level.txt,sha256=TEMAPx_NxZbvoCG7mfv_zKkwGA_SQOuDN5Y3F9CI4po,6
+stcal-0.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+stcal-0.2.1.dist-info/RECORD,,
