@@ -1,0 +1,3 @@
+[console_scripts]
+confusion-matrix-uncertainty=confusion_matrix_uncertainty.main:app
+
