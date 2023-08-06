@@ -1,0 +1,14 @@
+jsonpointer
+ocdskit>=1
+ocdsmerge>=0.6
+
+[docs]
+Sphinx
+sphinx-autobuild
+sphinx_rtd_theme
+
+[test]
+coveralls
+pytest
+pytest-cov
+pytest-vcr
