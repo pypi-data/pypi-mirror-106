@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ibl-pipeline-light
+Version: 0.1.2
+Summary: Light version of ibl pipeline to access data in IBL database
+Home-page: UNKNOWN
+Author: Vathes
+Author-email: support@vathes.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: datajoint (==0.12.9)
+Requires-Dist: ibllib
+
+UNKNOWN
+
+
