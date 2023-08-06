@@ -1,0 +1,10 @@
+onow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onow/bootstrap_gdrive.py,sha256=7ZAQVQbUn8FIOXR2UJYweRHY2pBz0qPHpFIOLVD5jwI,1843
+onow/history-read-large-file-chunks.py,sha256=z-laQgxnEc5YgfM3ltKxI1XRCFuAkIIFfGsBGyiuxkM,4501
+onow/history.py,sha256=Jq6Z6tdsxf5w8BEGlTN0xrnu-8UyN_dnf1lArsVIFZ8,954
+onow/history0.py,sha256=Otzmt8B_f_Zu-hWqzPlT2iwB43XnglDc1Wqj9dRcgvc,317
+onow/hypertable.py,sha256=-RkdP-qPuRpQgMVQqwLhUCyfEIXU94Y1_58fmZZzZFc,1539
+onow/numericize_attributes.py,sha256=IXVujlNMoFMulO9Duv6Ucp1N6L3b-LlwwKvilbQSPm8,76685
+onow-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+onow-0.0.1.dist-info/METADATA,sha256=mBpDKmGV1qj81UeaseI6hjgd9b-TFZQ3eOJ8gCKeDyA,622
+onow-0.0.1.dist-info/RECORD,,
