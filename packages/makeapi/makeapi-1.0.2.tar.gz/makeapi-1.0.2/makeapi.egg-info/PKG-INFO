@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: makeapi
+Version: 1.0.2
+Summary: A small pypi project, that allows you to make your own API.
+Home-page: UNKNOWN
+Author: Alex Hutz
+Author-email: frostiiweeb@gmail.com
+License: MIT
+Keywords: web
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# makeapi
+A small package, that allows you to make an API.
+
+## Example
+
+```py
+import makeapi
+
+request_handler = makeapi.MakeAPIRequestHandler
+app = MakeAPI("localhost", 8000, request_handler)
+
+# Currently, it only has get request method.
+
+@app.get("/main")
+def main(request : makeapi.Request):
+    return makeapi.textresp("Hello!")
+
+# Go to http://localhost:8000/main in your browser and you should see Hello!
+```
+
+## Example with path params
+
+```py
+import makeapi
+
+request_handler = makeapi.MakeAPIRequestHandler
+app = MakeAPI("localhost", 8000, request_handler)
+
+@app.get("/params")
+def params_route(request : makeapi.Request):
+    param = request.args.get("hello")
+    return textparam(param[0])
+
+# Go to http://localhost:8000/params?hello=hi and it should show hi
+```
+
+Enjoy!
+
+
