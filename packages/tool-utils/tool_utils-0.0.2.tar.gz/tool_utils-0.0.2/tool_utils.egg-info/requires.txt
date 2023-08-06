@@ -1,0 +1,2 @@
+cx_Oracle<=7.0.0
+traceback2<=1.4.0
