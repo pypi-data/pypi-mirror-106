@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/dineshjoshi.egg-info/PKG-INFO
+src/dineshjoshi.egg-info/SOURCES.txt
+src/dineshjoshi.egg-info/dependency_links.txt
+src/dineshjoshi.egg-info/top_level.txt
+src/trignometry/__init__.py
+src/trignometry/trignometry.py
