@@ -1,0 +1,13 @@
+scaleapi/__init__.py,sha256=wv4F3DREPXXt7hxc7U_TWGSH8BDfi4Kf36zGw890IMA,20535
+scaleapi/_version.py,sha256=-KBR0NX9ec8yRUA5dHWZdeqd5Eg51cgSrA1y4bYSoUE,52
+scaleapi/api.py,sha256=kfneXeuOXdHv80ibGExdowY8YbO9eeu9ujv-buCvyrs,5018
+scaleapi/batches.py,sha256=WWyeyqaN_g64ffR8NIf9qGXpSo5u8yuo7KaYSpfVcGI,1457
+scaleapi/exceptions.py,sha256=osZg1tJZwhVeBIWsRhLraVzjsPoTwswV7675kpmQgxE,2309
+scaleapi/files.py,sha256=wVcU80jE_mhM0RjVJjmLRCQ04zz-H88tEizfTBYCkx8,520
+scaleapi/projects.py,sha256=Y5KSudBpElyBz0XoqDJttaLaRd7hJllLh0D5q7ol4v8,861
+scaleapi/tasks.py,sha256=dJ5wQonDuOxC4QabQNYtUzUaGCOn7vrHhSVKUHvg-Kg,2346
+scaleapi-2.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scaleapi-2.1.0.dist-info/METADATA,sha256=yAQ9o_QL34TbRx10lQw9SBRZftOzzMyTbycVCvaCPA4,14395
+scaleapi-2.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scaleapi-2.1.0.dist-info/top_level.txt,sha256=JzuammalqixL4gQQZeorcrHTBzvqZLqvd6YA66iicfI,9
+scaleapi-2.1.0.dist-info/RECORD,,
