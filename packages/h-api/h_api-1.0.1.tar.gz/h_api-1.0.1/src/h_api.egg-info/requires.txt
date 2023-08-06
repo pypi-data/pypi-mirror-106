@@ -1,0 +1,9 @@
+importlib_resources
+jsonschema
+
+[tests]
+coverage
+h-matchers
+importlib_resources
+jsonschema
+pytest
