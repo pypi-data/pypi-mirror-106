@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+gradescent/gradescent.egg-info/PKG-INFO
+gradescent/gradescent.egg-info/SOURCES.txt
+gradescent/gradescent.egg-info/dependency_links.txt
+gradescent/gradescent.egg-info/top_level.txt
