@@ -1,0 +1,9 @@
+README.md
+setup.py
+local_useragent/__init__.py
+local_useragent/cache.py
+local_useragent.egg-info/PKG-INFO
+local_useragent.egg-info/SOURCES.txt
+local_useragent.egg-info/dependency_links.txt
+local_useragent.egg-info/requires.txt
+local_useragent.egg-info/top_level.txt
