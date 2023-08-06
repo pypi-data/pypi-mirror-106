@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: tc-data-tools
+Version: 0.0.3
+Summary: Data tools to help our daily job
+Home-page: https://github.com/ciro-tc/tc-data-tools
+Author: TC Data Science
+Author-email: ciro.oliveira@tc.com.br
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
