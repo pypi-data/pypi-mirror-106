@@ -1,0 +1,4 @@
+[console_scripts]
+wikig = generate_docs.generator:main_wiki
+wikir = generate_docs.generator:main_readmes
+
