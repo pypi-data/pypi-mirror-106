@@ -1,0 +1,60 @@
+{% extends "cms/base.html" %}
+{% load cms %}
+
+{% block popup_header %}{% endblock popup_header %}
+{% block popup_footer %}{% endblock popup_footer %}
+
+{% block object_header %}
+{% endblock %}
+
+{% block content_class %}list{% endblock %}
+{% block content %}
+
+  {% block list %}
+
+  {% if show_form %}
+  <form data-form-id="list" name= "listform" action="{{ action_url }}" method="post">
+    {% csrf_token %}
+    {{ list.formset.management_form }}
+  {% endif %}
+
+  <div class="button-group button-group--actions {% if not actions %}hidden{% endif %}">
+      {% if not list.empty %}
+      {% block preview %}
+      {% if parent_preview_url %}
+        <div class="divider">
+          <a class="button button--primary" href="{{ parent_preview_url }}">Preview</a>
+        </div>
+      {% endif %}
+      {% endblock %}
+
+      {% endif %}
+  </div>
+  <table class="{% if list.empty %}is-empty{% endif %} list-table">
+    <tbody {% if list.auto_sort %} data-current-page="{{ page_obj.number }}" data-per-page="{{page_obj.paginator.per_page}}" draggable="true"{% endif %}>
+    {% for row in list %}
+    {% if show_form %}
+      {{ row.form.non_field_errors }}
+    {% endif %}
+
+    <tr>
+      {% for elem in row %}
+        {% bundle_url bundle "edit" object=row.instance follow_parent=False as edit_url %}
+        <td>
+        {% if elem.field %}
+          {{ elem.field }}
+        {% else %}
+          {{ elem }}
+        {% endif %}
+        </td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+  {% if show_form %}
+  </form>
+  {% endif %}
+  {% endblock %}
+{% endblock %}
