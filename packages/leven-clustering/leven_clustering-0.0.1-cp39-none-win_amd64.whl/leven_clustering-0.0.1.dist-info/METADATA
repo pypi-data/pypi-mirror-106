@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: leven-clustering
+Version: 0.0.1
+Classifiers: License :: OSI Approved :: MIT License
+Classifiers: Development Status :: 3 - Alpha
+Classifiers: Intended Audience :: Developers
+Classifiers: Programming Language :: Python
+Classifiers: Programming Language :: Rust
+Classifiers: Operating System :: POSIX
+Classifiers: Operating System :: Microsoft
+Classifiers: Operating System :: MacOS :: MacOS X
+Summary: Simple hierarchical clustering using levenshtein ratio
+Keywords: clustering levenshtein rust
+Author: Yaraslau Byshyk <dev@shyk.by>
+Author-Email: Yaraslau Byshyk <dev@shyk.by>
