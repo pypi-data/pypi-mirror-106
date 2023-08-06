@@ -1,0 +1,10 @@
+setup.py
+tool/__init__.py
+tool/add.py
+tool/email_util.py
+tool/subtract.py
+tools_wbs.egg-info/PKG-INFO
+tools_wbs.egg-info/SOURCES.txt
+tools_wbs.egg-info/dependency_links.txt
+tools_wbs.egg-info/requires.txt
+tools_wbs.egg-info/top_level.txt
