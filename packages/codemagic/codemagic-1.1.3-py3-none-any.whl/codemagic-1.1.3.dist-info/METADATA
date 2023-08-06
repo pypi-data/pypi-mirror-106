@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: codemagic
+Version: 1.1.3
+Summary: Codemagic for python
+Home-page: https://github.com/ali-zahedi/codemagic
+Author: Ali ZahediGol
+Author-email: zahedi@aparnik.com
+License: BSD License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.2.0)
+
+<!--![GitHub All Releases](https://img.shields.io/github/downloads/ali-zahedi/codemagic/total)-->
+<!--![GitHub issues](https://img.shields.io/github/issues/ali-zahedi/codemagic)-->
+![GitHub](https://img.shields.io/github/license/ali-zahedi/codemagic)
+![GitHub](https://img.shields.io/pypi/pyversions/codemagic.svg?maxAge=2592000)
+![GitHub](https://img.shields.io/pypi/v/codemagic.svg?maxAge=2592000)
+![image info](./logo.svg)
+
+[[_TOC_]]
+
+
+# Overview
+
+With the magic of [Codemagic](https://codemagic.io), you can build, test, and publish Flutter apps with zero configuration and run builds in controlled environments using custom workflows. If you have a native Android, iOS, or React Native app, Codemagic has got your back, just use the codemagic.
+
+For more information, visit the [Codemagic api docs](https://docs.codemagic.io/rest-api/overview/) setup guide.
+
+# Installation
+
+To install Codemagic Python SDK, simply execute the following command in a terminal:
+
+```shell script
+pip install codemagic
+```
+
+# Usage
+
+First of all you need to get token. The access token is available via the Codemagic UI in  **User settings > Integrations > Codemagic API > Show**.
+
+1. Create Codemagic instance
+
+    ```python
+    from codemagic import Codemagic, Build, BuildStatus
+
+    codemagic = Codemagic(token=token)
+    ```
+
+1. Create `build`.
+
+   ```python
+   build: Build = codemagic.start_build(app_id=app_id, workflow_id=workflow_id, branch=branch, environment=environment)      
+   if build.status == BuildStatus.QUEUED:
+       print("Build request start success.")
+   ```
+
+1. Get `list build`. You can filter `builds` base on parameters.
+
+    ```python
+    builds: [Build] = codemagic.list_of_builds()
+    ```
+
+1. Get `details of build`.
+
+    ```python
+    build: Build = codemagic.get_build(pk=pk)
+    ```
+
+# Supported Python Versions
+
+We currently support Python 3.6+.
+
+# TODO
+
+- [] Documentation
+
+## Develop
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
+
+
+
+
