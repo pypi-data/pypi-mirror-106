@@ -1,0 +1,13 @@
+swdl/__init__.py,sha256=SvuykVf1tc5LFsrAhmB3iuZIuMw5mKMe5idUJxZ_VFo,52
+swdl/camera.py,sha256=7LXq73Z_QZc6pCUm-RcqOqKl3rvzwFHAtWMBlsiJdbQ,1827
+swdl/club.py,sha256=hKpCaVLW7pit3uifsg54Lfs3u6dD-jahIv2OZq1XH1Y,1567
+swdl/config.py,sha256=uMKUEW75uLjPWu-08HXbyW1YZfTy1TINUjeknRHENiI,550
+swdl/labels.py,sha256=kmenBpYD-_C9pSHFQDuADlTAGVMBFeV8v2enfPaEXLw,15918
+swdl/matches.py,sha256=zacDnS_l3rCBlrC4ECIILrA3YqiSVhxXPNGpMn_pZvo,13868
+swdl/swrest.py,sha256=3c7MGCcH0kUQuplgA7pkHdnTaExsje-WRa6Ueabj80g,16585
+swdl-1.5.0b0.data/scripts/swdl-login,sha256=HN-MQra72h9KsxddC8Ejcrgo7kVBz6DslApVmNpCk90,95
+swdl-1.5.0b0.dist-info/LICENSE,sha256=SYoKT5xuN9rZoXv4nanLwmwUD8WkmZ2C_QOUcNh090I,1097
+swdl-1.5.0b0.dist-info/METADATA,sha256=IPRNwXBKZngsQGC0XVY7XV6hPZKrgWlDGHo3bmZTn_Y,543
+swdl-1.5.0b0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+swdl-1.5.0b0.dist-info/top_level.txt,sha256=ewYoV9WP7XVlXR72d6MbUtBaYHLcNfI1TfdLZBzEjdM,5
+swdl-1.5.0b0.dist-info/RECORD,,
