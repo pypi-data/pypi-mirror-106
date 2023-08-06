@@ -1,0 +1,15 @@
+Accessors
+Changelog
+MERCHANTABILITY
+NONINFRINGEMENT
+Pre
+PyPI
+Vendoring
+accessor
+backport
+pre
+prerelease
+prereleases
+sortable
+sublicense
+tuple
