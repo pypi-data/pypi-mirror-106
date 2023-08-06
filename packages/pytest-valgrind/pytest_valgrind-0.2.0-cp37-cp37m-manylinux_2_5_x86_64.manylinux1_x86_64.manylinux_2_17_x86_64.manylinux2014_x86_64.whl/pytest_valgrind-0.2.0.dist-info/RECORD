@@ -1,0 +1,9 @@
+pytest_valgrind-0.2.0.dist-info/top_level.txt,sha256=-Pp6h8v6qmjij_LqfX9vk-HKk-dgkpu40xHeiXIC1I4,16
+pytest_valgrind-0.2.0.dist-info/METADATA,sha256=2plrJuMz1sQSiZVJdtl7Sf34PkNDPguJvWgxIWF9n8k,8409
+pytest_valgrind-0.2.0.dist-info/RECORD,,
+pytest_valgrind-0.2.0.dist-info/LICENSE,sha256=S4eLuuiqjs6Qen4rLcuTKLXF4GXpzm05n3Svevw-6gs,1071
+pytest_valgrind-0.2.0.dist-info/WHEEL,sha256=3lhF5RInxxoafw7cwcsAFVTuTolf0Sb2mIr0qM84-OU,221
+pytest_valgrind-0.2.0.dist-info/entry_points.txt,sha256=BLWnmmdMJwga7XIre9R4rafzxgLLgKaBHnhSdDeoA9U,46
+pytest_valgrind/valgrind.cpython-37m-x86_64-linux-gnu.so,sha256=8rY37rvdp3NGVIV67bd2ZyjeOoBMDDVvRntT4KDgfT0,44512
+pytest_valgrind/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_valgrind/plugin.py,sha256=9r9h0hASvlO-Wt4O9ZjJTO1wzx5Pzc5TrxpmbfMNujI,11778
