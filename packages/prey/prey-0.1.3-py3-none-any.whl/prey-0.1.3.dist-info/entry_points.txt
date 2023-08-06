@@ -1,0 +1,3 @@
+[console_scripts]
+prey=prey.bin:main
+
