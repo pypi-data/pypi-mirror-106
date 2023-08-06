@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+jupyter-config/jupyter_server_config.d/jupyter_server_parameters.json
+src/jupyter_server_parameters/__init__.py
+src/jupyter_server_parameters/config.py
+src/jupyter_server_parameters/handlers.py
+src/jupyter_server_parameters/utils.py
+src/jupyter_server_parameters.egg-info/PKG-INFO
+src/jupyter_server_parameters.egg-info/SOURCES.txt
+src/jupyter_server_parameters.egg-info/dependency_links.txt
+src/jupyter_server_parameters.egg-info/not-zip-safe
+src/jupyter_server_parameters.egg-info/requires.txt
+src/jupyter_server_parameters.egg-info/top_level.txt
