@@ -1,0 +1,17 @@
+jupyter_admin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_admin/_data.py,sha256=UllINxj09yhMr7B8qJwbnTyLHxVjUwYCg3gAhI2mLXU,691
+jupyter_admin/app.py,sha256=DJ_wbh7DN1ywq4V0x1jRc10EaFeliJiv2ZH-xNczOmY,123
+jupyter_admin/version.py,sha256=tkKf_xKCoRoWgdc0gWKJBA4WsJZPyravcqSNBZewvHE,79
+jupyter_admin/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_admin/handlers/base.py,sha256=wTBUzEIAhC4dz6YpCBndMPinmEtdReOrkJMdzYgeBVU,920
+jupyter_admin/hubextension/__init__.py,sha256=6f8-XprNSQ4IpnNMhXdUzeRnar0cwWUIN3tWpmeAzWk,376
+jupyter_admin/hubextension/main.py,sha256=HLbc4p7X3IqJDmObXfiIskcR13WuytDxQKJ_-tdFIkQ,475
+jupyter_admin-0.0.1.data/data/share/jupyter-admin/static/js/385.jupyter-admin.js,sha256=gRuAZq8fTK09rkewsvVCtkSH5bOuwEmkveakGRXccq0,484
+jupyter_admin-0.0.1.data/data/share/jupyter-admin/static/js/660.jupyter-admin.js,sha256=hZoIh0KGWVv1hjTGOFoOd7Ul-F0e54QsMmuwX3XKD0o,130353
+jupyter_admin-0.0.1.data/data/share/jupyter-admin/static/js/jupyter-admin.js,sha256=Pb6_pI7YzNGFglwUcvvsrhVHnZ62c7tDHSANa7h12wY,2341
+jupyter_admin-0.0.1.data/data/share/jupyter-admin/templates/jupyter-admin.html,sha256=bADQUEYI2eKEoB33EfFjPOc501PvhqSh9GnXBF-BCPw,488
+jupyter_admin-0.0.1.data/data/share/jupyter-admin/templates/page.html,sha256=I5AqrjAugM1vm1XDgJZh4tL0K8T08379ZLfT9HMGxAI,259
+jupyter_admin-0.0.1.dist-info/METADATA,sha256=I23PuALHIDM7UNxQzlf99jJrdKnvBHiRAGQlViaidOo,821
+jupyter_admin-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jupyter_admin-0.0.1.dist-info/top_level.txt,sha256=rBFk8N0l-PGUI-mhT824vBDGx827ODNVaIyLykkwKI0,14
+jupyter_admin-0.0.1.dist-info/RECORD,,
