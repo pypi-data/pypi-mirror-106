@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./gradescent/__init__.py
+./gradescent/optimizer.py
+gradescent/__init__.py
+gradescent/optimizer.py
+gradescent.egg-info/PKG-INFO
+gradescent.egg-info/SOURCES.txt
+gradescent.egg-info/dependency_links.txt
+gradescent.egg-info/top_level.txt
