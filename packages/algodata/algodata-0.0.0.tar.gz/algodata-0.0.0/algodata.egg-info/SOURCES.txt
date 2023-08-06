@@ -1,0 +1,13 @@
+pyproject.toml
+setup.py
+algodata/__init__.py
+algodata.egg-info/PKG-INFO
+algodata.egg-info/SOURCES.txt
+algodata.egg-info/dependency_links.txt
+algodata.egg-info/requires.txt
+algodata.egg-info/top_level.txt
+algodata/datasets/__init__.py
+algodata/datasets/candles.py
+algodata/transforms/__init__.py
+algodata/vis/__init__.py
+algodata/vis/candles.py
