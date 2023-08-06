@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: plcx
+Version: 0.9.1
+Summary: async PLC communication
+Home-page: https://github.com/Cognexa/plcx
+Author: Cognexa Solutions s.r.o.
+Author-email: info@cognexa.com
+License: MIT
+Description: UNKNOWN
+Keywords: async plc
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
