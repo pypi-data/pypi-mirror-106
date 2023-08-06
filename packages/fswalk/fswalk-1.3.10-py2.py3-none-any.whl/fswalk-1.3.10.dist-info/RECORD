@@ -1,0 +1,9 @@
+fswalk/__init__.py,sha256=70E1bNr_b-Nn5dQ048Xm5ozWFp1gbBwDhm8JGtThf0I,45
+fswalk/main.py,sha256=NaRfJ3ESnJqC-4QW7ZOCxqgAIhEar0h5yxGl6K2tnJo,8742
+fswalk/workers.py,sha256=KmotHsbp5xueq0faO617j4Sm_xJg5uyry2eUajZrwwk,7028
+fswalk-1.3.10.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fswalk-1.3.10.dist-info/METADATA,sha256=p7YTixXL-a4BuARnHADdbv6GnX-Z8DOE8JAoib7AdcI,6578
+fswalk-1.3.10.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+fswalk-1.3.10.dist-info/entry_points.txt,sha256=Wb0gkKQomuUCWEdjeAOqp9WDiPq5aeItQuOCWMdEm6A,63
+fswalk-1.3.10.dist-info/top_level.txt,sha256=6t6KcsBdJaIUAgFH6LPxtOEIynVqBwh2DAMHGR_YErE,7
+fswalk-1.3.10.dist-info/RECORD,,
