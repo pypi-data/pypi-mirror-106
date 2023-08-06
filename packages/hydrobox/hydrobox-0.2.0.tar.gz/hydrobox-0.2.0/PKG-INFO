@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: hydrobox
+Version: 0.2.0
+Summary: Hydrological toolbox build on top of scipy and pandas
+Home-page: UNKNOWN
+Author: Mirko Maelicke
+Author-email: mirko.maelicke@kit.edu
+License: MIT
+Description: # HydroBox
+        
+        #
+        **The HydroBox is mainly a toolbox used in the [V-FOR-WaTer](https://vforwater.de) Project. It will be expanded to
+        serve general hydrological data exploration with a future release.**
+        
+        The HydroBox package is a toolbox for hydrological data analysis developed at the
+        [Chair of Hydrology](https://hyd.iwg.kit.edu/english/index.php) at the
+        [Karlsruhe Institute of Technology (KIT)](https://kit.edu/english/index.php).
+        HydroBox has several submodules called toolboxes, which are a collection of functions and classes for specific purposes.
+        As of this writing these toolboxes are:
+        
+        * `geostat` for geostatistics. Mainly implemented through `scikit-gstat` and `gstools`
+        
+        In development are:
+        
+        * `uncertainty_framwork` for uncertainty analysis
+        * `britget` for evapotranspiration tools
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
