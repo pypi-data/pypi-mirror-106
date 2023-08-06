@@ -1,0 +1,8 @@
+LICENCE.txt
+README.md
+setup.py
+pyzpaparat.egg-info/PKG-INFO
+pyzpaparat.egg-info/SOURCES.txt
+pyzpaparat.egg-info/dependency_links.txt
+pyzpaparat.egg-info/requires.txt
+pyzpaparat.egg-info/top_level.txt
