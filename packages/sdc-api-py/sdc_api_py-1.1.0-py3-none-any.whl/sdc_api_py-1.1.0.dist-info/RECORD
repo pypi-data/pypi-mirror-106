@@ -1,0 +1,16 @@
+sdc_api_py/__init__.py,sha256=UzTQqBS9tyzdkbQctuCdFQ4cqC5ag5YTIhxkMwy-jtI,100
+sdc_api_py/_types/Guild.py,sha256=osAyb--fZLUH5GaInq_BGf4gsFXTgo8cqrNzx44eBN4,2826
+sdc_api_py/_types/Raw.py,sha256=WzVamBE4ajv-VUbwc1rkS6rJ2z6D_t5RTUlBUJggA2g,3586
+sdc_api_py/_types/User.py,sha256=ev0BM3OMniOGxwr_8PzwZGPGioUHN_Hxsjd8Kvfxx-o,1016
+sdc_api_py/_types/Warns.py,sha256=Tdr7Lf7715Aw_y0Ml9OIv8GjWyrdR_W_FzqOFOlRrV0,425
+sdc_api_py/_types/__init__.py,sha256=DcXmWVSYUWTwbDrhwmfUEXbsOT6HSwNHAXykTTF8R3k,85
+sdc_api_py/classes/Bots.py,sha256=IaYwL8WTxwspDVdk8v-KOjZIkKGZ9p1G-uHzqq7qRpA,728
+sdc_api_py/classes/Lib.py,sha256=dryCz-zimp8GuXyuwwEoCVtR65ycgSSP2Uwt41HE3CA,1457
+sdc_api_py/classes/Monitoring.py,sha256=L7Z1tKWWho78Xd5QCcwawdQ0usmqnGBiLlD0CAuN-sE,5351
+sdc_api_py/classes/NikaWarns.py,sha256=ELGkcweFZf6dDEEEoEmZD-ZgHc5-3d7dggcaSbaTV4g,725
+sdc_api_py/classes/__init__.py,sha256=dZ06ZefhKvEWtXi44G-lrai_w6r6XiRNgSHXhXMgIOQ,74
+sdc_api_py-1.1.0.dist-info/LICENSE,sha256=1bqn-DqtDj8iBJAGjP8MOqAeMWm4NYN6xFnBi1_DQMI,1092
+sdc_api_py-1.1.0.dist-info/METADATA,sha256=XWTjhD2TRyYxf4NcsNB4M2h-NyUQHrBgQvj9fnLA1ck,2540
+sdc_api_py-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sdc_api_py-1.1.0.dist-info/top_level.txt,sha256=CRI57JYDE-zx1HwhzwOaOoJQlerZsX7plnI82pUB1VU,11
+sdc_api_py-1.1.0.dist-info/RECORD,,
