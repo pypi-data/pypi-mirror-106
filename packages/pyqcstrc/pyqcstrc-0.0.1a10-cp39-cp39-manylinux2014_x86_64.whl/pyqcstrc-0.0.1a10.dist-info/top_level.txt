@@ -1,0 +1,2 @@
+pyqcstrc
+pyqcstrc/ico
