@@ -1,0 +1,9 @@
+setup.py
+edysdk/__init__.py
+edysdk/edy1.py
+edysdk/edy2.py
+edysdk/edy3.py
+edysdk.egg-info/PKG-INFO
+edysdk.egg-info/SOURCES.txt
+edysdk.egg-info/dependency_links.txt
+edysdk.egg-info/top_level.txt
