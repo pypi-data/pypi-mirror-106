@@ -1,0 +1,4 @@
+[console_scripts]
+lig2grid = mol2grid.main:cli_l2g
+rec2grid = mol2grid.main:cli_r2g
+
