@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: prueba-danielctds
+Version: 0.1.1
+Summary: libreria de prueba
+Home-page: https://github.com/pypa/sampleproject
+Author: Daniel Chaparro
+Author-email: daniel.chaparro.ds@gmail.com
+License: UNKNOWN
+Description: # Paquete de prueba en python
+        
+        ### Bienvenidos
+        
+        hola ***mundo***, este un es una distribucion de prueba
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

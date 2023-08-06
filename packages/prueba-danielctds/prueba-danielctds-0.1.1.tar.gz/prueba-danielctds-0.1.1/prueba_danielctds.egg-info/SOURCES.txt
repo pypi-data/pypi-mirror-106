@@ -1,0 +1,7 @@
+LICENCE.txt
+README.md
+setup.py
+prueba_danielctds.egg-info/PKG-INFO
+prueba_danielctds.egg-info/SOURCES.txt
+prueba_danielctds.egg-info/dependency_links.txt
+prueba_danielctds.egg-info/top_level.txt
