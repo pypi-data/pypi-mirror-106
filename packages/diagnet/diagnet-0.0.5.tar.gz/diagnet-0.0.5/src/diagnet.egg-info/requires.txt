@@ -1,0 +1,2 @@
+scapy>=2.4.3
+prettytable>=2.1.0
