@@ -1,0 +1,13 @@
+tokenexchangeauthenticator/__init__.py,sha256=AF3rPB0zl_Kg1LJI2WzDMxAZuAkcLFZuU4U1iEeTrV0,55
+tokenexchangeauthenticator/_version.py,sha256=eB5tEg_BNHHsJgQexgmpZJr4c2VbfooQZMXAWuDHoIg,22
+tokenexchangeauthenticator/auth.py,sha256=8v2jI2NbJWUgz_aGX5S6N1ivFn527bl8NQvC9nFXIC4,12312
+tokenexchangeauthenticator/tests/__init__.py,sha256=0SR5_f7FxUgoYPRwgxXzFArS74IHOCoRpLjNO__0lTA,105
+tokenexchangeauthenticator/tests/conftest.py,sha256=nXlE45LKyFp3e3VwaiEPF3ZIOZfm8pK_-va9Gth6-Dw,1206
+tokenexchangeauthenticator/tests/mocks.py,sha256=lex2_JsjlbJGkVtraQI1Tc7j5E_nwjDq_mn5qGfdiRo,10625
+tokenexchangeauthenticator/tests/test_auth.py,sha256=2HcNu7un9xtOgVPi2Bp1FOcU1W-9UbBU8Eq3YMlPoJM,8431
+tokenexchangeauthenticator/tests/test_generic.py,sha256=d6p-_PP_sv4Q1Za91RVK2EDtTcpqFyJcEq-yRKqlz1c,5360
+tokenexchangeauthenticator/tests/test_google.py,sha256=Cy5CyWf9bsczrpUYKUNnby42sGC64i3js-Oye2ixHo0,3682
+TokenExchangeAuthenticator-0.0.5.dist-info/METADATA,sha256=W7lqzcum0UT2jUEXHBoh9AWZD2Cezaa7OUmuIfii-34,4906
+TokenExchangeAuthenticator-0.0.5.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+TokenExchangeAuthenticator-0.0.5.dist-info/top_level.txt,sha256=TKxMKpbxXQUvYtqzzSrO1R71iyjZw6HfG4FS9kS35EY,27
+TokenExchangeAuthenticator-0.0.5.dist-info/RECORD,,
