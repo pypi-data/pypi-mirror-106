@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+optmagic.egg-info/PKG-INFO
+optmagic.egg-info/SOURCES.txt
+optmagic.egg-info/dependency_links.txt
+optmagic.egg-info/top_level.txt
+test/expose_class.py
+test/simple_class.py
+test/test_via_shell.py
