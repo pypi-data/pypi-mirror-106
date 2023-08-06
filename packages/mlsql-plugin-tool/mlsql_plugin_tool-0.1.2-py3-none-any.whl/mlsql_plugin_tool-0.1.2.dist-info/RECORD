@@ -1,0 +1,14 @@
+tech/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tech/mlsql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tech/mlsql/plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tech/mlsql/plugin/tool/Plugin.py,sha256=0IpIqgsy9leme33A0rtXdqRzHJv2TCvh-XR3xM_vMHc,1037
+tech/mlsql/plugin/tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tech/mlsql/plugin/tool/shellutils.py,sha256=DEdYyxVJHIHhphz5jpsXSaF6a61CxCUttEIdeQua7kA,3489
+tech/mlsql/plugin/tool/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tech/mlsql/plugin/tool/commands/builder.py,sha256=chA3CvPNY6D9Vvo29WglNAPIQ5PoOetq05hWiBLvcGQ,5074
+tech/mlsql/plugin/tool/commands/compile_process.py,sha256=LRgieUJMKKsaM30O_mcCSlfn7FE75WWZRHGdgRgI29I,2356
+mlsql_plugin_tool-0.1.2.dist-info/METADATA,sha256=rEKDQlweptPucuY9af5IRDyg54vp0BHj9rbRLu5ITxA,786
+mlsql_plugin_tool-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mlsql_plugin_tool-0.1.2.dist-info/entry_points.txt,sha256=Hn99TmCCofKQKcPnXZWWte561FWzJIk1jx_lIN4fA4A,92
+mlsql_plugin_tool-0.1.2.dist-info/top_level.txt,sha256=wWIyTjCg-fGhEjOvcdurcjtSh-sAi8Sy4iEdDAIkIAU,5
+mlsql_plugin_tool-0.1.2.dist-info/RECORD,,
