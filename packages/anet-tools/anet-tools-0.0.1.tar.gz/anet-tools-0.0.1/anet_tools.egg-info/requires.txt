@@ -1,0 +1,8 @@
+easydict
+extendedos
+gdown
+moviepy
+pybsc
+scikit-image
+scikit-video
+fastflownet
