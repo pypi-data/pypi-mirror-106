@@ -1,0 +1,8 @@
+busGal_api/__init__.py,sha256=bfDHsKxLUNwJEKyaFVCGfImD85JGglJWCz4y7eP0K2M,55
+busGal_api/http_api.py,sha256=Vunpxk017Z19tmGIkg9pfR4SWNBdY1G1dPfrgJPBnp0,1439
+busGal_api/selenium_scraper.py,sha256=JfGBd0Jw5IqzJNyBv8VQBYM12nrEanyYn11UtMiEc1c,4999
+busGal_api-0.0.1.dist-info/LICENSE,sha256=fsYIffT_QqTLqOVD5O_kXav0uT7EUfobKamtFW2ok5A,35150
+busGal_api-0.0.1.dist-info/METADATA,sha256=UtCakMXSlais1JV4-3PzkhXwhrxYYLSeZk-texqxZzc,681
+busGal_api-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+busGal_api-0.0.1.dist-info/top_level.txt,sha256=AQp6f3qs4wFkz0I9MCaGScmAeEe8Y_ciOa7NqKkMi0E,11
+busGal_api-0.0.1.dist-info/RECORD,,

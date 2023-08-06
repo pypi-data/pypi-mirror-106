@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: busGal-api
+Version: 0.0.1
+Summary: Python API wrapper for bus.gal
+Home-page: UNKNOWN
+Author: Pedro Rey Anca
+Author-email: contact@peprolinbot.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+# bus.gal-api
+Python API wrapper for bus.gal which uses both Selenium with Beautiful Soup and normal http requests to get the inforamtion
+
+
