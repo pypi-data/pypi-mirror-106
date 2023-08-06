@@ -1,0 +1,9 @@
+airworks_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airworks_api/base_api.py,sha256=cGGURAzaAqBVmOUZyGmCkx4s7wih4pmpEp7JTz7VEWU,2901
+airworks_api/common_api.py,sha256=Am8V4MJ9IlmO8QiUwaUJ_ZEEB-VZRLVL_ukw2gw5a_Y,845
+airworks_api/package_api.py,sha256=-i4nSDFbfd6TzUezM_Bqsy-2k3fjN_wmg1y5i6DFMG4,2350
+airworks_api-0.0.8.dist-info/LICENSE,sha256=WfdZzbrEXBpkiN4vyiBFBYdne5o3DS9o9yaTSraURF8,1066
+airworks_api-0.0.8.dist-info/METADATA,sha256=Q1sqPLpUDalCLBlyHy8r7XGYT117kzCOj12T13tvozE,566
+airworks_api-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+airworks_api-0.0.8.dist-info/top_level.txt,sha256=V0K-LIo2DbpiEB5x95xrHjmw7fLRZTKfmjThBTvc6Ww,13
+airworks_api-0.0.8.dist-info/RECORD,,
