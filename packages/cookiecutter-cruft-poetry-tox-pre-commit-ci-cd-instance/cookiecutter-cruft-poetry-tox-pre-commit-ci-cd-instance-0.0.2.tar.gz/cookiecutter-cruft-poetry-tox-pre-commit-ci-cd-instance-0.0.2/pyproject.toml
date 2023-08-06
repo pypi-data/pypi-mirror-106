@@ -1,0 +1,209 @@
+[tool.poetry]
+name = "cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance"
+version = "0.0.2"
+description = "Cookiecutter Cruft Poetry Tox Pre Commit Ci Cd Instance"
+authors = ["Teo Zosa <teo@sonosim.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance"
+homepage = "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance"
+include = ["cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/py.typed"]
+keywords = []
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.urls]
+Changelog = "https://github.com/TeoZosa/cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance/releases"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+# Project-Specific
+importlib-metadata = "^2.1.1"
+python-dotenv = "^0.15.0"
+typer = {extras = ["all"], version = "^0.3.2"}
+
+# Monitoring and Observability
+sentry-sdk = "^1.1.0"
+structlog-sentry-logger = "^0.7.3"
+
+# Type Checking and Data Validation
+icontract = "^2.5.1" # Design-by-contract support
+typeguard = "^2.10.0" # Runtime type checker
+# Jupyter Notebook
+jupyter = "^1.0.0"
+matplotlib = "^3.4.2"
+
+# Documentation
+myst-parser = { version = "^0.14.0", optional = true}
+pygments = { version = "^2.8.1", optional = true}
+sphinx = { version = "^3.5.3", optional = true}
+sphinx-autodoc-typehints = { version = "^1.12.0", optional = true}
+sphinx-icontract = { version = "2.0.2", optional=true}
+sphinx-rtd-theme = { version = "^0.5.1", optional = true}
+sphinxcontrib-apidoc = { version = "^0.3.0", optional = true}
+sphinxcontrib-confluencebuilder = { version = "^1.3.0", optional = true}
+typer-cli = { version = "^0.0.11", optional = true}
+
+[tool.poetry.dev-dependencies]
+# Standardized Developer Workflow Orchestration
+cruft = "^2.6.0" # Automated Cookiecutter template synchronization
+
+# Type Checking and Data Validation
+mypy = "^0.812" # Static type checker
+
+# Testing
+nbqa = "^0.8.0"
+pytest = "^6.2.1"
+pytest-benchmark = {extras = ["histogram"], version = "^3.4.1"}
+pytest-cov = "^2.10.1"
+pytest-emoji = "^0.2.0"
+pytest-mock = "^3.6.0"
+pytest-sugar = "^0.9.4"
+pytest-xdist = "^2.2.1"
+hypothesis = "^6.10.1"
+icontract-hypothesis = "^1.1.0"
+mutmut = "^2.1.0"
+xdoctest = {extras = ["all"], version = "^0.15.4"}
+tox = "^3.21.4"
+
+# Linting
+## Code formatting
+black = "^21.4b2" # see: https://black.readthedocs.io/en/stable/editor_integration.html
+## Code quality
+flakehell = "^0.9.0"
+pylint = "^2.8.1"
+## Automation and management
+pre-commit = "^2.12.1"
+
+# CI/CD
+tox-gh-actions = "^2.3.0"
+
+# Documentation
+darglint = "^1.5.8"
+nodeenv = "^1.5.0" # ADR documentation Node dependency
+
+[tool.poetry.extras]
+docs = [
+    "myst-parser",
+    "pygments",
+    "sphinx",
+    "sphinx-autodoc-typehints",
+    "sphinx-icontract",
+    "sphinx-rtd-theme",
+    "sphinxcontrib-apidoc",
+    "sphinxcontrib-confluencebuilder",
+    "typer-cli",
+]
+
+
+[tool.poetry.scripts]
+"cookiecutter-cruft-poetry-tox-pre-commit-ci-cd-instance" = "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance.main:app"
+
+#################################################################################
+# Tooling configs                                                               #
+#################################################################################
+[tool.coverage.run]
+branch = true
+concurrency = ["multiprocessing"]
+parallel = true
+source = ["cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance"]
+
+[tool.coverage.report]
+exclude_lines =[
+    "pragma: no cover",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
+fail_under = 100
+show_missing = true
+skip_covered = true
+
+[tool.cruft]
+skip = [
+    ".env",
+    "README.md",
+    "cookiecutter_cruft_poetry_tox_pre_commit_ci_cd_instance/__init__.py",
+    "docs/source/.env",
+    "docs/source/ref/dev/"
+]
+
+[tool.flakehell]
+# specify any flake8 options
+exclude = [".*"] # Ignore dotfiles
+# make output nice
+format = "grouped"
+# show line of source code in output
+show_source = true
+# temporary fix for flake8 version 3.9.1 compatibility
+extended_default_ignore=[]  # see https://github.com/flakehell/flakehell/issues/10
+
+# list of plugins and rules for them
+[tool.flakehell.plugins]
+# cyclomatic complexity (https://github.com/PyCQA/mccabe)
+mccabe = ["+*"]
+# include everything in pyflakes except F401
+pyflakes = ["+*", "-F401"]
+# include everything in pycodestyle except what Black covers
+pycodestyle = ["+*",
+    "-E203", # Whitespace before ":"
+    "-E501", # Line too long (82 > 78 characters)
+    "-W503",  # Line break occurred before a binary operator <- this is now considered best practice by PEP 8
+    # Ignore errors resulting from Jupyter notebook to Python module portability formatting
+    "-E265", # block comment should start with '# '
+    # Ignore errors resulting from Jupyter notebook-style programming
+    "-E402", # module level import not at top of file
+]
+
+[tool.isort]
+profile = "black"
+atomic = "true"
+combine_as_imports = "true"
+
+[tool.pylint.basic]
+good-names-rgxs = ["^Test_.*$"]
+
+[tool.pylint.messages_control]
+disable = [
+  # Explicitly document only as needed
+  "missing-module-docstring",
+  "missing-class-docstring",
+  "missing-function-docstring",
+  # Black & Flake8 purview
+  "line-too-long",
+  "bad-continuation",
+  "c-extension-no-member",
+  # Ignore errors resulting from Jupyter notebook-style programming
+  "invalid-name",
+  "redefined-outer-name",
+  "reimported",
+  "ungrouped-imports",
+  "wrong-import-order",
+  "wrong-import-position",
+]
+
+[tool.pylint.similarities]
+# Ignore imports when computing similarities.
+ignore-imports = "yes"
+
+[tool.pytest.ini_options]
+addopts = ["-rfsxX", "-l", "--tb=short", "--strict-markers", "-vv", "--emoji", "--xdoctest"]
+xfail_strict = "true"
+testpaths = ["tests",]
+norecursedirs = [".*", "*.egg", "build", "dist",]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
