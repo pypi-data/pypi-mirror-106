@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+xyw_macro/__init__.py
+xyw_macro/command.py
+xyw_macro/contants.py
+xyw_macro/hook.py
+xyw_macro/macro.py
+xyw_macro/notify.py
+xyw_macro/utils.py
+xyw_macro/win32.py
+xyw_macro.egg-info/PKG-INFO
+xyw_macro.egg-info/SOURCES.txt
+xyw_macro.egg-info/dependency_links.txt
+xyw_macro.egg-info/requires.txt
+xyw_macro.egg-info/top_level.txt
