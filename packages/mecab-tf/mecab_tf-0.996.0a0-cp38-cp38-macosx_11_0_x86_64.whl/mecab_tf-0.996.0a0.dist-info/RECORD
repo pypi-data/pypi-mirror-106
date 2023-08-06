@@ -1,0 +1,9 @@
+mecab_tf-0.996.0a0.data/purelib/mecab_tf/__init__.py,sha256=ooI7rh8U0CapL5eKLwnkveIklZtqhpqXtrnme5RWkNo,46
+mecab_tf-0.996.0a0.data/purelib/mecab_tf/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecab_tf-0.996.0a0.data/purelib/mecab_tf/python/ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecab_tf-0.996.0a0.data/purelib/mecab_tf/python/ops/_mecab_ops.so,sha256=39SgT8XVp8QvkzikXTjz0HbcFiCMBPcSEQg9H1LfkWY,1306600
+mecab_tf-0.996.0a0.data/purelib/mecab_tf/python/ops/mecab_ops.py,sha256=m0Kywi1TuDtXzqEqFDxOXGaoDKSlNBodv9EjeHWFeng,2455
+mecab_tf-0.996.0a0.dist-info/METADATA,sha256=qgGOtGJ7odVqGuCO-QihTln-Vhqj8LsXF5KU1Lv8ct0,687
+mecab_tf-0.996.0a0.dist-info/WHEEL,sha256=mJUhM6xk5uGuGdsmQlSqd9235pVr529Y-P1VP4AaxzE,109
+mecab_tf-0.996.0a0.dist-info/top_level.txt,sha256=LcSK8ONUhuocUjkSw3zYInB0WsadAbCMIX5AGE-SuUw,9
+mecab_tf-0.996.0a0.dist-info/RECORD,,
