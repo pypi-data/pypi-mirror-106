@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+scr/TextStatistic/TextStatistic.py
+scr/TextStatistic/__init__.py
+scr/TextStatistic.egg-info/PKG-INFO
+scr/TextStatistic.egg-info/SOURCES.txt
+scr/TextStatistic.egg-info/dependency_links.txt
+scr/TextStatistic.egg-info/top_level.txt
