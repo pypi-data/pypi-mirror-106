@@ -1,0 +1,8 @@
+cdsr_pack/__init__.py,sha256=yzf30WS6mDmlQY7QN64joeSBMUGXmP3lWLzKRC14MLs,174
+cdsr_pack/builder.py,sha256=7nrQPL9f4eTZ-a6WK6-DakSRnl55ulkyXfPPxM8zFDc,2242
+cdsr_pack/decoder.py,sha256=ZiMOzTeTZHGHcjki1afQ9qWrowDchEe-7T2FF-Ulj5g,5642
+cdsr_pack-0.0a0.dev0.dist-info/LICENSE,sha256=zGriaAyeLQbBBw5c9JpjBf7Lv-nHxC0GoInZNstjLV8,1105
+cdsr_pack-0.0a0.dev0.dist-info/METADATA,sha256=9-JDizYmCUjJfwbKiavOt1iqfNB4qCT--cNVOHFWxzc,2040
+cdsr_pack-0.0a0.dev0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cdsr_pack-0.0a0.dev0.dist-info/top_level.txt,sha256=ju1ndpwYT_diNzzdqi2D0Ck06vcKzyp2UcvJavaTse8,10
+cdsr_pack-0.0a0.dev0.dist-info/RECORD,,
