@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/beaglepy/__init__.py
+src/beaglepy/beagle.cpp
+src/beaglepy/utils.py
+src/beaglepy.egg-info/PKG-INFO
+src/beaglepy.egg-info/SOURCES.txt
+src/beaglepy.egg-info/dependency_links.txt
+src/beaglepy.egg-info/not-zip-safe
+src/beaglepy.egg-info/requires.txt
+src/beaglepy.egg-info/top_level.txt
