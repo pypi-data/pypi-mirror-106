@@ -1,0 +1,8 @@
+pyzsf/__init__.py,sha256=h2gbw8PQWVAh-TNQhbRuYOMM4GXVqHnDWIgKu7Hh40Y,124
+pyzsf/pyzsf.py,sha256=ac4d81Ea-5q6BpjJAZelJtVxSIuvH34qJzO7yBmIO64,7546
+pyzsf/_zsf_cffi.abi3.so,sha256=1HpIUDDvjeeF_SCRX2SIf6a42dYhlwrcoBnnoLQF-No,92936
+pyzsf-0.1.1.dist-info/RECORD,,
+pyzsf-0.1.1.dist-info/COPYING.LESSER,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pyzsf-0.1.1.dist-info/WHEEL,sha256=uEtMjhDCpFe1ynEGy6EHs7KTUgyWrdmqAvim4Rbybc4,217
+pyzsf-0.1.1.dist-info/METADATA,sha256=FXmUVFqkbEYRg5Gl_M-DZiDrV9BoJujBbBGp_mLLDzc,1018
+pyzsf-0.1.1.dist-info/top_level.txt,sha256=jkTlE9XWq5YNag1msZQiG4NvApvhssBEeZx91HN5zCc,6
