@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: oxicord
+Version: 1.0.0
+Summary: oxicord An API Wrapper for discord
+Home-page: https://github.com/oxy-Op/oxicord
+Author: Md Rehaan
+Author-email: mdrehaan7766@gmail.com
+License: MIT
+Download-URL: https://github.com/oxy-Op/oxicord/archive/refs/tags/1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: oxicord,loves,you
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
