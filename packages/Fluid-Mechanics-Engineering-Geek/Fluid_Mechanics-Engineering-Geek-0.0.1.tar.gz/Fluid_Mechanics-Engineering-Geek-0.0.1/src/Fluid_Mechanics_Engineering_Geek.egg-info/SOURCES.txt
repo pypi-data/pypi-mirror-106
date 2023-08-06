@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Fluid_Mechanics/FluidSystems.py
+src/Fluid_Mechanics/__init__.py
+src/Fluid_Mechanics_Engineering_Geek.egg-info/PKG-INFO
+src/Fluid_Mechanics_Engineering_Geek.egg-info/SOURCES.txt
+src/Fluid_Mechanics_Engineering_Geek.egg-info/dependency_links.txt
+src/Fluid_Mechanics_Engineering_Geek.egg-info/top_level.txt
