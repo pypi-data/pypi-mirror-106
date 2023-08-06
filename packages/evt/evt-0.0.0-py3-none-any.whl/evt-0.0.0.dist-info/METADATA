@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: evt
+Version: 0.0.0
+Summary: TODO
+Home-page: https://github.com/spmvg/evt
+Author: Steven van Gemert
+Author-email: 13852721+spmvg@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (>=3.4)
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: pandas (>=1.2)
+
+TODO
+
+
