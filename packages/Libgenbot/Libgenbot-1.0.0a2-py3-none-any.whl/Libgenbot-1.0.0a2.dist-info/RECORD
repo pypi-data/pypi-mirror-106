@@ -1,0 +1,17 @@
+Libgenbot/Crossref.py,sha256=6NZYifDWzq2jOJmF9O7kCOibvrz46DsCGGbJP-pymzA,3145
+Libgenbot/Downloader.py,sha256=Gqe8YR7uYUrgqR4-ZSCHnshetN5jPEoJEuRBzEGacs8,4038
+Libgenbot/HTMLparsers.py,sha256=ZCL7a3hkVLPywqvey-9s0FEQYFrIkOovtYd90BJfCoI,3035
+Libgenbot/Libgen.py,sha256=V5D1OcgPjkW4EMBjZdlJF3ZV66-E6LVOItYeI5ZHSg4,1874
+Libgenbot/NetInfo.py,sha256=MC8SV0ZBewYVAaqyNdTpz2xUnXkXzdTY2hIP4dWbNms,325
+Libgenbot/Paper.py,sha256=EXaMiG1xWmCkGOHftoXNPVU3OEEAarhEu-aALhpE2jY,3246
+Libgenbot/PapersFilters.py,sha256=dRXBwY-vYtyxUl6nllcQKXAHw2lbEuA_kAdQ6JVyPo4,910
+Libgenbot/Scholar.py,sha256=82Z9h0PxhCn2r--dQTMWL6KnYSOTk1IR-UI39HSQGTs,2185
+Libgenbot/__init__.py,sha256=eox7jgUIiJoFnTFb8xguNbicD-Qt3o72bfiqlMaKLhc,27
+Libgenbot/__main__.py,sha256=FVVkxveWD-OdzgoMf5luptHza7V3aFf4h7NkL6Bsr8U,9479
+Libgenbot/proxy.py,sha256=cZ19NGVyASOv9ydrscldVM1IMkbgthJXEn3AlJUzFBM,297
+Libgenbot-1.0.0a2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+Libgenbot-1.0.0a2.dist-info/METADATA,sha256=IMAHnz6MO15ZLcB-0bggWg7N6t-HrCxmzSEJhFQtj34,3366
+Libgenbot-1.0.0a2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Libgenbot-1.0.0a2.dist-info/entry_points.txt,sha256=XZmpoUg8O_vE4xtrIT9m2qx1AeDEXbRukEoINdg5JVE,55
+Libgenbot-1.0.0a2.dist-info/top_level.txt,sha256=13g9PPJSgF0G_Kwij4YJVUZYumQS5M66a-CtYIYXsAQ,10
+Libgenbot-1.0.0a2.dist-info/RECORD,,
