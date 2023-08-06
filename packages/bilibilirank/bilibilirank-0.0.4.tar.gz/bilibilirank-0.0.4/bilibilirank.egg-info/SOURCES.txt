@@ -1,0 +1,8 @@
+README.md
+setup.py
+bilibilirank/__init__.py
+bilibilirank/crawl.py
+bilibilirank.egg-info/PKG-INFO
+bilibilirank.egg-info/SOURCES.txt
+bilibilirank.egg-info/dependency_links.txt
+bilibilirank.egg-info/top_level.txt
