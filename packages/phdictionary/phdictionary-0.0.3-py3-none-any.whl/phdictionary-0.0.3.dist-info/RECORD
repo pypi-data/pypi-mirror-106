@@ -1,0 +1,10 @@
+phdictionary/__init__.py,sha256=nxqYIqeSYRAP8n_rnAzkt3EzDTGHpGARp80wtZQZoHY,374
+phdictionary/dictionary.py,sha256=8UNiOSM5iud4iDPQ5CcOMbLODD2IhVYYfFx0vhHmpkM,3546
+phdictionary/file_manager.py,sha256=ihQVKFqxEoteoHRYRNw408-42nOabjmDx4yFJqxV38w,5588
+phdictionary/purifier.py,sha256=Q3ZLLwVbFzCLo4WUUz0MTahzmLRjFKweVboUVk9TzAo,4125
+phdictionary/requestor.py,sha256=4TIKG8PcKlBLGC7cVDDqDy7NXUdJHYaX1VFQyq3Pkh0,2637
+phdictionary-0.0.3.dist-info/LICENSE,sha256=UPIOdpPDXudWapdPMuoUvjozSe8MOXbP69IrlRhiOpw,1087
+phdictionary-0.0.3.dist-info/METADATA,sha256=-BIcy3Q4GB9HmPdbATVigxof3fW4lzeVm6aKP35xaSA,974
+phdictionary-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+phdictionary-0.0.3.dist-info/top_level.txt,sha256=l-IKAEZrclKnKHv6xi6TO3ASk6sh2Kr2b_eO-HZHMSw,13
+phdictionary-0.0.3.dist-info/RECORD,,
