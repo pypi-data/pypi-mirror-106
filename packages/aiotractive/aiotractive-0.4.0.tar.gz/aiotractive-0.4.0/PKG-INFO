@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: aiotractive
+Version: 0.4.0
+Summary: Asynchronous Python client for the Tractive REST API
+Home-page: https://github.com/zhulik/aiotractive
+Author: Gleb Sinyavskiy
+Author-email: zhulik.gleb@gmail.com
+License: The MIT License
+Description: ## aiotractive
+        
+Keywords: tractive,rest,api,aio,async,await
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
