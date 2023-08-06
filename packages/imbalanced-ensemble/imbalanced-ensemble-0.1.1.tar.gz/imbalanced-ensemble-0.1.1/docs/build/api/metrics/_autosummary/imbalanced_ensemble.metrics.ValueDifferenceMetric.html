@@ -1,0 +1,445 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>ValueDifferenceMetric &mdash; imbalanced-ensemble 0.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="imbalanced_ensemble.utils" href="../../utils/api.html" />
+    <link rel="prev" title="Pairwise Metrics" href="../pairwise.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> imbalanced-ensemble
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../get_start.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../install.html">Install <cite>imbalanced_ensemble</cite></a></li>
+</ul>
+<p class="caption"><span class="caption-text">API</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../ensemble/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.ensemble</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sampler/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.sampler</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../visualizer/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.visualizer</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pipeline/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.pipeline</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../datasets/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.datasets</span></code></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.metrics</span></code></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../classification.html">Classification Metrics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../pairwise.html">Pairwise Metrics</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">ValueDifferenceMetric</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../utils/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.utils</span></code></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html">Basic usage examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html#dataset-examples">Dataset examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html#evaluation-examples">Evaluation examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html#pipeline-examples">Pipeline examples</a></li>
+</ul>
+<p class="caption"><span class="caption-text">History</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../release_history.html">Release History</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">imbalanced-ensemble</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.metrics</span></code></a> &raquo;</li>
+        
+          <li><a href="../pairwise.html">Pairwise Metrics</a> &raquo;</li>
+        
+      <li>ValueDifferenceMetric</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/api/metrics/_autosummary/imbalanced_ensemble.metrics.ValueDifferenceMetric.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="valuedifferencemetric">
+<h1>ValueDifferenceMetric<a class="headerlink" href="#valuedifferencemetric" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="imbalanced_ensemble.metrics.ValueDifferenceMetric">
+<em class="property">class </em><code class="sig-prename descclassname">imbalanced_ensemble.metrics.</code><code class="sig-name descname">ValueDifferenceMetric</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">n_categories</span><span class="o">=</span><span class="default_value">'auto'</span></em>, <em class="sig-param"><span class="n">k</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">r</span><span class="o">=</span><span class="default_value">2</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.metrics.ValueDifferenceMetric" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class implementing the Value Difference Metric.</p>
+<p>This metric computes the distance between samples containing only
+categorical features. The distance between feature values of two samples is
+defined as:</p>
+<div class="math notranslate nohighlight">
+\[\delta(x, y) = \sum_{c=1}^{C} |p(c|x_{f}) - p(c|y_{f})|^{k} \ ,\]</div>
+<p>where <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> are two samples and <span class="math notranslate nohighlight">\(f\)</span> a given
+feature, <span class="math notranslate nohighlight">\(C\)</span> is the number of classes, <span class="math notranslate nohighlight">\(p(c|x_{f})\)</span> is the
+conditional probability that the output class is <span class="math notranslate nohighlight">\(c\)</span> given that
+the feature value <span class="math notranslate nohighlight">\(f\)</span> has the value <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(k\)</span> an
+exponent usually defined to 1 or 2.</p>
+<p>The distance for the feature vectors <span class="math notranslate nohighlight">\(X\)</span> and <span class="math notranslate nohighlight">\(Y\)</span> is
+subsequently defined as:</p>
+<div class="math notranslate nohighlight">
+\[\Delta(X, Y) = \sum_{f=1}^{F} \delta(X_{f}, Y_{f})^{r} \ ,\]</div>
+<p>where <span class="math notranslate nohighlight">\(F\)</span> is the number of feature and <span class="math notranslate nohighlight">\(r\)</span> an exponent usually
+defined equal to 1 or 2.</p>
+<p>The definition of this distance was propoed in <a class="reference internal" href="#r1270a7468a4e-1" id="id1">[1]</a>.</p>
+<p>Read more in the <a class="reference external" href="https://imbalanced-learn.org/stable/metrics.html#vdm">User Guide</a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>n_categories</strong><span class="classifier">“auto” or array-like of shape (n_features,), default=”auto”</span></dt><dd><p>The number of unique categories per features. If <cite>“auto”</cite>, the number
+of categories will be computed from <cite>X</cite> at <cite>fit</cite>. Otherwise, you can
+provide an array-like of such counts to avoid computation. You can use
+the fitted attribute <cite>categories_</cite> of the
+<code class="xref py py-class docutils literal notranslate"><span class="pre">OrdinalEncoder</span></code> to deduce these counts.</p>
+</dd>
+<dt><strong>k</strong><span class="classifier">int, default=1</span></dt><dd><p>Exponent used to compute the distance between feature value.</p>
+</dd>
+<dt><strong>r</strong><span class="classifier">int, default=2</span></dt><dd><p>Exponent used to compute the distance between the feature vector.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Attributes</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>n_categories_</strong><span class="classifier">ndarray of shape (n_features,)</span></dt><dd><p>The number of categories per features.</p>
+</dd>
+<dt><strong>proba_per_class_</strong><span class="classifier">list of ndarray of shape (n_categories, n_classes)</span></dt><dd><p>List of length <cite>n_features</cite> containing the conditional probabilities
+for each category given a class.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<p>The input data <cite>X</cite> are expected to be encoded by an
+<code class="xref py py-class docutils literal notranslate"><span class="pre">OrdinalEncoder</span></code> and the data type is used
+should be <cite>np.int32</cite>. If other data types are given, <cite>X</cite> will be converted
+to <cite>np.int32</cite>.</p>
+<p class="rubric">References</p>
+<dl class="citation">
+<dt class="label" id="r1270a7468a4e-1"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>Stanfill, Craig, and David Waltz. “Toward memory-based reasoning.”
+Communications of the ACM 29.12 (1986): 1213-1228.</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="s2">&quot;green&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;red&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;blue&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="mi">8</span> <span class="o">+</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">+</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="mi">7</span> <span class="o">+</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="mi">9</span> <span class="o">+</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">OrdinalEncoder</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">encoder</span> <span class="o">=</span> <span class="n">OrdinalEncoder</span><span class="p">(</span><span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int32</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">X_encoded</span> <span class="o">=</span> <span class="n">encoder</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">imbalanced_ensemble.metrics.pairwise</span> <span class="kn">import</span> <span class="n">ValueDifferenceMetric</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">vdm</span> <span class="o">=</span> <span class="n">ValueDifferenceMetric</span><span class="p">()</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_encoded</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pairwise_distance</span> <span class="o">=</span> <span class="n">vdm</span><span class="o">.</span><span class="n">pairwise</span><span class="p">(</span><span class="n">X_encoded</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pairwise_distance</span><span class="o">.</span><span class="n">shape</span>
+<span class="go">(30, 30)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">X_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="s2">&quot;green&quot;</span><span class="p">,</span> <span class="s2">&quot;red&quot;</span><span class="p">,</span> <span class="s2">&quot;blue&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">X_test_encoded</span> <span class="o">=</span> <span class="n">encoder</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">vdm</span><span class="o">.</span><span class="n">pairwise</span><span class="p">(</span><span class="n">X_test_encoded</span><span class="p">)</span>
+<span class="go">array([[ 0.  ,  0.04,  1.96],</span>
+<span class="go">       [ 0.04,  0.  ,  1.44],</span>
+<span class="go">       [ 1.96,  1.44,  0.  ]])</span>
+</pre></div>
+</div>
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#imbalanced_ensemble.metrics.ValueDifferenceMetric.fit" title="imbalanced_ensemble.metrics.ValueDifferenceMetric.fit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fit</span></code></a>(X, y)</p></td>
+<td><p>Compute the necessary statistics from the training set.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#imbalanced_ensemble.metrics.ValueDifferenceMetric.get_params" title="imbalanced_ensemble.metrics.ValueDifferenceMetric.get_params"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_params</span></code></a>([deep])</p></td>
+<td><p>Get parameters for this estimator.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#imbalanced_ensemble.metrics.ValueDifferenceMetric.pairwise" title="imbalanced_ensemble.metrics.ValueDifferenceMetric.pairwise"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pairwise</span></code></a>(X[, Y])</p></td>
+<td><p>Compute the VDM distance pairwise.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#imbalanced_ensemble.metrics.ValueDifferenceMetric.set_params" title="imbalanced_ensemble.metrics.ValueDifferenceMetric.set_params"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_params</span></code></a>(**params)</p></td>
+<td><p>Set the parameters of this estimator.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt id="imbalanced_ensemble.metrics.ValueDifferenceMetric.fit">
+<code class="sig-name descname">fit</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em>, <em class="sig-param"><span class="n">y</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.metrics.ValueDifferenceMetric.fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the necessary statistics from the training set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">ndarray of shape (n_samples, n_features), dtype=np.int32</span></dt><dd><p>The input data. The data are expected to be encoded with a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">OrdinalEncoder</span></code>.</p>
+</dd>
+<dt><strong>y</strong><span class="classifier">ndarray of shape (n_features,)</span></dt><dd><p>The target.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>self</dt><dd></dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.metrics.ValueDifferenceMetric.get_params">
+<code class="sig-name descname">get_params</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deep</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.metrics.ValueDifferenceMetric.get_params" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get parameters for this estimator.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>deep</strong><span class="classifier">bool, default=True</span></dt><dd><p>If True, will return the parameters for this estimator and
+contained subobjects that are estimators.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>params</strong><span class="classifier">dict</span></dt><dd><p>Parameter names mapped to their values.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.metrics.ValueDifferenceMetric.pairwise">
+<code class="sig-name descname">pairwise</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em>, <em class="sig-param"><span class="n">Y</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.metrics.ValueDifferenceMetric.pairwise" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the VDM distance pairwise.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">ndarray of shape (n_samples, n_features), dtype=np.int32</span></dt><dd><p>The input data. The data are expected to be encoded with a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">OrdinalEncoder</span></code>.</p>
+</dd>
+<dt><strong>Y</strong><span class="classifier">ndarray of shape (n_samples, n_features), dtype=np.int32</span></dt><dd><p>The input data. The data are expected to be encoded with a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">OrdinalEncoder</span></code>.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>distance_matrix</strong><span class="classifier">ndarray of shape (n_samples, n_samples)</span></dt><dd><p>The VDM pairwise distance.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.metrics.ValueDifferenceMetric.set_params">
+<code class="sig-name descname">set_params</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">params</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.metrics.ValueDifferenceMetric.set_params" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the parameters of this estimator.</p>
+<p>The method works on simple estimators as well as on nested objects
+(such as <code class="xref py py-class docutils literal notranslate"><span class="pre">Pipeline</span></code>). The latter have
+parameters of the form <code class="docutils literal notranslate"><span class="pre">&lt;component&gt;__&lt;parameter&gt;</span></code> so that it’s
+possible to update each component of a nested object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>**params</strong><span class="classifier">dict</span></dt><dd><p>Estimator parameters.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>self</strong><span class="classifier">estimator instance</span></dt><dd><p>Estimator instance.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<div style='clear:both'></div></div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../utils/api.html" class="btn btn-neutral float-right" title="imbalanced_ensemble.utils" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../pairwise.html" class="btn btn-neutral float-left" title="Pairwise Metrics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Zhining Liu.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

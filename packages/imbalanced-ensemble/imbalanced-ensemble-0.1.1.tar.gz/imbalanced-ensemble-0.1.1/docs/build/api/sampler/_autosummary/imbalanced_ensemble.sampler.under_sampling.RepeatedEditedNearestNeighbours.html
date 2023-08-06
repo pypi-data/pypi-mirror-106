@@ -1,0 +1,494 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>RepeatedEditedNearestNeighbours &mdash; imbalanced-ensemble 0.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="AllKNN" href="imbalanced_ensemble.sampler.under_sampling.AllKNN.html" />
+    <link rel="prev" title="EditedNearestNeighbours" href="imbalanced_ensemble.sampler.under_sampling.EditedNearestNeighbours.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> imbalanced-ensemble
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../get_start.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../install.html">Install <cite>imbalanced_ensemble</cite></a></li>
+</ul>
+<p class="caption"><span class="caption-text">API</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../ensemble/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.ensemble</span></code></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.sampler</span></code></a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../under-samplers.html">Under-sampling Samplers</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.ClusterCentroids.html">ClusterCentroids</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.RandomUnderSampler.html">RandomUnderSampler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.InstanceHardnessThreshold.html">InstanceHardnessThreshold</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.NearMiss.html">NearMiss</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.TomekLinks.html">TomekLinks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.EditedNearestNeighbours.html">EditedNearestNeighbours</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">RepeatedEditedNearestNeighbours</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.AllKNN.html">AllKNN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.OneSidedSelection.html">OneSidedSelection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.CondensedNearestNeighbour.html">CondensedNearestNeighbour</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.NeighbourhoodCleaningRule.html">NeighbourhoodCleaningRule</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.BalanceCascadeUnderSampler.html">BalanceCascadeUnderSampler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.SelfPacedUnderSampler.html">SelfPacedUnderSampler</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../over-samplers.html">Over-sampling Samplers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../visualizer/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.visualizer</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pipeline/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.pipeline</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../datasets/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.datasets</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../metrics/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.metrics</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../utils/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.utils</span></code></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html">Basic usage examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html#dataset-examples">Dataset examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html#evaluation-examples">Evaluation examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html#pipeline-examples">Pipeline examples</a></li>
+</ul>
+<p class="caption"><span class="caption-text">History</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../release_history.html">Release History</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">imbalanced-ensemble</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.sampler</span></code></a> &raquo;</li>
+        
+          <li><a href="../under-samplers.html">Under-sampling Samplers</a> &raquo;</li>
+        
+      <li>RepeatedEditedNearestNeighbours</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/api/sampler/_autosummary/imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="repeatededitednearestneighbours">
+<h1>RepeatedEditedNearestNeighbours<a class="headerlink" href="#repeatededitednearestneighbours" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours">
+<em class="property">class </em><code class="sig-prename descclassname">imbalanced_ensemble.sampler.under_sampling.</code><code class="sig-name descname">RepeatedEditedNearestNeighbours</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours" title="Permalink to this definition">¶</a></dt>
+<dd><p>Undersample based on the repeated edited nearest neighbour method.</p>
+<p>This method will repeat several time the ENN algorithm.</p>
+<p>Read more in the <a class="reference external" href="https://imbalanced-learn.org/stable/under_sampling.html#edited-nearest-neighbors">User Guide</a>.</p>
+<dl class="field-list">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl>
+<dt><strong>sampling_strategy</strong><span class="classifier">str, list or callable</span></dt><dd><p>Sampling information to sample the data set.</p>
+<ul>
+<li><p>When <code class="docutils literal notranslate"><span class="pre">str</span></code>, specify the class targeted by the resampling. Note the
+the number of samples will not be equal in each. Possible choices
+are:</p>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">'majority'</span></code>: resample only the majority class;</p>
+<p><code class="docutils literal notranslate"><span class="pre">'not</span> <span class="pre">minority'</span></code>: resample all classes but the minority class;</p>
+<p><code class="docutils literal notranslate"><span class="pre">'not</span> <span class="pre">majority'</span></code>: resample all classes but the majority class;</p>
+<p><code class="docutils literal notranslate"><span class="pre">'all'</span></code>: resample all classes;</p>
+<p><code class="docutils literal notranslate"><span class="pre">'auto'</span></code>: equivalent to <code class="docutils literal notranslate"><span class="pre">'not</span> <span class="pre">minority'</span></code>.</p>
+</div></blockquote>
+</li>
+<li><p>When <code class="docutils literal notranslate"><span class="pre">list</span></code>, the list contains the classes targeted by the
+resampling.</p></li>
+<li><p>When callable, function taking <code class="docutils literal notranslate"><span class="pre">y</span></code> and returns a <code class="docutils literal notranslate"><span class="pre">dict</span></code>. The keys
+correspond to the targeted classes. The values correspond to the
+desired number of samples for each class.</p></li>
+</ul>
+</dd>
+<dt><strong>n_neighbors</strong><span class="classifier">int or object, default=3</span></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">int</span></code>, size of the neighbourhood to consider to compute the
+nearest neighbors. If object, an estimator that inherits from
+<code class="xref py py-class docutils literal notranslate"><span class="pre">KNeighborsMixin</span></code> that will be used to
+find the nearest-neighbors.</p>
+</dd>
+<dt><strong>max_iter</strong><span class="classifier">int, default=100</span></dt><dd><p>Maximum number of iterations of the edited nearest neighbours
+algorithm for a single run.</p>
+</dd>
+<dt><strong>kind_sel</strong><span class="classifier">{‘all’, ‘mode’}, default=’all’</span></dt><dd><p>Strategy to use in order to exclude samples.</p>
+<ul class="simple">
+<li><p>If <code class="docutils literal notranslate"><span class="pre">'all'</span></code>, all neighbours will have to agree with the samples of
+interest to not be excluded.</p></li>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">'mode'</span></code>, the majority vote of the neighbours will be used in
+order to exclude a sample.</p></li>
+</ul>
+<p>The strategy <cite>“all”</cite> will be less conservative than <cite>‘mode’</cite>. Thus,
+more samples will be removed when <cite>kind_sel=”all”</cite> generally.</p>
+</dd>
+<dt><strong>n_jobs</strong><span class="classifier">int, default=None</span></dt><dd><p>Number of CPU cores used during the cross-validation loop.
+<code class="docutils literal notranslate"><span class="pre">None</span></code> means 1 unless in a <code class="xref py py-obj docutils literal notranslate"><span class="pre">joblib.parallel_backend</span></code> context.
+<code class="docutils literal notranslate"><span class="pre">-1</span></code> means using all processors. See
+<a class="reference external" href="https://scikit-learn.org/stable/glossary.html#term-n_jobs">Glossary</a>
+for more details.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Attributes</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>sample_indices_</strong><span class="classifier">ndarray of shape (n_new_samples,)</span></dt><dd><p>Indices of the samples selected.</p>
+</dd>
+<dt><strong>n_iter_</strong><span class="classifier">int</span></dt><dd><p>Number of iterations run.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<dl class="simple">
+<dt><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.CondensedNearestNeighbour.html#imbalanced_ensemble.sampler.under_sampling.CondensedNearestNeighbour" title="imbalanced_ensemble.sampler.under_sampling.CondensedNearestNeighbour"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CondensedNearestNeighbour</span></code></a></dt><dd><p>Undersample by condensing samples.</p>
+</dd>
+<dt><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.EditedNearestNeighbours.html#imbalanced_ensemble.sampler.under_sampling.EditedNearestNeighbours" title="imbalanced_ensemble.sampler.under_sampling.EditedNearestNeighbours"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EditedNearestNeighbours</span></code></a></dt><dd><p>Undersample by editing samples.</p>
+</dd>
+<dt><a class="reference internal" href="imbalanced_ensemble.sampler.under_sampling.AllKNN.html#imbalanced_ensemble.sampler.under_sampling.AllKNN" title="imbalanced_ensemble.sampler.under_sampling.AllKNN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AllKNN</span></code></a></dt><dd><p>Undersample using ENN and various number of neighbours.</p>
+</dd>
+</dl>
+</div>
+<p class="rubric">Notes</p>
+<p>The method is based on <a class="reference internal" href="#r744ae56c295d-1" id="id1">[1]</a>. A one-vs.-rest scheme is used when
+sampling a class as proposed in <a class="reference internal" href="#r744ae56c295d-1" id="id2">[1]</a>.</p>
+<p>Supports multi-class resampling.</p>
+<p class="rubric">References</p>
+<dl class="citation">
+<dt class="label" id="r744ae56c295d-1"><span class="brackets">1</span><span class="fn-backref">(<a href="#id1">1</a>,<a href="#id2">2</a>)</span></dt>
+<dd><p>I. Tomek, “An Experiment with the Edited Nearest-Neighbor
+Rule,” IEEE Transactions on Systems, Man, and Cybernetics, vol. 6(6),
+pp. 448-452, June 1976.</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">make_classification</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">imbalanced_ensemble.sampler.under_sampling</span> <span class="kn">import</span> <span class="n">RepeatedEditedNearestNeighbours</span> <span class="c1"># doctest : +NORMALIZE_WHITESPACE</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">make_classification</span><span class="p">(</span><span class="n">n_classes</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">class_sep</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+<span class="gp">... </span><span class="n">weights</span><span class="o">=</span><span class="p">[</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.9</span><span class="p">],</span> <span class="n">n_informative</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">n_redundant</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">flip_y</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+<span class="gp">... </span><span class="n">n_features</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">n_clusters_per_class</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">n_samples</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Original dataset shape </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">Counter</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
+<span class="go">Original dataset shape Counter({1: 900, 0: 100})</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">renn</span> <span class="o">=</span> <span class="n">RepeatedEditedNearestNeighbours</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">X_res</span><span class="p">,</span> <span class="n">y_res</span> <span class="o">=</span> <span class="n">renn</span><span class="o">.</span><span class="n">fit_resample</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Resampled dataset shape </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">Counter</span><span class="p">(</span><span class="n">y_res</span><span class="p">))</span>
+<span class="go">Resampled dataset shape Counter({1: 887, 0: 100})</span>
+</pre></div>
+</div>
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.fit" title="imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.fit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fit</span></code></a>(X, y)</p></td>
+<td><p>Check inputs and statistics of the sampler.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.fit_resample" title="imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.fit_resample"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fit_resample</span></code></a>(X, y, *[, sample_weight])</p></td>
+<td><p>Resample the dataset.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.get_params" title="imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.get_params"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_params</span></code></a>([deep])</p></td>
+<td><p>Get parameters for this estimator.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.set_params" title="imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.set_params"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_params</span></code></a>(**params)</p></td>
+<td><p>Set the parameters of this estimator.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt id="imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.fit">
+<code class="sig-name descname">fit</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em>, <em class="sig-param"><span class="n">y</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check inputs and statistics of the sampler.</p>
+<p>You should use <code class="docutils literal notranslate"><span class="pre">fit_resample</span></code> in all cases.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">{array-like, dataframe, sparse matrix} of shape                 (n_samples, n_features)</span></dt><dd><p>Data array.</p>
+</dd>
+<dt><strong>y</strong><span class="classifier">array-like of shape (n_samples,)</span></dt><dd><p>Target array.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>self</strong><span class="classifier">object</span></dt><dd><p>Return the instance itself.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.fit_resample">
+<code class="sig-name descname">fit_resample</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">sample_weight</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.fit_resample" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resample the dataset.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">{array-like, dataframe, sparse matrix} of shape                 (n_samples, n_features)</span></dt><dd><p>Matrix containing the data which have to be sampled.</p>
+</dd>
+<dt><strong>y</strong><span class="classifier">array-like of shape (n_samples,)</span></dt><dd><p>Corresponding label for each sample in X.</p>
+</dd>
+<dt><strong>sample_weight</strong><span class="classifier">array-like of shape (n_samples,), default=None</span></dt><dd><p>Corresponding weight for each sample in X.</p>
+<ul class="simple">
+<li><p>If <code class="docutils literal notranslate"><span class="pre">None</span></code>, perform normal resampling and return 
+<code class="docutils literal notranslate"><span class="pre">(X_resampled,</span> <span class="pre">y_resampled)</span></code>.</p></li>
+<li><p>If array-like, the given <code class="docutils literal notranslate"><span class="pre">sample_weight</span></code> will be resampled 
+along with <code class="docutils literal notranslate"><span class="pre">X</span></code> and <code class="docutils literal notranslate"><span class="pre">y</span></code>, and the <em>resampled</em> sample weights 
+will be added to returns. The function will return
+<code class="docutils literal notranslate"><span class="pre">(X_resampled,</span> <span class="pre">y_resampled,</span> <span class="pre">sample_weight_resampled)</span></code>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>X_resampled</strong><span class="classifier">{array-like, dataframe, sparse matrix} of shape                 (n_samples_new, n_features)</span></dt><dd><p>The array containing the resampled data.</p>
+</dd>
+<dt><strong>y_resampled</strong><span class="classifier">array-like of shape (n_samples_new,)</span></dt><dd><p>The corresponding label of <cite>X_resampled</cite>.</p>
+</dd>
+<dt><strong>sample_weight_resampled</strong><span class="classifier">array-like of shape (n_samples_new,), default=None</span></dt><dd><p>The corresponding weight of <cite>X_resampled</cite>.
+<em>Only will be returned if input sample_weight is not</em> <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.get_params">
+<code class="sig-name descname">get_params</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deep</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.get_params" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get parameters for this estimator.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>deep</strong><span class="classifier">bool, default=True</span></dt><dd><p>If True, will return the parameters for this estimator and
+contained subobjects that are estimators.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>params</strong><span class="classifier">dict</span></dt><dd><p>Parameter names mapped to their values.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.set_params">
+<code class="sig-name descname">set_params</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">params</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.sampler.under_sampling.RepeatedEditedNearestNeighbours.set_params" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the parameters of this estimator.</p>
+<p>The method works on simple estimators as well as on nested objects
+(such as <code class="xref py py-class docutils literal notranslate"><span class="pre">Pipeline</span></code>). The latter have
+parameters of the form <code class="docutils literal notranslate"><span class="pre">&lt;component&gt;__&lt;parameter&gt;</span></code> so that it’s
+possible to update each component of a nested object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>**params</strong><span class="classifier">dict</span></dt><dd><p>Estimator parameters.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>self</strong><span class="classifier">estimator instance</span></dt><dd><p>Estimator instance.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<div style='clear:both'></div></div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="imbalanced_ensemble.sampler.under_sampling.AllKNN.html" class="btn btn-neutral float-right" title="AllKNN" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="imbalanced_ensemble.sampler.under_sampling.EditedNearestNeighbours.html" class="btn btn-neutral float-left" title="EditedNearestNeighbours" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Zhining Liu.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,701 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>UnderBaggingClassifier &mdash; imbalanced-ensemble 0.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Over-sampling-based ensembles" href="../over-sampling.html" />
+    <link rel="prev" title="RUSBoostClassifier" href="imbalanced_ensemble.ensemble.under_sampling.RUSBoostClassifier.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> imbalanced-ensemble
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../get_start.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../install.html">Install <cite>imbalanced_ensemble</cite></a></li>
+</ul>
+<p class="caption"><span class="caption-text">API</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.ensemble</span></code></a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../under-sampling.html">Under-sampling-based ensembles</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.ensemble.under_sampling.SelfPacedEnsembleClassifier.html">SelfPacedEnsembleClassifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.ensemble.under_sampling.BalanceCascadeClassifier.html">BalanceCascadeClassifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.ensemble.under_sampling.BalancedRandomForestClassifier.html">BalancedRandomForestClassifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.ensemble.under_sampling.EasyEnsembleClassifier.html">EasyEnsembleClassifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imbalanced_ensemble.ensemble.under_sampling.RUSBoostClassifier.html">RUSBoostClassifier</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">UnderBaggingClassifier</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../over-sampling.html">Over-sampling-based ensembles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reweighting.html">Reweighting-based ensembles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../compatible.html">Compatible ensembles</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../sampler/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.sampler</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../visualizer/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.visualizer</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pipeline/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.pipeline</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../datasets/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.datasets</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../metrics/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.metrics</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../utils/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.utils</span></code></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html">Basic usage examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html#dataset-examples">Dataset examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html#evaluation-examples">Evaluation examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../auto_examples/index.html#pipeline-examples">Pipeline examples</a></li>
+</ul>
+<p class="caption"><span class="caption-text">History</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../release_history.html">Release History</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">imbalanced-ensemble</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.ensemble</span></code></a> &raquo;</li>
+        
+          <li><a href="../under-sampling.html">Under-sampling-based ensembles</a> &raquo;</li>
+        
+      <li>UnderBaggingClassifier</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/api/ensemble/_autosummary/imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="underbaggingclassifier">
+<h1>UnderBaggingClassifier<a class="headerlink" href="#underbaggingclassifier" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier">
+<em class="property">class </em><code class="sig-prename descclassname">imbalanced_ensemble.ensemble.under_sampling.</code><code class="sig-name descname">UnderBaggingClassifier</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Bagging classifier with intergrated random under-sampling.</p>
+<p>This implementation of UnderBagging <a class="reference internal" href="#rdc530062290d-1" id="id1">[1]</a> is similar to the scikit-learn
+implementation. It includes an additional step to balance the training set
+at fit time using a RandomUnderSampler.</p>
+<p>This implementation extends UnderBagging to support multi-class classification.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>base_estimator</strong><span class="classifier">object, default=None</span></dt><dd><p>The base estimator to fit on random subsets of the dataset.
+If None, then the base estimator is a
+<code class="docutils literal notranslate"><span class="pre">Pipeline([RandomUnderSampler(),</span> <span class="pre">DecisionTreeClassifier()])</span></code>.</p>
+</dd>
+<dt><strong>n_estimators</strong><span class="classifier">int, default=10</span></dt><dd><p>The number of base estimators in the ensemble.</p>
+</dd>
+<dt><strong>max_samples</strong><span class="classifier">int or float, default=1.0</span></dt><dd><p>The number of samples to draw from X to train each base estimator (with
+replacement by default, see <cite>bootstrap</cite> for more details).</p>
+<ul class="simple">
+<li><p>If <code class="docutils literal notranslate"><span class="pre">int</span></code>, then draw <cite>max_samples</cite> samples.</p></li>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">float</span></code>, then draw <cite>max_samples * X.shape[0]</cite> samples.</p></li>
+</ul>
+</dd>
+<dt><strong>max_features</strong><span class="classifier">int or float, default=1.0</span></dt><dd><p>The number of features to draw from X to train each base estimator (
+without replacement by default, see <cite>bootstrap_features</cite> for more
+details).</p>
+<ul class="simple">
+<li><p>If <code class="docutils literal notranslate"><span class="pre">int</span></code>, then draw <cite>max_features</cite> features.</p></li>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">float</span></code>, then draw <cite>max_features * X.shape[1]</cite> features.</p></li>
+</ul>
+</dd>
+<dt><strong>bootstrap</strong><span class="classifier">bool, default=True</span></dt><dd><p>Whether samples are drawn with replacement. If False, sampling
+without replacement is performed.</p>
+</dd>
+<dt><strong>bootstrap_features</strong><span class="classifier">bool, default=False</span></dt><dd><p>Whether features are drawn with replacement.</p>
+</dd>
+<dt><strong>oob_score</strong><span class="classifier">bool, default=False</span></dt><dd><p>Whether to use out-of-bag samples to estimate
+the generalization error.</p>
+</dd>
+<dt><strong>warm_start</strong><span class="classifier">bool, default=False</span></dt><dd><p>When set to True, reuse the solution of the previous call to fit
+and add more estimators to the ensemble, otherwise, just fit
+a whole new ensemble. See
+<a class="reference external" href="https://scikit-learn.org/stable/glossary.html#term-warm_start">Glossary</a>
+for more details.</p>
+</dd>
+<dt><strong>n_jobs</strong><span class="classifier">int, default=None</span></dt><dd><p>The number of jobs to run in parallel for both <a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.fit" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.fit"><code class="xref py py-meth docutils literal notranslate"><span class="pre">fit()</span></code></a> and
+<a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict"><code class="xref py py-meth docutils literal notranslate"><span class="pre">predict()</span></code></a>. <code class="docutils literal notranslate"><span class="pre">None</span></code> means 1 unless in a
+<code class="xref py py-obj docutils literal notranslate"><span class="pre">joblib.parallel_backend</span></code> context. <code class="docutils literal notranslate"><span class="pre">-1</span></code> means using all
+processors. See <a class="reference external" href="https://scikit-learn.org/stable/glossary.html#term-n_jobs">Glossary</a>
+for more details.</p>
+</dd>
+<dt><strong>random_state</strong><span class="classifier">int, RandomState instance or None, default=None</span></dt><dd><p>Control the randomization of the algorithm.
+Within each iteration, a different seed is generated for each sampler.
+If the base estimator accepts a <cite>random_state</cite> attribute, a different
+seed is generated for each instance in the ensemble.
+Pass an <code class="docutils literal notranslate"><span class="pre">int</span></code> for reproducible output across multiple function calls.</p>
+<ul class="simple">
+<li><p>If <code class="docutils literal notranslate"><span class="pre">int</span></code>, <code class="docutils literal notranslate"><span class="pre">random_state</span></code> is the seed used by the random number
+generator;</p></li>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">RandomState</span></code> instance, random_state is the random number
+generator;</p></li>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">None</span></code>, the random number generator is the <code class="docutils literal notranslate"><span class="pre">RandomState</span></code>
+instance used by <code class="docutils literal notranslate"><span class="pre">np.random</span></code>.</p></li>
+</ul>
+</dd>
+<dt><strong>verbose</strong><span class="classifier">int, default=0</span></dt><dd><p>Controls the verbosity when fitting and predicting.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Attributes</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>base_estimator_</strong><span class="classifier">pipeline estimator</span></dt><dd><p>The base estimator from which the ensemble is grown.</p>
+</dd>
+<dt><strong>base_sampler_</strong><span class="classifier">RandomUnderSampler</span></dt><dd><p>The base sampler.</p>
+</dd>
+<dt><strong>estimators_</strong><span class="classifier">list of classifiers</span></dt><dd><p>The collection of fitted sub-estimators.</p>
+</dd>
+<dt><strong>n_features_</strong><span class="classifier">int</span></dt><dd><p>The number of features when <a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.fit" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.fit"><code class="xref py py-meth docutils literal notranslate"><span class="pre">fit()</span></code></a> is performed.</p>
+</dd>
+<dt><strong>estimators_</strong><span class="classifier">list of estimators</span></dt><dd><p>The collection of fitted base estimators.</p>
+</dd>
+<dt><a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.estimators_samples_" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.estimators_samples_"><code class="xref py py-obj docutils literal notranslate"><span class="pre">estimators_samples_</span></code></a><span class="classifier">list of arrays</span></dt><dd><p>The subset of drawn samples for each base estimator.</p>
+</dd>
+<dt><strong>estimators_features_</strong><span class="classifier">list of arrays</span></dt><dd><p>The subset of drawn features for each base estimator.</p>
+</dd>
+<dt><strong>estimators_n_training_samples_</strong><span class="classifier">list of ints</span></dt><dd><p>The number of training samples for each fitted 
+base estimators.</p>
+</dd>
+<dt><strong>classes_</strong><span class="classifier">ndarray of shape (n_classes,)</span></dt><dd><p>The classes labels.</p>
+</dd>
+<dt><strong>n_classes_</strong><span class="classifier">int or list</span></dt><dd><p>The number of classes.</p>
+</dd>
+<dt><strong>oob_score_</strong><span class="classifier">float</span></dt><dd><p>Score of the training dataset obtained using an out-of-bag estimate.
+This attribute exists only when <code class="docutils literal notranslate"><span class="pre">oob_score</span></code> is True.</p>
+</dd>
+<dt><strong>oob_decision_function_</strong><span class="classifier">ndarray of shape (n_samples, n_classes)</span></dt><dd><p>Decision function computed with out-of-bag estimate on the training
+set. If n_estimators is small it might be possible that a data point
+was never left out during the bootstrap. In this case,
+<cite>oob_decision_function_</cite> might contain NaN. This attribute exists
+only when <code class="docutils literal notranslate"><span class="pre">oob_score</span></code> is True.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<dl class="simple">
+<dt><a class="reference internal" href="imbalanced_ensemble.ensemble.under_sampling.EasyEnsembleClassifier.html#imbalanced_ensemble.ensemble.under_sampling.EasyEnsembleClassifier" title="imbalanced_ensemble.ensemble.under_sampling.EasyEnsembleClassifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EasyEnsembleClassifier</span></code></a></dt><dd><p>Bag of balanced boosted learners.</p>
+</dd>
+<dt><a class="reference internal" href="imbalanced_ensemble.ensemble.under_sampling.BalancedRandomForestClassifier.html#imbalanced_ensemble.ensemble.under_sampling.BalancedRandomForestClassifier" title="imbalanced_ensemble.ensemble.under_sampling.BalancedRandomForestClassifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BalancedRandomForestClassifier</span></code></a></dt><dd><p>RandomForest with random under-sampling.</p>
+</dd>
+<dt><a class="reference internal" href="imbalanced_ensemble.ensemble.under_sampling.RUSBoostClassifier.html#imbalanced_ensemble.ensemble.under_sampling.RUSBoostClassifier" title="imbalanced_ensemble.ensemble.under_sampling.RUSBoostClassifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RUSBoostClassifier</span></code></a></dt><dd><p>Random under-sampling integrated in AdaBoost.</p>
+</dd>
+</dl>
+</div>
+<p class="rubric">Notes</p>
+<p>This is possible to turn this classifier into a balanced random forest <a class="reference internal" href="#rdc530062290d-2" id="id3">[2]</a>
+by passing a <code class="xref py py-class docutils literal notranslate"><span class="pre">DecisionTreeClassifier</span></code> with
+<cite>max_features=’auto’</cite> as a base estimator.</p>
+<p class="rubric">References</p>
+<dl class="citation">
+<dt class="label" id="rdc530062290d-1"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>R. Maclin, and D. Opitz. “An empirical evaluation of bagging and
+boosting.” AAAI/IAAI 1997 (1997): 546-551.</p>
+</dd>
+<dt class="label" id="rdc530062290d-2"><span class="brackets"><a class="fn-backref" href="#id3">2</a></span></dt>
+<dd><p>C. Chen Chao, A. Liaw, and L. Breiman. “Using random forest to
+learn imbalanced data.” University of California, Berkeley 110,
+2004.</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">imbalanced_ensemble.ensemble</span> <span class="kn">import</span> <span class="n">UnderBaggingClassifier</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">make_classification</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">make_classification</span><span class="p">(</span><span class="n">n_samples</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">n_classes</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+<span class="gp">... </span>                           <span class="n">n_informative</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">weights</span><span class="o">=</span><span class="p">[</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">],</span>
+<span class="gp">... </span>                           <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">clf</span> <span class="o">=</span> <span class="n">UnderBaggingClassifier</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>  
+<span class="go">UnderBaggingClassifier(...)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>  
+<span class="go">array([...])</span>
+</pre></div>
+</div>
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.decision_function" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.decision_function"><code class="xref py py-obj docutils literal notranslate"><span class="pre">decision_function</span></code></a>(X)</p></td>
+<td><p>Average of the decision functions of the base classifiers.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.fit" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.fit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fit</span></code></a>(X, y, *[, sample_weight, max_samples, …])</p></td>
+<td><p>Build an UnderBagging ensemble of estimators from the training set (X, y).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.get_params" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.get_params"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_params</span></code></a>([deep])</p></td>
+<td><p>Get parameters for this estimator.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict"><code class="xref py py-obj docutils literal notranslate"><span class="pre">predict</span></code></a>(X)</p></td>
+<td><p>Predict class for X.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict_log_proba" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict_log_proba"><code class="xref py py-obj docutils literal notranslate"><span class="pre">predict_log_proba</span></code></a>(X)</p></td>
+<td><p>Predict class log-probabilities for X.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict_proba" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict_proba"><code class="xref py py-obj docutils literal notranslate"><span class="pre">predict_proba</span></code></a>(X)</p></td>
+<td><p>Predict class probabilities for X.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.score" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.score"><code class="xref py py-obj docutils literal notranslate"><span class="pre">score</span></code></a>(X, y[, sample_weight])</p></td>
+<td><p>Return the mean accuracy on the given test data and labels.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.set_params" title="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.set_params"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_params</span></code></a>(**params)</p></td>
+<td><p>Predict class probabilities for X.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt id="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.decision_function">
+<code class="sig-name descname">decision_function</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.decision_function" title="Permalink to this definition">¶</a></dt>
+<dd><p>Average of the decision functions of the base classifiers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">{array-like, sparse matrix} of shape (n_samples, n_features)</span></dt><dd><p>The training input samples. Sparse matrices are accepted only if
+they are supported by the base estimator.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>score</strong><span class="classifier">ndarray of shape (n_samples, k)</span></dt><dd><p>The decision function of the input samples. The columns correspond
+to the classes in sorted order, as they appear in the attribute
+<code class="docutils literal notranslate"><span class="pre">classes_</span></code>. Regression and binary classification are special
+cases with <code class="docutils literal notranslate"><span class="pre">k</span> <span class="pre">==</span> <span class="pre">1</span></code>, otherwise <code class="docutils literal notranslate"><span class="pre">k==n_classes</span></code>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.estimators_samples_">
+<em class="property">property </em><code class="sig-name descname">estimators_samples_</code><a class="headerlink" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.estimators_samples_" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subset of drawn samples for each base estimator.</p>
+<p>Returns a dynamically generated list of indices identifying
+the samples used for fitting each member of the ensemble, i.e.,
+the in-bag samples.</p>
+<p>Note: the list is re-created at each call to the property in order
+to reduce the object memory footprint by not storing the sampling
+data. Thus fetching the property may be slower than expected.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.fit">
+<code class="sig-name descname">fit</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">sample_weight</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">max_samples</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">eval_datasets</span><span class="p">:</span> <span class="n">dict</span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">eval_metrics</span><span class="p">:</span> <span class="n">dict</span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">train_verbose</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build an UnderBagging ensemble of estimators from the training set (X, y).</p>
+<dl class="field-list">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl>
+<dt><strong>X</strong><span class="classifier">{array-like, sparse matrix} of shape (n_samples, n_features)</span></dt><dd><p>The training input samples. Sparse matrices are accepted only if
+they are supported by the base estimator.</p>
+</dd>
+<dt><strong>y</strong><span class="classifier">array-like of shape (n_samples,)</span></dt><dd><p>The target values (class labels in classification, real numbers in
+regression).</p>
+</dd>
+<dt><strong>sample_weight</strong><span class="classifier">array-like of shape (n_samples,), default=None</span></dt><dd><p>Sample weights. If None, then samples are equally weighted.
+Note that this is supported only if the base estimator supports
+sample weighting.</p>
+</dd>
+<dt><strong>max_samples</strong><span class="classifier">int or float, default=None</span></dt><dd><p>Argument to use instead of self.max_samples.</p>
+</dd>
+<dt><strong>eval_datasets</strong><span class="classifier">dict, default=None</span></dt><dd><p>Dataset(s) used for evaluation during the ensemble training process.
+The keys should be strings corresponding to evaluation datasets’ names. 
+The values should be tuples corresponding to the input samples and target
+values.</p>
+<p>Example: <code class="docutils literal notranslate"><span class="pre">eval_datasets</span> <span class="pre">=</span> <span class="pre">{'valid'</span> <span class="pre">:</span> <span class="pre">(X_valid,</span> <span class="pre">y_valid)}</span></code></p>
+</dd>
+<dt><strong>eval_metrics</strong><span class="classifier">dict, default=None</span></dt><dd><p>Metric(s) used for evaluation during the ensemble training process.</p>
+<ul>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">None</span></code>, use 3 default metrics:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">'acc'</span></code>: 
+<code class="docutils literal notranslate"><span class="pre">sklearn.metrics.accuracy_score()</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">'balanced_acc'</span></code>: 
+<code class="docutils literal notranslate"><span class="pre">sklearn.metrics.balanced_accuracy_score()</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">'weighted_f1'</span></code>: 
+<code class="docutils literal notranslate"><span class="pre">sklearn.metrics.f1_score(average='weighted')</span></code></p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">dict</span></code>, the keys should be strings corresponding to evaluation 
+metrics’ names. The values should be tuples corresponding to the metric 
+function (<code class="docutils literal notranslate"><span class="pre">callable</span></code>) and additional kwargs (<code class="docutils literal notranslate"><span class="pre">dict</span></code>).</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>The metric function should at least take 2 positional arguments 
+<code class="docutils literal notranslate"><span class="pre">y_true</span></code>, <code class="docutils literal notranslate"><span class="pre">y_pred</span></code>, and returns a <code class="docutils literal notranslate"><span class="pre">float</span></code> as its score.</p></li>
+<li><p>The metric additional kwargs should specify the additional arguments
+that need to be passed into the metric function.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>Example: 
+<code class="docutils literal notranslate"><span class="pre">{'weighted_f1':</span> <span class="pre">(sklearn.metrics.f1_score,</span> <span class="pre">{'average':</span> <span class="pre">'weighted'})}</span></code></p>
+</dd>
+<dt><strong>train_verbose</strong><span class="classifier">bool, default=True</span></dt><dd><p>Controls the verbosity during ensemble training/fitting.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">False</span></code>: disable training verbose.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">True</span></code>: print the performance score to sys.stdout after the parallel 
+training finished.</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>self</strong><span class="classifier">object</span></dt><dd></dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.get_params">
+<code class="sig-name descname">get_params</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deep</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.get_params" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get parameters for this estimator.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>deep</strong><span class="classifier">bool, default=True</span></dt><dd><p>If True, will return the parameters for this estimator and
+contained subobjects that are estimators.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>params</strong><span class="classifier">dict</span></dt><dd><p>Parameter names mapped to their values.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict">
+<code class="sig-name descname">predict</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Predict class for X.</p>
+<p>The predicted class of an input sample is computed as the class with
+the highest mean predicted probability. If base estimators do not
+implement a <code class="docutils literal notranslate"><span class="pre">predict_proba</span></code> method, then it resorts to voting.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">{array-like, sparse matrix} of shape (n_samples, n_features)</span></dt><dd><p>The training input samples. Sparse matrices are accepted only if
+they are supported by the base estimator.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>y</strong><span class="classifier">ndarray of shape (n_samples,)</span></dt><dd><p>The predicted classes.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict_log_proba">
+<code class="sig-name descname">predict_log_proba</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict_log_proba" title="Permalink to this definition">¶</a></dt>
+<dd><p>Predict class log-probabilities for X.</p>
+<p>The predicted class log-probabilities of an input sample is computed as
+the log of the mean predicted class probabilities of the base
+estimators in the ensemble.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">{array-like, sparse matrix} of shape (n_samples, n_features)</span></dt><dd><p>The training input samples. Sparse matrices are accepted only if
+they are supported by the base estimator.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>p</strong><span class="classifier">ndarray of shape (n_samples, n_classes)</span></dt><dd><p>The class log-probabilities of the input samples. The order of the
+classes corresponds to that in the attribute <a class="reference external" href="https://scikit-learn.org/stable/glossary.html#term-classes_">classes_</a>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict_proba">
+<code class="sig-name descname">predict_proba</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.predict_proba" title="Permalink to this definition">¶</a></dt>
+<dd><p>Predict class probabilities for X.</p>
+<p>The predicted class probabilities of an input sample is computed as
+the mean predicted class probabilities of the base estimators in the
+ensemble. If base estimators do not implement a <code class="docutils literal notranslate"><span class="pre">predict_proba</span></code>
+method, then it resorts to voting and the predicted class probabilities
+of an input sample represents the proportion of estimators predicting
+each class.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">{array-like, sparse matrix} of shape (n_samples, n_features)</span></dt><dd><p>The training input samples. Sparse matrices are accepted only if
+they are supported by the base estimator.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>p</strong><span class="classifier">ndarray of shape (n_samples, n_classes)</span></dt><dd><p>The class probabilities of the input samples. The order of the
+classes corresponds to that in the attribute <a class="reference external" href="https://scikit-learn.org/stable/glossary.html#term-classes_">classes_</a>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.score">
+<code class="sig-name descname">score</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="n">sample_weight</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.score" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the mean accuracy on the given test data and labels.</p>
+<p>In multi-label classification, this is the subset accuracy
+which is a harsh metric since you require for each sample that
+each label set be correctly predicted.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">array-like of shape (n_samples, n_features)</span></dt><dd><p>Test samples.</p>
+</dd>
+<dt><strong>y</strong><span class="classifier">array-like of shape (n_samples,) or (n_samples, n_outputs)</span></dt><dd><p>True labels for <cite>X</cite>.</p>
+</dd>
+<dt><strong>sample_weight</strong><span class="classifier">array-like of shape (n_samples,), default=None</span></dt><dd><p>Sample weights.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>score</strong><span class="classifier">float</span></dt><dd><p>Mean accuracy of <code class="docutils literal notranslate"><span class="pre">self.predict(X)</span></code> wrt. <cite>y</cite>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.set_params">
+<code class="sig-name descname">set_params</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">params</span></em><span class="sig-paren">)</span><a class="headerlink" href="#imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.set_params" title="Permalink to this definition">¶</a></dt>
+<dd><p>Predict class probabilities for X.</p>
+<p>The predicted class probabilities of an input sample is computed as
+the mean predicted class probabilities of the base estimators in the
+ensemble. If base estimators do not implement a <code class="docutils literal notranslate"><span class="pre">predict_proba</span></code>
+method, then it resorts to voting and the predicted class probabilities
+of an input sample represents the proportion of estimators predicting
+each class.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">{array-like, sparse matrix} of shape (n_samples, n_features)</span></dt><dd><p>The training input samples. Sparse matrices are accepted only if
+they are supported by the base estimator.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>p</strong><span class="classifier">ndarray of shape (n_samples, n_classes)</span></dt><dd><p>The class probabilities of the input samples. The order of the
+classes corresponds to that in the attribute <a class="reference external" href="https://scikit-learn.org/stable/glossary.html#term-classes_">classes_</a>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<div style='clear:both'></div></div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../over-sampling.html" class="btn btn-neutral float-right" title="Over-sampling-based ensembles" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="imbalanced_ensemble.ensemble.under_sampling.RUSBoostClassifier.html" class="btn btn-neutral float-left" title="RUSBoostClassifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Zhining Liu.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
