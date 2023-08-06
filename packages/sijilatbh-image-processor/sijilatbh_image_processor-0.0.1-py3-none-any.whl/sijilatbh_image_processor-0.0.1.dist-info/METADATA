@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sijilatbh-image-processor
+Version: 0.0.1
+Summary: Image Processor Function
+Home-page: UNKNOWN
+Author: Ayhan Dis
+Author-email: <disayhan@gmail.com>
+License: UNKNOWN
+Keywords: python,image processor for sijilat.bh
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: opencv-python
+Requires-Dist: pytesseract
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+The Functionality offers to process SearchCR images gathered via sijilat.bh
+
+
