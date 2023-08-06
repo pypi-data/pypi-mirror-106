@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: efb-telegram-slave
+Version: 0.0.0
+Summary: Telegram Save Channel for EH Forwarder Bot, based on Telethon
+Home-page: UNKNOWN
+Author: Sharzy L
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
