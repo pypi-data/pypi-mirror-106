@@ -1,0 +1,11 @@
+dom_toml-0.5.0.dist-info/WHEEL,sha256=HVdHBMWW2H4KZrC08zrhHI_jORY8qNj2Xnqa5D-JhwA,84
+dom_toml-0.5.0.dist-info/METADATA,sha256=9F11c9Jtr503Lete4c7pm3-G1Udd_KvWBcIBOZuDqwk,6476
+dom_toml-0.5.0.dist-info/LICENSE,sha256=TXanB-tJYmHhByFsynyh-UGwh2VdTVVjbZeFz1utSWc,1064
+dom_toml-0.5.0.dist-info/top_level.txt,sha256=DNCu-IOZopdCW0dmDxXOJs2zSd4TzTirZjfvy9D8zso,9
+dom_toml-0.5.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dom_toml/parser.py,sha256=-vsTHqc2T_1SvwIir8386hCiyhNJOsM8wGLKRgHR1ok,6810
+dom_toml/__init__.py,sha256=eqXHi5-5K9eL5_dB6h7N7hFvdOg5uv9MoqyXmlsBn40,6617
+dom_toml/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dom_toml/decoder.py,sha256=Y05WNOPUKaoaVLk9azCcw1SoUJcOqTRzaHPdAUE-b8k,1774
+dom_toml/encoder.py,sha256=USHwioIIeZvdSg5lOMzwcyqBzRLVeBJgdskqh3sl2kc,5428
+dom_toml-0.5.0.dist-info/RECORD,,
