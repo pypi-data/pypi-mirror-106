@@ -1,0 +1,3 @@
+include versioneer.py
+include aicrowd_gym/version.py
+
