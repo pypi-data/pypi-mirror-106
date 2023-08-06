@@ -1,0 +1,16 @@
+tp24/__init__.py,sha256=025ourweegH6UGgA40n9Ce56Ehn8XGmZ23sI8Vl9KLw,194
+tp24/errors.py,sha256=F8bU9ZfgqMaOWv1JZoZ9Cs5A0MyRWmabZUqTOjLxZIM,37
+tp24/internal.py,sha256=lr9VDWwEnn8vvO0jfb5az7p8OaTkb0OBTDtNBuCcqRM,1018
+tp24/tools.py,sha256=-whg2YSUuAuQXYhZZw1TlNDmmxCIfK52-Co1dzCZ138,3885
+tp24/model/colour.py,sha256=THQGZbzzJz85xbYoic3Uf7fY99FAMGslMIT15NMD5xM,6327
+tp24/model/m_cmy.py,sha256=lTEbaCSJyJcNbx9RvCDT4WIHishlllphmi3waCXY9Z8,1887
+tp24/model/m_cmyk.py,sha256=W4mAxnd-l8XlklnFQw2Qn2VTFD2Jr-vi3aqy3uV6JCo,2375
+tp24/model/m_hsl.py,sha256=hsMxv2al-WQcNGMESx2qIVv4nW91GoEcPVIneUPEN5s,2433
+tp24/model/m_hsv.py,sha256=TvKdJjKPG0tEtps_GOudDmgj2izE4tMh6UNl7CT4lCo,2410
+tp24/model/m_rgb.py,sha256=2DVoJHAPE4uhu1UMqtkegiYtSKV9tl_GYksXkaetjZw,3469
+tp24/model/web.json,sha256=MUP0hpT8JwrT5RWGEnx6N8xNE75tNVWp_G33nOPjry8,3731
+tp24-1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tp24-1.0.dist-info/METADATA,sha256=jhziea7Gv7aRlxeimctqTXMpX-iBqEdHkuqMaVhKntM,4745
+tp24-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tp24-1.0.dist-info/top_level.txt,sha256=Gi3dIwAgGdzzca02n4PyUXaNQwoD0BV4iUjzO1BEXWk,5
+tp24-1.0.dist-info/RECORD,,
