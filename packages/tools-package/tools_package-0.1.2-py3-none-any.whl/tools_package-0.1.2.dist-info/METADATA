@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tools-package
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: https://gitee.com/OTLXM/packages-for-us
+Author: act
+Author-email: wang.bensen@detvista.com
+License: Apache License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cx-Oracle (<=7.0.0)
+Requires-Dist: traceback2 (<=1.4.0)
+
+UNKNOWN
+
+
