@@ -1,0 +1,13 @@
+django_tables2_bulma_template/__init__.py,sha256=1KhrBItVjTCR-Sumh0o09b_aKrjTTcJrpTBh5GBw6Lk,21
+django_tables2_bulma_template/templates/django-tables2/bulma.html,sha256=TY1hHWYSBGv6818oFYEKZxddNHHAlizEHROUsyLBmMA,8001
+django_tables2_bulma_template/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_tables2_bulma_template/templatetags/django_tables2_bulma_template.py,sha256=F8pvZiExPn1bB30nKdLVd5X7znHdK_rcEb_lvR_hW3Y,369
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/settings.py,sha256=aznR_29amxg41pViIKXVsqjWjMpX2eObdDfgaKYN4t8,2136
+tests/test_bulma.py,sha256=Y0PShY1UQ18mKrEk_9joaOsuNDEY6c3rIQSVQ_n53qg,1473
+tests/urls.py,sha256=918z56oQYWA01w0afPG1rMY2JptecBNfryMw0-8wBh8,150
+django_tables2_bulma_template-0.2.0.dist-info/LICENSE.txt,sha256=9GRf5DJZqTaPbGeDJunlaPNZii4Bj8FuIQAP3wmsUE0,1072
+django_tables2_bulma_template-0.2.0.dist-info/METADATA,sha256=OQ-Ody23mNRYUWMSBfb2rHBo4TPEvHXbHo77IiD93CE,2802
+django_tables2_bulma_template-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_tables2_bulma_template-0.2.0.dist-info/top_level.txt,sha256=vr42fuBdh_wX5lw5bvsDPr7LmDV-JlwrGJywL1x7320,36
+django_tables2_bulma_template-0.2.0.dist-info/RECORD,,
