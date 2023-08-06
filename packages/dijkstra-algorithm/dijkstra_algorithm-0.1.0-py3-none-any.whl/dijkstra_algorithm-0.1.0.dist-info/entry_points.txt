@@ -1,0 +1,3 @@
+[console_scripts]
+fucking-dijkstra=dijkstra_algorithm.main:main
+
