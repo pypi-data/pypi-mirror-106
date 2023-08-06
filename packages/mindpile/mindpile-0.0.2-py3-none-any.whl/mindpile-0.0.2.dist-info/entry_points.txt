@@ -1,0 +1,3 @@
+[console_scripts]
+mindpile = mindpile.main:main
+
