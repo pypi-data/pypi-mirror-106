@@ -1,0 +1,15 @@
+it_finance_api/VERSION,sha256=robnkGeKzH_BTxjlWcL4xJcmNNWxt0oqKXVluMkPgEo,6
+it_finance_api/__init__.py,sha256=LSZyGNs7RwRpHl8x2wOyNjRlugcFOkiuHw2mZmto1Kc,55
+it_finance_api/endpoints.py,sha256=gbl8_8yu6iq0oUbpW0Vo_cb0IwaIoYsSPSEhBuQV2RA,308
+it_finance_api/exceptions.py,sha256=HYa1dLKoD-x3cPxyzqVPoY5SjVsZd1k5P5TBgzff10g,887
+it_finance_api/it_finance_api.py,sha256=ESx5InVg3UGfXGL6lBQuFHkHA678Wj2VKX-Mhry9Wps,4810
+it_finance_api/response.py,sha256=S0OwTpwHR9xgAT_Savudx6OMluOWXc4HBU9G5srobMc,1264
+it_finance_api/version.py,sha256=e2PU-bP9TCC3FJHSt9PFDK4DoTHXvHj0RhI06xoq4cA,315
+it_finance_api/models/__init__.py,sha256=P3UR1asQWefebyLPjBY0oCLF4h9Qm9Z7h851RSMVAWE,170
+it_finance_api/models/account.py,sha256=dRqjRvbUGQQgDAlYzt9sZcRaynn9nuN8iryFWC94PiI,2297
+it_finance_api/models/base.py,sha256=xoczELoseJ2Pg_AXNPLSQJoDsyTA9j94c0DQdOi-uNg,1671
+it_finance_api/models/credit_score.py,sha256=lnXAeAthkr0nL41g647KbZKIjHUOYbtirLXsRDQPzts,3177
+it_finance_api-0.0.5.dist-info/METADATA,sha256=h2_cZszckvXPKFRZwNYIZgMjH_PJHd82ej3uHwzKaK4,1470
+it_finance_api-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+it_finance_api-0.0.5.dist-info/top_level.txt,sha256=zo-QF7HUXQANOtzyjo4xeAwHUZ_TOEL-CQ0FLNacbwM,15
+it_finance_api-0.0.5.dist-info/RECORD,,
