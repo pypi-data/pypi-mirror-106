@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ConfigFileHelper.egg-info/PKG-INFO
+src/ConfigFileHelper.egg-info/SOURCES.txt
+src/ConfigFileHelper.egg-info/dependency_links.txt
+src/ConfigFileHelper.egg-info/requires.txt
+src/ConfigFileHelper.egg-info/top_level.txt
+src/configFileHelper/Config.py
+src/configFileHelper/__init__.py
