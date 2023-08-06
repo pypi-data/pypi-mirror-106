@@ -1,0 +1,11 @@
+odoo/addons/sm_rewards_rest_api/__init__.py,sha256=fmNDuSmKXU2B7ssTnclmt5tVMzqS8R7Nc9fGp-xDto0,67
+odoo/addons/sm_rewards_rest_api/__manifest__.py,sha256=hb4u-7nJGd-1eLddchNEtA4JmCGVig3UStPdzL1ja_U,660
+odoo/addons/sm_rewards_rest_api/models/__init__.py,sha256=2q2kW9xgqYkRqyEi4ap4SjvP5pqiLamIb1i4QWotS2U,30
+odoo/addons/sm_rewards_rest_api/models/models_sm_reward.py,sha256=axSPKNy-XtwQST4HrIlKKxXVF9RKF8TEy7VpZgAXS88,151
+odoo/addons/sm_rewards_rest_api/services/__init__.py,sha256=bbUsYLXt-c6FQn3Z8XIgslV0FLkbTBF99I0utvvCII8,32
+odoo/addons/sm_rewards_rest_api/services/schemas.py,sha256=-EPkCodiDU4KZZXyPFKxbbXHoP8ID3LLrsV1vH3yidA,8244
+odoo/addons/sm_rewards_rest_api/services/services_sm_reward.py,sha256=h0T6KzkjA1OzfMMeI-XYwvd1T7nba17jNAAX_rkvNak,6301
+odoo12_addon_sm_rewards_rest_api-12.0.0.0.1.99.dev4.dist-info/METADATA,sha256=hjXU3LkMd7e6xeFmot8NnmGororbc8c-dZi9NWZYbH0,465
+odoo12_addon_sm_rewards_rest_api-12.0.0.0.1.99.dev4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+odoo12_addon_sm_rewards_rest_api-12.0.0.0.1.99.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_sm_rewards_rest_api-12.0.0.0.1.99.dev4.dist-info/RECORD,,
