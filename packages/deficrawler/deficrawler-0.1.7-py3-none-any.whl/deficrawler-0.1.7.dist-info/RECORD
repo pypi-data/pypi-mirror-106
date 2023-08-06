@@ -1,0 +1,16 @@
+deficrawler/__init__.py,sha256=VduZmJWVhkAORgpIMX5t-Gk8GEB0njMjxXdfSv7_r6A,110
+deficrawler/api_calls.py,sha256=vCAvufsuKrPCtjKRrKh67p6cRI48LyRwCAysbGtA6II,5537
+deficrawler/dex.py,sha256=H2Q8CFn7zoKe0VuW0lGBXaq9ocLDjMemM-4Ab9Xg03o,1936
+deficrawler/lending.py,sha256=n1h29QqfxUb5VciQ_lTGILLuqPHP17XdDT16pz16vhY,2255
+deficrawler/mappers.py,sha256=tYcoeFKKI3jwhNg5rMmUXUrJbTniD0_RRIpK0BqYftk,1179
+deficrawler/oracle.py,sha256=WaGkh1ikAJUmOoUdKklO7wkG4aPnYh17M-JLlhM_-dQ,2352
+deficrawler/protocol_base.py,sha256=MeX3cMbJjRxOREepC-89S4Da0YM3oGXbkDs0xU1176w,6538
+deficrawler/querys.py,sha256=P3gmqkHSnzWl_VoZYuC-Ac7jFWa5c2pr3Or8NcIDPAs,1679
+deficrawler/transformer.py,sha256=DTp2Q9_xiQw8nXhJNgIBwla53kc0cDw7AHjvTbBFrbM,8364
+deficrawler/utils.py,sha256=3ufMQWvpKV0WEBiyRrqmVBWXkCxtNRxmEOtB7ZZ15mk,2060
+deficrawler/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deficrawler-0.1.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+deficrawler-0.1.7.dist-info/METADATA,sha256=0fsFFk6m4h48mTSYEJl0nUggLBxbl2FZbn13T9t1aBM,8648
+deficrawler-0.1.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+deficrawler-0.1.7.dist-info/top_level.txt,sha256=qVzgTBnAHw1LuDvuo0MD1b8lPUxHGLb9Q8m_0IPcynE,12
+deficrawler-0.1.7.dist-info/RECORD,,
