@@ -1,0 +1,3 @@
+[console_scripts]
+binaryPy = binaryPy.cmdline:execute
+
