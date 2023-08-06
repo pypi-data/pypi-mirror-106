@@ -1,0 +1,6 @@
+requests
+certifi
+boto3
+botocore
+pygal
+s3transfer
