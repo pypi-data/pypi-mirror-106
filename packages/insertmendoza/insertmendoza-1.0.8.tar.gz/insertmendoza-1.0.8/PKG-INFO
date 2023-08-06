@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: insertmendoza
+Version: 1.0.8
+Summary: Cliente para sarys 6.x
+Home-page: https://gitlab.com/njavilas2015/sdk-python-v6
+Author: Insert Mendoza
+Author-email: njavilas@insertmendoza.com.ar
+License: UNKNOWN
+Description: ## Client of system SARyS Version 6.x
+        
+        The system sarys is a big project of streaming and biometric for company 
+        
+        # How to install
+        
+        pip install --upgrade  insertmendoza
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
