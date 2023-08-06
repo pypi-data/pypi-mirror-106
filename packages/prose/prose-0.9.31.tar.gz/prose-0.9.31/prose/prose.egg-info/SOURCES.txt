@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+prose/prose.egg-info/PKG-INFO
+prose/prose.egg-info/SOURCES.txt
+prose/prose.egg-info/dependency_links.txt
+prose/prose.egg-info/requires.txt
+prose/prose.egg-info/top_level.txt
+prose/prose.egg-info/zip-safe
+test/test.py
+test/test2.py
