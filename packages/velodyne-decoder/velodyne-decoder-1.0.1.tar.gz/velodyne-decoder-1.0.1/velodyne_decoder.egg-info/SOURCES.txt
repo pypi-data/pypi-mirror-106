@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+velodyne_decoder.egg-info/PKG-INFO
+velodyne_decoder.egg-info/SOURCES.txt
+velodyne_decoder.egg-info/dependency_links.txt
+velodyne_decoder.egg-info/not-zip-safe
+velodyne_decoder.egg-info/requires.txt
+velodyne_decoder.egg-info/top_level.txt
