@@ -1,0 +1,11 @@
+pointcloudpipeline-1.0.0.data/scripts/pipeline_worker.py,sha256=kR0DiXiKy8jdtdfq6xAgmtineWp2f53poyPKHjleH4U,2453
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/__main__.py,sha256=m3mXyKogf1M6Qp_bDXDjkx7hNFiat_6TmvoVzP3279M,1954
+src/pipeline_worker.py,sha256=kR0DiXiKy8jdtdfq6xAgmtineWp2f53poyPKHjleH4U,2453
+src/test_pipeline_worker.py,sha256=WukzVoOkoCyXReTjD6zny-1XnER14gNNnbdvv_ojre8,1499
+pointcloudpipeline-1.0.0.dist-info/LICENSE,sha256=3aqWVgj7fCDqogS6gsvkyeU5XTazhjYyLI02XfTl8Bg,1541
+pointcloudpipeline-1.0.0.dist-info/METADATA,sha256=9WF2M5aUwsrv8H_fdhcuYPREHNI36OHv3CIJDuE78VE,553
+pointcloudpipeline-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pointcloudpipeline-1.0.0.dist-info/entry_points.txt,sha256=r79matNSktKK0SIyGphKOYa_JHnfurWZVlaY_sPY9OI,76
+pointcloudpipeline-1.0.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+pointcloudpipeline-1.0.0.dist-info/RECORD,,
