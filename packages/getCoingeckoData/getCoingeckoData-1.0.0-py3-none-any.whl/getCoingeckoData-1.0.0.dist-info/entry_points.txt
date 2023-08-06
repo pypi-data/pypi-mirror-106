@@ -1,0 +1,3 @@
+[console_scripts]
+getCoingeckoData = getCoingeckoData.getCoingeckoData:main_prg
+
