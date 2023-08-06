@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+random_address.egg-info/PKG-INFO
+random_address.egg-info/SOURCES.txt
+random_address.egg-info/dependency_links.txt
+random_address.egg-info/requires.txt
+random_address.egg-info/top_level.txt
+src/addresses-us-all.json
+tests/test_real_random_address.py
