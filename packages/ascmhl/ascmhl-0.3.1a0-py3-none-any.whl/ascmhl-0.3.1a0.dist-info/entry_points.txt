@@ -1,0 +1,3 @@
+[console_scripts]
+ascmhl = mhl.cli.ascmhl:mhltool_cli
+
