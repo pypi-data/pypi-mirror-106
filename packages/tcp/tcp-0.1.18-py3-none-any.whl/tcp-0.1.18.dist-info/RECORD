@@ -1,0 +1,12 @@
+tcp/__init__.py,sha256=u0bofMXcstjAtcwfZNutOw_Cbm7ioU3UTwCIff2pl9I,1946
+tcp/active.py,sha256=8h_XkW-sOfKuFnCD8MAroYZgHlpQm1wyPpR2jBQmQW0,3904
+tcp/base.py,sha256=1MymWMU1N1XD568ZG9IhM2Pwi3fm8_iRPsxodTUlFEk,11118
+tcp/connection.py,sha256=AhtwRqC-KKd7Hy4_PuPJfMEHbTIAgl_xwm91Nm3FngQ,3177
+tcp/delegate.py,sha256=7AKMiNWQ_nWYVhgy4uQQbP-1Fqrq1ekNGoiK1lhpD3g,2286
+tcp/mem.py,sha256=GZFvkQvjsbldU6KdSvUn8iI5AtEPLdSeVlV8uVci-OE,3372
+tcp/pool.py,sha256=1R0wBsAmfG3OtZoLr3fdC4JxqYprbaWQkKTb9_WYsX8,2470
+tcp/status.py,sha256=mXxrqLx1q2RYd2sNQWOdbZNqgf28Gmp9bZn7WqPI9Wk,4494
+tcp-0.1.18.dist-info/METADATA,sha256=r1zj-2P4eCSKTMpoBTHkCB2-IA0MnQ2HWIu-JT6RCvM,427
+tcp-0.1.18.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+tcp-0.1.18.dist-info/top_level.txt,sha256=0VW0Ql1phP-BnZAaD1HCGwuai1s-EIEfeAo19BJFOis,4
+tcp-0.1.18.dist-info/RECORD,,
