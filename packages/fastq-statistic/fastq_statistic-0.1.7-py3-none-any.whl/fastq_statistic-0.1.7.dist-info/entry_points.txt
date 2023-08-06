@@ -1,0 +1,3 @@
+[console_scripts]
+fastq-stat=fastq_statistic.main:app
+
