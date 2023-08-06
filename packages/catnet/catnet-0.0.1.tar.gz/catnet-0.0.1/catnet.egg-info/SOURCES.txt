@@ -1,0 +1,7 @@
+README.md
+setup.py
+catnet/__init__.py
+catnet.egg-info/PKG-INFO
+catnet.egg-info/SOURCES.txt
+catnet.egg-info/dependency_links.txt
+catnet.egg-info/top_level.txt
