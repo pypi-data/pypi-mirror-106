@@ -1,0 +1,9 @@
+README.md
+setup.py
+McPlayHDStats.egg-info/PKG-INFO
+McPlayHDStats.egg-info/SOURCES.txt
+McPlayHDStats.egg-info/dependency_links.txt
+McPlayHDStats.egg-info/top_level.txt
+mcplaystats/__init__.py
+mcplaystats/player.py
+mcplaystats/statistics.py
