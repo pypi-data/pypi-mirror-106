@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nar.py
+Version: 0.0.4
+Summary: A Wrapper for browser game Nations at Risk's API
+Home-page: UNKNOWN
+Author: Blitz#6652
+Author-email: <blitz2k4.dev@gmail.com>
+License: UNKNOWN
+Keywords: python,nar,nations at risk
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: requests
+
+UNKNOWN
+
+
