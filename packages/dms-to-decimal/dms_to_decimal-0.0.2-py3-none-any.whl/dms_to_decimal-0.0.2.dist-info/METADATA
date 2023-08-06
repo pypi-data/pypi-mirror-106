@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: dms-to-decimal
+Version: 0.0.2
+Summary: dms to decimal
+Home-page: UNKNOWN
+Author: Reagan Scofield
+Author-email: scofieldreagan@outlook.com
+License: UNKNOWN
+Keywords: python,pip,DMS,decimal,degree,minute,second
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+dms-to-decimal
+A Python library for converting degrees, minutes, and seconds to decimal
+
+Installation
+
+pip install dms-to-decimal
+
+Example
+
+import dms_to_decimal as dms
+
+degree = 46
+minutes = 59
+seconds = 5
+direction = 'N'
+
+converDms2Decimal = dms.DMS2Decimal(degree, minutes, seconds, direction)
+
+print(converDms2Decimal); # Output: 46.984722222222224
+
