@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+plantilla_programas_python/__init__.py
+plantilla_programas_python/plantilla.py
+plantilla_programas_python.egg-info/PKG-INFO
+plantilla_programas_python.egg-info/SOURCES.txt
+plantilla_programas_python.egg-info/dependency_links.txt
+plantilla_programas_python.egg-info/top_level.txt
