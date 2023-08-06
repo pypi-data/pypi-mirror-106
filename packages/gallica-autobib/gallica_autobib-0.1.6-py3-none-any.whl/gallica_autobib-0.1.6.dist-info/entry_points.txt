@@ -1,0 +1,3 @@
+[console_scripts]
+gallica-autobib=gallica_autobib.cli:app
+
