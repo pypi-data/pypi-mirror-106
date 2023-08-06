@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: qcodes-contrib-drivers
+Version: 0.9.0
+Summary: User contributed drivers for QCoDeS
+Home-page: https://github.com/QCoDeS/Qcodes_contrib_drivers
+Maintainer: QCoDeS Community
+Maintainer-email: qcodes-support@microsoft.com
+License: MIT
+Project-URL: Documentation, https://qcodes.github.io/Qcodes_contrib_drivers/
+Project-URL: Source, https://github.com/qcodes/qcodes_contrib_drivers
+Project-URL: Tracker, https://github.com/QCoDeS/Qcodes_contrib_drivers/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: qcodes (>=0.4.0)
+
+UNKNOWN
+
+
