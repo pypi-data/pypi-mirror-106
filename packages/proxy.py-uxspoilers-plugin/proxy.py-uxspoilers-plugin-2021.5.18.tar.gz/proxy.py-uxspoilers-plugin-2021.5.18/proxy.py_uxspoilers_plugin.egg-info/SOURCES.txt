@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+uxspoilers.py
+proxy.py_uxspoilers_plugin.egg-info/PKG-INFO
+proxy.py_uxspoilers_plugin.egg-info/SOURCES.txt
+proxy.py_uxspoilers_plugin.egg-info/dependency_links.txt
+proxy.py_uxspoilers_plugin.egg-info/requires.txt
+proxy.py_uxspoilers_plugin.egg-info/top_level.txt
