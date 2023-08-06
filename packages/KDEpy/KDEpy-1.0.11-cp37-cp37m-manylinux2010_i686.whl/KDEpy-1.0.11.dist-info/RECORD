@@ -1,0 +1,15 @@
+cutils.cpython-37m-i386-linux-gnu.so,sha256=gUrMuUe01-ry41OyxebJzlI3mykwWLBJ1_fEhvvH4y0,844732
+KDEpy-1.0.11.dist-info/RECORD,,
+KDEpy-1.0.11.dist-info/METADATA,sha256=TxiqRksTXXGedcWU3PrB0ml2J17VWNKQSIxGfL4ewv0,5079
+KDEpy-1.0.11.dist-info/top_level.txt,sha256=fdiSxzDw2t14fbc3jVq8WIMxLzHE9-dSzruc-w6D1Ik,13
+KDEpy-1.0.11.dist-info/WHEEL,sha256=g61Tm06sJalqfdLQ4Gjr_RGUoe6peyggCCK5_ckzw9U,110
+KDEpy-1.0.11.dist-info/LICENSE,sha256=CuBIWlvTemPmNgNZZBfk6w5lMzT6bH-TLKOg6F1K8ic,35148
+KDEpy/FFTKDE.py,sha256=WWGfDWKMz2fVvQln9kvfdB8ABV5W0t9R71X3TgEv39w,8257
+KDEpy/NaiveKDE.py,sha256=NI8lU69yjdtOIdznI6XkfPG_DkLtkLsSqwLVXC2f3t4,5034
+KDEpy/__init__.py,sha256=d4tk6PKkvJ0dse1avVQjJs1VactkZnmKyvXRdV5ZF1c,253
+KDEpy/utils.py,sha256=2ZAi3uNmQUEJ27xVVUIonnUWJnmyc1Xf0f_o9jwbiGA,3812
+KDEpy/BaseKDE.py,sha256=PVMqWsl8k3WS7UsClG0g3Gh6DhfXU2fCbgucmF77_ws,8716
+KDEpy/bw_selection.py,sha256=hqvu2XteMvM2POcLAUsqP-x9cUkAY0aB0ADWGPFSD3E,9896
+KDEpy/TreeKDE.py,sha256=nneIx1Ro0TzAaTNpnAPZK_BbnS1qm6hAQhlrKxNA2to,6885
+KDEpy/kernel_funcs.py,sha256=ak65Jsejo0mtB4fjRQpQKYCPDeISfHbujSm2VqhiLQ4,9836
+KDEpy/binning.py,sha256=hJlhnVLKyxrrZxnrmeMoIU3R6X-SU2IhIGhuzytT0ro,16132
