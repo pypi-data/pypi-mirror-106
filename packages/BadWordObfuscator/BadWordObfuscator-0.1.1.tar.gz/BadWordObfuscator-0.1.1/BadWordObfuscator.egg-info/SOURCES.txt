@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+BadWordObfuscator/Obfuscator.py
+BadWordObfuscator/__init__.py
+BadWordObfuscator/badWords.py
+BadWordObfuscator.egg-info/PKG-INFO
+BadWordObfuscator.egg-info/SOURCES.txt
+BadWordObfuscator.egg-info/dependency_links.txt
+BadWordObfuscator.egg-info/top_level.txt
