@@ -1,0 +1,12 @@
+Change Log
+==========
+
+0.0.1 (17/06/2021)
+-------------------
+things. it release
+
+0.0.2 (17/06/2021)
+-------------------
+alright so basically
+i added a guide
+and more functions 

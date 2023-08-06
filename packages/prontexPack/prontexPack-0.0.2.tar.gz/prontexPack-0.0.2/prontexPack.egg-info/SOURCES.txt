@@ -1,0 +1,11 @@
+CHANGELOG.txt
+GUIDE.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+prontexPack/__init__.py
+prontexPack.egg-info/PKG-INFO
+prontexPack.egg-info/SOURCES.txt
+prontexPack.egg-info/dependency_links.txt
+prontexPack.egg-info/top_level.txt

@@ -1,0 +1,111 @@
+Metadata-Version: 1.1
+Name: prontexPack
+Version: 0.0.2
+Summary: a pack of functions and thing that can be cool in python
+Home-page: UNKNOWN
+Author: Warren Stevens
+Author-email: no@gmail.com
+License: MIT
+Description: this is a package thing that does things
+        
+        a guide
+        
+        if you want that
+        
+        i guess
+        
+        scroll down for it
+        
+        Change Log
+        ==========
+        
+        0.0.1 (17/06/2021)
+        -------------------
+        things. it release
+        
+        0.0.2 (17/06/2021)
+        -------------------
+        alright so basically
+        i added a guide
+        and more functions 
+        
+        
+        ok so heres a guide
+        
+        SECTION 1
+        THE TEMPORARY DATABASE
+        
+        
+        so first you wanna make a dictionary named "dataList"
+        
+        add keys.
+        
+        hopefully you know how.
+        
+        now at the top do "from prontexPack import tempDatabase"
+        
+        and do "db = tempDatabase(dataList, 'ur databases name here')"
+        
+        now a list of things you can do
+        
+        findByName("keyname")
+        returns a true or false value based on if it found the keyname in the database or not
+        
+        findByValue("keyvalue")
+        same thing but instead of name its a value
+        
+        add("keyname", "keyvalue")
+        adds a key to the database
+        
+        printall()
+        prints all your data into the console
+        
+        maketext()
+        makes your data into a compact text file
+        
+        
+        SECTION 2
+        THE OTHER THINGS THAT AREN'T CATEGORIZED
+        
+        do "from prontexPack import cooltext, console"
+        
+        now heres a guide on cooltext
+        
+        cooltext("text", 5)
+        basically, this does text like
+        
+        t
+        te
+        tex
+        text
+        
+        5 times (aka for 5 iterations)
+        
+        
+        simple
+        
+        now we do
+        CONSOLE
+        
+        so basically get a dictionary called buttons
+        
+        the values will be what the buttons print
+        
+        like this
+        
+        buttons = {"print the word happiness":"Happiness"}
+        
+        k now do
+        
+        console(buttons, "name here")
+        
+        now yeah
+        
+        just run thing
+Keywords: pack
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
