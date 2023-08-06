@@ -1,0 +1,11 @@
+README.md
+setup.py
+taro/__init__.py
+taro/exceptions.py
+taro/util.py
+taro.egg-info/PKG-INFO
+taro.egg-info/SOURCES.txt
+taro.egg-info/dependency_links.txt
+taro.egg-info/top_level.txt
+tests/__init__.py
+tests/test_taro.py
