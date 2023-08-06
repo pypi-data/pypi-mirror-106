@@ -1,0 +1,10 @@
+Nova/__init__.py,sha256=d5L06LS_nPpdE1xHEvbDEFWPkAJSRDVYxG2nK5128u4,2405
+Nova/Core/ServerBase.py,sha256=Z03XOC41xVti_C9tuRV8pDravpCDbWv1fOnb1Axl7M8,649
+Nova/Core/Stream.py,sha256=ALZI9S2YZORgOkcFA1MTU6owRCrvzvjUFhg-N2VEtbM,2306
+Nova/Server/Defines.py,sha256=y3PSkIsz-EMCZbeIeRlSKsW9wUr1ockCQMU1q9Rl0Wc,1151
+Nova/Server/Http.py,sha256=z7eR5jpwOUq8eDWBzDUYS8iPOL_7BiQ4f3yuJbmq1cU,9185
+Nova_EveFamilia-0.4.0.dist-info/LICENSE,sha256=IEAvcb0WR8auw_djg2t0An1wj1g6gQ2xoa5KM3cCeao,1074
+Nova_EveFamilia-0.4.0.dist-info/METADATA,sha256=Wg6Uw3QX4uFK601ZOF5dC0__9PKNca2-xhjZ4nmr8bo,1794
+Nova_EveFamilia-0.4.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Nova_EveFamilia-0.4.0.dist-info/top_level.txt,sha256=bDTiWwSbNO0gohNGdvDwpWE-hbgW5j2PPx5kuHzz8_A,5
+Nova_EveFamilia-0.4.0.dist-info/RECORD,,
