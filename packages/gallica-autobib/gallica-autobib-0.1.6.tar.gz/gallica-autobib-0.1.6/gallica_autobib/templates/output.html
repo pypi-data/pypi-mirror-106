@@ -1,0 +1,21 @@
+<h1>Gallica autobib</h1>
+
+{% for result in obj.results %}
+  <h2>{{result.record.target.name()}}</h2>
+  <pre>
+    <code>
+{{result.record.raw}}
+    </code>
+  </pre>
+  {% if result.status %}
+    {% if result.processed %}
+      <a href="pdfs/{{result.processed.name}}">Processed Pdf</a>
+    {% endif %}
+    {% if result.unprocessed %}
+      <a href="pdfs/{{result.unprocessed.name}}">Unprocessed Pdf</a>
+    {% endif %}
+    Confidence: {{ result.match.confidence }}
+  {% else %}
+    Unable to download pdf :(
+  {% endif %}
+{% endfor %}
