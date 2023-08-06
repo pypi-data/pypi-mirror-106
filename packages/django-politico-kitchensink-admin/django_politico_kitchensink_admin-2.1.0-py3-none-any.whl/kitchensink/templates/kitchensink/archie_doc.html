@@ -1,0 +1,17 @@
+{% extends "kitchensink/base.html" %}
+{% load static %}
+
+{% block styles %}
+  {{ block.super }}
+
+  <link rel="stylesheet" href="{% static 'kitchensink/css/archie.css' %}">
+{% endblock %}
+
+{% block api %}
+  {{ block.super }}
+  <meta name="ARCHIE_ID" content="{{ archie }}">
+{% endblock %}
+
+{% block app %}
+<script type="text/javascript" src="{% static 'kitchensink/js/archie.js' %}"></script>
+{% endblock %}

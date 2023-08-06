@@ -1,0 +1,17 @@
+{% extends "kitchensink/base.html" %}
+{% load static %}
+
+{% block styles %}
+  {{ block.super }}
+
+  <link rel="stylesheet" href="{% static 'kitchensink/css/sheet.css' %}">
+{% endblock %}
+
+{% block api %}
+  {{ block.super }}
+  <meta name="SHEET_ID" content="{{ sheet }}">
+{% endblock %}
+
+{% block app %}
+<script type="text/javascript" src="{% static 'kitchensink/js/sheet.js' %}"></script>
+{% endblock %}

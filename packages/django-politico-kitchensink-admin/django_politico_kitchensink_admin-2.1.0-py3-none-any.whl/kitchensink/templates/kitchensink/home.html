@@ -1,0 +1,12 @@
+{% extends "kitchensink/base.html" %}
+{% load static %}
+
+{% block styles %}
+  {{ block.super }}
+
+  <link rel="stylesheet" href="{% static 'kitchensink/css/home.css' %}">
+{% endblock %}
+
+{% block app %}
+<script type="text/javascript" src="{% static 'kitchensink/js/home.js' %}"></script>
+{% endblock %}
