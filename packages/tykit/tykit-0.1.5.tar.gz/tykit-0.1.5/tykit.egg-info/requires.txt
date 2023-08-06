@@ -1,0 +1,4 @@
+rich>=9
+opencv-python
+numpy
+tqdm
