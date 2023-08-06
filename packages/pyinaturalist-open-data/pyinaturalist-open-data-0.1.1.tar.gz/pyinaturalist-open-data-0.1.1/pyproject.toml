@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "pyinaturalist-open-data"
+version = "0.1.1"
+description = "Python utilities for working with inaturalist-open-data"
+authors = ["Jordan Cook"]
+homepage = "https://github.com/JWCook/pyinaturalist-open-data"
+repository = "https://github.com/JWCook/pyinaturalist-open-data"
+keywords = ["inaturalist", "odp", "observations", "images"]
+license = "MIT"
+readme = "README.md"
+include = [
+    { path = "*.md" },
+    { path = "test", format = "sdist" }
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+
+# TODO: Set up docs on Readthedocs
+# [tool.poetry.urls]
+# "Documentation" = "https://github.com/JWCook/pyinaturalist-open-data"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+appdirs = "^1.4"
+boto3 = "^1.17"
+click = "~7.1"
+click-help-colors = "^0.9"
+pyinaturalist = "~0.12.0"
+requests-cache = "~0.6.3"
+rich = ">=10.0"
+sqlalchemy = "^1.4"
+
+[tool.poetry.dev-dependencies]
+black = "21.5b0"
+isort = "^5.8"
+mypy = "^0.812"
+flake8 = "^3.9"
+pre-commit = "^2.12"
+
+[tool.poetry.scripts]
+pynat = 'pyinaturalist_open_data.cli:pynat'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+skip-string-normalization = true
+line-length = 100
+
+[tool.isort]
+profile = 'black'
+line_length = 100
+skip_gitignore = true
+known_first_party = ['test']
+skip = ['pyinaturalist_open_data/models/__init__.py']
