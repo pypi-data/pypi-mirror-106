@@ -1,0 +1,4 @@
+[wai.annotations.plugins]
+from-roi-od = wai.annotations.roi.specifier:ROIInputFormatSpecifier
+to-roi-od = wai.annotations.roi.specifier:ROIOutputFormatSpecifier
+
