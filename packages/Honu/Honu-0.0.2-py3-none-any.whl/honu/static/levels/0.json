@@ -1,0 +1,42 @@
+{
+  "id":0,
+  "title":"template",
+  "description":"this is a template",
+  "difficulty": 1,
+  "levelVersion":"1.0.0",
+  "libVersion":"1.0.0",
+  "tags": [],
+  "winCondition": "get_all_flags",
+  "testCases": [
+    {
+      "name":"base case",
+      "levelData": { 
+        "level": [
+          ["white", "white", "white", "white", "white", "white"],
+          ["white", "white", "white", "white", "white", "white"],
+          ["white", "white", "white", "white", "white", "white"],
+          ["white", "white", "white", "white", "white", "white"],
+          ["white", "white", "white", "white", "white", "white"]
+        ],
+        "player": {
+          "pos": { "x": 0, "y": 0 }
+        },
+        "flags": [{ "pos": { "x": 2, "y": 1 }}]
+      }
+    },
+    {
+      "name":"small case",
+      "levelData": { 
+        "level": [
+          ["white", "white", "white"],
+          ["white", "white", "white"],
+          ["white", "white", "white"]
+        ],
+        "player": {
+          "pos": { "x": 0, "y": 0 }
+        },
+        "flags": [{ "pos": { "x": 2, "y": 1 } }]
+      }
+    }
+  ]
+}
