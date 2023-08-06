@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: noyaki
+Version: 0.0.1
+Summary: character span label to tokenized base label for Japanese text
+Home-page: https://github.com/ken11/noyaki
+Author: ken
+Author-email: kent.adachi@adachi-honten.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# noyaki
+Converts character span label information to tokenized text-based label information.
+
+## Installation
+```sh
+$ pip install noyaki
+```
+
+## Usage
+Pass the tokenized text and label information as arguments to the convert function.
+```py
+import noyaki
+
+label_list = noyaki.convert(
+        ['明日', 'は', '田中', 'さん', 'に', '会う'],
+        [[3, 5, 'PERSON']]
+    )
+
+print(label_list)
+# ['O', 'O', 'U-PERSON', 'O', 'O', 'O'] 
+```
+
+## Note
+Only Japanese is supported.  
+Only BILOU supports the tag format. (BIO may support in the future)
+
+
