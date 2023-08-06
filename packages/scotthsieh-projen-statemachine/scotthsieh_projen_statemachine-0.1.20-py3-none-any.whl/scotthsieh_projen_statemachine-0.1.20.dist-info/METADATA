@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: scotthsieh-projen-statemachine
+Version: 0.1.20
+Summary: projen-statemachine-example
+Home-page: https://github.com/HsiehShuJeng/projen-simple.git
+Author: Shu-Jeng Hsieh<fantatsicSie@hotmail.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/HsiehShuJeng/projen-simple.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aws-cdk.aws-apigateway (<2.0.0,>=1.104.0)
+Requires-Dist: aws-cdk.aws-iam (<2.0.0,>=1.104.0)
+Requires-Dist: aws-cdk.aws-stepfunctions-tasks (<2.0.0,>=1.104.0)
+Requires-Dist: aws-cdk.aws-stepfunctions (<2.0.0,>=1.104.0)
+Requires-Dist: aws-cdk.core (<2.0.0,>=1.104.0)
+Requires-Dist: constructs (<4.0.0,>=3.2.27)
+Requires-Dist: jsii (<2.0.0,>=1.29.0)
+Requires-Dist: publication (>=0.0.3)
+
+# projen-simple
+
+Build a custom construct based on an AWS Blog post and use projen to publish to 4 language repositories.
+(Hope Go is coming soon)
+
+# Architecture
+
+This library constrcution is referred to [this AWS blog](https://aws.amazon.com/tw/blogs/compute/introducing-amazon-api-gateway-service-integration-for-aws-step-functions/).
+
+# How to utilize polyglot packages
+
+## TypeScript
+
+```bash
+$ cdk --init language typescript
+$ yarn add projen-statemachine-example
+```
+
+```python
+# Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+from scotthsieh_projen_statemachine import StateMachineApiGatewayExample
+
+class TypescriptStack(cdk.Stack):
+    def __init__(self, scope, id, props=None):
+        super().__init__(scope, id, props)
+
+        stage_name = "default"
+        part_path = "pets"
+        example_construct = StateMachineApiGatewayExample(self, "KerKer",
+            stage_name=stage_name, part_path=part_path
+        )
+
+        cdk.CfnOutput(self, "OStateMachine",
+            value=example_construct.state_machine.state_machine_arn
+        )
+        cdk.CfnOutput(self, "OExecutionOutput",
+            value=example_construct.execution_input, description="Sample input to StartExecution."
+        )
+```
+
+## Python
+
+```bash
+$ cdk init --language python
+$ cat <<EOL > requirements.txt
+aws-cdk.core
+scotthsieh_projen_statemachine
+EOL
+$ python -m pip install -r requirements.txt
+```
+
+```python
+from aws_cdk import core as cdk
+from scotthsieh_projen_statemachine import StateMachineApiGatewayExample
+
+class PythonStack(cdk.Stack):
+    def __init__(self, scope: cdk.Construct, construct_id: str, **kwargs) -> None:
+         super().__init__(scope, construct_id, **kwargs)
+
+         stage_name = 'default'
+         part_path = 'pets'
+         example_construct = StateMachineApiGatewayExample(
+             self, 'PythonStatemachne', stage_name=stage_name, part_path=part_path,
+         )
+
+         cdk.CfnOutput(self, "OStateMachine",
+             value=example_construct.state_machine.state_machine_arn
+         )
+         cdk.CfnOutput(self, "OExecutionOutput", value=example_construct.execution_input, description="Sample input to StartExecution.")
+```
+
+# References
+
+* [jsii reference](https://github.com/cdklabs/jsii-release)
+* [aws-cdk-go](https://github.com/aws/aws-cdk-go)
+* [jsii](https://github.com/aws/jsii)
+
+
