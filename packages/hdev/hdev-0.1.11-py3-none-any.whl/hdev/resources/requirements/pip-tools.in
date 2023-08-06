@@ -1,0 +1,2 @@
+# hdev {"compile_in": "tests", "touch": false}
+pip-tools
