@@ -1,0 +1,14 @@
+wagtailmath/__init__.py,sha256=U3f_Jgr3zpgiYG2kLcvcT05TQsVzN9Kktg_f3Q9OZFA,22
+wagtailmath/apps.py,sha256=z8R7KcrjRBRzlu_LLlBjQ_vxChbE-2bzB0IxT-CvJDc,117
+wagtailmath/blocks.py,sha256=cYket8iOtslzCVxxec87EPWHjSfLkye8ryTJEsUdjBM,1817
+wagtailmath/models.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+wagtailmath/static/wagtailmath/js/wagtailmath.js,sha256=m7fXx-GVISFu0zwQOeSHBbHsL2ZhXIEJR_PuwCOsnRM,2654
+wagtailmath/templates/wagtailmath/mathjaxwidget.html,sha256=qV56tPQsmlLICk9ELqA8hjd4sUkcCUXPzcqzQXLtXUQ,1168
+wagtailmath/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtailmath/templatetags/wagtailmath.py,sha256=24Glm6VJZYGaRdRfRdIvb7UofeNBOASAUPcie2PQ_ZE,276
+wagtailmath-1.2.0.dist-info/AUTHORS.rst,sha256=hEQevBcSMkgmMOd2jAYZ3QdXZsz7TYWZU3l6pHwWN4s,166
+wagtailmath-1.2.0.dist-info/LICENSE,sha256=f0DtVu9l5T30WEhMyYXb1B7vw0U43FkhALEs0-UGnfE,1073
+wagtailmath-1.2.0.dist-info/METADATA,sha256=QpRvR7nb-1Yj6DVpA7vd7d1yStXYi0SBCsXIS5T2MgU,3346
+wagtailmath-1.2.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+wagtailmath-1.2.0.dist-info/top_level.txt,sha256=YC_w7tDqBq1BJSZ4iJa-WkpmLTC0XdYYjScQQ5J9g4U,12
+wagtailmath-1.2.0.dist-info/RECORD,,
