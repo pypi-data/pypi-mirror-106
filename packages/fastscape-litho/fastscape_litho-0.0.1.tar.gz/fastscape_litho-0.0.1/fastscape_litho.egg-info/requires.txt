@@ -1,0 +1,5 @@
+numba
+numpy
+fastscape
+xarray
+xarray-simlab
