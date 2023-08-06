@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pskit
+Version: 0.0.4
+Summary: Toolkit for an easy use of pandas, sklearn and popular ml libraries
+Home-page: https://github.com/trantrikien239/pandas-sklearn-toolkit
+Author: Kien Tran
+Author-email: trantrikien239@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: catboost
+
+# pandas-sklearn-toolkit
+
+Toolkit for an easy use of pandas, sklearn and popular ml libraries.
+
+# Etc.
+
+This is a toolkit I started to help make life easier as a data scientist.
+
