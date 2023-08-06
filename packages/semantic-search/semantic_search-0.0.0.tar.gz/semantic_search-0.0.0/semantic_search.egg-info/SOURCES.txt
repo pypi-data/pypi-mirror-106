@@ -1,0 +1,10 @@
+README.md
+setup.py
+semantic_search/__init__.py
+semantic_search/__version__.py
+semantic_search.egg-info/PKG-INFO
+semantic_search.egg-info/SOURCES.txt
+semantic_search.egg-info/dependency_links.txt
+semantic_search.egg-info/not-zip-safe
+semantic_search.egg-info/requires.txt
+semantic_search.egg-info/top_level.txt
