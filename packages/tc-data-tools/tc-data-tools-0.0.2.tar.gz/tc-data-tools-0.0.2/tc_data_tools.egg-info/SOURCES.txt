@@ -1,0 +1,11 @@
+README.md
+setup.py
+tc_data_tools/__init__.py
+tc_data_tools/io.py
+tc_data_tools.egg-info/PKG-INFO
+tc_data_tools.egg-info/SOURCES.txt
+tc_data_tools.egg-info/dependency_links.txt
+tc_data_tools.egg-info/requires.txt
+tc_data_tools.egg-info/top_level.txt
+tc_data_tools/extraction/__init__.py
+tc_data_tools/extraction/bigquery.py
