@@ -1,0 +1,22 @@
+defaults:
+  - hydra/sweeper: ax
+  - quadratic: null
+  - params: null
+
+quadratic:
+  x: ???
+  y: ???
+
+hydra:
+  sweeper:
+    ax_config:
+      client:
+        random_seed: 1
+
+      max_trials: 5
+
+      experiment:
+        minimize: true
+
+      early_stop:
+        max_epochs_without_improvement: 2
