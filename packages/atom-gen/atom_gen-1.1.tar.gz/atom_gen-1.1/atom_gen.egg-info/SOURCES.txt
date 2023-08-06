@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+atom_gen.egg-info/PKG-INFO
+atom_gen.egg-info/SOURCES.txt
+atom_gen.egg-info/dependency_links.txt
+atom_gen.egg-info/top_level.txt
+easy_atom/__init__.py
+easy_atom/action.py
+easy_atom/atom.py
+easy_atom/content.py
+easy_atom/helpers.py
