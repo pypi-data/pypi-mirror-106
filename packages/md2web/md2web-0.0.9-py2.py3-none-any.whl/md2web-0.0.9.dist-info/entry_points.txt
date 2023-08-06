@@ -1,0 +1,3 @@
+[console_scripts]
+md2web = md2web.__main__:run
+
