@@ -1,0 +1,12 @@
+iputil/__init__.py,sha256=8TZVJKmuq5IY0z9-MjYrwQKLn3_MQSoFuQqO0UaJhaA,77
+iputil/api.py,sha256=eH8VJC1Gy8J-CC4B5BSqNnSE5IeG6CC4e5EgIvHYng0,386
+iputil/ip2region.py,sha256=mJO7hzWFlCg4KTKy-XPd6H8L3NIwViRlMhfZc6CWHME,1138
+iputil/region.py,sha256=se5qrymC9qBdo3f3lOaFCCAKb3C16FjcZZC480xk5Ro,7190
+iputil/data/ip2region.db,sha256=WUiQffSkeC1ZVEmbZasBHiV_xXdfgeC4tN6m-hDm_MU,9359116
+iputil-0.1.0.data/scripts/ip2region.py,sha256=8RK20Dn90BgiO81Wo_dBmsFqsZC9qxt1hscaWMnJpNU,1124
+iputil-0.1.0.dist-info/LICENSE.md,sha256=RBZzWtxyVUauodNSh56sIJMudrwwUKTIHsn6ajo6Elw,12640
+iputil-0.1.0.dist-info/METADATA,sha256=QONPf2vAFR2-xbvgTyrqOf4KodSdfGQHUct10ka367U,1224
+iputil-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+iputil-0.1.0.dist-info/entry_points.txt,sha256=n0XRVwQ9haaSlcDSRlt00pkf_5O8Ix97qWFaqXQH9LM,46
+iputil-0.1.0.dist-info/top_level.txt,sha256=YH-SFrqJzaHwyZkaiHk3suh-9k1DGK541LnuCebV878,7
+iputil-0.1.0.dist-info/RECORD,,
