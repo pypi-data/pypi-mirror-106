@@ -1,0 +1,4 @@
+jieba
+naive-stopwords
+scikit-learn
+opencc
