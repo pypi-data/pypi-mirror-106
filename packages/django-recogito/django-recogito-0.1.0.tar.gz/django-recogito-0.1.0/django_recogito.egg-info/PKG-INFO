@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: django-recogito
+Version: 0.1.0
+Summary: A python package to integrate recogito-js in a django-project
+Home-page: https://github.com/acdh-oeaw/django-recogito
+Author: Peter Andorfer
+Author-email: peter.andorfer@oeaw.ac.at
+License: MIT
+Description: UNKNOWN
+Keywords: django-recogito
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8

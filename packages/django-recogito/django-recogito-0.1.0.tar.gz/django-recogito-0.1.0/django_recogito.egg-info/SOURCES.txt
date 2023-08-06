@@ -1,0 +1,17 @@
+README.md
+setup.py
+django_recogito.egg-info/PKG-INFO
+django_recogito.egg-info/SOURCES.txt
+django_recogito.egg-info/dependency_links.txt
+django_recogito.egg-info/not-zip-safe
+django_recogito.egg-info/requires.txt
+django_recogito.egg-info/top_level.txt
+recogito/__init__.py
+recogito/admin.py
+recogito/api_renderers.py
+recogito/api_serializers.py
+recogito/api_views.py
+recogito/apps.py
+recogito/models.py
+recogito/tests.py
+recogito/views.py
