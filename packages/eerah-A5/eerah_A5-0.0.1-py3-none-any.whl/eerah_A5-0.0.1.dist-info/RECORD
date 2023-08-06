@@ -1,0 +1,14 @@
+eerah_A5/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eerah_A5/__main__.py,sha256=LNtKSDozqwSAx1pmgODiCNn6FF-rp1gP3U3HB4ouorw,1982
+eerah_A5/programs/Administration.py,sha256=QO0DNGhXnDwxk1ADaFXYDwHpBfgj1x9zR0doi7LmV7o,5788
+eerah_A5/programs/KLetShuffle.py,sha256=V2oF3kIExK3rG3RZ7wvqCFO7vJdAK-UQODQLLfvQcCM,6140
+eerah_A5/programs/Manhattan.py,sha256=KOaCYyLssBHpkK90BgK9xWth1_rxAa6Wt8i8c6OZusY,5773
+eerah_A5/programs/MonoShuffle.py,sha256=CP41PLtvQE83Yu-9VNnDdxyhPmNXQ22bDzs1pw2J6-o,2074
+eerah_A5/programs/RollingDice.py,sha256=YwMWSMEBJPeNoxQtnurQJ03jFvqoDE6_-a-6LrIMrjk,2090
+eerah_A5/programs/WordCount.py,sha256=89cBUU5MsT2t_NdEuBpWtSGvEzciavg9opllQKSGW_Q,2360
+eerah_A5/programs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eerah_A5-0.0.1.dist-info/METADATA,sha256=0gqN2-6NdTNDbd6W0i_VFX9KcTVBMKEUWRvHZfK7iDk,9600
+eerah_A5-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+eerah_A5-0.0.1.dist-info/entry_points.txt,sha256=bBlnW8Qs3ylGikGJ-6gpQHg10ENh5-jXLpl42Z2Zl5I,53
+eerah_A5-0.0.1.dist-info/top_level.txt,sha256=VDkdZLLTMz_EgF51F6ghLVk3CqUR99-YBSKJw_dK31I,9
+eerah_A5-0.0.1.dist-info/RECORD,,
