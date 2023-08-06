@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mytreepy
+Version: 0.1
+Summary: tree command in cross platform
+Home-page: https://github.com/NoelBird/pytree
+Author: NoelBird
+Author-email: lduldu00228@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+# treepy
+
+unix tree command in python.
+
