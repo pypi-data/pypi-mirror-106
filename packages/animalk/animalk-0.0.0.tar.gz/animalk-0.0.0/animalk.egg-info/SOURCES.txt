@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+animalk.egg-info/PKG-INFO
+animalk.egg-info/SOURCES.txt
+animalk.egg-info/dependency_links.txt
+animalk.egg-info/requires.txt
+animalk.egg-info/top_level.txt
+animals/__init__.py
+animals/snake.py
