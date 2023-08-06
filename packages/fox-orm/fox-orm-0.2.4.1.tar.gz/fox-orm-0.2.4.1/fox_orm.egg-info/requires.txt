@@ -1,0 +1,7 @@
+databases~=0.4.3
+pydantic~=1.8.2
+SQLAlchemy~=1.4.15
+
+[dev]
+aiosqlite
+pylint
