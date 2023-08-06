@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: odoo12-addon-sm_carsharing_structure
+Version: 12.0.0.0.2
+Summary: This module will organice everything that needs to be done in a car and a parking as projects. Also to define account structure for cs service
+Home-page: https://www.sommobilitat.coop
+Author: Som Mobilitat
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Requires-Python: >=3.5
