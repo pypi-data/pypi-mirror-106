@@ -1,0 +1,12 @@
+dizge/__init__.py,sha256=fPpZir9deyrzt3osxnaigQnoYqVSxeOevAPg16OVOFs,149
+dizge/analyzer.py,sha256=zzawZi3aG7nmwEu665NG0hkmV9yHMFQ05gdH-Q4UaOM,3501
+dizge/competence/__init__.py,sha256=WtAyua_8J0lpqAz0FNNQAGn_5LYBwH9TWweDaGd5LsA,50
+dizge/competence/lexicon.py,sha256=17-VmdCQ8PH2dRssrFxixcKx3xu7uQgAo646Tba5DvM,2495
+dizge/competence/phonology.py,sha256=4ujzZfL7EN8EwGJ1nyndawokqUqbLz-lZ0H1w59eIFI,14738
+dizge/tools/__init__.py,sha256=Qth21zPG5M1vvvWXwS16lSZgfjQpgYBf8ZlfqyI7M_k,26
+dizge/tools/phonology.py,sha256=IOFVXcsJcuh3bKBT3ihmYdpvM1Be_vasLgH1aTPB0bo,19259
+dizge-0.1.1.dist-info/LICENSE,sha256=ollrGALofvxAmCnrfETobJ3_r90GHbUpf5U8YYbECuw,1111
+dizge-0.1.1.dist-info/METADATA,sha256=lnsWA0QiqducLm0ugmIfY4BUoN9yw1QcwYBtQfPzgKk,7701
+dizge-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dizge-0.1.1.dist-info/top_level.txt,sha256=iBCxXVM173q55G4QIh3v8LNGcmzDl1t_E1uKyQKc_z8,6
+dizge-0.1.1.dist-info/RECORD,,
