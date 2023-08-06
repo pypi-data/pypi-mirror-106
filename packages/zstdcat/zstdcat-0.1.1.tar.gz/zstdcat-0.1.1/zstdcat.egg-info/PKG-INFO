@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: zstdcat
+Version: 0.1.1
+Summary: Zstandard console reader
+Home-page: https://github.com/adw0rd/zstdcat
+Author: Mikhail Andreev
+Author-email: x11org@gmail.com
+License: MIT
+Description: Zstandard console reader
+Keywords: zstdcat,zstdless,zstdmore,zstd,zstandard,cat,less,more
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6

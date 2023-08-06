@@ -1,0 +1,3 @@
+# zstdcat
+
+Zstandard console reader

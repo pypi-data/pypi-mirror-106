@@ -1,0 +1,8 @@
+README.md
+setup.py
+scripts/zstdcat
+zstdcat.egg-info/PKG-INFO
+zstdcat.egg-info/SOURCES.txt
+zstdcat.egg-info/dependency_links.txt
+zstdcat.egg-info/requires.txt
+zstdcat.egg-info/top_level.txt
