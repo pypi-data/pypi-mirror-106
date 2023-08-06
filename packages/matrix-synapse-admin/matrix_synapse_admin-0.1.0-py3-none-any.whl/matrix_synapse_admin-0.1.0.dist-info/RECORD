@@ -1,0 +1,13 @@
+synapse_admin/__init__.py,sha256=4tvkph01DEArEvwkcmNEJu7E7w60GjMK5Bcv7PX_46g,334
+synapse_admin/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+synapse_admin/base.py,sha256=rarIWR-Rcc2ohK6oOqi73Kc1cGkdC_e18zXMBy5QWLk,5659
+synapse_admin/management.py,sha256=pH_LqtgZMlybgMUVWIktjxabHnv9mTNa9DKuowe8mI4,6700
+synapse_admin/media.py,sha256=rrYeKP4Hm0GjcF8jN4pzyWqtPjPHg9XirN0d-wWDk20,6478
+synapse_admin/room.py,sha256=4uflJ1aKiC_mlC3khYfd32Ca44JvR3vgV1i4uXjS8Ks,11037
+synapse_admin/telegram_bot.py,sha256=sTyvaoTtAEpt7dcxAo_IBsjSVKcl5RxEHty-nt7Mlgo,960
+synapse_admin/user.py,sha256=XezdY7r7XNbmh2qetrjxKVJANv0qEVfBz-b73ULd-cw,19059
+matrix_synapse_admin-0.1.0.dist-info/LICENSE,sha256=_xeSYhF-XElQPApfW6O-yz5sGm-Rua6LUEvWH7KQ0e0,1062
+matrix_synapse_admin-0.1.0.dist-info/METADATA,sha256=Hcq589EQXbrmxhIVDaxX5sfno-psQ67IzzpzHWsclRY,2021
+matrix_synapse_admin-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+matrix_synapse_admin-0.1.0.dist-info/top_level.txt,sha256=f4D3p_27sH3lru8sobRjCI3wwjNWoLXJ7bjZqbPU3Co,14
+matrix_synapse_admin-0.1.0.dist-info/RECORD,,
