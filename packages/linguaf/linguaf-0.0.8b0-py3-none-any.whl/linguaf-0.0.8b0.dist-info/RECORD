@@ -1,0 +1,17 @@
+linguaf/__init__.py,sha256=4xy9hlv6wsWhmytkqnmhmCKG0uEwajvDtL1H1QKrIgg,1325
+linguaf/descriptive_statistics.py,sha256=s35u77c6FmSZbTNU0rmqwZy1qYmMkmZ_lZLUevqczPY,11892
+linguaf/lexical_complexity.py,sha256=Pnee7N5NUa2uqptMDr80FZxtSmN8VUH32_A2tATfzFA,1573
+linguaf/lexical_diversity.py,sha256=LJzOD-ivoLoSNb2yUXY7Bw6kFajIt-v_Hs_b8mwb1BY,4307
+linguaf/readability.py,sha256=mYVWVhOX3DqKL5kz8Iuh_M70fVJw2_vhtEm4jB_KdtI,5585
+linguaf/resources/stopwords/en.json,sha256=vz6pDB7kN5ql79RovH7m2Ja3hOguRnDRCOAnzIxqqBg,2191
+linguaf/resources/stopwords/ru.json,sha256=NeRh4aDb3reU9cpZFLeC50CzSauWzwLC1nD4KYZeRfM,2294
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_descriptive_statistics.py,sha256=wDn1qcN6KIBGrCYip0Q0w65SyLGODT9Rgzl4TpcFFKw,12108
+tests/test_lexical_complexity.py,sha256=9umUkKe2N6iQeu6YKegbdEWjBNCd0-i_y5UhWnO4Neg,2711
+tests/test_lexical_diversity.py,sha256=p9s8huP5R5pXhYh3KtsSDnM0hohyVhmECm22AMv6MnY,13337
+tests/test_readability.py,sha256=eqolJ_G3BzsL5hsH2frmmuiMbfNOk6vw9ojrIIfxH7w,16148
+linguaf-0.0.8b0.dist-info/LICENSE,sha256=bDnMb5F99iJVBm9OjkmFlVKl0xiUZF4ONpzj5DXjsbE,1076
+linguaf-0.0.8b0.dist-info/METADATA,sha256=euKjMJNdbfSpw3TVfOglREAbWBdWSPAVTiKJhAriFfQ,2380
+linguaf-0.0.8b0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+linguaf-0.0.8b0.dist-info/top_level.txt,sha256=1QuN8LwPqqJqr1q3pQ7jjYdWIsNVSgb0ii74qw6L42Y,14
+linguaf-0.0.8b0.dist-info/RECORD,,
