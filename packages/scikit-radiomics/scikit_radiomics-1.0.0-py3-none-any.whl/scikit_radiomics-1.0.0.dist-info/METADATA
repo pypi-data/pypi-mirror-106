@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: scikit-radiomics
+Version: 1.0.0
+Summary: Radiomics for medical image
+Home-page: https://github.com/szuboy/scikit-radiomics#readme
+Author: szuboy
+Author-email: scikit-radiomics@googlegroups.com
+License: Apache License
+Project-URL: Documentation, https://scikit-radiomics.readthedocs.io/en/latest/index.html
+Project-URL: Github, https://github.com/szuboy/scikit-radiomics
+Requires-Dist: SimpleITK (>=0.9.1)
+Requires-Dist: numpy (>=1.9.2)
+Requires-Dist: pykwalify (>=1.6.0)
+Requires-Dist: six (>=1.10.0)
+
+# scikit-radiomics
+
+
