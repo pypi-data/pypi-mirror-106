@@ -1,0 +1,3 @@
+[tool.badges_gitlab]
+path = "public/badges"
+junit-xml = "tests/report.xml"
