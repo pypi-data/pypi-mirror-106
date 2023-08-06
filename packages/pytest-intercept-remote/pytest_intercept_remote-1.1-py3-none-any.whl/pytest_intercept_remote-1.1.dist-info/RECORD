@@ -1,0 +1,9 @@
+pytest_intercept_remote/__init__.py,sha256=X20GzQ1bJ735ICDyR_YgkId_HEoTJ-LBCxxfEQr6uPI,45
+pytest_intercept_remote/_version.py,sha256=LXk0HMURIo5EP7pfgFmpo672wDgBJzUA1-Z1FTPjoAk,137
+pytest_intercept_remote/plugin.py,sha256=pIq_41A9cUFP5vXAuNZzis2xllwB8b6V_vFIfg_GH00,2888
+pytest_intercept_remote-1.1.dist-info/LICENSE,sha256=SJ_emEBEZP72EuTFPpMlEF4ZWINLMFiOnYer7zSnYj4,1522
+pytest_intercept_remote-1.1.dist-info/METADATA,sha256=3vC3l-vO-h0IZUbkTpWKkj1qV8IRGO2RNH9UMVs6znE,2935
+pytest_intercept_remote-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytest_intercept_remote-1.1.dist-info/entry_points.txt,sha256=LXO-pBiOJWUL8w6wxBnB3nEMpmCD1Q_lxhf62EBF2c4,69
+pytest_intercept_remote-1.1.dist-info/top_level.txt,sha256=B1K6c6yAh2PK4_h5VSQuMvl5AtVvJAe0ZROnW6O4xwU,24
+pytest_intercept_remote-1.1.dist-info/RECORD,,
