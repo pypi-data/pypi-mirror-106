@@ -1,0 +1,10 @@
+README.md
+setup.py
+auto_usage/__init__.py
+auto_usage/__main__.py
+auto_usage/auto_usage.py
+auto_usage.egg-info/PKG-INFO
+auto_usage.egg-info/SOURCES.txt
+auto_usage.egg-info/dependency_links.txt
+auto_usage.egg-info/entry_points.txt
+auto_usage.egg-info/top_level.txt
