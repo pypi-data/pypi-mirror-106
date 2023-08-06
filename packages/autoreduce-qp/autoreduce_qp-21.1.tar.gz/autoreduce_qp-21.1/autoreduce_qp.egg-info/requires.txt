@@ -1,0 +1,6 @@
+autoreduce_db==0.1.2
+autoreduce_utils==0.1.2
+Django==3.2.2
+fire==0.4.0
+plotly==4.14.3
+stomp.py==6.1.0
