@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+mobilepayclient.egg-info/PKG-INFO
+mobilepayclient.egg-info/SOURCES.txt
+mobilepayclient.egg-info/dependency_links.txt
+mobilepayclient.egg-info/requires.txt
+mobilepayclient.egg-info/top_level.txt
