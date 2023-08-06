@@ -1,0 +1,3 @@
+
+[pretix.plugin]
+pretix_venueless=pretix_venueless:PretixPluginMeta
