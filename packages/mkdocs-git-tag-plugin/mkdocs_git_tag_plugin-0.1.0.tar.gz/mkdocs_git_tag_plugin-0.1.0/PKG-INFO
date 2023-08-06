@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: mkdocs-git-tag-plugin
+Version: 0.1.0
+Summary: mkdocs plugin for enabling git-tag injection in markdown
+Home-page: https://thorsell.io
+License: MIT
+Keywords: mkdocs,markdown,git
+Author: Erik Thorsell
+Author-email: erik@thorsell.io
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: GitPython (>=3.1.14,<4.0.0)
+Requires-Dist: mkdocs (>=1.1.2,<2.0.0)
+Project-URL: Repository, https://github.com/ErikThorsell/mkdocs-git-tag-plugin
+Description-Content-Type: text/markdown
+
+mkdocs git tag plugin
+===
+
+Acquire the latest git tag and put it in your mkdocs document!
+
+## Example
+
+Put `{{ git_tag }}` somewhere in your mkdocs document and the `{{ git_tag }}`
+will be replaced with the tag for the current commit.
+
+## Disclaimer
+
+If the current commit does not have a tag, `{{ git_tag }}` will yield `None`.
+
