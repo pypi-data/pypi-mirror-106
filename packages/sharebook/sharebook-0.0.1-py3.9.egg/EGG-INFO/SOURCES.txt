@@ -1,0 +1,9 @@
+README.md
+setup.py
+sharebook/__init__.py
+sharebook/version.py
+sharebook.egg-info/PKG-INFO
+sharebook.egg-info/SOURCES.txt
+sharebook.egg-info/dependency_links.txt
+sharebook.egg-info/requires.txt
+sharebook.egg-info/top_level.txt

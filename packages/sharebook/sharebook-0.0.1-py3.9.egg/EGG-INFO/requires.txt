@@ -1,0 +1,5 @@
+alembic
+jupyterhub>=1.4.1
+pluggy
+tornado>=6.0.4
+traitlets
