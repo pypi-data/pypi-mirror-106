@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: basic_cowin_api
+Version: 0.0.1
+Summary: Python wrapper for Indian CoWin APIhttps://apisetu.gov.in/public/marketplace/api/cowin/cowin-public-v2
+Home-page: https://gitlab.com/mayankjohri/cowin_api
+Author: Mayank Johri
+Author-email: mayankjohri@gmail.com
+License: GNU 3.0
+Project-URL: Bug Reports, https://gitlab.com/mayankjohri/cowin_api/-/issues
+Project-URL: Source, https://gitlab.com/mayankjohri/cowin_api
+Description: UNKNOWN
+Keywords: cowin, covid, vaccine
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
