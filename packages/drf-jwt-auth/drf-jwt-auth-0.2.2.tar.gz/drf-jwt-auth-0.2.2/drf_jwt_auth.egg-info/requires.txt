@@ -1,0 +1,4 @@
+Django>=2.0
+djangorestframework>=3.0
+PyJWT==1.7.1
+pytest-django>=3.7.0
