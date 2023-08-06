@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: camphr-pipelines
+Version: 0.1.0
+Summary: 
+Author: Yohei Tamura
+Author-email: tamuhey@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: camphr_transformers (>=0.1.0,<0.2.0)
+Requires-Dist: toolz (>=0.10,<0.12)
