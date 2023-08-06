@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: dsFramework
+Version: 0.1.11
+Summary: My first Python library
+Home-page: UNKNOWN
+Author: oribrau@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas (==1.2.4)
+Requires-Dist: packaging (==20.9)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: pip (==21.1.1)
+Requires-Dist: Pygments (==2.9.0)
+Requires-Dist: Unidecode (==1.2.0)
+Requires-Dist: tqdm (==4.60.0)
+Requires-Dist: typing-extensions (==3.10.0.0)
+Requires-Dist: importlib-metadata (==3.10.1)
+Requires-Dist: click (==8.0.1)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: torch (==1.7.1)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: argcomplete (==1.12.3)
+Requires-Dist: attr (==0.3.1)
+Requires-Dist: dataclasses (==0.8)
+Requires-Dist: Flask (==2.0.1)
+Requires-Dist: flask-cors (==3.0.10)
+Requires-Dist: fpdf (==1.7.2)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: Twisted (==21.2.0)
+Requires-Dist: zope (==5.2)
+
+UNKNOWN
+
+
