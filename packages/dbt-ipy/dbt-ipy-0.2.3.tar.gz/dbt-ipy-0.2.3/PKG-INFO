@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: dbt-ipy
+Version: 0.2.3
+Summary: IPython magic to use dbt
+Home-page: http://www.github.com/jmriego/dbt-ipy
+Author: jmriego
+Author-email: jmriego@telefonica.net
+License: GNU GPLv3
+Description: # DBT-iPy
+        
+        Run DBT commands inside a IPython session.
+        
+        ## Tutorial
+        
+        You can access the [tutorial notebook here](https://github.com/jmriego/dbt-ipy/blob/master/tutorial/Tutorial.ipynb)
+        
+        ## Quickstart Guide
+        
+        The first thing you'll probably want to do is to run a DBT RPC server in the background. That will let you run queries, compile SQL code among other things:
+        
+        `%dbt rpc <args>` (the args will be passed directly to dbt as command line arguments)
+        
+        The two most important parameters would be:
+        
+        - ``--port [port_number]`` Passing this parameter will run the DBT RPC on that port. Default is 8580
+        - ``--existing`` This will skip creating a new DBT RPC and instead it will connect to an existing one on the specified port
+        
+        **Compiling queries:**
+        
+        The sql query in the cell will be compiled with the DBT RPC server and IPython will output the text::
+        
+        ```
+        %%compile_sql
+        SELECT ...
+        ```
+        
+        **Running queries:**
+        
+        The sql query in the cell will be run on the DBT RPC server and IPython will output the agate table. Also, it will run its ``.print_table()`` method::
+        
+        ```
+        %%run_sql
+        SELECT ...
+        ```
+        
+Keywords: ipython dbt sql
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: IPython
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
