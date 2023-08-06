@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: featselector
+Version: 1.0.1
+Summary: featselector and tools
+Home-page: UNKNOWN
+Author: pangzi
+Author-email: wjw1999@mail.ustc.edu.cn
+License: BSD License
+Description: UNKNOWN
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries

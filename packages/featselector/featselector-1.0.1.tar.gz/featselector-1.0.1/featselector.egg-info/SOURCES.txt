@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+featselector/__init__.py
+featselector/selector.py
+featselector.egg-info/PKG-INFO
+featselector.egg-info/SOURCES.txt
+featselector.egg-info/dependency_links.txt
+featselector.egg-info/top_level.txt
