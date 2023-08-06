@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: el_logging
+Version: 0.1.7
+Summary: Loguru based custom logging package for most python projects.
+Home-page: https://bitbucket.org/ellexiinc/el_logging/
+Author: Batkhuu Byambajav
+Author-email: batkhuu@ellexi.com
+License: MIT
+Download-URL: https://bitbucket.org/ellexiinc/el_logging/get/0.1.7.tar.gz
+Description: UNKNOWN
+Keywords: logging,loguru,custom
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
