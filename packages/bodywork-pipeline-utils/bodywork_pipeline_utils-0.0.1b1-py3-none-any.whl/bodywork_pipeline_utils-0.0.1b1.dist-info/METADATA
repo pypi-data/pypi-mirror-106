@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: bodywork-pipeline-utils
+Version: 0.0.1b1
+Summary: Utilities for helping with pipeline development and integration with 3rd party MLOps services.
+Home-page: https://www.bodyworkml.com
+Author: Bodywork Machine Learning Ltd.
+Author-email: info@bodyworkml.com
+License: Apache 2.0
+Project-URL: Source, https://github.com/bodywork-ml/bodywork-pipeline-utils
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8.*
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.25.0)
+Provides-Extra: dev
+Requires-Dist: black (==21.4b0) ; extra == 'dev'
+Requires-Dist: pytest (==5.4.3) ; extra == 'dev'
+Requires-Dist: pytest-cov (==2.10.0) ; extra == 'dev'
+Requires-Dist: mypy (==0.782) ; extra == 'dev'
+Requires-Dist: flake8 (==3.8.3) ; extra == 'dev'
+Requires-Dist: tox (==3.20.1) ; extra == 'dev'
+Requires-Dist: twine (==3.2.0) ; extra == 'dev'
+Requires-Dist: wheel (==0.34.2) ; extra == 'dev'
+
+<div align="center">
+<img src="https://bodywork-media.s3.eu-west-2.amazonaws.com/website_logo_transparent_background_full.png"/>
+</div>
+---
+
+# Bodywork Pipeline Utilities
+
+Utilities for helping with pipeline development and integration with 3rd party MLOps services.
+
+
