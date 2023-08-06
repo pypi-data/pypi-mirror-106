@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+lib/origen_autoapi/__init__.py
+lib/origen_autoapi/apinode.py
+lib/origen_autoapi/sphinx.py
+lib/origen_autoapi.egg-info/PKG-INFO
+lib/origen_autoapi.egg-info/SOURCES.txt
+lib/origen_autoapi.egg-info/dependency_links.txt
+lib/origen_autoapi.egg-info/requires.txt
+lib/origen_autoapi.egg-info/top_level.txt
+lib/origen_autoapi/templates/autoapi/module.rst
