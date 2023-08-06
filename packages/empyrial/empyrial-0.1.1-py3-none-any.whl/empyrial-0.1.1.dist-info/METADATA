@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: empyrial
+Version: 0.1.1
+Summary: Empyrial makes portfolio management and analysis faster and easier
+Home-page: https://github.com/ssantoshp/Empyrial
+Author: Santosh Passoubady
+Author-email: santoshpassoubady@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pykalman
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: pandas-datareader
+Requires-Dist: datetime
+Requires-Dist: statsmodels
+Requires-Dist: sklearn
+Requires-Dist: empyrical
+Requires-Dist: quantstats
+Requires-Dist: dateutil
+Requires-Dist: math
+
+UNKNOWN
+
+
