@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: aviv-aws-costexplorer
+Version: 0.0.1
+Summary: Aviv AWS CostExplorer python library
+Home-page: https://github.com/aviv-group/aviv-aws-costexplorer
+Author: Jules Clement
+Author-email: jules.clement@aviv-group.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (>=1.16.51)
+Requires-Dist: pandas (>=1.1.4)
+Requires-Dist: python-dateutil (>=2.8)
+Requires-Dist: numpy (>=1.19.4)
+Provides-Extra: datastore
+Requires-Dist: awswrangler (>=0.3) ; extra == 'datastore'
+
+# Aviv AWS CostExplorer
+
+Aims to provide a quick and comprehensive interface to AWS costexplorer api.
+This is useful to extract cost and usage (aka CAU) data, save it and to make it available for reporting and analysis.
+
+## Requirements
+
+- python >= 3.8
+- boto3
+- Access to AWS ce:cost_and_usage
+
+## Development
+
+```bash
+pipenv install -d
+```
+
+## Test, Build, Release
+
+```bash
+# Run tests
+pipenv run pytest -v tests/
+
+# Build python package
+python3 setup.py sdist bdist_wheel
+
+# Release on testpypi
+python3 -m twine upload --repository testpypi dist/*
+```
+
+Note: the Pypi release is also done during the CICD process.
+
+## Contribute
+
+Yes please! Send us your PR's
+
+
