@@ -1,0 +1,9 @@
+kraken_g_api/kraken_bigquery.py,sha256=hu2CVM0SnLtJayHVuzhrIau6Ny3PmTkwv2ovNcNrvgo,1533
+kraken_g_api/kraken_firestore.py,sha256=b1l442lcNn1IIXvUungXEMC17lwmrFFhmeK7-y_Dh-g,10419
+kraken_g_api/kraken_storage.py,sha256=1e6_zjVF5-oC9p7sSgsuN5xIDwvGj3ThcJxfjPCNr9E,2743
+kraken_g_api/kraken_task.py,sha256=Krx3APVem4Ja7gxUHx4ei7CAuVq-lVYI8qJ1fFbR3ak,3573
+kraken_g_api-0.0.1.dist-info/LICENSE.txt,sha256=ukEi8E0PKq1dQGTXHUflg3rppLymwAhr7il9x-0nPgg,1062
+kraken_g_api-0.0.1.dist-info/METADATA,sha256=myihEk6jWrmal68jR0fBn1MHgbvUL_NIvdgFxT-nmZc,572
+kraken_g_api-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kraken_g_api-0.0.1.dist-info/top_level.txt,sha256=Bg8e0LiJ6fSJDMYe93QrBOxOQSaPo22AtQc3bYtA1fU,13
+kraken_g_api-0.0.1.dist-info/RECORD,,
