@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+PyPrayTimes/PyPrayTimes.egg-info/PKG-INFO
+PyPrayTimes/PyPrayTimes.egg-info/SOURCES.txt
+PyPrayTimes/PyPrayTimes.egg-info/dependency_links.txt
+PyPrayTimes/PyPrayTimes.egg-info/top_level.txt
