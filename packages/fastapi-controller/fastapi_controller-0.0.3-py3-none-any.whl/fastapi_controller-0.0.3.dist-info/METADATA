@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fastapi-controller
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: fastapi-utils (>=0.2.1)
+Requires-Dist: fastapi
+
+UNKNOWN
+
