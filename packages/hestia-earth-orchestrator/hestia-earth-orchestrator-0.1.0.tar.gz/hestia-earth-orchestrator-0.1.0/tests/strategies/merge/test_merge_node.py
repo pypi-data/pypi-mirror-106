@@ -1,0 +1,84 @@
+from unittest.mock import patch
+
+from hestia_earth.orchestrator.strategies.merge.merge_node import merge, _has_threshold_diff, _should_merge_lower_tier
+
+class_path = 'hestia_earth.orchestrator.strategies.merge.merge_node'
+
+
+def test_has_threshold_diff():
+    key = 'key'
+    threshold = 0.1  # 10%
+    source = {}
+    dest = {}
+
+    # key not in source => merge
+    assert _has_threshold_diff(source, dest, key, threshold)
+
+    # key not in dest => merge
+    source[key] = [100]
+    assert _has_threshold_diff(source, dest, key, threshold)
+
+    dest[key] = [90]
+    assert not _has_threshold_diff(source, dest, key, threshold)
+
+    dest[key] = [89]
+    assert _has_threshold_diff(source, dest, key, threshold)
+
+    # edge cases
+    source[key] = [0]
+    dest[key] = [1]
+    assert _has_threshold_diff(source, dest, key, threshold)
+
+    source[key] = [0]
+    dest[key] = [0]
+    assert not _has_threshold_diff(source, dest, key, threshold)
+
+    source[key] = [1]
+    dest[key] = [0]
+    assert _has_threshold_diff(source, dest, key, threshold)
+
+
+def test_should_merge_lower_tier():
+    source = {}
+    dest = {}
+
+    # new value has lower tier
+    source['methodTied'] = 'tier 3'
+    dest['methodTier'] = 'tier 1'
+    assert _should_merge_lower_tier(source, dest, {'replaceLowerTier': True})
+    assert not _should_merge_lower_tier(source, dest, {'replaceLowerTier': False})
+
+    # new value has higher tier
+    source['methodTied'] = 'tier 1'
+    dest['methodTier'] = 'tier 3'
+    assert _should_merge_lower_tier(source, dest, {'replaceLowerTier': True})
+    assert _should_merge_lower_tier(source, dest, {'replaceLowerTier': False})
+
+
+@patch(f"{class_path}._has_threshold_diff", return_value=False)
+def test_merge_no_merge(*args):
+    source = {'value': [100]}
+    dest = {'value': [50]}
+    args = {'replaceThreshold': ['value', 50]}
+    # simply return the source
+    assert merge(source, dest, '0', args) == source
+
+
+@patch(f"{class_path}._has_threshold_diff", return_value=True)
+@patch(f"{class_path}.update_node_version", return_value={})
+def test_merge_no_threshold(mock_update, *args):
+    source = {'value': [100]}
+    dest = {'value': [50]}
+    args = {}
+    merge(source, dest, '0', args)
+    mock_update.assert_called_once()
+
+
+@patch(f"{class_path}._has_threshold_diff", return_value=True)
+@patch(f"{class_path}.update_node_version", return_value={})
+def test_merge_with_threshold(mock_update, *args):
+    source = {'value': [100]}
+    dest = {'value': [50]}
+    args = {'replaceThreshold': ['value', 50]}
+    merge(source, dest, '0', args)
+    mock_update.assert_called_once()
