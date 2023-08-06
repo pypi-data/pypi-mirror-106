@@ -1,0 +1,3 @@
+[console_scripts]
+sable = sable.__main__:main
+
