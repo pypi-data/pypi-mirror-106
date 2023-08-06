@@ -1,0 +1,12 @@
+collabutils/__init__.py,sha256=b5TGuT1Bx86rzhxzpC7Lbk6IVKf4bmzCnMEyvl6ygWQ,24
+collabutils/base.py,sha256=pypMFc_kHkaXZUXIeF3tIDJuk42xTgNI8_Ro3cuEV60,325
+collabutils/edictor.py,sha256=of26rGms9DZwrZlLLR9RZJOHIBohPHyscFUcwxpaHPA,1231
+collabutils/googlesheets.py,sha256=F161Zh4Wd4oHu3qQ-6XawGSfqy1w-XhCde51xtBhcWE,3446
+collabutils/oc.py,sha256=gAm2q1jXYo8CFZlJ2VQ14GLSN39LnhhrMNHRqLA5upE,2800
+collabutils/util.py,sha256=pQf1FjIeZrA9KPEyOkOFK2vnt-xOot-fp4UKe8QbuD8,216
+collabutils/zotero.py,sha256=PArj6bzwXtOqmyWcZB35N1UxgpaN_LxHl4Raz27SdyQ,7598
+collabutils-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+collabutils-0.1.0.dist-info/METADATA,sha256=nESo5BdG6lAUKTQXodDk1qDFcZ3P89YFTTMqqbBMOXw,2048
+collabutils-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+collabutils-0.1.0.dist-info/top_level.txt,sha256=l11d2yJsUgahmFKvEOsWkJAfB8m4ploWmO8onmwLe4c,12
+collabutils-0.1.0.dist-info/RECORD,,
