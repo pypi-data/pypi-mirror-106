@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: TextStatistic
+Version: 0.0.1
+Summary: Text statistics
+Home-page: https://github.com/ShadowStalker13/TextStatistics
+Author: Andrew Puchkov
+Author-email: andr1502puch@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# TEXT STATISTICS
+Программа предназначена для подсчета количества слов тексте.
+Программа также выводит количество уникальных слов и выводит эти слова.
+
