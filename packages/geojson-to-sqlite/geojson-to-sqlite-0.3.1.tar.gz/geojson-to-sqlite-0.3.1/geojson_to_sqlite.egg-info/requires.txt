@@ -1,0 +1,5 @@
+sqlite-utils>=2.2
+shapely
+
+[test]
+pytest
