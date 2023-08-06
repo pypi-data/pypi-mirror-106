@@ -1,0 +1,7 @@
+scrapy_sqs/__init__.py,sha256=9F4W10ny6CaBI6Zh64qYPggi9_43XZk7h7UmxH6sQHE,106
+scrapy_sqs/connection.py,sha256=R3FZ_Mh74EhGgMxz3B0Kgf4-OBXQjjodhfzd-rqC51o,426
+scrapy_sqs/spiders.py,sha256=x8DN120YTLE__ntES4ArT2FstJmFspuzVwOIHzCfgfE,6694
+scrapy_sqs-0.0.3.dist-info/METADATA,sha256=XHkW1Zfk73rwzdYr8bBTHRMMXlDEOfMjQhd9HBuv3ZA,283
+scrapy_sqs-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scrapy_sqs-0.0.3.dist-info/top_level.txt,sha256=NxjzxuH1ubsCNzWrPr_muMj_33DFqdptBSysglOnI_M,11
+scrapy_sqs-0.0.3.dist-info/RECORD,,

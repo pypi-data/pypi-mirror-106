@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: scrapy-sqs
+Version: 0.0.3
+Summary: SQS Plug-in for Scrapy
+Home-page: https://github.com/gabrielb/scrapy-sqs
+Author: GabrielB
+Author-email: gbalensiefer@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Scrapy (>=1.0)
+Requires-Dist: boto3
+
+UNKNOWN
+
+
