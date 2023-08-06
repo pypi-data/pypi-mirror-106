@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dfagent/__init__.py
+dfagent/dfagent.py
+dfagent.egg-info/PKG-INFO
+dfagent.egg-info/SOURCES.txt
+dfagent.egg-info/dependency_links.txt
+dfagent.egg-info/requires.txt
+dfagent.egg-info/top_level.txt
