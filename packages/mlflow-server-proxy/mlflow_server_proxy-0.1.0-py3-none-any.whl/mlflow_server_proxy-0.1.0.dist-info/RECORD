@@ -1,0 +1,10 @@
+mlflow_server_proxy/__init__.py,sha256=AcGy9RsE9_hvT9ooacJ9GGO9K5TLyqCAip1tr4c6h1k,2323
+mlflow_server_proxy/icons/mlflow.svg,sha256=lWRrXbpR7lKBk4NOWpM41jxfg6QUWWBtRpgiK7Ili8Q,825
+mlflow_server_proxy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlflow_server_proxy/tests/test_setup.py,sha256=RNbMV8ILkWOxn9keBgW8uGhgm9Bf7siB2U_xPAt6fyw,2283
+mlflow_server_proxy-0.1.0.dist-info/LICENSE.txt,sha256=CWWgD6Bv76kS-2rnOdpmw60iU75gpe1uJzzZ3JRHD3k,11372
+mlflow_server_proxy-0.1.0.dist-info/METADATA,sha256=G-ApqfJcKDKu3xgXnBgg7HMQaWKekdhD2XRm3J5ntXE,3443
+mlflow_server_proxy-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mlflow_server_proxy-0.1.0.dist-info/entry_points.txt,sha256=yorlEB_nGSA786ik1v4KHmVIDzUfja_dzusQYKXbGq0,73
+mlflow_server_proxy-0.1.0.dist-info/top_level.txt,sha256=eY2uf4Fw7AhKpHcvWBDNtc3a7bB92ybIuPIWL6LBTMc,20
+mlflow_server_proxy-0.1.0.dist-info/RECORD,,
