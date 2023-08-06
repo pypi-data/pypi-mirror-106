@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: novicedude-cli
+Version: 1.2.0
+Summary: SingularityNET CLI
+Home-page: https://github.com/singnet/snet-cli
+Author: SingularityNET Foundation
+Author-email: info@singularitynet.io
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
