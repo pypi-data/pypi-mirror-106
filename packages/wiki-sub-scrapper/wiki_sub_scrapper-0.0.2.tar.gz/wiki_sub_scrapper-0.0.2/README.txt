@@ -1,0 +1,1 @@
+This module is used to get all subsidiaries of the given company using wikipedia.

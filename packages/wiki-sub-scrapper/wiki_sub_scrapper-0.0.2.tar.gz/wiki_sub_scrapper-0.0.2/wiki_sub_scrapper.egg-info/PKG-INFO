@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: wiki-sub-scrapper
+Version: 0.0.2
+Summary: Module to get all subsidiaries of the given company using wikipedia
+Home-page: UNKNOWN
+Author: Aswin venkat
+Author-email: aswin.venkat@cybersecurityworks.com
+License: MIT
+Description: This module is used to get all subsidiaries of the given company using wikipedia.
+        
+        CHANGE LOG
+        ==========
+        0.0.1 (21/05/2021)
+        ------------------
+        - First Release
+        
+        0.0.2 (21/05/2021)
+        ------------------
+        - Bug fix in resultant array
+Keywords: subsidiaries,wikipedia
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
