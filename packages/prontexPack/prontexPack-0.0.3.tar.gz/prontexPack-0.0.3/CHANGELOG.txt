@@ -1,0 +1,21 @@
+Change Log
+==========
+
+0.0.1 (17/06/2021)
+-------------------
+things. it release
+
+0.0.2 (17/06/2021)
+-------------------
+alright so basically
+i added a guide
+and more functions 
+
+0.0.3 (17/07/2021)
+-------------------
+alright so basically
+i worked on making a new experimental thing
+called Datastore
+it's just the tmpdatabase but new methods
+you can try it out if you wanna risk your sanity
+oh yeah i also changed tmpdatabase's name to tmpdatastore
