@@ -1,0 +1,6 @@
+tk
+requests
+urllib
+zipfile
+PIL
+shutil
