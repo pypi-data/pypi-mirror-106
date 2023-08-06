@@ -1,0 +1,10 @@
+gym
+numpy
+loguru
+minio
+msgpack
+msgpack-numpy
+six
+tqdm
+zmq
+timeout-decorator==0.5.0
