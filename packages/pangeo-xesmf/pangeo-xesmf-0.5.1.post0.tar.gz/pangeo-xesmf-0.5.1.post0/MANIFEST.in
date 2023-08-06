@@ -1,0 +1,13 @@
+include LICENSE
+include *.rst
+
+graft xesmf
+
+prune doc
+prune ci
+prune binder
+prune *.egg-info
+
+exclude *.yml
+exclude .gitignore
+exclude xesmf/_version.py
