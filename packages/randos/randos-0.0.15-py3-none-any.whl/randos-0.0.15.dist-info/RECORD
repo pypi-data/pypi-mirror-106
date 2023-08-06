@@ -1,0 +1,11 @@
+randos/__init__.py,sha256=GJpuzVrsu5_wdqRBkhCOFQQYCOrs4M3q1Bi7o8bdU5w,3398
+randos/data/CITIES.txt,sha256=xQoeifA9THzV4e3FUFngBcXyJE0YFeZJ0KsCPG5Dz9M,18214
+randos/data/COUNTRIES.txt,sha256=Vm1A8dXW1km2ondoBECeKZiEzlM7IUii2-mxB3q5G-0,3405
+randos/data/EMOJIS.txt,sha256=mhoAOfeYpt8cHrJ3IARxIaaY0X6yRplNP6V4TwAp7Cc,12117
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_randos.py,sha256=ip1M4kQBpjw6UxOojY4NaV7fUZEC9PilEp3JOFpskYk,2116
+randos-0.0.15.dist-info/LICENSE,sha256=f8Q87lwEn7b92yPhjb4OXzu8JJgb9ZOQY8Iyt5QvOG0,1075
+randos-0.0.15.dist-info/METADATA,sha256=9GrML0do1ZBpo_-El51Ni-bZ-3jr-Vsap-2iywpaXsM,1277
+randos-0.0.15.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+randos-0.0.15.dist-info/top_level.txt,sha256=CZLvsjk--sdcf_S8uIyRHc_fLqj5UqTDwHieekEOEKw,13
+randos-0.0.15.dist-info/RECORD,,
