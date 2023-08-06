@@ -1,0 +1,10 @@
+inept/__init__.py,sha256=y8WCcStIKhlG3_LQv-dmcGx2yYltqGl8KAffw7n3qJA,265
+inept/config.py,sha256=GBiZbF5F5Rpia0bp4MOweVIk49wdoL9A6JEH9c66NXg,5073
+inept/magic.py,sha256=AyY-9lMACUSHRymMIbYWBae1JiFgUWf3JL7wAdH_RAM,4632
+inept/tree.py,sha256=FK3LajEYoCvhbZOlbMGetiXIIiPf-vPXFvaWO9ejyUk,2428
+inept/types.py,sha256=Fe8f6YGYaygJi6-YL9RdBOUugnw61I9w4uid_s33Rmw,206
+inept-0.1.0a4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+inept-0.1.0a4.dist-info/METADATA,sha256=vm5v4b7OVaInAixfCLuGDamf2EMxnROK4JFh0qOo5OY,794
+inept-0.1.0a4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+inept-0.1.0a4.dist-info/top_level.txt,sha256=LhyXBe_ZITRJShx2lz34SSexEaLpNCwmldecAlRkYVw,6
+inept-0.1.0a4.dist-info/RECORD,,
