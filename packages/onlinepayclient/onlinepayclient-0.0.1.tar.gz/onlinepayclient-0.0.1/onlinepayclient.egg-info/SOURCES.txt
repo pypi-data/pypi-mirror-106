@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+onlinepayclient.egg-info/PKG-INFO
+onlinepayclient.egg-info/SOURCES.txt
+onlinepayclient.egg-info/dependency_links.txt
+onlinepayclient.egg-info/requires.txt
+onlinepayclient.egg-info/top_level.txt
