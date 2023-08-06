@@ -1,0 +1,16 @@
+autophrasex/__init__.py,sha256=L7LRcPZG7-xNwOjv-lO6MQg7RRbwzrBDiZDCtT0WWDY,771
+autophrasex/autophrase.py,sha256=UCgfsCCbLyc4olGZQwVgQ9k0phvzcFqL39qg4f4_Tws,6926
+autophrasex/callbacks.py,sha256=tVsijqo_Mxjk_FhLg0zYv1k_St0mX0rzaRC2dIEA_Tg,7209
+autophrasex/extractors.py,sha256=2pVLSX_3ixjtF1lwRPK2KX4GNhqcH3OVTJoBqq4UVcQ,8436
+autophrasex/reader.py,sha256=8BSR6ZqTETkjNZAXuaIFYuuHDF25_0sW_FwsP78qvCU,2844
+autophrasex/selector.py,sha256=NYNSAaqlxGVem_oN7anGlYK_3Gsbj0R9qggrLuoeFeA,4163
+autophrasex/tokenizer.py,sha256=R0UodC5xHuch0e5bog__1PmFxV4Dqg8-AMSPLvwImMM,1575
+autophrasex/utils.py,sha256=ncojxn1TjEzGxJ5FrHw42SLtGrW5i3fcTMj6dxNKPUY,1357
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/autophrase_test.py,sha256=7kRiMUP5h56fsW8am17tQjIiYSHSnlZqoS9wohU8nRw,1314
+tests/tokenizer_test.py,sha256=UN0lAskM3vyuT2F2_hr3eHGb-5WsikZ4d6Apg2C8LTY,470
+autophrasex-0.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+autophrasex-0.3.1.dist-info/METADATA,sha256=0R-Mlx8PlgvaoL80Ss-P_PQvncDM7wVZS4T1CCui-8I,10837
+autophrasex-0.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autophrasex-0.3.1.dist-info/top_level.txt,sha256=X-hzadOB_Qr5reuG7Fn0MA37m_iLCJuztrrEvldRbK0,18
+autophrasex-0.3.1.dist-info/RECORD,,
