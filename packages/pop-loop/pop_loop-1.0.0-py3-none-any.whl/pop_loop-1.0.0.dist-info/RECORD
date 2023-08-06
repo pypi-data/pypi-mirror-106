@@ -1,0 +1,15 @@
+pop_loop/conf.py,sha256=8mtwp1ZwwrWCIzhsyTqUruk546g0N8-TNWbPlqDU2qI,198
+pop_loop/version.py,sha256=0WIAtHAsWgs_YhskoTGCGPASQw4w5SbwKaVYnFBvuio,42
+pop_loop/loop/init.py,sha256=-N2KGAbDX5hFibTq4DXcyM-AvETRMsANW5eTzjoSwrc,2550
+pop_loop/loop/proactor.py,sha256=lFz-WAlpj3n58QKxeKR2T6HsqBhn3g8suT0sdMPWqlk,727
+pop_loop/loop/qt.py,sha256=HIpIRklQ_qotXuR3uo8B-5KVyZ0EmqmhCSWc25YdaAs,526
+pop_loop/loop/selector_unix.py,sha256=c0SIRGSAR8dc-Oo_mCk0Lti5uQC3g_cvMXV__wV6obI,359
+pop_loop/loop/selector_win.py,sha256=oPPE07cRnEMRk_8NnJeYgnHpFyJXVD-F-_9elHrVGiU,483
+pop_loop/loop/trio_loop.py,sha256=OjPv06BDoU4Gna_rBLjhVGCp4QZJsf_Re1uXx-m0jaU,367
+pop_loop/loop/uv_loop.py,sha256=OWxLwHBpYCFcoED4MXueLthYKg9lnmzP1mvjR6gUML0,304
+pop_loop/loop/contracts/init.py,sha256=OIxP3tj99rl2rnXQDGGTPHNWWOg5_sxu1R7S6k2hOAk,597
+pop_loop-1.0.0.dist-info/LICENSE,sha256=O7IpADM12kOhyGCTRMTdwc1BK4QtI9avtj2pRW-_cW0,11343
+pop_loop-1.0.0.dist-info/METADATA,sha256=wBXVGnd57Ymi8k_2KBc6_DMwWa4de4jNbGj9DgVqOdc,4549
+pop_loop-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pop_loop-1.0.0.dist-info/top_level.txt,sha256=ivULdgm68iKpbYfnrKfzfl5GhSx0IsZAr_5pRN8BzB4,9
+pop_loop-1.0.0.dist-info/RECORD,,
