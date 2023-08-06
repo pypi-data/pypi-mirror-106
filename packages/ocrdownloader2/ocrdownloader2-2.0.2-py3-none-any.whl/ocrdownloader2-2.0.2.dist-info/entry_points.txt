@@ -1,0 +1,3 @@
+[console_scripts]
+ocrdownloader=ocrdownloader2.cli:cli
+

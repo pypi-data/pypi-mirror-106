@@ -1,0 +1,14 @@
+ocrdownloader2/__init__.py,sha256=UQgjgAW64nz414F21FKY0_S1V4kjNufbMtsCL-NZfpw,215
+ocrdownloader2/cli.py,sha256=hcjpNI1kokSF_Ey_XV9K4ciiOocN-Az5Gj88dasbqPw,1570
+ocrdownloader2/crawler.py,sha256=xhxVSXO6TdzEqsoyTQkx4KUCz2YosTeJoz6lFfSz2VQ,2582
+ocrdownloader2/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocrdownloader2/data/author.py,sha256=jXByq9V7tMD7DPpBavUdYMh7Hz6Q0mLLXnfLGdq14YY,88
+ocrdownloader2/data/track.py,sha256=k8Px4dgB4yh5wp3HBP7DZBM9m2V8Ia1UwBbPXVjcqLI,208
+ocrdownloader2/downloader.py,sha256=ClHXJ-t0-5yrRxJegSJyWSxu4-f9uvbATTeUnLmM4EY,349
+ocrdownloader2/downloaders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocrdownloader2/downloaders/aria2_downloader.py,sha256=5sPkRKLnJ1GRqdJCbHpLVqU5QMv_it4eBAMXRq-HPgA,653
+ocrdownloader2/downloaders/downloader.py,sha256=8bOt7nZt52oNwoTkgUpRj1LVJWjSKhitrxLI524W-_E,180
+ocrdownloader2-2.0.2.dist-info/entry_points.txt,sha256=DN4do8roiP-1QZBfOLOJht7nN66GwVNMqRoT4E5QQUg,56
+ocrdownloader2-2.0.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ocrdownloader2-2.0.2.dist-info/METADATA,sha256=ndIquaqRjE3w_QCYROgLzoKnDA1cgEFX8Aozq70HutM,543
+ocrdownloader2-2.0.2.dist-info/RECORD,,
