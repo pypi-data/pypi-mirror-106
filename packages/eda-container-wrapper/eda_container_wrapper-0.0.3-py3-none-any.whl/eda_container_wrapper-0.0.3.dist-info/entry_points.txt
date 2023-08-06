@@ -1,0 +1,3 @@
+[console_scripts]
+eda-container-wrapper = edacontainerwrapper.main:main
+
