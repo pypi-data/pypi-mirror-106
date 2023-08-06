@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/mproto/__init__.py
+src/mproto/defaults.py
+src/mproto/proto.py
+src/mproto.egg-info/PKG-INFO
+src/mproto.egg-info/SOURCES.txt
+src/mproto.egg-info/dependency_links.txt
+src/mproto.egg-info/top_level.txt
