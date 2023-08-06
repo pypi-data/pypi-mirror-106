@@ -1,0 +1,17 @@
+from orator import DatabaseManager, Schema, Model
+from dotenv import load_dotenv
+from pathlib import Path
+load_dotenv(str(Path('.') / '.env'))
+from os import getenv
+
+DATABASES = {
+    "{{driver}}": {
+        {% for config in database_configurations %}
+            {{config.name}} = {% 'getenv("config.env", "{{config.def}}")' if config.has_env else {{config.def}} %}
+        {% endfor %}
+    }
+}
+
+db = DatabaseManager(DATABASES)
+schema = Schema(db)
+Model.set_connection_resolver(db)
