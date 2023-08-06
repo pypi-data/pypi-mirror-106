@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pyBAScloudAPI.egg-info/PKG-INFO
+pyBAScloudAPI.egg-info/SOURCES.txt
+pyBAScloudAPI.egg-info/dependency_links.txt
+pyBAScloudAPI.egg-info/not-zip-safe
+pyBAScloudAPI.egg-info/top_level.txt
