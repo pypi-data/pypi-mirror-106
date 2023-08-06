@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+kraken_g_api/kraken_bigquery.py
+kraken_g_api/kraken_firestore.py
+kraken_g_api/kraken_storage.py
+kraken_g_api/kraken_task.py
+kraken_g_api.egg-info/PKG-INFO
+kraken_g_api.egg-info/SOURCES.txt
+kraken_g_api.egg-info/dependency_links.txt
+kraken_g_api.egg-info/requires.txt
+kraken_g_api.egg-info/top_level.txt
