@@ -1,0 +1,9 @@
+PrettyTable
+Sphinx
+docopt
+inquirer
+okdata-sdk>=0.8.0
+pygments
+questionary
+recommonmark
+requests
