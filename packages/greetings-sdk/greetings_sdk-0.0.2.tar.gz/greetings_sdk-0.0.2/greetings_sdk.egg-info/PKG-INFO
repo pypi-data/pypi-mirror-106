@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: greetings-sdk
+Version: 0.0.2
+Summary: Greetings SDK.
+Home-page: https://github.com/elmiomar/greetings
+Author: Omar Ilias
+Author-email: elmimouni.o.i@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/elmiomar/greetings/issues
+Project-URL: Documentation, https://github.com/elmiomar/greetings/wiki
+Description: ## Greetings SDK
+        
+        Greetings SDK to say Hello!
+        
+        ## Getting Started
+        
+        
+        ### Install
+        
+        ```
+        pip install greetings_sdk
+        ```
+        
+        
+        ### How To Use
+        
+        ```python
+        import greetings
+        greetigs.say_hello("Omar")
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
