@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nanoepiseg
+Version: 0.0.3.dev3
+Summary: Methylome segmentation algorithm using a changepoint detection HMM
+Home-page: https://github.com/snajder-r/nanoepiseg
+Author: Rene Snajder
+Author-email: r.snajder@dkfz-heidelberg.de
+License: MIT
+Description: # NanoEpiSeg 0.0.3.dev3
+        
+        NanoEpiSeg is a tool for *de novo* segmentation of  a methylome from read-level methylation calls (such as Nanopolish).
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
