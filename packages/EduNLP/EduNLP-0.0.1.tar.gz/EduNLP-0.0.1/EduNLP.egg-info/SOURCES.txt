@@ -1,0 +1,10 @@
+AUTHORS.md
+LICENSE
+README.md
+setup.cfg
+setup.py
+EduNLP.egg-info/PKG-INFO
+EduNLP.egg-info/SOURCES.txt
+EduNLP.egg-info/dependency_links.txt
+EduNLP.egg-info/requires.txt
+EduNLP.egg-info/top_level.txt
