@@ -1,0 +1,10 @@
+ROADMAP	hg19	15	Adult_Blood_Reference	S1
+ROADMAP	hg19	15	Adult_Blood_Reference	S2
+ROADMAP	hg19	15	Adult_Blood_Reference	S3
+ROADMAP	hg19	15	Brain	S1
+ROADMAP	hg19	15	Brain	S2
+ROADMAP	hg19	15	Brain	S3
+ROADMAP	hg19	15	Digestive	S1
+ROADMAP	hg19	15	Digestive	S2
+ROADMAP	hg19	15	Digestive	S3
+ROADMAP	hg19	15	ESC_derived	S1
