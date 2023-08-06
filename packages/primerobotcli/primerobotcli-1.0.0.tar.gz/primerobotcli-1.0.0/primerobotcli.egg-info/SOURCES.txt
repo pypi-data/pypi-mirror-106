@@ -1,0 +1,10 @@
+setup.py
+primerobotcli/__init__.py
+primerobotcli/interface.py
+primerobotcli/primerobot.py
+primerobotcli.egg-info/PKG-INFO
+primerobotcli.egg-info/SOURCES.txt
+primerobotcli.egg-info/dependency_links.txt
+primerobotcli.egg-info/entry_points.txt
+primerobotcli.egg-info/requires.txt
+primerobotcli.egg-info/top_level.txt

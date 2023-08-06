@@ -1,0 +1,5 @@
+Click
+docker
+boto3
+PyYAML
+typing_extensions
