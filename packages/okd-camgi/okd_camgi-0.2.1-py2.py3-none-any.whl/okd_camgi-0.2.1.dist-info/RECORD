@@ -1,0 +1,11 @@
+okd_camgi/__init__.py,sha256=weQoKT1oKhUGOkYoVzcUt4UCpdLBqqhucbrGuJ0cwo8,19
+okd_camgi/contexts.py,sha256=jC6m9l3ROnPdpV9UNR3wwi1nE-gToXUjeBJdE8mlvSI,5554
+okd_camgi/interfaces.py,sha256=xTBDhNuZRNGicup_1sk3UYEYE966QNeAKCkulTezHug,6157
+okd_camgi/main.py,sha256=VcTxItiH_jvANgGzQbtbynd-ceNS0wMuSRGW8bZfY4c,2630
+okd_camgi/templates/index.html,sha256=JJpzmIym43J-u6vsmH1KYoNfelGgMgwgRHp0Ym-Z9Ck,11853
+okd_camgi-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+okd_camgi-0.2.1.dist-info/METADATA,sha256=cz87Xyg17eoQXJhbWqeCEYLkY6zYY_j3RU9e_vVlsfA,1045
+okd_camgi-0.2.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+okd_camgi-0.2.1.dist-info/entry_points.txt,sha256=1Ruo0qcr-ZNyzKFpMwKILTkxqhZd0JXhYVzB_icIqGQ,51
+okd_camgi-0.2.1.dist-info/top_level.txt,sha256=bKh4zvbSqnQvWFVwC_n1Cqe5lwc_zeOMzidRW3VcLUA,10
+okd_camgi-0.2.1.dist-info/RECORD,,
