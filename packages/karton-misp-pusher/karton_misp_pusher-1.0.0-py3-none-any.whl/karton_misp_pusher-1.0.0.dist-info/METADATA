@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: karton-misp-pusher
+Version: 1.0.0
+Summary: MISP reporter for the Karton framework
+Home-page: https://github.com/CERT-Polska/karton-misp-pusher/
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: karton-core (<5.0.0,>=4.2.0)
+Requires-Dist: mwdb-iocextract (==1.1.0)
+Requires-Dist: mwdblib (==3.4.0)
+Requires-Dist: pymisp
+Requires-Dist: yara-python
+
+# karton-misp-pusher
+
+Listens for new samples in the [karton](https://karton-core.readthedocs.io/en/latest/)
+pipeline and uploads them to MISP.
+
+Configs are parsed using the [mwdb-iocextract](https://github.com/CERT-Polska/mwdb_iocextract)
+project. This means, that we operate on a higher level than raw JSON configs, and makes
+it possible to correlate different samples and campaigns (for example, by the used crypto
+material).
+
+**Author**: CERT.pl
+
+**Maintainers**: msm
+
+**Consumes:**
+```
+{
+    "type": "config",
+}
+```
+
+**Result:**
+
+![config in misp](./docs/misp.png)
+
+## Usage
+
+First of all, make sure you have setup the core system: https://github.com/CERT-Polska/karton.
+[More info here](https://github.com/CERT-Polska/karton/blob/master/docs/how-to-run.md).
+
+Then install karton-misp-pusher from PyPi:
+
+```shell
+$ pip install karton-misp-pusher
+
+$ karton-misp-pusher --misp-url https://misp.url --misp-key SECRET123
+```
+
+You can also add optional xrefs to mwdb with `--mwdb-url`, or skip MISP
+verification with `--misp-insecure`. For more options see `--help`.
+
+![Co-financed by the Connecting Europe Facility by of the European Union](https://www.cert.pl/wp-content/uploads/2019/02/en_horizontal_cef_logo-1.png)
+
+

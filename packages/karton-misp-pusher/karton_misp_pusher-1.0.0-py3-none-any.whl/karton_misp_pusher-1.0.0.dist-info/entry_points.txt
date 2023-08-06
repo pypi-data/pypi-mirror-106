@@ -1,0 +1,3 @@
+[console_scripts]
+karton-misp-pusher = karton.misp_pusher:MispPusher.main
+
