@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+sqlalchemy_initial_data.egg-info/PKG-INFO
+sqlalchemy_initial_data.egg-info/SOURCES.txt
+sqlalchemy_initial_data.egg-info/dependency_links.txt
+sqlalchemy_initial_data.egg-info/entry_points.txt
+sqlalchemy_initial_data.egg-info/not-zip-safe
+sqlalchemy_initial_data.egg-info/requires.txt
+sqlalchemy_initial_data.egg-info/top_level.txt
