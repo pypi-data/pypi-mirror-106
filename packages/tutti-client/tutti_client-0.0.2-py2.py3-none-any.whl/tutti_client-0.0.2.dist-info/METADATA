@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tutti-client
+Version: 0.0.2
+Summary: Python client library for Tutti.ai
+Home-page: https://github.com/iflb/tutti-client-python
+Author: Intelligent Framework Lab
+Author-email: saito@iflab.tokyo
+License: UNKNOWN
+Project-URL: Project Owner, http://www.pcl.cs.waseda.ac.jp/
+Project-URL: Funding, https://www.waseda.jp/inst/gcs/news/2019/11/29/870/
+Keywords: crowdsourcing annotation framework asyncio
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ducts-client
+
+UNKNOWN
+
+
