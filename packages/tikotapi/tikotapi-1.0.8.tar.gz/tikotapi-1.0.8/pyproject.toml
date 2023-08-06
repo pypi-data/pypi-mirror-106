@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "tikotapi"
+version = "1.0.8"
+description = "Only using services (TikOt Musicaly)"
+authors = ["tikotstudio <tikotstudio@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
