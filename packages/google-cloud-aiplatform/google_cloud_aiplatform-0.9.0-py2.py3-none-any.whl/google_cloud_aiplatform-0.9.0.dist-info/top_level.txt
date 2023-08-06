@@ -1,0 +1,7 @@
+docs
+examples
+google
+samples
+scripts
+testing
+tests
