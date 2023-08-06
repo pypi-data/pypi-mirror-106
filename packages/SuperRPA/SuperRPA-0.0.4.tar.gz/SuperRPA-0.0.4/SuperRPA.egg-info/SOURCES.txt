@@ -1,0 +1,10 @@
+README.md
+setup.py
+SuperRPA/__init__.py
+SuperRPA.egg-info/PKG-INFO
+SuperRPA.egg-info/SOURCES.txt
+SuperRPA.egg-info/dependency_links.txt
+SuperRPA.egg-info/requires.txt
+SuperRPA.egg-info/top_level.txt
+SuperRPA/Super_PyPackage/__init__.py
+SuperRPA/Super_PyPackage/py_selenium.py
