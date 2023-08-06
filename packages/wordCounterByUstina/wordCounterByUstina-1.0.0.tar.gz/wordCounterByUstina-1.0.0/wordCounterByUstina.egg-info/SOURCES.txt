@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+tests/__init__.py
+tests/test_my_script.py
+wordCounter/__init__.py
+wordCounter/count.py
+wordCounterByUstina.egg-info/PKG-INFO
+wordCounterByUstina.egg-info/SOURCES.txt
+wordCounterByUstina.egg-info/dependency_links.txt
+wordCounterByUstina.egg-info/top_level.txt

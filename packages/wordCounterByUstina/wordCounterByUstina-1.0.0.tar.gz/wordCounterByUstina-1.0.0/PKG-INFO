@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wordCounterByUstina
+Version: 1.0.0
+Summary: Search for the number of words in a directory
+Home-page: https://github.com/kuzminskayaaa/wordCcounter
+Author: Kuzminskaya U.A.
+Author-email: ustina.kuzminskaya@mail.ru
+License: UNKNOWN
+Description: # Manual
+        
+        ## How to use?
+        ```python
+        from wordCounter.count import count_words
+        
+        print(count_words('path_to_folder', 'word')) # Function return int (number of words)
+        ```
+        
+        ### Recommendation
+        Use function join from os.path to work correctly with paths on different operating systems.
+Platform: any
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
