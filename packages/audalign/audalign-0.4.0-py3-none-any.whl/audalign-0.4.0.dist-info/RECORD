@@ -1,0 +1,13 @@
+audalign/__init__.py,sha256=RxoRiJt4jYic0HDBMHdLOGvv9tgLuuZyY_F1kAkfLAo,55074
+audalign/align.py,sha256=REIMXgH0IQMpqiePFdXALultKMHdcuSFCgynYRnNqv4,4834
+audalign/correcognize.py,sha256=jZ0rudVyq_EWzDCKpEIeXbtaOv-QjtqHujrdA5UJOWM,10906
+audalign/datalign.py,sha256=phlRGavz52yRlLegn4kR7mG4EDJdxkJHFugPTpa-Hno,413
+audalign/filehandler.py,sha256=u3VOHZOYUKlzVFDco_kSxcDCmfPI4TJY0RDgIOKvdcY,12568
+audalign/fingerprint.py,sha256=u-bG2TZe_300GO0XkSPL4_ojdE56fW6ERZvHhliQer4,14426
+audalign/recognize.py,sha256=KAUh6i50ZNLN2zE5mSsKARSmAdwJNVTlqxpd3Ma8B14,15961
+audalign/visrecognize.py,sha256=kOLelffWKd29P_3M7d5Wcpl7jrKTC5sp-GRc_7lPu_0,16126
+audalign-0.4.0.dist-info/LICENSE.md,sha256=R0y1UYAPJQEQyMG1JlMY_6gTbNigAcVu-ixzkMyMMQI,2234
+audalign-0.4.0.dist-info/METADATA,sha256=Pn2koKDpSpweW7h3aSMgvQCdDCFBTWSEzFg2d3Z3qjk,9248
+audalign-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+audalign-0.4.0.dist-info/top_level.txt,sha256=a4uLeNozM5PlDsUMIt9fKs5wjxzY40N3udqDa3Id7iU,9
+audalign-0.4.0.dist-info/RECORD,,
