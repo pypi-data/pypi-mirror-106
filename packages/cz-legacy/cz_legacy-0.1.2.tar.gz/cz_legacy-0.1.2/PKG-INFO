@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cz-legacy
+Version: 0.1.2
+Summary: Extends Conventional Commits Change Types with User-Defined Legacy Types for Commitizen
+Home-page: https://github.com/kyleking/cz_legacy
+License: MIT
+Keywords: commitizen,conventional commits,git
+Author: Kyle King
+Author-email: dev.act.kyle@gmail.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: commitizen (>=2,<3)
+Project-URL: Bug Tracker, https://github.com/kyleking/cz_legacy/issues
+Project-URL: Documentation, https://github.com/kyleking/cz_legacy
+Project-URL: Repository, https://github.com/kyleking/cz_legacy
+Description-Content-Type: text/markdown
+
+# cz_legacy
+
+Extends Conventional Commits Change Types with User-Defined Legacy Types for Commitizen
+
+Full documentation, here: [./docs](./docs)
+
