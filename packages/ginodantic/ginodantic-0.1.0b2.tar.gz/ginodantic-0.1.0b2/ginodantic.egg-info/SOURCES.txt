@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+setup.py
+ginodantic/__init__.py
+ginodantic/gino_model_meta.py
+ginodantic/schemas.py
+ginodantic/utils.py
+ginodantic.egg-info/PKG-INFO
+ginodantic.egg-info/SOURCES.txt
+ginodantic.egg-info/dependency_links.txt
+ginodantic.egg-info/requires.txt
+ginodantic.egg-info/top_level.txt
