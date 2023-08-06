@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+naverscrap/__init__.py
+naverscrap/naverscrap.py
+naverscrap.egg-info/PKG-INFO
+naverscrap.egg-info/SOURCES.txt
+naverscrap.egg-info/dependency_links.txt
+naverscrap.egg-info/requires.txt
+naverscrap.egg-info/top_level.txt
