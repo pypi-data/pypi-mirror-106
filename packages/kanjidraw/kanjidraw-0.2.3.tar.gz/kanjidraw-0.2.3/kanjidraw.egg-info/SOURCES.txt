@@ -1,0 +1,14 @@
+LICENSE.AGPLv3
+MANIFEST.in
+Makefile
+README.md
+setup.py
+kanjidraw/__init__.py
+kanjidraw/data.json
+kanjidraw/gui.py
+kanjidraw/lib.py
+kanjidraw.egg-info/PKG-INFO
+kanjidraw.egg-info/SOURCES.txt
+kanjidraw.egg-info/dependency_links.txt
+kanjidraw.egg-info/entry_points.txt
+kanjidraw.egg-info/top_level.txt
