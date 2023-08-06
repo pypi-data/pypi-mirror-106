@@ -1,0 +1,31 @@
+site_name: Tomography Analysis Tool
+repo_url: https://gitlab.unige.ch/Hugo.Haldi/tat
+edit_uri: edit/master/docs
+site_description: The Tomography Analysis Tool (TAT) documentation.
+site_author: Hugo Haldi
+copyright: Copyright &copy; 2021 <a href="https://shinoyasx.github.io">Hugo Haldi</a>
+
+docs_dir: docs
+
+theme: readthedocs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - mkdocs-simple-hooks:
+      hooks:
+        on_pre_build: "docs.hooks:on_pre_build"
+
+nav:
+  - Home: "index.md"
+  - "User Guide":
+      - "Installation": "user-guide/installation.md"
+      - "Interface manual": "user-guide/manual.md"
+  - About:
+      - "License": "license.md"
+      - "Release Notes": "changelog.md"
+      - "Authors": "authors.md"

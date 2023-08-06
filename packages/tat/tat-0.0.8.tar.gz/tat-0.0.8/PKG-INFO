@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tat
+Version: 0.0.8
+Summary: A GUI tool for tomography analysis and clustering
+Home-page: https://gitlab.unige.ch/Hugo.Haldi/tat/
+Author: Hugo Haldi
+Author-email: hugo.haldi@etu.unige.ch
+License: Apache-2
+Project-URL: Bug Tracker, https://gitlab.unige.ch/Hugo.Haldi/tat/-/issues
+Project-URL: Documentation, https://tat.readthedocs.io/
+Project-URL: Source Code, https://gitlab.unige.ch/Hugo.Haldi/tat
+Description: A GUI tool for tomography analysis and clustering
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
