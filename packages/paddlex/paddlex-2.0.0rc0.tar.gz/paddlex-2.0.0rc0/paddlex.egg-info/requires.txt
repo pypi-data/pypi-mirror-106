@@ -1,0 +1,11 @@
+pyyaml
+colorama
+tqdm
+paddleslim==2.0.0
+visualdl>=2.1.1
+shapely>=1.7.0
+opencv-python
+scipy
+
+[:platform_system != "Windows"]
+pycocotools
