@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: hankify-pw
+Version: 1.0.0
+Summary: Generate Hank Preston-y passwords
+Home-page: https://github.com/xorrkaz/hankify-pw
+Author: Joe Clarke
+Author-email: jclarke@cisco.com
+License: MIT
+Description: UNKNOWN
+Keywords: Elemental
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
