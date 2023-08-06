@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+randos/__init__.py
+randos.egg-info/PKG-INFO
+randos.egg-info/SOURCES.txt
+randos.egg-info/dependency_links.txt
+randos.egg-info/top_level.txt
+randos/data/CITIES.txt
+randos/data/COUNTRIES.txt
+randos/data/EMOJIS.txt
+randos/data/TOURIST_CITIES.txt
+randos/data/TOURIST_DESTS.txt
+tests/__init__.py
+tests/test_randos.py
