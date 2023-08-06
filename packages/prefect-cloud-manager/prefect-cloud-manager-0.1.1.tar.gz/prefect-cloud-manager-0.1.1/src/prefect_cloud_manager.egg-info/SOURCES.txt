@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/prefect_cloud_manager/__init__.py
+src/prefect_cloud_manager/prefect_account.py
+src/prefect_cloud_manager.egg-info/PKG-INFO
+src/prefect_cloud_manager.egg-info/SOURCES.txt
+src/prefect_cloud_manager.egg-info/dependency_links.txt
+src/prefect_cloud_manager.egg-info/entry_points.txt
+src/prefect_cloud_manager.egg-info/requires.txt
+src/prefect_cloud_manager.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        prefect-manager=prefect_cloud_manager.prefect_account:main
+    
