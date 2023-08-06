@@ -1,0 +1,96 @@
+#!/usr/bin/env python3
+import shutil
+import subprocess
+import sys
+import tempfile
+
+__version__ = '0.1.1'
+
+APPNAME = 'pyronic'
+
+g_verbose = False
+
+def printv(*args, **kwargs):
+    if not g_verbose:
+        return
+    if args:
+        args = (APPNAME+":",) + args
+    print(*args, **kwargs)
+
+
+def copyout(f):
+    f.seek(0)
+    shutil.copyfileobj(f, sys.stdout.buffer)
+
+
+class nullcontext:
+    # TODO: Use contextlib.nullcontext when we support Python >= 3.7
+    def __init__(self, enter_result=None):
+        self.enter_result = enter_result
+
+    def __enter__(self):
+        return self.enter_result
+
+    def __exit__(self, *excinfo):
+        pass
+
+
+def parse_args():
+    global g_verbose
+
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument('-V', '--version', action='version',
+            version=APPNAME + ' ' +__version__)
+    ap.add_argument('-v', '--verbose', action='store_true',
+            help="Include additional output on failure")
+    ap.add_argument('-s', '--separate', action='store_true',
+            help="Separate stdout/stderr rather than combining")
+    ap.add_argument('command', nargs=argparse.REMAINDER)
+
+    args = ap.parse_args()
+    if not args.command:
+        ap.error("No command given")
+
+    g_verbose = args.verbose
+
+    return args
+
+
+def main():
+    args = parse_args()
+
+    outf = tempfile.SpooledTemporaryFile(prefix=APPNAME, suffix='.out')
+    if args.separate:
+        errf = tempfile.SpooledTemporaryFile(prefix=APPNAME, suffix='.err')
+    else:
+        errf = nullcontext(subprocess.STDOUT)
+
+    with outf as outf, errf as errf:
+        rc = subprocess.call(
+                args = args.command,
+                stdout = outf,
+                stderr = errf,
+                )
+        if rc == 0:
+            return
+
+        printv("Command \"{}\" failed with status {}".format(
+            " ".join(args.command), rc))
+
+        if args.separate:
+            printv("stdout:")
+            copyout(outf)
+
+            printv()
+            printv("stderr:")
+            copyout(errf)
+        else:
+            printv("Combined output:")
+            copyout(outf)
+
+
+        sys.exit(rc)
+
+if __name__ == '__main__':
+    main()

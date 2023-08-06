@@ -1,0 +1,7 @@
+README.md
+pyronic
+setup.py
+pyronic.egg-info/PKG-INFO
+pyronic.egg-info/SOURCES.txt
+pyronic.egg-info/dependency_links.txt
+pyronic.egg-info/top_level.txt
