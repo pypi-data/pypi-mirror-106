@@ -1,0 +1,5 @@
+pysam
+scipy
+numpy
+joblib
+pandas

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+demuxalot/__init__.py
+demuxalot/cellranger_specific.py
+demuxalot/demux.py
+demuxalot/snp_counter.py
+demuxalot/snp_detection.py
+demuxalot/utils.py
+demuxalot.egg-info/PKG-INFO
+demuxalot.egg-info/SOURCES.txt
+demuxalot.egg-info/dependency_links.txt
+demuxalot.egg-info/requires.txt
+demuxalot.egg-info/top_level.txt
