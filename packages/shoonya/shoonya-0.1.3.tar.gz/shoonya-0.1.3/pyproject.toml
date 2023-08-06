@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "shoonya"
+version = "0.1.3"
+description = "Unofficial Trading APIs for Finvasia Shoonya Platform, help for algo traders"
+authors = ["Algo 2 Trade <help@algo2.trade>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
