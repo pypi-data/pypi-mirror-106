@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: primenumbers-eipos
+Version: 1.0
+Summary: Example for check, if a number is a prime number
+Home-page: UNKNOWN
+Author: Isaac Díaz
+Author-email: isaacpda@yahoo.es
+License: GNU GPLv3
+Keywords: pyoperaciones mathematical operations
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+NUMBER UTILS
+==============
+
+Este es un ejemplo simple de un paquete Python. Este paquete contiene una funcion que calcular los números primos de un número dado.
+
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+
