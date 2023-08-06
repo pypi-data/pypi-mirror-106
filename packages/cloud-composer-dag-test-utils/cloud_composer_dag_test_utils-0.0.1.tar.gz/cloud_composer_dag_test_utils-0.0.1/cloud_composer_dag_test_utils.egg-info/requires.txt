@@ -1,0 +1,1 @@
+apache-airflow[google]==1.10.15

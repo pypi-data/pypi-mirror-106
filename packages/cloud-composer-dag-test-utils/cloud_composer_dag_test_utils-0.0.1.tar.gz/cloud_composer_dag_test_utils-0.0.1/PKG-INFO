@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cloud_composer_dag_test_utils
+Version: 0.0.1
+Summary: Utility used to unit test example Apache Airflow DAGs for Google Cloud Composer. This is not an officially supported Google product.
+Home-page: https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/composer/dag_test_utils
+Author: Google LLC
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
