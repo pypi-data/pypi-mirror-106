@@ -1,0 +1,6 @@
+packaging
+requirements-parser
+requests
+requests-toolbelt
+typer
+click<8
