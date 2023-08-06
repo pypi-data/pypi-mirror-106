@@ -1,0 +1,2 @@
+recursive-include megawidget *
+global-exclude *.py[cod]
