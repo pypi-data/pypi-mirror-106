@@ -1,0 +1,4 @@
+[sqlalchemy.dialects]
+HCMgauss = sqlalchemy_gs.psycopg2:PGDialect_psycopg2
+HCMgauss.psycopg2 = sqlalchemy_gs.psycopg2:PGDialect_psycopg2
+

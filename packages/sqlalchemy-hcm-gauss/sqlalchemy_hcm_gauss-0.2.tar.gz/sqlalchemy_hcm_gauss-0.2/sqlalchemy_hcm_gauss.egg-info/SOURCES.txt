@@ -1,0 +1,8 @@
+README.md
+setup.py
+sqlalchemy_hcm_gauss.egg-info/PKG-INFO
+sqlalchemy_hcm_gauss.egg-info/SOURCES.txt
+sqlalchemy_hcm_gauss.egg-info/dependency_links.txt
+sqlalchemy_hcm_gauss.egg-info/entry_points.txt
+sqlalchemy_hcm_gauss.egg-info/requires.txt
+sqlalchemy_hcm_gauss.egg-info/top_level.txt
