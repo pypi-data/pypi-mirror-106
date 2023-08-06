@@ -1,0 +1,9 @@
+README.md
+setup.py
+dataingestion/__init__.py
+dataingestion/snowflake.py
+dataingestion.egg-info/PKG-INFO
+dataingestion.egg-info/SOURCES.txt
+dataingestion.egg-info/dependency_links.txt
+dataingestion.egg-info/requires.txt
+dataingestion.egg-info/top_level.txt

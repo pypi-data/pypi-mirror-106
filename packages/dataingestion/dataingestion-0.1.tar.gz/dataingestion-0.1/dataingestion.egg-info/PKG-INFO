@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dataingestion
+Version: 0.1
+Summary: An python package to read and write from the snowflake database.
+Home-page: https://pypi.org/project/dataingestion/
+Author: Dadakhalandar Mudugoti
+Author-email: dadakhalandar.mudugoti@gmail.com
+License: MIT
+Description: An python package to read and write from the snowflake database
+Platform: UNKNOWN
