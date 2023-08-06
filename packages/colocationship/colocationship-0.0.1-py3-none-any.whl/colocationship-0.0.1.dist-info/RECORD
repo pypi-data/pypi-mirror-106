@@ -1,0 +1,17 @@
+colocationship/__init__.py,sha256=9HpZu5sNsqVqCySHVH0Mp47Bsv9tEO1wYjs0GX4FoJw,237
+colocationship/meetup_comparison.py,sha256=5Vzv0xqOBqq38pmRivGw3n-_Fdml8zSiLXRRAb-_D-w,10802
+colocationship/meetup_strategy.py,sha256=tEJtcT9WKuiMSmlyQ30odmhTndIGyF0S1evQGEIjuJw,23609
+colocationship/util/__init__.py,sha256=Dd1j0KL4Ay6udIhBkjROAMdPPInN-vFtC93t9wrz-gk,418
+colocationship/util/cross_entropy.py,sha256=1BdXxNEjfNkjpQx4_LgUCu1MlSNFlh9_EkMMv-eYCqs,1611
+colocationship/util/cumulative_cross_entropy.py,sha256=7E_h0OHB_Pq3WPef2MYxFXR2y8j8OfNwf98jIrZElqQ,3805
+colocationship/util/entropy.py,sha256=pfa09AZ_FauEsID901u5YHu2us3BApKHMvM2wkZlnYY,1566
+colocationship/util/metric.py,sha256=2vSeT981VXUDjDxiGDrWH2so95mBnVCTiS-tefsCEuw,275
+colocationship/util/predictability.py,sha256=iNYDtHlGrKyUNG3qMEhV2pqrzmX_NdqNFQBN7YFxR7k,451
+colocationship/util/preprocessing.py,sha256=XKYV5vr7c_BH6GQxLUrxn7rhvPxqPO-iTH-fqAORc4w,2754
+colocationship/util/stats_test.py,sha256=DB8QPC_LPvgO2Q-iPh0nl3pA3gHkw-JfsEnifVd9TIk,5200
+colocationship/util/utils.py,sha256=nH9HXAYtaszaFxvqcQO2jcmXbGGFwKJW8Djx7h70DNo,912
+colocationship-0.0.1.dist-info/LICENSE,sha256=_TCEGOk_VEwYyCRn0Z4cAa3YV-p_YF_qGOIOb4cNhe8,1088
+colocationship-0.0.1.dist-info/METADATA,sha256=QYEcdOYDy_9FBCJebFmP4EEbzDqtJ1fbr0RDfRSh4wQ,5337
+colocationship-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+colocationship-0.0.1.dist-info/top_level.txt,sha256=AZ7pXQjO8rYSz6adfWyP1xs_BSHhKKD7f-_Axojtn0o,15
+colocationship-0.0.1.dist-info/RECORD,,
