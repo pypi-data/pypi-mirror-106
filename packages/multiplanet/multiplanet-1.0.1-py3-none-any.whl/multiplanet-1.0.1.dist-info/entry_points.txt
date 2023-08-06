@@ -1,0 +1,4 @@
+[console_scripts]
+mpstatus = multiplanet.mpstatus:main
+multi-planet = multiplanet.multiplanet:Arguments
+
