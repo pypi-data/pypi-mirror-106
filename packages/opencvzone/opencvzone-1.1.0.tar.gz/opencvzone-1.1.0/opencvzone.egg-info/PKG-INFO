@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: opencvzone
+Version: 1.1.0
+Summary: Computer Vision Helping Library
+Home-page: https://github.com/lepsygoyal/opencvzone.git
+Author: Lepsy Goyal
+Author-email: goyalpti99@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: ComputerVision,HandTracking,FaceTracking,PoseEstimation,Volume Controller
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
