@@ -1,0 +1,5 @@
+idem
+pop>=17.0
+pytest
+semantic-version
+twine
