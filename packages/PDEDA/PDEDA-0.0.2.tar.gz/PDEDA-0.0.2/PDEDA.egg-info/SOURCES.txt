@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+README.txt
+setup.py
+PDEDA/__init__.py
+PDEDA.egg-info/PKG-INFO
+PDEDA.egg-info/SOURCES.txt
+PDEDA.egg-info/dependency_links.txt
+PDEDA.egg-info/requires.txt
+PDEDA.egg-info/top_level.txt
