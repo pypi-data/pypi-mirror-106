@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+NNSAtool.egg-info/PKG-INFO
+NNSAtool.egg-info/SOURCES.txt
+NNSAtool.egg-info/dependency_links.txt
+NNSAtool.egg-info/requires.txt
+NNSAtool.egg-info/top_level.txt
+nnsatool/__init__.py

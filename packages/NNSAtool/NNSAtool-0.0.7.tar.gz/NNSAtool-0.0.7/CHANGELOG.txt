@@ -1,0 +1,66 @@
+Change Log
+==========
+
+0.0.1 (09.05.2021)
+------------------
+- BertDataset & BertDataLoaderFactory
+
+0.0.2 (09.05.2021)
+------------------
+- Minor bags fixed
+
+0.0.3 (14.05.2021)
+------------------
+- PreProcConst
+- ModuleConst
+- EmbModeConst
+- PreAggModeConst, PostAggModeConst, AggModeConst
+- PreTransModeConst, PostTransModeConst
+
+- TokenizedDataset & TokenizedDataLoaderFactory
+    DEPRICATED : BertDataset & BertDataLoaderFactory
+
+- EmbeddingModule
+
+- ModuleChain & ModuleChainFactory
+- TransitionModule
+
+- AggregationModule & AggregationModuleFactory
+
+- SemanticAggregator
+
+0.0.4 (14.05.2021)
+------------------
+- Minor bags fixed
+
+0.0.5 (14.05.2021)
+------------------
+- Fine managment of gradient calculation
+- Minor bags fixed
+
+0.0.6 (14.05.2021)
+------------------
+- Minor bags fixed
+
+0.0.7 (20.05.2021)
+------------------
+- ModuleConst:
+    DEPRICATED  : AGGRG, DISTR, VECSPLIT,
+    CREATED     : MIDDL
+
+- MdlModeConst:
+    DEPRICATED  : AggModeConst
+
+- ChainModule & ChainModuleFactory:
+    DEPRICATED  : ModuleChain, ModuleChainFactory,
+    UPDATED     : TransitionModule
+
+- MiddleModule:
+    DEPRICATED  : AggregationModule,
+    UPDATED     : AggregationModuleFactory
+
+- SemanticAnalyzer:
+    DEPRICATED  : SemanticAggregator
+
+- Type annotations updated
+- Minor bags fixed
