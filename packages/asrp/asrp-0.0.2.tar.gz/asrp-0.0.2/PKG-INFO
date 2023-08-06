@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: asrp
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/voidful/asrp
+Author: Voidful
+Author-email: voidful.stack@gmail.com
+License: Apache
+Description: # asrp
+        
+        ASR text preprocessing utility
+        
+        ## install
+        
+        `pip install asrp`
+        
+        ## usage
+        
+        input: dictionary, with key `sentence`    
+        output: preprocessed result, inplace handling.   
+        
+        ```python
+        import asrp
+        
+        batch_data = {
+            'sentence': "I'm fine, thanks."
+        }
+        asrp.fun_en(batch_data)
+        ```
+        
+        dynamic loading   
+        
+        ```python
+        import asrp
+        
+        batch_data = {
+            'sentence': "I'm fine, thanks."
+        }
+        preprocessor = getattr(asrp, 'fun_en')
+        preprocessor(batch_data)
+        ```
+Keywords: asr
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
