@@ -1,0 +1,5 @@
+poetry_scripts/__init__.py,sha256=UhbV20MGryau9FssGa9_FxKT-em4VqGbcWLypGgnLgk,1354
+poetry_scripts-0.0.1.dist-info/entry_points.txt,sha256=2qK3VZYre1sZFzlWWUo_Cv5w6fOn_11ZyDoEjlSCz8A,67
+poetry_scripts-0.0.1.dist-info/WHEEL,sha256=MyIjaRglnKvxtgGXLbj0ZYwRIpKJzMIEcf1_g2pW9II,85
+poetry_scripts-0.0.1.dist-info/METADATA,sha256=dQzv7ZFM8MWvyaLlZ_RHgo3bmQmKmWzUb4RCjaqA9M0,431
+poetry_scripts-0.0.1.dist-info/RECORD,,
