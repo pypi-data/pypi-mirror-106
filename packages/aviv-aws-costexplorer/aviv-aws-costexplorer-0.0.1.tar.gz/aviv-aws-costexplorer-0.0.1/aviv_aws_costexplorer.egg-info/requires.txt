@@ -1,0 +1,7 @@
+boto3>=1.16.51
+pandas>=1.1.4
+python-dateutil>=2.8
+numpy>=1.19.4
+
+[datastore]
+awswrangler>=0.3
