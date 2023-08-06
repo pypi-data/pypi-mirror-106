@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: KingPaint
+Version: 1.0
+Summary: GeoGebra writen in Python
+Home-page: https://github.com/KingAirC/PyGeoGebra
+Author: KingAirC
+Author-email: 1904192877@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/KingAirC/PyGeoGebra/issues
+Description: # KingPaint
+        
+        I like GeoGebra(https://www.geogebra.org/calculator).
+        
+        I like Python too.
+        
+        So, I want a GeoGebra writen in Python. I named it PyGeoGebra.
+        
+        https://github.com/KingAirC/PyGeoGebra
+        https://github.com/KingAirC/PyGeoGebraExamples
+        https://pypi.org/project/PyGeoGebra/
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
