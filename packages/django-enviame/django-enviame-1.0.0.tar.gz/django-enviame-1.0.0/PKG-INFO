@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: django-enviame
+Version: 1.0.0
+Summary: Django Enviame Integration
+Home-page: https://gitlab.com/linets/ecommerce/oms/integrations/oms-enviame/
+Author: Linets Development Team
+Author-email: dteam@linets.cl
+License: MIT
+Description: # django-enviame
+        
+        ## Starting
+        _These instructions will allow you to install the library in your python project._
+        
+        ### Current features
+        
+        -   Create shipment.
+        -   Get tracking info.
+        
+        ### Pre-requisitos
+        
+        -   Python >= 3.7
+        -   Django >= 3
+        -   requests >= 2
+        ***
+        ## Installation
+        
+        1. To get the latest stable release from PyPi:
+        ```
+        pip install django-enviame
+        ```
+        or
+        
+        2. From a build
+        ```
+        git clone https://gitlab.com/linets/ecommerce/oms/integrations/oms-magento
+        ```
+        
+        ```
+        cd {{project}}
+        ```
+        
+        ```
+        python setup.py sdist
+        ```
+        and, install in your project django
+        ```
+        pip install {{path}}/django-enviame/dist/{{tar.gz file}}
+        ```
+        
+        3. Settings in django project
+        
+        ```
+        DEFAULTS = {
+            'ENVIAME': {
+                'BASE_URL': 'https://stage.api.enviame.io/api/s2/v2/',
+                'COMPANY_ID': '620',
+                'API_KEY': '7d066821f33647851bffb8802bf81113',
+                'COD_BOD': 'cod_bod',
+            },
+        }
+        ```
+        
+        ## Usage
+        
+        1. Create shipment:
+        ```
+        from enviame.handler import EnviameHandler
+        
+        handler = EnviameHandler()
+        
+        default_data = handler.get_default_payload(data)
+        default_data["carrier"]["carrier_code"] = "BLX" # eg. (Optional)
+        response = handler.send_data(default_data)
+        ```
+        
+        
+        2. Get tracking info:
+        ```
+        from enviame.handler import EnviameHandler
+        
+        handler = EnviameHandler()
+        
+        tracking_info = handler.get_tracking(<identifier>)
+        ```
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
