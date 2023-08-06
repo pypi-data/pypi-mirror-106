@@ -1,0 +1,11 @@
+mangadexSdk/__init__.py,sha256=EJiGzP4vQuBz7BgazK8M_wP9Q-Yg2wlJvRBWlw5lhiw,184
+mangadexSdk/constants.py,sha256=vh-Wgumt3M_g2FaWWPPcneBGtnv2NvNxhKnjlDHyjjg,118
+mangadexSdk/mangaDex.py,sha256=0C8JxwI2zME5Ed8HTSsDx8_nfCQPGFBKN49bsHjyVgc,5497
+mangadexSdk/requestTypes.py,sha256=CpSiOG4pgWP-6efv0tW_ItXOt4nnurcTDM76DKiXlmI,12125
+mangadexSdk/responseTypes.py,sha256=pnC0Dv09jJCH-DmTYAynnCq5sD_WpwSvQXX-QrVEI0k,6669
+mangadexSdk/serializable.py,sha256=Tfa8OKey2XfHUfv11Z4lSJk3OxsAyq_MX9zRlZGlssc,1345
+mangadexSdk-0.0.1.dist-info/LICENSE,sha256=Jj8jJCxhxjNL0Fqgwpn3aSudSmZIXouHXYpYF1Jcfuo,1070
+mangadexSdk-0.0.1.dist-info/METADATA,sha256=2gv0qEox5QlHaNCjbIJ1L4CrW6pExWRr2FSTF8-Fo5g,4197
+mangadexSdk-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mangadexSdk-0.0.1.dist-info/top_level.txt,sha256=Dr-ie0HE_mgTn6lF2ahTjEctkfACe_JH_WMY6DHC9qo,12
+mangadexSdk-0.0.1.dist-info/RECORD,,
