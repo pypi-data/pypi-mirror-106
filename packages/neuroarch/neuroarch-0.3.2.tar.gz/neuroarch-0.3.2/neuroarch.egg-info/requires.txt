@@ -1,0 +1,9 @@
+daff
+networkx>=2.4
+numpy
+pandas
+path.py
+pyorient
+pyorient_native
+deepdiff
+tqdm
