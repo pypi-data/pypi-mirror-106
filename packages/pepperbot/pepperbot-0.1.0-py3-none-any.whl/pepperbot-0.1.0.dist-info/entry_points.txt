@@ -1,0 +1,3 @@
+[console_scripts]
+demo=python./demo/demo.py
+
