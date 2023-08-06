@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ucsc-genomic-data
+Version: 1.0.0
+Summary: UCSC-Genomic-REST-Api-Wrapper
+Home-page: UNKNOWN
+Author: Eyadhamza
+Author-email: eyadhamza0@outlook.com
+License: UNKNOWN
+Requires-Dist: requests
+
+
+# UCSC-Genomic-REST-Api-Wrapper
+
