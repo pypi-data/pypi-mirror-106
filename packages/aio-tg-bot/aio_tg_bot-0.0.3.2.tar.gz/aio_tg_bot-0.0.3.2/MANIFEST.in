@@ -1,0 +1,3 @@
+include requirements.txt
+include tg_bot\etc\database\migrations\template.txt
+recursive-include tg_bot\etc\migrations\ *.py
