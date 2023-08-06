@@ -1,0 +1,12 @@
+jayson/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jayson/__main__.py,sha256=ZPA7M4P9qwC3wJfQtX9e07JQsNLcxcai7d0QrgWFPjg,55
+jayson/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+secret/SCRATCH.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secret/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jayson-0.0.1.dist-info/LICENSE,sha256=qa7R_AbaR83ZfoUV_42NLm1y03WIzvfz5kcIrGwX-UY,1075
+jayson-0.0.1.dist-info/METADATA,sha256=Ng1FBQxnMOJ5NB5o2r9MFSsIl0IBkwKWIx5cZ2oE7hY,654
+jayson-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jayson-0.0.1.dist-info/entry_points.txt,sha256=E3SerjoykY2qmvHaptXoI_sNwEhU2_ezKvNLl7S0DXo,49
+jayson-0.0.1.dist-info/top_level.txt,sha256=sH2VNkQUAjuabs9eCX9cM817H0kklhQeMb9ZRZhJvzQ,20
+jayson-0.0.1.dist-info/RECORD,,
