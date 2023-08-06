@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+docs/requirements.txt
+psiz/__init__.py
+psiz.egg-info/PKG-INFO
+psiz.egg-info/SOURCES.txt
+psiz.egg-info/dependency_links.txt
+psiz.egg-info/requires.txt
+psiz.egg-info/top_level.txt
