@@ -1,0 +1,3 @@
+TRAINING_PHASE = "train"
+EVALUATION_PHASE = "eval"
+PREDICTION_PHASE = "predict"
