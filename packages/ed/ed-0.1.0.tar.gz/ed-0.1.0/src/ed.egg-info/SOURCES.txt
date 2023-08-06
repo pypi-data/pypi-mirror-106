@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+src/ed/__init__.py
+src/ed/buffer.py
+src/ed.egg-info/PKG-INFO
+src/ed.egg-info/SOURCES.txt
+src/ed.egg-info/dependency_links.txt
+src/ed.egg-info/not-zip-safe
+src/ed.egg-info/requires.txt
+src/ed.egg-info/top_level.txt
