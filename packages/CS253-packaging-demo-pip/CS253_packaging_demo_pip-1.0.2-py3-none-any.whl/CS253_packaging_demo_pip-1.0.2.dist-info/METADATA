@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: CS253-packaging-demo-pip
+Version: 1.0.2
+Summary: A demo project for CS253 presentation
+Home-page: https://demo_project.com/dummy.xml
+Author: Ksai
+Author-email: vksai@iitk.ac.in
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+
+
+Enter Description of the project
+
+
