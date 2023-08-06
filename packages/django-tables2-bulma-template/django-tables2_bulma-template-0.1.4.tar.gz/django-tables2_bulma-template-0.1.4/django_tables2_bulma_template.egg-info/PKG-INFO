@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: django-tables2-bulma-template
+Version: 0.1.4
+Summary: A bulma template for django-tables2
+Home-page: https://github.com/nkay08/django-tables2_bulma-template
+Author: NKay
+Author-email: py@nkay.info
+License: MIT
+Description: # django-tables2_bulma-template
+        
+        ## Installation
+        `pip install django_table2_bulma_template`
+        Add to `INSTALLED_APPS` in your Django `settings.py`:  
+        ```
+        INSTALLED_APPS = [
+            ...
+            'django_tables2_bulma_template',
+            ...
+        ]
+        ```
+        
+        ## Setup
+        In your Django `settings.py` set:  
+         `DJANGO_TABLES2_TEMPLATE = "django-tables2/bulma.html"`
+Keywords: tables,django,bulma
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
