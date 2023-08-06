@@ -1,0 +1,77 @@
+#img_container, #controls_container {
+	width: 100%;
+	max-width: 1500px;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+}
+
+#current_div {
+	float: left;
+	width: 70%;
+	margin: 10px;
+}
+
+#next_div {
+	width: 25%;
+	float: left;
+	margin: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+p {
+	clear: both;
+}
+
+body {
+    background: #3a393a;
+    color: #efefef;
+    font-family: sans-serif;
+    #max-width: 500px;
+}
+
+input {
+  	width: 20px;
+  	font-size: 17px;
+}
+
+#count {
+	float: right;
+}
+
+@media only screen and (max-width: 800px) {
+	#current_div, #next_div {
+		width: calc(100% - 20px) !important;
+	}
+}
+
+.icon {
+	width: 50px;
+	filter: invert(88%) sepia(4%) saturate(15%) hue-rotate(18deg) brightness(92%) contrast(97%);
+}
+
+.icon:hover {
+	cursor: pointer;
+	filter: invert(100%) sepia(24%) saturate(1720%) hue-rotate(187deg) brightness(123%) contrast(87%);
+}
+
+.icon#first, .icon#last {
+	width: 20px;
+	margin-bottom: 10px;
+}
+
+button {
+	float: right;
+	margin: 0 10px 0 0;
+}
+
+input[type='checkbox'] {
+	font-size: 15px;
+}
