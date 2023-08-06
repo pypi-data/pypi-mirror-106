@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: yaml-source-map
+Version: 1.0.0
+Summary: Calculate JSON Pointers to each value within a YAML document along with the line, column and character position for the start and end of that value
+Home-page: https://github.com/open-alchemy/yaml-source-map
+License: MIT
+Keywords: Python,YAML,source map
+Author: David Andersson
+Author-email: anderssonpublic@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Disassemblers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: pytest-coverage (>=0.0,<0.1)
+Project-URL: Documentation, https://github.com/open-alchemy/yaml-source-map
+Project-URL: Repository, https://github.com/open-alchemy/yaml-source-map
+Description-Content-Type: text/markdown
+
+# YamlSourceMap
+
+Calculate JSON Pointers to each value within a YAML document along with the
+line, column and character position for the start and end of that value.
+
+For example:
+
+```bash
+python -m pip install yaml_source_map
+```
+
+```Python
+from yaml_source_map import calculate
+
+
+print(calculate('foo: bar'))
+```
+
+The above prints:
+
+```Python
+{
+    "": Entry(
+        value_start=Location(line=0, column=0, position=0),
+        value_end=Location(line=0, column=8, position=8),
+        key_start=None,
+        key_end=None,
+    ),
+    "/foo": Entry(
+        value_start=Location(line=0, column=5, position=5),
+        value_end=Location(line=0, column=8, position=8),
+        key_start=Location(line=0, column=0, position=0),
+        key_end=Location(line=0, column=3, position=3),
+    ),
+}
+```
+
+The following features have been implemented:
+
+- support for primitive types (`strings`, `numbers`, `booleans` and `null`),
+- support for structural types (`sequence` and `mapping`).
+
