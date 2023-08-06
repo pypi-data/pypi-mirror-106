@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: lnm
+Version: 0.0.1
+Summary: A Lipa na M-Pesa Client Payment initiator package
+Home-page: UNKNOWN
+Author: LazyGeek
+Author-email: vincentedepaulo@gmail.com
+License: MIT
+Description: This a  library for Lipa Na M-pesa for testing sandbox transations. It accepts the phone number, account number and the amount 
+        that the STK push it to be sent to. It has two functions, one that generates access token and another that initiates payments on 
+        behalf of the client. 
+        
+        Change Log
+        ==========
+        
+        0.0.1 (19/05/2021)
+        ----------------------
+        
+        First Release
+Keywords: lipa na mpesa
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
