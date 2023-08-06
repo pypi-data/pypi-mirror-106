@@ -1,0 +1,44 @@
+[tool.poetry]
+authors = ["Kohei Tsuyuki <kotsuyuki@gmail.com>"]
+description = "Data scaling tool for CSV/TSV"
+license = "MIT"
+name = "uroko"
+readme = "README.md"
+repository = "https://github.com/t-chov/uroko"
+version = "0.2.2"
+
+[tool.poetry.dependencies]
+click = "^8.0.0"
+numpy = "^1.20.3"
+python = ">=3.7,<4"
+
+[tool.poetry.scripts]
+uroko-cli = "uroko.cli:main"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.7"
+codecov = "^2.1.11"
+isort = "^5.8.0"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.0"
+pytest-flake8 = "^1.0.7"
+pytest-mccabe = "^2.0"
+pytest-mock = "^3.6.1"
+pytest-mypy = "^0.8.1"
+
+[tool.pytest.ini_options]
+addopts = [
+  "--flake8",
+  "--mypy",
+  "--mypy-ignore-missing-imports",
+  "--mccabe",
+  "--cov=uroko",
+  "--cov-report=term-missing",
+]
+flake8-max-line-length = 99
+mccabe-complexity = 10
+testpaths = ["tests"]
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
