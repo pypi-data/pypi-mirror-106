@@ -1,0 +1,5 @@
+pypandoc
+Random-Word-Generator
+dnspython
+pymongo
+new_timer
