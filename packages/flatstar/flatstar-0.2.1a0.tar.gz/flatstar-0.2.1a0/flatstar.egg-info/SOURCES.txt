@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+flatstar/__init__.py
+flatstar/draw.py
+flatstar/limb_darkening.py
+flatstar/utils.py
+flatstar.egg-info/PKG-INFO
+flatstar.egg-info/SOURCES.txt
+flatstar.egg-info/dependency_links.txt
+flatstar.egg-info/requires.txt
+flatstar.egg-info/top_level.txt
