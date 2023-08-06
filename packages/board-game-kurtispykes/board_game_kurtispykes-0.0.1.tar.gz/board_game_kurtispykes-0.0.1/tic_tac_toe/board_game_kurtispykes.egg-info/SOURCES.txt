@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tic_tac_toe/board_game_kurtispykes.egg-info/PKG-INFO
+tic_tac_toe/board_game_kurtispykes.egg-info/SOURCES.txt
+tic_tac_toe/board_game_kurtispykes.egg-info/dependency_links.txt
+tic_tac_toe/board_game_kurtispykes.egg-info/top_level.txt
