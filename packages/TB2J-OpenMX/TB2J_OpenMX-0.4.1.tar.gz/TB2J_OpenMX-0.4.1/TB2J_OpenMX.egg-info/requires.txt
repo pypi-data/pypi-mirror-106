@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+ase
+progressbar
+TB2J>=0.6.0
+cffi
