@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pycmp
+Version: 0.1.2
+Summary: compiler matlab to python
+Home-page: https://github.com/aeroshev/CMP
+Author: Artem Eroshev
+Author-email: faster.boy2694@gmail.com
+License: MIT
+Download-URL: https://github.com/aeroshev/CMP/archive/refs/tags/v0.1.0-alpha.tar.gz
+Keywords: MATLAB,Compiler
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9.0
+
+UNKNOWN
+
+
