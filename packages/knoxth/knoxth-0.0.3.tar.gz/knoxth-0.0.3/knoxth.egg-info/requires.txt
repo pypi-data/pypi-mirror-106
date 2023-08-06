@@ -1,0 +1,5 @@
+knox
+djangorestframework
+django>=2.2
+jinja2
+boto3
