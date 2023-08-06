@@ -1,0 +1,11 @@
+hiro_graph_client/VERSION,sha256=2uMPOZaf7jJ6G5M4aVSv985UnzHCwYerg-nFJtoeG9s,5
+hiro_graph_client/__init__.py,sha256=pk9n3JpNmaQEhFLPmHebpvpElBVtVTEFJ57VrtjIO5Y,1245
+hiro_graph_client/appclient.py,sha256=g4H5OizAv_jhYTPXVMpntKl65mxm1tkPrSB2K0Y3ttg,2676
+hiro_graph_client/authclient.py,sha256=NCblMBP1DIaeOXCk7_HfGajzK-s8KpBvmKvqrA1Dnvc,3430
+hiro_graph_client/batchclient.py,sha256=cSLvEWfxOE6PWmIifOdDrLpI0iT9SWG66FbNw1h4qVU,44785
+hiro_graph_client/client.py,sha256=qFgHx9Etm3h8m1hwGMeL4pFpLZogaA-Ov_e2gMBLR3Y,10256
+hiro_graph_client/clientlib.py,sha256=UW4EPgryzCbpw78opHTDVPtGPeirK-DXR3U6o-4CBw4,35406
+hiro_graph_client-4.1.2.dist-info/METADATA,sha256=Df_G-C6XYU9nACR-99vxGUdWkQHRUavVqw5t_Zeim0k,37247
+hiro_graph_client-4.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hiro_graph_client-4.1.2.dist-info/top_level.txt,sha256=bGyhJ-xD1EqLhSv9LLkyKSnUIvoJHZ2YjlyCIvV3AF4,18
+hiro_graph_client-4.1.2.dist-info/RECORD,,
