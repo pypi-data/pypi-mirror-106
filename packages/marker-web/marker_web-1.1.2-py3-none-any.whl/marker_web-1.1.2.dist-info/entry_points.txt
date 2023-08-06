@@ -1,0 +1,3 @@
+[console_scripts]
+marker-web = marker_web.__main__:main
+
