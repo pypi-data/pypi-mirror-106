@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+quant_sdk/__init__.py
+quant_sdk/client.py
+quant_sdk.egg-info/PKG-INFO
+quant_sdk.egg-info/SOURCES.txt
+quant_sdk.egg-info/dependency_links.txt
+quant_sdk.egg-info/top_level.txt
