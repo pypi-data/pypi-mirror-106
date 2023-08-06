@@ -1,0 +1,14 @@
+floodgate/__init__.py,sha256=ynYWxMIwDk3tI4Z7_PhSovd0yUvFQsjeMoCvzC0kmtA,148
+floodgate/fastapi/__init__.py,sha256=wuoJ_0YnenR30Fh3i0GMtsffaDZ5SV5QFS08TpIMynE,24
+floodgate/fastapi/guard.py,sha256=QVAX7KliQsZNIfzP3Ag1KY_1rsZniC9ziW3I_wUke54,1101
+floodgate/flask/__init__.py,sha256=wuoJ_0YnenR30Fh3i0GMtsffaDZ5SV5QFS08TpIMynE,24
+floodgate/flask/guard.py,sha256=F7k622LUWl1RXGZZ61mnyhU52cv8iNul13pUbDBw0GM,1154
+floodgate/gates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+floodgate/gates/catch_all.py,sha256=OQRqseY0yE1PTv9Mirn0LI8v2ztlMM_nhCRAG4G-qMA,2427
+floodgate/gates/limit_strategies.py,sha256=qh72CHhMvvTwq40abb4wwouwavWFDoNQ2V2mlsg_5pQ,409
+floodgate/gates/units.py,sha256=I0wgBWhYWpVcpj2tKx2UYC6t9gBjFoC_9mrs6pdNAPo,67
+floodgate-1.1.1.dist-info/LICENSE.txt,sha256=ULUVQXpAGQm9ikOBeP5VZD8OGH9pjdFqEDiAqh5Hdrs,1073
+floodgate-1.1.1.dist-info/METADATA,sha256=Rc6JXO3BhdjAgsKiKp1VJ8I1SHFOt-Q-coJCUa4XmwQ,348
+floodgate-1.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+floodgate-1.1.1.dist-info/top_level.txt,sha256=wbizB_nCgYI7UYvZIFoxF6TFA5iCO_S7DSyPXwVVAnY,60
+floodgate-1.1.1.dist-info/RECORD,,
