@@ -1,0 +1,16 @@
+pylexique/__init__.py,sha256=TkPXPBnn9YCHxqH-oeKFj8Qrx4kx8_aAeHfBtJ3AuU0,603
+pylexique/cli.py,sha256=ATzEkfqCaNgKGH7bu6vAQ8kqO90zGm1OwAbjtyknTHs,2344
+pylexique/pylexique.py,sha256=wP1E-pvfrkqjEuMnwgwDM6BwnH4aG6XOhEqo0B0BjU8,14122
+pylexique/utils.py,sha256=417AyaawkqJgnaFBO9u2Zbsts3ak0PK4G6SWYVdymgc,211
+pylexique/Lexique383/Lexique383.txt,sha256=0QWOPCKoQ8jSEcvCSiA7VC2Ftjru0hAZv_R4FWU4Avo,25308206
+pylexique/Lexique383/Lexique383.xlsb,sha256=x0xnS2H5AvwjoHkPkURyI_kEterLsEm5C2C4_tDjnYY,15641525
+pylexique/Lexique383/RELEASE NOTES-Lexique.txt,sha256=HOd8alBqv_3VQmo_0gan8-1OQ0FATw8h4DS1XNNWH7U,5245
+pylexique/Lexique383/~$Lexique383.xlsb,sha256=TadEu3uvn9esiXxlHytOmywRYvS7wI2Msi2BlQM58M4,165
+pylexique/errors/parseerrors.txt,sha256=50CWPrsfPWS80TXHMKO-tBwhs3EUTyWlkTCunZacRfs,2751
+pylexique-1.3.5.dist-info/AUTHORS.rst,sha256=i3tWuu1OnaowdJDVkU1FZSpFI6BCa4uNWKHmqe11quU,162
+pylexique-1.3.5.dist-info/LICENSE,sha256=awURw9T9iSl5htZXYvX2aouyavTnw2695vCK-Kq1IeY,1071
+pylexique-1.3.5.dist-info/METADATA,sha256=jrE6VJUvC7B5YbVCKqjNLwx3_wxwlHMTuol_yt4dux8,15672
+pylexique-1.3.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pylexique-1.3.5.dist-info/entry_points.txt,sha256=ZHM6MwrU0bTENiGkYf1THE-32i-OC2Z-YzOOgF6Kzms,50
+pylexique-1.3.5.dist-info/top_level.txt,sha256=D5U2frkp30qSCO5yoTsbQqopm1DUw5uCaiRV9AGVY0Q,10
+pylexique-1.3.5.dist-info/RECORD,,
