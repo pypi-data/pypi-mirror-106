@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: unicarbkb_glygen_api
+Version: 0.2
+Summary: restful api to query structure, glycoprotein, and publications
+Home-page: UNKNOWN
+Author: Matthew Campbell
+Author-email: m.campbell2@griffith.edu.au
+License: MIT
+Description: 
+        TODO: Modify the whole file as necessary.
+        
+Keywords: unicarbkb glygen restful api
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python
