@@ -1,0 +1,15 @@
+README.md
+setup.py
+eeg_preprocessing/__init__.py
+eeg_preprocessing/preprocessing.py
+eeg_preprocessing.egg-info/PKG-INFO
+eeg_preprocessing.egg-info/SOURCES.txt
+eeg_preprocessing.egg-info/dependency_links.txt
+eeg_preprocessing.egg-info/requires.txt
+eeg_preprocessing.egg-info/top_level.txt
+eeg_preprocessing/utils/__init__.py
+eeg_preprocessing/utils/config.py
+eeg_preprocessing/utils/events.py
+eeg_preprocessing/utils/faster.py
+eeg_preprocessing/utils/io_raw.py
+eeg_preprocessing/utils/montage.py
