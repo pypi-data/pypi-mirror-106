@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: paxexpress-cli
+Version: 0.2.0
+Summary: 
+Author: Florian Ludwig
+Author-email: f.ludwig@greyrook.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: httpx (>=0.16.1,<0.17.0)
+Requires-Dist: inquirer (>=2.7.0,<3.0.0)
+Requires-Dist: keyring (>=22.3.0,<23.0.0)
+Requires-Dist: pydantic[email] (>=1.8.1,<2.0.0)
+Requires-Dist: pypiwin32 (>=223,<224); sys_platform == "win32"
+Requires-Dist: rich (>=9.13.0,<10.0.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
