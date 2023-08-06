@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    chemconda=chemconda.cli:cli
+  
