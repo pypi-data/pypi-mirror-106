@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: dfagent
+Version: 0.1
+Summary: Dialogflow agent is a library for online or offline handling of Dialogflow agents.
+Home-page: https://github.com/aitechnologies-it/dialogflow-agent
+Author: Luigi Di Sotto, Diego Giorgini
+Author-email: luigi.disotto@aitechnologies.it, diego.giorgini@aitechnologies.it
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: google (==3.0.0)
+Requires-Dist: dialogflow (==1.1.0)
+Requires-Dist: tqdm (==4.56.0)
+Requires-Dist: coloredlogs (==15.0)
+Requires-Dist: pydlib
+Requires-Dist: funcy
+
+# dfagent 🤖
+The dfagent is a package for the handling of Dialogflow agents. You can for example retrieve training examples and save into a preferred format, or you can use it to update an intent by simply feeding it training examples you stored in a preferred format.
+
+## Overview
+
+* [dfagent/](dfagent) contains all the core code to extend dfagent.
+
+## Install
+
+To install the dfagent package you only need to run [install.sh](install.sh) script.
+
+## Usage
+Once dfagent is installed you can simply import it in your code. 
+
+### Save training phrases [remote]
+
+The following snippet illustrates a simple example to get and save training examples from an online Dialogflow agent.
+
+To create a Dialogflow agent you only need that
+
+```Python
+import dfagent
+
+agent = dfagent.DialogFlowAgent(
+    local_path_or_url='my_gcp_project_id',
+    service_account='path/to/sa.json',
+    content_type='json',
+    output_format='default'
+)
+```
+
+Then you can get a list of dialogflow examples for saving as follows
+
+```Python
+examples = agent.get_training_examples()
+agent.save_training_examples(examples, output_dir='path/to/dir')
+```
+
+### Update intent with new training phrases [remote]
+
+In the following is a snippet that illustrates an example to update a remote Dialogflow agent using training phrases you stored as a raw text file. Remember that dfagent can be extended to support any input or output file format.
+
+Once you instante a df agent
+
+```Python
+import dfagent
+
+agent = dfagent.DialogFlowAgent(
+    local_path_or_url='my_gcp_project_id',
+    service_account='path/to/sa.json',
+    input_format='default',
+)
+```
+
+You can update your remote Dialoflow agent in that way
+
+```Python
+response, raw_examples, df_examples = agent.add_training_examples(
+    intent_name='help.cooking',
+    input_dir_or_file='path/to/phrases.train',
+    lang='en'
+)
+```
+
+### From local or zip
+
+In case you already have exported your Dialogflow on your local computer, you can give as local_path_or_url the path to the zip or unzipped exported agent.
+
+```Python
+import dfagent
+
+agent = dfagent.DialogFlowAgent(
+    local_path_or_url='path/to/myagent.zip',
+    ...
+)
+```
+
+
