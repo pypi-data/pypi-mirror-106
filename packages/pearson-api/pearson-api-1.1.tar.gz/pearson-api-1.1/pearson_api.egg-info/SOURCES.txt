@@ -1,0 +1,10 @@
+README.md
+setup.py
+pearson/__init__.py
+pearson/client.py
+pearson/product.py
+pearson_api.egg-info/PKG-INFO
+pearson_api.egg-info/SOURCES.txt
+pearson_api.egg-info/dependency_links.txt
+pearson_api.egg-info/requires.txt
+pearson_api.egg-info/top_level.txt
