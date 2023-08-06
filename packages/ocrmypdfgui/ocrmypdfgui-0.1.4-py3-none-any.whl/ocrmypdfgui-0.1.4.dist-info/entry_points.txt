@@ -1,0 +1,3 @@
+[gui_scripts]
+ocrmypdfgui = ocrmypdfgui.__main__:main
+
