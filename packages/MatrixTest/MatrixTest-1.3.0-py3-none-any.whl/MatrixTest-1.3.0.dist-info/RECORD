@@ -1,0 +1,12 @@
+MatrixTest/MatrixTestRunner.py,sha256=xo1nH_nV1B_dggJPIObu8DPIh8F1OrTvPnKof_YeuqU,23184
+MatrixTest/Printers.py,sha256=8Kz2OgEO8VoGz-VoMzB7rbIR2YliviqJbT1qmr_DruY,3246
+MatrixTest/Utils.py,sha256=1dAhMqlKaX9eC57UyPQ1SBT3SQiiSpz_2WKOFqnMb-g,880
+MatrixTest/__init__.py,sha256=cXj8rkR9LR9fKxxYHGX_Q8y_YRfE6hmohxRIRzZaNDM,77
+MatrixTest/EmailService/EmailProvider.py,sha256=P6a_o4IbLE2w9FwzkkjSMDxPICFr-w2QUIzIQo4u6kQ,802
+MatrixTest/EmailService/MailjetProvider.py,sha256=pFd4CohJPInlAVoebvR0E29irV_giwfL-iEa2iv0YFM,2002
+MatrixTest/EmailService/__init__.py,sha256=6VwmlhoHep3cLY9ubzcyEA-pHKsY4ZdyOcmamK6G-Ic,88
+MatrixTest-1.3.0.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+MatrixTest-1.3.0.dist-info/METADATA,sha256=BiwHibgdP7mfy5YNDEbbsfCjyR_FeO5NYJabFdh0tSs,10179
+MatrixTest-1.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+MatrixTest-1.3.0.dist-info/top_level.txt,sha256=jZb6FCgqjRMcVIvdtdkaRNhvL7Ae6Y14B5y9NccoeD0,11
+MatrixTest-1.3.0.dist-info/RECORD,,
