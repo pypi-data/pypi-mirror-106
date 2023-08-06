@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sqs_extended_client.egg-info/PKG-INFO
+sqs_extended_client.egg-info/SOURCES.txt
+sqs_extended_client.egg-info/dependency_links.txt
+sqs_extended_client.egg-info/requires.txt
+sqs_extended_client.egg-info/top_level.txt
+src/sqs_extended_client/__init__.py
+src/sqs_extended_client/session.py
