@@ -1,0 +1,3 @@
+[console_scripts]
+prodify = prodify._cli:cli
+

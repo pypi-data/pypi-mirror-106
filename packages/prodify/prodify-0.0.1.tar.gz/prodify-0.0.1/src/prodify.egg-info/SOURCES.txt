@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/prodify/__init__.py
+src/prodify/_about.py
+src/prodify/_cli.py
+src/prodify.egg-info/PKG-INFO
+src/prodify.egg-info/SOURCES.txt
+src/prodify.egg-info/dependency_links.txt
+src/prodify.egg-info/entry_points.txt
+src/prodify.egg-info/not-zip-safe
+src/prodify.egg-info/requires.txt
+src/prodify.egg-info/top_level.txt
