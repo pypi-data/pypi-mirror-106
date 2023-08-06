@@ -1,0 +1,211 @@
+# 说明文档
+
+## 快速开始
+
+```python
+import time
+from xyw_macro import *
+
+
+def func1():
+    time.sleep(4)
+    print('func1')
+
+
+def func2():
+    print('func2')
+
+
+macro = Macro()
+config1 = Configuration('01', 'part', Configuration.FUNCTION)
+config1.add_command(Condition(VK('VK_F3'), '打印'), func1)
+config2 = Configuration('02', 'all', Configuration.FUNCTION)
+config2.add_command(Condition(VK('VK_F2'), '打印'), func2)
+
+macro.add_config(config1)
+macro.add_config(config2)
+macro.run()
+
+```
+
+## command模块
+
+### 模拟键盘输入
+
+以按下Ctrl+C为例，代码如下：
+
+```python
+from xyw_macro.command import *
+
+press_key(VK('VK_CONTROL'))
+press_key(ord('C'))
+release_key(VK('VK_CONTROL'))
+release_key(ord('C'))
+time.sleep(0.2)  # 对于这种功能快捷键最好加上0.2s的睡眠时间，等待系统响应完成
+```
+
+注意：press_key与release_key函数必须成对使用，同时请勿使用其他第三方库中的键盘输入函数代替，非本模块中的键盘输入函数会被拦截当做普通的键盘输入处理。有时游戏中为了避免脚本检测，需要模拟真人按键，此时可以在每个按键的按松动作之间插入random_sleep函数，示例如下：
+
+```python
+press_key(ord('C'))
+random_sleep(0.2, 0.5)  # 休眠时间波动范围为0.2*(1-0.5)~0.2*(1+0.5)
+release_key(ord('C'))
+```
+
+### 输入字符串
+
+模拟键盘输入unicode字符串：
+
+```python
+input_chars('pip install xyw-macro --upgrade')
+```
+
+注意：为安全起见，请勿使用此函数输入账号密码，如必须使用，可以参见安全使用一节。
+
+### 获取选中文件绝对地址
+
+直接调用win32的api很难直接获得资源管理器中选中文件的绝对地址，所以在这里采用了一种折中的做法，首先调用Ctrl+C复制选中文件到系统剪切板，然后读取剪切板中的文件名信息：
+
+```python
+print(get_clipboard_files())
+
+# 单个文件夹
+>>>('C:\\Users\\Administrator\\Desktop\\keyboard',)
+# 单个文件
+>>>('C:\\Users\\Administrator\\Desktop\\keyboard\\setup.py',)
+# 多个文件或文件夹
+>>>('C:\\Users\\Administrator\\Desktop\\keyboard\\xyw_macro', 'C:\\Users\\Administrator\\Desktop\\keyboard\\LICENSE', 'C:\\Users\\Administrator\\Desktop\\keyboard\\README.md', 'C:\\Users\\Administrator\\Desktop\\keyboard\\setup.py')
+```
+
+注意：此函数设计的初衷是为了方便实现一键处理文件的宏功能。
+
+### 打开应用快捷方式
+
+以打开企业微信为例：
+
+```python
+run_cmd(r"C:\Program Files (x86)\WXWork\WXWork.exe")
+```
+
+注意：此处的地址可以通过快捷方式的属性查看。
+
+### 打开文件或文件夹
+
+```python
+open_file('hook.py')
+```
+
+### 打开网址
+
+```python
+open_url('www.baidu.com', r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
+```
+
+注意：默认情况下只需要第一个参数即可，此时会以系统默认浏览器打开地址。第二个为可选参数，可以指定需要使用的浏览器的程序地址。
+
+## 安全使用
+
+如果脚本中包含部分隐私信息，可以在脚本中添加mac地址验证，同时将脚本打包编译为pwd格式文件，脚本内容示例如下：
+
+```python
+# macro.py
+from xyw_macro import *
+from xyw_macro.command import *
+
+
+macro = Macro()
+
+if confirm_mac('0C-9D-92-0F-42-65'):
+    def func():
+        print('True function')
+
+    config = Configuration('true', 'part', Configuration.FUNCTION)
+    config.add_command(Condition(VK('VK_F2'), '打印'), func)
+    macro.add_config(config)
+else:
+    config = Configuration('false', 'all')
+    macro.add_config(config)
+
+```
+
+将macro.py文件编译为pwd格式后需要再写一个入口脚本，重命名为pyw后缀后即可无命令窗后台运行：
+
+```python
+# run.pyw
+from macro3 import macro
+
+if __name__ == '__main__':
+    macro.run()
+
+```
+
+注意：此方法并不是完全安全，只能说是降低了安全风险，不过一个宏命令脚本也不会有人专门去研究。说到底也就是和门锁一样，防君子不防小人。
+
+# Release Notes
+
+## 0.0.1
+
+- 初次发布，实现了键盘宏的基本功能
+
+## 0.0.2
+
+- 将GUI框架由pyqt5换为tkinter，提高兼容性
+- 新增command模块，包含部分常用键盘宏命令函数
+- 新增部分源码注释
+- 修复了部分bug
+
+## 0.0.3
+
+- 优化了Macro类
+- 新增部分源码注释
+- command模块中新增了部分常用函数
+
+## 0.0.4
+
+- 更改了提示窗口尺寸，缩小为原来的一半
+- 更改了提示窗口显示时间，减少为原来的一半
+- 添加部分说明文档
+- 修复了command模块中的部分bug
+- 修复了键盘回调函数中的部分bug
+
+## 0.0.5
+
+- 修复了不能自定义切换键的bug
+
+## 0.0.6
+
+- 修复了长按触发命令中的部分bug
+
+## 0.0.7
+
+- 修复了不能设置同一个键按下和松开的逻辑bug
+- 修复了命令运行时非功能区按键无法使用的bug
+- 修复了切换键的bug
+- Condition类添加了show参数，可以控制提示框是否出现
+- Configition类添加了excepts参数，可以排除all模式下的部分按键
+- notify模块中添加了确认框装饰器、参数输入框装饰器
+
+## 0.0.8
+
+- 优化了command模块中部分函数
+- 新增了Macro类中的两个属性，可以更改当前配置和运行状态
+- 新增了部分注释
+
+## 0.0.9
+
+- 修复了Configition类中excepts参数的bug
+- 修复了command模块中部分函数bug
+
+## 0.0.10
+
+- 更改了notify模块中InputBox的参数形式，增加了combobox类型输入框
+- Macro类新增add_command_to_all方法，用于向所有配置中批量统一添加命令
+
+## 0.0.11
+
+- 为touch_key函数增加了按下和松开的间隔时间
+- command模块新增了两个函数，change_to_zh以及change_to_en，用于切换输入法状态
+
+## 0.0.12
+
+- 修复了一个显示bug
