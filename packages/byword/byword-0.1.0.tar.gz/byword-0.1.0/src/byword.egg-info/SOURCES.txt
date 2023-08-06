@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/byword/__init__.py
+src/byword/__main__.py
+src/byword/core.py
+src/byword.egg-info/PKG-INFO
+src/byword.egg-info/SOURCES.txt
+src/byword.egg-info/dependency_links.txt
+src/byword.egg-info/entry_points.txt
+src/byword.egg-info/requires.txt
+src/byword.egg-info/top_level.txt
