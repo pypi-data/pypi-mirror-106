@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/NNeuralNet/NeuralNet.py
+src/NNeuralNet/__init__.py
+src/NNeuralNet.egg-info/PKG-INFO
+src/NNeuralNet.egg-info/SOURCES.txt
+src/NNeuralNet.egg-info/dependency_links.txt
+src/NNeuralNet.egg-info/requires.txt
+src/NNeuralNet.egg-info/top_level.txt
