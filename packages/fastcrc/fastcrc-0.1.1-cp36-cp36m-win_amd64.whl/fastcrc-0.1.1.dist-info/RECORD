@@ -1,0 +1,13 @@
+fastcrc/__info__.py,sha256=o-gw5Tbq1J_c4TiKqJxZXEv8C2zqdXhiU7y96qnGlNI,309
+fastcrc/__init__.py,sha256=OEjrHe8BE1Gvp_BA0FcG0rXmrHM8gAztVWdijp_7X1A,208
+fastcrc/crc16.py,sha256=rRnCEzYlqojQNgsQqN6hnYfiPrI0FuziWgIUld7QWMs,12550
+fastcrc/crc32.py,sha256=_gMdfbe7HldTULuZrIphaNXfqF7bGLjArM_BrTpdzjY,4675
+fastcrc/crc64.py,sha256=Jsl-y8-s5dKot9Al2W2l1DOeh92yudFdEsctOVkL7t0,1768
+fastcrc/fastcrc.cp36-win_amd64.pyd,sha256=j2FDj6ArbGkWRBfRTSAzmJRh-AGstQJLV32jN2d5dZA,352256
+fastcrc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastcrc/utils.py,sha256=GCP9Csmt_bm9cbWfcnjog90znBAdOQtPAFlwSKWQpwU,251
+fastcrc-0.1.1.dist-info/LICENSE,sha256=PtZl-2BRiueRuAXYWBNPBni3xTVJ6ph27KmyEXDJLaE,1085
+fastcrc-0.1.1.dist-info/METADATA,sha256=XWUHOu2_QzWwuu3kIQVsro8gypJKFazw6vz2Qg3fTVk,2502
+fastcrc-0.1.1.dist-info/WHEEL,sha256=epucrC2yyYTysDCMzXuz8eGMTMKryzRfNOvMGdslbjc,101
+fastcrc-0.1.1.dist-info/top_level.txt,sha256=NUZ5LS8kE8eBdG8YhMrBpsi1IAXHHE5U4u4gK5fv-3g,8
+fastcrc-0.1.1.dist-info/RECORD,,
