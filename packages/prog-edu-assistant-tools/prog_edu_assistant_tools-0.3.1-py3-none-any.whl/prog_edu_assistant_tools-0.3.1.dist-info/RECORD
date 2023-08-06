@@ -1,0 +1,11 @@
+prog_edu_assistant_tools/__init__.py,sha256=sCQSA1n-N79CvEWkTGN0DT1vT15dnNFug6-dtefxTto,42
+prog_edu_assistant_tools/check.py,sha256=B6s5wtxyaLj8fZJ1CYQT0OMoNXJs28jnO8zgIPCP-K8,4775
+prog_edu_assistant_tools/magics.py,sha256=jk94J-ZtiMnWuQdrHw2FYXw9Sc5XIDhb-Jli25ptLBc,18796
+prog_edu_assistant_tools/magics_test.py,sha256=NCtIZg9z3qJ6maTiIcmkUPEcrsanPFQclUZcmi-duUc,1068
+prog_edu_assistant_tools/notebook.py,sha256=htUHKVC8U2GGhROgi5dfLr9yHcii4ns1laY2OvrD47c,204
+prog_edu_assistant_tools/summary_test_result.py,sha256=4g1ZiRK8AFflMwYsOmeErbqp_m1c80o66uQaVmoKJhA,5028
+prog_edu_assistant_tools-0.3.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+prog_edu_assistant_tools-0.3.1.dist-info/METADATA,sha256=0X-jnXKEdxM5apAGRZ3HiVhTiVwM0JSMy5UYCeDtdeY,2198
+prog_edu_assistant_tools-0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+prog_edu_assistant_tools-0.3.1.dist-info/top_level.txt,sha256=kibK39Gcc1imzmD7wTvEheb3QJ2_6VstvUSB9JsJsvU,25
+prog_edu_assistant_tools-0.3.1.dist-info/RECORD,,
