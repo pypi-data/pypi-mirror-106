@@ -1,0 +1,8 @@
+[console_scripts]
+
+
+[pr2modules]
+NSPopen = pr2modules.nslink.process.proxy:NSPopen
+NetNS = pr2modules.nslink.nslink:NetNS
+RemoteSocket = pr2modules.remote:RemoteSocket
+
