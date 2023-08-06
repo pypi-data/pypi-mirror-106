@@ -1,0 +1,7 @@
+README.md
+setup.py
+PYCORD.PY.egg-info/PKG-INFO
+PYCORD.PY.egg-info/SOURCES.txt
+PYCORD.PY.egg-info/dependency_links.txt
+PYCORD.PY.egg-info/requires.txt
+PYCORD.PY.egg-info/top_level.txt
