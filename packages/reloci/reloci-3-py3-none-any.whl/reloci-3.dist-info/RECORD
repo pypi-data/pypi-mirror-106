@@ -1,0 +1,12 @@
+reloci/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reloci/cli.py,sha256=jPdPykk2-NMPD8-iRX9LN9vjxItBaIRa-6Ai4aErwFI,1247
+reloci/file_info.py,sha256=7j1cfIscTG7Jgp-YE6KSnyNuz_2e2qJcPZf71Za5rTk,2254
+reloci/planner.py,sha256=2PlA22Eu_uT97pwTJXOVL1tngpKhAL64YRJIjALSH7Y,2061
+reloci/renamer.py,sha256=vLVYL6xOUVRIomPTYOkeLb3ZE2FXocxa5qreyIMUwDM,1341
+reloci/worker.py,sha256=GIJQbAAfZkZRs2HXypxElsheICI4c3AHDnjzElHksdE,1410
+reloci-3.dist-info/LICENSE,sha256=ffWuD2kTonuiAEOHMMI0ZqhNhNHcs0sgyqDNbKC0Us0,1078
+reloci-3.dist-info/METADATA,sha256=2uCN_A03JeegbU1JFB9jKvsMjBVPJ-_bLaZxmgEJWJ8,1648
+reloci-3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+reloci-3.dist-info/entry_points.txt,sha256=y6sNA1CLq8TOMKmjBkRkvfM0nw2A2m3jnJHAEWH0KSI,43
+reloci-3.dist-info/top_level.txt,sha256=JUlN7L8-Ac0bMqRf1tzIFo3rESh8RLueqprQrj8kBEI,7
+reloci-3.dist-info/RECORD,,
