@@ -1,0 +1,14 @@
+chess/__init__.py,sha256=l_ShPqxyVzXkGCoSITKXblXDZickoahe-BsBjj8g8NM,156
+chess/commands.py,sha256=sWrar2FU1dBEbbB3OvabKvyFLLpLHp7FHMPc_kcoPrc,15890
+chess/cross_correlation.py,sha256=xaZvwEc2ta0SNDus2EiWIrexwtP2_YEZ9aOlLbKbEbw,3925
+chess/get_structures.py,sha256=ySylBCT2OJHllCNrg9jXjlFONPjvZZsI2zuxkxnraOg,9159
+chess/helpers.py,sha256=WJaX4Es2o0qbjLuRdHrS4wPXvrHZHJn-UJeK5UZnGZ0,20499
+chess/oe.py,sha256=uMY0a9mA6SxfFRX1YIy0QYpjY5kviH9stcwU6YIYvb8,6461
+chess/sim.py,sha256=xXO9xY3qTextprVhkUJrgm-RGHzdXZr-xuFb8mKd-vA,17741
+chess/version.py,sha256=MZROqMwVP4JA-LXfTOR7mgacQSXDOlHt1eBZRUHPRnc,22
+chess_hic-0.3.7.data/scripts/chess,sha256=6eBEUX30oqZSQGt66ZaTI7IXJV28uspXZlJQYZAoOIQ,23858
+chess_hic-0.3.7.dist-info/LICENSE,sha256=tnCY9Vs4IsNGdxh1yZ-1gPafO8_xz8SXsTpeZ5n3ofo,9379
+chess_hic-0.3.7.dist-info/METADATA,sha256=6hbKGhqX-55W2zoU32glLHROGJJEbzFW15Pg41mEmp4,1413
+chess_hic-0.3.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chess_hic-0.3.7.dist-info/top_level.txt,sha256=KQh_dmhsO-MtGPgCihpBa-q5XF6tGfA9_MKDXETuyss,6
+chess_hic-0.3.7.dist-info/RECORD,,
