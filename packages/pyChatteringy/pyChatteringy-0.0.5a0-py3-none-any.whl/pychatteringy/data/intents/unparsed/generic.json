@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "user": ["Good morning!", "Hello!"],
+        "bot": ["Hello!"],
+        "priority": 0.5,
+        "conditions": {
+            "if": ["time==morning"],
+            "else": ["goto=context_test-1:It's not morning there. Is it for you?"]
+        },
+        "actions": []
+    },
+    {
+        "id": 2,
+        "user": ["Hi!", "Hello.", "Hola!", "Ahoy!", "Good day"],
+        "bot": ["Hi! Nice to see you again :)"],
+        "priority": 0.8,
+        "conditions": {
+            "if": ["user_data==has_greeted"],
+            "else": ["Hello, we haven't talked before yet!"]
+        },
+        "actions": ["user_data=has_greeted"]
+    }
+]
