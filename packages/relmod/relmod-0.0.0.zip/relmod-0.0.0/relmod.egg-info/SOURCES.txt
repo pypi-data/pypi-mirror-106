@@ -1,0 +1,7 @@
+README.md
+setup.py
+relmod/__init__.py
+relmod.egg-info/PKG-INFO
+relmod.egg-info/SOURCES.txt
+relmod.egg-info/dependency_links.txt
+relmod.egg-info/top_level.txt
