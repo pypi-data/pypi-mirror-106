@@ -1,0 +1,129 @@
+{
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "env": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "hosts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "oneOf": [
+          {
+            "properties": {
+              "ip": {
+                "type": "string"
+              },
+              "hostname": {
+                "type": "string"
+              },
+              "port": {
+                "type": "number"
+              },
+              "timeout": {
+                "type": "number"
+              },
+              "os": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "ip",
+              "os"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "ip": {
+                "type": "string"
+              },
+              "hostname": {
+                "type": "string"
+              },
+              "port": {
+                "type": "number"
+              },
+              "timeout": {
+                "type": "number"
+              },
+              "auths": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "oneOf": [
+                    {
+                      "properties": {
+                        "username": {
+                          "type": "string"
+                        },
+                        "password": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "username",
+                        "password"
+                      ]
+                    },
+                    {
+                      "properties": {
+                        "username": {
+                          "type": "string"
+                        },
+                        "keyfile": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "username",
+                        "keyfile"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ]
+                }
+              },
+              "commands": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "action": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "ip",
+              "os",
+              "auths",
+              "commands"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "date",
+    "service",
+    "env",
+    "hosts"
+  ]
+}

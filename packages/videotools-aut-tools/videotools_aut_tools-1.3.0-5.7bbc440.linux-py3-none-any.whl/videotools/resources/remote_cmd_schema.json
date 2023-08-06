@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

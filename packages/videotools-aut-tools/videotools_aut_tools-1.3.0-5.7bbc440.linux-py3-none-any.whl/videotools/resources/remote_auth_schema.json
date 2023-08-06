@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "oneOf": [
+    {
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "username",
+        "password"
+      ]
+    },
+    {
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "keyfile": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "username",
+        "keyfile"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}
