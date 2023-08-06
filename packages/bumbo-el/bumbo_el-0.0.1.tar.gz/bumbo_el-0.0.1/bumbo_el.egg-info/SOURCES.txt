@@ -1,0 +1,6 @@
+setup.py
+bumbo_el.egg-info/PKG-INFO
+bumbo_el.egg-info/SOURCES.txt
+bumbo_el.egg-info/dependency_links.txt
+bumbo_el.egg-info/requires.txt
+bumbo_el.egg-info/top_level.txt
