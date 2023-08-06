@@ -1,0 +1,8 @@
+antchain_sdk_tdm/__init__.py,sha256=1RpFP3dsMJv4zmNN5qRNM1L_PWcCDzFHWBE19ZzWO3A,22
+antchain_sdk_tdm/client.py,sha256=45DebPNXkYQ3pBETZGpZJADaW1HHAcj3VWKw6rPkrMA,45584
+antchain_sdk_tdm/models.py,sha256=NQlKIymSI-smMO5y916kIJEjrjLjlmwPbyRV_mfMcp0,119447
+antchain_tdm-1.0.12.dist-info/LICENSE,sha256=0CFItL6bHvxqS44T6vlLoW2R4Zaic304OO3WxN0oXF0,600
+antchain_tdm-1.0.12.dist-info/METADATA,sha256=RXJNMayT87ILqHresF34lP76gpZXc79hg6DjO2-rN10,2001
+antchain_tdm-1.0.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+antchain_tdm-1.0.12.dist-info/top_level.txt,sha256=3_yNQ15v4tzSeZ7fEl8HUiLGYQ3zRJXQ3WTTpHjN7jg,17
+antchain_tdm-1.0.12.dist-info/RECORD,,
