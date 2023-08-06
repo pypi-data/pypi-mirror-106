@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Fluid-Mechanics-Engineering-Geek
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/UWaterloo-Mech-3A/Fluid_Mechanics
+Author: Nikhil Melgiri
+Author-email: nmelgiri@uwaterloo.ca
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/UWaterloo-Mech-3A/Fluid_Mechanics/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Fluid_Mechanics
+
+
