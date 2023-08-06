@@ -1,0 +1,281 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Over-sampling-based ensembles &mdash; imbalanced-ensemble 0.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="OverBoostClassifier" href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.OverBoostClassifier.html" />
+    <link rel="prev" title="UnderBaggingClassifier" href="_autosummary/imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> imbalanced-ensemble
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get_start.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../install.html">Install <cite>imbalanced_ensemble</cite></a></li>
+</ul>
+<p class="caption"><span class="caption-text">API</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.ensemble</span></code></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="under-sampling.html">Under-sampling-based ensembles</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Over-sampling-based ensembles</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.OverBoostClassifier.html">OverBoostClassifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.SMOTEBoostClassifier.html">SMOTEBoostClassifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.KmeansSMOTEBoostClassifier.html">KmeansSMOTEBoostClassifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.OverBaggingClassifier.html">OverBaggingClassifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.SMOTEBaggingClassifier.html">SMOTEBaggingClassifier</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="reweighting.html">Reweighting-based ensembles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compatible.html">Compatible ensembles</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../sampler/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.sampler</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../visualizer/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.visualizer</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pipeline/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.pipeline</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../datasets/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.datasets</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../metrics/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.metrics</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../utils/api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.utils</span></code></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../auto_examples/index.html">Basic usage examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../auto_examples/index.html#dataset-examples">Dataset examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../auto_examples/index.html#evaluation-examples">Evaluation examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../auto_examples/index.html#pipeline-examples">Pipeline examples</a></li>
+</ul>
+<p class="caption"><span class="caption-text">History</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../release_history.html">Release History</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">imbalanced-ensemble</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="api.html"><code class="docutils literal notranslate"><span class="pre">imbalanced_ensemble.ensemble</span></code></a> &raquo;</li>
+        
+      <li>Over-sampling-based ensembles</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/api/ensemble/over-sampling.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-imbalanced_ensemble.ensemble.over_sampling">
+<span id="over-sampling-based-ensembles"></span><span id="over-sampling-api"></span><h1>Over-sampling-based ensembles<a class="headerlink" href="#module-imbalanced_ensemble.ensemble.over_sampling" title="Permalink to this headline">¶</a></h1>
+<p>The <a class="reference internal" href="#module-imbalanced_ensemble.ensemble.over_sampling" title="imbalanced_ensemble.ensemble.over_sampling"><code class="xref py py-mod docutils literal notranslate"><span class="pre">imbalanced_ensemble.ensemble.over_sampling</span></code></a> submodule contains 
+a set of over-sampling-based ensemble imbalanced learning methods.</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.OverBoostClassifier.html#imbalanced_ensemble.ensemble.over_sampling.OverBoostClassifier" title="imbalanced_ensemble.ensemble.over_sampling.OverBoostClassifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">OverBoostClassifier</span></code></a>(**kwargs)</p></td>
+<td><p>Random over-sampling integrated in the learning of AdaBoost.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.SMOTEBoostClassifier.html#imbalanced_ensemble.ensemble.over_sampling.SMOTEBoostClassifier" title="imbalanced_ensemble.ensemble.over_sampling.SMOTEBoostClassifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SMOTEBoostClassifier</span></code></a>(**kwargs)</p></td>
+<td><p>SMOTE over-sampling integrated in the learning of AdaBoost.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.KmeansSMOTEBoostClassifier.html#imbalanced_ensemble.ensemble.over_sampling.KmeansSMOTEBoostClassifier" title="imbalanced_ensemble.ensemble.over_sampling.KmeansSMOTEBoostClassifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">KmeansSMOTEBoostClassifier</span></code></a>(**kwargs)</p></td>
+<td><p>Kmeans-SMOTE over-sampling integrated in the learning of AdaBoost.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.OverBaggingClassifier.html#imbalanced_ensemble.ensemble.over_sampling.OverBaggingClassifier" title="imbalanced_ensemble.ensemble.over_sampling.OverBaggingClassifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">OverBaggingClassifier</span></code></a>(**kwargs)</p></td>
+<td><p>A Bagging classifier with intergrated random over-sampling.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.SMOTEBaggingClassifier.html#imbalanced_ensemble.ensemble.over_sampling.SMOTEBaggingClassifier" title="imbalanced_ensemble.ensemble.over_sampling.SMOTEBaggingClassifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SMOTEBaggingClassifier</span></code></a>(**kwargs)</p></td>
+<td><p>A Bagging classifier with intergrated SMOTE over-sampling.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="_autosummary/imbalanced_ensemble.ensemble.over_sampling.OverBoostClassifier.html" class="btn btn-neutral float-right" title="OverBoostClassifier" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="_autosummary/imbalanced_ensemble.ensemble.under_sampling.UnderBaggingClassifier.html" class="btn btn-neutral float-left" title="UnderBaggingClassifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Zhining Liu.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
