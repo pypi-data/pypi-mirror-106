@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+include/parser.c
+include/tree_sitter/parser.h
+tree_sitter_jinja2/__init__.py
+tree_sitter_jinja2.egg-info/PKG-INFO
+tree_sitter_jinja2.egg-info/SOURCES.txt
+tree_sitter_jinja2.egg-info/dependency_links.txt
+tree_sitter_jinja2.egg-info/not-zip-safe
+tree_sitter_jinja2.egg-info/requires.txt
+tree_sitter_jinja2.egg-info/top_level.txt
