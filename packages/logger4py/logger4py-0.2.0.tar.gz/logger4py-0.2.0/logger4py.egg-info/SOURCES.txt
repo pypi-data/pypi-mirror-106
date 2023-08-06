@@ -1,0 +1,7 @@
+setup.py
+logger4py/__init__.py
+logger4py.egg-info/PKG-INFO
+logger4py.egg-info/SOURCES.txt
+logger4py.egg-info/dependency_links.txt
+logger4py.egg-info/requires.txt
+logger4py.egg-info/top_level.txt
