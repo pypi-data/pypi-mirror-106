@@ -1,0 +1,9 @@
+rotten_tomatoes_scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rotten_tomatoes_scraper/rt_scraper.py,sha256=zrqeh6nxgMwFkfgRDsFs7qpC1EPqWhoJgs4AofMo5OA,7632
+rotten_tomatoes_scraper/test_scraper.py,sha256=6Kv5L0YE3w22l1a8fujZX0Z1SVw_aQU-xRond1nPIsA,4792
+rotten_tomatoes_scraper-1.3.2.dist-info/LICENSE,sha256=bGvztFvDWlDuetvrSCzSyESt6BbPMCf8kzxFLRC9vd0,1069
+rotten_tomatoes_scraper-1.3.2.dist-info/METADATA,sha256=KzzL8jB2c0BXq9IygXNUZ8Hqdv0VvOGe_6x710iY2xY,3541
+rotten_tomatoes_scraper-1.3.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+rotten_tomatoes_scraper-1.3.2.dist-info/entry_points.txt,sha256=ljGuxs0m9A6uIm8b2MyxRgqIKf-BsljyQcumyC5WGGQ,66
+rotten_tomatoes_scraper-1.3.2.dist-info/top_level.txt,sha256=cnydDYaUUds6UyJLXP-Hm7YmYPMfa1hwCCyAFwkMHc4,24
+rotten_tomatoes_scraper-1.3.2.dist-info/RECORD,,
