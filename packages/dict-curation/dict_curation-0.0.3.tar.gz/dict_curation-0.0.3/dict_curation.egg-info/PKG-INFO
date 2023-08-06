@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dict-curation
+Version: 0.0.3
+Summary: A package for curating dictionaries (esp in babylon and stardict formats).
+Home-page: https://github.com/sanskrit-coders/dict_curation
+Author: Sanskrit programmers
+Author-email: sanskrit-programmers@googlegroups.com
+License: MIT
+Description: UNKNOWN
+Keywords: documents books internet-archive
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: test
