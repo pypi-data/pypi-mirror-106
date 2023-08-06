@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+src/sniffer/_version.py
+src/sniffer_positivedegree.egg-info/PKG-INFO
+src/sniffer_positivedegree.egg-info/SOURCES.txt
+src/sniffer_positivedegree.egg-info/dependency_links.txt
+src/sniffer_positivedegree.egg-info/requires.txt
+src/sniffer_positivedegree.egg-info/top_level.txt
