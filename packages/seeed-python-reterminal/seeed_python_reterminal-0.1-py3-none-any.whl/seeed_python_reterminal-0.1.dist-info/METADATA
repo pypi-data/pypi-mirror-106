@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: seeed-python-reterminal
+Version: 0.1
+Summary: seeed-python-reterminal
+Home-page: https://github.com/Seeed-Studio/Seeed_Python_ReTerminal
+Author: Takashi Matsuoka (matsujirushi)
+Author-email: matsujirushi@live.jp
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: evdev
+
+UNKNOWN
+
+
