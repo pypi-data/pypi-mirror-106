@@ -1,0 +1,8 @@
+recommender_pkg/__init__.py,sha256=NTbVuMXd2xnKtwXSlfXU2JujS9emZkkw-FRvt44-Nf4,52
+recommender_pkg/metrics.py,sha256=Ws5Y8GOLCYntrtV7ri2P0WZ2wbuh3yHsMpg-TgmL0Zs,1026
+recommender_pkg/model_selection.py,sha256=5e2BatPecBdYetgor1GYsugCwxnwfgbyc19aLQHV8s8,1919
+recommender_pkg-0.0.1.dist-info/LICENSE,sha256=QgcOuBYkLfHTu53H9sOpNVqJWwrEVo5PySXQDxqFgwo,1068
+recommender_pkg-0.0.1.dist-info/METADATA,sha256=g25J_MvBwrvfpdTzZbtVzI9IeNdYYyK8JwFndEWceVc,245
+recommender_pkg-0.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+recommender_pkg-0.0.1.dist-info/top_level.txt,sha256=_56XXBzD8fRxn6YqRefjtbkGGAqmVDCo4djvLIsCAa0,16
+recommender_pkg-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: recommender-pkg
+Version: 0.0.1
+Summary: A small recommender package
+Home-page: UNKNOWN
+Author: Mian Uddin
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
