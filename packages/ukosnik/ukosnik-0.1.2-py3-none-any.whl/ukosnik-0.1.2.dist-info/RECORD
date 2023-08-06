@@ -1,0 +1,11 @@
+ukosnik/__init__.py,sha256=otyJwoAYLRxQgtnmBxHsyjvd40FnkGDvkAQDWDnElE0,70
+ukosnik/__main__.py,sha256=Xj2buYHwzCEFevkqgs3eOhtWk_I6tHEJJPqMTn5nzbQ,6471
+ukosnik/docent.py,sha256=4xhvjiVWgKMrZ2SaCtknb5TMZuKMYsigbnVkDbuq9LI,2572
+ukosnik/document.py,sha256=qejtgHLLO14RbT4rr5wygFGeElF8fkAQpdte8H7DJ84,7969
+ukosnik/http.py,sha256=mtUO9ZRCNpaaptic5dCmk3DpXkrhtUAAP-dQhVCRyz4,2778
+ukosnik-0.1.2.dist-info/LICENSE,sha256=s726MLGI9n2XxDVGSwK51poJyX5yzsqvY7jwC9fj1rY,1073
+ukosnik-0.1.2.dist-info/METADATA,sha256=zM7pkCBEtix5sRvq7qk8DYtilh6cgk_HYlcUAaxbJjU,2767
+ukosnik-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ukosnik-0.1.2.dist-info/entry_points.txt,sha256=zX6_hh30PXAyqLMeaWA5yivx1n8L1oIKumdPwQortuY,46
+ukosnik-0.1.2.dist-info/top_level.txt,sha256=_JpErFhf3zT8vcJR7AYZd2QHzVnayt_Dyp2SSOYlbi8,8
+ukosnik-0.1.2.dist-info/RECORD,,
