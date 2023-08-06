@@ -1,0 +1,11 @@
+README.md
+setup.py
+insightspy/PortalSession.py
+insightspy/__init__.py
+insightspy/__version__.py
+insightspy/utils.py
+insightspy.egg-info/PKG-INFO
+insightspy.egg-info/SOURCES.txt
+insightspy.egg-info/dependency_links.txt
+insightspy.egg-info/requires.txt
+insightspy.egg-info/top_level.txt
