@@ -1,0 +1,6 @@
+bibtexparser
+requests
+tqdm
+pandas
+titlecase
+orgparse
