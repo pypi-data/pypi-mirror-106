@@ -1,0 +1,9 @@
+setup.py
+bufcrypt/__init__.py
+bufcrypt/bufio.py
+bufcrypt/cipher.py
+bufcrypt.egg-info/PKG-INFO
+bufcrypt.egg-info/SOURCES.txt
+bufcrypt.egg-info/dependency_links.txt
+bufcrypt.egg-info/requires.txt
+bufcrypt.egg-info/top_level.txt
