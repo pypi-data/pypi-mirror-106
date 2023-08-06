@@ -1,0 +1,3 @@
+[console_scripts]
+autograder = WSUAutograder._utils:autograder
+

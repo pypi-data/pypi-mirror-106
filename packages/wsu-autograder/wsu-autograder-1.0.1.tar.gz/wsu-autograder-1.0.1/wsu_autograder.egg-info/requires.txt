@@ -1,0 +1,4 @@
+binaryornot
+lark-parser
+Pygments
+tqdm
