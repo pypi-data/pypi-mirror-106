@@ -1,0 +1,10 @@
+mantarray_file_manager/__init__.py,sha256=3aoj-u3N8Mq49848xmosaFIC97RCgp49JALU8aFZMmM,5868
+mantarray_file_manager/constants.py,sha256=J-nxXEIqvdjTBaAwPUnkS9MyvS4M6hoT61peaREqYQE,7742
+mantarray_file_manager/exceptions.py,sha256=n2N2nlE3SQTeFSrsF7RSn4yDXyU1usts4Mfxk5UxB64,3846
+mantarray_file_manager/file_writer.py,sha256=jNHVpb46m23B34GtAJurzEJ-YOzeuv-n3EBVB2TbLfQ,13437
+mantarray_file_manager/files.py,sha256=Tob_mNZB3UZgyys1WLezOXp4R3IMri_RRo8v5BkRKAU,21373
+mantarray_file_manager-0.5.1.dist-info/LICENSE,sha256=dRvw8RqoD0To6-52uMxrdIxe6mgSUiLVSaENxvdHY8M,1065
+mantarray_file_manager-0.5.1.dist-info/METADATA,sha256=K10m5k8SLOWIDTZAs4WyJROZmRzPl0CwMTNkKYQlqg8,953
+mantarray_file_manager-0.5.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+mantarray_file_manager-0.5.1.dist-info/top_level.txt,sha256=mwTCDXIa_CX0WFiM7wr7GbBBjsb_cfKG9MBtaVYiqME,23
+mantarray_file_manager-0.5.1.dist-info/RECORD,,
