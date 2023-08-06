@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: makersign
+Version: 0.1
+Summary: The funniest joke in the world
+Home-page: https://github.com/stauntonmakerspace/StauntonMakerSign
+Author: Nile Walker
+Author-email: nilezwalker@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pygame
+Requires-Dist: pyserial
+
+UNKNOWN
+
+
