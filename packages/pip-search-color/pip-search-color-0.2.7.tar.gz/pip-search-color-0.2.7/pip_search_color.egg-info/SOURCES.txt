@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+docs/Screen Shot 2021-05-13 at 1.30.32 PM.png
+docs/Screen Shot 2021-05-13 at 12.47.48 PM.png
+docs/Screen Shot 2021-05-13 at 12.50.13 PM.png
+docs/screenshot.png
+pip_search/__init__.py
+pip_search/__main__.py
+pip_search/pip_search.py
+pip_search_color.egg-info/PKG-INFO
+pip_search_color.egg-info/SOURCES.txt
+pip_search_color.egg-info/dependency_links.txt
+pip_search_color.egg-info/entry_points.txt
+pip_search_color.egg-info/requires.txt
+pip_search_color.egg-info/top_level.txt
