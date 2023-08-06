@@ -1,0 +1,10 @@
+-r requirements.txt
+# This is an inverse index for extra (optional) requirements.
+# Each optional package must be followed by a comment with a comma-separated list
+# of tags it belongs to, like spark, nlp, etc.
+# This tags can the be used to specify partial dependencies like contrib[nlp,spark]
+# an additional tag 'all' is generated which includes every listed package in this file.
+# https://hanxiao.io/2019/11/07/A-Better-Practice-for-Managing-extras-require-Dependencies-in-Python/
+
+module_A==2.7.0 # module_A
+module_B==1.6.0 # module_B
